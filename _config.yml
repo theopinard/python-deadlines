@@ -3,7 +3,7 @@ description: Countdowns to your favourite Python conferences
 author: Jesper Dramsch
 
 domain: "pythondeadlin.es"
-baseurl: "https://jesperdramsch.github.io/python-deadlines"
+baseurl: "https://jesperdramsch.github.io/python-deadlines/"
 
 twitter_username: jesperdramsch
 twitter_hashtag: python
