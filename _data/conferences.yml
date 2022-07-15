@@ -15,7 +15,7 @@
 - title: euroSciPy
   year: 2022
   id: scipyEU22
-  link: https://2022.djangocon.eu/
+  link: https://euroscipy.org/2022/
   place: Basel, Switzerland
   cfp: '2022-06-13 23:59:59'
   date: Aug 29 – Sep 2, 2022
@@ -24,3 +24,14 @@
   timezone: GMT+0
   sub: Scipy
 
+- title: euroSciPy
+  year: 2019
+  id: scipyEU19
+  link: https://euroscipy.org/2020/
+  place: Bilbao, Spain
+  cfp: '2019-04-28 23:59:59'
+  date: September 2-6, 2019
+  start: 2019-09-02
+  end: 2019-09-06
+  timezone: CEST
+  sub: Scipy

@@ -132,10 +132,16 @@
           </div>
           {% endfor %}
         </div>
+        <div id="past_cfps">
+          <h1 id="past-cfps-title">Past Calls for Participation</h1>
+          <div id="cfp-sort-order-checkbox">
+                <label for="cfp-sort-order"><input type="checkbox" id="cfp-sort-order" name="cfp-sort-order" checked>Most recent first</label>
+            </div>
+        </div>
         <div id="past_confs">
           <h1 id="past-events-title">Past Events</h1>
-          <div id="sort-order-checkbox">
-                <label for="sort-order"><input type="checkbox" id="sort-order" name="sort-order" checked>Most recent first</label>
+          <div id="conf-sort-order-checkbox">
+                <label for="conf-sort-order"><input type="checkbox" id="conf-sort-order" name="conf-sort-order" checked>Most recent first</label>
             </div>
         </div>
       </div>
@@ -176,22 +182,23 @@
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var confDate = moment.tz("{{conf.cfp}}", timezone);
+          var cfpDate = moment.tz("{{conf.cfp}}", timezone);
+          var confDate = moment.tz("{{conf.start}}", timezone);
 
           // render countdown timer
-          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
+          $('#{{conf.id}} .timer').countdown(cfpDate.toDate(), function (event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
           // render countdown timer small
-          $('#{{conf.id}} .timer-small').countdown(confDate.toDate(), function (event) {
+          $('#{{conf.id}} .timer-small').countdown(cfpDate.toDate(), function (event) {
               $(this).html(event.strftime('%Dd %H:%M:%S'));
           });
 
           // convert deadline to local timezone
           try {
-            var localConfDate = moment.tz(confDate, local_timezone);
-            $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
+            var localcfpDate = moment.tz(cfpDate, local_timezone);
+            $('#{{conf.id}} .deadline-time').html(localcfpDate.toString());
           }
           catch(err) {
             console.log("Error converting to local timezone.");
@@ -201,18 +208,29 @@
           var myCalendar = createCalendarFromObject({
             id:  '{{conf.id}}',
             title: '{{conf.title}} {{conf.year}} deadline',
-            date: confDate.toDate(),
+            date: cfpDate.toDate(),
             duration: 60,
           })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          diff = today.diff(confDate);
+          cfpDiff = today.diff(cfpDate);
+          confDiff = today.diff(confDate);
 
-          $('#{{conf.id}}').attr("diff", diff)
-          if (diff > 0) {
-            $('#{{conf.id}}').addClass('past');
+          $('#{{conf.id}}').attr("cfpDiff", cfpDiff)
+          $('#{{conf.id}}').attr("confDiff", confDiff)
+
+          if (cfpDiff > 0) {
+            $('#{{conf.id}}').addClass('pastcfp');
+            $('#{{conf.id}}').appendTo($("#past_cfps"))
+            $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
+            $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
+            $('#{{conf.id}} .calendar').remove();
+          }
+          
+          if (confDiff > 0) {
+            $('#{{conf.id}}').addClass('pastconf');
             $('#{{conf.id}}').appendTo($("#past_confs"))
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
@@ -226,14 +244,26 @@
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
-        $("#sort-order-checkbox input").on("click", function() {
-          if ($("#sort-order-checkbox input").is(":checked")) {
+        $("#cfp-sort-order-checkbox input").on("click", function() {
+          if ($("#cfp-sort-order-checkbox input").is(":checked")) {
+            $("#past_cpfs .ConfItem").sort(function (a, b) {
+              return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
+            }).appendTo($("#past_confs"));
+          } else {
+            $("#past_cpfs .ConfItem").sort(function (a, b) {
+              return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
+            }).appendTo($("#past_cpfs"));
+          }
+        });
+
+        $("#conf-sort-order-checkbox input").on("click", function() {
+          if ($("#conf-sort-order-checkbox input").is(":checked")) {
             $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(a).attr('diff') - $(b).attr('diff');
+              return $(a).attr('confDiff') - $(b).attr('confDiff');
             }).appendTo($("#past_confs"));
           } else {
             $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(b).attr('diff') - $(a).attr('diff');
+              return $(b).attr('confDiff') - $(a).attr('confDiff');
             }).appendTo($("#past_confs"));
           }
         });
