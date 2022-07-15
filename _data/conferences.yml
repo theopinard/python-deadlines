@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon US
+  year: 2022
+  id: pyconUS22
+  link: https://us.pycon.org/2022/
+  place: Salt Lake City, US
+  cfp: '2021-12-20 23:59:00'
+  date: April 27 – May 3, 2022
+  start: 2022-04-27
+  end: 2022-05-03
+  timezone: AoE
+  sub: PY
+
 - title: Kiwi PyCon XI
   year: 2022
   id: pyconNZ22
