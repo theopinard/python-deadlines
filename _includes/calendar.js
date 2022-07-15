@@ -95,8 +95,8 @@ function load_conference_list() {
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
-      startDate: Date.parse("{{conf.deadline}}"),
-      endDate: Date.parse("{{conf.deadline}}"),
+      startDate: Date.parse("{{conf.cfp}}"),
+      endDate: Date.parse("{{conf.cfp}}"),
     });
 
     // add Conferences in chosen color

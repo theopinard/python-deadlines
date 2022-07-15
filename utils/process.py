@@ -101,7 +101,7 @@ with open("../_data/conferences.yml", 'r') as stream:
         data = yaml.load(stream, Loader=Loader)
         print("Initial Sorting:")
         for q in data:
-            print(q["deadline"], " - ", q["title"])
+            print(q["cfp"], " - ", q["title"])
         print("\n\n")
         conf = [x for x in data if x['cfp'].lower() not in tba_words]
         tba = [x for x in data if x['cfp'].lower() in tba_words]
