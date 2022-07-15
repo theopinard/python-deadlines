@@ -14,6 +14,10 @@ function addUtcTimeZones() {
   }
 }
 
+function addAOETimeZone() {
+  moment.tz.link("Etc/GMT+12|AoE");
+}
+
 function update_filtering(data) {
   var page_url = "{{site.baseurl}}";
   store.set("{{site.domain}}-subs", data.subs);

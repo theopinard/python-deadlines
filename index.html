@@ -163,7 +163,7 @@
         {% include multiselect_handler.js %}
 
         addUtcTimeZones();
-
+        addAOETimeZone();
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
           $('.local-timezone').text(local_timezone.toString());
