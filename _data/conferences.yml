@@ -1,5 +1,17 @@
 ---
 
+- title: SciPy US
+  year: 2022
+  id: scipyUS22
+  link: https://conference.scipy.org/
+  place: Austin, Texas, United States
+  cfp: '2022-02-22 23:59:00'
+  date: July 11 – 17, 2022
+  start: 2022-07-11
+  end: 2022-07-17
+  timezone: PDT0
+  sub: SCIPY
+
 - title: PyCon UK
   year: 2022
   id: pyconUK22
