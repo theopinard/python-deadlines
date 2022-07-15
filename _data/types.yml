@@ -1,9 +1,12 @@
----
 - name: General Python
   sub: Py
+  color: "#4B8BBE"
 - name: Scientific Python
   sub: Scipy
+  color: "#deff0a"
 - name: Python for Data
   sub: Pydata
+  color: "#0aefff"
 - name: Python for Web
   sub: Web
+  color: "#580aff"

@@ -1,5 +1,4 @@
 title: Python Conference Deadlines # (Maintained by @jesperdramsch)
-email: jesper@dramsch.net
 description: Countdowns to your favourite Python conferences
 author: Jesper Dramsch
 
@@ -12,4 +11,6 @@ github_username: jesperdramsch
 github_repo: python-deadlines
 
 markdown: kramdown
-ga_id: UA-36274081-2
+ga_id:
+
+include: ['_pages']
