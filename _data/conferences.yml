@@ -168,9 +168,9 @@
   timezone: GMT+2
   sub: PY
 
-- title: PyCon Colombia 2022
+- title: PyCon Colombia
   year: 2022
-  id: pyconcolombia202222
+  id: pyconcolombia2022
   link: https://2022.pycon.co/
   place: Online
   cfp: 2022-04-30 23:59:59
@@ -180,9 +180,9 @@
   timezone: GMT-5
   sub: PY
 
-- title: PyCon Israel 2022
+- title: PyCon Israel
   year: 2022
-  id: pyconisrael202222
+  id: pyconisrael2022
   link: https://pycon.org.il/2022/
   place: Ramat-Gan, Israel
   cfp: 2022-04-30 23:59:59
@@ -192,9 +192,9 @@
   timezone: GMT+3
   sub: PY
 
-- title: PyCon SK 2022
+- title: PyCon SK
   year: 2022
-  id: pyconsk202222
+  id: pyconsk2022
   link: https://2022.pycon.sk/en/
   place: Bratislava, Slovakia
   cfp: 2022-06-30 23:59:59
@@ -206,7 +206,7 @@
 
 - title: PyCon Kenya Conference
   year: 2022
-  id: pyconkenyaconference202222
+  id: pyconkenyaconference2022
   link: https://www.pyconke.org/
   place: Nairobi, Kenia
   cfp: 2022-04-15 23:59:59
@@ -218,7 +218,7 @@
 
 - title: PyCon Japan
   year: 2022
-  id: pyconjp202222
+  id: pyconjp2022
   link: https://2022.pycon.jp/
   place: Tokyo, Japan
   cfp: 2022-06-12 23:59:59
@@ -228,9 +228,9 @@
   timezone: AoE
   sub: PY
 
-- title: GeoPython 2022
+- title: GeoPython
   year: 2022
-  id: geopython202222
+  id: geopython2022
   link: https://2022.geopython.net/
   place: Basel, Switzerland & Online
   cfp: 2022-02-28 12:00:00
@@ -240,9 +240,9 @@
   timezone: AoE
   sub: PY
 
-- title: PyCon APAC 2022
+- title: PyCon APAC
   year: 2022
-  id: pyconapac202222
+  id: pyconapac2022
   link: https://tw.pycon.org/
   place: Taiwan
   cfp: 2022-04-15 23:59:59
@@ -252,9 +252,9 @@
   timezone: AoE
   sub: PY
 
-- title: PyCon LT 2022
+- title: PyCon LT
   year: 2022
-  id: pyconlt202222
+  id: pyconlt2022
   link: http://pycon.lt/
   place: Vilnius, Lithuania
   cfp: 2022-05-07 23:59
@@ -264,9 +264,9 @@
   timezone: Europe/Vilnius
   sub: PY
 
-- title: PyCon Iran 2022
+- title: PyCon Iran
   year: 2022
-  id: pyconiran202222
+  id: pyconiran2022
   link: https://ir.pycon.org/?lang=en
   place: 
   cfp: 2022-02-04 23:59:59
@@ -276,9 +276,9 @@
   timezone: UTC+0
   sub: PY
 
-- title: PyCon Portugal 2022
+- title: PyCon Portugal
   year: 2022
-  id: pyconportugal202222
+  id: pyconportugal2022
   link: https://2022.pycon.pt/
   place: Porto, Portugal
   cfp: 2022-06-30 23:59:00
@@ -288,7 +288,7 @@
   timezone: UTC+0
   sub: PY
 
-- title: PyCon DE & PyData Berlin 2022
+- title: PyCon DE & PyData Berlin
   year: 2022
   id: pyconde2022
   link: https://2022.pycon.de/
@@ -300,7 +300,7 @@
   timezone: Europe/Berlin
   sub: PY
 
-- title: Python Web Conference 2022
+- title: Python Web Conference
   year: 2022
   id: pythonwebconference2022
   link: https://2022.pythonwebconf.com/
@@ -324,9 +324,9 @@
   timezone: UTC+0
   sub: WEB
 
-- title: PyCascades Remote 2020
+- title: PyCascades Remote
   year: 2022
-  id: pycascadesremote202022
+  id: pycascadesremote2022
   link: https://2022.pycascades.com/
   place: Online
   cfp: 2021-10-24 23:59:59
@@ -336,9 +336,9 @@
   timezone: AoE
   sub: PY
 
-- title: PyCon Italy 22
+- title: PyCon Italy
   year: 2022
-  id: pyconitaly2222
+  id: pyconitaly22
   link: https://pycon.it/en
   place: Florence, Italy
   cfp: 2022-01-16 23:59:59
@@ -348,9 +348,9 @@
   timezone: AoE
   sub: PY
 
-- title: EuroPython 2022
+- title: EuroPython
   year: 2022
-  id: europython202222
+  id: europython2022
   link: https://www.europython.eu/
   place: Dublin, Ireland
   cfp: 2022-04-03 23:59:59
