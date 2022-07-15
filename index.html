@@ -176,7 +176,7 @@
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
-        {% if conf.cfp.upper() == "TBA" %}
+        {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
         {% else %}
