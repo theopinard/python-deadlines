@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon ZA
+  year: 2022
+  id: pyconZA22
+  link: https://za.pycon.org/
+  place: Durban, South Africa
+  cfp: '2022-08-19 23:59:00'
+  date: October 13 – 14, 2022
+  start: 2022-10-13
+  end: 2022-10-14
+  timezone: AoE
+  sub: PY
+
 - title: SciPy US
   year: 2022
   id: scipyUS22
