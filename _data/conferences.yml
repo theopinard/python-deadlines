@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon US 2023
+  year: 2023
+  id: pyconus23
+  link: https://us.pycon.org/2023/
+  place: Salt Lake City, Utah, USA
+  cfp: TBD
+  date: April 19 – 28, 2023
+  start: 2023-04-19
+  end: 2023-04-28
+  timezone: AoE
+  sub: PY
+
 - title: Pydata Global
   year: 2022
   id: pydataGlobal22
@@ -107,3 +119,243 @@
   end: 2019-09-06
   timezone: CEST
   sub: SCIPY
+
+- title: Python at Scale
+  year: 2022
+  id: pythonatscale22
+  link: https://www.pythonatscale.com/
+  place: Texas, USA and Online
+  cfp: 2022-08-01 23:59:59
+  date: October 27 – 29, 2022
+  start: 2022-10-27
+  end: 2022-10-29
+  timezone: UTC+0
+  sub: PY
+
+- title: PyConEs
+  year: 2022
+  id: pycones22
+  link: https://2022.es.pycon.org/
+  place: Granada, Spain
+  cfp: 2022-05-31 23:59:59
+  date: September 30 – 03, 2022
+  start: 2022-09-30
+  end: 2022-10-03
+  timezone: CEST
+  sub: PY
+
+- title: PyCon Sweden
+  year: 2022
+  id: pyconsweden22
+  link: http://www.pycon.se
+  place: Stockholm, Sweden
+  cfp: 2022-09-11 23:59:59
+  date: November 03 – 05, 2022
+  start: 2022-11-03
+  end: 2022-11-05
+  timezone: CEST
+  sub: PY
+
+- title: PyCon Estonia
+  year: 2022
+  id: pyconestonia22
+  link: https://pycon.ee/
+  place: Tallinn University, Narva mnt 25, 10120 Tallinn, Estonia
+  cfp: 2022-04-01 23:59:59
+  date: August 25 – 26, 2022
+  start: 2022-08-25
+  end: 2022-08-26
+  timezone: GMT+2
+  sub: PY
+
+- title: PyCon Colombia 2022
+  year: 2022
+  id: pyconcolombia202222
+  link: https://2022.pycon.co/
+  place: Online
+  cfp: 2022-04-30 23:59:59
+  date: July 09 – 11, 2022
+  start: 2022-07-09
+  end: 2022-07-11
+  timezone: GMT-5
+  sub: PY
+
+- title: PyCon Israel 2022
+  year: 2022
+  id: pyconisrael202222
+  link: https://pycon.org.il/2022/
+  place: Ramat-Gan, Israel
+  cfp: 2022-04-30 23:59:59
+  date: June 28 – 30, 2022
+  start: 2022-06-28
+  end: 2022-06-30
+  timezone: GMT+3
+  sub: PY
+
+- title: PyCon SK 2022
+  year: 2022
+  id: pyconsk202222
+  link: https://2022.pycon.sk/en/
+  place: Bratislava, Slovakia
+  cfp: 2022-06-30 23:59:59
+  date: September 09 – 12, 2022
+  start: 2022-09-09
+  end: 2022-09-12
+  timezone: GMT+2
+  sub: PY
+
+- title: PyCon Kenya Conference
+  year: 2022
+  id: pyconkenyaconference202222
+  link: https://www.pyconke.org/
+  place: Nairobi, Kenia
+  cfp: 2022-04-15 23:59:59
+  date: May 06 – 08, 2022
+  start: 2022-05-06
+  end: 2022-05-08
+  timezone: UTC+3
+  sub: PY
+
+- title: PyCon Japan
+  year: 2022
+  id: pyconjp202222
+  link: https://2022.pycon.jp/
+  place: Tokyo, Japan
+  cfp: 2022-06-12 23:59:59
+  date: October 14 – 17, 2022
+  start: 2022-10-14
+  end: 2022-10-17
+  timezone: AoE
+  sub: PY
+
+- title: GeoPython 2022
+  year: 2022
+  id: geopython202222
+  link: https://2022.geopython.net/
+  place: Basel, Switzerland & Online
+  cfp: 2022-02-28 12:00:00
+  date: June 20 – 23, 2022
+  start: 2022-06-20
+  end: 2022-06-23
+  timezone: AoE
+  sub: PY
+
+- title: PyCon APAC 2022
+  year: 2022
+  id: pyconapac202222
+  link: https://tw.pycon.org/
+  place: Taiwan
+  cfp: 2022-04-15 23:59:59
+  date: September 03 – 05, 2022
+  start: 2022-09-03
+  end: 2022-09-05
+  timezone: AoE
+  sub: PY
+
+- title: PyCon LT 2022
+  year: 2022
+  id: pyconlt202222
+  link: http://pycon.lt/
+  place: Vilnius, Lithuania
+  cfp: 2022-05-07 23:59
+  date: May 26 – 28, 2022
+  start: 2022-05-26
+  end: 2022-05-28
+  timezone: Europe/Vilnius
+  sub: PY
+
+- title: PyCon Iran 2022
+  year: 2022
+  id: pyconiran202222
+  link: https://ir.pycon.org/?lang=en
+  place: 
+  cfp: 2022-02-04 23:59:59
+  date: February 16 – 19, 2022
+  start: 2022-02-16
+  end: 2022-02-19
+  timezone: UTC+0
+  sub: PY
+
+- title: PyCon Portugal 2022
+  year: 2022
+  id: pyconportugal202222
+  link: https://2022.pycon.pt/
+  place: Porto, Portugal
+  cfp: 2022-06-30 23:59:00
+  date: September 24 – 25, 2022
+  start: 2022-09-24
+  end: 2022-09-25
+  timezone: UTC+0
+  sub: PY
+
+- title: PyCon DE & PyData Berlin 2022
+  year: 2022
+  id: pyconde2022
+  link: https://2022.pycon.de/
+  place: Berlin
+  cfp: 2022-01-16 23:59:59
+  date: April 11 – 14, 2022
+  start: 2022-04-11
+  end: 2022-04-14
+  timezone: Europe/Berlin
+  sub: PY
+
+- title: Python Web Conference 2022
+  year: 2022
+  id: pythonwebconference2022
+  link: https://2022.pythonwebconf.com/
+  place: Online
+  cfp: 2022-11-01 23:59:59
+  date: March 21 – 26, 2022
+  start: 2022-03-21
+  end: 2022-03-26
+  timezone: UTC+0
+  sub: WEB
+
+- title: Python Web Conference
+  year: 2023
+  id: pythonwebconference2023
+  link: https://pythonwebconference.com/
+  place: Online
+  cfp: 2022-10-01 23:00:00
+  date: March 13 – 17, 2023
+  start: 2023-03-13
+  end: 2023-03-17
+  timezone: UTC+0
+  sub: WEB
+
+- title: PyCascades Remote 2020
+  year: 2022
+  id: pycascadesremote202022
+  link: https://2022.pycascades.com/
+  place: Online
+  cfp: 2021-10-24 23:59:59
+  date: February 05 – 07, 2022
+  start: 2022-02-05
+  end: 2022-02-07
+  timezone: AoE
+  sub: PY
+
+- title: PyCon Italy 22
+  year: 2022
+  id: pyconitaly2222
+  link: https://pycon.it/en
+  place: Florence, Italy
+  cfp: 2022-01-16 23:59:59
+  date: June 02 – 06, 2022
+  start: 2022-06-02
+  end: 2022-06-06
+  timezone: AoE
+  sub: PY
+
+- title: EuroPython 2022
+  year: 2022
+  id: europython202222
+  link: https://www.europython.eu/
+  place: Dublin, Ireland
+  cfp: 2022-04-03 23:59:59
+  date: July 11 – 18, 2022
+  start: 2022-07-11
+  end: 2022-07-18
+  timezone: AoE
+  sub: PY
