@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon UK
+  year: 2022
+  id: pyconUK22
+  link: https://2022.pyconuk.org/
+  place: Cardiff, United Kingdom
+  cfp: '2022-07-02 16:59:59'
+  date: September 16 – 18, 2022
+  start: 2022-09-16
+  end: 2022-09-18
+  timezone: Europe/London
+  sub: PY
+
 - title: PyCon US
   year: 2022
   id: pyconUS22
