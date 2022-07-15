@@ -250,7 +250,7 @@
           if ($("#cfp-sort-order-checkbox input").is(":checked")) {
             $("#past_cpfs .ConfItem").sort(function (a, b) {
               return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
-            }).appendTo($("#past_confs"));
+            }).appendTo($("#past_cfps"));
           } else {
             $("#past_cpfs .ConfItem").sort(function (a, b) {
               return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
