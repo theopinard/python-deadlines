@@ -10,7 +10,7 @@
   start: 2022-12-12
   end: 2022-12-14
   timezone: GMT+0
-  sub: Web
+  sub: WEB
 
 - title: euroSciPy
   year: 2022
@@ -22,7 +22,7 @@
   start: 2022-08-29
   end: 2022-09-02
   timezone: GMT+0
-  sub: Scipy
+  sub: SCIPY
 
 - title: euroSciPy
   year: 2019
@@ -34,4 +34,4 @@
   start: 2019-09-02
   end: 2019-09-06
   timezone: CEST
-  sub: Scipy
+  sub: SCIPY
