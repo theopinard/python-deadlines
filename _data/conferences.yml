@@ -9,7 +9,7 @@
   date: September 21-25 2022
   start: 2022-12-12
   end: 2022-12-14
-  timezone: UTC+0
+  timezone: GMT+0
   sub: Web
 
 - title: euroSciPy
@@ -21,6 +21,6 @@
   date: Aug 29 – Sep 2, 2022
   start: 2022-08-29
   end: 2022-09-02
-  timezone: UTC+0
+  timezone: GMT+0
   sub: Scipy
 
