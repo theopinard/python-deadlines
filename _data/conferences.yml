@@ -1,5 +1,17 @@
 ---
 
+- title: Pydata Global
+  year: 2022
+  id: pydataGlobal22
+  link: https://pydata.org/global2022/
+  place: Online
+  cfp: '2022-09-12 23:59:00'
+  date: December 1 – 3, 2022
+  start: 2022-12-01
+  end: 2022-12-03
+  timezone: AoE
+  sub: PYDATA
+
 - title: PyCon ZA
   year: 2022
   id: pyconZA22
