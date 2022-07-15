@@ -176,12 +176,10 @@
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
-        {% for tdb_word in ["TBD", "TBA"] %}
-        {% if conf.cfp.upper() == tdb_word %}
-          $('#{{conf.id}} .timer').html(tdb_word);
-          $('#{{conf.id}} .deadline-time').html(tdb_word);
+        {% if conf.cfp.upper() == "TBA" %}
+          $('#{{conf.id}} .timer').html("TBA");
+          $('#{{conf.id}} .deadline-time').html("TBA");
         {% else %}
-        {% endfor %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var cfpDate = moment.tz("{{conf.cfp}}", timezone);
