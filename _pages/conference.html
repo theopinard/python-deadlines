@@ -134,14 +134,14 @@ permalink:  /conference/
               {% if conf.full_name %}
                 $('#conf-full-name').text("{{conf.full_name}}");
               {% endif %}
-              {% if conf.deadline == "TBA" %}
+              {% if conf.cfp == "TBA" %}
                 $('#conf-timer').html("TBA");
                 $('.deadline-time').html("TBA");
                 $('.deadline-local-time').html("TBA");
               {% else %}
                 // adjust date according to deadline timezone
                 var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-                var confDeadline = moment.tz("{{conf.deadline}}", timezone);
+                var confDeadline = moment.tz("{{conf.cfp}}", timezone);
 
                 // add calendar 
                 var conferenceDeadlineCalendar = createCalendarFromObject({
