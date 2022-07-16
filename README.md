@@ -15,18 +15,20 @@ To add or update a deadline:
 - Example:
     ```yaml
     - title: BestConf
-      year: 2022
-      id: bestconf22  # title as lower case + last two digits of year
-      full_name: Best Conference for Anything  # full conference name
-      link: link-to-website.com
-      cfp: YYYY-MM-DD HH:SS
-      timezone: Asia/Seoul
-      place: Incheon, South Korea
-      date: September, 18-22, 2022
-      start: YYYY-MM-DD
-      end: YYYY-MM-DD
-      sub: SP
-      note: Important
+      year: bestConf22                         # unique ID can be anything within reason
+      id: bestconf22                           # title as lower case + last two digits of year
+      full_name: Best Conference for Anything  # Full conference name (Optional)
+      link: link-to-website.com                # URL to conference
+      cfp: YYYY-MM-DD HH:SS                    # Deadline for Call for Participation / Proposals
+      workshop_deadline: YYYY-MM-DD HH:SS      # Workshop deadline if different from cfp (Optional)
+      tutorial_deadline: YYYY-MM-DD HH:SS      # Tutorial deadline if different from cfp (Optional)
+      timezone: Asia/Seoul                     # Standard Timezones
+      place: Incheon, South Korea              # City, Country
+      date: September, 18-22, 2022             # Nicely written dates of conference
+      start: YYYY-MM-DD                        # Start date of conference for calendar
+      end: YYYY-MM-DD                          # Start date of conference for calendar
+      sub: PY                                  # Type of conference (see or add _data/types.yml)
+      note: Important                          # In case there are extra notes about the conference (Optional)
     ```
 - Send a pull request
 
