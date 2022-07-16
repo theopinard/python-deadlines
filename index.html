@@ -156,7 +156,7 @@
 
         addUtcTimeZones();
         addAOETimeZone();
-        
+
         try {
           var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
           $('.local-timezone').text(local_timezone.toString());
@@ -273,7 +273,6 @@
         });
 
     });
-    {% include google_analytics.js %}
     </script>
   </body>
 </html>
