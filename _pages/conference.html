@@ -114,7 +114,11 @@ permalink:  /conference/
               // other
               $('#conf-date').text("{{conf.date}}");
               $('#conf-place').text("{{conf.place}}");
+              {% if conf.place == "Online" %}
+              $('#conf-place').attr('href', "#")
+              {% else %}
               $('#conf-place').attr('href', "https://maps.google.com/?q={{conf.place}}")
+              {% endif %}
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
               {% if conf.paperslink %}
