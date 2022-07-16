@@ -1,5 +1,19 @@
 ---
 
+- title: Pytest 
+  year: 2022
+  id: pytest220
+  link: https://pytest.org/
+  place: Online
+  cfp: '2022-09-12 23:59:00'
+  workshop_deadline: 2022-10-20 01:35:00
+  tutorial_deadline: 2022-08-12 13:59:00
+  date: December 1 – 3, 2022
+  start: 2022-12-01
+  end: 2022-12-03
+  timezone: AoE
+  sub: PYDATA
+
 - title: PyCon US
   year: 2023
   id: pyconus23

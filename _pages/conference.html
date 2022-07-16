@@ -60,6 +60,36 @@ permalink:  /conference/
                 <span class="deadline-local-time"></span>
               </div>
           </div>
+          {% if conf.workshop_deadline %}
+          <div class="meta deadline col-12 col-md-6">
+            Deadline for workshops in timezone from conference website:
+          </div>
+          <div class="meta col-sm-12 col-md-6">
+            <span class="workshop-deadline-time"></span>
+          </div>
+              <div class="meta col-sm-12 col-md-6">
+                Deadline for workshops in your local <span class="local-timezone">America/New_York</span> timezone:
+              </div>
+              <div class="local-timezone-hide meta col-sm-12 col-md-6">
+                <span class="workshop-deadline-local-time"></span>
+              </div>
+          </div>
+          {% endif %}
+          {% if conf.tutorial_deadline %}
+          <div class="meta deadline col-12 col-md-6">
+            Deadline for tutorials in timezone from conference website:
+          </div>
+          <div class="meta col-sm-12 col-md-6">
+            <span class="tutorial-deadline-time"></span>
+          </div>
+              <div class="meta col-sm-12 col-md-6">
+                Deadline for tutorials in your local <span class="local-timezone">America/New_York</span> timezone:
+              </div>
+              <div class="local-timezone-hide meta col-sm-12 col-md-6">
+                <span class="tutorial-deadline-local-time"></span>
+              </div>
+          </div>
+          {% endif %}
         <div id="conf-deadline-timer" class="row">
           <div id="cfp-timer" class="col-12 conf-timer">
           </div>
@@ -148,6 +178,35 @@ permalink:  /conference/
                 catch(err) {
                   console.log("Error converting to local timezone.");
                 }
+
+                {% if conf.workshop_deadline %}
+                var workshopDeadline = moment.tz("{{conf.workshop_deadline}}", timezone);
+                $('.workshop-deadline-time').html(workshopDeadline.toString());
+
+                // convert deadline to local timezone
+                try {
+                  var localWorkshopDeadline = moment.tz(workshopDeadline, local_timezone);
+                  $('.workshop-deadline-local-time').html(localWorkshopDeadline.toString());
+                }
+                catch(err) {
+                  console.log("Error workshop converting to local timezone.");
+                }
+                {% endif %}
+
+                {% if conf.tutorial_deadline %}
+                var tutorialDeadline = moment.tz("{{conf.tutorial_deadline}}", timezone);
+                $('.tutorial-deadline-time').html(tutorialDeadline.toString());
+
+                // convert deadline to local timezone
+                try {
+                  var localTutorialDeadline = moment.tz(tutorialDeadline, local_timezone);
+                  $('.tutorial-deadline-local-time').html(localTutorialDeadline.toString());
+                }
+                catch(err) {
+                  console.log("Error workshop converting to local timezone.");
+                }
+                {% endif %}
+
               {% endif %}
             }
         {% endfor %}
