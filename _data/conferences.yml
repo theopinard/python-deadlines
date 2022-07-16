@@ -93,7 +93,7 @@
   date: September 21-25 2022
   start: 2022-12-12
   end: 2022-12-14
-  timezone: GMT+0
+  timezone: Etc/GMT+0
   sub: WEB
 
 - title: euroSciPy
@@ -105,7 +105,7 @@
   date: Aug 29 – Sep 2, 2022
   start: 2022-08-29
   end: 2022-09-02
-  timezone: GMT+0
+  timezone: Etc/GMT+0
   sub: SCIPY
 
 - title: euroSciPy
@@ -165,7 +165,7 @@
   date: August 25 – 26, 2022
   start: 2022-08-25
   end: 2022-08-26
-  timezone: GMT+2
+  timezone: Etc/GMT+2
   sub: PY
 
 - title: PyCon Colombia
@@ -177,7 +177,7 @@
   date: July 09 – 11, 2022
   start: 2022-07-09
   end: 2022-07-11
-  timezone: GMT-5
+  timezone: Etc/GMT-5
   sub: PY
 
 - title: PyCon Israel
@@ -189,7 +189,7 @@
   date: June 28 – 30, 2022
   start: 2022-06-28
   end: 2022-06-30
-  timezone: GMT+3
+  timezone: Etc/GMT+3
   sub: PY
 
 - title: PyCon SK
@@ -201,7 +201,7 @@
   date: September 09 – 12, 2022
   start: 2022-09-09
   end: 2022-09-12
-  timezone: GMT+2
+  timezone: Etc/GMT+2
   sub: PY
 
 - title: PyCon Kenya Conference
