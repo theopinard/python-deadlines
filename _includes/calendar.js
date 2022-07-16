@@ -25,9 +25,6 @@
                 var sub = subs[i].replace(" ", "");
                 badges_html += '<span class="conf-sub conf-badge-small">' + sub + '</span>'
               }
-              if (e.events[i].hindex != "") {
-                badges_html += '<span class="conf-h5 conf-badge-small">' + e.events[i].hindex + '</span>'
-              }
 
               if (i == e.events.length - 1) {
                 break_html = '';
@@ -93,7 +90,6 @@ function load_conference_list() {
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
-      hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
       startDate: Date.parse("{{conf.cfp}}"),
       endDate: Date.parse("{{conf.cfp}}"),
@@ -115,7 +111,6 @@ function load_conference_list() {
         color: color,
         location: "{{conf.place}}",
         date: "{{conf.date}}",
-        hindex: "{{conf.hindex}}",
         subject: "{{conf.sub}}",
         startDate: Date.parse("{{conf.start}}"),
         endDate: Date.parse("{{conf.end}}"),

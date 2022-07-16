@@ -150,7 +150,7 @@ footer {
   display: none;
 }
 
-#conf-timer {
+.conf-timer {
   font-size: 72px;
   color: #444;
   margin-top: 40px;
@@ -229,10 +229,6 @@ footer {
   fill: currentColor;
 }
 
-.pwc-icon {
-  color: #1198b2;
-}
-
 .twitter-github-icons {
   line-height: 16px;
 }
@@ -255,7 +251,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  #conf-timer {
+  .conf-timer {
     font-size: 64px;
   }
   .calendar {
@@ -267,7 +263,7 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
-  #conf-timer {
+  .conf-timer {
     font-size: 36px;
   }
   .conf-place {
@@ -299,7 +295,7 @@ footer {
 }
 
 @media only screen and (max-width: 375px) {
-  #conf-timer {
+  .conf-timer {
     font-size: 28px;
   }
 }
