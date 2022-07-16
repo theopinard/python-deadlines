@@ -197,6 +197,7 @@ permalink:  /conference/
                 {% endif %}
 
                 {% if conf.tutorial_deadline != "" %}
+                console.log({{conf.tutorial_deadline}});
                 var tutorialDeadline = moment.tz("{{conf.tutorial_deadline}}", timezone);
                 $('.tutorial-deadline-time').html(tutorialDeadline.toString());
 
