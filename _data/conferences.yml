@@ -45,7 +45,7 @@
   date: July 11 – 17, 2022
   start: 2022-07-11
   end: 2022-07-17
-  timezone: PDT
+  timezone: US
   sub: SCIPY
 
 - title: PyCon UK
@@ -117,7 +117,7 @@
   date: September 2-6, 2019
   start: 2019-09-02
   end: 2019-09-06
-  timezone: CEST
+  timezone: GMT+2
   sub: SCIPY
 
 - title: Python at Scale
@@ -141,7 +141,7 @@
   date: September 30 – 03, 2022
   start: 2022-09-30
   end: 2022-10-03
-  timezone: CEST
+  timezone: GMT+2
   sub: PY
 
 - title: PyCon Sweden
@@ -153,7 +153,7 @@
   date: November 03 – 05, 2022
   start: 2022-11-03
   end: 2022-11-05
-  timezone: CEST
+  timezone: GMT+2
   sub: PY
 
 - title: PyCon Estonia
