@@ -145,10 +145,10 @@ permalink:  /conference/
                 });
 
                 // render deadline conference time
-                $('.deadline-time').html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATE_HUGE));
+                $('.deadline-time').html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
 
                 // render deadline in local timezone
-                $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+                $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
 
               {% endif %}
             }
