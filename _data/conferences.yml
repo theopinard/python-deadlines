@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon Brasil
+  year: 2022
+  id: pyconBR22
+  link: https://2022.pythonbrasil.org.br/
+  place: Manaus, Brasil
+  cfp: 2022-07-03 23:59:00
+  date: October 17 – 23, 2022
+  start: 2022-10-17
+  end: 2022-10-23
+  timezone: GMT-3
+  sub: PY
+
 - title: Pydata Yerevan
   year: 2022
   id: pydataYerevan22
