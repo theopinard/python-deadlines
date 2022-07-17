@@ -117,11 +117,17 @@ permalink:  /conference/
                 $('.deadline-local-time').html("TBA");
               {% else %}
 
-                // adjust date according to deadline timezone
-                var confDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+                // Use specified timezone for deadlines if available else use AoE timezone
+                {% if conf.timezone %}
+                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+                {% else %}
+                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
+                {% endif %}
                 
-                if (confDate.invalid) {
-                  var confDate = DateTime.fromSQL("{{conf.cfp}}");
+                // check if timezone is valid otherwise replace by system timezone
+                if (confDeadline.invalid) {
+                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}");
+                  console.log("Invalid timezone. Using system timezone instead.");
                 }
 
                 // add calendar 
