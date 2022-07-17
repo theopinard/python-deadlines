@@ -42,4 +42,7 @@ $("#subject-select").multiselect({
   buttonTitle: function (options, select) {
     return "";
   },
+  optionClass: function(element) {
+    return $(element).val() + '-select';
+  },
 });

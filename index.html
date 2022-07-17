@@ -63,7 +63,8 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          {% assign subs = conf.sub | split: "," %}
+          <div id="{{conf.id}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
