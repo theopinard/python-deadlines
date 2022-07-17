@@ -118,14 +118,7 @@ permalink:  /conference/
               {% else %}
 
                 // Use specified timezone for deadlines if available else use AoE timezone
-                {% if conf.timezone %}
-                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
-                {% else %}
-                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
-                {% endif %}
-
-                
-
+                var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone | default: UTC-12 }}"});
                 
                 // check if timezone is valid otherwise replace by system timezone
                 if (confDeadline.invalid) {
@@ -148,7 +141,7 @@ permalink:  /conference/
                 });
 
                 // render deadline conference time
-                $('.deadline-time').html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+                $('.deadline-time').html(confDeadline.setZone("{{conf.timezone | default: UTC-12 }}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
 
                 // render deadline in local timezone
                 $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));

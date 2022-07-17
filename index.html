@@ -108,15 +108,18 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
-                <div class="calendar"></div>
+                
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-6">
                 {% assign subs = conf.sub | split: "," %}
                 {% for sub in subs %}
                 <span title="Click to only show {{sub | strip}} conferences" data-sub="{{sub | strip}}" class="badge badge-light conf-sub {{sub | strip}}-tag"></span>
                 {% endfor %}
+              </div>
+              <div class="col-6">
+                <div class="calendar"></div>
               </div>
             </div>
             <hr>
@@ -168,17 +171,12 @@
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
-          $('#{{conf.id}}').attr("cfpDiff", 0);
+          $('#{{conf.id}}').attr("cfpDiff", 100000);
         {% else %}
           
           // Use specified timezone for deadlines if available else use AoE timezone
-          {% if conf.timezone %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
-          {% else %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
-          {% endif %}
+          var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone | default: UTC-12 }}"});
+          var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone | default: UTC-12 }}"});
           
           // check if timezone is valid otherwise replace by system timezone
           if (cfpDate.invalid || confDate.invalid) {
@@ -218,8 +216,8 @@
           cfpDiff = today.diff(cfpDate);
           confDiff = today.diff(confDate);
 
-          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds);
-          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds);
+          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.hours);
+          $('#{{conf.id}}').attr("confDiff", confDiff.hours);
 
           if (cfpDiff > 0) {
             $('#{{conf.id}}').addClass('pastcfp');
