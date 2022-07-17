@@ -168,7 +168,7 @@
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
-          $('#{{conf.id}}').attr("cfpDiff", -1);
+          $('#{{conf.id}}').attr("cfpDiff", 0);
         {% else %}
           
           // Use specified timezone for deadlines if available else use AoE timezone
@@ -207,7 +207,7 @@
             title: '{{conf.title}} {{conf.year}} deadline',
             date: cfpDate.toJSDate(),
             duration: 60,
-          })
+          });
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
           } catch(err) {
             document.querySelector('#{{conf.id}} .calendar').appendChild("<p>Calendar not available.</p>");
@@ -218,12 +218,12 @@
           cfpDiff = today.diff(cfpDate);
           confDiff = today.diff(confDate);
 
-          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds)
-          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds)
+          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds);
+          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds);
 
           if (cfpDiff > 0) {
             $('#{{conf.id}}').addClass('pastcfp');
-            $('#{{conf.id}}').appendTo($("#past_cfps"))
+            $('#{{conf.id}}').appendTo($("#past_cfps"));
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .calendar').remove();
@@ -231,7 +231,7 @@
           
           if (confDiff > 0) {
             $('#{{conf.id}}').addClass('pastconf');
-            $('#{{conf.id}}').appendTo($("#past_confs"))
+            $('#{{conf.id}}').appendTo($("#past_confs"));
             $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
             $('#{{conf.id}} .calendar').remove();
