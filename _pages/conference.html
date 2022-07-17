@@ -53,7 +53,7 @@ permalink:  /conference/
             <span class="deadline-time"></span>
           </div>
           <div class="meta col-sm-12 col-md-6">
-            Deadline in your local <span class="local-timezone">America/New_York</span> timezone:
+            Deadline in your local <span class="local-timezone"></span> timezone:
           </div>
           <div class="local-timezone-hide meta col-sm-12 col-md-6">
             <span class="deadline-local-time"></span>
@@ -74,19 +74,13 @@ permalink:  /conference/
         var url = new URL(window.location);
         var conf = url.searchParams.get('id');
 
+        var DateTime = luxon.DateTime;
+        var today = DateTime.now();
+
         {% include load_data.js %}
         {% include utils.js %}
 
-        addUtcTimeZones();
-        addAOETimeZone();
-
-        try {
-          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          $('.local-timezone').text(local_timezone.toString());
-        }
-        catch(err) {
-          $('.local-timezone-hide').hide();
-        }
+        $('.local-timezone').text(today.toFormat('z'));
 
         {% for conf in site.data.conferences %}
             if (conf == "{{ conf.id }}") {
@@ -117,38 +111,39 @@ permalink:  /conference/
               {% if conf.full_name %}
                 $('#conf-full-name').text("{{conf.full_name}}");
               {% endif %}
-              var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
               {% if conf.cfp == "TBA" %}
                 $('#cfp-timer').html("TBA");
                 $('.deadline-time').html("TBA");
                 $('.deadline-local-time').html("TBA");
               {% else %}
+
                 // adjust date according to deadline timezone
-                var confDeadline = moment.tz("{{conf.cfp}}", timezone);
+                var confDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+                
+                if (confDate.invalid) {
+                  var confDate = DateTime.fromSQL("{{conf.cfp}}");
+                }
 
                 // add calendar 
                 var conferenceDeadlineCalendar = createCalendarFromObject({
                   id:  '{{conf.id}}',
                   title: '{{conf.title}} {{conf.year}} deadline',
-                  date: confDeadline.toDate(),
+                  date: confDeadline.toJSDate(),
                   duration: 60,
                 })
                 document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
 
                 // render countdown timer
-                $('#cfp-timer').countdown(confDeadline.toDate(), function(event) {
+                $('#cfp-timer').countdown(confDeadline.toJSDate(), function(event) {
                   $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
                 });
-                $('.deadline-time').html(confDeadline.toString());
 
-                // convert deadline to local timezone
-                try {
-                  var localConfDeadline = moment.tz(confDeadline, local_timezone);
-                  $('.deadline-local-time').html(localConfDeadline.toString());
-                }
-                catch(err) {
-                  console.log("Error converting to local timezone.");
-                }
+                // render deadline conference time
+                $('.deadline-time'.html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATE_HUGE));
+
+                // render deadline in local timezone
+                $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+
               {% endif %}
             }
         {% endfor %}

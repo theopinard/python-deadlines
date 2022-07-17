@@ -52,7 +52,7 @@
             <div class="row">
               <div class="meta col-12">
                 <span class="local-timezone-hide">
-                  Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
+                  Deadlines are shown in <span class="local-timezone">your local</span> time.
                   To view them in conference website timezones, click on the conference.
                 </span>
               </div>
@@ -144,65 +144,68 @@
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
-        // Make sure this is >= no. of subs
-        // Currently not used
-        var colors = ['#341f97', '#ee5253', '#2e86de',
-                      '#ff9f43', '#10ac84', '#222f3e']
 
-        
-        {% include load_data.js %}
-        {% include utils.js %}
-        {% include multiselect_handler.js %}
+      var DateTime = luxon.DateTime;
+      var today = DateTime.now();
+      
+      // Make sure this is >= no. of subs
+      // Currently not used
+      var colors = ['#341f97', '#ee5253', '#2e86de',
+                    '#ff9f43', '#10ac84', '#222f3e']
 
-        addUtcTimeZones();
-        addAOETimeZone();
+      
+      {% include load_data.js %}
+      {% include utils.js %}
+      {% include multiselect_handler.js %}
 
-        try {
-          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          $('.local-timezone').text(local_timezone.toString());
-        }
-        catch(err) {
-          $('.local-timezone-hide').hide();
-        }
-
-        {% for conf in site.data.conferences %}
+      // Set time zone to local timezone on web copy
+      $('.local-timezone').text(today.toFormat('z'));
+      
+      {% for conf in site.data.conferences %}
         {% for sub in conf.sub %}
-        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+          $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
+          $('#{{conf.id}}').attr("cfpDiff", -1);
         {% else %}
-          // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var cfpDate = moment.tz("{{conf.cfp}}", timezone);
-          var confDate = moment.tz("{{conf.start}}", timezone);
+          
+          // Use specified timezone for deadlines if available else use AoE timezone
+          {% if conf.timezone}
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
+          {% else %}
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
+          {% endif %}
+          
+          // check if timezone is valid otherwise replace by system timezone
+          if (cfpDate.invalid || confDate.invalid) {
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}");
+            var confDate = DateTime.fromSQL("{{conf.start}}");
+            console.log("Invalid timezone in {{conf.id}}. Using system timezone instead.");
+          }
 
           // render countdown timer
-          $('#{{conf.id}} .timer').countdown(cfpDate.toDate(), function (event) {
+          $('#{{conf.id}} .timer').countdown(cfpDate.toJSDate(), function (event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
           // render countdown timer small
-          $('#{{conf.id}} .timer-small').countdown(cfpDate.toDate(), function (event) {
+          $('#{{conf.id}} .timer-small').countdown(cfpDate.toJSDate(), function (event) {
               $(this).html(event.strftime('%Dd %H:%M:%S'));
           });
 
-          // convert deadline to local timezone
-          try {
-            var localcfpDate = moment.tz(cfpDate, local_timezone);
-            $('#{{conf.id}} .deadline-time').html(localcfpDate.toString());
-          }
-          catch(err) {
-            console.log("Error converting to local timezone.");
-          }
+          // deadline in local timezone
+          $('#{{conf.id}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
 
           // add calendar button
           try {
           var myCalendar = createCalendarFromObject({
             id:  '{{conf.id}}',
             title: '{{conf.title}} {{conf.year}} deadline',
-            date: cfpDate.toDate(),
+            date: cfpDate.toJSDate(),
             duration: 60,
           })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
@@ -212,12 +215,11 @@
           }
 
           // check if date has passed, add 'past' class to it
-          var today = moment();
           cfpDiff = today.diff(cfpDate);
           confDiff = today.diff(confDate);
 
-          $('#{{conf.id}}').attr("cfpDiff", cfpDiff)
-          $('#{{conf.id}}').attr("confDiff", confDiff)
+          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds)
+          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds)
 
           if (cfpDiff > 0) {
             $('#{{conf.id}}').addClass('pastcfp');
@@ -235,47 +237,47 @@
             $('#{{conf.id}} .calendar').remove();
           }
         {% endif %}
-        {% endfor %}
+      {% endfor %}
 
-        // Sort coming_confs and past_confs
-        $("#coming_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
-        }).appendTo($("#coming_confs"));
+      // Sort coming_confs and past_confs
+      $("#coming_confs .ConfItem").sort(function (a, b) {
+        return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
+      }).appendTo($("#coming_confs"));
 
-        $("#cfp-sort-order-checkbox input").on("click", function() {
-          if ($("#cfp-sort-order-checkbox input").is(":checked")) {
-            $("#past_cpfs .ConfItem").sort(function (a, b) {
-              return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
-            }).appendTo($("#past_cfps"));
-          } else {
-            $("#past_cpfs .ConfItem").sort(function (a, b) {
-              return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
-            }).appendTo($("#past_cpfs"));
-          }
-        });
+      $("#cfp-sort-order-checkbox input").on("click", function() {
+        if ($("#cfp-sort-order-checkbox input").is(":checked")) {
+          $("#past_cpfs .ConfItem").sort(function (a, b) {
+            return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
+          }).appendTo($("#past_cfps"));
+        } else {
+          $("#past_cpfs .ConfItem").sort(function (a, b) {
+            return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
+          }).appendTo($("#past_cpfs"));
+        }
+      });
 
-        $("#conf-sort-order-checkbox input").on("click", function() {
-          if ($("#conf-sort-order-checkbox input").is(":checked")) {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(a).attr('confDiff') - $(b).attr('confDiff');
-            }).appendTo($("#past_confs"));
-          } else {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(b).attr('confDiff') - $(a).attr('confDiff');
-            }).appendTo($("#past_confs"));
-          }
-        });
+      $("#conf-sort-order-checkbox input").on("click", function() {
+        if ($("#conf-sort-order-checkbox input").is(":checked")) {
+          $("#past_confs .ConfItem").sort(function (a, b) {
+            return $(a).attr('confDiff') - $(b).attr('confDiff');
+          }).appendTo($("#past_confs"));
+        } else {
+          $("#past_confs .ConfItem").sort(function (a, b) {
+            return $(b).attr('confDiff') - $(a).attr('confDiff');
+          }).appendTo($("#past_confs"));
+        }
+      });
 
-        {% include handle_url_retrieval.js %}
+      {% include handle_url_retrieval.js %}
 
-        // Event handler on sub badge click
-        $('.conf-sub').click(function (e) {
-            var csub = $(this).data('sub');
-            subs = [csub];
-            $("#subject-select").multiselect('deselect', all_subs);
-            $("#subject-select").multiselect('select', subs);
-            update_filtering({ subs: subs, all_subs: all_subs});
-        });
+      // Event handler on sub badge click
+      $('.conf-sub').click(function (e) {
+          var csub = $(this).data('sub');
+          subs = [csub];
+          $("#subject-select").multiselect('deselect', all_subs);
+          $("#subject-select").multiselect('select', subs);
+          update_filtering({ subs: subs, all_subs: all_subs});
+      });
 
     });
     </script>
