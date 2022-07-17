@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon Ireland
+  year: 2022
+  id: pyconIE22
+  link: https://python.ie/pycon-2022/
+  place: Dublin, Ireland
+  cfp: 2022-08-29 23:59:00
+  date: November 12 – 13, 2022
+  start: 2022-11-12
+  end: 2022-11-13
+  timezone: UTC+0
+  sub: PY
+
 - title: PyCon US
   year: 2023
   id: pyconus23
