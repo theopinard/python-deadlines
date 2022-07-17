@@ -1,5 +1,17 @@
 ---
 
+- title: PyCon Poland
+  year: 2022
+  id: pyconPL22
+  link: https://pl.pycon.org/2022
+  place: Gliwice, Poland
+  cfp: 2022-08-13 23:59:00
+  date: November 3 – 6, 2022
+  start: 2022-11-03
+  end: 2022-11-06
+  timezone: GMT+2
+  sub: PY
+
 - title: PyCon Korea
   year: 2022
   id: pyconKR22
