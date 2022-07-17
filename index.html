@@ -173,11 +173,11 @@
           
           // Use specified timezone for deadlines if available else use AoE timezone
           {% if conf.timezone %}
-            var cfpDate = DateTime.fromFormat("{{conf.cfp}} {{conf.timezone}}", "yyyy-MM-dd HH:mm:ss z");
-            var confDate = DateTime.fromFormat("{{conf.start}} {{conf.timezone}}", "yyyy-MM-dd z");
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
           {% else %}
-            var cfpDate = DateTime.fromFormat("{{conf.cfp}} -12", "yyyy-MM-dd HH:mm:ss Z");
-            var confDate = DateTime.fromFormat("{{conf.start}} -12", "yyyy-MM-dd Z");
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
           {% endif %}
           
           // check if timezone is valid otherwise replace by system timezone
