@@ -63,7 +63,7 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub | split: "," %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
@@ -112,7 +112,8 @@
             </div>
             <div class="row">
               <div class="col-12">
-                {% for sub in conf.sub | split: "," %}
+                {% assign subs = conf.sub | split: "," %}
+                {% for sub in subs %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="badge badge-light conf-sub {{sub}}-tag"></span>
                 {% endfor %}
               </div>
@@ -159,7 +160,8 @@
       $('.local-timezone').text(today.toFormat('z'));
       
       {% for conf in site.data.conferences %}
-        {% for sub in conf.sub | split: "," %}
+        {% assign subs = conf.sub | split: "," %}
+        {% for sub in subs %}
           $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
         {% if conf.cfp == "TBA" %}
