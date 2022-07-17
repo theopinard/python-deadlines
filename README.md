@@ -14,15 +14,15 @@ To add or update a deadline:
 - Optionally add a `note`
 - Example:
     ```yaml
-    - title: BestConf
-      year: bestConf22                         # unique ID can be anything within reason
+    - title: BestConf                          # Title of conference without year
+      year: 2022                               # Year
       id: bestconf22                           # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # Full conference name (Optional)
       link: link-to-website.com                # URL to conference
-      cfp: YYYY-MM-DD HH:SS                    # Deadline for Call for Participation / Proposals
-      workshop_deadline: YYYY-MM-DD HH:SS      # Workshop deadline if different from cfp (Optional)
-      tutorial_deadline: YYYY-MM-DD HH:SS      # Tutorial deadline if different from cfp (Optional)
-      timezone: Asia/Seoul                     # Standard Timezones
+      cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
+      workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
+      tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
+      timezone: Asia/Seoul                     # Standard IANA Timezones
       place: Incheon, South Korea              # City, Country
       date: September, 18-22, 2022             # Nicely written dates of conference
       start: YYYY-MM-DD                        # Start date of conference for calendar
