@@ -21,8 +21,8 @@ permalink:  /conference/
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12">
-            <span id="badge badge-light conf-subs" title="Conference subjects"></span>
+          <div class="col-sm-12" id="conf-subs">
+            <span id="conf-subs" title="Conference subjects"></span>
           </div>
         </div>
       </div>
@@ -90,9 +90,9 @@ permalink:  /conference/
               // set badges
               var subs = '{{conf.sub}}'.split(',');
               for (let i = 0; i < subs.length; i++) {
-                var sub = subs[i].replace(" ", "");
+                var sub = subs[i].trim();
                 var sub_element = document.createElement('span');
-                sub_element.className = "conf-sub conf-" + sub;
+                sub_element.className = sub+"-tag badge badge-light conf-sub conf-" + sub;
                 sub_element.textContent = sub2name[sub];
                 $('#conf-subs').append(sub_element);
               }
