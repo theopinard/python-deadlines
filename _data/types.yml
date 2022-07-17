@@ -3,10 +3,10 @@
   color: "#4B8BBE"
 - name: Scientific Python
   sub: SCIPY
-  color: "#deff0a"
+  color: "#FD151B"
 - name: Python for Data
   sub: PYDATA
-  color: "#0aefff"
+  color: "#849324"
 - name: Python for Web
   sub: WEB
-  color: "#580aff"
+  color: "#0D0A0B"
