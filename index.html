@@ -113,7 +113,7 @@
             <div class="row">
               <div class="col-12">
                 {% assign subs = conf.sub | split: "," %}
-                {% for sub in subs %}
+                {% for sub in subs | strip %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="badge badge-light conf-sub {{sub}}-tag"></span>
                 {% endfor %}
               </div>
@@ -161,7 +161,7 @@
       
       {% for conf in site.data.conferences %}
         {% assign subs = conf.sub | split: "," %}
-        {% for sub in subs %}
+        {% for sub in subs | strip %}
           $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
         {% if conf.cfp == "TBA" %}
