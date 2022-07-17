@@ -139,7 +139,7 @@ permalink:  /conference/
                 });
 
                 // render deadline conference time
-                $('.deadline-time'.html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATE_HUGE));
+                $('.deadline-time').html(confDeadline.setZone("{{conf.timezone}}").toLocaleString(DateTime.DATE_HUGE));
 
                 // render deadline in local timezone
                 $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATE_HUGE));
