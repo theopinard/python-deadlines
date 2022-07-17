@@ -3,7 +3,7 @@
   color: "#4B8BBE"
 - name: Scientific Python
   sub: SCIPY
-  color: "#120309"
+  color: "#70163C"
 - name: Python for Data
   sub: PYDATA
   color: "#849324"
