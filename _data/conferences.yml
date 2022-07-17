@@ -108,6 +108,19 @@
   timezone: US
   sub: SCIPY
 
+
+- title: Scipy India
+  year: 2021
+  id: pyconIN21
+  link: https://scipy.in/2021
+  place: Online
+  cfp: 2022-01-07 23:59:00
+  date: January 21 - 22, 2022
+  start: 2022-01-21
+  end: 2022-01-22
+  timezone: GMT+5
+  sub: SCIPY
+
 - title: PyCon UK
   year: 2022
   id: pyconUK22
