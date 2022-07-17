@@ -113,8 +113,8 @@
             <div class="row">
               <div class="col-12">
                 {% assign subs = conf.sub | split: "," %}
-                {% for sub in subs | strip %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="badge badge-light conf-sub {{sub}}-tag"></span>
+                {% for sub in subs %}
+                <span title="Click to only show {{sub | strip}} conferences" data-sub="{{sub | strip}}" class="badge badge-light conf-sub {{sub | strip}}-tag"></span>
                 {% endfor %}
               </div>
             </div>
@@ -161,8 +161,8 @@
       
       {% for conf in site.data.conferences %}
         {% assign subs = conf.sub | split: "," %}
-        {% for sub in subs | strip %}
-          $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        {% for sub in subs %}
+          $('#{{conf.id}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");

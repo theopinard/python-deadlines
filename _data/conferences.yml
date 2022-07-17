@@ -364,7 +364,7 @@
   start: 2022-04-11
   end: 2022-04-14
   timezone: Europe/Berlin
-  sub: PY, PYDATA
+  sub: PY,PYDATA
 
 - title: Python Web Conference
   year: 2022
