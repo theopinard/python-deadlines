@@ -119,9 +119,9 @@ permalink:  /conference/
 
                 // Use specified timezone for deadlines if available else use AoE timezone
                 {% if conf.timezone %}
-                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+                  var confDeadline = DateTime.fromFormat("{{conf.cfp}} {{conf.timezone}}", "yyyy-MM-dd HH:mm:ss z"});
                 {% else %}
-                  var confDeadline = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
+                  var confDeadline = DateTime.fromFormat("{{conf.cfp}} -12", "yyyy-MM-dd HH:mm:ss Z");
                 {% endif %}
                 
                 // check if timezone is valid otherwise replace by system timezone
