@@ -15,14 +15,14 @@
 
 <style>
 {% for type in site.data.types %}
-.{{ type.id }}-tag {
-  color: {{ type.color }} !important;
+.{{ type.sub }}-tag {
+  color: {{ type.color }};
 }
-#{{ type.id }}-checkbox {
+.{{ type.sub }}-checkbox {
   color: {{ type.color }};
   background: white;
 }
-#{{ type.id }}-checkbox.active {
+.{{ type.sub }}-checkbox.active {
     color: white;
     background: {{ type.color }};
 }

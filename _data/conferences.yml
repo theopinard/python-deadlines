@@ -358,13 +358,13 @@
   year: 2022
   id: pyconde2022
   link: https://2022.pycon.de/
-  place: Berlin
+  place: Berlin, Germany
   cfp: 2022-01-16 23:59:59
   date: April 11 – 14, 2022
   start: 2022-04-11
   end: 2022-04-14
   timezone: Europe/Berlin
-  sub: PY
+  sub: PY, PYDATA
 
 - title: Python Web Conference
   year: 2022
