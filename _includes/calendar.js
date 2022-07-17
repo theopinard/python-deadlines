@@ -86,7 +86,7 @@ function load_conference_list() {
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
       abbreviation: "{{conf.id}}",
-      name: "{{conf.title}} {{conf.year}}",
+      name: "{{conf.title}} {{conf.year}} CfP",
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
@@ -94,6 +94,32 @@ function load_conference_list() {
       startDate: Date.parse("{{conf.cfp}}"),
       endDate: Date.parse("{{conf.cfp}}"),
     });
+    {% if conf.workshop_deadline %}
+    conf_list_all.push({
+      id: "{{conf.id}}-deadline",
+      abbreviation: "{{conf.id}}",
+      name: "{{conf.title}} {{conf.year}} Workshop Deadline",
+      color: "red",
+      location: "{{conf.place}}",
+      date: "{{conf.date}}",
+      subject: "{{conf.sub}}",
+      startDate: Date.parse("{{conf.workshop_deadline}}"),
+      endDate: Date.parse("{{conf.workshop_deadline}}"),
+    });
+    {% endif %}
+    {% if conf.tutorial_deadline %}
+    conf_list_all.push({
+      id: "{{conf.id}}-deadline",
+      abbreviation: "{{conf.id}}",
+      name: "{{conf.title}} {{conf.year}} Tutorial Deadline",
+      color: "red",
+      location: "{{conf.place}}",
+      date: "{{conf.date}}",
+      subject: "{{conf.sub}}",
+      startDate: Date.parse("{{conf.cfp}}"),
+      endDate: Date.parse("{{conf.cfp}}"),
+    });
+    {% endif %}
 
     // add Conferences in chosen color
     {% if conf.start != "" %}
