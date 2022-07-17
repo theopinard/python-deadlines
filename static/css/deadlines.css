@@ -162,27 +162,11 @@ footer {
 }
 
 .conf-sub {
-  color: rgb(36, 101, 191);
-  background: rgba(236, 240, 241, 0.7);
-  font-size: 13px;
-  padding: 3px 5px;
-  margin-right: 8px;
   cursor: pointer;
-  font-weight: 300;
 }
 
 .conf-sub::selection {
   background: #0097e6;
-}
-
-.checkbox input[type="checkbox"]:checked:after {
-  background-color: #0097e6;
-  border-color: #0097e6;
-}
-
-.checkbox input[type="checkbox"]:after,
-.checkbox input[type="checkbox"]:focus:after {
-  border-color: #0097e6;
 }
 
 #conf-sort-order-checkbox, 

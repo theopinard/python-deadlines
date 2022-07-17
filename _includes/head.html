@@ -13,6 +13,23 @@
 
 <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
 
+<style>
+{% for type in site.data.types %}
+.{{ type.id }}-tag {
+  color: {{ type.color }} !important;
+}
+#{{ type.id }}-checkbox {
+  color: {{ type.color }};
+  background: white;
+}
+#{{ type.id }}-checkbox.active {
+    color: white;
+    background: {{ type.color }};
+}
+
+{% endfor %}
+  </style>
+
 {% include google_analytics.js %}
 
 <script type="text/javascript" src="{{ "/static/js/js-year-calendar.js" | prepend:site.baseurl }}"></script>
