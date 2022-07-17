@@ -198,6 +198,7 @@
           }
 
           // add calendar button
+          try {
           var myCalendar = createCalendarFromObject({
             id:  '{{conf.id}}',
             title: '{{conf.title}} {{conf.year}} deadline',
@@ -205,6 +206,10 @@
             duration: 60,
           })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+          } catch(err) {
+            document.querySelector('#{{conf.id}} .calendar').appendChild("<p>Calendar not available.</p>");
+            console.log("Error in cfp date.");
+          }
 
           // check if date has passed, add 'past' class to it
           var today = moment();
