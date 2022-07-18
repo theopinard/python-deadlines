@@ -171,7 +171,7 @@
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
-          $('#{{conf.id}}').attr("cfpDiff", 100000);
+          $('#{{conf.id}}').attr("cfpDiff", 0);
         {% else %}
           
           // Use specified timezone for deadlines if available else use AoE timezone
@@ -221,8 +221,8 @@
           cfpDiff = today.diff(cfpDate);
           confDiff = today.diff(confDate);
 
-          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.hours);
-          $('#{{conf.id}}').attr("confDiff", confDiff.hours);
+          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds);
+          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds);
 
           if (cfpDiff > 0) {
             $('#{{conf.id}}').addClass('pastcfp');
