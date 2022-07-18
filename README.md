@@ -22,11 +22,11 @@ To add or update a deadline:
       cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
       workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
       tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
-      timezone: Asia/Seoul                     # Standard IANA Timezones
+      timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)
       place: Incheon, South Korea              # City, Country
       date: September, 18-22, 2022             # Nicely written dates of conference
       start: YYYY-MM-DD                        # Start date of conference for calendar
-      end: YYYY-MM-DD                          # Start date of conference for calendar
+      end: YYYY-MM-DD                          # End date of conference for calendar
       sub: PY                                  # Type of conference (see or add _data/types.yml)
       note: Important                          # In case there are extra notes about the conference (Optional)
     ```
