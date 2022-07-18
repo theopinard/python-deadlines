@@ -175,7 +175,7 @@
         {% else %}
           
           // Use specified timezone for deadlines if available else use AoE timezone
-          {% if conf.timezone != "" %}
+          {% if conf.timezone %}
             var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
             var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
           {% else %}
