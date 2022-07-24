@@ -11,7 +11,7 @@ To add or update a deadline:
 - Update `_data/conferences.yml`
 - Make sure it has the `title`, `year`, `id`, `link`, `cfp`, `timezone`, `date`, `place`, `sub` attributes
     + This [online web app](https://timezonefinder.michelfe.it/) makes it easy to find timezones – just click! 
-      (It's based on the [timezonefinder](https://github.com/jannikmi/timezonefinder) Python library.)
+      (Based on [timezonefinder](https://github.com/jannikmi/timezonefinder) library)
     + Alternatively, see available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note`
 - Example:
