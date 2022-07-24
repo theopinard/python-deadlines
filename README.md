@@ -10,9 +10,9 @@ To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
 - Make sure it has the `title`, `year`, `id`, `link`, `cfp`, `timezone`, `date`, `place`, `sub` attributes
-    + See available timezone strings [here](https://momentjs.com/timezone/).
-    + The [timezonefinder](https://github.com/jannikmi/timezonefinder) Python library provides a [online web app](https://timezonefinder.michelfe.it/)
-      for looking up the corresponding timezone for any given coordinates.
+    + This [online web app](https://timezonefinder.michelfe.it/) makes it easy to find timezones – just click! 
+      (It's based on the [timezonefinder](https://github.com/jannikmi/timezonefinder) Python library.)
+    + Alternatively, see available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note`
 - Example:
     ```yaml
