@@ -422,3 +422,27 @@
   start: 2022-07-11
   end: 2022-07-18
   sub: PY
+
+- title: Pydata Miama
+  year: 2022
+  id: pydataMiama22
+  link: https://pydata.org/miami2022/
+  place: Miama, Florida, USA
+  cfp: '2022-08-08 23:59:00'
+  date: September 22, 2022
+  start: 2022-09-22
+  end: 2022-09-22
+  timezone: America/New_York
+  sub: PYDATA
+
+- title: Pydata NYC
+  year: 2022
+  id: pydataNYC22
+  link: https://pydata.org/nyc2022/
+  place: New York, NY, USA
+  cfp: '2022-08-24 23:59:00'
+  date: November 09 – 11, 2022
+  start: 2022-11-09
+  end: 2022-11-11
+  timezone: America/New_York
+  sub: PYDATA
