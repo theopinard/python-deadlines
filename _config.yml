@@ -15,3 +15,21 @@ ga_id: G-X95YZPWV05
 adsense_id: ca-pub-2158291969836277
 
 include: ['_pages']
+
+maps:
+  google:
+    api_key: AIzaSyAOfYptNDgCJNDNOe9i9F0RrxbKzXAJ2OY
+
+jekyll_geocode:
+  file-name: conferences.yml
+  file-path: _data
+  name: title
+  address: place
+  outputfile: places.yml
+
+plugins:
+  - jekyll-geocode
+  - jekyll-maps
+
+exclude:
+    - _data/places.yml # Maybe stop watching this file
