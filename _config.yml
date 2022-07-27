@@ -27,7 +27,7 @@ jekyll_geocode:
   address: place
   outputfile: places.yml
 
-plugins:
+gems:
   - jekyll-geocode
   - jekyll-maps
 
