@@ -446,3 +446,14 @@
   end: 2022-11-11
   timezone: America/New_York
   sub: PYDATA
+
+- title: PyCon Bolivia
+  year: 2022
+  id: pyconbolivia22
+  link: https://pycon.pybol.org/
+  place: Cochabamba, Bolivia
+  cfp: TBA
+  date: October 27 – 29, 2022
+  start: 2022-10-27
+  end: 2022-10-29
+  sub: PY
