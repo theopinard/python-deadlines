@@ -1,4 +1,16 @@
 ---
+- title: PyCon Ghana
+  year: 2022
+  id: pyconGhana22
+  link: http://gh.pycon.org/
+  cfp: '2022-08-08 23:59:00'
+  timezone: Africa/Accra
+  place: Accra, Ghana
+  date: October, 13-15, 2022
+  start: 2022-10-13 
+  end: 2022-10-15
+  sub: PY
+
 - title: Pyjamas Conf
   year: 2022
   id: pyjamasconf22
