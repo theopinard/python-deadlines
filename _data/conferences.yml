@@ -1,4 +1,16 @@
 ---
+- title: Pyjamas Conf
+  year: 2022
+  id: pyjamasconf22
+  full_name: Laziest Conference ever
+  link: https://pyjamas.live
+  cfp: '2022-09-19 23:59:00'
+  place: Online
+  date: November, 26-27, 2022
+  start: 2022-11-26 
+  end: 2022-11-27
+  sub: PY
+  note: Support any language of talks                          
 
 - title: PyCon Brasil
   year: 2022
