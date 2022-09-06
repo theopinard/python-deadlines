@@ -1,4 +1,17 @@
 ---
+
+- title: SciPy Latin America
+  year: 2022
+  id: scipyLatAm22
+  link: https://pythoncientifico.ar/
+  cfp: '2022-07-31 23:59:00'
+  timezone: America/Argentina
+  place: Salta, Argentina
+  date: September, 26-28, 2022
+  start: 2022-09-26 
+  end: 2022-09-28
+  sub: SCIPY
+
 - title: PyCon Ghana
   year: 2022
   id: pyconGhana22
