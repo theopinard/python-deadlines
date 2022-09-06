@@ -118,6 +118,7 @@
   start: 2022-12-01
   end: 2022-12-03
   sub: PYDATA
+  timezone: UTC
 
 - title: PyCon ZA
   year: 2022
