@@ -1,5 +1,17 @@
 ---
 
+- title: PyData Tel Aviv                          
+  year: 2022                               
+  id: pydataTelAviv22                      
+  link: https://pydata.org/telaviv2022/    
+  cfp: '2022-09-12 23:59:00'               
+  timezone: Asia/Jerusalem
+  place: Tel Aviv, Israel
+  date: December 13th, 2022
+  start: 2022-12-13
+  end: 2022-12-13
+  sub: PYDATA
+
 - title: SciPy Latin America
   year: 2022
   id: scipyLatAm22
