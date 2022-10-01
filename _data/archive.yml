@@ -1,0 +1,59 @@
+---
+
+- title: euroSciPy
+  year: 2019
+  id: scipyEU19
+  link: https://euroscipy.org/2020/
+  cfp: '2019-04-28 23:59:59'
+  start: 2019-09-02
+  end: 2019-09-06
+  date: September 2 - 6, 2019
+  timezone: Europe/Madrid
+  place: Bilbao, Spain
+  sub: SCIPY
+
+- title: PyCascades Remote
+  year: 2022
+  id: pycascadesremote2022
+  link: https://2022.pycascades.com/
+  cfp: '2021-10-24 23:59:59'
+  start: 2022-02-05
+  end: 2022-02-07
+  date: February 05 – 07, 2022
+  place: Online
+  sub: PY
+
+- title: Python Web Conference
+  year: 2022
+  id: pythonwebconference2022
+  link: https://2022.pythonwebconf.com/
+  cfp: '2021-11-01 23:59:59'
+  start: 2022-03-21
+  end: 2022-03-26
+  date: March 21 – 26, 2022
+  timezone: UTC+0
+  place: Online
+  sub: WEB
+
+- title: Kiwi PyCon XI
+  year: 2022
+  id: pyconNZ22
+  link: https://kiwipycon.nz/
+  cfp: '2021-11-30 23:59:00'
+  start: 2022-08-19
+  end: 2022-08-21
+  date: August 19-21, 2022
+  timezone: Pacific/Auckland
+  place: Ōtautahi Christchurch, New Zealand
+  sub: PY
+
+- title: PyCon US
+  year: 2022
+  id: pyconUS22
+  link: https://us.pycon.org/2022/
+  cfp: '2021-12-20 23:59:00'
+  start: 2022-04-27
+  end: 2022-05-03
+  date: April 27 – May 3, 2022
+  place: Salt Lake City, US
+  sub: PY

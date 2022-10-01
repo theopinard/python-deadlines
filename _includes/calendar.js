@@ -81,7 +81,7 @@
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
-  {% for conf in site.data.conferences %}
+  {% for conf in site.data.conferences + site.data.archive %}
     // add deadlines in red
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
