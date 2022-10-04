@@ -425,6 +425,18 @@
   place: Tel Aviv, Israel
   sub: PYDATA
 
+- title: Pydata Eindhoven
+  year: 2022
+  id: pydataEindhoven22
+  link: https://pydata.org/eindhoven2022/
+  cfp: '2022-11-02 23:59:00'
+  start: 2022-12-02
+  end: 2022-12-02
+  date: December 2, 2022
+  timezone: Europe/Netherlands
+  place: Eindhoven, Netherlands
+  sub: PYDATA
+
 - title: Pydata Global
   year: 2022
   id: pydataGlobal22
