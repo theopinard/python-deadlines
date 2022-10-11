@@ -24,13 +24,13 @@
   sub: SCIPY
 
 - title: PyCon DE & PyData Berlin
-  year: 2022
-  id: pyconde2022
-  link: https://2022.pycon.de/
-  cfp: '2022-01-16 23:59:59'
-  start: 2022-04-11
-  end: 2022-04-14
-  date: April 11 – 14, 2022
+  year: 2023
+  id: pyconde2023
+  link: https://2023.pycon.de/
+  cfp: TBD
+  start: 2023-04-17
+  end: 2023-04-19
+  date: April 17 – 19, 2023
   timezone: Europe/Berlin
   place: Berlin, Germany
   sub: PY,PYDATA

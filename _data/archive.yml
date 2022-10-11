@@ -57,3 +57,15 @@
   date: April 27 – May 3, 2022
   place: Salt Lake City, US
   sub: PY
+
+- title: PyCon DE & PyData Berlin
+  year: 2022
+  id: pyconde2022
+  link: https://2022.pycon.de/
+  cfp: '2022-01-16 23:59:59'
+  start: 2022-04-11
+  end: 2022-04-14
+  date: April 11 – 14, 2022
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  sub: PY,PYDATA
