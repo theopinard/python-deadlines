@@ -483,3 +483,15 @@
   date: December 9 - 10, 2022
   place: Cochabamba, Bolivia
   sub: PY
+
+- title: PyCon Namibia
+  year: 2023
+  id: pyconnamibia23
+  link: https://na.pycon.org
+  cfp: TBA
+  start: 2023-02-21
+  end: 2023-02-23
+  date: February 21 - 23, 2023
+  place: Windhoek, Namibia
+  timezone: Africa/Windhoek
+  sub: PY
