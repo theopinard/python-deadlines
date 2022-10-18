@@ -1,4 +1,15 @@
 ---
+- title: PyCon Italia
+  year: 2023
+  id: pyconitaly23
+  link: https://pycon.it/en
+  cfp: TBA
+  start: 2023-05-25
+  end: 2022-05-28
+  date: May 25 – 28, 2023
+  place: Florence, Italy
+  sub: PY
+
 - title: Python Web Conference
   year: 2023
   id: pythonwebconference2023
