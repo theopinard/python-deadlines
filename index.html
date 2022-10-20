@@ -171,7 +171,7 @@
         {% if conf.cfp == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
-          $('#{{conf.id}}').attr("cfpDiff", 0);
+          $('#{{conf.id}}').attr("cfpDiff", Infinity);
         {% else %}
           
           // Use specified timezone for deadlines if available else use AoE timezone
