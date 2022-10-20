@@ -488,11 +488,12 @@
   year: 2022
   id: pyconbolivia22
   link: https://pycon.pybol.org/
-  cfp: TBA
+  cfp: '2022-10-31 23:59:00'
   start: 2022-12-09
   end: 2022-12-10
   date: December 9 - 10, 2022
   place: Cochabamba, Bolivia
+  timezone: America/La_Paz
   sub: PY
 
 - title: PyCon Namibia
