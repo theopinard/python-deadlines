@@ -507,3 +507,13 @@
   place: Windhoek, Namibia
   timezone: Africa/Windhoek
   sub: PY
+
+- title: PyCascades
+  year: 2023
+  id: pycascades23
+  link: https://2023.pycascades.com/
+  cfp: '2022-11-16 23:59:59'
+  date: Spring 2023
+  place: Vancouver, Canada
+  timezone: America/Vancouver
+  sub: PY
