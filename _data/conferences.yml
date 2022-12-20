@@ -163,13 +163,13 @@
   sub: PY
 
 - title: PyCon LT
-  year: 2022
-  id: pyconlt2022
+  year: 2023
+  id: pyconlt2023
   link: http://pycon.lt/
-  cfp: '2022-05-07 23:59:00'
-  start: 2022-05-26
-  end: 2022-05-28
-  date: May 26 – 28, 2022
+  cfp: 'TBA'
+  start: 2023-05-17
+  end: 2023-05-20
+  date: May 17 – 20, 2023
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
   sub: PY
@@ -528,4 +528,16 @@
   date: February 16 - 19, 2023
   place: Bordeaux, France
   timezone: Europe/Paris
+  sub: PY
+
+- title: PyCon Philippines
+  year: 2023
+  id: pyconphilippines2023
+  link: https://pycon.python.ph/
+  cfp: '2022-12-23 23:59:00'
+  start: 2023-02-25
+  end: 2023-02-26
+  date: February 25 – 26, 2022
+  timezone: Asia/Manila
+  place: Manila, Philippines
   sub: PY

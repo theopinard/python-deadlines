@@ -80,3 +80,15 @@
   date: June 20 – 23, 2022
   place: Basel, Switzerland & Online
   sub: PY
+
+- title: PyCon LT
+  year: 2022
+  id: pyconlt2022
+  link: http://pycon.lt/
+  cfp: '2022-05-07 23:59:00'
+  start: 2022-05-26
+  end: 2022-05-28
+  date: May 26 – 28, 2022
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  sub: PY
