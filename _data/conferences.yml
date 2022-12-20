@@ -105,14 +105,14 @@
   sub: PY
 
 - title: EuroPython
-  year: 2022
-  id: europython2022
+  year: 2023
+  id: europython2023
   link: https://www.europython.eu/
-  cfp: '2022-04-03 23:59:59'
-  start: 2022-07-11
-  end: 2022-07-18
-  date: July 11 – 18, 2022
-  place: Dublin, Ireland
+  cfp: 'TBA'
+  start: 2022-07-17
+  end: 2022-07-23
+  date: July 17 – 23, 2022
+  place: TBA
   sub: PY
 
 - title: PyCon Kenya Conference

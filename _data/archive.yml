@@ -12,6 +12,17 @@
   place: Bilbao, Spain
   sub: SCIPY
 
+- title: EuroPython
+  year: 2022
+  id: europython2022
+  link: https://www.europython.eu/
+  cfp: '2022-04-03 23:59:59'
+  start: 2022-07-11
+  end: 2022-07-18
+  date: July 11 – 18, 2022
+  place: Dublin, Ireland
+  sub: PY
+
 - title: PyCascades Remote
   year: 2022
   id: pycascadesremote2022
