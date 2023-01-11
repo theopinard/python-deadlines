@@ -199,15 +199,13 @@
   sub: WEB
 
 - title: DjangoCon US
-  year: 2022
-  id: djangoCon2022
-  link: https://2022.djangocon.us
-  cfp: '2022-06-11 07:31:00'
-  start: 2022-10-16
-  end: 2022-10-21
-  date: October 16 - 21, 2022
-  timezone: America/Los_Angeles
-  place: San Diego, USA
+  year: 2023
+  id: djangoCon2023
+  link: https://2023.djangocon.us
+  cfp: 'TBA'
+  date: Fall, 2022
+  timezone: America/New_York
+  place: North Carolina, USA
   sub: WEB
 
 - title: PyCon Japan
