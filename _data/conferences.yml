@@ -543,3 +543,14 @@
   timezone: Asia/Manila
   place: Manila, Philippines
   sub: PY
+
+- title: JupyterCon
+  year: 2023
+  id: jupytercon2023
+  link: https://www.jupytercon.com/
+  cfp: '2022-12-20 23:59:00'
+  start: 2023-05-10
+  end: 2023-05-12
+  date: May 10 - 12, 2023
+  place: Paris, France
+  sub: PY
