@@ -162,11 +162,11 @@
   place: Online
   sub: PY
 
-- title: PyCon LT
+- title: PyCon Lithuania
   year: 2023
   id: pyconlt2023
   link: http://pycon.lt/
-  cfp: 'TBA'
+  cfp: '2023-03-18 00:00:00'
   start: 2023-05-17
   end: 2023-05-20
   date: May 17 – 20, 2023
