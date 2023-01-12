@@ -4,14 +4,15 @@
 # Sort and Clean conference data.
 # It writes to `sorted_data.yml` and `cleaned_data.yml`, copy those to the conference.yml after screening.
 
-import yaml
 import datetime
-import sys
-from shutil import copyfile
-from builtins import input
-import pytz
-
 import pdb
+import sys
+from builtins import input
+from pathlib import Path
+from shutil import copyfile
+
+import pytz
+import yaml
 
 try:
     # for python newer than 2.7
@@ -21,10 +22,13 @@ except ImportError:
     from ordereddict import OrderedDict
 
 try:
-    from yaml import CLoader as Loader, CDumper as Dumper
+    from yaml import CDumper as Dumper
+    from yaml import CLoader as Loader
 except ImportError:
     from yaml import Loader, Dumper
+
 from yaml.representer import SafeRepresenter
+
 _mapping_tag = yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG
 
 
@@ -47,19 +51,14 @@ def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
         pass
 
     def _dict_representer(dumper, data):
-        return dumper.represent_mapping(
-            yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, data.items())
+        return dumper.represent_mapping(yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, data.items())
 
     OrderedDumper.add_representer(OrderedDict, _dict_representer)
     return yaml.dump(data, stream, OrderedDumper, **kwds)
 
 
-dateformat = '%Y-%m-%d %H:%M:%S'
+dateformat = "%Y-%m-%d %H:%M:%S"
 tba_words = ["tba", "tbd"]
-
-right_now = datetime.datetime.utcnow().replace(
-    microsecond=0).strftime(dateformat)
-
 
 # Helper function for yes no questions
 def query_yes_no(question, default="no"):
@@ -85,46 +84,113 @@ def query_yes_no(question, default="no"):
     while True:
         sys.stdout.write(question + prompt)
         choice = input().lower()
-        if default is not None and choice == '':
+        if default is not None and choice == "":
             return valid[default]
         elif choice in valid:
             return valid[choice]
         else:
-            sys.stdout.write("Please respond with 'yes' or 'no' "
-                             "(or 'y' or 'n').\n")
+            sys.stdout.write("Please respond with 'yes' or 'no' " "(or 'y' or 'n').\n")
+
+
+def sort_by_cfp(data):
+    return pytz.utc.normalize(
+        datetime.datetime.strptime(data["cfp"], dateformat).replace(
+            tzinfo=pytz.timezone(
+                data.get("timezone", "AoE")
+                .replace("AoE", "Etc/GMT+12")
+                .replace("UTC+", "Etc/GMT-")
+                .replace("UTC-", "Etc/GMT+")
+            )
+        )
+    ).strftime(dateformat)
+
+
+def sort_by_date_passed(data):
+    right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
+    return sort_by_cfp(data) < right_now
+
+
+def split_data(data):
+    conf, tba, expired = [], [], []
+    for q in data:
+        if q.get("end", datetime.datetime.utcnow().replace(microsecond=0).date()) < datetime.datetime.utcnow().replace(
+            microsecond=0
+        ).date() - datetime.timedelta(days=66):
+            expired.append(q)
+            continue
+
+        try:
+            if q["cfp"].lower() in tba_words:
+                tba.append(q)
+            else:
+                conf.append(q)
+        except:
+            print(data["cfp"].lower(), tba_words)
+    return conf, tba, expired
+
+
+def pretty_print(header, conf, tba=None, expired=None):
+    print(header)
+    for data in [conf, tba, expired]:
+        if data is not None:
+            for q in data:
+                print(q["cfp"], " - ", q["title"])
+            print("\n")
 
 
 # Sort:
+def sort_data(base=""):
+    url = Path(base, "_data", "conferences.yml")
+    out_url = Path(base, "utils", "sorted_data.yml")
+    archive = Path(base, "_data", "archive.yml")
+    out_archive = Path(base, "utils", "sorted_archive.yml")
 
-with open("../_data/conferences.yml", 'r') as stream:
-    try:
-        data = yaml.load(stream, Loader=Loader)
-        print("Initial Sorting:")
-        for q in data:
-            print(q["cfp"], " - ", q["title"])
-        print("\n\n")
-        conf = [x for x in data if x['cfp'].lower() not in tba_words]
-        tba = [x for x in data if x['cfp'].lower() in tba_words]
+    with open(url, "r") as stream:
+        try:
+            data = yaml.load(stream, Loader=Loader)
+            print("Initial Sorting:")
+            for q in data:
+                print(q["cfp"], " - ", q["title"])
+            print("\n\n")
 
-        # just sort:
-        conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['cfp'], dateformat).replace(tzinfo=pytz.timezone(x.get('timezone', 'AoE').replace('AoE', 'Etc/GMT+12').replace('UTC+', 'Etc/GMT-').replace('UTC-', 'Etc/GMT+')))))
-        print("Date Sorting:")
-        for q in conf + tba:
-            print(q["cfp"], " - ", q["title"])
-        print("\n\n")
-        conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['cfp'], dateformat).replace(tzinfo=pytz.timezone(x.get('timezone', 'AoE').replace('AoE', 'Etc/GMT+12').replace('UTC+', 'Etc/GMT-').replace('UTC-', 'Etc/GMT+')))).strftime(dateformat) < right_now)
-        print("Date and Passed Deadline Sorting with tba:")
-        for q in conf + tba:
-            print(q["cfp"], " - ", q["title"])
-        print("\n\n")
+            conf, tba, expired = split_data(data)
 
-        with open('sorted_data.yml', 'w') as outfile:
-            for line in ordered_dump(
-                    conf + tba,
-                    Dumper=yaml.SafeDumper,
-                    default_flow_style=False,
-                    explicit_start=True).splitlines():
-                outfile.write(line.replace('- title:', '\n- title:'))
-                outfile.write('\n')
-    except yaml.YAMLError as exc:
-        print(exc)
+            # just sort:
+            conf.sort(key=sort_by_cfp, reverse=True)
+            pretty_print("Date Sorting:", conf, tba, expired)
+            conf.sort(key=sort_by_date_passed)
+            pretty_print("Date and Passed Deadline Sorting with tba:", conf, tba, expired)
+
+            with open(out_url, "w") as outfile:
+                for line in ordered_dump(
+                    conf + tba, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True
+                ).splitlines():
+                    outfile.write(line.replace("- title:", "\n- title:"))
+                    outfile.write("\n")
+        except yaml.YAMLError as exc:
+            print(exc)
+
+    with open(archive, "r") as stream:
+        try:
+            data = yaml.load(stream, Loader=Loader)
+
+            pretty_print("Old archive:", data)
+
+            data += expired
+
+            data.sort(key=sort_by_cfp, reverse=True)
+
+            pretty_print("New archive:", data)
+
+            with open(out_archive, "w") as outfile:
+                for line in ordered_dump(
+                    data, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True
+                ).splitlines():
+                    outfile.write(line.replace("- title:", "\n- title:"))
+                    outfile.write("\n")
+        except yaml.YAMLError as exc:
+            print(exc)
+
+
+if __name__ == "__main__":
+    sort_data()

@@ -61,7 +61,8 @@ permalink: /archive/
             </div>
         </div>
         <div id="confs">
-        <div id="coming_confs">
+        <div id="past_confs">
+          <h1 id="past-events-title">Past Events</h1>
           {% for conf in site.data.archive %}
           {% assign subs = conf.sub | split: "," %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
@@ -126,163 +127,11 @@ permalink: /archive/
           </div>
           {% endfor %}
         </div>
-        <div id="past_cfps">
-          <h1 id="past-cfps-title">Past Calls for Participation</h1>
-          <div id="cfp-sort-order-checkbox">
-                <label for="cfp-sort-order"><input type="checkbox" id="cfp-sort-order" name="cfp-sort-order" checked>Most recent first</label>
-            </div>
-        </div>
-        <div id="past_confs">
-          <h1 id="past-events-title">Past Events</h1>
-          <div id="conf-sort-order-checkbox">
-                <label for="conf-sort-order"><input type="checkbox" id="conf-sort-order" name="conf-sort-order" checked>Most recent first</label>
-            </div>
-        </div>
       </div>
       <footer>
             {% include footer.html %}
       </footer>
       <br><br>
     </div>
-    <script type="text/javascript" charset="utf-8">
-    $(function() {
-
-      var DateTime = luxon.DateTime;
-      var today = DateTime.now();
-      
-      // Make sure this is >= no. of subs
-      // Currently not used
-      var colors = ['#341f97', '#ee5253', '#2e86de',
-                    '#ff9f43', '#10ac84', '#222f3e']
-
-      
-      {% include load_data.js %}
-      {% include utils.js %}
-      {% include multiselect_handler.js %}
-
-      // Set time zone to local timezone on web copy
-      $('.local-timezone').text(today.toFormat('z'));
-      
-      {% for conf in site.data.archive %}
-        {% assign subs = conf.sub | split: "," %}
-        {% for sub in subs %}
-          $('#{{conf.id}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
-        {% endfor %}
-        {% if conf.cfp == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
-          $('#{{conf.id}} .deadline-time').html("TBA");
-          $('#{{conf.id}}').attr("cfpDiff", -Infinity);
-        {% else %}
-          
-          // Use specified timezone for deadlines if available else use AoE timezone
-          {% if conf.timezone %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
-          {% else %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
-          {% endif %}
-
-          // check if timezone is valid otherwise replace by system timezone
-          if (cfpDate.invalid || confDate.invalid) {
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}");
-            var confDate = DateTime.fromSQL("{{conf.start}}");
-            console.log("Invalid timezone in {{conf.id}}. Using system timezone instead.");
-          }
-
-          // render countdown timer
-          $('#{{conf.id}} .timer').countdown(cfpDate.toJSDate(), function (event) {
-              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          });
-
-          // render countdown timer small
-          $('#{{conf.id}} .timer-small').countdown(cfpDate.toJSDate(), function (event) {
-              $(this).html(event.strftime('%Dd %H:%M:%S'));
-          });
-
-          // deadline in local timezone
-          $('#{{conf.id}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
-
-          // add calendar button
-          try {
-          var myCalendar = createCalendarFromObject({
-            id:  '{{conf.id}}',
-            title: '{{conf.title}} {{conf.year}} deadline',
-            date: cfpDate.toJSDate(),
-            duration: 60,
-          });
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
-          } catch(err) {
-            document.querySelector('#{{conf.id}} .calendar').appendChild("<p>Calendar not available.</p>");
-            console.log("Error in cfp date.");
-          }
-
-          // check if date has passed, add 'past' class to it
-          cfpDiff = today.diff(cfpDate);
-          confDiff = today.diff(confDate);
-
-          $('#{{conf.id}}').attr("cfpDiff", cfpDiff.milliseconds);
-          $('#{{conf.id}}').attr("confDiff", confDiff.milliseconds);
-
-          if (cfpDiff > 0) {
-            $('#{{conf.id}}').addClass('pastcfp');
-            $('#{{conf.id}}').appendTo($("#past_cfps"));
-            $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
-            $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
-            $('#{{conf.id}} .calendar').remove();
-          }
-          
-          if (confDiff > 0) {
-            $('#{{conf.id}}').addClass('pastconf');
-            $('#{{conf.id}}').appendTo($("#past_confs"));
-            $('#{{conf.id}} .timer').replaceWith($('#{{conf.id}} .deadline'));
-            $('#{{conf.id}} .timer-small').replaceWith($('#{{conf.id}} .deadline'));
-            $('#{{conf.id}} .calendar').remove();
-          }
-        {% endif %}
-      {% endfor %}
-
-      // Sort coming_confs and past_confs
-      $("#coming_confs .ConfItem").sort(function (a, b) {
-        return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
-      }).appendTo($("#coming_confs"));
-
-      $("#cfp-sort-order-checkbox input").on("click", function() {
-        if ($("#cfp-sort-order-checkbox input").is(":checked")) {
-          $("#past_cpfs .ConfItem").sort(function (a, b) {
-            return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
-          }).appendTo($("#past_cfps"));
-        } else {
-          $("#past_cpfs .ConfItem").sort(function (a, b) {
-            return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
-          }).appendTo($("#past_cpfs"));
-        }
-      });
-
-      $("#conf-sort-order-checkbox input").on("click", function() {
-        if ($("#conf-sort-order-checkbox input").is(":checked")) {
-          $("#past_confs .ConfItem").sort(function (a, b) {
-            return $(a).attr('confDiff') - $(b).attr('confDiff');
-          }).appendTo($("#past_confs"));
-        } else {
-          $("#past_confs .ConfItem").sort(function (a, b) {
-            return $(b).attr('confDiff') - $(a).attr('confDiff');
-          }).appendTo($("#past_confs"));
-        }
-      });
-
-      {% include handle_url_retrieval.js %}
-
-      // Event handler on sub badge click
-      $('.conf-sub').click(function (e) {
-          var csub = $(this).data('sub');
-          subs = [csub];
-          $("#subject-select").multiselect('deselect', all_subs);
-          $("#subject-select").multiselect('select', subs);
-          update_filtering({ subs: subs, all_subs: all_subs});
-      });
-
-    });
-    </script>
   </body>
 </html>
