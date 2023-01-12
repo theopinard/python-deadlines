@@ -22,13 +22,7 @@ permalink: /archive/
             </div>
             <br>
             <div class="row">
-              <div class="meta col-8">This community tool serves as a central repository for deadlines of calls for participitation, proposals, workshops, and tutorials at Python conferences. 
-                The dates are made available as countdowns, in local timezones and even as a Google calendar below! <br>
-                Deadlines are shown in <span class="local-timezone">your local</span> time.
-                To view them in conference website timezones, click on the conference.<br>
-                You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{ site.github_repo }}.ics">Google Calendar</a> or
-                <a href="{{ site.baseurl }}/{{ site.github_repo }}.ics">.ics</a>.<br> <br>
+              <div class="meta col-8">
                 Is your favourite conference missing? Add / edit a conference by <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">sending in a pull request</a>.<br>
               </div>
               <div class="meta col-4">
@@ -133,5 +127,69 @@ permalink: /archive/
       </footer>
       <br><br>
     </div>
+    <script type="text/javascript" charset="utf-8">
+    $(function() {
+
+      var DateTime = luxon.DateTime;
+      var today = DateTime.now();
+      
+      // Make sure this is >= no. of subs
+      // Currently not used
+      var colors = ['#341f97', '#ee5253', '#2e86de',
+                    '#ff9f43', '#10ac84', '#222f3e']
+
+      
+      {% include load_data.js %}
+      {% include utils.js %}
+      {% include multiselect_handler.js %}
+
+      // Set time zone to local timezone on web copy
+      $('.local-timezone').text(today.toFormat('z'));
+      
+      {% for conf in site.data.archive %}
+        {% assign subs = conf.sub | split: "," %}
+        {% for sub in subs %}
+          $('#{{conf.id}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+        {% endfor %}
+        {% if conf.cfp == "TBA" %}
+          $('#{{conf.id}} .timer').html("TBA");
+          $('#{{conf.id}} .deadline-time').html("TBA");
+          $('#{{conf.id}}').attr("cfpDiff", -Infinity);
+        {% else %}
+          
+          // Use specified timezone for deadlines if available else use AoE timezone
+          {% if conf.timezone %}
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
+          {% else %}
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "UTC-12"});
+            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
+          {% endif %}
+
+          // check if timezone is valid otherwise replace by system timezone
+          if (cfpDate.invalid || confDate.invalid) {
+            var cfpDate = DateTime.fromSQL("{{conf.cfp}}");
+            var confDate = DateTime.fromSQL("{{conf.start}}");
+            console.log("Invalid timezone in {{conf.id}}. Using system timezone instead.");
+          }
+
+          // deadline in local timezone
+          $('#{{conf.id}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+        {% endif %}
+      {% endfor %}
+
+      {% include handle_url_retrieval.js %}
+
+      // Event handler on sub badge click
+      $('.conf-sub').click(function (e) {
+          var csub = $(this).data('sub');
+          subs = [csub];
+          $("#subject-select").multiselect('deselect', all_subs);
+          $("#subject-select").multiselect('select', subs);
+          update_filtering({ subs: subs, all_subs: all_subs});
+      });
+
+    });
+    </script>
   </body>
 </html>
