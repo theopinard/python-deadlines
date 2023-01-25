@@ -1,5 +1,5 @@
 function update_filtering(data) {
-  var page_url = "{{site.baseurl}}";
+  var page_url = window.location.pathname;
   store.set("{{site.domain}}-subs", data.subs);
 
   $(".confItem").hide();
