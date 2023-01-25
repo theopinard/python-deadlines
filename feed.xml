@@ -21,6 +21,7 @@
 				<guid>{{ conf.id }}</guid>
 				<category>{{ conf.sub }}</category>
 			</item>
+		{% endif %}
 		{% endfor %}
 	</channel>
 </rss>
