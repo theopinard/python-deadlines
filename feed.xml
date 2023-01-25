@@ -15,7 +15,7 @@
 			<item>
 				<title>{{ conf.title | xml_escape }} {{ conf.year }} Workshop Deadline</title>
 				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }}</description>
-				<pubDate>{{ conf.cfp | date: "%Y-%m-%d %H:%M:%s" | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ conf.cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
 				<link>{{ site.baseurl }}/conference?id={{conf.id}}</link>
 				<guid>{{ conf.id }}</guid>
 				<category>{{ conf.sub }}</category>
