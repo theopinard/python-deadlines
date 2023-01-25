@@ -1,0 +1,26 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+	<channel>
+		<title>{{ site.name | xml_escape }}</title>
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+		<link>{{ site.baseurl }}</link>
+		<lastBuildDate>{{% site.time %}}</lastBuildDate>
+		{% assign feed_items = site.data.conferences | default: 10 %}
+		{% for conf in site.data.conferences limit:feed_items %}
+			<item>
+				<title>{{ conf.title | xml_escape }} {{ conf.year }} Workshop Deadline</title>
+				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }}</description>
+				<pubDate>{{ conf.cfp | date_to_rfc822 }}</pubDate>
+				<link>{{ site.baseurl }}/conference?id={{conf.id}}</link>
+				<guid>{{ conf.id }}</guid>
+				<category>{{ conf.sub }}</category>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
