@@ -7,14 +7,14 @@
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 >
 	<channel>
-		<title>{{ site.name | xml_escape }}</title>
+		<title>{{ site.title | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.baseurl }}</link>
 		<lastBuildDate>{{ site.time }}</lastBuildDate>
-		{% for conf in site.data.conferences limit:10 %}
+		{% for conf in site.data.conferences limit:23 %}
 			<item>
 				<title>{{ conf.title | xml_escape }} {{ conf.year }} Workshop Deadline</title>
-				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }}</description>
+				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }} {% if conf.zimezone %}{{ conf.timezone | xml_escape }}{% else%}AoE{% endif %}. </description>
 				<pubDate>{{ conf.cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
 				<link>{{ site.baseurl }}/conference?id={{conf.id}}</link>
 				<guid>{{ conf.id }}</guid>
