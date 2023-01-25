@@ -184,3 +184,15 @@
   timezone: America/New_York
   place: North Carolina, USA
   sub: WEB
+
+- title: PyData Seattle
+  year: 2023
+  id: pydataSeattle23
+  link: https://pydata.org/seattle2023/
+  cfp: '2023-02-06 23:59:00'
+  start: 2023-04-26
+  end: 2023-04-28
+  date: April 26 - 28, 2023
+  timezone: America/Los_Angeles
+  place: Seattle, USA
+  sub: PYDATA
