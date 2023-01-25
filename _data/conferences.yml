@@ -196,3 +196,15 @@
   timezone: America/Los_Angeles
   place: Seattle, USA
   sub: PYDATA
+
+- title: PyData London
+  year: 2023
+  id: pydataLondon23
+  link: https://pydata.org/london2023/
+  cfp: '2023-03-13 23:59:00'
+  start: 2023-06-02
+  end: 2023-06-04
+  date: June 2 - 4, 2023
+  timezone: Europe/London
+  place: London, UK
+  sub: PYDATA
