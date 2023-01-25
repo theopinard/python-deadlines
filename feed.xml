@@ -11,8 +11,7 @@
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.baseurl }}</link>
 		<lastBuildDate>{{% site.time %}}</lastBuildDate>
-		{% assign feed_items = site.data.conferences | default: 10 %}
-		{% for conf in site.data.conferences limit:feed_items %}
+		{% for conf in site.data.conferences limit:10 %}
 			<item>
 				<title>{{ conf.title | xml_escape }} {{ conf.year }} Workshop Deadline</title>
 				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }}</description>
