@@ -224,3 +224,15 @@
   timezone: America/New_York
   place: North Carolina, USA
   sub: WEB
+
+- title: euroSciPy
+  year: 2023
+  id: scipyEU23
+  link: https://euroscipy.org/2023/
+  cfp: TBA
+  start: 2023-08-14
+  end: 2023-08-18
+  date: Aug 14 - 18, 2023
+  timezone: Europe/Zurich
+  place: Basel, Switzerland
+  sub: SCIPY
