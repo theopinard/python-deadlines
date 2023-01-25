@@ -77,6 +77,12 @@
                     <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" /></a>
                     &ZeroWidthSpace;
                   </span>
+                  {% if conf.cfplink %}
+                  <span class="conf-title-icon">
+                    <a title="Call for Participation" href="{{conf.cfplink}}" target="_blank"><img src="{{site.baseurl}}/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% endif %}
                 </div>
                 <div class="col-6">
                   <span class="timer"></span>

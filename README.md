@@ -21,6 +21,7 @@ To add or update a deadline:
       id: bestconf22                           # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # Full conference name (Optional)
       link: link-to-website.com                # URL to conference
+      cfplink: link-to-cfp.com                 # URL to call for proposals (Optional)
       cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
       workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
       tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)

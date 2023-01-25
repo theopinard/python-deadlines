@@ -30,16 +30,22 @@ permalink:  /conference/
         <div id="conf-key-facts" class="row">
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/084-calendar.svg" class="badge-link" />
-            <span id="conf-date"></span>.
+            <span id="conf-date"></span>
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/072-location.svg" class="badge-link" />
-            <a id="conf-place" target="_blank" nohref></a>.
+            <a id="conf-place" target="_blank" nohref></a>
           </div>
           <div class="col-12">
             <img src="{{site.baseurl}}/static/img/203-earth.svg" class="badge-link" />
             <a id="conf-website" target="_blank" nohref></a>
           </div>
+          {% if conf.cfplink %}
+          <div class="col-12">
+            <img src="{{site.baseurl}}/static/img/035-file-text.svg" class="badge-link" />
+            <a id="conf-cfplink" target="_blank" nohref>Call for Participation</a>
+          </div>
+          {% endif %}
         </div>
         <div id="conf-deadline-info" class="row">
           <div class="meta deadline col-12 col-md-6">
@@ -106,6 +112,9 @@ permalink:  /conference/
               {% endif %}
               $('#conf-website').text("{{conf.link}}");
               $('#conf-website').attr('href', "{{conf.link}}");
+              {% if conf.cfplink %}
+              $('#conf-cfplink').attr('href', "{{conf.cfplink}}");
+              {% endif %}
               var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
               $('#twitter-box').html(twitter_slug);
               {% if conf.full_name %}

@@ -4,6 +4,7 @@
   year: 2023
   id: pyconlt2023
   link: http://pycon.lt/
+  cfplink: https://pretalx.com/pycon-lt-2023/cfp
   cfp: '2023-03-18 00:00:00'
   start: 2023-05-17
   end: 2023-05-20
@@ -17,6 +18,7 @@
   id: pydataLondon23
   link: https://pydata.org/london2023/
   cfp: '2023-03-13 23:59:00'
+  cfplink: https://pydata.org/london2023/call-for-proposals
   start: 2023-06-02
   end: 2023-06-04
   date: June 2 - 4, 2023
@@ -29,6 +31,7 @@
   id: scipyUS23
   link: https://www.scipy2023.scipy.org
   cfp: '2023-02-22 23:59:00'
+  cfplink: https://www.scipy2023.scipy.org/present
   start: 2023-07-10
   end: 2023-07-16
   date: July 10 - 16, 2023
@@ -41,6 +44,7 @@
   id: pydataSeattle23
   link: https://pydata.org/seattle2023/
   cfp: '2023-02-06 23:59:00'
+  cfplink: https://seattle2023.pydata.org/cfp/cfp
   start: 2023-04-26
   end: 2023-04-28
   date: April 26 - 28, 2023
