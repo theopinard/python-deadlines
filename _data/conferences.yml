@@ -238,3 +238,15 @@
   timezone: Europe/Zurich
   place: Basel, Switzerland
   sub: SCIPY
+
+- title: Kiwi PyCon
+  year: 2023
+  id: KiwiPycon23
+  link: https://kiwipycon.nz/
+  cfp: TBA
+  start: 2023-09-15
+  end: 2023-09-17
+  date: September 15 - 17, 2022
+  timezone: Pacific/Auckland
+  place: Waihopai Invercargill, Aotearoa New Zealand
+  sub: PY
