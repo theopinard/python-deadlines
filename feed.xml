@@ -15,7 +15,7 @@
 		{% for conf in site.data.conferences limit:23 %}
 		{% if conf.cfp != "TBA" %}
 			<item>
-				<title>{{ conf.title | xml_escape }} {{ conf.year }} Workshop Deadline</title>
+				<title>{{ conf.title | xml_escape }} {{ conf.year }} Conference Deadline</title>
 				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }} {% if conf.zimezone %}{{ conf.timezone | xml_escape }}{% else%}AoE{% endif %}. </description>
 				<pubDate>{{ conf.cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
 				<link>https://{{ site.domain }}/conference?id={{conf.id}}</link>
