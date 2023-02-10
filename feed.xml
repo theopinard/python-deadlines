@@ -9,7 +9,7 @@
 	<channel>
 		<title>{{ site.title | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<link>https://{{ site.domain }}/feed.xml</link>
+		<link>https://{{ site.domain }}/feed.rss</link>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		{% for conf in site.data.conferences limit:23 %}
 		{% if conf.cfp != "TBA" %}
