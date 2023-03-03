@@ -1,5 +1,18 @@
 ---
 
+- title: DjangoCon US
+  year: 2023
+  id: djangoCon2023
+  link: https://2023.djangocon.us
+  cfplink: https://2023.djangocon.us/speaking/
+  cfp: '2023-05-15 18:00:00'
+  start: 2023-10-15
+  end: 2023-10-20
+  date: October 15 - 20, 2023
+  timezone: America/New_York
+  place: North Carolina, USA
+  sub: WEB
+
 - title: Kiwi PyCon
   year: 2023
   id: KiwiPycon23
@@ -11,6 +24,18 @@
   date: September 15 - 17, 2022
   timezone: Pacific/Auckland
   place: Waihopai Invercargill, Aotearoa New Zealand
+  sub: PY
+
+- title: EuroPython
+  year: 2023
+  id: europython2023
+  link: https://ep2023.europython.eu/
+  cfplink: https://ep2023.europython.eu/cfp
+  cfp: '2023-03-19 23:59:00'
+  start: 2023-07-17
+  end: 2023-07-23
+  date: July 17 - 23, 2023
+  place: Prague, Czech Republic
   sub: PY
 
 - title: PyCon Lithuania
@@ -193,29 +218,6 @@
   place: Online
   sub: WEB
 
-- title: EuroPython
-  year: 2023
-  id: europython2023
-  link: https://ep2023.europython.eu/
-  cfp: TBA
-  start: 2023-07-17
-  end: 2023-07-23
-  date: July 17 - 23, 2023
-  place: Prague, Czech Republic
-  sub: PY
-
-- title: DjangoCon US
-  year: 2023
-  id: djangoCon2023
-  link: https://2023.djangocon.us
-  cfp: TBA
-  start: 2023-10-15
-  end: 2023-10-20
-  date: October 15 - 20, 2023
-  timezone: America/New_York
-  place: North Carolina, USA
-  sub: WEB
-
 - title: euroSciPy
   year: 2023
   id: scipyEU23
@@ -228,3 +230,16 @@
   timezone: Europe/Zurich
   place: Basel, Switzerland
   sub: SCIPY
+
+- title: PyData Tel Aviv
+  year: 2023
+  id: pydataTelAviv23
+  link: https://pydata.org/telaviv2023/
+  cfplink: https://pydata.org/telaviv2023/cfp
+  cfp: TBA
+  start: 2023-11-14
+  end: 2023-11-14
+  date: November 14th, 2023
+  timezone: Asia/Jerusalem
+  place: Tel Aviv, Israel
+  sub: PYDATA
