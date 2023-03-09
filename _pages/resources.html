@@ -50,8 +50,7 @@ permalink: /resources/
             </div>
             <div class="row">
               <div class="col-6">
-                {% assign subs = conf.sub | split: "," %}
-                {% for sub in subs %}
+                {% for sub in post.tags %}
                 <span title="{{sub | strip}}" data-sub="{{sub | strip}}" class="badge badge-light {{sub | strip}}-tag"></span>
                 {% endfor %}
               </div>

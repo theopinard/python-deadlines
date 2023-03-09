@@ -19,7 +19,7 @@
             <br>
             <div class="row">
               <div class="meta col-12">
-                {{ page.date | date_to_string }} - {{page.author}}
+                {{ page.date | date_to_string }} - {{page.author}} - {{ page.tags | join: ", " }}
               </div>
             </div>
         </div>

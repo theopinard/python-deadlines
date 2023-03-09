@@ -2,6 +2,7 @@
 title: How do you define your target audience for a Python conference talk?
 author: Jesper Dramsch
 layout: post
+tags: ["Python", "presentation", "conference", "audience"]
 ---
 
 When it comes to submitting a proposal for a conference presentation, it's essential to define your target audience. Knowing who you are speaking to can help you tailor your presentation to the audience's needs, interests, and background knowledge. In this post, we will discuss how to define your target audience for a conference proposal and why it matters.

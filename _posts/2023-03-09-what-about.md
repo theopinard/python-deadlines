@@ -2,6 +2,7 @@
 title: What should my Python conference talk be about?
 author: Jesper Dramsch
 layout: post
+tags: ["Python", "presentation"]
 ---
 
 We often get a paradox conundrum when we finally decide to give a talk at a Python conference. We learned about so many exciting things. So much is interesting. But what should my Python talk be about?!

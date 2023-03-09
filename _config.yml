@@ -19,3 +19,4 @@ include: ['_pages']
 collections:
   posts:
     output: true
+    permalink: /resources/:title/index:output_ext

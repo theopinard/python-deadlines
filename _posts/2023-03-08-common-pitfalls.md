@@ -2,6 +2,7 @@
 title: 9 Common Pitfalls that get your Python Conference Talk Proposal rejected
 author: Jesper Dramsch
 layout: post
+tags: ["Python", "CfP", "pitfalls"]
 ---
 
 Suppose you're looking to submit a proposal for a conference talk. In that case, knowing what to avoid is essential to increase your chances of acceptance. Here are nine common pitfalls to watch out for:

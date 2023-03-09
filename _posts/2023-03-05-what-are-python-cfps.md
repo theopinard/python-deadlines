@@ -2,6 +2,7 @@
 title: What is a Python conference CfP?
 author: Jesper Dramsch
 layout: post
+tags: ["Python", "CfP", "conference"]
 ---
 
 A Call for Proposals (CfP) or Call for Participation is a common term used in academic, research, and professional communities to invite individuals or groups to submit proposals or abstracts for conferences, workshops, symposiums, and other events.
@@ -23,7 +24,7 @@ The submission process for a CfP typically involves preparing a proposal or abst
 
 Some academic CfPs may require a full paper submission, while others may ask for a short abstract or a summary. 
 
-Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/2023/03/08/common-pitfalls.html) of promising solely future work.
+Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/9-common-pitfalls-that-get-your-python-conference-talk-proposal-rejected/) of promising solely future work.
 
 ## Conclusion
 
