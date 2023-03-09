@@ -1,5 +1,5 @@
 ---
-title: What should my Python talk be about?
+title: What should my Python conference talk be about?
 author: Jesper Dramsch
 layout: post
 ---

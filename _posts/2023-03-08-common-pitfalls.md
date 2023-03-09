@@ -1,5 +1,5 @@
 ---
-title: 9 Common Pitfalls to get your Conference Talk Proposal rejected
+title: 9 Common Pitfalls that get your Python Conference Talk Proposal rejected
 author: Jesper Dramsch
 layout: post
 ---
