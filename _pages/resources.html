@@ -44,7 +44,7 @@ permalink: /resources/
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="meta">
-                  <strong>Tag:</strong> {{ post.tags | join ", " }}
+                  <strong>Tags:</strong> {{ post.tags | sort | join ", " }}
                 </div>
               </div>
             </div>
