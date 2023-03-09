@@ -1,4 +1,8 @@
-
+---
+title: How to write a great Python Conference Talk Proposal
+author: Jesper Dramsch
+layout: post
+---
 
 Writing a good conference proposal can be challenging. Still, some key elements can help make your proposal stand out. Here are five essential components of a successful conference proposal.
 
