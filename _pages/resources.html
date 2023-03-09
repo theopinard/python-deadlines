@@ -1,0 +1,70 @@
+---
+permalink: /resources/
+---
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                  <h1>
+                    Resources for Writing top-notch CfPs
+                  </h1>
+                </div>
+                <div class="meta col-12">
+                  Python deadlines curates your favourite Python conferences. Here are some resources that might make your CfP more successful!
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="meta col-12">
+                Is your favourite conference missing? Add / edit a conference by <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">sending in a pull request</a>.<br>
+              </div>
+            </div>
+        </div>
+        <div id="confs">
+        <div id="past_confs">
+          {% for post in site.posts %}
+          <div id="{{conf.id}}" class="ConfItem">
+            <div class="row conf-row">
+                <div class="col-6">
+                  <span class="conf-title">
+                      <a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
+                  </span>
+                  <span class="conf-title-small">
+                      <a title="{{post.title}}" href="{{post.url}}">{{post.title}}</a>
+                  </span>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-date">{{post.excerpt}}.</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                {% assign subs = conf.sub | split: "," %}
+                {% for sub in subs %}
+                <span title="{{sub | strip}}" data-sub="{{sub | strip}}" class="badge badge-light {{sub | strip}}-tag"></span>
+                {% endfor %}
+              </div>
+            </div>
+            <hr>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <footer>
+            {% include footer.html %}
+      </footer>
+      <br><br>
+    </div>
+  </body>
+</html>

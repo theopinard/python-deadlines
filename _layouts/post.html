@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                  <h1>
+                    {{ page.title }}
+                  </h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="meta col-12">
+                {{ page.date | date_to_string }} - {{page.author}}
+              </div>
+            </div>
+        </div>
+        <div id="confs">
+        {{ content }}
+        </div>
+      </div>
+      <footer>
+            {% include footer.html %}
+      </footer>
+      <br><br>
+    </div>
+  </body>
+</html>
