@@ -17,7 +17,7 @@ Additionally, if you're an expert in a specific field, such as machine learning 
 Another way to get to speak at Python conferences is to submit a proposal to a Call for Proposals (CfP). Most conferences open up CfPs several months before the event, and anyone can submit a proposal.
 When submitting a proposal, it's essential to remember that conference organizers seek original and engaging talks that appeal to a diverse audience. Ensure your submission is well-written, clear, and concise and addresses a topic relevant and interesting to the Python community.
 
-Here are a few [tips for submitting a successful proposal](/resources/how-to-write-a-great-python-conference-talk-proposal/):
+Here are a few [tips for submitting a successful proposal](/resources/good-conference-talk-proposals/):
 - Choose a topic you're passionate about and have expertise in.
 - Make sure your proposal is relevant to the conference theme or focus.
 - Write a compelling title and summary that will grab the attention of conference organizers and attendees.

@@ -44,15 +44,13 @@ permalink: /resources/
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{post.excerpt}}.</span>
+                  <strong>Tag:</strong> {{ post.tags | join ", " }}
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-6">
-                {% for sub in post.tags %}
-                <span title="{{sub | strip}}" data-sub="{{sub | strip}}" class="badge badge-light {{sub | strip}}-tag"></span>
-                {% endfor %}
+              <div class="col-12 col-sm-6">
+                <span class="conf-date">{{post.excerpt}}</span>
               </div>
             </div>
             <hr>

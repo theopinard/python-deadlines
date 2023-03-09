@@ -24,7 +24,7 @@ The submission process for a CfP typically involves preparing a proposal or abst
 
 Some academic CfPs may require a full paper submission, while others may ask for a short abstract or a summary. 
 
-Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/9-common-pitfalls-that-get-your-python-conference-talk-proposal-rejected/) of promising solely future work.
+Python CfPs rarely require the submission of full materials, as they do not publish papers. However, it is vital to avoid the [common pitfall](/resources/common-pitfalls/) of promising solely future work.
 
 ## Conclusion
 
