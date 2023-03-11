@@ -2,6 +2,7 @@ title: Python Conference Deadlines # (Maintained by @jesperdramsch)
 description: Countdowns to your favourite Python conferences
 author: Jesper Dramsch
 
+url: "https://pythondeadlin.es"
 domain: "pythondeadlin.es"
 baseurl: "/"
 
@@ -20,3 +21,6 @@ collections:
   posts:
     output: true
     permalink: /resources/:title/index:output_ext
+
+plugins:
+  - jekyll-sitemap
