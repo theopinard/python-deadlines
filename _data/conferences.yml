@@ -318,3 +318,15 @@
   timezone: Europe/Lisbon
   place: Porto, Portugal
   sub: PY
+
+- title: PyCon UK
+  year: 2023
+  id: pyconUK23
+  link: https://2023.pyconuk.org/
+  cfp: TBA
+  start: 2023-09-22
+  end: 2023-09-25
+  date: September 22 - 25, 2023
+  timezone: Europe/London
+  place: Cardiff, United Kingdom
+  sub: PY
