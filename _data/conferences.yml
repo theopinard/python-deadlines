@@ -243,3 +243,16 @@
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
   sub: PYDATA
+
+- title: PyCon Estonia
+  year: 2023
+  id: pyconestonia23
+  link: https://pycon.ee/
+  cfplink: https://pyconestonia.typeform.com/to/hBOEtTQ3?typeform-source=pythondeadlin.es
+  cfp: '2023-04-21 23:59:59'
+  start: 2023-09-07
+  end: 2023-09-08
+  date: September 07 - 08, 2023
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  sub: PY
