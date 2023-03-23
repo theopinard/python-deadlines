@@ -268,3 +268,16 @@
   date: September 02 - 03, 2023
   place: Taiwan
   sub: PY
+
+- title: PyCon Israel
+  year: 2023
+  id: pyconisrael2023
+  link: https://2023.pycon.org.il/
+  cfplink: https://cfp.pycon.org.il/conference2023/cfp
+  cfp: '2023-03-26 23:59:59'
+  start: 2023-07-04
+  end: 2023-07-05
+  date: July 04 - 05, 2023
+  timezone: Asia/Jerusalem
+  place: TBA, Israel
+  sub: PY
