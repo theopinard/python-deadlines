@@ -330,3 +330,15 @@
   timezone: Europe/London
   place: Cardiff, United Kingdom
   sub: PY
+
+- title: PyCon Brasil
+  year: 2023
+  id: pyconBR23
+  link: https://2023.pythonbrasil.org.br/
+  cfp: TBA
+  start: 2023-10-30
+  end: 2023-11-05
+  date: October 30 - November 05, 2023
+  timezone: America/Manaus
+  place: Caxias do Sul, Brasil
+  sub: PY
