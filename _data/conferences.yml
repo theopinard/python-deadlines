@@ -13,6 +13,32 @@
   place: North Carolina, USA
   sub: WEB
 
+- title: euroSciPy
+  year: 2023
+  id: scipyEU23
+  link: https://euroscipy.org/2023/
+  cfplink: https://euroscipy.org/2023/program.html
+  cfp: '2023-04-30 23:59:59'
+  start: 2023-08-14
+  end: 2023-08-18
+  date: Aug 14 - 18, 2023
+  timezone: Europe/Zurich
+  place: Basel, Switzerland
+  sub: SCIPY
+
+- title: PyCon Estonia
+  year: 2023
+  id: pyconestonia23
+  link: https://pycon.ee/
+  cfplink: https://pyconestonia.typeform.com/to/hBOEtTQ3?typeform-source=pythondeadlin.es
+  cfp: '2023-04-21 23:59:59'
+  start: 2023-09-07
+  end: 2023-09-08
+  date: September 07 - 08, 2023
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  sub: PY
+
 - title: Kiwi PyCon
   year: 2023
   id: KiwiPycon23
@@ -24,6 +50,57 @@
   date: September 15 - 17, 2022
   timezone: Pacific/Auckland
   place: Waihopai Invercargill, Aotearoa New Zealand
+  sub: PY
+
+- title: PyCon Korea
+  year: 2023
+  id: pyconKR23
+  link: https://2023.pycon.kr/
+  cfplink: https://2023.pycon.kr/cfp/apply
+  cfp: '2023-04-09 23:59:00'
+  start: 2023-08-11
+  end: 2023-08-13
+  date: August 11 - 13, 2023
+  timezone: Asia/Seoul
+  place: Seoul, South Korea
+  sub: PY
+
+- title: PyCon Taiwan
+  year: 2023
+  id: pyconTW2023
+  link: https://tw.pycon.org/
+  cfplink: https://tw.pycon.org/2023/en-us/speaking/cfp
+  cfp: '2023-03-31 23:59:59'
+  start: 2023-09-02
+  end: 2023-09-03
+  date: September 02 - 03, 2023
+  place: Taiwan
+  sub: PY
+
+- title: PyCon Poland
+  year: 2023
+  id: pyconPL23
+  link: https://pl.pycon.org/2023
+  cfplink: https://pl.pycon.org/2023/en/call-for-proposals/
+  cfp: '2023-03-27 23:59:00'
+  start: 2023-06-29
+  end: 2023-07-02
+  date: June 29 - July 2, 2023
+  timezone: Europe/Warsaw
+  place: Gliwice, Poland
+  sub: PY
+
+- title: PyCon Israel
+  year: 2023
+  id: pyconisrael2023
+  link: https://2023.pycon.org.il/
+  cfplink: https://cfp.pycon.org.il/conference2023/cfp
+  cfp: '2023-03-26 23:59:59'
+  start: 2023-07-04
+  end: 2023-07-05
+  date: July 04 - 05, 2023
+  timezone: Asia/Jerusalem
+  place: TBA, Israel
   sub: PY
 
 - title: EuroPython
@@ -63,6 +140,19 @@
   timezone: Europe/London
   place: London, UK
   sub: PYDATA
+
+- title: PyCon Colombia
+  year: 2023
+  id: pyconcolombia2023
+  link: https://2023.pycon.co/
+  cfplink: https://docs.google.com/forms/d/19-ujqnFIfEuCjh8SdB4uGjtK8f2Nc9Qmg09Y3DJf2E8/viewform?edit_requested=true
+  cfp: '2023-03-03 23:59:59'
+  start: 2023-06-09
+  end: 2023-06-11
+  date: June 09 - 11, 2023
+  timezone: America/Bogota
+  place: Online
+  sub: PY
 
 - title: SciPy US
   year: 2023
@@ -218,19 +308,6 @@
   place: Online
   sub: WEB
 
-- title: euroSciPy
-  year: 2023
-  id: scipyEU23
-  link: https://euroscipy.org/2023/
-  cfplink: https://euroscipy.org/2023/program.html
-  cfp: '2023-04-30 23:59:59'
-  start: 2023-08-14
-  end: 2023-08-18
-  date: Aug 14 - 18, 2023
-  timezone: Europe/Zurich
-  place: Basel, Switzerland
-  sub: SCIPY
-
 - title: PyData Tel Aviv
   year: 2023
   id: pydataTelAviv23
@@ -243,57 +320,6 @@
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
   sub: PYDATA
-
-- title: PyCon Estonia
-  year: 2023
-  id: pyconestonia23
-  link: https://pycon.ee/
-  cfplink: https://pyconestonia.typeform.com/to/hBOEtTQ3?typeform-source=pythondeadlin.es
-  cfp: '2023-04-21 23:59:59'
-  start: 2023-09-07
-  end: 2023-09-08
-  date: September 07 - 08, 2023
-  timezone: Europe/Tallinn
-  place: Tallinn, Estonia
-  sub: PY
-
-- title: PyCon Taiwan
-  year: 2023
-  id: pyconTW2023
-  link: https://tw.pycon.org/
-  cfplink: https://tw.pycon.org/2023/en-us/speaking/cfp
-  cfp: '2023-03-31 23:59:59'
-  start: 2023-09-02
-  end: 2023-09-03
-  date: September 02 - 03, 2023
-  place: Taiwan
-  sub: PY
-
-- title: PyCon Israel
-  year: 2023
-  id: pyconisrael2023
-  link: https://2023.pycon.org.il/
-  cfplink: https://cfp.pycon.org.il/conference2023/cfp
-  cfp: '2023-03-26 23:59:59'
-  start: 2023-07-04
-  end: 2023-07-05
-  date: July 04 - 05, 2023
-  timezone: Asia/Jerusalem
-  place: TBA, Israel
-  sub: PY
-
-- title: PyCon Colombia
-  year: 2023
-  id: pyconcolombia2023
-  link: https://2023.pycon.co/
-  cfplink: https://docs.google.com/forms/d/19-ujqnFIfEuCjh8SdB4uGjtK8f2Nc9Qmg09Y3DJf2E8/viewform?edit_requested=true
-  cfp: '2023-03-03 23:59:59'
-  start: 2023-06-09
-  end: 2023-06-11
-  date: June 09 - 11, 2023
-  timezone: America/Bogota
-  place: Online
-  sub: PY
 
 - title: PyConEs
   year: 2023
@@ -311,7 +337,7 @@
   year: 2023
   id: pyconportugal2023
   link: https://2023.pycon.pt/
-  cfp: 'TBA'
+  cfp: TBA
   start: 2023-09-07
   end: 2023-09-09
   date: September 07 - 09, 2023
@@ -341,30 +367,4 @@
   date: October 30 - November 05, 2023
   timezone: America/Manaus
   place: Caxias do Sul, Brasil
-  sub: PY
-
-- title: PyCon Korea
-  year: 2023
-  id: pyconKR23
-  link: https://2023.pycon.kr/
-  cfplink: https://2023.pycon.kr/cfp/apply
-  cfp: '2023-04-09 23:59:00'
-  start: 2023-08-11
-  end: 2023-08-13
-  date: August 11 - 13, 2023
-  timezone: Asia/Seoul
-  place: Seoul, South Korea
-  sub: PY
-
-- title: PyCon Poland
-  year: 2023
-  id: pyconPL23
-  link: https://pl.pycon.org/2023
-  cfplink: https://pl.pycon.org/2023/en/call-for-proposals/
-  cfp: '2023-03-27 23:59:00'
-  start: 2023-06-29
-  end: 2023-07-02
-  date: June 29 - July 2, 2023
-  timezone: Europe/Warsaw
-  place: Gliwice, Poland
   sub: PY
