@@ -306,3 +306,15 @@
   timezone: Europe/Madrid
   place: Tenerife, Spain
   sub: PY
+
+- title: PyCon Portugal
+  year: 2023
+  id: pyconportugal2023
+  link: https://2023.pycon.pt/
+  cfp: 'TBA'
+  start: 2023-09-07
+  end: 2023-09-09
+  date: September 07 - 09, 2023
+  timezone: Europe/Lisbon
+  place: Porto, Portugal
+  sub: PY
