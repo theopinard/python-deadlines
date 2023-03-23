@@ -355,3 +355,16 @@
   timezone: Asia/Seoul
   place: Seoul, South Korea
   sub: PY
+
+- title: PyCon Poland
+  year: 2023
+  id: pyconPL23
+  link: https://pl.pycon.org/2023
+  cfplink: https://pl.pycon.org/2023/en/call-for-proposals/
+  cfp: '2023-03-27 23:59:00'
+  start: 2023-06-29
+  end: 2023-07-02
+  date: June 29 - July 2, 2023
+  timezone: Europe/Warsaw
+  place: Gliwice, Poland
+  sub: PY
