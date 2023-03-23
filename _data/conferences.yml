@@ -256,3 +256,15 @@
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
   sub: PY
+
+- title: PyCon Taiwan
+  year: 2023
+  id: pyconTW2023
+  link: https://tw.pycon.org/
+  cfplink: https://tw.pycon.org/2023/en-us/speaking/cfp
+  cfp: '2023-03-31 23:59:59'
+  start: 2023-09-02
+  end: 2023-09-03
+  date: September 02 - 03, 2023
+  place: Taiwan
+  sub: PY
