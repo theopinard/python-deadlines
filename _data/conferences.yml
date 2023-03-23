@@ -294,3 +294,15 @@
   timezone: America/Bogota
   place: Online
   sub: PY
+
+- title: PyConEs
+  year: 2023
+  id: pycones23
+  link: https://2023.es.pycon.org/
+  cfp: TBA
+  start: 2023-10-08
+  end: 2023-10-08
+  date: October 06 - 08, 2023
+  timezone: Europe/Madrid
+  place: Tenerife, Spain
+  sub: PY
