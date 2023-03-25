@@ -3,7 +3,7 @@
 {% endif %}
 
 {% if site.ga_id %}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js/{{ site.ga_id }}"></script>
 <script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}

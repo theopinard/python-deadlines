@@ -32,7 +32,7 @@ permalink: /resources/
           {% for post in site.posts %}
           <div id="{{conf.id}}" class="ConfItem">
             <div class="row conf-row">
-                <div class="col-6">
+                <div class="col-12">
                   <span class="conf-title">
                       <a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
                   </span>
@@ -42,14 +42,14 @@ permalink: /resources/
                 </div>
             </div>
             <div class="row">
-              <div class="col-12 col-sm-6">
+              <div class="col-12">
                 <div class="meta">
                   <strong>Tags:</strong> {{ post.tags | sort | join ", " }}
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-12 col-sm-6">
+              <div class="col-12">
                 <span class="conf-date">{{post.excerpt}}</span>
               </div>
             </div>

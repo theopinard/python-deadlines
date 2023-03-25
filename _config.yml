@@ -1,10 +1,9 @@
 title: Python Conference Deadlines # (Maintained by @jesperdramsch)
-description: Countdowns to your favourite Python conferences
-author: Jesper Dramsch
+description: Countdowns to your favourite Python conferences with calls for participation and resources to submit awesome talks!
+tagline: Countdowns to your favourite Python conferences
 
 url: "https://pythondeadlin.es"
 domain: "pythondeadlin.es"
-baseurl: "/"
 
 twitter_username: jesperdramsch
 twitter_hashtag: python
@@ -24,3 +23,36 @@ collections:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-datapage-generator
+
+page_gen-dirs: true
+
+page_gen:
+- data: 'conferences'
+  template: 'conference'
+  dir: 'conference'
+  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
+  title: 'title'
+- data: 'archive'
+  template: 'conference'
+  dir: 'archive'
+  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
+  title: 'title'
+
+author:
+  name: Jesper Dramsch
+  url: https://dramsch.net
+  twitter: jesperdramsch
+
+social:
+  name: Jesper Dramsch
+  links:
+    - https://twitter.com/JesperDramsch
+    - https://www.dramsch.net/linkedin
+    - https://www.dramsch.net/mastodon
+    - https://www.dramsch.net/github
+
+twitter:
+  username: jesperdramsch
+  card: summary
