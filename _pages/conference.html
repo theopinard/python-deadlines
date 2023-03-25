@@ -125,10 +125,14 @@ permalink:  /conference/
               {% if conf.twitter %}
               $('#conf-twitter').text("@{{conf.twitter}}");
               $('#conf-twitter').attr('href', "https://twitter.com/{{conf.twitter}}");
+              {% else %}
+              $('#conf-twitter').remove();
               {% endif %}
               {% if conf.mastodon %}
               $('#conf-mastodon').text("Mastodon");
               $('#conf-mastodon').attr('href', "{{conf.mastodon}}");
+              {% else %}
+              $('#conf-mastodon').remove();
               {% endif %}
               var twitter_slug = '<a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8">';
               $('#twitter-box').html(twitter_slug);
