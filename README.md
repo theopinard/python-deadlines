@@ -30,6 +30,8 @@ To add or update a deadline:
       date: September, 18-22, 2022             # Nicely written dates of conference
       start: YYYY-MM-DD                        # Start date of conference for calendar
       end: YYYY-MM-DD                          # End date of conference for calendar
+      twitter: BestConfEver                    # Twitter handle of conference (Optional)
+      mastodon: https://mastodon.social/@bconf # Mastodon handle of conference (Optional)
       sub: PY                                  # Type of conference (see or add _data/types.yml)
       note: Important                          # In case there are extra notes about the conference (Optional)
     ```
