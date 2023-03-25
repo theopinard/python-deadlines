@@ -11,6 +11,7 @@
   date: October 15 - 20, 2023
   timezone: America/New_York
   place: North Carolina, USA
+  twitter: djangoCon
   sub: WEB
 
 - title: euroSciPy
@@ -24,6 +25,7 @@
   date: Aug 14 - 18, 2023
   timezone: Europe/Zurich
   place: Basel, Switzerland
+  twitter: euroSciPy
   sub: SCIPY
 
 - title: PyCon Estonia
@@ -37,6 +39,7 @@
   date: September 07 - 08, 2023
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
+  twitter: PyConEstonia
   sub: PY
 
 - title: Kiwi PyCon
@@ -50,6 +53,7 @@
   date: September 15 - 17, 2022
   timezone: Pacific/Auckland
   place: Waihopai Invercargill, Aotearoa New Zealand
+  twitter: KiwiPyCon
   sub: PY
 
 - title: PyCon Korea
@@ -63,6 +67,7 @@
   date: August 11 - 13, 2023
   timezone: Asia/Seoul
   place: Seoul, South Korea
+  twitter: PyConKR
   sub: PY
 
 - title: PyCon Taiwan
@@ -75,6 +80,7 @@
   end: 2023-09-03
   date: September 02 - 03, 2023
   place: Taiwan
+  twitter: PyConTW
   sub: PY
 
 - title: PyCon Poland
@@ -88,6 +94,7 @@
   date: June 29 - July 2, 2023
   timezone: Europe/Warsaw
   place: Gliwice, Poland
+  twitter: PyConPL
   sub: PY
 
 - title: PyCon Israel
@@ -101,6 +108,7 @@
   date: July 04 - 05, 2023
   timezone: Asia/Jerusalem
   place: TBA, Israel
+  twitter: PyConIL
   sub: PY
 
 - title: EuroPython
@@ -113,6 +121,7 @@
   end: 2023-07-23
   date: July 17 - 23, 2023
   place: Prague, Czech Republic
+  twitter: EuroPython
   sub: PY
 
 - title: PyCon Lithuania
@@ -126,6 +135,7 @@
   date: May 17 - 20, 2023
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
+  twitter: PyConLT
   sub: PY
 
 - title: PyData London
@@ -139,6 +149,7 @@
   date: June 2 - 4, 2023
   timezone: Europe/London
   place: London, UK
+  twitter: PyDataLondon
   sub: PYDATA
 
 - title: PyCon Colombia
@@ -152,6 +163,7 @@
   date: June 09 - 11, 2023
   timezone: America/Bogota
   place: Online
+  twitter: PyConColombia
   sub: PY
 
 - title: SciPy US
@@ -165,6 +177,7 @@
   date: July 10 - 16, 2023
   timezone: America/Chicago
   place: Austin, Texas, United States
+  twitter: SciPyConf
   sub: SCIPY
 
 - title: DjangoCon Europe
@@ -177,6 +190,7 @@
   end: 2023-06-02
   date: May 29 - June 02, 2023
   place: Edinburgh, Scotland
+  twitter: DjangoConEurope
   sub: WEB
 
 - title: PyData Seattle
@@ -190,6 +204,7 @@
   date: April 26 - 28, 2023
   timezone: America/Los_Angeles
   place: Seattle, USA
+  twitter: PyDataSeattle
   sub: PYDATA
 
 - title: PyCon Italia
@@ -201,6 +216,8 @@
   end: 2023-05-28
   date: May 25 - 28, 2023
   place: Florence, Italy
+  twitter: PyConIT
+  mastodon: https://social.python.it/@pycon
   sub: PY
 
 - title: PyCon France
@@ -213,6 +230,8 @@
   date: February 16 - 19, 2023
   place: Bordeaux, France
   timezone: Europe/Paris
+  twitter: PyConFR
+  mastodon: https://mamot.fr/@AFPy
   sub: PY
 
 - title: PyCon Namibia
@@ -225,6 +244,7 @@
   date: February 21 - 23, 2023
   place: Windhoek, Namibia
   timezone: Africa/Windhoek
+  twitter: PyConNA
   sub: PY
 
 - title: PyCon DE & PyData Berlin
@@ -237,6 +257,7 @@
   date: April 17 - 19, 2023
   timezone: Europe/Berlin
   place: Berlin, Germany
+  twitter: PyConDE
   sub: PY,PYDATA
 
 - title: PyCon Philippines
@@ -249,6 +270,7 @@
   date: February 25 - 26, 2022
   timezone: Asia/Manila
   place: Manila, Philippines
+  twitter: PyConPH
   sub: PY
 
 - title: JupyterCon
@@ -260,6 +282,7 @@
   end: 2023-05-12
   date: May 10 - 12, 2023
   place: Paris, France
+  twitter: jupyterCon
   sub: PY
 
 - title: GeoPython
@@ -271,6 +294,7 @@
   end: 2023-03-08
   date: March 06 - 08, 2023
   place: Basel, Switzerland
+  twitter: GeoPythonConf
   sub: PY
 
 - title: PyCon US
@@ -282,6 +306,8 @@
   end: 2023-04-28
   date: April 19 - 28, 2023
   place: Salt Lake City, Utah, USA
+  twitter: pycon
+  mastodon: https://fosstodon.org/@pycon
   sub: PY
 
 - title: PyCascades
@@ -294,6 +320,8 @@
   date: March 18 - 19, 2023
   place: Vancouver, Canada
   timezone: America/Vancouver
+  twitter: pyCascades
+  mastodon: https://fosstodon.org/@pycascades
   sub: PY
 
 - title: Python Web Conference
@@ -306,6 +334,7 @@
   date: March 13 - 17, 2023
   timezone: UTC+0
   place: Online
+  twitter: PythonWebConf
   sub: WEB
 
 - title: PyData Tel Aviv
@@ -319,6 +348,7 @@
   date: November 14th, 2023
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
+  twitter: PyDataTLV
   sub: PYDATA
 
 - title: PyConEs
@@ -331,6 +361,8 @@
   date: October 06 - 08, 2023
   timezone: Europe/Madrid
   place: Tenerife, Spain
+  twitter: PyConES
+  mastodon: https://fosstodon.org/@pycones
   sub: PY
 
 - title: PyCon Portugal
@@ -343,6 +375,7 @@
   date: September 07 - 09, 2023
   timezone: Europe/Lisbon
   place: Porto, Portugal
+  twitter: PyConPT
   sub: PY
 
 - title: PyCon UK
@@ -355,6 +388,7 @@
   date: September 22 - 25, 2023
   timezone: Europe/London
   place: Cardiff, United Kingdom
+  twitter: PyConUK
   sub: PY
 
 - title: PyCon Brasil
@@ -367,4 +401,5 @@
   date: October 30 - November 05, 2023
   timezone: America/Manaus
   place: Caxias do Sul, Brasil
+  twitter: PyConBrasil
   sub: PY
