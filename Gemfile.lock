@@ -71,7 +71,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-datapage-generator
-  jekyll-geocode (~> 0.2)
   jekyll-maps
   jekyll-seo-tag
   jekyll-sitemap
