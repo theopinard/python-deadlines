@@ -9,6 +9,4 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-datapage-generator'
     gem 'jekyll-maps'
-    gem 'jekyll-geocode'
 end
-

@@ -11,6 +11,9 @@
   timezone: Europe/Amsterdam
   place: Eindhoven, Netherlands
   sub: PYDATA
+  location:
+    latitude: 51.44855695
+    longitude: 5.450122521857143
 
 - title: PyCon Bolivia
   year: 2022
@@ -23,6 +26,9 @@
   place: Cochabamba, Bolivia
   timezone: America/La_Paz
   sub: PY
+  location:
+    latitude: -17.401245799999998
+    longitude: -66.16756808852
 
 - title: Pyjamas Conf
   year: 2022
@@ -36,6 +42,9 @@
   sub: PY
   full_name: Laziest Conference ever
   note: Support any language of talks
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: Pydata Global
   year: 2022
@@ -48,6 +57,9 @@
   timezone: UTC
   place: Online
   sub: PYDATA
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: PyData Tel Aviv
   year: 2022
@@ -60,6 +72,9 @@
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
   sub: PYDATA
+  location:
+    latitude: 32.0852997
+    longitude: 34.7818064
 
 - title: PyCon Sweden
   year: 2022
@@ -72,6 +87,9 @@
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
   sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
 
 - title: PyCon Ireland
   year: 2022
@@ -84,6 +102,9 @@
   timezone: Europe/Dublin
   place: Dublin, Ireland
   sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - title: Pydata NYC
   year: 2022
@@ -96,6 +117,9 @@
   timezone: America/New_York
   place: New York, NY, USA
   sub: PYDATA
+  location:
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - title: PyCon ZA
   year: 2022
@@ -107,6 +131,9 @@
   date: October 13 - 14, 2022
   place: Durban, South Africa
   sub: PY
+  location:
+    latitude: -29.861825
+    longitude: 31.009909
 
 - title: PyCon Poland
   year: 2022
@@ -119,6 +146,9 @@
   timezone: Europe/Warsaw
   place: Gliwice, Poland
   sub: PY
+  location:
+    latitude: 50.294113
+    longitude: 18.6657306
 
 - title: Pydata Miami
   year: 2022
@@ -131,6 +161,9 @@
   timezone: America/New_York
   place: Miami, Florida, USA
   sub: PYDATA
+  location:
+    latitude: 25.7741728
+    longitude: -80.19362
 
 - title: PyCon Ghana
   year: 2022
@@ -143,6 +176,9 @@
   timezone: Africa/Accra
   place: Accra, Ghana
   sub: PY
+  location:
+    latitude: 5.5571096
+    longitude: -0.2012376
 
 - title: Python at Scale
   year: 2022
@@ -167,6 +203,9 @@
   timezone: America/Argentina/Buenos_Aires
   place: Salta, Argentina
   sub: SCIPY
+  location:
+    latitude: -25.1076701
+    longitude: -64.3494964
 
 - title: PyCon Korea
   year: 2022
@@ -179,6 +218,9 @@
   timezone: Asia/Seoul
   place: South Korea
   sub: PY
+  location:
+    latitude: 36.638392
+    longitude: 127.6961188
 
 - title: PyCon Brasil
   year: 2022
@@ -191,6 +233,9 @@
   timezone: America/Manaus
   place: Manaus, Brasil
   sub: PY
+  location:
+    latitude: -3.1316333
+    longitude: -59.9825041
 
 - title: PyCon UK
   year: 2022
@@ -203,6 +248,9 @@
   timezone: Europe/London
   place: Cardiff, United Kingdom
   sub: PY
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
 
 - title: PyCon Portugal
   year: 2022
@@ -215,6 +263,9 @@
   timezone: Europe/Lisbon
   place: Porto, Portugal
   sub: PY
+  location:
+    latitude: 41.1494512
+    longitude: -8.6107884
 
 - title: PyCon Slovakia
   year: 2022
@@ -227,6 +278,9 @@
   timezone: Europe/Bratislava
   place: Bratislava, Slovakia
   sub: PY
+  location:
+    latitude: 48.1516988
+    longitude: 17.1093063
 
 - title: Pydata Yerevan
   year: 2022
@@ -239,6 +293,9 @@
   timezone: Asia/Yerevan
   place: Yerevan, Armenia
   sub: PYDATA
+  location:
+    latitude: 40.1777112
+    longitude: 44.5126233
 
 - title: PyBay
   year: 2022
@@ -251,6 +308,9 @@
   timezone: America/Los_Angeles
   place: San Francisco, USA
   sub: PY
+  location:
+    latitude: 37.7790262
+    longitude: -122.419906
 
 - title: euroSciPy
   year: 2022
@@ -263,6 +323,9 @@
   timezone: Europe/Zurich
   place: Basel, Switzerland
   sub: SCIPY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
 
 - title: PyCon Japan
   year: 2022
@@ -274,6 +337,9 @@
   date: October 14 - 17, 2022
   place: Tokyo, Japan
   sub: PY
+  location:
+    latitude: 35.6812665
+    longitude: 139.757653
 
 - title: DjangoCon US
   year: 2022
@@ -286,6 +352,9 @@
   timezone: America/Los_Angeles
   place: San Diego, USA
   sub: WEB
+  location:
+    latitude: 32.7174202
+    longitude: -117.1627728
 
 - title: DjangoCon Europe
   year: 2022
@@ -298,6 +367,9 @@
   timezone: Europe/Lisbon
   place: Porto, Portugal
   sub: WEB
+  location:
+    latitude: 41.1494512
+    longitude: -8.6107884
 
 - title: PyConEs
   year: 2022
@@ -310,6 +382,9 @@
   timezone: Europe/Madrid
   place: Granada, Spain
   sub: PY
+  location:
+    latitude: 37.1734995
+    longitude: -3.5995337
 
 - title: PyCon LT
   year: 2022
@@ -318,10 +393,13 @@
   cfp: '2022-05-07 23:59:00'
   start: 2022-05-26
   end: 2022-05-28
-  date: "May 26 \u2013 28, 2022"
+  date: May 26 - 28, 2022
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
   sub: PY
+  location:
+    latitude: 54.6870458
+    longitude: 25.2829111
 
 - title: PyCon Colombia
   year: 2022
@@ -334,6 +412,9 @@
   timezone: America/Bogota
   place: Online
   sub: PY
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: PyCon Israel
   year: 2022
@@ -346,6 +427,9 @@
   timezone: Asia/Jerusalem
   place: Ramat-Gan, Israel
   sub: PY
+  location:
+    latitude: 32.0686867
+    longitude: 34.8246812
 
 - title: PyCon APAC
   year: 2022
@@ -357,6 +441,9 @@
   date: September 03 - 05, 2022
   place: Taiwan
   sub: PY
+  location:
+    latitude: 23.9739374
+    longitude: 120.9820179
 
 - title: PyCon Kenya Conference
   year: 2022
@@ -369,6 +456,9 @@
   timezone: Africa/Nairobi
   place: Nairobi, Kenia
   sub: PY
+  location:
+    latitude: -1.2832533
+    longitude: 36.8172449
 
 - title: EuroPython
   year: 2022
@@ -377,9 +467,12 @@
   cfp: '2022-04-03 23:59:59'
   start: 2022-07-11
   end: 2022-07-18
-  date: "July 11 \u2013 18, 2022"
+  date: July 11 - 18, 2022
   place: Dublin, Ireland
   sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - title: PyCon Estonia
   year: 2022
@@ -392,6 +485,9 @@
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
   sub: PY
+  location:
+    latitude: 59.4372155
+    longitude: 24.7453688
 
 - title: GeoPython
   year: 2022
@@ -400,7 +496,7 @@
   cfp: '2022-02-28 12:00:00'
   start: 2022-06-20
   end: 2022-06-23
-  date: "June 20 \u2013 23, 2022"
+  date: June 20 - 23, 2022
   place: Basel, Switzerland & Online
   sub: PY
 
@@ -415,6 +511,9 @@
   timezone: America/Chicago
   place: Austin, Texas, United States
   sub: SCIPY
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
 
 - title: PyCon Iran
   year: 2022
@@ -425,7 +524,7 @@
   end: 2022-02-19
   date: February 16 - 19, 2022
   timezone: Asia/Tehran
-  place: null
+  place: Online / Cancelled
   sub: PY
 
 - title: PyCon Italy
@@ -438,6 +537,9 @@
   date: June 02 - 06, 2022
   place: Florence, Italy
   sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - title: PyCon DE & PyData Berlin
   year: 2022
@@ -446,10 +548,13 @@
   cfp: '2022-01-16 23:59:59'
   start: 2022-04-11
   end: 2022-04-14
-  date: "April 11 \u2013 14, 2022"
+  date: April 11 - 14, 2022
   timezone: Europe/Berlin
   place: Berlin, Germany
   sub: PY,PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
 
 - title: Scipy India
   year: 2021
@@ -462,6 +567,9 @@
   timezone: Asia/Kolkata
   place: Online
   sub: SCIPY
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: PyCon US
   year: 2022
@@ -470,9 +578,12 @@
   cfp: '2021-12-20 23:59:00'
   start: 2022-04-27
   end: 2022-05-03
-  date: "April 27 \u2013 May 3, 2022"
+  date: April 27 - May 3, 2022
   place: Salt Lake City, US
   sub: PY
+  location:
+    latitude: 40.7596198
+    longitude: -111.886797
 
 - title: Kiwi PyCon XI
   year: 2022
@@ -483,8 +594,11 @@
   end: 2022-08-21
   date: August 19-21, 2022
   timezone: Pacific/Auckland
-  place: "\u014Ctautahi Christchurch, New Zealand"
+  place: Otautahi Christchurch, New Zealand
   sub: PY
+  location:
+    latitude: -43.530955
+    longitude: 172.6366455
 
 - title: Python Web Conference
   year: 2022
@@ -493,10 +607,13 @@
   cfp: '2021-11-01 23:59:59'
   start: 2022-03-21
   end: 2022-03-26
-  date: "March 21 \u2013 26, 2022"
+  date: March 21 - 26, 2022
   timezone: UTC+0
   place: Online
   sub: WEB
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: PyCascades Remote
   year: 2022
@@ -505,9 +622,12 @@
   cfp: '2021-10-24 23:59:59'
   start: 2022-02-05
   end: 2022-02-07
-  date: "February 05 \u2013 07, 2022"
+  date: February 05 - 07, 2022
   place: Online
   sub: PY
+  location:
+    latitude: 43.59047185
+    longitude: 3.8595132132013186
 
 - title: euroSciPy
   year: 2019
@@ -520,3 +640,6 @@
   timezone: Europe/Madrid
   place: Bilbao, Spain
   sub: SCIPY
+  location:
+    latitude: 43.2630018
+    longitude: -2.9350039

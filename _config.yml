@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-datapage-generator
+  - jekyll-maps
 
 page_gen-dirs: true
 
@@ -56,3 +57,7 @@ social:
 twitter:
   username: jesperdramsch
   card: summary
+
+maps:
+  google:
+    api_key: AIzaSyCEJ_S3OFxqrOfgx5WdSEMl8hxzgTFEw20

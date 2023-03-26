@@ -21,21 +21,25 @@ To add or update a deadline:
       id: bestconf22                           # title as lower case + last two digits of year
       full_name: Best Conference for Anything  # Full conference name (Optional)
       link: link-to-website.com                # URL to conference
-      cfplink: link-to-cfp.com                 # URL to call for proposals (Optional)
+      cfp_link: link-to-cfp.com                 # URL to call for proposals (Optional)
       cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
       workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
       tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
       timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)
       place: Incheon, South Korea              # City, Country
-      date: September, 18-22, 2022             # Nicely written dates of conference
+      date: September 18 - 22, 2022             # Nicely written dates of conference
       start: YYYY-MM-DD                        # Start date of conference for calendar
       end: YYYY-MM-DD                          # End date of conference for calendar
       twitter: BestConfEver                    # Twitter handle of conference (Optional)
       mastodon: https://mastodon.social/@bconf # Mastodon handle of conference (Optional)
       sub: PY                                  # Type of conference (see or add _data/types.yml)
       note: Important                          # In case there are extra notes about the conference (Optional)
+      location:                                # Geolocation for inclusion in map
+        latitude: 0.00
+        longitude: 0.00
     ```
 - Send a pull request
+
 
 ## Forks & other useful listings
 

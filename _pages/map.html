@@ -1,0 +1,39 @@
+---
+permalink: /map/
+---
+<html>
+
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+
+    {% include header.html %}
+    <div class="container">
+      <br>
+      <h1>Map Overview of Conferences</h1>
+      <div class="row">
+        <div class="meta col-sm-12">
+          Overview of deadlines and conference dates on a map.
+          Also, <a href="/">countdowns</a> to Python conference deadlines.
+        </div>
+        <br>
+      </div>
+
+      <br>
+
+      <!-- Filter Form -->
+      <div class="row">
+        {% google_map width="100%" zoom="2" id="places" src="_data/conferences.yml" no_cluster %}
+      </div>
+      <hr>
+      <footer>
+        {% include footer.html %}
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>

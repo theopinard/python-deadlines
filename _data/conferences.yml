@@ -13,6 +13,9 @@
   place: North Carolina, USA
   twitter: djangoCon
   sub: WEB
+  location:
+    latitude: 35.6729639
+    longitude: -79.0392919
 
 - title: euroSciPy
   year: 2023
@@ -27,6 +30,9 @@
   place: Basel, Switzerland
   twitter: euroSciPy
   sub: SCIPY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
 
 - title: PyCon Estonia
   year: 2023
@@ -41,6 +47,9 @@
   place: Tallinn, Estonia
   twitter: PyConEstonia
   sub: PY
+  location:
+    latitude: 59.4372155
+    longitude: 24.7453688
 
 - title: Kiwi PyCon
   year: 2023
@@ -55,6 +64,9 @@
   place: Waihopai Invercargill, Aotearoa New Zealand
   twitter: KiwiPyCon
   sub: PY
+  location:
+    latitude: -46.4099902
+    longitude: 168.3507773
 
 - title: PyCon Korea
   year: 2023
@@ -69,6 +81,9 @@
   place: Seoul, South Korea
   twitter: PyConKR
   sub: PY
+  location:
+    latitude: 37.5666791
+    longitude: 126.9782914
 
 - title: PyCon Taiwan
   year: 2023
@@ -82,6 +97,9 @@
   place: Taiwan
   twitter: PyConTW
   sub: PY
+  location:
+    latitude: 23.9739374
+    longitude: 120.9820179
 
 - title: PyCon Poland
   year: 2023
@@ -96,6 +114,9 @@
   place: Gliwice, Poland
   twitter: PyConPL
   sub: PY
+  location:
+    latitude: 50.294113
+    longitude: 18.6657306
 
 - title: PyCon Israel
   year: 2023
@@ -107,9 +128,12 @@
   end: 2023-07-05
   date: July 04 - 05, 2023
   timezone: Asia/Jerusalem
-  place: TBA, Israel
+  place: Israel
   twitter: PyConIL
   sub: PY
+  location:
+    latitude: 30.8124247
+    longitude: 34.8594762
 
 - title: EuroPython
   year: 2023
@@ -123,6 +147,9 @@
   place: Prague, Czech Republic
   twitter: EuroPython
   sub: PY
+  location:
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - title: PyCon Lithuania
   year: 2023
@@ -137,6 +164,9 @@
   place: Vilnius, Lithuania
   twitter: PyConLT
   sub: PY
+  location:
+    latitude: 54.6870458
+    longitude: 25.2829111
 
 - title: PyData London
   year: 2023
@@ -151,6 +181,9 @@
   place: London, UK
   twitter: PyDataLondon
   sub: PYDATA
+  location:
+    latitude: 51.5073359
+    longitude: -0.12765
 
 - title: PyCon Colombia
   year: 2023
@@ -179,6 +212,9 @@
   place: Austin, Texas, United States
   twitter: SciPyConf
   sub: SCIPY
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
 
 - title: DjangoCon Europe
   year: 2023
@@ -192,6 +228,9 @@
   place: Edinburgh, Scotland
   twitter: DjangoConEurope
   sub: WEB
+  location:
+    latitude: 55.9533456
+    longitude: -3.1883749
 
 - title: PyData Seattle
   year: 2023
@@ -206,6 +245,9 @@
   place: Seattle, USA
   twitter: PyDataSeattle
   sub: PYDATA
+  location:
+    latitude: 47.6038321
+    longitude: -122.330062
 
 - title: PyCon Italia
   year: 2023
@@ -219,6 +261,9 @@
   twitter: PyConIT
   mastodon: https://social.python.it/@pycon
   sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - title: PyCon France
   year: 2023
@@ -233,6 +278,9 @@
   twitter: PyConFR
   mastodon: https://mamot.fr/@AFPy
   sub: PY
+  location:
+    latitude: 44.841225
+    longitude: -0.5800364
 
 - title: PyCon Namibia
   year: 2023
@@ -246,6 +294,9 @@
   timezone: Africa/Windhoek
   twitter: PyConNA
   sub: PY
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
 
 - title: PyCon DE & PyData Berlin
   year: 2023
@@ -259,6 +310,9 @@
   place: Berlin, Germany
   twitter: PyConDE
   sub: PY,PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
 
 - title: PyCon Philippines
   year: 2023
@@ -272,6 +326,9 @@
   place: Manila, Philippines
   twitter: PyConPH
   sub: PY
+  location:
+    latitude: 14.5948914
+    longitude: 120.9782618
 
 - title: JupyterCon
   year: 2023
@@ -284,6 +341,9 @@
   place: Paris, France
   twitter: jupyterCon
   sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
 
 - title: GeoPython
   year: 2023
@@ -296,6 +356,9 @@
   place: Basel, Switzerland
   twitter: GeoPythonConf
   sub: PY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
 
 - title: PyCon US
   year: 2023
@@ -309,6 +372,9 @@
   twitter: pycon
   mastodon: https://fosstodon.org/@pycon
   sub: PY
+  location:
+    latitude: 40.7596198
+    longitude: -111.886797
 
 - title: PyCascades
   year: 2023
@@ -323,6 +389,9 @@
   twitter: pyCascades
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
+  location:
+    latitude: 49.2608724
+    longitude: -123.113952
 
 - title: Python Web Conference
   year: 2023
@@ -350,6 +419,9 @@
   place: Tel Aviv, Israel
   twitter: PyDataTLV
   sub: PYDATA
+  location:
+    latitude: 32.0852997
+    longitude: 34.7818064
 
 - title: PyConEs
   year: 2023
@@ -364,6 +436,9 @@
   twitter: PyConES
   mastodon: https://fosstodon.org/@pycones
   sub: PY
+  location:
+    latitude: 28.2935785
+    longitude: -16.621447121144122
 
 - title: PyCon Portugal
   year: 2023
@@ -377,6 +452,9 @@
   place: Porto, Portugal
   twitter: PyConPT
   sub: PY
+  location:
+    latitude: 41.1494512
+    longitude: -8.6107884
 
 - title: PyCon UK
   year: 2023
@@ -390,6 +468,9 @@
   place: Cardiff, United Kingdom
   twitter: PyConUK
   sub: PY
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
 
 - title: PyCon Brasil
   year: 2023
@@ -403,3 +484,6 @@
   place: Caxias do Sul, Brasil
   twitter: PyConBrasil
   sub: PY
+  location:
+    latitude: -29.1684951
+    longitude: -51.1796197

@@ -7,12 +7,16 @@
 import datetime
 import pdb
 import sys
+import time
+import urllib
 from builtins import input
 from pathlib import Path
 from shutil import copyfile
 
 import pytz
+import requests
 import yaml
+from tqdm import tqdm
 
 try:
     # for python newer than 2.7
@@ -112,10 +116,10 @@ def sort_by_date_passed(data):
 
 def split_data(data):
     conf, tba, expired = [], [], []
-    for q in data:
+    for q in tqdm(data):
         if q.get("end", datetime.datetime.utcnow().replace(microsecond=0).date()) < datetime.datetime.utcnow().replace(
             microsecond=0
-        ).date() - datetime.timedelta(days=66):
+        ).date() - datetime.timedelta(days=37):
             expired.append(q)
             continue
 
@@ -138,21 +142,43 @@ def pretty_print(header, conf, tba=None, expired=None):
             print("\n")
 
 
+def add_latlon(data):
+    for i, q in tqdm(enumerate(data.copy()), total = len(data)):
+        if ("location" in q) or ("place" not in q) and ("online" in q["place"].lower()):
+            continue
+        else:
+            url = "https://nominatim.openstreetmap.org/search/" + urllib.parse.quote(q["place"]) + "?format=json"
+            response = requests.get(url).json()
+            if response:
+                data[i]["location"] = {}
+                data[i]["location"]["latitude"] = float(response[0]["lat"])
+                data[i]["location"]["longitude"] = float(response[0]["lon"])
+                time.sleep(2)
+    return data
+
+
 # Sort:
 def sort_data(base=""):
     url = Path(base, "_data", "conferences.yml")
-    out_url = Path(base, "utils", "sorted_data.yml")
+    out_url = Path(base, "utils", "sorted_conferences.yml")
     archive = Path(base, "_data", "archive.yml")
     out_archive = Path(base, "utils", "sorted_archive.yml")
 
     with open(url, "r") as stream:
         try:
             data = yaml.load(stream, Loader=Loader)
+            
             print("Initial Sorting:")
             for q in data:
                 print(q["cfp"], " - ", q["title"])
             print("\n\n")
 
+            # Geocode Data
+            print("Adding Lat Lon from Place")
+            data = add_latlon(data)
+
+            # Split data by cfp
+            print("Splitting conferences, tba, and archive")
             conf, tba, expired = split_data(data)
 
             # just sort:
@@ -174,14 +200,12 @@ def sort_data(base=""):
         try:
             data = yaml.load(stream, Loader=Loader)
 
-            pretty_print("Old archive:", data)
-
             data += expired
 
             data.sort(key=sort_by_cfp, reverse=True)
+            data = add_latlon(data)
 
             pretty_print("New archive:", data)
-
             with open(out_archive, "w") as outfile:
                 for line in ordered_dump(
                     data, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True
