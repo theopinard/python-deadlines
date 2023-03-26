@@ -144,7 +144,7 @@ def pretty_print(header, conf, tba=None, expired=None):
 
 def add_latlon(data):
     for i, q in tqdm(enumerate(data.copy()), total = len(data)):
-        if ("location" in q) or ("place" not in q) and ("online" in q["place"].lower()):
+        if ("location" in q) or ("place" not in q) or ("online" in q["place"].lower()):
             continue
         else:
             url = "https://nominatim.openstreetmap.org/search/" + urllib.parse.quote(q["place"]) + "?format=json"

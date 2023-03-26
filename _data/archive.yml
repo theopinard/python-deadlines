@@ -42,9 +42,6 @@
   sub: PY
   full_name: Laziest Conference ever
   note: Support any language of talks
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: Pydata Global
   year: 2022
@@ -57,9 +54,6 @@
   timezone: UTC
   place: Online
   sub: PYDATA
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: PyData Tel Aviv
   year: 2022
@@ -412,9 +406,6 @@
   timezone: America/Bogota
   place: Online
   sub: PY
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: PyCon Israel
   year: 2022
@@ -567,9 +558,6 @@
   timezone: Asia/Kolkata
   place: Online
   sub: SCIPY
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: PyCon US
   year: 2022
@@ -611,9 +599,6 @@
   timezone: UTC+0
   place: Online
   sub: WEB
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: PyCascades Remote
   year: 2022
@@ -625,9 +610,6 @@
   date: February 05 - 07, 2022
   place: Online
   sub: PY
-  location:
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - title: euroSciPy
   year: 2019
