@@ -27,20 +27,6 @@ plugins:
   - jekyll-datapage-generator
   - jekyll-maps
 
-page_gen-dirs: true
-
-page_gen:
-- data: 'conferences'
-  template: 'conference'
-  dir: 'conference'
-  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
-  title: 'title'
-- data: 'archive'
-  template: 'conference'
-  dir: 'archive'
-  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
-  title: 'title'
-
 author:
   name: Jesper Dramsch
   url: https://dramsch.net
@@ -61,3 +47,17 @@ twitter:
 maps:
   google:
     api_key: AIzaSyCEJ_S3OFxqrOfgx5WdSEMl8hxzgTFEw20
+
+page_gen-dirs: true
+
+page_gen:
+- data: 'conferences'
+  template: 'conference'
+  dir: 'conference'
+  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
+  title: 'title'
+- data: 'archive'
+  template: 'conference'
+  dir: 'archive'
+  name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
+  title: 'title'
