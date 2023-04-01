@@ -6,6 +6,8 @@ Countdown timers to keep track of a bunch of Python conference deadlines.
 
 Contributions are very welcome!
 
+![GIF of adding a conference to pythondeadlin.es](static/img/pythondeadlines-edit.gif)
+
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences.yml`
@@ -14,12 +16,16 @@ To add or update a deadline:
       (Based on [timezonefinder](https://github.com/jannikmi/timezonefinder) library)
     + Alternatively, see available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note`
-- Example:
+- Send a [pull request](_data/conferences.yml)
+
+If that is not possible you can try and submit your conference through this [Google Form](https://forms.gle/UUqiprHjRfvGp6Fs6) but that may take a second.
+
+### Example
+
     ```yaml
     - title: BestConf                          # Title of conference without year
       year: 2022                               # Year
       id: bestconf22                           # title as lower case + last two digits of year
-      full_name: Best Conference for Anything  # Full conference name (Optional)
       link: link-to-website.com                # URL to conference
       cfp_link: link-to-cfp.com                 # URL to call for proposals (Optional)
       cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
@@ -38,7 +44,41 @@ To add or update a deadline:
         latitude: 0.00
         longitude: 0.00
     ```
-- Send a pull request
+
+### Description of entries
+
+| `sub`       | Description                                        | Type    | Required |
+| ----------- | ------------------------------------------------- | ------- | -------- |
+| `title`     | Title of the conference                           | `str`   | ✔       |
+| `year`      | Year of this conference                           | `int`   | ✔       |
+| `id`        | title lower case + year                           | `str`   | ✔       |
+| `link`      | URL to conference                                 | `str`   | ✔       |
+| `cfp_link`  | URL to call for proposals                         | `str`   |          |
+| `cfp`       | Deadline for Call for Participation / Proposals   | `str`   | ✔       |
+| `workshop_deadline` | Workshop deadline if different from cfp   | `str`   |          |
+| `tutorial_deadline` | Tutorial deadline if different from cfp   | `str`   |          |
+| `timezone`  | Standard [IANA Timezones](https://timezonefinder.michelfe.it/) (Omit for AoE)            | `str`   | ✔       |
+| `place`     | City, Country                                     | `str`   | ✔       |
+| `date`      | Nicely written dates of conference                | `str`   | ✔       |
+| `start`     | Start date of conference for calendar             | `date`  | ✔       |
+| `end`       | End date of conference for calendar               | `date`  | ✔       |
+| `twitter`   | Twitter handle of conference                      | `str`   |          |
+| `mastodon`  | Mastodon handle of conference                     | `str`   |          |
+| `sub`       | Type of conference                                | `str`   |          |
+| `note`      | Extra notes about the conference                  | `str`   |          |
+| `location`  | Geolocation for inclusion in map                  | `str`   |          |
+| `latitude`  | Latitude of venue                                 | `float` |          |
+| `longitude` | Longitude of venue                                | `float` |          |
+
+
+### Conference types for `sub`
+
+| `sub`    | Category name     |
+| -------- | ----------------- |
+| `PY`     | General Python    |
+| `SCIPY`  | Scientific Python |                                              |
+| `PYDATA` | Python for Data   |
+| `WEB`    | Python for Web    |
 
 
 ## Forks & other useful listings
