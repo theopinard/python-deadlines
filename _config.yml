@@ -58,6 +58,6 @@ page_gen:
   title: 'title'
 - data: 'archive'
   template: 'conference'
-  dir: 'archive'
+  dir: 'conference'
   name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
   title: 'title'
