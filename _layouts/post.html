@@ -19,7 +19,7 @@
             <br>
             <div class="row">
               <div class="meta col-12">
-                {{page.author}} - <strong>Tags:</strong> {{ page.tags | sort | join: ", " }}
+                {{page.author}} - {% if page.tags %}<strong>Tags:</strong> {{ page.tags | sort | join: ", " }} {% endif %}
               </div>
             </div>
         </div>
