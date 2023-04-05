@@ -1,5 +1,54 @@
 ---
 
+- title: PyCon France
+  year: 2023
+  id: pyconFrance23
+  link: https://www.pycon.fr/2023/
+  cfp: '2023-01-07 23:59:59'
+  start: 2023-02-16
+  end: 2023-02-19
+  date: February 16 - 19, 2023
+  place: Bordeaux, France
+  timezone: Europe/Paris
+  twitter: PyConFR
+  mastodon: https://mamot.fr/@AFPy
+  sub: PY
+  location:
+    latitude: 44.841225
+    longitude: -0.5800364
+
+- title: PyCon Namibia
+  year: 2023
+  id: pyconnamibia23
+  link: https://na.pycon.org
+  cfp: '2023-01-06 23:59:59'
+  start: 2023-02-21
+  end: 2023-02-23
+  date: February 21 - 23, 2023
+  place: Windhoek, Namibia
+  timezone: Africa/Windhoek
+  twitter: PyConNA
+  sub: PY
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
+
+- title: PyCon Philippines
+  year: 2023
+  id: pyconphilippines2023
+  link: https://pycon.python.ph/
+  cfp: '2022-12-23 23:59:00'
+  start: 2023-02-25
+  end: 2023-02-26
+  date: February 25 - 26, 2022
+  timezone: Asia/Manila
+  place: Manila, Philippines
+  twitter: PyConPH
+  sub: PY
+  location:
+    latitude: 14.5948914
+    longitude: 120.9782618
+
 - title: Pydata Eindhoven
   year: 2022
   id: pydataEindhoven22
