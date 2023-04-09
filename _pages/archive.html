@@ -69,23 +69,23 @@ permalink: /archive/
                       <a title="{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details" href="#">{{conf.title}} '{{conf.year | slice: -2, 3}}</a>
                   </span>
                   <span class="conf-title-icon">
-                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" /></a>
+                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% if conf.cfplink %}
                   <span class="conf-title-icon">
-                    <a title="Call for Participation" href="{{conf.cfplink}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation" /></a>
+                    <a title="Call for Participation" href="{{conf.cfplink}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}
                   {% if conf.mastodon %}
                   <span class="conf-title-icon">
-                    <a title="Mastodon for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" /></a>
+                    <a title="Mastodon for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% elsif conf.twitter %}
                   <span class="conf-title-icon">
-                    <a title="Twitter for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" /></a>
+                    <a title="Twitter for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}

@@ -42,32 +42,32 @@ description: Countdown for the Call for Participation of this conference includi
       <div id="page-content">
         <div id="conf-key-facts" class="row">
           <div class="col-12">
-            <img src="/static/img/084-calendar.svg" class="badge-link" />
+            <img src="/static/img/084-calendar.svg" class="badge-link" alt="Calendar icon" width="16" height="16" />
             <span id="conf-date">{{page.date}}</span>
           </div>
           <div class="col-12">
-            <img src="/static/img/072-location.svg" class="badge-link" />
+            <img src="/static/img/072-location.svg" class="badge-link" alt="Location icon" width="16" height="16" />
             <a id="conf-place" target="_blank" href="{% if page.place == 'Online' %}#{% else %}https://maps.google.com/?q={{page.place}}{% endif %}">{{page.place}}</a>
           </div>
           <div class="col-12">
-            <img src="/static/img/203-earth.svg" class="badge-link" />
+            <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
             <a id="conf-website" target="_blank" href="{{page.link}}">{{page.link}}</a>
           </div>
           {% if page.cfplink %}
           <div class="col-12">
-            <img src="/static/img/035-file-text.svg" class="badge-link" />
+            <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for CfP link" width="16" height="16" />
             <a id="conf-cfplink" target="_blank" href="{{page.cfplink}}">Call for Participation</a>
           </div>
           {% endif %}
           {% if page.twitter %}
           <div class="col-12">
-            <img src="/static/img/407-twitter.svg" class="badge-link" />
+            <img src="/static/img/407-twitter.svg" class="badge-link" alt="Twitter icon" width="16" height="16" />
             <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
           </div>
           {% endif %}
           {% if page.mastodon %}
           <div class="col-12">
-            <img src="/static/img/407-mastodon.svg" class="badge-link" />
+            <img src="/static/img/407-mastodon.svg" class="badge-link" alt="Mastodon icon" width="16" height="16" />
             <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
           </div>
           {% endif %}
