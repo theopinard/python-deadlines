@@ -1,5 +1,40 @@
 ---
 
+- title: PyCon Portugal
+  year: 2023
+  id: pyconportugal2023
+  link: https://2023.pycon.pt/
+  cfplink: https://2023.pycon.pt/talks/cfp/
+  cfp: '2023-06-30 23:59:00'
+  start: 2023-09-07
+  end: 2023-09-09
+  date: September 07 - 09, 2023
+  timezone: UTC
+  place: Porto, Portugal
+  twitter: PyConPT
+  sub: PY
+  location:
+    latitude: 41.1494512
+    longitude: -8.6107884
+
+- title: PyConEs
+  year: 2023
+  id: pycones23
+  link: https://2023.es.pycon.org/
+  cfplink: https://charlas.2023.es.pycon.org/pycones-2023/cfp
+  cfp: '2023-06-23 23:59:00'
+  start: 2023-10-08
+  end: 2023-10-08
+  date: October 06 - 08, 2023
+  timezone: Europe/London
+  place: Tenerife, Spain
+  twitter: PyConES
+  mastodon: https://fosstodon.org/@pycones
+  sub: PY
+  location:
+    latitude: 28.2935785
+    longitude: -16.621447121144122
+
 - title: DjangoCon US
   year: 2023
   id: djangoCon2023
@@ -296,21 +331,6 @@
     latitude: 48.8588897
     longitude: 2.3200410217200766
 
-- title: GeoPython
-  year: 2023
-  id: geopython2023
-  link: https://2023.geopython.net/
-  cfp: '2022-12-16 12:00:00'
-  start: 2023-03-06
-  end: 2023-03-08
-  date: March 06 - 08, 2023
-  place: Basel, Switzerland
-  twitter: GeoPythonConf
-  sub: PY
-  location:
-    latitude: 47.6081077
-    longitude: 7.6378261
-
 - title: PyCon US
   year: 2023
   id: pyconus23
@@ -373,41 +393,6 @@
   location:
     latitude: 32.0852997
     longitude: 34.7818064
-
-- title: PyConEs
-  year: 2023
-  id: pycones23
-  link: https://2023.es.pycon.org/
-  cfplink: https://charlas.2023.es.pycon.org/pycones-2023/cfp
-  cfp: '2023-06-23 23:59:00'
-  start: 2023-10-08
-  end: 2023-10-08
-  date: October 06 - 08, 2023
-  timezone: Europe/London
-  place: Tenerife, Spain
-  twitter: PyConES
-  mastodon: https://fosstodon.org/@pycones
-  sub: PY
-  location:
-    latitude: 28.2935785
-    longitude: -16.621447121144122
-
-- title: PyCon Portugal
-  year: 2023
-  id: pyconportugal2023
-  link: https://2023.pycon.pt/
-  cfplink: https://2023.pycon.pt/talks/cfp/
-  cfp: '2023-06-31 23:59:00'
-  start: 2023-09-07
-  end: 2023-09-09
-  date: September 07 - 09, 2023
-  timezone: UTC
-  place: Porto, Portugal
-  twitter: PyConPT
-  sub: PY
-  location:
-    latitude: 41.1494512
-    longitude: -8.6107884
 
 - title: PyCon UK
   year: 2023
