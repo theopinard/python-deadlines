@@ -35,6 +35,23 @@
     latitude: 28.2935785
     longitude: -16.621447121144122
 
+- title: PyCon MEA @GlobalDevSlam
+  year: 2023
+  id: pyconMEA23
+  link: https://globaldevslam.com/
+  cfplink: https://event.globaldevslam.com/Speaker-Reg-2023
+  cfp: '2023-05-31 23:59:00'
+  start: 2023-10-16
+  end: 2023-10-20
+  date: October 16 - 20, 2023
+  timezone: Asia/Dubai
+  place: Dubai, UAE
+  twitter: GlobalDevSlam
+  sub: PY
+  location:
+    latitude: 25.074282349999997
+    longitude: 55.18853865430702
+
 - title: DjangoCon US
   year: 2023
   id: djangoCon2023
