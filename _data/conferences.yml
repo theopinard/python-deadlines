@@ -136,6 +136,23 @@
     latitude: 23.9739374
     longitude: 120.9820179
 
+- title: PyDay La Paz
+  year: 2023
+  id: pydayLaPaz23
+  link: https://pyday.pylapaz.org/
+  cfplink: https://docs.google.com/forms/d/e/1FAIpQLSefroTwKVT1FX2qXZgKu6FlsmbFcaRx-Bdd2-Tz5wV3XmzNnQ/viewform
+  cfp: '2023-03-30 23:59:00'
+  start: 2023-06-03
+  end: 2023-06-03
+  date: 3 June, 2023
+  timezone: America/La_Paz
+  place: La Paz, Bolivia
+  twitter: PyDayLaPaz
+  sub: PY
+  location:
+    latitude: -16.4955455
+    longitude: -68.1336229
+
 - title: PyCon Poland
   year: 2023
   id: pyconPL23
