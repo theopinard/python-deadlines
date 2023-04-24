@@ -94,6 +94,19 @@
     latitude: -17.401245799999998
     longitude: -66.16756808852
 
+- title: Python Web Conference
+  year: 2023
+  id: pythonwebconference2023
+  link: https://pythonwebconference.com/
+  cfp: '2022-10-01 23:00:00'
+  start: 2023-03-13
+  end: 2023-03-17
+  date: March 13 - 17, 2023
+  timezone: UTC+0
+  place: Online
+  twitter: PythonWebConf
+  sub: WEB
+
 - title: Pyjamas Conf
   year: 2022
   id: pyjamasconf22
