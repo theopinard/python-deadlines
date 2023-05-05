@@ -184,6 +184,23 @@
     latitude: 35.6729639
     longitude: -79.0392919
 
+- title: euroSciPy
+  year: 2023
+  id: scipyEU23
+  link: https://euroscipy.org/2023/
+  cfplink: https://euroscipy.org/2023/program.html
+  cfp: '2023-05-14 23:59:59'
+  start: 2023-08-14
+  end: 2023-08-18
+  date: Aug 14 - 18, 2023
+  timezone: Europe/Berlin
+  place: Basel, Switzerland
+  twitter: euroSciPy
+  sub: SCIPY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
 - title: PyCon Latam
   year: 2023
   id: pyConLatam23
@@ -216,23 +233,6 @@
   location:
     latitude: 0.3177137
     longitude: 32.5813539
-
-- title: euroSciPy
-  year: 2023
-  id: scipyEU23
-  link: https://euroscipy.org/2023/
-  cfplink: https://euroscipy.org/2023/program.html
-  cfp: '2023-04-30 23:59:59'
-  start: 2023-08-14
-  end: 2023-08-18
-  date: Aug 14 - 18, 2023
-  timezone: Europe/Zurich
-  place: Basel, Switzerland
-  twitter: euroSciPy
-  sub: SCIPY
-  location:
-    latitude: 47.5581077
-    longitude: 7.5878261
 
 - title: PyCon Estonia
   year: 2023
