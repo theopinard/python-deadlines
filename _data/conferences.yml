@@ -585,6 +585,7 @@
   end: 2023-10-06
   date: October 5 - 6, 2023
   place: Durban, South Africa
+  timezone: Africa/Johannesburg
   twitter: pyconza
   mastodon: https://fosstodon.org/@pyconza
   sub: PY
@@ -601,6 +602,7 @@
   end: 2024-05-23
   date: May 15 - 23, 2024
   place: Pittsburgh, PA, USA
+  timezone: America/New_York
   twitter: pycon
   mastodon: https://fosstodon.org/@pycon
   sub: PY
