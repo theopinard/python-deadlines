@@ -592,3 +592,15 @@
     latitude: -29.861825
     longitude: 31.009909
 
+- title: PyCon US
+  year: 2024
+  id: pyconUS24
+  link: https://us.pycon.org/2024/
+  cfp: TBA
+  start: 2024-05-15
+  end: 2024-05-23
+  date: May 15 - 23, 2024
+  place: Pittsburgh, PA, USA
+  twitter: pycon
+  mastodon: https://fosstodon.org/@pycon
+  sub: PY
