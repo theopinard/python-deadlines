@@ -64,6 +64,23 @@
     latitude: 47.6081077
     longitude: 7.6378261
 
+- title: PyCascades
+  year: 2023
+  id: pycascades23
+  link: https://2023.pycascades.com/
+  cfp: '2022-11-16 23:59:59'
+  start: 2023-03-18
+  end: 2023-03-19
+  date: March 18 - 19, 2023
+  place: Vancouver, Canada
+  timezone: America/Vancouver
+  twitter: pyCascades
+  mastodon: https://fosstodon.org/@pycascades
+  sub: PY
+  location:
+    latitude: 49.2608724
+    longitude: -123.113952
+
 - title: Pydata Eindhoven
   year: 2022
   id: pydataEindhoven22

@@ -1,5 +1,23 @@
 ---
 
+- title: PyCon ZA
+  year: 2023
+  id: pyconZA23
+  link: https://za.pycon.org/
+  cfplink: https://za.pycon.org/talks/how-to-submit-a-talk/
+  cfp: '2023-08-18 23:59:00'
+  start: 2023-10-05
+  end: 2023-10-06
+  date: October 5 - 6, 2023
+  place: Durban, South Africa
+  timezone: Africa/Johannesburg
+  twitter: pyconza
+  mastodon: https://fosstodon.org/@pyconza
+  sub: PY
+  location:
+    latitude: -29.861825
+    longitude: 31.009909
+
 - title: PyCon Portugal
   year: 2023
   id: pyconportugal2023
@@ -35,6 +53,23 @@
     latitude: 28.2935785
     longitude: -16.621447121144122
 
+- title: PyCon HK
+  year: 2023
+  id: pyconHK23
+  link: https://pycon.hk/2023/
+  cfplink: https://pycon.hk/2023/pycon-hk-2023-cfp/
+  cfp: '2023-06-18 23:59:00'
+  start: 2023-11-10
+  end: 2023-11-11
+  date: November 10 - 11, 2023 (tentative)
+  place: Hong Kong
+  timezone: Asia/Hong_Kong
+  twitter: pyconhk
+  sub: PY
+  location:
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - title: PyCon APAC
   year: 2023
   id: pyConApac2023
@@ -67,6 +102,23 @@
     latitude: 25.074282349999997
     longitude: 55.18853865430702
 
+- title: PyCon MY
+  year: 2023
+  id: pyconMY23
+  link: https://pycon.my
+  cfplink: https://www.papercall.io/pycon-my-2023
+  cfp: '2023-05-31 23:59:00'
+  start: 2023-08-26
+  end: 2023-08-26
+  date: August 26, 2023
+  place: Malaysia
+  timezone: Asia/Kuala_Lumpur
+  twitter: pyconmy
+  sub: PY
+  location:
+    latitude: 4.5693754
+    longitude: 102.2656823
+
 - title: North Bay Python
   year: 2023
   id: NorthBayPython23
@@ -98,23 +150,6 @@
   sub: PY
   note: Tech talks and short film submissions
 
-- title: DjangoCon US
-  year: 2023
-  id: djangoCon2023
-  link: https://2023.djangocon.us
-  cfplink: https://2023.djangocon.us/speaking/
-  cfp: '2023-05-15 18:00:00'
-  start: 2023-10-15
-  end: 2023-10-20
-  date: October 15 - 20, 2023
-  timezone: America/New_York
-  place: North Carolina, USA
-  twitter: djangoCon
-  sub: WEB
-  location:
-    latitude: 35.6729639
-    longitude: -79.0392919
-
 - title: PyCon AU
   year: 2023
   id: PyConAU23
@@ -131,6 +166,23 @@
   location:
     latitude: -34.9281805
     longitude: 138.5999312
+
+- title: DjangoCon US
+  year: 2023
+  id: djangoCon2023
+  link: https://2023.djangocon.us
+  cfplink: https://2023.djangocon.us/speaking/
+  cfp: '2023-05-15 18:00:00'
+  start: 2023-10-15
+  end: 2023-10-20
+  date: October 15 - 20, 2023
+  timezone: America/New_York
+  place: North Carolina, USA
+  twitter: djangoCon
+  sub: WEB
+  location:
+    latitude: 35.6729639
+    longitude: -79.0392919
 
 - title: PyCon Latam
   year: 2023
@@ -477,23 +529,6 @@
     latitude: 40.7596198
     longitude: -111.886797
 
-- title: PyCascades
-  year: 2023
-  id: pycascades23
-  link: https://2023.pycascades.com/
-  cfp: '2022-11-16 23:59:59'
-  start: 2023-03-18
-  end: 2023-03-19
-  date: March 18 - 19, 2023
-  place: Vancouver, Canada
-  timezone: America/Vancouver
-  twitter: pyCascades
-  mastodon: https://fosstodon.org/@pycascades
-  sub: PY
-  location:
-    latitude: 49.2608724
-    longitude: -123.113952
-
 - title: PyData Tel Aviv
   year: 2023
   id: pydataTelAviv23
@@ -575,24 +610,6 @@
     latitude: -12.9822499
     longitude: -38.4812772
 
-- title: PyCon ZA
-  year: 2023
-  id: pyconZA23
-  link: https://za.pycon.org/
-  cfplink: https://za.pycon.org/talks/how-to-submit-a-talk/
-  cfp: '2023-08-18 23:59:00'
-  start: 2023-10-05
-  end: 2023-10-06
-  date: October 5 - 6, 2023
-  place: Durban, South Africa
-  timezone: Africa/Johannesburg
-  twitter: pyconza
-  mastodon: https://fosstodon.org/@pyconza
-  sub: PY
-  location:
-    latitude: -29.861825
-    longitude: 31.009909
-
 - title: PyCon US
   year: 2024
   id: pyconUS24
@@ -606,31 +623,6 @@
   twitter: pycon
   mastodon: https://fosstodon.org/@pycon
   sub: PY
-
-- title: PyCon MY
-  year: 2023
-  id: pyconMY23
-  link: https://pycon.my
-  cfplink: https://www.papercall.io/pycon-my-2023
-  cfp: '2023-05-31 23:59:00'
-  start: 2023-08-26
-  end: 2023-08-26
-  date: August 26, 2023
-  place: Malaysia
-  timezone: Asia/Kuala_Lumpur
-  twitter: pyconmy
-  sub: PY
-
-- title: PyCon HK
-  year: 2023
-  id: pyconHK23
-  link: https://pycon.hk/2023/
-  cfplink: https://pycon.hk/2023/pycon-hk-2023-cfp/
-  cfp: '2023-06-18 23:59:00'
-  start: 2023-11-10
-  end: 2023-11-11
-  date: November 10 - 11, 2023 (tentative)
-  place: Hong Kong
-  timezone: Asia/Hong_Kong
-  twitter: pyconhk
-  sub: PY
+  location:
+    latitude: 40.4416941
+    longitude: -79.9900861
