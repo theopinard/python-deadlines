@@ -574,3 +574,21 @@
   location:
     latitude: -12.9822499
     longitude: -38.4812772
+
+- title: PyCon ZA
+  year: 2023
+  id: pyconZA23
+  link: https://za.pycon.org/
+  cfplink: https://za.pycon.org/talks/how-to-submit-a-talk/
+  cfp: '2023-08-18 23:59:00'
+  start: 2023-10-05
+  end: 2023-10-06
+  date: October 5 - 6, 2023
+  place: Durban, South Africa
+  twitter: pyconza
+  mastodon: https://fosstodon.org/@pyconza
+  sub: PY
+  location:
+    latitude: -29.861825
+    longitude: 31.009909
+
