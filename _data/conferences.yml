@@ -620,3 +620,17 @@
   timezone: Asia/Kuala_Lumpur
   twitter: pyconmy
   sub: PY
+
+- title: PyCon HK
+  year: 2023
+  id: pyconHK23
+  link: https://pycon.hk/2023/
+  cfplink: https://pycon.hk/2023/pycon-hk-2023-cfp/
+  cfp: '2023-06-18 23:59:00'
+  start: 2023-11-10
+  end: 2023-11-11
+  date: November 10 - 11, 2023 (tentative)
+  place: Hong Kong
+  timezone: Asia/Hong_Kong
+  twitter: pyconhk
+  sub: PY
