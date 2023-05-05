@@ -70,6 +70,22 @@
     latitude: 22.2793278
     longitude: 114.1628131
 
+- title: Pydata Amsterdam
+  year: 2023
+  id: pydataAmsterdam23
+  link: https://amsterdam.pydata.org/
+  cfplink: https://amsterdam2023.pydata.org/cfp/cfp
+  cfp: '2023-06-11 23:59:00'
+  start: 2023-09-14
+  end: 2023-09-16
+  date: September 14 - 16, 2023
+  timezone: Europe/Amsterdam
+  place: Amsterdam, Netherlands
+  sub: PYDATA
+  location:
+    latitude: 52.3730796
+    longitude: 4.8924534
+
 - title: PyCon APAC
   year: 2023
   id: pyConApac2023
