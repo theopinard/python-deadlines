@@ -626,6 +626,23 @@
     latitude: -12.9822499
     longitude: -38.4812772
 
+- title: Swiss Python Summit
+  year: 2023
+  id: swissPythonSummit23
+  link: https://www.python-summit.ch
+  cfplink: https://www.python-summit.ch
+  cfp: TBA
+  start: 2023-09-21
+  end: 2023-09-21
+  date: September 21 - 21, 2023
+  place: Rapperswil, Switzerland
+  timezone: Europe/Zurich
+  twitter: pythonsummit
+  sub: PY
+  location:
+    latitude: 47.2266532
+    longitude: 8.8164042
+
 - title: PyCon US
   year: 2024
   id: pyconUS24
