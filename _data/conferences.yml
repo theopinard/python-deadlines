@@ -659,3 +659,19 @@
   location:
     latitude: 40.4416941
     longitude: -79.9900861
+
+- title: PyCon Slovakia
+  year: 2024
+  id: pyconsk2024
+  link: https://2024.pycon.sk/
+  cfp: TBA
+  start: 2024-03-15
+  end: 2024-03-17
+  date: March 15 - 17, 2024
+  timezone: Europe/Bratislava
+  place: Bratislava, Slovakia
+  twitter: pyconsk
+  sub: PY
+  location:
+    latitude: 48.1516988
+    longitude: 17.1093063
