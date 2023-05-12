@@ -659,3 +659,18 @@
   location:
     latitude: 40.4416941
     longitude: -79.9900861
+
+- title: DjangoCon Africa
+  year: 2023
+  id: djangoConAfrica23
+  link: https://2022.djangocon.us
+  cfp: TBA
+  start: 2023-11-06
+  end: 2023-11-11
+  date: November 06 - 11, 2023
+  timezone: Africa/Dar_es_Salaam
+  place: Zanzibar, Tanzania
+  sub: WEB
+  location:
+    latitude: -6.09994425
+    longitude: 39.32094431715264
