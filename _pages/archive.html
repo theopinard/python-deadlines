@@ -78,6 +78,12 @@ permalink: /archive/
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}
+                  {% if page.finaid %}
+                  <div class="col-12">
+                    <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16" height="16" />
+                    <a id="conf-finaid" target="_blank" href="{{page.finaid}}">Financial Aid</a>
+                  </div>
+                  {% endif %}
                   {% if page.sponsor %}
                   <div class="col-12">
                     <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship" width="16" height="16" />

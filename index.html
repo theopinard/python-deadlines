@@ -83,6 +83,12 @@
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}
+                  {% if conf.finaid %}
+                  <span class="conf-title-icon">
+                    <a title="Financial Aid from {{conf.title}}" href="{{conf.finaid}}" target="_blank"><img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.title}}" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% endif %}
                   {% if conf.sponsor %}
                   <span class="conf-title-icon">
                     <a title="Sponsorship Opportunity for {{conf.title}}" href="{{conf.sponsor}}" target="_blank"><img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.title}}" width="16" height="16" /></a>

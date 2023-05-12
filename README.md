@@ -33,10 +33,11 @@ If that is not possible you can try and submit your conference through this [Goo
   tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
   timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)
   place: Incheon, South Korea              # City, Country
-  date: September 18 - 22, 2022             # Nicely written dates of conference
+  date: September 18 - 22, 2022            # Nicely written dates of conference
   start: YYYY-MM-DD                        # Start date of conference for calendar
   end: YYYY-MM-DD                          # End date of conference for calendar
   sponsor: link-to-sponsor.page            # URL to Sponsorship page (Optional)
+  finaid: link-to-finaid.page              # URL to Financial Aid page (Optional)
   twitter: BestConfEver                    # Twitter handle of conference (Optional)
   mastodon: https://mastodon.social/@bconf # Mastodon handle of conference (Optional)
   sub: PY                                  # Type of conference (see or add _data/types.yml)
@@ -63,6 +64,7 @@ If that is not possible you can try and submit your conference through this [Goo
 | `date`      | Nicely written dates of conference                | `str`   | ✔       |
 | `start`     | Start date of conference for calendar             | `date`  | ✔       |
 | `end`       | End date of conference for calendar               | `date`  | ✔       |
+| `finaid`    | URL to financial aid information                  | `str`   |          |
 | `sponsor`   | URL to sponsorship opportunities                  | `str`   |          |
 | `twitter`   | Twitter handle of conference                      | `str`   |          |
 | `mastodon`  | Mastodon handle of conference                     | `str`   |          |
