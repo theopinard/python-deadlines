@@ -567,6 +567,7 @@
   id: pydataTelAviv23
   link: https://pydata.org/telaviv2023/
   cfplink: https://pydata.org/telaviv2023/cfp
+  sponsor: https://pydata.org/telaviv2023/sponsor
   cfp: TBA
   start: 2023-11-14
   end: 2023-11-14
@@ -583,6 +584,7 @@
   year: 2023
   id: pyconUK23
   link: https://2023.pyconuk.org/
+  sponsor: https://2023.pyconuk.org/sponsorship/
   cfp: TBA
   start: 2023-09-22
   end: 2023-09-25
@@ -599,6 +601,7 @@
   year: 2023
   id: pyconBR23
   link: https://2023.pythonbrasil.org.br/
+  sponsor: https://2023.pythonbrasil.org.br/PYBr-2023-Sponsorship-Plan.pdf
   cfp: TBA
   start: 2023-10-30
   end: 2023-11-05
@@ -631,6 +634,7 @@
   year: 2023
   id: afroPython23
   link: https://afropython.org/conf2023/
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSclMmFsjw5qcJaFwCC-z7zhN0Uaf8t4zF74qL_KKsBjh-y-aA/viewform
   cfp: TBA
   start: 2023-07-22
   end: 2023-07-22
@@ -663,13 +667,15 @@
 - title: DjangoCon Africa
   year: 2023
   id: djangoConAfrica23
-  link: https://2022.djangocon.us
+  link: https://2023.djangocon.africa/
+  sponsor: https://2023.djangocon.africa/sponsor-us/
   cfp: TBA
   start: 2023-11-06
   end: 2023-11-11
   date: November 06 - 11, 2023
   timezone: Africa/Dar_es_Salaam
   place: Zanzibar, Tanzania
+  twitter: djcafrica
   sub: WEB
   location:
     latitude: -6.09994425
