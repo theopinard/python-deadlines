@@ -41,6 +41,7 @@
   link: https://2023.pycon.pt/
   cfplink: https://2023.pycon.pt/talks/cfp/
   sponsor: https://2023.pycon.pt/sponsors/sponsorship/
+  finaid: https://2023.pycon.pt/information/grants/
   cfp: '2023-06-30 23:59:00'
   start: 2023-09-07
   end: 2023-09-09
@@ -230,6 +231,7 @@
   link: https://euroscipy.org/2023/
   cfplink: https://euroscipy.org/2023/program.html
   sponsor: https://euroscipy.org/2023/sponsoring.html
+  finaid: https://euroscipy.org/2023/finaid.html
   cfp: '2023-05-14 23:59:59'
   start: 2023-08-14
   end: 2023-08-18
@@ -300,6 +302,7 @@
   link: https://kiwipycon.nz/
   cfplink: https://pretalx.com/kiwi-pycon-xii-2023/cfp
   sponsor: https://kiwipycon.nz/s/Kiwi-Pycon-XII-Sponsorship-Prospectus.pdf
+  finaid: https://kiwipycon.nz/financial-aid
   cfp: '2023-04-14 23:59:00'
   start: 2023-09-15
   end: 2023-09-17
@@ -336,6 +339,7 @@
   link: https://tw.pycon.org/
   cfplink: https://tw.pycon.org/2023/en-us/speaking/cfp
   sponsor: https://tw.pycon.org/2023/en-us/sponsor
+  finaid: https://tw.pycon.org/2023/en-us/registration/financial-aid
   cfp: '2023-03-31 23:59:59'
   start: 2023-09-02
   end: 2023-09-03
@@ -371,6 +375,7 @@
   link: https://pl.pycon.org/2023
   cfplink: https://pl.pycon.org/2023/en/call-for-proposals/
   sponsor: https://pl.pycon.org/2023/sponsorship.pdf
+  finaid: https://pl.pycon.org/2023/en/financial-aid/
   cfp: '2023-03-27 23:59:00'
   start: 2023-06-29
   end: 2023-07-02
@@ -407,6 +412,7 @@
   link: https://ep2023.europython.eu/
   cfplink: https://ep2023.europython.eu/cfp
   sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
+  finaid: https://ep2023.europython.eu/finaid
   cfp: '2023-03-19 23:59:00'
   start: 2023-07-17
   end: 2023-07-23
@@ -424,6 +430,7 @@
   link: http://pycon.lt/
   cfplink: https://pretalx.com/pycon-lt-2023/cfp
   sponsor: https://drive.google.com/file/d/1wznoPlxfrdHd_jI7ZqP3vRKMHSaRJatm/view?usp=sharing
+  finaid: https://forms.gle/hbsYbiboLEXLGU8XA
   cfp: '2023-03-18 00:00:00'
   start: 2023-05-17
   end: 2023-05-20
@@ -459,6 +466,7 @@
   id: pyconcolombia2023
   link: https://2023.pycon.co/
   cfplink: https://docs.google.com/forms/d/19-ujqnFIfEuCjh8SdB4uGjtK8f2Nc9Qmg09Y3DJf2E8/viewform?edit_requested=true
+  finaid: https://2023.pycon.co/scholarship/
   cfp: '2023-03-03 23:59:59'
   start: 2023-06-09
   end: 2023-06-11
@@ -474,6 +482,7 @@
   link: https://www.scipy2023.scipy.org
   cfplink: https://www.scipy2023.scipy.org/present
   sponsor: https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
+  finaid: https://www.scipy2023.scipy.org/financial-aid
   cfp: '2023-03-01 23:59:00'
   start: 2023-07-10
   end: 2023-07-16
@@ -492,6 +501,7 @@
   link: https://2023.djangocon.eu/
   cfplink: https://pretalx.com/djangocon-europe-2023/cfp
   sponsor: https://2023.djangocon.eu/sponsors/information/
+  finaid: https://2023.djangocon.eu/opportunity-grants/
   cfp: '2023-02-27 23:59:59'
   start: 2023-05-29
   end: 2023-06-02
@@ -509,6 +519,7 @@
   link: https://pydata.org/seattle2023/
   cfplink: https://seattle2023.pydata.org/cfp/cfp
   sponsor: https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
+  finad: https://pydata.org/seattle2023/#diversity-scholars
   cfp: '2023-02-06 23:59:00'
   start: 2023-04-26
   end: 2023-04-28
@@ -526,6 +537,7 @@
   id: pyconitaly23
   link: https://pycon.it/en
   sponsor: https://pycon.it/en/sponsor
+  finaid: https://pycon.it/en/grants-info
   cfp: '2023-01-16 13:59:00'
   start: 2023-05-25
   end: 2023-05-28
@@ -543,6 +555,7 @@
   id: pyconde2023
   link: https://2023.pycon.de/
   sponsor: https://drive.google.com/file/d/1_8zqb6ORNTRfNJWaXBmKA03ow06IN4_l/view?usp=sharing
+  finaid: https://2023.pycon.de/financial-aid/
   cfp: '2023-01-05 23:59:59'
   start: 2023-04-17
   end: 2023-04-19
@@ -560,6 +573,7 @@
   id: jupytercon2023
   link: https://www.jupytercon.com/
   sponsor: https://www.jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
+  finaid: https://www.jupytercon.com/scholarships
   cfp: '2022-12-20 23:59:00'
   start: 2023-05-10
   end: 2023-05-12
