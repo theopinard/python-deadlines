@@ -1,16 +1,33 @@
 #mastodon-feed {
-    margin-top: 20px;
     font-family: Arial, sans-serif;
 }
 
-#mastodon-feed a {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-    text-decoration: none;
-}
-
-#mastodon-feed a:hover {
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  
+  .timeline-content {
+    margin-left: 15px;
+  }
+  
+  .timeline-content a {
     color: #007bff;
+    text-decoration: none;
+  }
+  
+  .timeline-content a:hover {
     text-decoration: underline;
-}
+  }

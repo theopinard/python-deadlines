@@ -19,17 +19,16 @@ description: Countdown for the Call for Participation of this conference includi
           var xml = parser.parseFromString(xmlText, "text/xml");
           var items = xml.querySelectorAll("item");
           var feedContainer = document.getElementById("mastodon-feed");
-          var postLimit = 3; // Number of posts to display
+          var postLimit = 2; // Number of posts to display
 
           for (var i = 0; i < postLimit && i < items.length; i++) {
             var item = items[i];
-            var doc = new DOMParser().parseFromString(item.querySelector("description").textContent, "text/html");
-            var post = doc.documentElement.textContent;
+            var post = item.querySelector("description").textContent;
             var link = item.querySelector("link").textContent;
             var pubDate = item.querySelector("pubDate").textContent;
 
             var feedItem = document.createElement("div");
-            feedItem.innerHTML = '<div>' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a>';
+            feedItem.innerHTML = '<div class="timeline-item"><div class="timeline-content">' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a></div>';
             feedContainer.appendChild(feedItem);
           }
         })
@@ -38,6 +37,16 @@ description: Countdown for the Call for Participation of this conference includi
         });
     });
   </script>
+  {% elsif page.twitter %}
+  <style>
+    #twitter-widget {
+      width: 100%;
+    }
+    
+    .twitter-timeline {
+      width: 100% !important;
+    }
+    </style>
   {% endif %}
 </head>
 
@@ -152,11 +161,13 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-12 col-md-6">
           {% if page.mastodon %}
           <!-- Mastodon timeline -->
+          <div class="meta">Mastodon Posts by {{page.title}}:</div>
           <div id="mastodon-feed"></div>
+          <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.title }}</a>
           {% elsif page.twitter %}
           <!-- Twitter timeline -->
           <div id="twitter-widget">
-            <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=3>Tweets by
+            <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=2>Tweets by
               {{page.twitter}}</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
