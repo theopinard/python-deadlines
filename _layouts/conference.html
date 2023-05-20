@@ -3,180 +3,234 @@ description: Countdown for the Call for Participation of this conference includi
 ---
 
 <html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="container">
-      <div class="page-header" id="conf-title">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>
-              <span id="conf-title-href" href="/conference/{{page.title | slugify}}-{{page.year}}/">{{page.title}} {{page.year}}</span>
-              <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ page.title }}{{ page.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
-            </h1>
-            {% if page.full_name %}
-            <h3 id="conf-full-name">{{page.full_name}}
-            </h3>
-            {% endif %}
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12" id="conf-subs">
-            <span id="conf-subs" title="Conference subjects">
-              {% assign subs = page.sub | split: "," %}
-              {% for sub in subs %}
-                <span class="{{sub}}-tag badge badge-light conf-sub conf-{{sub}}">
-                  {% for tp in site.data.types %}
-                    {% if sub == tp.sub %}
-                      {{tp.name}}
-                    {% endif %}
-                  {% endfor %}
-                </span>
-              {% endfor %}
+
+<head>
+  {% include head.html %}
+  {% if page.mastodon %}
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl }}">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("{{page.mastodon}}")
+        .then(function(response) {
+          return response.text();
+        })
+        .then(function(xmlText) {
+          var parser = new DOMParser();
+          var xml = parser.parseFromString(xmlText, "text/xml");
+          var items = xml.querySelectorAll("item");
+          var feedContainer = document.getElementById("mastodon-feed");
+  
+          items.forEach(function(item) {
+            var title = item.querySelector("title").textContent;
+            var link = item.querySelector("link").textContent;
+  
+            var feedItem = document.createElement("div");
+            feedItem.innerHTML = '<a href="' + link + '">' + title + '</a>';
+            feedContainer.appendChild(feedItem);
+          });
+        })
+        .catch(function(error) {
+          console.log("Error fetching Mastodon RSS feed:", error);
+        });
+    });
+  </script>
+  
+  {% endif %}
+</head>
+
+<body>
+  {% include header.html %}
+  <div class="container">
+    <div class="page-header" id="conf-title">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>
+            <span id="conf-title-href" href="/conference/{{page.title | slugify}}-{{page.year}}/">{{page.title}}
+              {{page.year}}</span>
+            <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
+                data-text="Countdown to the #{{ page.title }}{{ page.year }} deadline!" data-show-count="false"
+                style="font-size:13px;">Tweet</a>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </span>
-          </div>
+          </h1>
+          {% if page.full_name %}
+          <h3 id="conf-full-name">{{page.full_name}}
+          </h3>
+          {% endif %}
         </div>
       </div>
-      <div id="page-content">
-        <div id="conf-key-facts" class="row">
-          <div class="col-12">
+      <div class="row">
+        <div class="col-sm-12" id="conf-subs">
+          <span id="conf-subs" title="Conference subjects">
+            {% assign subs = page.sub | split: "," %}
+            {% for sub in subs %}
+            <span class="{{sub}}-tag badge badge-light conf-sub conf-{{sub}}">
+              {% for tp in site.data.types %}
+              {% if sub == tp.sub %}
+              {{tp.name}}
+              {% endif %}
+              {% endfor %}
+            </span>
+            {% endfor %}
+          </span>
+        </div>
+      </div>
+    </div>
+    <div id="page-content">
+      <div id="conf-key-facts" class="row">
+        <div class="col-12 col-md-8">
+          <div>
             <img src="/static/img/084-calendar.svg" class="badge-link" alt="Calendar icon" width="16" height="16" />
             <span id="conf-date">{{page.date}}</span>
           </div>
-          <div class="col-12">
+          <div>
             <img src="/static/img/072-location.svg" class="badge-link" alt="Location icon" width="16" height="16" />
-            <a id="conf-place" target="_blank" href="{% if page.place == 'Online' %}#{% else %}https://maps.google.com/?q={{page.place}}{% endif %}">{{page.place}}</a>
+            <a id="conf-place" target="_blank"
+              href="{% if page.place == 'Online' %}#{% else %}https://maps.google.com/?q={{page.place}}{% endif %}">{{page.place}}</a>
           </div>
-          <div class="col-12">
+          <div>
             <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
             <a id="conf-website" target="_blank" href="{{page.link}}">{{page.link}}</a>
           </div>
           {% if page.cfplink %}
-          <div class="col-12">
-            <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for CfP link" width="16" height="16" />
+          <div>
+            <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for CfP link" width="16"
+              height="16" />
             <a id="conf-cfplink" target="_blank" href="{{page.cfplink}}">Call for Participation</a>
           </div>
           {% endif %}
           {% if page.finaid %}
-          <div class="col-12">
-            <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16" height="16" />
+          <div>
+            <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16"
+              height="16" />
             <a id="conf-finaid" target="_blank" href="{{page.finaid}}">Financial Aid</a>
           </div>
           {% endif %}
           {% if page.sponsor %}
-          <div class="col-12">
-            <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship" width="16" height="16" />
+          <div>
+            <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship"
+              width="16" height="16" />
             <a id="conf-sponsor" target="_blank" href="{{page.sponsor}}">Sponsorship Opportunity</a>
           </div>
           {% endif %}
           {% if page.twitter %}
-          <div class="col-12">
+          <div>
             <img src="/static/img/407-twitter.svg" class="badge-link" alt="Twitter icon" width="16" height="16" />
             <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
           </div>
           {% endif %}
           {% if page.mastodon %}
-          <div class="col-12">
+          <div>
             <img src="/static/img/407-mastodon.svg" class="badge-link" alt="Mastodon icon" width="16" height="16" />
             <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
           </div>
           {% endif %}
         </div>
-        <div id="conf-deadline-info" class="row">
-          <div class="meta deadline col-12 col-md-6">
-            Download Conference deadline:
-          </div>
-          <div id="conference-deadline" class="calendar meta col-sm-12 col-md-6"></div>
-          <div class="meta deadline col-12 col-md-6">
-            Deadline in timezone from conference website:
-          </div>
-          <div class="meta col-sm-12 col-md-6">
-            <span class="deadline-time"></span>
-          </div>
-          <div class="meta col-sm-12 col-md-6">
-            Deadline in your local <span class="local-timezone"></span> timezone:
-          </div>
-          <div class="local-timezone-hide meta col-sm-12 col-md-6">
-            <span class="deadline-local-time"></span>
-          </div>
+        <div class="meta deadline">
+          Download Conference deadline:
         </div>
-        <div id="conf-deadline-timer" class="row">
-          <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" %}TBA{%endif%}
-          </div>
+        <div id="conference-deadline" class="calendar meta"></div>
+        <div class="meta deadline">
+          Deadline in timezone from conference website:
         </div>
-        <div class="row">
+        <div class="meta">
+          <span class="deadline-time"></span>
+        </div>
+        <div class="meta">
+          Deadline in your local <span class="local-timezone"></span> timezone:
+        </div>
+        <div class="local-timezone-hide meta">
+          <span class="deadline-local-time"></span>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        {% if page.mastodon %}
+        <!-- Mastodon timeline -->
+        <div id="mastodon-feed"></div>
+        {% elif page.twitter %}
+        <!-- Twitter timeline -->
+        <div id="twitter-widget">
+          <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}">Tweets by {{page.twitter}}</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        {% endif %}
+      </div>
+      <div id="conf-deadline-timer" class="row">
+        <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" %}TBA{%endif%}
+        </div>
+      </div>
+      <div class="row">
         {% if page.location %}
         {% google_map zoom="6" width="100%" %}
         {% endif %}
-        </div>
       </div>
-        <footer>
-          {% include footer.html %}
-        </footer>
     </div>
-    <script type="text/javascript" charset="utf-8">
-    $(function() {
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+    $(function () {
       // Timezone deadline shenanigans
-        var url = new URL(window.location);
-        var conf = url.searchParams.get('id');
+      var url = new URL(window.location);
+      var conf = url.searchParams.get('id');
 
-        var DateTime = luxon.DateTime;
-        var today = DateTime.now();
+      var DateTime = luxon.DateTime;
+      var today = DateTime.now();
 
-        {% include load_data.js %}
-        {% include utils.js %}
+      {% include load_data.js %}
+      {% include utils.js %}
 
-        $('.local-timezone').text(today.toFormat('z'));
+      $('.local-timezone').text(today.toFormat('z'));
 
-        // other
-        {% if page.cfp == "TBA" %}
-          $('#cfp-timer').html("TBA");
-          $('.deadline-time').html("TBA");
-          $('.deadline-local-time').html("TBA");
-        {% else %}
+      // other
+      {% if page.cfp == "TBA" %}
+      $('#cfp-timer').html("TBA");
+      $('.deadline-time').html("TBA");
+      $('.deadline-local-time').html("TBA");
+      {% else %}
 
-          // Use specified timezone for deadlines if available else use AoE timezone
-          {% if page.timezone %}
-          var confDeadline = DateTime.fromSQL("{{page.cfp}}", {zone: "{{page.timezone}}"});
-          {% else %}
-          var confDeadline = DateTime.fromSQL("{{page.cfp}}", {zone: "UTC-12"});
-          {% endif %}
-        
-          // check if timezone is valid otherwise replace by system timezone
-          if (confDeadline.invalid) {
-            var confDeadline = DateTime.fromSQL("{{page.cfp}}");
-            console.log("Invalid timezone. Using system timezone instead.");
-          }
+      // Use specified timezone for deadlines if available else use AoE timezone
+      {% if page.timezone %}
+      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "{{page.timezone}}" });
+      {% else %}
+      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "UTC-12" });
+      {% endif %}
 
-          // add calendar 
-          var conferenceDeadlineCalendar = createCalendarFromObject({
-            id:  '{{page.id}}',
-            title: '{{page.title}} {{page.year}} deadline',
-            date: confDeadline.toJSDate(),
-            duration: 60,
-          })
-          document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
+      // check if timezone is valid otherwise replace by system timezone
+      if (confDeadline.invalid) {
+        var confDeadline = DateTime.fromSQL("{{page.cfp}}");
+        console.log("Invalid timezone. Using system timezone instead.");
+      }
 
-          // render countdown timer
-          $('#cfp-timer').countdown(confDeadline.toJSDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          });
+      // add calendar 
+      var conferenceDeadlineCalendar = createCalendarFromObject({
+        id: '{{page.id}}',
+        title: '{{page.title}} {{page.year}} deadline',
+        date: confDeadline.toJSDate(),
+        duration: 60,
+      })
+      document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
 
-          // render deadline conference time
-          {% if page.timezone %}
-            $('.deadline-time').html(confDeadline.setZone("{{page.timezone}}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
-          {% else %}
-            $('.deadline-time').html(confDeadline.setZone("UTC-12").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
-          {% endif %}
+      // render countdown timer
+      $('#cfp-timer').countdown(confDeadline.toJSDate(), function (event) {
+        $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+      });
 
-          // render deadline in local timezone
-          $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+      // render deadline conference time
+      {% if page.timezone %}
+      $('.deadline-time').html(confDeadline.setZone("{{page.timezone}}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+      {% else %}
+      $('.deadline-time').html(confDeadline.setZone("UTC-12").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+      {% endif %}
 
-        {% endif %}
+      // render deadline in local timezone
+      $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+
+      {% endif %}
 
     });
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
