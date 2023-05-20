@@ -10,7 +10,7 @@ description: Countdown for the Call for Participation of this conference includi
   <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl }}">
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      fetch("{{page.mastodon}}")
+      fetch("{{page.mastodon}}.rss")
         .then(function(response) {
           return response.text();
         })
@@ -34,7 +34,6 @@ description: Countdown for the Call for Participation of this conference includi
         });
     });
   </script>
-  
   {% endif %}
 </head>
 
@@ -147,7 +146,7 @@ description: Countdown for the Call for Participation of this conference includi
         {% if page.mastodon %}
         <!-- Mastodon timeline -->
         <div id="mastodon-feed"></div>
-        {% elif page.twitter %}
+        {% elsif page.twitter %}
         <!-- Twitter timeline -->
         <div id="twitter-widget">
           <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}">Tweets by {{page.twitter}}</a>
