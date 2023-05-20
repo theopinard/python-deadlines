@@ -9,27 +9,31 @@ description: Countdown for the Call for Participation of this conference includi
   {% if page.mastodon %}
   <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl }}">
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       fetch("{{page.mastodon}}.rss")
-        .then(function(response) {
+        .then(function (response) {
           return response.text();
         })
-        .then(function(xmlText) {
+        .then(function (xmlText) {
           var parser = new DOMParser();
           var xml = parser.parseFromString(xmlText, "text/xml");
           var items = xml.querySelectorAll("item");
           var feedContainer = document.getElementById("mastodon-feed");
-  
-          items.forEach(function(item) {
-            var title = item.querySelector("title").textContent;
+          var postLimit = 3; // Number of posts to display
+
+          for (var i = 0; i < postLimit && i < items.length; i++) {
+            var item = items[i];
+            var doc = new DOMParser().parseFromString(item.querySelector("description").textContent, "text/html");
+            var post = doc.documentElement.textContent;
             var link = item.querySelector("link").textContent;
-  
+            var pubDate = item.querySelector("pubDate").textContent;
+
             var feedItem = document.createElement("div");
-            feedItem.innerHTML = '<a href="' + link + '">' + title + '</a>';
+            feedItem.innerHTML = '<div>' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a>';
             feedContainer.appendChild(feedItem);
-          });
+          }
         })
-        .catch(function(error) {
+        .catch(function (error) {
           console.log("Error fetching Mastodon RSS feed:", error);
         });
     });
@@ -53,8 +57,7 @@ description: Countdown for the Call for Participation of this conference includi
             </span>
           </h1>
           {% if page.full_name %}
-          <h3 id="conf-full-name">{{page.full_name}}
-          </h3>
+          <h3 id="conf-full-name">{{page.full_name}}</h3>
           {% endif %}
         </div>
       </div>
@@ -77,7 +80,7 @@ description: Countdown for the Call for Participation of this conference includi
     </div>
     <div id="page-content">
       <div id="conf-key-facts" class="row">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-6">
           <div>
             <img src="/static/img/084-calendar.svg" class="badge-link" alt="Calendar icon" width="16" height="16" />
             <span id="conf-date">{{page.date}}</span>
@@ -125,34 +128,20 @@ description: Countdown for the Call for Participation of this conference includi
           </div>
           {% endif %}
         </div>
-        <div class="meta deadline">
-          Download Conference deadline:
+        
+        <div class="col-12 col-md-6">
+          {% if page.mastodon %}
+          <!-- Mastodon timeline -->
+          <div id="mastodon-feed"></div>
+          {% elsif page.twitter %}
+          <!-- Twitter timeline -->
+          <div id="twitter-widget">
+            <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=3>Tweets by
+              {{page.twitter}}</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          {% endif %}
         </div>
-        <div id="conference-deadline" class="calendar meta"></div>
-        <div class="meta deadline">
-          Deadline in timezone from conference website:
-        </div>
-        <div class="meta">
-          <span class="deadline-time"></span>
-        </div>
-        <div class="meta">
-          Deadline in your local <span class="local-timezone"></span> timezone:
-        </div>
-        <div class="local-timezone-hide meta">
-          <span class="deadline-local-time"></span>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        {% if page.mastodon %}
-        <!-- Mastodon timeline -->
-        <div id="mastodon-feed"></div>
-        {% elsif page.twitter %}
-        <!-- Twitter timeline -->
-        <div id="twitter-widget">
-          <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}">Tweets by {{page.twitter}}</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        {% endif %}
       </div>
       <div id="conf-deadline-timer" class="row">
         <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" %}TBA{%endif%}
@@ -208,7 +197,7 @@ description: Countdown for the Call for Participation of this conference includi
         title: '{{page.title}} {{page.year}} deadline',
         date: confDeadline.toJSDate(),
         duration: 60,
-      })
+      });
       document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
 
       // render countdown timer
