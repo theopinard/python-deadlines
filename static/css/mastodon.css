@@ -8,24 +8,14 @@
     margin-bottom: 20px;
   }
   
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 10px;
-    background-color: #000;
-    border-radius: 50%;
-  }
-  
   .timeline-content {
     margin-left: 15px;
   }
   
   .timeline-content a {
-    color: #007bff;
+    color: #343434;
     text-decoration: none;
+    border-bottom: 0 !important;
   }
   
   .timeline-content a:hover {

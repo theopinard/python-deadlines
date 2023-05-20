@@ -28,7 +28,8 @@ description: Countdown for the Call for Participation of this conference includi
             var pubDate = item.querySelector("pubDate").textContent;
 
             var feedItem = document.createElement("div");
-            feedItem.innerHTML = '<div class="timeline-item"><div class="timeline-content">' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a></div>';
+            feedItem.setAttribute("class", "timeline-item")
+            feedItem.innerHTML = '<div class="timeline-content">' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a>';
             feedContainer.appendChild(feedItem);
           }
         })
