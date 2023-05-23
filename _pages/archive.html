@@ -78,6 +78,18 @@ permalink: /archive/
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}
+                  {% if page.finaid %}
+                  <div class="col-12">
+                    <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16" height="16" />
+                    <a id="conf-finaid" target="_blank" href="{{page.finaid}}">Financial Aid</a>
+                  </div>
+                  {% endif %}
+                  {% if page.sponsor %}
+                  <div class="col-12">
+                    <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship" width="16" height="16" />
+                    <a id="conf-sponsor" target="_blank" href="{{page.sponsor}}">Sponsorship Opportunity</a>
+                  </div>
+                  {% endif %}
                   {% if conf.mastodon %}
                   <span class="conf-title-icon">
                     <a title="Mastodon for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>

@@ -79,18 +79,30 @@
                   </span>
                   {% if conf.cfplink %}
                   <span class="conf-title-icon">
-                    <a title="Call for Participation" href="{{conf.cfplink}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation" width="16" height="16" /></a>
+                    <a title="Call for Participation for {{conf.title}}" href="{{conf.cfplink}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation for {{conf.title}}" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% endif %}
+                  {% if conf.finaid %}
+                  <span class="conf-title-icon">
+                    <a title="Financial Aid from {{conf.title}}" href="{{conf.finaid}}" target="_blank"><img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.title}}" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% endif %}
+                  {% if conf.sponsor %}
+                  <span class="conf-title-icon">
+                    <a title="Sponsorship Opportunity for {{conf.title}}" href="{{conf.sponsor}}" target="_blank"><img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.title}}" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}
                   {% if conf.mastodon %}
                   <span class="conf-title-icon">
-                    <a title="Mastodon for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
+                    <a title="Mastodon for {% if conf.full_name %}{{conf.full_name}}{% else %}{{conf.title}}{% endif %}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% elsif conf.twitter %}
                   <span class="conf-title-icon">
-                    <a title="Twitter for {% if conf.full_name %}{{conf.full_name}}{% else %}Conference{% endif %}" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
+                    <a title="Twitter for {% if conf.full_name %}{{conf.full_name}}{% else %}{{conf.title}}{% endif %}" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
                     &ZeroWidthSpace;
                   </span>
                   {% endif %}

@@ -18,11 +18,30 @@
     latitude: -29.861825
     longitude: 31.009909
 
+- title: Swiss Python Summit
+  year: 2023
+  id: swissPythonSummit23
+  link: https://www.python-summit.ch
+  cfplink: https://www.python-summit.ch/cfp/
+  cfp: '2023-07-01 23:59:00'
+  start: 2023-09-21
+  end: 2023-09-21
+  date: September 21, 2023
+  place: Rapperswil, Switzerland
+  timezone: Europe/Zurich
+  twitter: pythonsummit
+  sub: PY
+  location:
+    latitude: 47.2266532
+    longitude: 8.8164042
+
 - title: PyCon Portugal
   year: 2023
   id: pyconportugal2023
   link: https://2023.pycon.pt/
   cfplink: https://2023.pycon.pt/talks/cfp/
+  sponsor: https://2023.pycon.pt/sponsors/sponsorship/
+  finaid: https://2023.pycon.pt/information/grants/
   cfp: '2023-06-30 23:59:00'
   start: 2023-09-07
   end: 2023-09-09
@@ -40,6 +59,7 @@
   id: pycones23
   link: https://2023.es.pycon.org/
   cfplink: https://charlas.2023.es.pycon.org/pycones-2023/cfp
+  sponsor: https://2023.es.pycon.org/patrocinios/
   cfp: '2023-06-23 23:59:00'
   start: 2023-10-08
   end: 2023-10-08
@@ -75,6 +95,7 @@
   id: pydataAmsterdam23
   link: https://amsterdam.pydata.org/
   cfplink: https://amsterdam2023.pydata.org/cfp/cfp
+  sponsor: https://amsterdam.pydata.org/sponsor/
   cfp: '2023-06-11 23:59:00'
   start: 2023-09-14
   end: 2023-09-16
@@ -140,6 +161,7 @@
   id: NorthBayPython23
   link: https://2023.northbaypython.org/
   cfplink: https://2023.northbaypython.org/speak
+  sponsor: https://2023.northbaypython.org/assets/pdf/sponsor-prospectus.pdf
   cfp: '2023-05-19 23:59:00'
   start: 2023-07-29
   end: 2023-07-30
@@ -158,6 +180,7 @@
   id: pyGotham23
   link: https://2023.pygotham.tv/
   cfplink: https://cfp.pygotham.tv/
+  sponsor: https://2023.pygotham.tv/sponsors/prospectus/
   cfp: '2023-05-15 23:59:00'
   start: 2023-10-06
   end: 2023-10-07
@@ -171,6 +194,7 @@
   id: PyConAU23
   link: https://2023.pycon.org.au/
   cfplink: https://2023.pycon.org.au/program/
+  sponsor: https://2023.pycon.org.au/sponsor/#opportunities
   cfp: '2023-05-15 23:59:00'
   start: 2023-08-18
   end: 2023-08-22
@@ -188,6 +212,7 @@
   id: djangoCon2023
   link: https://2023.djangocon.us
   cfplink: https://2023.djangocon.us/speaking/
+  sponsor: https://2023.djangocon.us/sponsors/information/
   cfp: '2023-05-15 18:00:00'
   start: 2023-10-15
   end: 2023-10-20
@@ -205,6 +230,8 @@
   id: scipyEU23
   link: https://euroscipy.org/2023/
   cfplink: https://euroscipy.org/2023/program.html
+  sponsor: https://euroscipy.org/2023/sponsoring.html
+  finaid: https://euroscipy.org/2023/finaid.html
   cfp: '2023-05-14 23:59:59'
   start: 2023-08-14
   end: 2023-08-18
@@ -222,6 +249,7 @@
   id: pyConLatam23
   link: https://www.pylatam.org
   cfplink: https://www.papercall.io/pyconlatam23
+  sponsor: https://www.pylatam.org/patrocinios/informacion/
   cfp: '2023-05-07 23:59:00'
   start: 2023-08-24
   end: 2023-08-26
@@ -239,6 +267,7 @@
   id: pyConUganda23
   link: https://ug.pycon.org
   cfplink: https://sessionize.com/pycon-uganda
+  sponsor: https://ug.pycon.org/sponsors
   cfp: '2023-05-05 23:59:00'
   start: 2023-09-21
   end: 2023-09-23
@@ -272,6 +301,8 @@
   id: KiwiPycon23
   link: https://kiwipycon.nz/
   cfplink: https://pretalx.com/kiwi-pycon-xii-2023/cfp
+  sponsor: https://kiwipycon.nz/s/Kiwi-Pycon-XII-Sponsorship-Prospectus.pdf
+  finaid: https://kiwipycon.nz/financial-aid
   cfp: '2023-04-14 23:59:00'
   start: 2023-09-15
   end: 2023-09-17
@@ -289,6 +320,7 @@
   id: pyconKR23
   link: https://2023.pycon.kr/
   cfplink: https://2023.pycon.kr/cfp/apply
+  sponsor: https://2023.pycon.kr/sponsor/information
   cfp: '2023-04-09 23:59:00'
   start: 2023-08-11
   end: 2023-08-13
@@ -306,6 +338,8 @@
   id: pyconTW2023
   link: https://tw.pycon.org/
   cfplink: https://tw.pycon.org/2023/en-us/speaking/cfp
+  sponsor: https://tw.pycon.org/2023/en-us/sponsor
+  finaid: https://tw.pycon.org/2023/en-us/registration/financial-aid
   cfp: '2023-03-31 23:59:59'
   start: 2023-09-02
   end: 2023-09-03
@@ -322,6 +356,7 @@
   id: pydayLaPaz23
   link: https://pyday.pylapaz.org/
   cfplink: https://docs.google.com/forms/d/e/1FAIpQLSefroTwKVT1FX2qXZgKu6FlsmbFcaRx-Bdd2-Tz5wV3XmzNnQ/viewform
+  sponsor: https://forms.gle/7SoVfzBgwYfv1Qw59
   cfp: '2023-03-30 23:59:00'
   start: 2023-06-03
   end: 2023-06-03
@@ -339,6 +374,8 @@
   id: pyconPL23
   link: https://pl.pycon.org/2023
   cfplink: https://pl.pycon.org/2023/en/call-for-proposals/
+  sponsor: https://pl.pycon.org/2023/sponsorship.pdf
+  finaid: https://pl.pycon.org/2023/en/financial-aid/
   cfp: '2023-03-27 23:59:00'
   start: 2023-06-29
   end: 2023-07-02
@@ -356,6 +393,7 @@
   id: pyconisrael2023
   link: https://2023.pycon.org.il/
   cfplink: https://cfp.pycon.org.il/conference2023/cfp
+  sponsor: https://2023.pycon.org.il/#sponsorship
   cfp: '2023-03-26 23:59:59'
   start: 2023-07-04
   end: 2023-07-05
@@ -373,6 +411,8 @@
   id: europython2023
   link: https://ep2023.europython.eu/
   cfplink: https://ep2023.europython.eu/cfp
+  sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
+  finaid: https://ep2023.europython.eu/finaid
   cfp: '2023-03-19 23:59:00'
   start: 2023-07-17
   end: 2023-07-23
@@ -389,6 +429,8 @@
   id: pyconlt2023
   link: http://pycon.lt/
   cfplink: https://pretalx.com/pycon-lt-2023/cfp
+  sponsor: https://drive.google.com/file/d/1wznoPlxfrdHd_jI7ZqP3vRKMHSaRJatm/view?usp=sharing
+  finaid: https://forms.gle/hbsYbiboLEXLGU8XA
   cfp: '2023-03-18 00:00:00'
   start: 2023-05-17
   end: 2023-05-20
@@ -405,8 +447,9 @@
   year: 2023
   id: pydataLondon23
   link: https://pydata.org/london2023/
-  cfp: '2023-03-13 23:59:00'
   cfplink: https://pydata.org/london2023/call-for-proposals
+  sponsor: https://pydata.org/wp-content/uploads/2023/01/PyData-2023-Sponsorship-Prospectus.pdf
+  cfp: '2023-03-13 23:59:00'
   start: 2023-06-02
   end: 2023-06-04
   date: June 2 - 4, 2023
@@ -423,6 +466,7 @@
   id: pyconcolombia2023
   link: https://2023.pycon.co/
   cfplink: https://docs.google.com/forms/d/19-ujqnFIfEuCjh8SdB4uGjtK8f2Nc9Qmg09Y3DJf2E8/viewform?edit_requested=true
+  finaid: https://2023.pycon.co/scholarship/
   cfp: '2023-03-03 23:59:59'
   start: 2023-06-09
   end: 2023-06-11
@@ -436,8 +480,10 @@
   year: 2023
   id: scipyUS23
   link: https://www.scipy2023.scipy.org
-  cfp: '2023-03-01 23:59:00'
   cfplink: https://www.scipy2023.scipy.org/present
+  sponsor: https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
+  finaid: https://www.scipy2023.scipy.org/financial-aid
+  cfp: '2023-03-01 23:59:00'
   start: 2023-07-10
   end: 2023-07-16
   date: July 10 - 16, 2023
@@ -454,6 +500,8 @@
   id: djangoEU23
   link: https://2023.djangocon.eu/
   cfplink: https://pretalx.com/djangocon-europe-2023/cfp
+  sponsor: https://2023.djangocon.eu/sponsors/information/
+  finaid: https://2023.djangocon.eu/opportunity-grants/
   cfp: '2023-02-27 23:59:59'
   start: 2023-05-29
   end: 2023-06-02
@@ -469,8 +517,10 @@
   year: 2023
   id: pydataSeattle23
   link: https://pydata.org/seattle2023/
-  cfp: '2023-02-06 23:59:00'
   cfplink: https://seattle2023.pydata.org/cfp/cfp
+  sponsor: https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
+  finad: https://pydata.org/seattle2023/#diversity-scholars
+  cfp: '2023-02-06 23:59:00'
   start: 2023-04-26
   end: 2023-04-28
   date: April 26 - 28, 2023
@@ -486,6 +536,8 @@
   year: 2023
   id: pyconitaly23
   link: https://pycon.it/en
+  sponsor: https://pycon.it/en/sponsor
+  finaid: https://pycon.it/en/grants-info
   cfp: '2023-01-16 13:59:00'
   start: 2023-05-25
   end: 2023-05-28
@@ -502,6 +554,8 @@
   year: 2023
   id: pyconde2023
   link: https://2023.pycon.de/
+  sponsor: https://drive.google.com/file/d/1_8zqb6ORNTRfNJWaXBmKA03ow06IN4_l/view?usp=sharing
+  finaid: https://2023.pycon.de/financial-aid/
   cfp: '2023-01-05 23:59:59'
   start: 2023-04-17
   end: 2023-04-19
@@ -518,6 +572,8 @@
   year: 2023
   id: jupytercon2023
   link: https://www.jupytercon.com/
+  sponsor: https://www.jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
+  finaid: https://www.jupytercon.com/scholarships
   cfp: '2022-12-20 23:59:00'
   start: 2023-05-10
   end: 2023-05-12
@@ -550,6 +606,7 @@
   id: pydataTelAviv23
   link: https://pydata.org/telaviv2023/
   cfplink: https://pydata.org/telaviv2023/cfp
+  sponsor: https://pydata.org/telaviv2023/sponsor
   cfp: TBA
   start: 2023-11-14
   end: 2023-11-14
@@ -566,6 +623,7 @@
   year: 2023
   id: pyconUK23
   link: https://2023.pyconuk.org/
+  sponsor: https://2023.pyconuk.org/sponsorship/
   cfp: TBA
   start: 2023-09-22
   end: 2023-09-25
@@ -582,6 +640,7 @@
   year: 2023
   id: pyconBR23
   link: https://2023.pythonbrasil.org.br/
+  sponsor: https://2023.pythonbrasil.org.br/PYBr-2023-Sponsorship-Plan.pdf
   cfp: TBA
   start: 2023-10-30
   end: 2023-11-05
@@ -614,6 +673,7 @@
   year: 2023
   id: afroPython23
   link: https://afropython.org/conf2023/
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSclMmFsjw5qcJaFwCC-z7zhN0Uaf8t4zF74qL_KKsBjh-y-aA/viewform
   cfp: TBA
   start: 2023-07-22
   end: 2023-07-22
@@ -625,23 +685,6 @@
   location:
     latitude: -12.9822499
     longitude: -38.4812772
-
-- title: Swiss Python Summit
-  year: 2023
-  id: swissPythonSummit23
-  link: https://www.python-summit.ch
-  cfplink: https://www.python-summit.ch
-  cfp: TBA
-  start: 2023-09-21
-  end: 2023-09-21
-  date: September 21 - 21, 2023
-  place: Rapperswil, Switzerland
-  timezone: Europe/Zurich
-  twitter: pythonsummit
-  sub: PY
-  location:
-    latitude: 47.2266532
-    longitude: 8.8164042
 
 - title: PyCon US
   year: 2024
@@ -659,6 +702,23 @@
   location:
     latitude: 40.4416941
     longitude: -79.9900861
+
+- title: DjangoCon Africa
+  year: 2023
+  id: djangoConAfrica23
+  link: https://2023.djangocon.africa/
+  sponsor: https://2023.djangocon.africa/sponsor-us/
+  cfp: TBA
+  start: 2023-11-06
+  end: 2023-11-11
+  date: November 06 - 11, 2023
+  timezone: Africa/Dar_es_Salaam
+  place: Zanzibar, Tanzania
+  twitter: djcafrica
+  sub: WEB
+  location:
+    latitude: -6.09994425
+    longitude: 39.32094431715264
 
 - title: PyCon Slovakia
   year: 2024
