@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # Sort and Clean conference data.
-# It writes to `sorted_data.yml` and `cleaned_data.yml`, copy those to the conference.yml after screening.
+# It writes to `"prefix"data.yml`, copy those to the conference.yml after screening.
 
 import datetime
 import pdb
@@ -158,11 +158,11 @@ def add_latlon(data):
 
 
 # Sort:
-def sort_data(base=""):
+def sort_data(base="", prefix=""):
     url = Path(base, "_data", "conferences.yml")
-    out_url = Path(base, "utils", "sorted_conferences.yml")
+    out_url = Path(base, "_data", f"{prefix}conferences.yml")
     archive = Path(base, "_data", "archive.yml")
-    out_archive = Path(base, "utils", "sorted_archive.yml")
+    out_archive = Path(base, "_data", f"{prefix}archive.yml")
 
     with open(url, "r") as stream:
         try:
