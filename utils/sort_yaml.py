@@ -13,53 +13,14 @@ from builtins import input
 from pathlib import Path
 from shutil import copyfile
 
+
 import pytz
 import requests
 import yaml
 from tqdm import tqdm
 
-try:
-    # for python newer than 2.7
-    from collections import OrderedDict
-except ImportError:
-    # use backport from pypi
-    from ordereddict import OrderedDict
-
-try:
-    from yaml import CDumper as Dumper
-    from yaml import CLoader as Loader
-except ImportError:
-    from yaml import Loader, Dumper
-
-from yaml.representer import SafeRepresenter
-
-_mapping_tag = yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG
-
-
-def dict_representer(dumper, data):
-    return dumper.represent_dict(data.iteritems())
-
-
-def dict_constructor(loader, node):
-    return OrderedDict(loader.construct_pairs(node))
-
-
-Dumper.add_representer(OrderedDict, dict_representer)
-Loader.add_constructor(_mapping_tag, dict_constructor)
-
-Dumper.add_representer(str, SafeRepresenter.represent_str)
-
-
-def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
-    class OrderedDumper(Dumper):
-        pass
-
-    def _dict_representer(dumper, data):
-        return dumper.represent_mapping(yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, data.items())
-
-    OrderedDumper.add_representer(OrderedDict, _dict_representer)
-    return yaml.dump(data, stream, OrderedDumper, **kwds)
-
+sys.path.append('.')
+from utils import pretty_print, ordered_dump, Loader
 
 dateformat = "%Y-%m-%d %H:%M:%S"
 tba_words = ["tba", "tbd"]
@@ -131,16 +92,6 @@ def split_data(data):
         except:
             print(data["cfp"].lower(), tba_words)
     return conf, tba, expired
-
-
-def pretty_print(header, conf, tba=None, expired=None):
-    print(header)
-    for data in [conf, tba, expired]:
-        if data is not None:
-            for q in data:
-                print(q["cfp"], " - ", q["title"])
-            print("\n")
-
 
 def add_latlon(data):
     for i, q in tqdm(enumerate(data.copy()), total = len(data)):
