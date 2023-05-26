@@ -117,6 +117,7 @@ def interactive_merge(df_yml, df_remote):
     replacements = {"United States of America": "USA",
                     "United States": "USA",
                     "United Kingdom": "UK",
+                    "Czech Republic": "Czechia",
                     "www.": ""}
 
     df_merge = pd.merge(left=df_yml, right=df_remote, how="outer", on="title_match", validate="one_to_one")
