@@ -334,8 +334,8 @@
   start: 2023-08-18
   end: 2023-08-18
   sponsor: https://2023.pycon.org.au/sponsor
-  mastodon: https://fosstodon.org/@djangoconau
   twitter: DjangoConAU
+  mastodon: https://fosstodon.org/@djangoconau
   sub: WEB
 
 - title: PyCon Estonia
@@ -403,6 +403,23 @@
   location:
     latitude: 55.7504461
     longitude: 37.6174943
+
+- title: PyCon Israel
+  year: 2023
+  link: https://2023.pycon.org.il/
+  cfp_link: https://cfp.pycon.org.il/conference2023/cfp
+  cfp: '2023-04-02 22:59:00'
+  timezone: Africa/Cairo
+  place: Israel
+  date: July 04 - 05, 2023
+  start: 2023-07-04
+  end: 2023-07-05
+  sponsor: https://2023.pycon.org.il/#sponsorship
+  twitter: PyConIL
+  sub: PY
+  location:
+    latitude: 30.8124247
+    longitude: 34.8594762
 
 - title: PyCon Taiwan
   year: 2023
@@ -472,7 +489,7 @@
   link: https://ep2023.europython.eu/
   cfp_link: https://ep2023.europython.eu/cfp
   cfp: '2023-03-26 23:59:00'
-  place: Prague, Czech Republic
+  place: Prague, Czechia
   date: July 17 - 23, 2023
   start: 2023-07-17
   end: 2023-07-23
@@ -483,23 +500,6 @@
   location:
     latitude: 50.0874654
     longitude: 14.4212535
-
-- title: PyCon Israel
-  year: 2023
-  link: https://2023.pycon.org.il/
-  cfp_link: https://cfp.pycon.org.il/conference2023/cfp
-  cfp: '2023-04-02 22:59'
-  timezone: Africa/Cairo
-  place: Israel
-  date: July 04 - 05, 2023
-  start: 2023-07-04
-  end: 2023-07-05
-  sponsor: https://2023.pycon.org.il/#sponsorship
-  twitter: PyConIL
-  sub: PY
-  location:
-    latitude: 30.8124247
-    longitude: 34.8594762
 
 - title: PyCon Lithuania
   year: 2023
@@ -623,25 +623,6 @@
     latitude: 43.7698712
     longitude: 11.2555757
 
-- title: PyCon Germany & PyData Berlin
-  year: 2023
-  link: https://2023.pycon.de/
-  cfp_link: https://2023.pycon.de/blog/call-for-proposals
-  cfp: '2023-01-05 23:59:59'
-  tutorial_deadline: '2023-01-05 23:59:00'
-  timezone: Europe/Berlin
-  place: Berlin, Germany
-  date: April 17 - 19, 2023
-  start: 2023-04-17
-  end: 2023-04-19
-  sponsor: https://drive.google.com/file/d/1_8zqb6ORNTRfNJWaXBmKA03ow06IN4_l/view?usp=sharing
-  finaid: https://2023.pycon.de/financial-aid/
-  twitter: PyConDE
-  sub: PY,PYDATA
-  location:
-    latitude: 52.5170365
-    longitude: 13.3888599
-
 - title: JupyterCon
   year: 2023
   link: https://jupytercon.com/
@@ -709,7 +690,7 @@
     latitude: -6.09994425
     longitude: 39.32094431715264
 
-- title: PyCon Czechia
+- title: PyCon Czech Republic
   year: 2023
   link: https://cz.pycon.org/2023
   cfp: TBA
@@ -785,24 +766,3 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
-  end: 2024-04-21
-  sub: PY
-  location:
-    latitude: 30.2711286
-    longitude: -97.7436995
-
-- title: PyCon Slovakia
-  year: 2024
-  id: pyconsk2024
-  link: https://2024.pycon.sk/
-  cfp: TBA
-  start: 2024-03-15
-  end: 2024-03-17
-  date: March 15 - 17, 2024
-  timezone: Europe/Bratislava
-  place: Bratislava, Slovakia
-  twitter: pyconsk
-  sub: PY
-  location:
-    latitude: 48.1516988
-    longitude: 17.1093063
