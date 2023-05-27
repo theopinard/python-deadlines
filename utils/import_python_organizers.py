@@ -63,7 +63,7 @@ def fuzzy_match(df_yml, df_remote):
     # Make Title the index
     df_remote = df_remote.set_index("title", drop=False)
     df_remote.index.rename("title_match", inplace=True)
-    known_mappings = {"SciPy US": "SciPy"}
+    known_mappings = {"SciPy US": "SciPy", "PyCon Czechia": "PyCon Czech Republic"}
 
     df = df_yml.copy()
 
@@ -114,11 +114,13 @@ def interactive_merge(df_yml, df_remote):
     except:
         pass
 
-    replacements = {"United States of America": "USA",
-                    "United States": "USA",
-                    "United Kingdom": "UK",
-                    "Czech Republic": "Czechia",
-                    "www.": ""}
+    replacements = {
+        "United States of America": "USA",
+        "United States": "USA",
+        "United Kingdom": "UK",
+        "Czech Republic": "Czechia",
+        "www.": "",
+    }
 
     df_merge = pd.merge(left=df_yml, right=df_remote, how="outer", on="title_match", validate="one_to_one")
     for i, row in df_merge.iterrows():
@@ -179,9 +181,7 @@ def interactive_merge(df_yml, df_remote):
                             df_new.loc[i, column] = rx
                             ry = rx
                     else:
-                        if query_yes_no(
-                            f"For {i} in column '{column}' would you prefer '{rx}' or keep '{ry}'?"
-                        ):
+                        if query_yes_no(f"For {i} in column '{column}' would you prefer '{rx}' or keep '{ry}'?"):
                             df_new.loc[i, column] = rx
                         else:
                             df_new.loc[i, column] = ry
@@ -304,13 +304,14 @@ def main(year=None, base=""):
 
         df_new = pd.concat([df_new, df_merged], ignore_index=True)
 
-        # merged, _ = fuzzy_match(df, df_yml[df_yml["year"] == y])
-        # df_csv = pd.concat([df_csv, merged], ignore_index=True)
+        merged, _ = fuzzy_match(df, df_yml[df_yml["year"] == y])
+        df_csv = pd.concat([df_csv, merged], ignore_index=True)
 
     df_new = fill_missing_required(df_new)
-
     write_yaml(df_new, target_file)
-    # write_csv(df_csv, year, csv_location)
+
+    df_csv.loc[:, "Location"] = df_csv.place
+    write_csv(df_csv, year, csv_location)
 
 
 if __name__ == "__main__":
