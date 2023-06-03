@@ -725,6 +725,23 @@
     latitude: 50.0596288
     longitude: 14.446459273258009
 
+- title: PyCon Sweden
+  year: 2023
+  link: http://pycon.se
+  cfp: TBA
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: November 09 - 10, 2023
+  start: 2023-11-09
+  end: 2023-11-10
+  sponsor: https://pycon.se/#sponsorship
+  twitter: pyconse
+  mastodon: https://fosstodon.org/@pyconsweden
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
+
 - title: PyCon Italia
   year: 2024
   link: https://pycon.it/en
