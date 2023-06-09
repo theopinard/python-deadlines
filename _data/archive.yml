@@ -1,5 +1,22 @@
 ---
 
+- title: PyData Seattle
+  year: 2023
+  link: https://pydata.org/seattle2023/
+  cfp: '2023-02-06 23:59:00'
+  timezone: America/Los_Angeles
+  place: Seattle, USA
+  date: April 26 - 28, 2023
+  start: 2023-04-26
+  end: 2023-04-28
+  sponsor: https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
+  finaid: https://pydata.org/seattle2023/#diversity-scholars
+  twitter: PyDataSeattle
+  sub: PYDATA
+  location:
+    latitude: 47.6038321
+    longitude: -122.330062
+
 - title: PyCon Namibia
   year: 2023
   link: https://na.pycon.org
@@ -112,6 +129,24 @@
   location:
     latitude: 50.8465573
     longitude: 4.351697
+
+- title: PyCon US
+  year: 2023
+  link: https://us.pycon.org/2023/
+  cfp_link: https://us.pycon.org/2023/speaking/guidelines
+  cfp: '2022-12-11 23:59:59'
+  tutorial_deadline: '2022-12-11 23:59:00'
+  place: Salt Lake City, Utah, USA
+  date: April 19 - 28, 2023
+  start: 2023-04-19
+  end: 2023-04-27
+  sponsor: https://us.pycon.org/2023/sponsorship/why-sponsor
+  twitter: pycon
+  mastodon: https://fosstodon.org/@pycon
+  sub: PY
+  location:
+    latitude: 40.7596198
+    longitude: -111.886797
 
 - title: PyCascades
   year: 2023

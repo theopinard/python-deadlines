@@ -63,7 +63,7 @@ def fuzzy_match(df_yml, df_remote):
     # Make Title the index
     df_remote = df_remote.set_index("title", drop=False)
     df_remote.index.rename("title_match", inplace=True)
-    known_mappings = {"SciPy US": "SciPy", "PyCon Czechia": "PyCon Czech Republic"}
+    known_mappings = {"SciPy US": "SciPy"}
 
     df = df_yml.copy()
 
