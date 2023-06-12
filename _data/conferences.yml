@@ -123,6 +123,25 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- title: PyCon CZ
+  year: 2023
+  link: https://cz.pycon.org/2023
+  cfp_link: https://cz.pycon.org/2023/cfp
+  cfp: '2023-06-25 23:59:00'
+  workshop_deadline: '2023-06-25 23:59:00'
+  timezone: Europe/Prague
+  place: Prague, Bohemia, Czechia
+  date: September 15 - 17, 2023
+  start: 2023-09-15
+  end: 2023-09-17
+  sponsor: https://cz.pycon.org/2023/pycon-cz-sponsorship-prospectus-2023.pdf
+  finaid: https://cz.pycon.org/2023/cfp/
+  twitter: pyconcz
+  sub: PY
+  location:
+    latitude: 50.0596288
+    longitude: 14.446459273258009
+
 - title: "PyCon Espa\xF1a"
   year: 2023
   link: https://2023.es.pycon.org/
@@ -674,33 +693,16 @@
     latitude: 48.8588897
     longitude: 2.3200410217200766
 
-
-- title: PyCon Czechia
-  year: 2023
-  link: https://cz.pycon.org/2023
-  cfp: TBA
-  timezone: Europe/Prague
-  place: Prague, Bohemia, Czechia
-  date: September 15 - 17, 2023
-  start: 2023-09-15
-  end: 2023-09-17
-  sponsor: https://cz.pycon.org/2023/pycon-cz-sponsorship-prospectus-2023.pdf
-  twitter: pyconcz
-  sub: PY
-  location:
-    latitude: 50.0596288
-    longitude: 14.446459273258009
-
 - title: PyCon Sweden
   year: 2023
-  link: https://pycon.se
+  link: https://www.pycon.se
   cfp: TBA
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
   date: November 09 - 10, 2023
   start: 2023-11-09
   end: 2023-11-10
-  sponsor: https://pycon.se/#sponsorship
+  sponsor: https://www.pycon.se/#sponsorship
   twitter: pyconse
   mastodon: https://fosstodon.org/@pyconsweden
   sub: PY
