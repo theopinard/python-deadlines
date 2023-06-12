@@ -19,7 +19,7 @@
 <p>Preview of the feed’s current headlines:</p>
 <ol>
 <xsl:for-each select="rss/channel/item">
-<li><h2><a><xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute><xsl:value-of select="title"/></a></h2><br/><p><xsl:copy-of select="description/node()" /></p></li>
+<li><h2><a><xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute><xsl:value-of select="title"/></a></h2><p><xsl:copy-of select="description/node()" /></p></li>
 </xsl:for-each>
 </ol>
 </body>
