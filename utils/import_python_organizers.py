@@ -187,12 +187,11 @@ def interactive_merge(df_yml, df_remote):
                             df_new.loc[i, column] = ry
                 elif column == "cfp" and rx != ry:
                     # Special CFP stuff
+                    cfp_time_x = cfp_time_y = ""
                     if " " in rx and " " not in ry:
-                        cfp_time_x = ""
                         cfp_time_y = " " + rx.split(" ")[1]
                     elif " " not in rx and " " in ry:
                         cfp_time_x = " " + ry.split(" ")[1]
-                        cfp_time_y = ""
                     if query_yes_no(
                         f"For {i} in column '{column}' would you prefer '{rx+ cfp_time_x}' or keep '{ry+cfp_time_y}'?"
                     ):
