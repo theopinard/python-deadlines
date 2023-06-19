@@ -101,6 +101,22 @@
     latitude: 14.5948914
     longitude: 120.9782618
 
+- title: JupyterCon
+  year: 2023
+  link: https://jupytercon.com/
+  cfp: '2022-12-20 23:59:00'
+  place: Paris, France
+  date: May 10 - 12, 2023
+  start: 2023-05-10
+  end: 2023-05-12
+  sponsor: https://jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
+  finaid: https://www.jupytercon.com/scholarships
+  twitter: jupyterCon
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
 - title: GeoPython
   year: 2023
   link: https://2023.geopython.net/

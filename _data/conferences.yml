@@ -1,5 +1,23 @@
 ---
 
+- title: PyCon Sweden
+  year: 2023
+  link: https://pycon.se
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/viewform
+  cfp: '2023-09-01 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: November 09 - 10, 2023
+  start: 2023-11-09
+  end: 2023-11-10
+  sponsor: https://pycon.se/#sponsorship
+  twitter: pyconse
+  mastodon: https://fosstodon.org/@pyconsweden
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
+
 - title: PyCon South Africa
   year: 2023
   link: https://za.pycon.org/
@@ -129,6 +147,7 @@
   cfp_link: https://cz.pycon.org/2023/cfp
   cfp: '2023-06-25 23:59:00'
   workshop_deadline: '2023-06-25 23:59:00'
+  tutorial_deadline: '2023-06-25 23:59:00'
   timezone: Europe/Prague
   place: Prague, Bohemia, Czechia
   date: September 15 - 17, 2023
@@ -676,39 +695,6 @@
   location:
     latitude: 43.7698712
     longitude: 11.2555757
-
-- title: JupyterCon
-  year: 2023
-  link: https://jupytercon.com/
-  cfp: '2022-12-20 23:59:00'
-  place: Paris, France
-  date: May 10 - 12, 2023
-  start: 2023-05-10
-  end: 2023-05-12
-  sponsor: https://jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
-  finaid: https://www.jupytercon.com/scholarships
-  twitter: jupyterCon
-  sub: PY
-  location:
-    latitude: 48.8588897
-    longitude: 2.3200410217200766
-
-- title: PyCon Sweden
-  year: 2023
-  link: https://www.pycon.se
-  cfp: TBA
-  timezone: Europe/Stockholm
-  place: Stockholm, Sweden
-  date: November 09 - 10, 2023
-  start: 2023-11-09
-  end: 2023-11-10
-  sponsor: https://www.pycon.se/#sponsorship
-  twitter: pyconse
-  mastodon: https://fosstodon.org/@pyconsweden
-  sub: PY
-  location:
-    latitude: 59.3251172
-    longitude: 18.0710935
 
 - title: DjangoCon Europe
   year: 2024
