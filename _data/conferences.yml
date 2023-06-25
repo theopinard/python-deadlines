@@ -41,6 +41,7 @@
   link: https://th.pycon.org
   cfp_link: https://papercall.io/pyconth2023
   cfp: '2023-08-16 23:59:00'
+  workshop_deadline: '2023-08-16 23:59:00'
   timezone: UTC
   place: Bangkok, Thailand
   date: December 14 - 16, 2023
@@ -68,6 +69,20 @@
   location:
     latitude: 17.360589
     longitude: 78.4740613
+
+- title: PyCon Ireland
+  year: 2023
+  link: https://python.ie/pycon-2023/
+  cfp: '2023-07-16 23:59:00'
+  timezone: UTC
+  place: Dublin, Ireland
+  date: November 12 - 13, 2023
+  start: 2023-11-12
+  end: 2023-11-13
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - title: PyData Tel Aviv
   year: 2023
@@ -712,18 +727,6 @@
   location:
     latitude: 43.7698712
     longitude: 11.2555757
-
-- title: PyCamp Leipzig
-  year: 2023
-  link: https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2023
-  cfp: TBA
-  place: Leipzig, Saxony, Germany
-  start: 2023-07-29
-  end: 2023-07-30
-  location:
-    latitude: 51.3406321
-    longitude: 12.3747329
-  date: July 29 - 30, 2023
 
 - title: DjangoCon Europe
   year: 2024
