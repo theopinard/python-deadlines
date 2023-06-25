@@ -36,6 +36,22 @@
     latitude: -29.861825
     longitude: 31.009909
 
+- title: PyCon Thailand
+  year: 2023
+  link: https://th.pycon.org
+  cfp_link: https://papercall.io/pyconth2023
+  cfp: '2023-08-16 23:59:00'
+  timezone: UTC
+  place: Bangkok, Thailand
+  date: December 14 - 16, 2023
+  start: 2023-12-14
+  end: 2023-12-16
+  sponsor: https://shorturl.at/kqrL4
+  sub: PY
+  location:
+    latitude: 13.7524938
+    longitude: 100.4935089
+
 - title: PyCon India
   year: 2023
   link: https://in.pycon.org/2023/
@@ -696,6 +712,18 @@
   location:
     latitude: 43.7698712
     longitude: 11.2555757
+
+- title: PyCamp Leipzig
+  year: 2023
+  link: https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2023
+  cfp: TBA
+  place: Leipzig, Saxony, Germany
+  start: 2023-07-29
+  end: 2023-07-30
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
+  date: July 29 - 30, 2023
 
 - title: DjangoCon Europe
   year: 2024
