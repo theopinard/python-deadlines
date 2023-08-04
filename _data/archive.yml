@@ -1,5 +1,102 @@
 ---
 
+- title: Moscow Python Conf++
+  year: 2023
+  link: https://conf.python.ru/moscow/2023
+  cfp_link: https://cfp.conf.python.ru
+  cfp: '2023-04-17 23:59:00'
+  timezone: Europe/Moscow
+  place: Moscow, Central Federal District, Russia
+  date: May 19 - 20, 2023
+  start: 2023-05-19
+  end: 2023-05-20
+  twitter: moscowpython
+  sub: PY
+  location:
+    latitude: 55.7504461
+    longitude: 37.6174943
+
+- title: PyCon Colombia
+  year: 2023
+  link: https://2023.pycon.co/
+  cfp_link: https://2023.pycon.co/call-for-proposals
+  cfp: '2023-03-30 23:59:59'
+  timezone: America/Bogota
+  place: Online
+  date: June 09 - 11, 2023
+  start: 2023-06-09
+  end: 2023-06-11
+  finaid: https://2023.pycon.co/scholarship/
+  twitter: PyConColombia
+  sub: PY
+
+- title: PyDay La Paz
+  year: 2023
+  link: https://pyday.pylapaz.org/
+  cfp: '2023-03-30 23:59:00'
+  timezone: America/La_Paz
+  place: La Paz, Bolivia
+  date: 3 June, 2023
+  start: 2023-06-03
+  end: 2023-06-03
+  sponsor: https://forms.gle/7SoVfzBgwYfv1Qw59
+  twitter: PyDayLaPaz
+  sub: PY
+  location:
+    latitude: -16.4955455
+    longitude: -68.1336229
+
+- title: PyCon Lithuania
+  year: 2023
+  link: https://pycon.lt/2023
+  cfp: '2023-03-18 00:00:00'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  date: May 17 - 20, 2023
+  start: 2023-05-17
+  end: 2023-05-20
+  sponsor: https://drive.google.com/file/d/1wznoPlxfrdHd_jI7ZqP3vRKMHSaRJatm/view?usp=sharing
+  finaid: https://forms.gle/hbsYbiboLEXLGU8XA
+  twitter: PyConLT
+  sub: PY
+  location:
+    latitude: 54.6870458
+    longitude: 25.2829111
+
+- title: PyData London
+  year: 2023
+  link: https://pydata.org/london2023/
+  cfp: '2023-03-13 23:59:00'
+  timezone: Europe/London
+  place: London, UK
+  date: June 2 - 4, 2023
+  start: 2023-06-02
+  end: 2023-06-04
+  sponsor: https://pydata.org/wp-content/uploads/2023/01/PyData-2023-Sponsorship-Prospectus.pdf
+  twitter: PyDataLondon
+  sub: PYDATA
+  location:
+    latitude: 51.5073359
+    longitude: -0.12765
+
+- title: DjangoCon Europe
+  year: 2023
+  link: https://2023.djangocon.eu/
+  cfp_link: https://2023.djangocon.eu/call-for-proposals
+  cfp: '2023-02-27 23:59:59'
+  tutorial_deadline: '2023-02-27 23:59:00'
+  place: Edinburgh, Scotland, UK
+  date: May 29 - June 02, 2023
+  start: 2023-05-29
+  end: 2023-06-02
+  sponsor: https://2023.djangocon.eu/sponsors/information/
+  finaid: https://2023.djangocon.eu/opportunity-grants/
+  twitter: DjangoConEurope
+  sub: WEB
+  location:
+    latitude: 55.9533456
+    longitude: -3.1883749
+
 - title: PyData Seattle
   year: 2023
   link: https://pydata.org/seattle2023/
@@ -34,6 +131,25 @@
   location:
     latitude: -22.5776104
     longitude: 17.0772739
+
+- title: PyCon Italia
+  year: 2023
+  link: https://pycon.it/en
+  cfp_link: https://pycon.it/cfp
+  cfp: '2023-01-16 13:59:00'
+  tutorial_deadline: '2023-01-15 23:59:00'
+  place: Florence, Italy
+  date: May 25 - 28, 2023
+  start: 2023-05-25
+  end: 2023-05-28
+  sponsor: https://pycon.it/en/sponsor
+  finaid: https://pycon.it/en/grants-info
+  twitter: PyConIT
+  mastodon: https://social.python.it/@pycon
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - title: PyTexas
   year: 2023
