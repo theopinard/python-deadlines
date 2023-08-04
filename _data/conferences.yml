@@ -801,3 +801,14 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
+
+- title: Pyjamas Conf
+  year: 2023
+  link: https://pyjamas.live
+  cfp: TBA
+  start: 2023-12-09
+  end: 2023-12-11
+  place: Online
+  sub: PY
+  full_name: Laziest Conference ever
+  note: Supports any language of talks
