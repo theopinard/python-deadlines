@@ -59,11 +59,7 @@ def split_data(data):
     for q in tqdm(data):
         if q.get(
             "end", datetime.datetime.utcnow().replace(microsecond=0).date()
-        ) < datetime.datetime.utcnow().replace(
-            microsecond=0
-        ).date() - datetime.timedelta(
-            days=37
-        ):
+        ) < datetime.datetime.utcnow().replace(microsecond=0).date() - datetime.timedelta(days=37):
             expired.append(q)
             continue
 
@@ -92,12 +88,16 @@ def add_latlon(data):
                 + urllib.parse.quote(q["place"])
                 + "?format=json"
             )
-            response = requests.get(url).json()
+            response = requests.get(url)
+
             if response:
+                response = response.json()
                 data[i]["location"] = {}
                 data[i]["location"]["latitude"] = float(response[0]["lat"])
                 data[i]["location"]["longitude"] = float(response[0]["lon"])
                 time.sleep(2)
+            else:
+                print(f"No response from Openstreetmaps for {q['place']}")
     return data
 
 
@@ -131,9 +131,7 @@ def sort_data(base="", prefix=""):
             conf.sort(key=sort_by_cfp, reverse=True)
             pretty_print("Date Sorting:", conf, tba, expired)
             conf.sort(key=sort_by_date_passed)
-            pretty_print(
-                "Date and Passed Deadline Sorting with tba:", conf, tba, expired
-            )
+            pretty_print("Date and Passed Deadline Sorting with tba:", conf, tba, expired)
 
             with open(out_url, "w") as outfile:
                 for line in ordered_dump(
@@ -151,7 +149,9 @@ def sort_data(base="", prefix=""):
         try:
             data = yaml.load(stream, Loader=Loader)
 
-            data += expired
+            for old in expired:
+                if old not in data:
+                    data.append(old)
 
             data.sort(key=sort_by_cfp, reverse=True)
             data = add_latlon(data)
