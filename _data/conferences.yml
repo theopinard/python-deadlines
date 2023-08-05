@@ -1,5 +1,16 @@
 ---
 
+- title: PyLadiesCon
+  year: 2023
+  link: https://conference.pyladies.com
+  cfp_link: https://pretalx.com/pyladiescon-2023/cfp
+  cfp: '2023-09-04 23:59:00'
+  place: Online
+  date: December 02 - 03, 2023
+  start: 2023-12-02
+  end: 2023-12-03
+  sub: PY
+
 - title: PyCon Sweden
   year: 2023
   link: https://pycon.se
@@ -96,6 +107,9 @@
   sponsor: https://pycon.id/sponsor
   twitter: id_pycon
   sub: PY
+  location:
+    latitude: -8.7326688
+    longitude: 115.1701613
 
 - title: PyData Tel Aviv
   year: 2023
@@ -472,6 +486,9 @@
   twitter: DjangoConAU
   mastodon: https://fosstodon.org/@djangoconau
   sub: WEB
+  location:
+    latitude: -34.9281805
+    longitude: 138.5999312
 
 - title: PyCon Estonia
   year: 2023
@@ -647,6 +664,9 @@
   end: 2024-06-16
   twitter: DjangoConEurope
   sub: WEB
+  location:
+    latitude: 42.240599
+    longitude: -8.720727
 
 - title: PyCon Italia
   year: 2024
