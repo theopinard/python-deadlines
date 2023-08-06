@@ -202,6 +202,25 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- title: PyCon DE & PyData Berlin
+  year: 2023
+  link: https://2023.pycon.de/
+  cfp_link: https://2023.pycon.de/blog/call-for-proposals
+  cfp: '2023-01-05 23:59:59'
+  tutorial_deadline: '2023-01-05 23:59:00'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: April 17 - 19, 2023
+  start: 2023-04-17
+  end: 2023-04-19
+  sponsor: https://drive.google.com/file/d/1_8zqb6ORNTRfNJWaXBmKA03ow06IN4_l/view?usp=sharing
+  finaid: https://2023.pycon.de/financial-aid/
+  twitter: PyConDE
+  sub: PY,PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
+
 - title: PyCon Philippines
   year: 2023
   link: https://pycon-2023.python.ph
