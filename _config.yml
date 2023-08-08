@@ -55,9 +55,9 @@ page_gen:
   template: 'conference'
   dir: 'conference'
   name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
-  title: 'title'
+  title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines – PythonDeadlin.es"
 - data: 'archive'
   template: 'conference'
   dir: 'conference'
   name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
-  title: 'title'
+  title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines – PythonDeadlin.es"
