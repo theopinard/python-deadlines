@@ -739,3 +739,18 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
+
+- title: PyCon DE & PyData Berlin
+  year: 2024
+  link: https://pycon.de/
+  cfp: TBA
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: April 21 - 24, 2024
+  start: 2024-04-21
+  end: 2024-04-24
+  twitter: PyConDE
+  sub: PY,PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
