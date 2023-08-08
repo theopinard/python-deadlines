@@ -56,7 +56,6 @@ page_gen:
   dir: 'conference'
   name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
   title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines"
-  filter_condition: "record['year'] <= site.time.year + 1 and not record['cfp'] == 'TBA'"
 - data: 'archive'
   template: 'conference'
   dir: 'conference'
