@@ -754,3 +754,18 @@
   location:
     latitude: 52.5170365
     longitude: 13.3888599
+
+- title: PyData London
+  year: 2024
+  link: https://pydata.org/london2024/
+  cfp: TBA
+  timezone: Europe/London
+  place: London, United Kingdom
+  date: June 14 - 16, 2024
+  start: 2024-06-14
+  end: 2024-06-16
+  twitter: PyDataLondon
+  sub: PYDATA
+  location:
+    latitude: 51.51072
+    longitude: -0.07655
