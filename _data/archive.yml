@@ -46,6 +46,23 @@
     latitude: -16.4955455
     longitude: -68.1336229
 
+- title: PyCon Poland
+  year: 2023
+  link: https://pl.pycon.org/2023
+  cfp: '2023-03-27 23:59:00'
+  timezone: Europe/Warsaw
+  place: Gliwice, Poland
+  date: June 29 - July 2, 2023
+  start: 2023-06-29
+  end: 2023-07-02
+  sponsor: https://pl.pycon.org/2023/sponsorship.pdf
+  finaid: https://pl.pycon.org/2023/en/financial-aid/
+  twitter: PyConPL
+  sub: PY
+  location:
+    latitude: 50.294113
+    longitude: 18.6657306
+
 - title: PyCon Lithuania
   year: 2023
   link: https://pycon.lt/2023

@@ -77,6 +77,21 @@
     latitude: 13.7524938
     longitude: 100.4935089
 
+- title: PackagingCon
+  year: 2023
+  link: https://packaging-con.org/
+  cfp_link: https://cfp.packaging-con.org/2023/cfp
+  cfp: '2023-08-06 23:59:59'
+  place: Berlin, Germany
+  date: October 26 - 28, 2023
+  start: 2023-10-26
+  end: 2023-10-28
+  sponsor: https://packaging-con.org/s/sponsorship_prospectus_packagingcon_2023.pdf
+  sub: PY
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - title: PyCon India
   year: 2023
   link: https://in.pycon.org/2023/
@@ -586,23 +601,6 @@
     latitude: 25.0375198
     longitude: 121.5636796
 
-- title: PyCon Poland
-  year: 2023
-  link: https://pl.pycon.org/2023
-  cfp: '2023-03-27 23:59:00'
-  timezone: Europe/Warsaw
-  place: Gliwice, Poland
-  date: June 29 - July 2, 2023
-  start: 2023-06-29
-  end: 2023-07-02
-  sponsor: https://pl.pycon.org/2023/sponsorship.pdf
-  finaid: https://pl.pycon.org/2023/en/financial-aid/
-  twitter: PyConPL
-  sub: PY
-  location:
-    latitude: 50.294113
-    longitude: 18.6657306
-
 - title: EuroPython
   year: 2023
   link: https://ep2023.europython.eu/
@@ -655,6 +653,15 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- title: PyCamp Leipzig
+  year: 2023
+  link: https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2023
+  cfp: TBA
+  place: Leipzig, Saxony, Germany
+  start: 2023-07-29
+  end: 2023-07-30
+  date: July 29 - 30, 2023
+
 - title: Pyjamas Conf
   year: 2023
   link: https://pyjamas.live
@@ -680,6 +687,21 @@
   location:
     latitude: 42.240599
     longitude: -8.720727
+
+- title: PyCon DE & PyData Berlin
+  year: 2024
+  link: https://pycon.de/
+  cfp: TBA
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: April 21 - 24, 2024
+  start: 2024-04-21
+  end: 2024-04-24
+  twitter: PyConDE
+  sub: PY,PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
 
 - title: PyCon Italia
   year: 2024
@@ -727,6 +749,21 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
+- title: PyData London
+  year: 2024
+  link: https://pydata.org/london2024/
+  cfp: TBA
+  timezone: Europe/London
+  place: London, UK
+  date: June 14 - 16, 2024
+  start: 2024-06-14
+  end: 2024-06-16
+  twitter: PyDataLondon
+  sub: PYDATA
+  location:
+    latitude: 51.51072
+    longitude: -0.07655
+
 - title: PyTexas
   year: 2024
   link: https://pytexas.org
@@ -739,33 +776,3 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
-
-- title: PyCon DE & PyData Berlin
-  year: 2024
-  link: https://pycon.de/
-  cfp: TBA
-  timezone: Europe/Berlin
-  place: Berlin, Germany
-  date: April 21 - 24, 2024
-  start: 2024-04-21
-  end: 2024-04-24
-  twitter: PyConDE
-  sub: PY,PYDATA
-  location:
-    latitude: 52.5170365
-    longitude: 13.3888599
-
-- title: PyData London
-  year: 2024
-  link: https://pydata.org/london2024/
-  cfp: TBA
-  timezone: Europe/London
-  place: London, United Kingdom
-  date: June 14 - 16, 2024
-  start: 2024-06-14
-  end: 2024-06-16
-  twitter: PyDataLondon
-  sub: PYDATA
-  location:
-    latitude: 51.51072
-    longitude: -0.07655
