@@ -84,9 +84,9 @@ def add_latlon(data):
             continue
         else:
             url = (
-                "https://nominatim.openstreetmap.org/search/"
+                "https://nominatim.openstreetmap.org/search"
+                + "?format=json&q="
                 + urllib.parse.quote(q["place"])
-                + "?format=json"
             )
             response = requests.get(url)
 
