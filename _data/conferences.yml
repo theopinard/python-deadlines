@@ -13,8 +13,8 @@
   sub: PY
   note: Saturday presence, 2 days online
   location:
-    lat: -32.5976089
-    lon: -70.8529753
+    latitude: -32.5976089
+    longitude: -70.8529753
 
 - title: PyHEP
   year: 2023
