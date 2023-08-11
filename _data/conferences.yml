@@ -1,5 +1,21 @@
 ---
 
+- title: PyCon Chile
+  year: 2023
+  link: https://pycon.cl/
+  cfp: '2023-09-15 23:59:59'
+  timezone: America/Santiago
+  place: Valparaiso, Chile & Online
+  date: November 24 - 26, 2023
+  start: 2023-11-24
+  end: 2023-11-26
+  twitter: PythonChileDev
+  sub: PY
+  note: Saturday presence, 2 days online
+  location:
+    lat: -32.5976089
+    lon: -70.8529753
+
 - title: PyHEP
   year: 2023
   link: https://indico.cern.ch/e/PyHEP2023
@@ -652,15 +668,6 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
-
-- title: PyCamp Leipzig
-  year: 2023
-  link: https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2023
-  cfp: TBA
-  place: Leipzig, Saxony, Germany
-  start: 2023-07-29
-  end: 2023-07-30
-  date: July 29 - 30, 2023
 
 - title: Pyjamas Conf
   year: 2023
