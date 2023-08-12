@@ -31,7 +31,7 @@ We are not willing or obliged to participate in dispute resolution proceedings b
 
 ## **Privacy Notice** (Datenschutz):
 
-See [Privacy Policy](/privacy-policy).
+See [Privacy Policy](/legal/privacy-policy).
 
 ### Cookies
 
