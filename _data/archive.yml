@@ -16,6 +16,23 @@
     latitude: 55.7504461
     longitude: 37.6174943
 
+- title: PyCon Israel
+  year: 2023
+  link: https://2023.pycon.org.il/
+  cfp_link: https://cfp.pycon.org.il/conference2023/cfp
+  cfp: '2023-04-02 22:59:00'
+  timezone: Africa/Cairo
+  place: Israel
+  date: July 04 - 05, 2023
+  start: 2023-07-04
+  end: 2023-07-05
+  sponsor: https://2023.pycon.org.il/#sponsorship
+  twitter: PyConIL
+  sub: PY
+  location:
+    latitude: 30.8124247
+    longitude: 34.8594762
+
 - title: PyCon Colombia
   year: 2023
   link: https://2023.pycon.co/

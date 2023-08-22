@@ -1,5 +1,19 @@
 ---
 
+- title: Python Pizza
+  year: 2023
+  link: https://hamburg.python.pizza/
+  cfp_link: https://forms.gle/Mssgv25KUgjBv3hN6
+  cfp: '2023-09-30 23:59:00'
+  timezone: Europe/Zurich
+  place: Online
+  date: November 17th, 2023
+  start: 2023-11-17
+  end: 2023-11-17
+  sponsor: https://hamburg.python.pizza/#sponsors
+  twitter: PythonPizzaConf
+  sub: PY
+
 - title: PyCon Chile
   year: 2023
   link: https://pycon.cl/
@@ -583,23 +597,6 @@
   location:
     latitude: 0.3177137
     longitude: 32.5813539
-
-- title: PyCon Israel
-  year: 2023
-  link: https://2023.pycon.org.il/
-  cfp_link: https://cfp.pycon.org.il/conference2023/cfp
-  cfp: '2023-04-02 22:59:00'
-  timezone: Africa/Cairo
-  place: Israel
-  date: July 04 - 05, 2023
-  start: 2023-07-04
-  end: 2023-07-05
-  sponsor: https://2023.pycon.org.il/#sponsorship
-  twitter: PyConIL
-  sub: PY
-  location:
-    latitude: 30.8124247
-    longitude: 34.8594762
 
 - title: PyCon Taiwan
   year: 2023
