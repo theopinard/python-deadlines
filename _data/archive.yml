@@ -113,6 +113,24 @@
     latitude: 51.5073359
     longitude: -0.12765
 
+- title: SciPy
+  year: 2023
+  link: https://scipy2023.scipy.org
+  cfp_link: https://scipy2023.scipy.org/present
+  cfp: '2023-03-01 23:59:00'
+  timezone: America/Chicago
+  place: Austin, Texas, USA
+  date: July 10 - 16, 2023
+  start: 2023-07-10
+  end: 2023-07-16
+  sponsor: https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
+  finaid: https://www.scipy2023.scipy.org/financial-aid
+  twitter: SciPyConf
+  sub: SCIPY
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - title: DjangoCon Europe
   year: 2023
   link: https://2023.djangocon.eu/

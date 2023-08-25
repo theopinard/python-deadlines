@@ -1,5 +1,17 @@
 ---
 
+- title: XtremePython
+  year: 2023
+  link: https://xtremepython.dev/2023/
+  cfp_link: https://forms.gle/7dv6iqToggY8Gshs5
+  cfp: '2023-11-01 23:59:00'
+  place: Online
+  date: December 5th, 2023
+  start: 2023-12-05
+  end: 2023-12-05
+  sponsor: https://xtremepython.dev/2023/sponsors/
+  sub: PY
+
 - title: Python Pizza
   year: 2023
   link: https://hamburg.python.pizza/
@@ -71,6 +83,23 @@
   location:
     latitude: 59.3251172
     longitude: 18.0710935
+
+- title: DjangoDay Copenhagen
+  year: 2023
+  link: https://2023.djangoday.dk/
+  cfp_link: https://2023.djangoday.dk/cfp/
+  cfp: '2023-08-31 23:59:59'
+  timezone: Europe/Copenhagen
+  place: Copenhagen, Denmark
+  date: October 06, 2023
+  start: 2023-10-06
+  end: 2023-10-06
+  twitter: djangodenmark
+  mastodon: https://fosstodon.org/@djangodenmark
+  sub: WEB
+  location:
+    latitude: 55.6867243
+    longitude: 12.5700724
 
 - title: PyCon South Africa
   year: 2023
@@ -647,24 +676,6 @@
   location:
     latitude: 55.7504461
     longitude: 37.6174943
-
-- title: SciPy
-  year: 2023
-  link: https://scipy2023.scipy.org
-  cfp_link: https://scipy2023.scipy.org/present
-  cfp: '2023-03-01 23:59:00'
-  timezone: America/Chicago
-  place: Austin, Texas, USA
-  date: July 10 - 16, 2023
-  start: 2023-07-10
-  end: 2023-07-16
-  sponsor: https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
-  finaid: https://www.scipy2023.scipy.org/financial-aid
-  twitter: SciPyConf
-  sub: SCIPY
-  location:
-    latitude: 30.2711286
-    longitude: -97.7436995
 
 - title: Pyjamas Conf
   year: 2023
