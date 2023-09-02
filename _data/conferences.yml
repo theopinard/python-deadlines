@@ -12,6 +12,18 @@
   sponsor: https://xtremepython.dev/2023/sponsors/
   sub: PY
 
+- title: Pydata Global
+  year: 2023
+  link: https://pydata.org/global2023/
+  cfp_link: https://pydata.org/global2023/cfp
+  cfp: '2023-10-01 23:59:00'
+  place: Online
+  date: December 06 - 08, 2023
+  start: 2023-12-06
+  end: 2023-12-08
+  sponsor: https://pydata.org/global2023/sponsor
+  sub: PYDATA
+
 - title: Python Pizza
   year: 2023
   link: https://hamburg.python.pizza/
@@ -325,23 +337,6 @@
     latitude: 28.2935785
     longitude: -16.621447121144122
 
-- title: AfroPython Conf
-  year: 2023
-  link: https://afropython.org/conf2023/
-  cfp_link: https://bit.ly/conf2023-palestrantes
-  cfp: '2023-06-19 23:59:00'
-  timezone: America/Bahia
-  place: Salvador, Brazil
-  date: July 22, 2023
-  start: 2023-07-22
-  end: 2023-07-22
-  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSclMmFsjw5qcJaFwCC-z7zhN0Uaf8t4zF74qL_KKsBjh-y-aA/viewform
-  twitter: AfroPython
-  sub: PY
-  location:
-    latitude: -12.9822499
-    longitude: -38.4812772
-
 - title: PyCon Hong Kong
   year: 2023
   link: https://pycon.hk/2023/
@@ -463,7 +458,7 @@
   cfp: '2023-05-19 23:59:00'
   timezone: Pacific/Auckland
   place: "Waih\u014Dpai (Invercargill), Aotearoa, New Zealand"
-  date: September 15 - 17, 2022
+  date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
   sponsor: https://kiwipycon.nz/s/Kiwi-Pycon-XII-Sponsorship-Prospectus.pdf
@@ -642,23 +637,6 @@
   location:
     latitude: 25.0375198
     longitude: 121.5636796
-
-- title: EuroPython
-  year: 2023
-  link: https://ep2023.europython.eu/
-  cfp_link: https://ep2023.europython.eu/cfp
-  cfp: '2023-03-26 23:59:00'
-  place: Prague, Czechia
-  date: July 17 - 23, 2023
-  start: 2023-07-17
-  end: 2023-07-23
-  sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
-  finaid: https://ep2023.europython.eu/finaid
-  twitter: EuroPython
-  sub: PY
-  location:
-    latitude: 50.0874654
-    longitude: 14.4212535
 
 - title: PyCon Russia
   year: 2023

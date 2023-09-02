@@ -1,5 +1,22 @@
 ---
 
+- title: AfroPython Conf
+  year: 2023
+  link: https://afropython.org/conf2023/
+  cfp_link: https://bit.ly/conf2023-palestrantes
+  cfp: '2023-06-19 23:59:00'
+  timezone: America/Bahia
+  place: Salvador, Brazil
+  date: July 22, 2023
+  start: 2023-07-22
+  end: 2023-07-22
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSclMmFsjw5qcJaFwCC-z7zhN0Uaf8t4zF74qL_KKsBjh-y-aA/viewform
+  twitter: AfroPython
+  sub: PY
+  location:
+    latitude: -12.9822499
+    longitude: -38.4812772
+
 - title: Moscow Python Conf++
   year: 2023
   link: https://conf.python.ru/moscow/2023
@@ -79,6 +96,23 @@
   location:
     latitude: 50.294113
     longitude: 18.6657306
+
+- title: EuroPython
+  year: 2023
+  link: https://ep2023.europython.eu/
+  cfp_link: https://ep2023.europython.eu/cfp
+  cfp: '2023-03-26 23:59:00'
+  place: Prague, Czechia
+  date: July 17 - 23, 2023
+  start: 2023-07-17
+  end: 2023-07-23
+  sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
+  finaid: https://ep2023.europython.eu/finaid
+  twitter: EuroPython
+  sub: PY
+  location:
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - title: PyCon Lithuania
   year: 2023
