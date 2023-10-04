@@ -17,6 +17,41 @@
     latitude: -12.9822499
     longitude: -38.4812772
 
+- title: North Bay Python
+  year: 2023
+  link: https://2023.northbaypython.org/
+  cfp_link: https://2023.northbaypython.org/speak
+  cfp: '2023-05-19 23:59:00'
+  timezone: America/Los_Angeles
+  place: Petaluma, California, USA
+  date: July 29 - 30, 2023
+  start: 2023-07-29
+  end: 2023-07-30
+  sponsor: https://2023.northbaypython.org/assets/pdf/sponsor-prospectus.pdf
+  twitter: NorthBayPython
+  mastodon: https://floss.social/@northbaypython
+  sub: PY
+  location:
+    latitude: 38.295411
+    longitude: -122.61369350203252
+
+- title: PyCon Korea
+  year: 2023
+  link: https://2023.pycon.kr/
+  cfp_link: https://2023.pycon.kr/cfp/apply
+  cfp: '2023-05-14 23:59:00'
+  timezone: Asia/Seoul
+  place: Seoul, South Korea
+  date: August 11 - 13, 2023
+  start: 2023-08-11
+  end: 2023-08-13
+  sponsor: https://2023.pycon.kr/sponsor/information
+  twitter: PyConKR
+  sub: PY
+  location:
+    latitude: 37.5666791
+    longitude: 126.9782914
+
 - title: Moscow Python Conf++
   year: 2023
   link: https://conf.python.ru/moscow/2023
@@ -130,6 +165,23 @@
   location:
     latitude: 54.6870458
     longitude: 25.2829111
+
+- title: PyCon Russia
+  year: 2023
+  link: https://pycon.ru
+  cfp_link: https://pycon.ru/cfp
+  cfp: '2023-03-15 23:59:00'
+  timezone: Europe/Moscow
+  place: Moscow, Central Federal District, Russia
+  date: July 28 - 29, 2023
+  start: 2023-07-28
+  end: 2023-07-29
+  sponsor: https://pycon.ru/partneram
+  twitter: IT_People_ru
+  sub: PY
+  location:
+    latitude: 55.7504461
+    longitude: 37.6174943
 
 - title: PyData London
   year: 2023
