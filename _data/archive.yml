@@ -17,6 +17,22 @@
     latitude: -12.9822499
     longitude: -38.4812772
 
+- title: PyCon Malaysia
+  year: 2023
+  link: https://pycon.my
+  cfp_link: https://papercall.io/pycon-my-2023
+  cfp: '2023-05-31 23:59:00'
+  timezone: Asia/Kuala_Lumpur
+  place: Kuala Lumpur, Malaysia
+  date: August 26, 2023
+  start: 2023-08-26
+  end: 2023-08-26
+  twitter: pyconmy
+  sub: PY
+  location:
+    latitude: 4.5693754
+    longitude: 102.2656823
+
 - title: North Bay Python
   year: 2023
   link: https://2023.northbaypython.org/
@@ -35,6 +51,42 @@
     latitude: 38.295411
     longitude: -122.61369350203252
 
+- title: PyCon Australia
+  year: 2023
+  link: https://2023.pycon.org.au/
+  cfp_link: https://2023.pycon.org.au/program
+  cfp: '2023-05-15 23:59:00'
+  timezone: Australia/Adelaide
+  place: Tarndanya (Adelaide), Australia
+  date: August 18 - 22, 2023
+  start: 2023-08-18
+  end: 2023-08-22
+  sponsor: https://2023.pycon.org.au/sponsor/#opportunities
+  twitter: PyConAU
+  mastodon: https://fosstodon.org/@pyconau
+  sub: PY
+  location:
+    latitude: -34.9281805
+    longitude: 138.5999312
+
+- title: EuroSciPy
+  year: 2023
+  link: https://euroscipy.org/2023/
+  cfp_link: https://euroscipy.org/2023/program.html
+  cfp: '2023-05-14 23:59:59'
+  timezone: Europe/Berlin
+  place: Basel, Switzerland
+  date: Aug 14 - 18, 2023
+  start: 2023-08-14
+  end: 2023-08-18
+  sponsor: https://euroscipy.org/2023/sponsoring.html
+  finaid: https://euroscipy.org/2023/finaid.html
+  twitter: euroSciPy
+  sub: SCIPY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
 - title: PyCon Korea
   year: 2023
   link: https://2023.pycon.kr/
@@ -51,6 +103,41 @@
   location:
     latitude: 37.5666791
     longitude: 126.9782914
+
+- title: DjangoCon Australia
+  year: 2023
+  link: https://2023.djangocon.com.au
+  cfp_link: https://2023.pycon.org.au/program
+  cfp: '2023-05-14 23:59:00'
+  timezone: Australia/Adelaide
+  place: Tarndanya (Adelaide), Australia
+  date: August 18th, 2023
+  start: 2023-08-18
+  end: 2023-08-18
+  sponsor: https://2023.pycon.org.au/sponsor
+  twitter: DjangoConAU
+  mastodon: https://fosstodon.org/@djangoconau
+  sub: WEB
+  location:
+    latitude: -34.9281805
+    longitude: 138.5999312
+
+- title: PyCon Latin America
+  year: 2023
+  link: https://pylatam.org
+  cfp_link: https://papercall.io/pyconlatam23
+  cfp: '2023-05-07 23:59:00'
+  timezone: UTC
+  place: Monterrey, Mexico
+  date: August 24 - 26, 2023
+  start: 2023-08-24
+  end: 2023-08-26
+  sponsor: https://pylatam.org/patrocinios/informacion/
+  twitter: PyLatam
+  sub: PY
+  location:
+    latitude: 25.6802019
+    longitude: -100.315258
 
 - title: Moscow Python Conf++
   year: 2023
