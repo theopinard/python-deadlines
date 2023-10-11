@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-12 col-sm-12">
                   <h1>
-                    {{ site.title }} 
+                    {{ site.title }}
                   </h1>
                 </div>
                 <div class="meta col-12">
@@ -22,7 +22,7 @@
             </div>
             <br>
             <div class="row">
-              <div class="meta col-8">This community tool serves as a central repository for deadlines of calls for participitation, proposals, workshops, and tutorials at Python conferences. 
+              <div class="meta col-8">This community tool serves as a central repository for deadlines of calls for participitation, proposals, workshops, and tutorials at Python conferences.
                 The dates are made available as countdowns, in local timezones and even as a Google calendar below! <br>
                 Deadlines are shown in <span class="local-timezone">your local</span> time.
                 To view them in conference website timezones, click on the conference.<br>
@@ -137,7 +137,7 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
-                
+
               </div>
             </div>
             <div class="row">
@@ -175,20 +175,20 @@
 
       var DateTime = luxon.DateTime;
       var today = DateTime.now();
-      
+
       // Make sure this is >= no. of subs
       // Currently not used
       var colors = ['#341f97', '#ee5253', '#2e86de',
                     '#ff9f43', '#10ac84', '#222f3e']
 
-      
+
       {% include load_data.js %}
       {% include utils.js %}
       {% include multiselect_handler.js %}
 
       // Set time zone to local timezone on web copy
       $('.local-timezone').text(today.toFormat('z'));
-      
+
       {% for conf in site.data.conferences %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
@@ -199,7 +199,7 @@
           $('#{{conf.title | slugify}}-{{conf.year}} .deadline-time').html("TBA");
           $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", -Infinity);
         {% else %}
-          
+
           // Use specified timezone for deadlines if available else use AoE timezone
           {% if conf.timezone %}
             var cfpDate = DateTime.fromSQL("{{conf.cfp}}", {zone: "{{conf.timezone}}"});
@@ -257,7 +257,7 @@
             $('#{{conf.title | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
             $('#{{conf.title | slugify}}-{{conf.year}} .calendar').remove();
           }
-          
+
           if (confDiff > 0) {
             $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastconf');
             $('#{{conf.title | slugify}}-{{conf.year}}').appendTo($("#past_confs"));

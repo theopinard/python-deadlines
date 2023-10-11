@@ -38,7 +38,7 @@
               content +=
                 '<div class="event-tooltip-content">' +
                 '<div class="event-name ' + headline_color + '">' +
-                '<b>' + e.events[i].name + '</b>' + 
+                '<b>' + e.events[i].name + '</b>' +
                 '</div>' +
                 '<div class="event-location">' +
                 location_html +
@@ -162,9 +162,10 @@ function update_filtering(data) {
   calendar_data['dataSource'] = conf_list;  // need to update only this
   calendar = new Calendar("#calendar-page", calendar_data);
 
-  if (subs.length == 0) {
-    window.history.pushState('', '', page_url);
-  } else {
-    window.history.pushState('', '', page_url + '/?sub=' + data.subs.join());
-  }
+  if (data.subs.length === 0 || data.subs[0] === 'all') {
+		window.history.pushState('', '', page_url);
+	} else {
+		// Join the selected values into a query parameter
+		window.history.pushState('', '', page_url + '?sub=' + data.subs.join());
+	}
 }

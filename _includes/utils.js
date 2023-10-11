@@ -1,21 +1,21 @@
 function update_filtering(data) {
-  var page_url = window.location.pathname;
-  store.set("{{site.domain}}-subs", data.subs);
+	var page_url = window.location.pathname;
+	store.set('{{site.domain}}-subs', data.subs);
 
-  $(".confItem").hide();
-  for (const j in data.all_subs) {
-    const s = data.all_subs[j];
-    const identifier = "." + s + "-conf";
-    if (data.subs.includes(s)) {
-      $(identifier).show();
-    }
-  }
+	$('.confItem').hide();
 
-  if (subs.length == 0) {
-    window.history.pushState("", "", page_url);
-  } else {
-    window.history.pushState("", "", page_url + "?sub=" + data.subs.join());
-  }
+	// Loop through selected values in data.subs
+	for (const s of data.subs) {
+		// Show elements with class .s-conf (where s is the selected value)
+		$('.' + s + '-conf').show();
+	}
+
+  if (data.subs.length === 0 || data.subs[0] === 'all') {
+		window.history.pushState('', '', page_url);
+	} else {
+		// Join the selected values into a query parameter
+		window.history.pushState('', '', page_url + '?sub=' + data.subs.join());
+	}
 }
 
 function createCalendarFromObject(data) {
