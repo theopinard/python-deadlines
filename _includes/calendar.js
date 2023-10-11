@@ -162,7 +162,7 @@ function update_filtering(data) {
   calendar_data['dataSource'] = conf_list;  // need to update only this
   calendar = new Calendar("#calendar-page", calendar_data);
 
-  if (data.subs.length === 0 || data.subs == data.all_subs) {
+  if (data.subs.length === 0 || data.subs.length == data.all_subs.length) {
 		window.history.pushState('', '', page_url);
 	} else {
 		// Join the selected values into a query parameter
