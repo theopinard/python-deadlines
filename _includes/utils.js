@@ -10,12 +10,12 @@ function update_filtering(data) {
 		$('.' + s + '-conf').show();
 	}
 
-  if (data.subs.length === 0 || data.subs[0] === 'all') {
+  if (data.subs.length === 0 || data.subs == data.all_subs) {
 		window.history.pushState('', '', page_url);
-	} else {
+  } else {
 		// Join the selected values into a query parameter
 		window.history.pushState('', '', page_url + '?sub=' + data.subs.join());
-	}
+  }
 }
 
 function createCalendarFromObject(data) {
