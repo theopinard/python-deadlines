@@ -122,6 +122,23 @@
     latitude: -34.9281805
     longitude: 138.5999312
 
+- title: PyCon Estonia
+  year: 2023
+  link: https://pycon.ee/
+  cfp_link: https://pyconestonia.typeform.com/to/hBOEtTQ3
+  cfp: '2023-05-09 23:59:59'
+  tutorial_deadline: '2023-05-09 23:59:00'
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  date: September 07 - 08, 2023
+  start: 2023-09-07
+  end: 2023-09-08
+  twitter: PyConEstonia
+  sub: PY
+  location:
+    latitude: 59.4372155
+    longitude: 24.7453688
+
 - title: PyCon Latin America
   year: 2023
   link: https://pylatam.org
@@ -171,6 +188,22 @@
   location:
     latitude: 30.8124247
     longitude: 34.8594762
+
+- title: PyCon Taiwan
+  year: 2023
+  link: https://tw.pycon.org/2023
+  cfp: '2023-03-31 23:59:59'
+  place: Taipei, Taiwan
+  date: September 02 - 03, 2023
+  start: 2023-09-02
+  end: 2023-09-03
+  sponsor: https://tw.pycon.org/2023/en-us/sponsor
+  finaid: https://tw.pycon.org/2023/en-us/registration/financial-aid
+  twitter: PyConTW
+  sub: PY
+  location:
+    latitude: 25.0375198
+    longitude: 121.5636796
 
 - title: PyCon Colombia
   year: 2023
