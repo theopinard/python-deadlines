@@ -29,6 +29,18 @@
   sponsor: https://xtremepython.dev/2023/sponsors/
   sub: PY
 
+- title: FlaskCon
+  year: 2023
+  link: https://flaskcon.com/2023/
+  cfp: '2023-10-31 23:59:00'
+  place: Online
+  date: December 16 - 17, 2023
+  start: 2023-12-16
+  end: 2023-12-17
+  sponsor: https://flaskcon.com/2023/become-sponsor
+  twitter: FlaskCon
+  sub: WEB
+
 - title: EduPy
   year: 2023
   link: https://slec.net/edupy/
@@ -55,18 +67,6 @@
   end: 2023-12-08
   sponsor: https://pydata.org/global2023/sponsor
   sub: PYDATA
-
-- title: FlaskCon
-  year: 2023
-  link: https://flaskcon.com/2023/
-  cfp: '2023-10-01 23:59:00'
-  place: Online
-  date: December 16 - 17, 2023
-  start: 2023-12-16
-  end: 2023-12-17
-  sponsor: https://flaskcon.com/2023/become-sponsor
-  twitter: FlaskCon
-  sub: WEB
 
 - title: Python Pizza
   year: 2023
