@@ -1,5 +1,4 @@
 ---
-
 - title: PyTexas
   year: 2024
   link: https://pytexas.org/2024
@@ -500,3 +499,20 @@
   location:
     latitude: 2.0349312
     longitude: 45.3419183
+
+- title: PyCon Lithuania
+  year: 2024
+  link: https://pycon.lt/2024
+  cfp_link: https://pycon.lt/2024/call-for-proposals
+  cfp: TBA
+  timezone: Vilnius/Europe
+  place: Vilnius, Lithuania
+  date: April 2 - 6, 2024
+  start: 2024-04-02
+  end: 2024-04-06
+  sponsor: https://pycon.lt/2024/partnership
+  finaid: 
+  sub: PY
+  location:
+    latitude: 54.6872
+    longitude: 25.2797
