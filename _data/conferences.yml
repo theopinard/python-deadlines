@@ -428,14 +428,19 @@
 - title: PyCon Lithuania
   year: 2024
   link: https://pycon.lt/2024
+  cfp_link: https://pycon.lt/2024/call-for-proposals
   cfp: TBA
+  timezone: Vilnius/Europe
   place: Vilnius, Lithuania
-  date: April 02 - 06, 2024
+  date: April 2 - 6, 2024
   start: 2024-04-02
   end: 2024-04-06
+  sponsor: https://pycon.lt/2024/partnership
+  finaid: null
+  sub: PY
   location:
-    latitude: 54.6870458
-    longitude: 25.2829111
+    latitude: 54.6872
+    longitude: 25.2797
 
 - title: PyCon Slovakia
   year: 2024
