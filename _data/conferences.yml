@@ -17,6 +17,38 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- title: PyCon Lithuania
+  year: 2024
+  link: https://pycon.lt/2024
+  cfp_link: https://pycon.lt/2024/call-for-proposals
+  cfp: '2024-01-10 23:59:59'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  date: April 2 - 6, 2024
+  start: 2024-04-02
+  end: 2024-04-06
+  sponsor: https://pycon.lt/2024/partnership
+  sub: PY
+  location:
+    latitude: 54.6872
+    longitude: 25.2797
+
+- title: PyCon Slovakia
+  year: 2024
+  link: https://2024.pycon.sk/
+  cfp_link: https://2024.pycon.sk/en/cfp
+  cfp: '2023-12-31 23:59:59'
+  timezone: Europe/Bratislava
+  place: Bratislava, Slovakia
+  date: March 15 - 17, 2024
+  start: 2024-03-15
+  end: 2024-03-17
+  twitter: pyconsk
+  sub: PY
+  location:
+    latitude: 48.1516988
+    longitude: 17.1093063
+
 - title: Python Pizza Prague
   year: 2024
   link: https://prague.python.pizza/
@@ -134,19 +166,6 @@
   location:
     latitude: -32.5976089
     longitude: -70.8529753
-
-- title: PyHEP
-  year: 2023
-  link: https://indico.cern.ch/e/PyHEP2023
-  cfp_link: https://indico.cern.ch/event/1252095/abstracts/
-  cfp: '2023-09-06 23:59:00'
-  timezone: Europe/Zurich
-  place: Online
-  date: October 09 - 12, 2023
-  start: 2023-10-09
-  end: 2023-10-12
-  twitter: PyHEPConf
-  sub: SCIPY
 
 - title: PyLadiesCon
   year: 2023
@@ -412,12 +431,14 @@
 
 - title: PyCon Italia
   year: 2024
-  link: https://pycon.it/en
+  link: https://2024.pycon.it/en
+  cfp_link: https://2024.pycon.it/cfp
   cfp: TBA
   place: Florence, Italy
   date: May 22 - 25, 2024
   start: 2024-05-22
   end: 2024-05-25
+  sponsor: https://2024.pycon.it/en/sponsor
   twitter: PyConIT
   mastodon: https://social.python.it/@pycon
   sub: PY
@@ -425,47 +446,17 @@
     latitude: 43.7698712
     longitude: 11.2555757
 
-- title: PyCon Lithuania
-  year: 2024
-  link: https://pycon.lt/2024
-  cfp_link: https://pycon.lt/2024/call-for-proposals
-  cfp: TBA
-  timezone: Vilnius/Europe
-  place: Vilnius, Lithuania
-  date: April 2 - 6, 2024
-  start: 2024-04-02
-  end: 2024-04-06
-  sponsor: https://pycon.lt/2024/partnership
-  finaid: null
-  sub: PY
-  location:
-    latitude: 54.6872
-    longitude: 25.2797
-
-- title: PyCon Slovakia
-  year: 2024
-  link: https://2024.pycon.sk/
-  cfp: TBA
-  timezone: Europe/Bratislava
-  place: Bratislava, Slovakia
-  date: March 15 - 17, 2024
-  start: 2024-03-15
-  end: 2024-03-17
-  twitter: pyconsk
-  sub: PY
-  location:
-    latitude: 48.1516988
-    longitude: 17.1093063
-
 - title: PyData London
   year: 2024
   link: https://pydata.org/london2024/
+  cfp_link: https://pydata.org/london2024/cfp#submit
   cfp: TBA
   timezone: Europe/London
   place: London, UK
   date: June 14 - 16, 2024
   start: 2024-06-14
   end: 2024-06-16
+  sponsor: https://pydata.org/london2024/sponsor
   twitter: PyDataLondon
   sub: PYDATA
   location:
