@@ -1,5 +1,20 @@
 ---
 
+- title: EduPy
+  year: 2023
+  link: https://slec.net/edupy/
+  cfp_link: https://bit.ly/ConferencistaEdupyOctubre2023
+  cfp: '2023-10-14 23:59:00'
+  place: Cali, Colombia
+  date: October 21st, 2023
+  start: 2023-10-21
+  end: 2023-10-21
+  sponsor: https://slec.net/edupy/posts/callforsponsors/
+  sub: PY
+  location:
+    latitude: 3.4520339
+    longitude: -76.5329352
+
 - title: PyHEP
   year: 2023
   link: https://indico.cern.ch/e/PyHEP2023
@@ -192,6 +207,21 @@
     latitude: 52.3730796
     longitude: 4.8924534
 
+- title: PyCon MEA @GlobalDevSlam
+  year: 2023
+  link: https://globaldevslam.com/
+  cfp: '2023-05-31 23:59:00'
+  timezone: Asia/Dubai
+  place: Dubai, UAE
+  date: October 16 - 20, 2023
+  start: 2023-10-16
+  end: 2023-10-20
+  twitter: GlobalDevSlam
+  sub: PY
+  location:
+    latitude: 25.074282349999997
+    longitude: 55.18853865430702
+
 - title: PyCon Malaysia
   year: 2023
   link: https://pycon.my
@@ -256,6 +286,25 @@
   sponsor: https://2023.pygotham.tv/sponsors/prospectus/
   sub: PY
   note: Tech talks and short film submissions
+
+- title: DjangoCon US
+  year: 2023
+  link: https://2023.djangocon.us
+  cfp_link: https://2023.djangocon.us/speaking
+  cfp: '2023-05-15 18:00:00'
+  tutorial_deadline: '2023-05-15 23:59:00'
+  timezone: America/New_York
+  place: North Carolina, USA
+  date: October 15 - 20, 2023
+  start: 2023-10-16
+  end: 2023-10-20
+  sponsor: https://2023.djangocon.us/sponsors/information/
+  finaid: https://2023.djangocon.us/opportunity-grants/
+  twitter: djangoCon
+  sub: WEB
+  location:
+    latitude: 35.6729639
+    longitude: -79.0392919
 
 - title: PyCon Australia
   year: 2023
