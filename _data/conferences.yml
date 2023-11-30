@@ -371,9 +371,9 @@
   cfp: TBA
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: April 21 - 24, 2024
-  start: 2024-04-21
-  end: 2024-04-24
+  date: April 22 - 25, 2024
+  start: 2024-04-22
+  end: 2024-04-25
   twitter: PyConDE
   sub: PY,PYDATA
   location:
@@ -382,7 +382,7 @@
 
 - title: PyCon Italia
   year: 2024
-  link: https://2024.pycon.it/en
+  link: https://pycon.it/en
   cfp_link: https://2024.pycon.it/cfp
   cfp: TBA
   place: Florence, Italy
@@ -396,6 +396,21 @@
   location:
     latitude: 43.7698712
     longitude: 11.2555757
+
+- title: PyCon Namibia
+  year: 2024
+  link: https://na.pycon.org
+  cfp: TBA
+  timezone: Africa/Windhoek
+  place: Windhoek, Namibia
+  date: March 04 - 08, 2024
+  start: 2024-03-04
+  end: 2024-03-08
+  twitter: PyConNA
+  sub: PY
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
 
 - title: PyData London
   year: 2024
@@ -413,18 +428,3 @@
   location:
     latitude: 51.51072
     longitude: -0.07655
-
-- title: PyCon Namibia
-  year: 2024
-  link: https://na.pycon.org
-  cfp: TBA
-  timezone: Africa/Windhoek
-  place: Windhoek, Namibia
-  date: March 04 - 08, 2024
-  start: 2024-03-04
-  end: 2024-03-08
-  twitter: PyConNA
-  sub: PY
-  location:
-    latitude: -22.5776104
-    longitude: 17.0772739
