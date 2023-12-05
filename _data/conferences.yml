@@ -8,7 +8,7 @@
   timezone: America/Chicago
   place: Austin, Texas, USA
   date: April 19 - 21, 2024
-  start: 2024-04-19
+  start: 2024-04-20
   end: 2024-04-21
   sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
   finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
@@ -32,6 +32,20 @@
   location:
     latitude: 54.6872
     longitude: 25.2797
+
+- title: PyCascades
+  year: 2024
+  link: https://2024.pycascades.com/
+  cfp_link: https://pretalx.com/pycascades-2024/cfp
+  cfp: '2024-01-04 23:59:00'
+  place: Seattle, Washington, USA
+  date: April 05 - 08, 2024
+  start: 2024-04-05
+  end: 2024-04-08
+  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor/
+  location:
+    latitude: 47.6038321
+    longitude: -122.330062
 
 - title: PyCon Slovakia
   year: 2024
@@ -106,6 +120,19 @@
   sponsor: https://flaskcon.com/2023/become-sponsor
   twitter: FlaskCon
   sub: WEB
+
+- title: PyOhio
+  year: 2023
+  link: https://pyohio.org/2023/
+  cfp: '2023-10-23 08:00:00'
+  timezone: America/New_York
+  place: Ohio, USA
+  date: December 16th, 2023
+  start: 2023-12-16
+  end: 2023-12-16
+  location:
+    latitude: 40.2253569
+    longitude: -82.6881395
 
 - title: Pydata Global
   year: 2023
@@ -187,6 +214,7 @@
   cfp_link: https://papercall.io/pyconth2023
   cfp: '2023-08-16 23:59:00'
   workshop_deadline: '2023-08-16 23:59:00'
+  tutorial_deadline: '2023-08-16 23:59:00'
   timezone: UTC
   place: Bangkok, Thailand
   date: December 14 - 16, 2023
@@ -197,21 +225,6 @@
   location:
     latitude: 13.7524938
     longitude: 100.4935089
-
-- title: PackagingCon
-  year: 2023
-  link: https://packaging-con.org/
-  cfp_link: https://cfp.packaging-con.org/2023/cfp
-  cfp: '2023-08-06 23:59:59'
-  place: Berlin, Germany
-  date: October 26 - 28, 2023
-  start: 2023-10-26
-  end: 2023-10-28
-  sponsor: https://packaging-con.org/s/sponsorship_prospectus_packagingcon_2023.pdf
-  sub: PY
-  location:
-    latitude: 30.2711286
-    longitude: -97.7436995
 
 - title: PyCon Ireland
   year: 2023
@@ -338,17 +351,6 @@
   location:
     latitude: 2.0349312
     longitude: 45.3419183
-
-- title: Pyjamas Conf
-  year: 2023
-  link: https://pyjamas.live
-  cfp: TBA
-  place: Online
-  date: December 09 - 11, 2023
-  start: 2023-12-09
-  end: 2023-12-11
-  sub: PY
-  note: Supports any language of talks
 
 - title: DjangoCon Europe
   year: 2024
