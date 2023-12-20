@@ -250,7 +250,7 @@
           $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", cfpDiff.toMillis());
           $('#{{conf.title | slugify}}-{{conf.year}}').attr("confDiff", confDiff.toMillis());
 
-          if (cfpDiff > 0 && confDiff < 0) {
+          if (cfpDiff < 0) {
             $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastcfp');
             $('#{{conf.title | slugify}}-{{conf.year}}').appendTo($("#past_cfps"));
             $('#{{conf.title | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
@@ -258,7 +258,7 @@
             $('#{{conf.title | slugify}}-{{conf.year}} .calendar').remove();
           }
 
-          if (confDiff > 0) {
+          if (confDiff < 0) {
             $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastconf');
             $('#{{conf.title | slugify}}-{{conf.year}}').appendTo($("#past_confs"));
             $('#{{conf.title | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
