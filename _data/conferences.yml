@@ -131,23 +131,6 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
-- title: Python Pizza Prague
-  year: 2024
-  link: https://prague.python.pizza/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
-  cfp: '2023-12-31 23:59:00'
-  timezone: Europe/Prague
-  place: Prague, Czechia
-  date: February 24th, 2024
-  start: 2024-02-24
-  end: 2024-02-24
-  twitter: PythonPizzaConf
-  mastodon: https://fosstodon.org/@pythonpizza/
-  sub: PY
-  location:
-    latitude: 50.0874654
-    longitude: 14.4212535
-
 - title: PyCon DE and PyData Berlin
   year: 2024
   link: https://pycon.de/
@@ -165,6 +148,23 @@
   location:
     latitude: 52.5170365
     longitude: 13.3888599
+
+- title: Python Pizza Prague
+  year: 2024
+  link: https://prague.python.pizza/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
+  cfp: '2023-12-20 23:59:00'
+  timezone: Europe/Prague
+  place: Prague, Czechia
+  date: February 24th, 2024
+  start: 2024-02-24
+  end: 2024-02-24
+  twitter: PythonPizzaConf
+  mastodon: https://fosstodon.org/@pythonpizza/
+  sub: PY
+  location:
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - title: PyCon US
   year: 2024
