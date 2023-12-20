@@ -244,13 +244,13 @@
           }
 
           // check if date has passed, add 'past' class to it
-          cfpDiff = today.diff(cfpDate);
-          confDiff = today.diff(confDate);
+          cfpDiff = cfpDate.diffNow("seconds");
+          confDiff = confDate.diffNow("seconds");
 
-          $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", cfpDiff.milliseconds);
-          $('#{{conf.title | slugify}}-{{conf.year}}').attr("confDiff", confDiff.milliseconds);
+          $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", cfpDiff.toMillis());
+          $('#{{conf.title | slugify}}-{{conf.year}}').attr("confDiff", confDiff.toMillis());
 
-          if (cfpDiff > 0) {
+          if (cfpDiff > 0 && confDiff < 0) {
             $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastcfp');
             $('#{{conf.title | slugify}}-{{conf.year}}').appendTo($("#past_cfps"));
             $('#{{conf.title | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
@@ -272,18 +272,6 @@
       $("#coming_confs .ConfItem").sort(function (a, b) {
         return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
       }).appendTo($("#coming_confs"));
-
-      $("#conf-sort-order-checkbox input").on("click", function() {
-        if ($("#conf-sort-order-checkbox input").is(":checked")) {
-          $("#past_confs .ConfItem").sort(function (a, b) {
-            return $(a).attr('confDiff') - $(b).attr('confDiff');
-          }).appendTo($("#past_confs"));
-        } else {
-          $("#past_confs .ConfItem").sort(function (a, b) {
-            return $(b).attr('confDiff') - $(a).attr('confDiff');
-          }).appendTo($("#past_confs"));
-        }
-      });
 
       {% include handle_url_retrieval.js %}
 
