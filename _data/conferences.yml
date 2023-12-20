@@ -1,5 +1,39 @@
 ---
 
+- title: DjangoCon Europe
+  year: 2024
+  link: https://2024.djangocon.eu/
+  cfp_link: https://2024.djangocon.eu/call-for-proposals
+  cfp: '2024-02-29 23:59:00'
+  place: Vigo, Spain
+  date: June 12 - 16, 2024
+  start: 2024-06-12
+  end: 2024-06-16
+  sponsor: https://2024.djangocon.eu/sponsors/sponsorship/
+  finaid: https://2024.djangocon.eu/information/grants/
+  twitter: DjangoConEurope
+  sub: WEB
+  location:
+    latitude: 42.240599
+    longitude: -8.720727
+
+- title: PyCon Namibia
+  year: 2024
+  link: https://na.pycon.org
+  cfp_link: https://na.pycon.org/call-proposals/
+  cfp: '2024-01-21 23:59:00'
+  timezone: Africa/Windhoek
+  place: Windhoek, Namibia
+  date: March 04 - 08, 2024
+  start: 2024-03-04
+  end: 2024-03-08
+  sponsor: https://na.pycon.org/sponsorship/
+  twitter: PyConNA
+  sub: PY
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
+
 - title: PyTexas
   year: 2024
   link: https://pytexas.org/2024
@@ -49,6 +83,23 @@
   location:
     latitude: 43.7698712
     longitude: 11.2555757
+
+- title: PyCascades
+  year: 2024
+  link: https://2024.pycascades.com/
+  cfp_link: https://pretalx.com/pycascades-2024/cfp
+  cfp: '2024-01-04 23:59:59'
+  place: Seattle, Washington, USA
+  date: April 05 - 08, 2024
+  start: 2024-04-05
+  end: 2024-04-08
+  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor
+  twitter: pyCascades
+  mastodon: https://fosstodon.org/@pycascades
+  sub: PY
+  location:
+    latitude: 47.6038321
+    longitude: -122.330062
 
 - title: PyCascades
   year: 2024
@@ -225,24 +276,6 @@
   end: 2023-12-03
   sub: PY
 
-- title: PyCon Sweden
-  year: 2023
-  link: https://pycon.se
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/viewform
-  cfp: '2023-09-01 23:59:00'
-  timezone: Europe/Stockholm
-  place: Stockholm, Sweden
-  date: November 09 - 10, 2023
-  start: 2023-11-09
-  end: 2023-11-10
-  sponsor: https://pycon.se/#sponsorship
-  twitter: pyconse
-  mastodon: https://fosstodon.org/@pyconsweden
-  sub: PY
-  location:
-    latitude: 59.3251172
-    longitude: 18.0710935
-
 - title: PyCon Thailand
   year: 2023
   link: https://th.pycon.org
@@ -260,20 +293,6 @@
   location:
     latitude: 13.7524938
     longitude: 100.4935089
-
-- title: PyCon Ireland
-  year: 2023
-  link: https://python.ie/pycon-2023/
-  cfp: '2023-07-16 23:59:00'
-  timezone: UTC
-  place: Dublin, Ireland
-  date: November 11 - 12, 2023
-  start: 2023-11-11
-  end: 2023-11-12
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
 
 - title: PyCon Indonesia
   year: 2023
@@ -308,56 +327,6 @@
     latitude: 32.0852997
     longitude: 34.7818064
 
-- title: DjangoCon Africa
-  year: 2023
-  link: https://2023.djangocon.africa/
-  cfp_link: https://cfp-2023.djangocon.africa/
-  cfp: '2023-07-12 23:59:00'
-  place: Zanzibar, Tanzania
-  date: November 06 - 11, 2023
-  start: 2023-11-06
-  end: 2023-11-11
-  sponsor: https://2023.djangocon.africa/sponsor-us/
-  finaid: https://2023.djangocon.africa/grant/
-  twitter: djcafrica
-  sub: WEB
-  location:
-    latitude: -6.09994425
-    longitude: 39.32094431715264
-
-- title: PyCon Hong Kong
-  year: 2023
-  link: https://pycon.hk/2023/
-  cfp_link: https://pycon.hk/2023/pycon-hk-2023-cfp
-  cfp: '2023-06-18 23:59:00'
-  timezone: Asia/Hong_Kong
-  place: Hong Kong
-  date: November 10 - 11, 2023 (tentative)
-  start: 2023-11-10
-  end: 2023-11-11
-  twitter: pyconhk
-  sub: PY
-  location:
-    latitude: 22.2793278
-    longitude: 114.1628131
-
-- title: Python Brasil
-  year: 2023
-  link: https://2023.pythonbrasil.org.br/
-  cfp_link: https://pretalx.com/python-brasil-2023/cfp
-  cfp: '2023-06-08 23:59:00'
-  timezone: America/Sao_Paulo
-  place: Caxias do Sul, Brazil
-  date: October 30 - November 05, 2023
-  start: 2023-10-30
-  end: 2023-11-05
-  sponsor: https://2023.pythonbrasil.org.br/#patrocinadores
-  twitter: PyConBrasil
-  sub: PY
-  location:
-    latitude: -29.1685045
-    longitude: -51.1796385
-
 - title: PyCon Somalia
   year: 2023
   link: https://pycon.org.so/
@@ -371,36 +340,6 @@
   location:
     latitude: 2.0349312
     longitude: 45.3419183
-
-- title: DjangoCon Europe
-  year: 2024
-  link: https://2024.djangocon.eu/
-  cfp_link: https://2024.djangocon.eu/call-for-proposals
-  cfp: TBA
-  place: Vigo, Spain
-  date: June 12 - 16, 2024
-  start: 2024-06-12
-  end: 2024-06-16
-  twitter: DjangoConEurope
-  sub: WEB
-  location:
-    latitude: 42.240599
-    longitude: -8.720727
-
-- title: PyCon Namibia
-  year: 2024
-  link: https://na.pycon.org
-  cfp: TBA
-  timezone: Africa/Windhoek
-  place: Windhoek, Namibia
-  date: March 04 - 08, 2024
-  start: 2024-03-04
-  end: 2024-03-08
-  twitter: PyConNA
-  sub: PY
-  location:
-    latitude: -22.5776104
-    longitude: 17.0772739
 
 - title: PyData London
   year: 2024

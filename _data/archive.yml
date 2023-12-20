@@ -28,6 +28,24 @@
   twitter: PyHEPConf
   sub: SCIPY
 
+- title: PyCon Sweden
+  year: 2023
+  link: https://pycon.se
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/viewform
+  cfp: '2023-09-01 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: November 09 - 10, 2023
+  start: 2023-11-09
+  end: 2023-11-10
+  sponsor: https://pycon.se/#sponsorship
+  twitter: pyconse
+  mastodon: https://fosstodon.org/@pyconsweden
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
+
 - title: DjangoDay Copenhagen
   year: 2023
   link: https://2023.djangoday.dk/
@@ -94,6 +112,37 @@
   location:
     latitude: 17.360589
     longitude: 78.4740613
+
+- title: PyCon Ireland
+  year: 2023
+  link: https://python.ie/pycon-2023/
+  cfp: '2023-07-16 23:59:00'
+  timezone: UTC
+  place: Dublin, Ireland
+  date: November 11 - 12, 2023
+  start: 2023-11-11
+  end: 2023-11-12
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- title: DjangoCon Africa
+  year: 2023
+  link: https://2023.djangocon.africa/
+  cfp_link: https://cfp-2023.djangocon.africa/
+  cfp: '2023-07-12 23:59:00'
+  place: Zanzibar, Tanzania
+  date: November 06 - 11, 2023
+  start: 2023-11-06
+  end: 2023-11-11
+  sponsor: https://2023.djangocon.africa/sponsor-us/
+  finaid: https://2023.djangocon.africa/grant/
+  twitter: djcafrica
+  sub: WEB
+  location:
+    latitude: -6.09994425
+    longitude: 39.32094431715264
 
 - title: Swiss Python Summit
   year: 2023
@@ -205,6 +254,22 @@
     latitude: -12.9822499
     longitude: -38.4812772
 
+- title: PyCon Hong Kong
+  year: 2023
+  link: https://pycon.hk/2023/
+  cfp_link: https://pycon.hk/2023/pycon-hk-2023-cfp
+  cfp: '2023-06-18 23:59:00'
+  timezone: Asia/Hong_Kong
+  place: Hong Kong
+  date: November 10 - 11, 2023 (tentative)
+  start: 2023-11-10
+  end: 2023-11-11
+  twitter: pyconhk
+  sub: PY
+  location:
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - title: PyData Amsterdam
   year: 2023
   link: https://amsterdam.pydata.org/
@@ -221,6 +286,23 @@
   location:
     latitude: 52.3730796
     longitude: 4.8924534
+
+- title: Python Brasil
+  year: 2023
+  link: https://2023.pythonbrasil.org.br/
+  cfp_link: https://pretalx.com/python-brasil-2023/cfp
+  cfp: '2023-06-08 23:59:00'
+  timezone: America/Sao_Paulo
+  place: Caxias do Sul, Brazil
+  date: October 30 - November 05, 2023
+  start: 2023-10-30
+  end: 2023-11-05
+  sponsor: https://2023.pythonbrasil.org.br/#patrocinadores
+  twitter: PyConBrasil
+  sub: PY
+  location:
+    latitude: -29.1685045
+    longitude: -51.1796385
 
 - title: PyCon Asia Pacific
   year: 2023
