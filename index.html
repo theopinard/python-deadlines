@@ -270,7 +270,7 @@
 
       // Sort coming_confs and past_confs
       $("#coming_confs .ConfItem").sort(function (a, b) {
-        return $(b).attr('cfpDiff') - $(a).attr('cfpDiff');
+        return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
       }).appendTo($("#coming_confs"));
 
       {% include handle_url_retrieval.js %}
