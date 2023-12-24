@@ -1,5 +1,22 @@
 ---
 
+- title: PyData London
+  year: 2024
+  link: https://pydata.org/london2024/
+  cfp_link: https://pydata.org/london2024/cfp#submit
+  cfp: '2024-03-04 23:59:00'
+  timezone: Europe/London
+  place: London, UK
+  date: June 14 - 16, 2024
+  start: 2024-06-14
+  end: 2024-06-16
+  sponsor: https://pydata.org/london2024/sponsor
+  twitter: PyDataLondon
+  sub: PYDATA
+  location:
+    latitude: 51.51072
+    longitude: -0.07655
+
 - title: DjangoCon Europe
   year: 2024
   link: https://2024.djangocon.eu/
@@ -310,23 +327,6 @@
     latitude: -8.7326688
     longitude: 115.1701613
 
-- title: PyData Tel Aviv
-  year: 2023
-  link: https://pydata.org/telaviv2023/
-  cfp_link: https://pydata.org/telaviv2023/cfp
-  cfp: '2023-07-14 23:59:00'
-  timezone: Asia/Jerusalem
-  place: Tel Aviv, Israel
-  date: November 14th, 2023
-  start: 2023-11-14
-  end: 2023-11-14
-  sponsor: https://pydata.org/telaviv2023/sponsor
-  twitter: PyDataTLV
-  sub: PYDATA
-  location:
-    latitude: 32.0852997
-    longitude: 34.7818064
-
 - title: PyCon Somalia
   year: 2023
   link: https://pycon.org.so/
@@ -340,20 +340,3 @@
   location:
     latitude: 2.0349312
     longitude: 45.3419183
-
-- title: PyData London
-  year: 2024
-  link: https://pydata.org/london2024/
-  cfp_link: https://pydata.org/london2024/cfp#submit
-  cfp: TBA
-  timezone: Europe/London
-  place: London, UK
-  date: June 14 - 16, 2024
-  start: 2024-06-14
-  end: 2024-06-16
-  sponsor: https://pydata.org/london2024/sponsor
-  twitter: PyDataLondon
-  sub: PYDATA
-  location:
-    latitude: 51.51072
-    longitude: -0.07655

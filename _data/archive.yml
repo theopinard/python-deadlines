@@ -127,6 +127,23 @@
     latitude: 53.3498006
     longitude: -6.2602964
 
+- title: PyData Tel Aviv
+  year: 2023
+  link: https://pydata.org/telaviv2023/
+  cfp_link: https://pydata.org/telaviv2023/cfp
+  cfp: '2023-07-14 23:59:00'
+  timezone: Asia/Jerusalem
+  place: Tel Aviv, Israel
+  date: November 14th, 2023
+  start: 2023-11-14
+  end: 2023-11-14
+  sponsor: https://pydata.org/telaviv2023/sponsor
+  twitter: PyDataTLV
+  sub: PYDATA
+  location:
+    latitude: 32.0852997
+    longitude: 34.7818064
+
 - title: DjangoCon Africa
   year: 2023
   link: https://2023.djangocon.africa/
