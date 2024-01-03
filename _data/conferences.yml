@@ -249,39 +249,6 @@
   sponsor: https://pydata.org/global2023/sponsor
   sub: PYDATA
 
-- title: Python Pizza Hamburg
-  year: 2023
-  link: https://hamburg.python.pizza/
-  cfp_link: https://forms.gle/Mssgv25KUgjBv3hN6
-  cfp: '2023-09-30 23:59:00'
-  timezone: Europe/Zurich
-  place: Hamburg, Germany
-  date: November 17th, 2023
-  start: 2023-11-17
-  end: 2023-11-17
-  sponsor: https://hamburg.python.pizza/#sponsors
-  twitter: PythonPizzaConf
-  sub: PY
-  location:
-    latitude: 53.5672881
-    longitude: 9.941726150411604
-
-- title: PyCon Chile
-  year: 2023
-  link: https://pycon.cl/
-  cfp: '2023-09-15 23:59:59'
-  timezone: America/Santiago
-  place: Valparaiso, Chile & Online
-  date: November 24 - 26, 2023
-  start: 2023-11-24
-  end: 2023-11-26
-  twitter: PythonChileDev
-  sub: PY
-  note: Saturday presence, 2 days online
-  location:
-    latitude: -32.5976089
-    longitude: -70.8529753
-
 - title: PyLadiesCon
   year: 2023
   link: https://conference.pyladies.com
@@ -311,22 +278,6 @@
     latitude: 13.7524938
     longitude: 100.4935089
 
-- title: PyCon Indonesia
-  year: 2023
-  link: https://pycon.id
-  cfp_link: https://papercall.io/pyconid2023
-  cfp: '2023-07-15 16:59:59'
-  place: Badung City, Indonesia
-  date: November 18 - 19, 2023
-  start: 2023-11-18
-  end: 2023-11-19
-  sponsor: https://pycon.id/sponsor
-  twitter: id_pycon
-  sub: PY
-  location:
-    latitude: -8.7326688
-    longitude: 115.1701613
-
 - title: PyCon Somalia
   year: 2023
   link: https://pycon.org.so/
@@ -340,3 +291,18 @@
   location:
     latitude: 2.0349312
     longitude: 45.3419183
+
+- title: PyCon Philippines
+  year: 2024
+  link: https://pycon-2024.python.ph
+  cfp: TBA
+  timezone: Asia/Manila
+  place: Manila, Philippines
+  date: February 25 - 26, 2024
+  start: 2024-02-25
+  end: 2024-02-26
+  twitter: PyConPH
+  sub: PY
+  location:
+    latitude: 14.5948914
+    longitude: 120.9782618
