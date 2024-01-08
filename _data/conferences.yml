@@ -149,6 +149,20 @@
       latitude: 48.1516988
       longitude: 17.1093063
 
+- title: PyCon Somalia
+  year: 2023
+  link: https://pycon.org.so/
+  cfp: '2023-12-25 23:59:00'
+  place: Mogadishu, Somalia
+  date: December 26 - 27, 2023
+  start: 2023-12-26
+  end: 2023-12-27
+  twitter: PyconSomalia
+  sub: PY
+  location:
+      latitude: 2.0349312
+      longitude: 45.3419183
+
 - title: PyCon DE and PyData Berlin
   year: 2024
   link: https://pycon.de/
@@ -278,20 +292,6 @@
   location:
       latitude: 13.7524938
       longitude: 100.4935089
-
-- title: PyCon Somalia
-  year: 2023
-  link: https://pycon.org.so/
-  cfp: TBA
-  place: Mogadishu, Somalia
-  date: December 26 - 27, 2023
-  start: 2023-12-26
-  end: 2023-12-27
-  twitter: PyconSomalia
-  sub: PY
-  location:
-      latitude: 2.0349312
-      longitude: 45.3419183
 
 - title: PyCon Philippines
   year: 2024
