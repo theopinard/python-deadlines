@@ -1,4 +1,20 @@
 ---
+- title: PyCon Estonia
+  year: 2024
+  link: https://pycon.ee/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ
+  cfp: '2024-04-15 23:59:00'
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  date: September 05 - 06, 2024
+  start: 2024-09-05
+  end: 2024-09-06
+  twitter: PyConEstonia
+  sub: PY
+  location:
+      latitude: 59.4372155
+      longitude: 24.7453688
+
 - title: PyData London
   year: 2024
   link: https://pydata.org/london2024/
