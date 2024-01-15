@@ -1,4 +1,5 @@
 ---
+
 - title: PyCon Estonia
   year: 2024
   link: https://pycon.ee/
@@ -12,8 +13,8 @@
   twitter: PyConEstonia
   sub: PY
   location:
-      latitude: 59.4372155
-      longitude: 24.7453688
+    latitude: 59.4372155
+    longitude: 24.7453688
 
 - title: PyData London
   year: 2024
@@ -29,8 +30,8 @@
   twitter: PyDataLondon
   sub: PYDATA
   location:
-      latitude: 51.51072
-      longitude: -0.07655
+    latitude: 51.51072
+    longitude: -0.07655
 
 - title: DjangoCon Europe
   year: 2024
@@ -46,8 +47,8 @@
   twitter: DjangoConEurope
   sub: WEB
   location:
-      latitude: 42.240599
-      longitude: -8.720727
+    latitude: 42.240599
+    longitude: -8.720727
 
 - title: PyCon Namibia
   year: 2024
@@ -63,8 +64,23 @@
   twitter: PyConNA
   sub: PY
   location:
-      latitude: -22.5776104
-      longitude: 17.0772739
+    latitude: -22.5776104
+    longitude: 17.0772739
+
+- title: PyCon Pakistan
+  year: 2024
+  link: https://pycon.pk
+  cfp: '2024-01-15 23:59:00'
+  timezone: Asia/Karachi
+  place: Lahore, Pakistan
+  date: March 09, 2024
+  start: 2024-03-09
+  end: 2024-03-09
+  twitter: PyConPK
+  sub: PY
+  location:
+    latitude: 31.5656822
+    longitude: 74.3141829
 
 - title: PyTexas
   year: 2024
@@ -80,8 +96,8 @@
   finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
   sub: PY
   location:
-      latitude: 30.2711286
-      longitude: -97.7436995
+    latitude: 30.2711286
+    longitude: -97.7436995
 
 - title: PyCon Lithuania
   year: 2024
@@ -96,8 +112,8 @@
   sponsor: https://pycon.lt/2024/partnership
   sub: PY
   location:
-      latitude: 54.6872
-      longitude: 25.2797
+    latitude: 54.6872
+    longitude: 25.2797
 
 - title: PyCon Italia
   year: 2024
@@ -113,8 +129,8 @@
   mastodon: https://social.python.it/@pycon
   sub: PY
   location:
-      latitude: 43.7698712
-      longitude: 11.2555757
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - title: PyCascades
   year: 2024
@@ -130,8 +146,8 @@
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
   location:
-      latitude: 47.6038321
-      longitude: -122.330062
+    latitude: 47.6038321
+    longitude: -122.330062
 
 - title: PyCon Slovakia
   year: 2024
@@ -146,8 +162,8 @@
   twitter: pyconsk
   sub: PY
   location:
-      latitude: 48.1516988
-      longitude: 17.1093063
+    latitude: 48.1516988
+    longitude: 17.1093063
 
 - title: PyCon Somalia
   year: 2023
@@ -160,8 +176,8 @@
   twitter: PyconSomalia
   sub: PY
   location:
-      latitude: 2.0349312
-      longitude: 45.3419183
+    latitude: 2.0349312
+    longitude: 45.3419183
 
 - title: PyCon DE and PyData Berlin
   year: 2024
@@ -178,8 +194,8 @@
   twitter: PyConDE
   sub: PY,PYDATA
   location:
-      latitude: 52.5170365
-      longitude: 13.3888599
+    latitude: 52.5170365
+    longitude: 13.3888599
 
 - title: Python Pizza Prague
   year: 2024
@@ -195,8 +211,8 @@
   mastodon: https://fosstodon.org/@pythonpizza/
   sub: PY
   location:
-      latitude: 50.0874654
-      longitude: 14.4212535
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - title: PyCon US
   year: 2024
@@ -212,20 +228,8 @@
   mastodon: https://fosstodon.org/@pycon
   sub: PY
   location:
-      latitude: 40.4416941
-      longitude: -79.9900861
-
-- title: XtremePython
-  year: 2023
-  link: https://xtremepython.dev/2023/
-  cfp_link: https://forms.gle/7dv6iqToggY8Gshs5
-  cfp: '2023-11-01 23:59:00'
-  place: Online
-  date: December 5th, 2023
-  start: 2023-12-05
-  end: 2023-12-05
-  sponsor: https://xtremepython.dev/2023/sponsors/
-  sub: PY
+    latitude: 40.4416941
+    longitude: -79.9900861
 
 - title: FlaskCon
   year: 2023
@@ -249,31 +253,8 @@
   start: 2023-12-16
   end: 2023-12-16
   location:
-      latitude: 40.2253569
-      longitude: -82.6881395
-
-- title: Pydata Global
-  year: 2023
-  link: https://pydata.org/global2023/
-  cfp_link: https://pydata.org/global2023/cfp
-  cfp: '2023-10-01 23:59:00'
-  place: Online
-  date: December 06 - 08, 2023
-  start: 2023-12-06
-  end: 2023-12-08
-  sponsor: https://pydata.org/global2023/sponsor
-  sub: PYDATA
-
-- title: PyLadiesCon
-  year: 2023
-  link: https://conference.pyladies.com
-  cfp_link: https://pretalx.com/pyladiescon-2023/cfp
-  cfp: '2023-09-04 23:59:00'
-  place: Online
-  date: December 02 - 03, 2023
-  start: 2023-12-02
-  end: 2023-12-03
-  sub: PY
+    latitude: 40.2253569
+    longitude: -82.6881395
 
 - title: PyCon Thailand
   year: 2023
@@ -290,8 +271,8 @@
   sponsor: https://shorturl.at/kqrL4
   sub: PY
   location:
-      latitude: 13.7524938
-      longitude: 100.4935089
+    latitude: 13.7524938
+    longitude: 100.4935089
 
 - title: PyCon Philippines
   year: 2024
@@ -305,5 +286,5 @@
   twitter: PyConPH
   sub: PY
   location:
-      latitude: 14.5948914
-      longitude: 120.9782618
+    latitude: 14.5948914
+    longitude: 120.9782618

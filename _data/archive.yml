@@ -1,5 +1,17 @@
 ---
 
+- title: XtremePython
+  year: 2023
+  link: https://xtremepython.dev/2023/
+  cfp_link: https://forms.gle/7dv6iqToggY8Gshs5
+  cfp: '2023-11-01 23:59:00'
+  place: Online
+  date: December 5th, 2023
+  start: 2023-12-05
+  end: 2023-12-05
+  sponsor: https://xtremepython.dev/2023/sponsors/
+  sub: PY
+
 - title: EduPy
   year: 2023
   link: https://slec.net/edupy/
@@ -14,6 +26,18 @@
   location:
     latitude: 3.4520339
     longitude: -76.5329352
+
+- title: Pydata Global
+  year: 2023
+  link: https://pydata.org/global2023/
+  cfp_link: https://pydata.org/global2023/cfp
+  cfp: '2023-10-01 23:59:00'
+  place: Online
+  date: December 06 - 08, 2023
+  start: 2023-12-06
+  end: 2023-12-08
+  sponsor: https://pydata.org/global2023/sponsor
+  sub: PYDATA
 
 - title: Python Pizza Hamburg
   year: 2023
@@ -60,6 +84,17 @@
   end: 2023-10-12
   twitter: PyHEPConf
   sub: SCIPY
+
+- title: PyLadiesCon
+  year: 2023
+  link: https://conference.pyladies.com
+  cfp_link: https://pretalx.com/pyladiescon-2023/cfp
+  cfp: '2023-09-04 23:59:00'
+  place: Online
+  date: December 02 - 03, 2023
+  start: 2023-12-02
+  end: 2023-12-03
+  sub: PY
 
 - title: PyCon Sweden
   year: 2023
