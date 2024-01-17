@@ -50,6 +50,21 @@
     latitude: 42.240599
     longitude: -8.720727
 
+- title: GeoPython
+  year: 2024
+  link: https://2024.geopython.net/
+  cfp_link: https://submit.geopython.net/geopython-2024/cfp
+  cfp: '2024-01-23 00:59:00'
+  timezone: Europe/Zurich
+  place: Basel, Switzerland
+  date: May 27 - 29, 2024
+  start: 2024-05-27
+  end: 2024-05-29
+  sub: PY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
 - title: PyCon Namibia
   year: 2024
   link: https://na.pycon.org
@@ -288,3 +303,49 @@
   location:
     latitude: 14.5948914
     longitude: 120.9782618
+
+- title: Kiwi PyCon XIII
+  year: 2024
+  link: https://kiwipycon.nz/
+  cfp: TBA
+  timezone: Pacific/Auckland
+  place: Te Whanganui-a-Tara Wellington, New Zealand
+  date: August 23 - 25, 2024
+  start: 2024-08-23
+  end: 2024-08-25
+  twitter: kiwipycon
+  mastodon: https://mastodon.social/@kiwipycon
+  sub: PY
+  location:
+    latitude: -41.2887953
+    longitude: 174.7772114
+
+- title: EuroPython
+  year: 2024
+  link: https://ep2024.europython.eu/
+  cfp: TBA
+  place: Prague, Czechia
+  date: July 08 - 14, 2024
+  start: 2024-07-08
+  end: 2024-07-14
+  twitter: EuroPython
+  mastodon: https://fosstodon.org/@europython
+  sub: PY
+  location:
+    latitude: 50.0874654
+    longitude: 14.4212535
+
+- title: Swiss Python Summit
+  year: 2024
+  link: https://python-summit.ch
+  cfp: TBA
+  timezone: Europe/Zurich
+  place: Rapperswil, Switzerland
+  date: October 17 - 18, 2024
+  start: 2024-10-17
+  end: 2024-10-18
+  twitter: pythonsummit
+  sub: PY
+  location:
+    latitude: 47.2266532
+    longitude: 8.8164042
