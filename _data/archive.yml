@@ -12,6 +12,31 @@
   sponsor: https://xtremepython.dev/2023/sponsors/
   sub: PY
 
+- title: FlaskCon
+  year: 2023
+  link: https://flaskcon.com/2023/
+  cfp: '2023-10-31 23:59:00'
+  place: Online
+  date: December 16 - 17, 2023
+  start: 2023-12-16
+  end: 2023-12-17
+  sponsor: https://flaskcon.com/2023/become-sponsor
+  twitter: FlaskCon
+  sub: WEB
+
+- title: PyOhio
+  year: 2023
+  link: https://pyohio.org/2023/
+  cfp: '2023-10-23 08:00:00'
+  timezone: America/New_York
+  place: Ohio, USA
+  date: December 16th, 2023
+  start: 2023-12-16
+  end: 2023-12-16
+  location:
+    latitude: 40.2253569
+    longitude: -82.6881395
+
 - title: EduPy
   year: 2023
   link: https://slec.net/edupy/
@@ -148,6 +173,24 @@
   location:
     latitude: -29.861825
     longitude: 31.009909
+
+- title: PyCon Thailand
+  year: 2023
+  link: https://th.pycon.org
+  cfp_link: https://papercall.io/pyconth2023
+  cfp: '2023-08-16 23:59:00'
+  workshop_deadline: '2023-08-16 23:59:00'
+  tutorial_deadline: '2023-08-16 23:59:00'
+  timezone: UTC
+  place: Bangkok, Thailand
+  date: December 14 - 16, 2023
+  start: 2023-12-14
+  end: 2023-12-16
+  sponsor: https://shorturl.at/kqrL4
+  sub: PY
+  location:
+    latitude: 13.7524938
+    longitude: 100.4935089
 
 - title: PackagingCon
   year: 2023

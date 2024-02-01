@@ -50,6 +50,22 @@
     latitude: 42.240599
     longitude: -8.720727
 
+- title: SciPy
+  year: 2024
+  link: https://scipy2024.scipy.org
+  cfp_link: https://cfp.scipy.org/2024/cfp
+  cfp: '2024-02-27 23:59:00'
+  timezone: America/Los_Angeles
+  place: Tacoma, Washington, USA
+  date: July 08 - 14, 2024
+  start: 2024-07-08
+  end: 2024-07-14
+  twitter: SciPyConf
+  sub: SCIPY
+  location:
+    latitude: 47.2455013
+    longitude: -122.438329
+
 - title: GeoPython
   year: 2024
   link: https://2024.geopython.net/
@@ -180,21 +196,24 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
-- title: PyCon Somalia
-  year: 2023
-  link: https://pycon.org.so/
-  cfp: '2023-12-25 23:59:00'
-  place: Mogadishu, Somalia
-  date: December 26 - 27, 2023
-  start: 2023-12-26
-  end: 2023-12-27
-  twitter: PyconSomalia
+- title: Python Pizza Prague
+  year: 2024
+  link: https://prague.python.pizza/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
+  cfp: '2023-12-31 23:59:00'
+  timezone: Europe/Prague
+  place: Prague, Czechia
+  date: February 24th, 2024
+  start: 2024-02-24
+  end: 2024-02-24
+  twitter: PythonPizzaConf
+  mastodon: https://fosstodon.org/@pythonpizza/
   sub: PY
   location:
-    latitude: 2.0349312
-    longitude: 45.3419183
+    latitude: 50.0874654
+    longitude: 14.4212535
 
-- title: PyCon DE and PyData Berlin
+- title: PyCon DE & PyData Berlin
   year: 2024
   link: https://pycon.de/
   cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
@@ -212,26 +231,10 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
-- title: Python Pizza Prague
-  year: 2024
-  link: https://prague.python.pizza/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
-  cfp: '2023-12-20 23:59:00'
-  timezone: Europe/Prague
-  place: Prague, Czechia
-  date: February 24th, 2024
-  start: 2024-02-24
-  end: 2024-02-24
-  twitter: PythonPizzaConf
-  mastodon: https://fosstodon.org/@pythonpizza/
-  sub: PY
-  location:
-    latitude: 50.0874654
-    longitude: 14.4212535
-
 - title: PyCon US
   year: 2024
   link: https://us.pycon.org/2024/
+  cfp_link: https://us.pycon.org/2024/speaking/guidelines/
   cfp: '2023-12-18 23:59:00'
   timezone: America/New_York
   place: Pittsburgh, PA, USA
@@ -246,63 +249,20 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
-- title: FlaskCon
-  year: 2023
-  link: https://flaskcon.com/2023/
-  cfp: '2023-10-31 23:59:00'
-  place: Online
-  date: December 16 - 17, 2023
-  start: 2023-12-16
-  end: 2023-12-17
-  sponsor: https://flaskcon.com/2023/become-sponsor
-  twitter: FlaskCon
-  sub: WEB
-
-- title: PyOhio
-  year: 2023
-  link: https://pyohio.org/2023/
-  cfp: '2023-10-23 08:00:00'
-  timezone: America/New_York
-  place: Ohio, USA
-  date: December 16th, 2023
-  start: 2023-12-16
-  end: 2023-12-16
-  location:
-    latitude: 40.2253569
-    longitude: -82.6881395
-
-- title: PyCon Thailand
-  year: 2023
-  link: https://th.pycon.org
-  cfp_link: https://papercall.io/pyconth2023
-  cfp: '2023-08-16 23:59:00'
-  workshop_deadline: '2023-08-16 23:59:00'
-  tutorial_deadline: '2023-08-16 23:59:00'
-  timezone: UTC
-  place: Bangkok, Thailand
-  date: December 14 - 16, 2023
-  start: 2023-12-14
-  end: 2023-12-16
-  sponsor: https://shorturl.at/kqrL4
-  sub: PY
-  location:
-    latitude: 13.7524938
-    longitude: 100.4935089
-
-- title: PyCon Philippines
+- title: EuroPython
   year: 2024
-  link: https://pycon-2024.python.ph
+  link: https://ep2024.europython.eu/
   cfp: TBA
-  timezone: Asia/Manila
-  place: Manila, Philippines
-  date: February 25 - 26, 2024
-  start: 2024-02-25
-  end: 2024-02-26
-  twitter: PyConPH
+  place: Prague, Czechia
+  date: July 08 - 14, 2024
+  start: 2024-07-08
+  end: 2024-07-14
+  twitter: EuroPython
+  mastodon: https://fosstodon.org/@europython
   sub: PY
   location:
-    latitude: 14.5948914
-    longitude: 120.9782618
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - title: Kiwi PyCon XIII
   year: 2024
@@ -320,20 +280,20 @@
     latitude: -41.2887953
     longitude: 174.7772114
 
-- title: EuroPython
+- title: PyCon Philippines
   year: 2024
-  link: https://ep2024.europython.eu/
+  link: https://pycon-2024.python.ph
   cfp: TBA
-  place: Prague, Czechia
-  date: July 08 - 14, 2024
-  start: 2024-07-08
-  end: 2024-07-14
-  twitter: EuroPython
-  mastodon: https://fosstodon.org/@europython
+  timezone: Asia/Manila
+  place: Manila, Philippines
+  date: February 25 - 26, 2024
+  start: 2024-02-25
+  end: 2024-02-26
+  twitter: PyConPH
   sub: PY
   location:
-    latitude: 50.0874654
-    longitude: 14.4212535
+    latitude: 14.5948914
+    longitude: 120.9782618
 
 - title: Swiss Python Summit
   year: 2024
