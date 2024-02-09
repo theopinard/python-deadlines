@@ -16,6 +16,22 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
+- title: PyCon Colombia
+  year: 2024
+  link: https://2024.pycon.co/
+  cfp_link: https://2024.pycon.co/call-for-proposals
+  cfp: '2024-03-11 23:59:59'
+  timezone: America/Bogota
+  place: Medellin, Colombia
+  date: June 07 - 09, 2024
+  start: 2024-06-07
+  end: 2024-06-09
+  twitter: PyConColombia
+  sub: PY
+  location:
+    latitude: 6.2443382
+    longitude: -75.573553
+
 - title: PyData London
   year: 2024
   link: https://pydata.org/london2024/
@@ -263,22 +279,6 @@
   location:
     latitude: 40.4416941
     longitude: -79.9900861
-
-- title: PyCon Colombia
-  year: 2024
-  link: https://2024.pycon.co/
-  cfp_link: https://2024.pycon.co/call-for-proposals
-  cfp: '2023-03-11 23:59:59'
-  timezone: America/Bogota
-  place: Medellin, Colombia
-  date: June 07 - 09, 2024
-  start: 2024-06-07
-  end: 2024-06-09
-  twitter: PyConColombia
-  sub: PY
-  location:
-    latitude: 6.2443382
-    longitude: -75.573553
 
 - title: EuroPython
   year: 2024
