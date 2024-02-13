@@ -325,3 +325,15 @@
   location:
     latitude: 47.2266532
     longitude: 8.8164042
+
+- title: EARL
+  year: 2024
+  link: https://datacove.co.uk/earl-2024-tech-conference/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSf7QY-VFFWB5FtKl3dENcNSDnzhvqS2GL43bv6GjKCyYIrHKw/viewform
+  cfp: '2024-03-31 23:59:00'
+  timezone: Europe/Zurich
+  place: Brighton, United Kingdom 
+  date: 4th – 5th September, 2024
+  start: 2024-09-04
+  end: 2024-09-05
+  sub: PY
