@@ -53,7 +53,7 @@ description: Summary of the conference and its instances throughout the years.
 
 <body>
   {% include header.html %}
-  {% assign confs = site.data.conferences | concat: site.data.archive %}
+  {% assign confs = site.data.conferences | concat: site.data.archive | where "title", page.title %}
   <div class="container">
     <div class="page-header" id="conf-title">
       <div class="row">
@@ -121,10 +121,9 @@ description: Summary of the conference and its instances throughout the years.
             {% endif %}
           </div>
         </div>
+        <hr />
       <div id="all_confs">
-
         {% for conf in confs %}
-        {% if conf.title == page.title %}
         {% assign subs = conf.sub | split: "," %}
         <div id="{{conf.title | slugify}}-{{conf.year}}"
           class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
@@ -231,11 +230,7 @@ description: Summary of the conference and its instances throughout the years.
           </div>
           <hr>
         </div>
-        {% endif %}
         {% endfor %}
-    </div>
-    <div class="row">
-      {% google_map width="100%" zoom="2" id="places" src="_data" no_cluster title="{{page.title}}" %}
     </div>
   </div>
     <footer>
@@ -263,7 +258,6 @@ description: Summary of the conference and its instances throughout the years.
       $('.local-timezone').text(today.toFormat('z'));
 
       {% for conf in confs %}
-      {% if conf.title == page.title %}
       {% assign subs = conf.sub | split: "," %}
       {% for sub in subs %}
       $('#{{conf.title | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
@@ -337,7 +331,6 @@ description: Summary of the conference and its instances throughout the years.
         $('#{{conf.title | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
         $('#{{conf.title | slugify}}-{{conf.year}} .calendar').remove();
       }
-      {% endif %}
       {% endif %}
       {% endfor %}
 
