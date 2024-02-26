@@ -85,22 +85,41 @@ description: Summary of the conference and its instances throughout the years.
       </div>
     </div>
     <div id="page-content">
-        <div class="col-12 col-md-6">
-          {% if page.mastodon %}
-          <!-- Mastodon timeline -->
-          <div class="meta">Mastodon Posts by {{page.title}}:</div>
-          <div id="mastodon-feed"></div>
-          <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.title }}</a>
-          {% elsif page.twitter %}
-          <!-- Twitter timeline -->
-          <div id="twitter-widget">
-            <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=2>Tweets by
-              {{page.twitter}}</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id="conf-key-facts" class="row">
+          <div class="col-12 col-md-6">
+            <div>
+              <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
+              <a id="conf-website" target="_blank" href="{{page.link}}">{{page.link}}</a>
+            </div>
+            {% if page.twitter %}
+            <div>
+              <img src="/static/img/407-twitter.svg" class="badge-link" alt="Twitter icon" width="16" height="16" />
+              <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+            </div>
+            {% endif %}
+            {% if page.mastodon %}
+            <div>
+              <img src="/static/img/407-mastodon.svg" class="badge-link" alt="Mastodon icon" width="16" height="16" />
+              <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
+          <div class="col-12 col-md-6">
+            {% if page.mastodon %}
+            <!-- Mastodon timeline -->
+            <div class="meta">Mastodon Posts by {{page.title}}:</div>
+            <div id="mastodon-feed"></div>
+            <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.title }}</a>
+            {% elsif page.twitter %}
+            <!-- Twitter timeline -->
+            <div id="twitter-widget">
+              <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=2>Tweets by
+                {{page.twitter}}</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            {% endif %}
+          </div>
         </div>
-      </div>
       <div id="all_confs">
         {% assign confs = site.data.conferences | concat: site.data.archive %}
         {% for conf in confs %}

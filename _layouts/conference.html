@@ -43,7 +43,7 @@ description: Countdown for the Call for Participation of this conference includi
     #twitter-widget {
       width: 100%;
     }
-    
+
     .twitter-timeline {
       width: 100% !important;
     }
@@ -112,6 +112,11 @@ description: Countdown for the Call for Participation of this conference includi
             <a id="conf-cfp_link" target="_blank" href="{{page.cfp_link}}">Call for Participation</a>
           </div>
           {% endif %}
+          <div>
+            <img src="/static/img/002-home2.svg" class="badge-link" alt="Conference Series" width="16" height="16" />
+            <a id="conf-series" target="_blank"
+              href="/series/{{page.title}}">All {{page.title}} conferences</a>
+          </div>
           {% if page.finaid %}
           <div>
             <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16"
@@ -216,7 +221,7 @@ description: Countdown for the Call for Participation of this conference includi
         console.log("Invalid timezone. Using system timezone instead.");
       }
 
-      // add calendar 
+      // add calendar
       var conferenceDeadlineCalendar = createCalendarFromObject({
         id: '{{conf.title | slugify}}-{{conf.year}}',
         title: '{{page.title}} {{page.year}} deadline',
