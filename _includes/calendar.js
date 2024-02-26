@@ -84,9 +84,9 @@ function load_conference_list() {
   {% for conf in site.data.conferences + site.data.archive %}
     // add deadlines in red
     conf_list_all.push({
-      id: "{{conf.title | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.title | slugify}}-{{conf.year}}",
-      name: "{{conf.title}} {{conf.year}} CfP",
+      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      name: "{{conf.conference}} {{conf.year}} CfP",
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
@@ -96,9 +96,9 @@ function load_conference_list() {
     });
     {% if conf.workshop_deadline %}
     conf_list_all.push({
-      id: "{{conf.title | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.title | slugify}}-{{conf.year}}",
-      name: "{{conf.title}} {{conf.year}} Workshop Deadline",
+      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      name: "{{conf.conference}} {{conf.year}} Workshop Deadline",
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
@@ -109,9 +109,9 @@ function load_conference_list() {
     {% endif %}
     {% if conf.tutorial_deadline %}
     conf_list_all.push({
-      id: "{{conf.title | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.title | slugify}}-{{conf.year}}",
-      name: "{{conf.title}} {{conf.year}} Tutorial Deadline",
+      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      name: "{{conf.conference}} {{conf.year}} Tutorial Deadline",
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
@@ -131,9 +131,9 @@ function load_conference_list() {
             {% endif %}
       {% endfor %}
       conf_list_all.push({
-        id: "{{conf.title | slugify}}-{{conf.year}}-conference",
-        abbreviation: "{{conf.title | slugify}}-{{conf.year}}",
-        name: "{{conf.title}} {{conf.year}}",
+        id: "{{conf.conference | slugify}}-{{conf.year}}-conference",
+        abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+        name: "{{conf.conference}} {{conf.year}}",
         color: color,
         location: "{{conf.place}}",
         date: "{{conf.date}}",

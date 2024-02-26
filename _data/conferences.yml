@@ -1,5 +1,5 @@
 ---
-- title: Kiwi PyCon
+- conference: Kiwi PyCon
   year: 2024
   link: https://kiwipycon.nz/
   cfp_link: https://kiwipycon.nz/present/submitting-a-talk
@@ -17,7 +17,7 @@
     latitude: -41.2887953
     longitude: 174.7772114
 
-- title: PyCon Estonia
+- conference: PyCon Estonia
   year: 2024
   link: https://pycon.ee/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ
@@ -33,7 +33,7 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
-- title: PyCon Taiwan
+- conference: PyCon Taiwan
   year: 2024
   link: https://tw.pycon.org/2024/en-us
   cfp_link: https://tw.pycon.org/2024/en-us/speaking/cfp
@@ -48,7 +48,7 @@
     latitude: 50.4431636
     longitude: 9.9853751
 
-- title: EARL
+- conference: EARL
   year: 2024
   link: https://datacove.co.uk/earl-2024-tech-conference/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSf7QY-VFFWB5FtKl3dENcNSDnzhvqS2GL43bv6GjKCyYIrHKw/viewform
@@ -63,7 +63,7 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- title: PyCon Colombia
+- conference: PyCon Colombia
   year: 2024
   link: https://2024.pycon.co/
   cfp_link: https://2024.pycon.co/call-for-proposals
@@ -79,7 +79,7 @@
     latitude: 6.2443382
     longitude: -75.573553
 
-- title: EuroPython
+- conference: EuroPython
   year: 2024
   link: https://ep2024.europython.eu/
   cfp_link: https://ep2024.europython.eu/cfp/
@@ -96,7 +96,7 @@
     latitude: 50.0874654
     longitude: 14.4212535
 
-- title: PyData London
+- conference: PyData London
   year: 2024
   link: https://pydata.org/london2024/
   cfp_link: https://pydata.org/london2024/cfp#submit
@@ -113,7 +113,7 @@
     latitude: 51.51072
     longitude: -0.07655
 
-- title: DjangoCon Europe
+- conference: DjangoCon Europe
   year: 2024
   link: https://2024.djangocon.eu/
   cfp_link: https://2024.djangocon.eu/call-for-proposals
@@ -130,7 +130,7 @@
     latitude: 42.240599
     longitude: -8.720727
 
-- title: SciPy US
+- conference: SciPy US
   year: 2024
   link: https://scipy2024.scipy.org
   cfp_link: https://cfp.scipy.org/2024/cfp
@@ -146,7 +146,7 @@
     latitude: 47.2455013
     longitude: -122.438329
 
-- title: GeoPython
+- conference: GeoPython
   year: 2024
   link: https://2024.geopython.net/
   cfp_link: https://submit.geopython.net/geopython-2024/cfp
@@ -161,7 +161,7 @@
     latitude: 47.5581077
     longitude: 7.5878261
 
-- title: PyCon Namibia
+- conference: PyCon Namibia
   year: 2024
   link: https://na.pycon.org
   cfp_link: https://na.pycon.org/call-proposals/
@@ -178,7 +178,7 @@
     latitude: -22.5776104
     longitude: 17.0772739
 
-- title: PyCon Pakistan
+- conference: PyCon Pakistan
   year: 2024
   link: https://pycon.pk/
   cfp: '2024-01-15 23:59:00'
@@ -193,7 +193,7 @@
     latitude: 31.5656822
     longitude: 74.3141829
 
-- title: PyTexas
+- conference: PyTexas
   year: 2024
   link: https://pytexas.org/2024
   cfp_link: https://pretalx.com/pytexas-2024/
@@ -210,7 +210,7 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
-- title: PyCon Lithuania
+- conference: PyCon Lithuania
   year: 2024
   link: https://pycon.lt/2024
   cfp_link: https://pycon.lt/2024/call-for-proposals
@@ -226,7 +226,7 @@
     latitude: 54.6872
     longitude: 25.2797
 
-- title: PyCon Italia
+- conference: PyCon Italia
   year: 2024
   link: https://pycon.it/en
   cfp_link: https://2024.pycon.it/cfp
@@ -243,7 +243,7 @@
     latitude: 43.7698712
     longitude: 11.2555757
 
-- title: PyCascades
+- conference: PyCascades
   year: 2024
   link: https://2024.pycascades.com/
   cfp_link: https://pretalx.com/pycascades-2024/cfp
@@ -260,7 +260,7 @@
     latitude: 47.6038321
     longitude: -122.330062
 
-- title: PyCon Philippines
+- conference: PyCon Philippines
   year: 2024
   link: https://pycon-2024.python.ph/
   cfp: '2023-12-31 23:59:00'
@@ -276,7 +276,7 @@
     latitude: 14.5948914
     longitude: 120.9782618
 
-- title: PyCon Slovakia
+- conference: PyCon Slovakia
   year: 2024
   link: https://2024.pycon.sk/
   cfp_link: https://2024.pycon.sk/en/cfp
@@ -292,7 +292,7 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
-- title: Python Pizza Prague
+- conference: Python Pizza Prague
   year: 2024
   link: https://prague.python.pizza/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
@@ -309,7 +309,7 @@
     latitude: 50.0874654
     longitude: 14.4212535
 
-- title: PyCon DE & PyData Berlin
+- conference: PyCon DE & PyData Berlin
   year: 2024
   link: https://pycon.de/
   cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
@@ -327,7 +327,7 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
-- title: PyCon US
+- conference: PyCon US
   year: 2024
   link: https://us.pycon.org/2024/
   cfp_link: https://us.pycon.org/2024/speaking/guidelines/
@@ -345,7 +345,7 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
-- title: Swiss Python Summit
+- conference: Swiss Python Summit
   year: 2024
   link: https://python-summit.ch
   cfp: TBA

@@ -54,20 +54,20 @@ page_gen:
     - data: 'conferences'
       template: 'conference'
       dir: 'conference'
-      name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')+"-"+record['year'].to_s
-      title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines"
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')+"-"+record['year'].to_s
+      title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
     - data: 'archive'
       template: 'conference'
       dir: 'conference'
-      name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')+"-"+record['year'].to_s
-      title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines"
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')+"-"+record['year'].to_s
+      title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
     - data: 'archive'
       template: 'summary'
       dir: 'series'
-      name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')
-      title_expr: record['title']+" "+"Conference Summary"
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')
+      title_expr: record['conference']+" "+"Conference Summary"
     - data: 'conferences'
       template: 'summary'
       dir: 'series'
-      name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')
-      title_expr: record['title']+" "+"Conference Summary"
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '').gsub('/-+/', '-')
+      title_expr: record['conference']+" "+"Conference Summary"

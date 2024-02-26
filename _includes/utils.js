@@ -28,7 +28,7 @@ function createCalendarFromObject(data) {
     },
     data: {
       // Event title
-      title: data.title,
+      title: data.conference,
 
       // Event start date
       start: data.date,

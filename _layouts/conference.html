@@ -3,7 +3,6 @@ description: Countdown for the Call for Participation of this conference includi
 ---
 
 <html>
-
 <head>
   {% include head.html %}
   {% if page.mastodon %}
@@ -223,7 +222,7 @@ description: Countdown for the Call for Participation of this conference includi
 
       // add calendar
       var conferenceDeadlineCalendar = createCalendarFromObject({
-        id: '{{conf.title | slugify}}-{{conf.year}}',
+        id: '{{conf.conference | slugify}}-{{conf.year}}',
         title: '{{page.title}} {{page.year}} deadline',
         date: confDeadline.toJSDate(),
         duration: 60,
