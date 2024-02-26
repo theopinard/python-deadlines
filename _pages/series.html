@@ -24,8 +24,9 @@ permalink: /series/
         <div id="confs">
         <div id="past_confs">
           <h1 id="past-events-title">Event Series</h1>
-          {% assign confs = site.data.conferences | concat: site.data.archive | group_by: "title" %}
+          {% assign confs = site.data.conferences | concat: site.data.archive | group_by: "title" | sort: "name" %}
           {% for conf in confs %}
+          {% if conf.items.size > 1 %}
           <div id="{{conf.name | slugify}}" class="ConfItem">
             <div class="row conf-row">
                 <div class="col-6">
@@ -89,6 +90,7 @@ permalink: /series/
             </div>
             <hr>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
