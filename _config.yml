@@ -65,9 +65,9 @@ page_gen:
       template: 'summary'
       dir: 'series'
       name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-      title_expr: "#{record['title']} Conference Summary"
+      title_expr: record['title']+" "+"Conference Summary"
     - data: 'archive'
       template: 'summary'
       dir: 'series'
       name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-      title_expr: "#{record['title']} Conference Summary"
+      title_expr: record['title']+" "+"Conference Summary"
