@@ -90,18 +90,18 @@ description: Summary of the conference and its instances throughout the years.
           <div class="col-12 col-md-6">
             <div>
               <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
-              <a id="conf-website" target="_blank" href="{{page.link}}">{{confs[0].link}}</a>
+              <a id="conf-website" target="_blank" href="{{confs[0].link}}">{{confs[0].link}}</a>
             </div>
             {% if confs[0].twitter %}
               <div>
                 <img src="/static/img/407-twitter.svg" class="badge-link" alt="Twitter icon" width="16" height="16" />
-                <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{confs[0].twitter}}</a>
+                <a id="conf-twitter" target="_blank" href="https://twitter.com/{{confs[0].twitter}}">@{{confs[0].twitter}}</a>
               </div>
             {% endif %}
             {% if confs[0].mastodon %}
               <div>
                 <img src="/static/img/407-mastodon.svg" class="badge-link" alt="Mastodon icon" width="16" height="16" />
-                <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
+                <a id="conf-mastodon" target="_blank" href="{{confs[0].mastodon}}">Mastodon</a>
               </div>
             {% endif %}
             </div>
@@ -232,6 +232,11 @@ description: Summary of the conference and its instances throughout the years.
           </div>
         {% endfor %}
     </div>
+    {% if page.place == conf.place == confs[0].place %}
+    <div class="row">
+      {% google_map zoom="6" width="100%" longitude="{{conf[0].location.longitude}}" latitude="{{conf[0].location.latitude}}" %}
+    </div>
+    {% endif %}
   </div>
     <footer>
       {% include footer.html %}
