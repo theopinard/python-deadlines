@@ -234,7 +234,7 @@ description: Summary of the conference and its instances throughout the years.
     </div>
     {% if page.place == confs[0].place and confs[0].place == confs[1].place %}
     <div class="row">
-      {% google_map zoom="6" width="100%" longitude="{{conf[0].location.longitude}}" latitude="{{conf[0].location.latitude}}" %}
+      {% google_map zoom="6" width="100%" %}
     </div>
     {% endif %}
   </div>

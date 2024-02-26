@@ -1522,6 +1522,9 @@
   date: June 20 - 23, 2022
   place: Basel, Switzerland
   sub: PY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
 
 - title: SciPy US
   year: 2022
