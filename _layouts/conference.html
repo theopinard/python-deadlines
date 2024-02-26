@@ -57,6 +57,7 @@ description: Countdown for the Call for Participation of this conference includi
     <div class="page-header" id="conf-title">
       <div class="row">
         <div class="col-sm-12">
+          {% include breadcrumbs.html %}
           <h1>
             <span id="conf-title-href" href="/conference/{{page.title | slugify}}-{{page.year}}/">{{page.title}}
               {{page.year}}</span>

@@ -169,7 +169,7 @@ footer {
   background: #0097e6;
 }
 
-#conf-sort-order-checkbox, 
+#conf-sort-order-checkbox,
 #cfp-sort-order-checkbox {
     text-align: right;
     font-size: 14px;
@@ -181,7 +181,7 @@ footer {
     background-color: #0097e6;
     border-color: #0097e6;
   }
-  
+
 #cfp-sort-order-checkbox input[type="checkbox"]:after,
 #cfp-sort-order-checkbox input[type="checkbox"]:focus:after,
 #conf-sort-order-checkbox input[type="checkbox"]:after,
@@ -223,7 +223,7 @@ footer {
 }
 
 .badge-link {
-  vertical-align: middle; 
+  vertical-align: middle;
   margin-bottom: 3px;
   margin-left: 2px;
   margin-right: 2px;
@@ -303,4 +303,16 @@ footer {
 
 .calendar img {
   height: 20px;
+}
+
+#breadcrumbs a {
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #808080;
+}
+
+#breadcrumbs a:hover {
+  text-decoration: dashed;
+  color: #fff;
 }
