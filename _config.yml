@@ -51,23 +51,23 @@ maps:
 page_gen-dirs: true
 
 page_gen:
-    - data: 'conferences'
-      template: 'conference'
-      dir: 'conference'
-      name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}-#{record['year']}".gsub(/[^\w-]/, '').gsub('--', '-')
-      title_expr: "#{record['title']} #{record['year']} Conference Deadlines"
-    - data: 'archive'
-      template: 'conference'
-      dir: 'conference'
-      name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}-#{record['year']}".gsub(/[^\w-]/, '').gsub('--', '-')
-      title_expr: "#{record['title']} #{record['year']} Conference Deadlines"
-    - data: 'conferences'
-      template: 'summary'
-      dir: 'series'
-      name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}".gsub(/[^\w-]/, '').gsub('--', '-')
-      title_expr: "#{record['title']} Conference Summary"
-    - data: 'archive'
-      template: 'summary'
-      dir: 'series'
-      name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}".gsub(/[^\w-]/, '').gsub('--', '-')
-      title_expr: "#{record['title']} Conference Summary"
+- data: 'conferences'
+  template: 'conference'
+  dir: 'conference'
+  name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}-#{record['year']}".gsub(/[^\w-]/, '').gsub('--', '-')
+  title_expr: "#{record['title']} #{record['year']} Conference Deadlines"
+- data: 'archive'
+  template: 'conference'
+  dir: 'conference'
+  name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}-#{record['year']}".gsub(/[^\w-]/, '').gsub('--', '-')
+  title_expr: "#{record['title']} #{record['year']} Conference Deadlines"
+- data: 'conferences'
+  template: 'summary'
+  dir: 'series'
+  name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}".gsub(/[^\w-]/, '').gsub('--', '-')
+  title_expr: "#{record['title']} Conference Summary"
+- data: 'archive'
+  template: 'summary'
+  dir: 'series'
+  name_expr: "#{record['title'].downcase.strip.gsub(' ', '-')}".gsub(/[^\w-]/, '').gsub('--', '-')
+  title_expr: "#{record['title']} Conference Summary"
