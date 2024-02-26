@@ -60,18 +60,21 @@ title: Python Event Series List
                 <div class="meta">
                   <span class="conf-place">
                     {% assign last_place = conf.items[0].place %}
-                    {% case last_place %}
-                      {% when conf.items[2].place %}
+                    {% if last_place == conf.items[2].place %}
                       Always held in:
-                      {% when conf.items[1].place %}
+                    {% elsif last_place == conf.items[1].place %}
                       Usually held in:
-                      {% else %}
-                      Last held in:
-                    {% endcase %}
-                    {% if conf.items[0].place == "Online" %}
-                    <a href="#">{{conf.items[0].place}}</a>
                     {% else %}
-                    <a href="http://maps.google.com/?q={{conf.items[0].place}}">{{conf.items[0].place}}</a>
+                      Last held in:
+                    {% endif %}
+                    {% assign idx = 0 %}
+                    {% if conf.items[0].place == "TBD" %}
+                      {% assign idx = 1 %}
+                    {% endif %}
+                    {% if conf.items[idx].place == "Online" %}
+                    <a href="#">{{conf.items[idx].place}}</a>
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.items[idx].place}}">{{conf.items[idx].place}}</a>
                     {% endif %}
                   </span>
                 </div>
