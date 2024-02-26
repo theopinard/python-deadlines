@@ -53,6 +53,7 @@ description: Summary of the conference and its instances throughout the years.
 
 <body>
   {% include header.html %}
+  {% assign confs = site.data.conferences | concat: site.data.archive %}
   <div class="container">
     <div class="page-header" id="conf-title">
       <div class="row">
@@ -89,15 +90,15 @@ description: Summary of the conference and its instances throughout the years.
           <div class="col-12 col-md-6">
             <div>
               <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
-              <a id="conf-website" target="_blank" href="{{page.link}}">{{page.link}}</a>
+              <a id="conf-website" target="_blank" href="{{page.link}}">{{confs[0].link}}</a>
             </div>
-            {% if page.twitter %}
+            {% if confs[0].twitter %}
             <div>
               <img src="/static/img/407-twitter.svg" class="badge-link" alt="Twitter icon" width="16" height="16" />
-              <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+              <a id="conf-twitter" target="_blank" href="https://twitter.com/{{page.twitter}}">@{{confs[0].twitter}}</a>
             </div>
             {% endif %}
-            {% if page.mastodon %}
+            {% if confs[0].mastodon %}
             <div>
               <img src="/static/img/407-mastodon.svg" class="badge-link" alt="Mastodon icon" width="16" height="16" />
               <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
@@ -105,25 +106,25 @@ description: Summary of the conference and its instances throughout the years.
             {% endif %}
           </div>
           <div class="col-12 col-md-6">
-            {% if page.mastodon %}
+            {% if confs[0].mastodon %}
             <!-- Mastodon timeline -->
             <div class="meta">Mastodon Posts by {{page.title}}:</div>
             <div id="mastodon-feed"></div>
             <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.title }}</a>
-            {% elsif page.twitter %}
+            {% elsif confs[0].twitter %}
             <!-- Twitter timeline -->
             <div id="twitter-widget">
               <a class="twitter-timeline" href="https://twitter.com/{{page.twitter}}" data-tweet-limit=2>Tweets by
-                {{page.twitter}}</a>
+                {{confs[0].twitter}}</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             {% endif %}
           </div>
         </div>
       <div id="all_confs">
-        {% assign confs = site.data.conferences | concat: site.data.archive %}
+
         {% for conf in confs %}
-        {% if conf.title == page.title %}
+        {% if conf.title.lower() == page.title.lower() %}
         {% assign subs = conf.sub | split: "," %}
         <div id="{{conf.title | slugify}}-{{conf.year}}"
           class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
@@ -234,7 +235,7 @@ description: Summary of the conference and its instances throughout the years.
         {% endfor %}
     </div>
     <div class="row">
-      {% google_map width="100%" zoom="2" id="places" src="_data/conferences.yml" no_cluster title="{{page.title}}" %}
+      {% google_map width="100%" zoom="2" id="places" src="_data" no_cluster title="{{page.title}}" %}
     </div>
   </div>
     <footer>

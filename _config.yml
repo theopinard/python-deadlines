@@ -61,12 +61,12 @@ page_gen:
       dir: 'conference'
       name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')+"-"+record['year'].to_s
       title_expr: record['title']+" "+record['year'].to_s+" Conference Deadlines"
-    - data: 'conferences'
+    - data: 'archive'
       template: 'summary'
       dir: 'series'
       name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
       title_expr: record['title']+" "+"Conference Summary"
-    - data: 'archive'
+    - data: 'conferences'
       template: 'summary'
       dir: 'series'
       name_expr: record['title'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
