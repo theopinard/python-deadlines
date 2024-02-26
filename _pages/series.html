@@ -59,7 +59,7 @@ title: Python Event Series List
               <div class="col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-place">
-                    {% (if conf.items.size > 2 and conf.items[0].place == conf.items[1].place == conf.items[2].place) or conf.items[0].place == conf.items[1].place%}
+                    {% if (conf.items.size > 2 and (conf.items[0].place == conf.items[1].place == conf.items[2].place)) or (conf.items[0].place == conf.items[1].place) %}
                     Usually held in:
                     {% else %}
                     Last held in:
