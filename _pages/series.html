@@ -1,5 +1,6 @@
 ---
 permalink: /series/
+title: Python Event Series
 ---
 
 <html>
@@ -57,6 +58,7 @@ permalink: /series/
                   <span class="timer-small"></span>
                 </div>
             </div>
+            {% if conf.items[0].place == conf.items[1].place %} # Same place
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="meta">
@@ -73,10 +75,9 @@ permalink: /series/
                       <b>Note: </b>{{conf.items[0].note}}
                   </div>
                 {% endif %}
-
               </div>
-
             </div>
+            {% endif %}
             <div class="row">
               <div class="col-6">
                 {% assign subs = conf.items[0].sub | split: "," %}
@@ -99,5 +100,40 @@ permalink: /series/
       </footer>
       <br><br>
     </div>
+    <script type="text/javascript" charset="utf-8">
+      $(function () {
+
+        // Make sure this is >= no. of subs
+        // Currently not used
+        var colors = ['#341f97', '#ee5253', '#2e86de',
+          '#ff9f43', '#10ac84', '#222f3e']
+
+        {% include load_data.js %}
+        {% include utils.js %}
+        {% include multiselect_handler.js %}
+
+        // Set time zone to local timezone on web copy
+        $('.local-timezone').text(today.toFormat('z'));
+
+        {% for conf in confs %}
+        {% assign subs = conf.item[0].sub | split: "," %}
+        {% for sub in subs %}
+        $('#{{conf.name | slugify}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+        {% endfor %}
+        {% endfor %}
+
+        {% include handle_url_retrieval.js %}
+
+        // Event handler on sub badge click
+        $('.conf-sub').click(function (e) {
+          var csub = $(this).data('sub');
+          subs = [csub];
+          $("#subject-select").multiselect('deselect', all_subs);
+          $("#subject-select").multiselect('select', subs);
+          update_filtering({ subs: subs, all_subs: all_subs });
+        });
+
+      });
+    </script>
   </body>
 </html>
