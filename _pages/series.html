@@ -1,0 +1,101 @@
+---
+permalink: /series/
+---
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                  <h1>
+                    {{ site.title }}
+                  </h1>
+                </div>
+                <div class="meta col-12">
+                  All Python Event Series.
+                </div>
+            </div>
+        </div>
+        <div id="confs">
+        <div id="past_confs">
+          <h1 id="past-events-title">Event Series</h1>
+          {% assign confs = site.data.conferences | concat: site.data.archive | group_by: "title" %}
+          {% for conf in confs %}
+          <div id="{{conf.name | slugify}}" class="ConfItem">
+            <div class="row conf-row">
+                <div class="col-6">
+                  <span class="conf-title">
+                      <a title="Deadline Details" href="/series/{{conf.name | slugify}}/">{{conf.name}}</a>
+                  </span>
+                  <span class="conf-title-small">
+                      <a title="Deadline Details" href="#">{{conf.name}}</a>
+                  </span>
+                  <span class="conf-title-icon">
+                    <a title="Conference Website" href="{{conf.items[0].link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% if conf.items[0].mastodon %}
+                  <span class="conf-title-icon">
+                    <a title="Mastodon for Conference" href="{{conf.items[0].mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% elsif conf.items[0].twitter %}
+                  <span class="conf-title-icon">
+                    <a title="Twitter for Conference" href="https://twitter.com/{{conf.items[0].twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
+                    &ZeroWidthSpace;
+                  </span>
+                  {% endif %}
+                </div>
+                <div class="col-6">
+                  <span class="timer"></span>
+                  <span class="timer-small"></span>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-place">
+                    {% if conf.items[0].place == "Online" %}
+                    <a href="#">{{conf.items[0].place}}</a>.
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.items[0].place}}">{{conf.items[0].place}}</a>.
+                    {% endif %}
+                  </span>
+                </div>
+                {% if conf.items[0].note %}
+                  <div class="note">
+                      <b>Note: </b>{{conf.items[0].note}}
+                  </div>
+                {% endif %}
+
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-6">
+                {% assign subs = conf.items[0].sub | split: "," %}
+                {% for sub in subs %}
+                <span title="Click to only show {{sub | strip}} conferences" data-sub="{{sub | strip}}" class="badge badge-light conf-sub {{sub | strip}}-tag"></span>
+                {% endfor %}
+              </div>
+              <div class="col-6">
+                <div class="calendar"></div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <footer>
+            {% include footer.html %}
+      </footer>
+      <br><br>
+    </div>
+  </body>
+</html>
