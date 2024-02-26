@@ -1351,7 +1351,7 @@
     latitude: 37.7790262
     longitude: -122.419906
 
-- title: euroSciPy
+- title: EuroSciPy
   year: 2022
   link: https://euroscipy.org/2022/
   cfp: '2022-06-13 23:59:59'
@@ -1599,7 +1599,7 @@
     latitude: 40.7596198
     longitude: -111.886797
 
-- title: Kiwi PyCon XI
+- title: Kiwi PyCon
   year: 2022
   link: https://kiwipycon.nz/
   cfp: '2021-11-30 23:59:00'
@@ -1634,7 +1634,7 @@
   place: Online
   sub: PY
 
-- title: euroSciPy
+- title: EuroSciPy
   year: 2019
   link: https://euroscipy.org/2020/
   cfp: '2019-04-28 23:59:59'

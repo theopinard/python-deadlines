@@ -124,7 +124,7 @@ description: Summary of the conference and its instances throughout the years.
       <div id="all_confs">
 
         {% for conf in confs %}
-        {% if conf.title.lower() == page.title.lower() %}
+        {% if conf.title == page.title %}
         {% assign subs = conf.sub | split: "," %}
         <div id="{{conf.title | slugify}}-{{conf.year}}"
           class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
@@ -263,6 +263,7 @@ description: Summary of the conference and its instances throughout the years.
       $('.local-timezone').text(today.toFormat('z'));
 
       {% for conf in confs %}
+      {% if conf.title == page.title %}
       {% assign subs = conf.sub | split: "," %}
       {% for sub in subs %}
       $('#{{conf.title | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
