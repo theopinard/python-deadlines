@@ -314,4 +314,11 @@ def main(year=None, base=""):
 
 
 if __name__ == "__main__":
-    main()
+    # Make argparse to get year and base
+
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Import Python Organizers")
+    parser.add_argument("--year", type=int, help="Year to import")
+
+    main(year=parser.parse_args().year)
