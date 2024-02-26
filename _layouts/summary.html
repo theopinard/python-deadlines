@@ -345,18 +345,6 @@ description: Summary of the conference and its instances throughout the years.
         return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
       }).appendTo($("#coming_confs"));
 
-      {% include handle_url_retrieval.js %}
-
-      // Event handler on sub badge click
-      $('.conf-sub').click(function (e) {
-        var csub = $(this).data('sub');
-        subs = [csub];
-        $("#subject-select").multiselect('deselect', all_subs);
-        $("#subject-select").multiselect('select', subs);
-        update_filtering({ subs: subs, all_subs: all_subs });
-      });
-
-    });
   </script>
 </body>
 
