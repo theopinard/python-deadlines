@@ -2,8 +2,8 @@ title: Python Conference Deadlines # (Maintained by @jesperdramsch)
 description: Countdowns to your favourite Python conferences with calls for participation and resources to submit awesome talks!
 tagline: Countdowns to your favourite Python conferences
 
-url: 'https://pythondeadlin.es'
-domain: 'pythondeadlin.es'
+url: "https://pythondeadlin.es"
+domain: "pythondeadlin.es"
 
 twitter_username: jesperdramsch
 twitter_hashtag: python
@@ -17,36 +17,36 @@ adsense_id: ca-pub-2158291969836277
 include: ['_pages']
 
 collections:
-    posts:
-        output: true
-        permalink: /resources/:title/index:output_ext
+  posts:
+    output: true
+    permalink: /resources/:title/index:output_ext
 
 plugins:
-    - jekyll-sitemap
-    - jekyll-seo-tag
-    - jekyll-datapage-generator
-    - jekyll-maps
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-datapage-generator
+  - jekyll-maps
 
 author:
-    name: Jesper Dramsch
-    url: https://dramsch.net
-    twitter: jesperdramsch
+  name: Jesper Dramsch
+  url: https://dramsch.net
+  twitter: jesperdramsch
 
 social:
-    name: Jesper Dramsch
-    links:
-        - https://twitter.com/JesperDramsch
-        - https://www.dramsch.net/linkedin
-        - https://www.dramsch.net/mastodon
-        - https://www.dramsch.net/github
+  name: Jesper Dramsch
+  links:
+    - https://twitter.com/JesperDramsch
+    - https://www.dramsch.net/linkedin
+    - https://www.dramsch.net/mastodon
+    - https://www.dramsch.net/github
 
 twitter:
-    username: jesperdramsch
-    card: summary
+  username: jesperdramsch
+  card: summary
 
 maps:
-    google:
-        api_key: AIzaSyCEJ_S3OFxqrOfgx5WdSEMl8hxzgTFEw20
+  google:
+    api_key: AIzaSyCEJ_S3OFxqrOfgx5WdSEMl8hxzgTFEw20
 
 page_gen-dirs: true
 
