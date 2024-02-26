@@ -101,11 +101,9 @@ description: Summary of the conference and its instances throughout the years.
           {% endif %}
         </div>
       </div>
-      <div class="row">
-        {% google_map zoom="6" width="100%" title="{{page.title}}" %}
-      </div>
-      <div>
-        {% for conf in site.data.conferences + site.data.archive %}
+      <div id="all_confs">
+        {% assign confs = site.data.conferences | concat: site.data.archive %}
+        {% for conf in confs %}
         {% if conf.title == page.title %}
         {% assign subs = conf.sub | split: "," %}
         <div id="{{conf.title | slugify}}-{{conf.year}}"
@@ -216,69 +214,115 @@ description: Summary of the conference and its instances throughout the years.
         {% endif %}
         {% endfor %}
     </div>
+    <div class="row">
+      {% google_map width="100%" zoom="2" id="places" src="_data/conferences.yml" no_cluster title="{{page.title}}" %}
+    </div>
     <footer>
       {% include footer.html %}
     </footer>
   </div>
   <script type="text/javascript" charset="utf-8">
     $(function () {
-      // Timezone deadline shenanigans
-      var url = new URL(window.location);
-      var conf = url.searchParams.get('id');
 
       var DateTime = luxon.DateTime;
       var today = DateTime.now();
 
+      // Make sure this is >= no. of subs
+      // Currently not used
+      var colors = ['#341f97', '#ee5253', '#2e86de',
+        '#ff9f43', '#10ac84', '#222f3e']
+
+
       {% include load_data.js %}
       {% include utils.js %}
+      {% include multiselect_handler.js %}
 
+      // Set time zone to local timezone on web copy
       $('.local-timezone').text(today.toFormat('z'));
 
-      // other
-      {% if page.cfp == "TBA" %}
-      $('#cfp-timer').html("TBA");
-      $('.deadline-time').html("TBA");
-      $('.deadline-local-time').html("TBA");
+      {% for conf in confs %}
+      {% assign subs = conf.sub | split: "," %}
+      {% for sub in subs %}
+      $('#{{conf.title | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+      {% endfor %}
+      {% if conf.cfp == "TBA" %}
+      $('#{{conf.title | slugify}}-{{conf.year}} .timer').html("TBA");
+      $('#{{conf.title | slugify}}-{{conf.year}} .deadline-time').html("TBA");
+      $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
       {% else %}
 
       // Use specified timezone for deadlines if available else use AoE timezone
-      {% if page.timezone %}
-      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "{{page.timezone}}" });
+      {% if conf.timezone %}
+      var cfpDate = DateTime.fromSQL("{{conf.cfp}}", { zone: "{{conf.timezone}}" });
+      var confDate = DateTime.fromSQL("{{conf.start}}", { zone: "{{conf.timezone}}" });
       {% else %}
-      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "UTC-12" });
+      var cfpDate = DateTime.fromSQL("{{conf.cfp}}", { zone: "UTC-12" });
+      var confDate = DateTime.fromSQL("{{conf.start}}", { zone: "UTC-12" });
       {% endif %}
 
       // check if timezone is valid otherwise replace by system timezone
-      if (confDeadline.invalid) {
-        var confDeadline = DateTime.fromSQL("{{page.cfp}}");
-        console.log("Invalid timezone. Using system timezone instead.");
+      if (cfpDate.invalid || confDate.invalid) {
+        var cfpDate = DateTime.fromSQL("{{conf.cfp}}");
+        var confDate = DateTime.fromSQL("{{conf.start}}");
+        console.log("Invalid timezone in {{conf.title | slugify}}-{{conf.year}}. Using system timezone instead.");
       }
 
-      // add calendar
-      var conferenceDeadlineCalendar = createCalendarFromObject({
-        id: '{{conf.title | slugify}}-{{conf.year}}',
-        title: '{{page.title}} {{page.year}} deadline',
-        date: confDeadline.toJSDate(),
-        duration: 60,
-      });
-      document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
-
       // render countdown timer
-      $('#cfp-timer').countdown(confDeadline.toJSDate(), function (event) {
+      $('#{{conf.title | slugify}}-{{conf.year}} .timer').countdown(cfpDate.toJSDate(), function (event) {
         $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
       });
 
-      // render deadline conference time
-      {% if page.timezone %}
-      $('.deadline-time').html(confDeadline.setZone("{{page.timezone}}").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
-      {% else %}
-      $('.deadline-time').html(confDeadline.setZone("UTC-12").toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
-      {% endif %}
+      // render countdown timer small
+      $('#{{conf.title | slugify}}-{{conf.year}} .timer-small').countdown(cfpDate.toJSDate(), function (event) {
+        $(this).html(event.strftime('%Dd %H:%M:%S'));
+      });
 
-      // render deadline in local timezone
-      $('.deadline-local-time').html(confDeadline.setZone('system').toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS));
+      // deadline in local timezone
+      $('#{{conf.title | slugify}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
 
+      // add calendar button
+      try {
+        var myCalendar = createCalendarFromObject({
+          id: '{{conf.title | slugify}}-{{conf.year}}',
+          title: '{{conf.title}} {{conf.year}} deadline',
+          date: cfpDate.toJSDate(),
+          duration: 60,
+        });
+        document.querySelector('#{{conf.title | slugify}}-{{conf.year}} .calendar').appendChild(myCalendar);
+      } catch (err) {
+        document.querySelector('#{{conf.title | slugify}}-{{conf.year}} .calendar').appendChild("<p>Calendar not available.</p>");
+        console.log("Error in cfp date.");
+      }
+
+      // check if date has passed, add 'past' class to it
+      cfpDiff = cfpDate.diffNow("seconds");
+      confDiff = confDate.diffNow("seconds");
+
+      $('#{{conf.title | slugify}}-{{conf.year}}').attr("cfpDiff", cfpDiff.toMillis());
+      $('#{{conf.title | slugify}}-{{conf.year}}').attr("confDiff", confDiff.toMillis());
+
+      if (cfpDiff < 0) {
+        $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastcfp');
+        $('#{{conf.title | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
+        $('#{{conf.title | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
+        $('#{{conf.title | slugify}}-{{conf.year}} .calendar').remove();
+      }
+
+      if (confDiff < 0) {
+        $('#{{conf.title | slugify}}-{{conf.year}}').addClass('pastconf');
+        $('#{{conf.title | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
+        $('#{{conf.title | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.title | slugify}}-{{conf.year}} .deadline'));
+        $('#{{conf.title | slugify}}-{{conf.year}} .calendar').remove();
+      }
       {% endif %}
+      {% endfor %}
+
+      // Sort coming_confs and past_confs
+      $("#all_confs .ConfItem").sort(function (a, b) {
+        return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
+      }).appendTo($("#coming_confs"));
+
+      {% include handle_url_retrieval.js %}
 
     });
   </script>
