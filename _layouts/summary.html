@@ -239,6 +239,7 @@ description: Summary of the conference and its instances throughout the years.
     <footer>
       {% include footer.html %}
     </footer>
+    <br><br>
   </div>
   <script type="text/javascript" charset="utf-8">
     $(function () {
@@ -342,6 +343,15 @@ description: Summary of the conference and its instances throughout the years.
       }).appendTo($("#coming_confs"));
 
       {% include handle_url_retrieval.js %}
+
+      // Event handler on sub badge click
+      $('.conf-sub').click(function (e) {
+        var csub = $(this).data('sub');
+        subs = [csub];
+        $("#subject-select").multiselect('deselect', all_subs);
+        $("#subject-select").multiselect('select', subs);
+        update_filtering({ subs: subs, all_subs: all_subs });
+      });
 
     });
   </script>
