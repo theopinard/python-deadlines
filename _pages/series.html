@@ -1,6 +1,6 @@
 ---
 permalink: /series/
-title: Python Event Series
+title: Python Event Series List
 ---
 
 <html>
@@ -53,31 +53,35 @@ title: Python Event Series
                   </span>
                   {% endif %}
                 </div>
-                <div class="col-6">
-                  <span class="timer"></span>
-                  <span class="timer-small"></span>
-                </div>
             </div>
-            {% if conf.items[0].place == conf.items[1].place %} # Same place
+
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-place">
-                    {% if conf.items[0].place == "Online" %}
-                    <a href="#">{{conf.items[0].place}}</a>.
+                    {% (if conf.items.size > 2 and conf.items[0].place == conf.items[1].place == conf.items[2].place) or conf.items[0].place == conf.items[1].place%}
+                    Usually held in:
                     {% else %}
-                    <a href="http://maps.google.com/?q={{conf.items[0].place}}">{{conf.items[0].place}}</a>.
+                    Last held in:
+                    {% endif %}
+                    {% if conf.items[0].place == "Online" %}
+                    <a href="#">{{conf.items[0].place}}</a>
+                    {% else %}
+                    <a href="http://maps.google.com/?q={{conf.items[0].place}}">{{conf.items[0].place}}</a>
                     {% endif %}
                   </span>
                 </div>
-                {% if conf.items[0].note %}
-                  <div class="note">
-                      <b>Note: </b>{{conf.items[0].note}}
-                  </div>
-                {% endif %}
               </div>
             </div>
-            {% endif %}
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="meta">
+                  <span class="conf-time">
+                    Last conference in {{ conf.items[0].year }}.
+                  </span>
+                </div>
+              </div>
+            </div>
             <div class="row">
               <div class="col-6">
                 {% assign subs = conf.items[0].sub | split: "," %}
@@ -111,9 +115,6 @@ title: Python Event Series
         {% include load_data.js %}
         {% include utils.js %}
         {% include multiselect_handler.js %}
-
-        // Set time zone to local timezone on web copy
-        $('.local-timezone').text(today.toFormat('z'));
 
         {% for conf in confs %}
         {% assign subs = conf.item[0].sub | split: "," %}

@@ -86,7 +86,7 @@
   link: https://pycon.cl/
   cfp: '2023-09-15 23:59:59'
   timezone: America/Santiago
-  place: Valparaiso, Chile & Online
+  place: Valparaiso, Chile
   date: November 24 - 26, 2023
   start: 2023-11-24
   end: 2023-11-26
@@ -1520,7 +1520,7 @@
   start: 2022-06-20
   end: 2022-06-23
   date: June 20 - 23, 2022
-  place: Basel, Switzerland & Online
+  place: Basel, Switzerland
   sub: PY
 
 - title: SciPy US
@@ -1636,7 +1636,7 @@
 
 - title: EuroSciPy
   year: 2019
-  link: https://euroscipy.org/2020/
+  link: https://euroscipy.org/2019/
   cfp: '2019-04-28 23:59:59'
   start: 2019-09-02
   end: 2019-09-06
