@@ -264,11 +264,16 @@ description: Summary of the conference and its instances throughout the years.
       $('.local-timezone').text(today.toFormat('z'));
 
       {% for conf in confs %}
+        {% if conf.cfp_ext %}
+          {% assign cfp = conf.cfp_ext %}
+        {% else %}
+          {% assign cfp = conf.cfp %}
+        {% endif %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
           $('#{{conf.conference | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
-        {% if conf.cfp == "TBA" %}
+        {% if cfp == "TBA" %}
           $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("TBA");
           $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("TBA");
           $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
@@ -276,16 +281,16 @@ description: Summary of the conference and its instances throughout the years.
 
           // Use specified timezone for deadlines if available else use AoE timezone
           {% if conf.timezone %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", { zone: "{{conf.timezone}}" });
+            var cfpDate = DateTime.fromSQL("{{cfp}}", { zone: "{{conf.timezone}}" });
             var confDate = DateTime.fromSQL("{{conf.start}}", { zone: "{{conf.timezone}}" });
           {% else %}
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}", { zone: "UTC-12" });
+            var cfpDate = DateTime.fromSQL("{{cfp}}", { zone: "UTC-12" });
             var confDate = DateTime.fromSQL("{{conf.start}}", { zone: "UTC-12" });
           {% endif %}
 
           // check if timezone is valid otherwise replace by system timezone
           if (cfpDate.invalid || confDate.invalid) {
-            var cfpDate = DateTime.fromSQL("{{conf.cfp}}");
+            var cfpDate = DateTime.fromSQL("{{cfp}}");
             var confDate = DateTime.fromSQL("{{conf.start}}");
             console.log("Invalid timezone in {{conf.conference | slugify}}-{{conf.year}}. Using system timezone instead.");
           }

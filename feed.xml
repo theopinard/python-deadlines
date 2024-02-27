@@ -13,11 +13,16 @@
 		<link>https://{{ site.domain }}/feed.xml</link>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		{% for conf in site.data.conferences limit:23 %}
-		{% if conf.cfp != "TBA" %}
+		{% if conf.cfp_ext %}
+			{% assign cfp = conf.cfp_ext %}
+		{% else %}
+			{% assign cfp = conf.cfp %}
+		{% endif %}
+		{% if cfp != "TBA" %}
 			<item>
 				<title>{{ conf.conference | xml_escape }} {{ conf.year }} Conference Deadline</title>
-				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ conf.cfp | xml_escape }} {% if conf.zimezone %}{{ conf.timezone | xml_escape }}{% else%}AoE{% endif %}.{% if conf.twitter %}&lt;br /&gt;Find them here: @{{ conf.twitter}}{% endif %} </description>
-				<pubDate>{{ conf.cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
+				<description>Conference in {{conf.place | xml_escape }} on {{conf.date | xml_escape }}. CfP: {{ cfp | xml_escape }} {% if conf.zimezone %}{{ conf.timezone | xml_escape }}{% else%}AoE{% endif %}.{% if conf.twitter %}&lt;br /&gt;Find them here: @{{ conf.twitter}}{% endif %} </description>
+				<pubDate>{{ cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
 				<link>https://{{ site.domain }}/conference/{{conf.conference | slugify}}-{{conf.year}}/</link>
 				<guid isPermaLink="false">{{ conf.id }}</guid>
 				<category>{{ conf.sub }}</category>

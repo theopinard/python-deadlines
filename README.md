@@ -55,6 +55,7 @@ If that is not possible you can try and submit your conference through this [Goo
 | `link`      | URL to conference                                 | `str`   | ✔       |
 | `cfp_link`  | URL to call for proposals                         | `str`   |          |
 | `cfp`       | Deadline for Call for Participation / Proposals   | `str`   | ✔       |
+| `cfp_ext`   | Extension for Call for Participation / Proposals  | `str`   |          |
 | `workshop_deadline` | Workshop deadline if different from cfp   | `str`   |          |
 | `tutorial_deadline` | Tutorial deadline if different from cfp   | `str`   |          |
 | `timezone`  | Standard [IANA Timezones](https://timezonefinder.michelfe.it/) (Omit for AoE)            | `str`   | ✔       |

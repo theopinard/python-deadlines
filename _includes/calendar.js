@@ -82,17 +82,23 @@ function load_conference_list() {
   // Gather data
   var conf_list_all = [];
   {% for conf in site.data.conferences + site.data.archive %}
+    {% if conf.cfp_ext %}
+			{% assign cfp = conf.cfp_ext %}
+      {% assign extended = "(extended)" %}
+		{% else %}
+			{% assign cfp = conf.cfp %}
+		{% endif %}
     // add deadlines in red
     conf_list_all.push({
       id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
       abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
-      name: "{{conf.conference}} {{conf.year}} CfP",
+      name: "{{conf.conference}} {{conf.year}} CfP {{extended}}",
       color: "red",
       location: "{{conf.place}}",
       date: "{{conf.date}}",
       subject: "{{conf.sub}}",
-      startDate: Date.parse("{{conf.cfp}}"),
-      endDate: Date.parse("{{conf.cfp}}"),
+      startDate: Date.parse("{{cfp}}"),
+      endDate: Date.parse("{{cfp}}"),
     });
     {% if conf.workshop_deadline %}
     conf_list_all.push({
@@ -116,8 +122,8 @@ function load_conference_list() {
       location: "{{conf.place}}",
       date: "{{conf.date}}",
       subject: "{{conf.sub}}",
-      startDate: Date.parse("{{conf.cfp}}"),
-      endDate: Date.parse("{{conf.cfp}}"),
+      startDate: Date.parse("{{cfp}}"),
+      endDate: Date.parse("{{cfp}}"),
     });
     {% endif %}
 

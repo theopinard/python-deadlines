@@ -26,7 +26,7 @@ title: Python Event Series List
         <div id="confs">
         <div id="past_confs">
           {% assign confs = site.data.conferences | concat: site.data.archive | group_by: "conference" | sort: "name" %}
-          {{ assign this_time = "now" | date: "%s" }}
+          {% assign this_time = "now" | date: "%s" %}
           {% for conf in confs %}
           {% if conf.items.size > 1 %}
           <div id="{{conf.name | slugify}}" class="ConfItem">
@@ -57,7 +57,7 @@ title: Python Event Series List
             </div>
             <div class="row">
               {% assign conf_time = conf.items[0].start | date: "%s" %}
-              {% if last_time < conf_time %}
+              {% if this_time < conf_time %}
                 {% assign last_next = "Next" %}
               {% else %}
                 {% assign last_next = "Last" %}
