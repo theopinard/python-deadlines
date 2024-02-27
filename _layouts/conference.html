@@ -28,7 +28,7 @@ description: Countdown for the Call for Participation of this conference includi
 
             var feedItem = document.createElement("div");
             feedItem.setAttribute("class", "timeline-item")
-            feedItem.innerHTML = '<div class="timeline-content">' + post + '</div><a href="' + link + '">' + pubDate + ' by {{page.title}}</a>';
+            feedItem.innerHTML = '<div class="timeline-content">' + post + '</div><a href="' + link + '">' + pubDate + ' by {{ page.conference }}</a>';
             feedContainer.appendChild(feedItem);
           }
         })
@@ -58,10 +58,9 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="/conference/{{page.title | slugify}}-{{page.year}}/">{{page.title}}
-              {{page.year}}</span>
+            <span id="conf-title-href" href="/conference/{{page.conference | slugify}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
             <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
-                data-text="Countdown to the #{{ page.title }}{{ page.year }} deadline!" data-show-count="false"
+                data-text="Countdown to the #{{ page.conference }} {{ page.year }} deadline!" data-show-count="false"
                 style="font-size:13px;">Tweet</a>
               <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </span>
@@ -114,7 +113,7 @@ description: Countdown for the Call for Participation of this conference includi
           {% endif %}
           <div>
             <img src="/static/img/002-home2.svg" class="badge-link" alt="Conference Series" width="16" height="16" />
-            <a id="conf-series" href="/series/{{page.title | slugify}}">All {{page.title}} conferences</a>
+            <a id="conf-series" href="/series/{{page.conference | slugify}}">All {{page.conference}} conferences</a>
           </div>
           {% if page.finaid %}
           <div>
@@ -163,9 +162,9 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-12 col-md-6">
           {% if page.mastodon %}
           <!-- Mastodon timeline -->
-          <div class="meta">Mastodon Posts by {{page.title}}:</div>
+          <div class="meta">Mastodon Posts by {{ page.conference }}:</div>
           <div id="mastodon-feed"></div>
-          <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.title }}</a>
+          <a href="{{ page.mastodon }}">See all Mastodon posts for {{ page.conference }}</a>
           {% elsif page.twitter %}
           <!-- Twitter timeline -->
           <div id="twitter-widget">
@@ -222,8 +221,8 @@ description: Countdown for the Call for Participation of this conference includi
 
       // add calendar
       var conferenceDeadlineCalendar = createCalendarFromObject({
-        id: '{{conf.conference | slugify}}-{{conf.year}}',
-        title: '{{page.title}} {{page.year}} deadline',
+        id: '{{ page.conference | slugify }}-{{ page.year }}',
+        title: '{{ page.title }}',
         date: confDeadline.toJSDate(),
         duration: 60,
       });
