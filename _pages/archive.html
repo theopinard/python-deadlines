@@ -68,7 +68,7 @@ title: Past Python Conferences
                       <a title="Deadline Details" href="/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
                   </span>
                   <span class="conf-title-small">
-                      <a title="Deadline Details" href="#">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
+                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
                   </span>
                   <span class="conf-title-icon">
                     <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
