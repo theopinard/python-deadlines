@@ -190,7 +190,7 @@
       $('.local-timezone').text(today.toFormat('z'));
 
       {% for conf in site.data.conferences %}
-      	 if conf.cfp_ext %}
+      	{% if conf.cfp_ext %}
           {% assign cfp = conf.cfp_ext %}
         {% else %}
           {% assign cfp = conf.cfp %}
