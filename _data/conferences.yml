@@ -28,11 +28,27 @@
   start: 2024-09-05
   end: 2024-09-06
   twitter: PyConEstonia
+  sponsor: https://pydata.org/paris2024/sponsorship-opportunites
   sub: PY
   location:
     latitude: 59.4372155
     longitude: 24.7453688
 
+- conference: PyData Paris
+  year: 2024
+  link: https://pydata.org/paris2024/
+  cfp_link: https://pydata.org/paris2024/cfp/
+  cfp: "2024-04-08 23:59:00"
+  place: Paris, France
+  date: September 25 - 26, 2024
+  start: 2024-09-25
+  end: 2024-09-26
+  twitter: PyDataParis
+  sub: PYDATA
+  location:
+    latitude: 48.8566140
+    longitude: 2.3522219
+  
 - conference: PyCon Taiwan
   year: 2024
   link: https://tw.pycon.org/2024/en-us
