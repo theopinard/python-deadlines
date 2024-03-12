@@ -1,5 +1,1438 @@
 ---
 
+- conference: Scipy Latin America
+  year: 2022
+  link: https://pythoncientifico.ar/
+  cfp: TBA
+  place: Salta, Argentina
+  start: 2022-09-26
+  end: 2022-09-28
+  location:
+    latitude: -25.1076701
+    longitude: -64.3494964
+
+- conference: Python Nordeste
+  year: 2022
+  link: https://2022.pythonnordeste.org/
+  cfp: TBA
+  place: Aracaju, Brazil
+  start: 2022-08-26
+  end: 2022-08-28
+  twitter: PythonNordeste
+  location:
+    latitude: -10.9162061
+    longitude: -37.0774655
+
+- conference: PyCon Russia
+  year: 2022
+  link: https://web.archive.org/web/20220330120305/http://www.pycon.ru/
+  cfp_link: https://web.archive.org/web/20220330120305/http://www.pycon.ru/cfp
+  cfp: TBA
+  place: Moscow, Russia
+  start: 2022-07-30
+  end: 2022-07-31
+  sponsor: https://web.archive.org/web/20220330120305/https://pycon.ru/partneram
+  location:
+    latitude: 55.625578
+    longitude: 37.6063916
+
+- conference: PyData London
+  year: 2022
+  link: https://pydata.org/london2022
+  cfp: TBA
+  place: London, UK
+  start: 2022-06-17
+  end: 2022-06-19
+  sponsor: https://pydata.org/london2022/sponsors
+  location:
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: "PyCamp Espa\xF1a"
+  year: 2022
+  link: https://pycamp.es/
+  cfp: TBA
+  place: Girona, Spain
+  start: 2022-04-15
+  end: 2022-04-19
+  location:
+    latitude: 41.9793006
+    longitude: 2.8199439
+
+- conference: Django Day Copenhagen
+  year: 2022
+  link: https://2022.djangoday.dk/
+  cfp: TBA
+  place: Copenhagen, Denmark
+  start: 2022-04-08
+  end: 2022-04-09
+  location:
+    latitude: 55.6867243
+    longitude: 12.5700724
+
+- conference: PyTexas
+  year: 2022
+  link: http://pytexas.org
+  cfp: TBA
+  place: Austin, USA
+  start: 2022-03-26
+  end: 2022-03-28
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: PyCon Sri Lanka
+  year: 2022
+  link: https://web.archive.org/web/20220220183035/http://pycon.lk/
+  cfp: TBA
+  place: Online from Sri Lanka
+  start: 2022-02-22
+  end: 2022-02-23
+
+- conference: FOSDEM
+  year: 2022
+  link: https://fosdem.org/2022/schedule/track/python/
+  cfp: TBA
+  place: Online
+  start: 2022-02-06
+  end: 2022-02-07
+
+- conference: PyCamp Leipzig
+  year: 2022
+  link: https://barcamps.eu/pycamp-leipzig-2022/
+  cfp: TBA
+  place: Leipzig, Saxony, Germany
+  start: 2022-01-29
+  end: 2022-01-30
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: PyCon Kyushu Kumamoto
+  year: 2022
+  link: https://kyushu.pycon.jp/2022/
+  cfp: TBA
+  place: Kumamoto, Japan
+  start: 2022-01-22
+  end: 2022-01-22
+  location:
+    latitude: 32.6450475
+    longitude: 130.6341345
+
+- conference: PyCon Indonesia
+  year: 2021
+  link: https://pycon.id/
+  cfp: TBA
+  place: Online
+  start: 2021-12-04
+  end: 2021-12-06
+  sponsor: https://pycon.id/sponsorship
+  location:
+    latitude: -2.4833826
+    longitude: 117.8902853
+
+- conference: Pyjamas Conf
+  year: 2021
+  link: https://pyjamas.live/
+  cfp: TBA
+  place: Online
+  start: 2021-12-04
+  end: 2021-12-06
+
+- conference: PyCode Conference
+  year: 2021
+  link: https://pycode-conference.org/
+  cfp: TBA
+  place: Online
+  start: 2021-12-02
+  end: 2021-12-04
+
+- conference: Flask Con
+  year: 2021
+  link: https://web.archive.org/web/20211130204922/http://flaskcon.com/y/2021/
+  cfp: TBA
+  place: Online
+  start: 2021-12-01
+  end: 2021-12-04
+  location:
+    latitude: -33.8938107
+    longitude: 151.2621478
+
+- conference: PyCon Tanzania
+  year: 2021
+  link: https://pycon.or.tz/
+  cfp: TBA
+  place: None, None
+  start: 2021-12-01
+  end: 2021-12-06
+  location:
+    latitude: 44.9379672
+    longitude: 7.5400398
+
+- conference: Xtreme Python
+  year: 2021
+  link: https://xtremepython.dev/
+  cfp: TBA
+  place: Online (Israel)
+  start: 2021-11-24
+  end: 2021-11-25
+
+- conference: PyCon APAC
+  year: 2021
+  link: https://th.pycon.org/
+  cfp: TBA
+  place: Bangkok, Thailand and online
+  start: 2021-11-19
+  end: 2021-11-24
+
+- conference: Women Who Code CONNECT Forward
+  year: 2021
+  link: https://connectforward.womenwhocode.dev/
+  cfp: TBA
+  place: Online
+  start: 2021-11-18
+  end: 2021-11-20
+
+- conference: PyCon Chile
+  year: 2021
+  link: https://pycon.cl/
+  cfp: TBA
+  place: On line, On line
+  start: 2021-11-05
+  end: 2021-11-08
+  location:
+    latitude: 52.1587071
+    longitude: -1.4905464
+
+- conference: Plone Conference
+  year: 2021
+  link: https://2021.ploneconf.org/
+  cfp: TBA
+  place: Online
+  start: 2021-10-23
+  end: 2021-11-01
+
+- conference: PyCon Japan
+  year: 2021
+  link: https://2021.pycon.jp/
+  cfp: TBA
+  place: "Tokyo, Kant\u014D, Japan"
+  start: 2021-10-15
+  end: 2021-10-16
+  location:
+    latitude: 35.683805050000004
+    longitude: 139.98897671289967
+
+- conference: https://za.pycon.org/
+  year: 2021
+  link: https://za.pycon.org/
+  cfp: TBA
+  place: Online
+  start: 2021-10-07
+  end: 2021-10-09
+
+- conference: PyConTW
+  year: 2021
+  link: https://tw.pycon.org/2021/en-us/
+  cfp: TBA
+  place: Online
+  start: 2021-10-02
+  end: 2021-10-04
+
+- conference: PyCon India
+  year: 2021
+  link: https://in.pycon.org/2021/
+  cfp: TBA
+  place: online
+  start: 2021-09-17
+  end: 2021-09-21
+
+- conference: PyCon Odessa
+  year: 2021
+  link: https://pyconodessa.com/en/
+  cfp: TBA
+  place: Odessa, Odesa Oblast, Ukraine
+  start: 2021-09-11
+  end: 2021-09-13
+  location:
+    latitude: 46.4843023
+    longitude: 30.7322878
+
+- conference: PyConline AU
+  year: 2021
+  link: https://2021.pycon.org.au/
+  cfp: TBA
+  place: Online, Australia
+  start: 2021-09-10
+  end: 2021-09-13
+
+- conference: EuroPython
+  year: 2021
+  link: https://www.europython.eu/
+  cfp: TBA
+  place: Online
+  start: 2021-07-26
+  end: 2021-08-02
+  sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+
+- conference: SciPy US
+  year: 2021
+  link: https://www.scipy2021.scipy.org/
+  cfp: TBA
+  place: Austin, US
+  start: 2021-07-12
+  end: 2021-07-19
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: PyHEP
+  year: 2021
+  link: https://indico.cern.ch/event/1019958/
+  cfp: TBA
+  place: Online
+  start: 2021-07-05
+  end: 2021-07-10
+
+- conference: PyCon Namibia
+  year: 2021
+  link: https://na.pycon.org/
+  cfp: TBA
+  place: Windhoek, Namibia
+  start: 2021-06-18
+  end: 2021-06-20
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
+
+- conference: PyFest
+  year: 2021
+  link: https://pyfest.online/
+  cfp: TBA
+  place: 'Online '
+  start: 2021-06-16
+  end: 2021-06-19
+
+- conference: Python for ML and AI Global Summit
+  year: 2021
+  link: https://link.geekle.us/python/offsite
+  cfp: TBA
+  place: Online
+  start: 2021-04-08
+  end: 2021-04-10
+  location:
+    latitude: 44.9379672
+    longitude: 7.5400398
+
+- conference: Python Web Conference
+  year: 2021
+  link: https://pythonwebconference.com
+  cfp: TBA
+  place: Online
+  start: 2021-03-22
+  end: 2021-03-27
+
+- conference: PyCon Cameroon
+  year: 2021
+  link: https://web.archive.org/web/20200806193219/http://pythoncm.org/pycon.html
+  cfp: TBA
+  place: Douala, Cameroon
+  start: 2021-03-18
+  end: 2021-03-21
+  location:
+    latitude: 4.0429408
+    longitude: 9.706203
+
+- conference: PyCon Belarus
+  year: 2021
+  link: https://by.pycon.org/
+  cfp: TBA
+  place: Online
+  start: 2021-03-13
+  end: 2021-03-14
+
+- conference: PyCascades
+  year: 2021
+  link: https://2021.pycascades.com/
+  cfp: TBA
+  place: Online
+  start: 2021-02-19
+  end: 2021-02-22
+  sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor
+
+- conference: PyCamp Leipzig
+  year: 2021
+  link: https://barcamps.eu/pycamp-leipzig-2021/
+  cfp: TBA
+  place: Leipzig, Saxony, Germany
+  start: 2021-01-30
+  end: 2021-01-30
+  sponsor: https://barcamps.eu/pycamp-leipzig-2021
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: BelPy
+  year: 2021
+  link: http://belpy.in/
+  cfp: TBA
+  place: Online
+  start: 2021-01-30
+  end: 2021-02-01
+
+- conference: Python Pizza New Year s Party
+  year: 2020
+  link: https://hamburg.python.pizza/
+  cfp: TBA
+  place: Online
+  start: 2020-12-31
+  end: 2021-01-01
+
+- conference: PyCon Tanzania
+  year: 2020
+  link: http://pycon.or.tz/
+  cfp: TBA
+  place: Dar es Salaam, Tanzania
+  start: 2020-12-14
+  end: 2020-12-16
+  location:
+    latitude: -6.8160837
+    longitude: 39.2803583
+
+- conference: PyCode Conference
+  year: 2020
+  link: https://pycode-conference.org/
+  cfp: TBA
+  place: Online
+  start: 2020-12-11
+  end: 2020-12-13
+
+- conference: PyDay Chile
+  year: 2020
+  link: https://pyday.cl/
+  cfp: TBA
+  place: Online (Chile)
+  start: 2020-12-05
+  end: 2020-12-06
+
+- conference: Pyjamas Conf
+  year: 2020
+  link: https://pyjamas.live/
+  cfp: TBA
+  place: Online
+  start: 2020-12-05
+  end: 2020-12-07
+
+- conference: enterPy
+  year: 2020
+  link: https://www.enterpy.de/
+  cfp: TBA
+  place: Heidelberg, Germany
+  start: 2020-11-23
+  end: 2020-11-25
+  location:
+    latitude: 49.4093582
+    longitude: 8.694724
+
+- conference: Online Python Web Global Summit
+  year: 2020
+  link: https://web.archive.org/web/20201113155033/http://python.geekle.us/
+  cfp: TBA
+  place: Online
+  start: 2020-11-19
+  end: 2020-11-20
+
+- conference: PyHPC
+  year: 2020
+  link: https://www.pyhpc.io/
+  cfp: TBA
+  place: Online
+  start: 2020-11-15
+  end: 2020-11-16
+
+- conference: PyCon Indonesia
+  year: 2020
+  link: https://pycon.id/
+  cfp: TBA
+  place: Online
+  start: 2020-11-14
+  end: 2020-11-16
+
+- conference: PyCon Sweden
+  year: 2020
+  link: https://www.pycon.se/
+  cfp: TBA
+  place: Online
+  start: 2020-11-12
+  end: 2020-11-14
+
+- conference: PyCon Italia
+  year: 2020
+  link: http://pycon.it/
+  cfp: TBA
+  place: Florence, Italy
+  start: 2020-11-05
+  end: 2020-11-09
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
+- conference: Python Brasil
+  year: 2020
+  link: https://2020.pythonbrasil.org.br/
+  cfp: TBA
+  place: Online
+  start: 2020-11-02
+  end: 2020-11-09
+
+- conference: PyData London
+  year: 2020
+  link: https://web.archive.org/web/20201023053817/http://pydata.org/london2020/
+  cfp: TBA
+  place: London, UK
+  start: 2020-10-30
+  end: 2020-11-02
+  location:
+    latitude: 51.5073359
+    longitude: -0.12765
+
+- conference: SciPy Japan
+  year: 2020
+  link: https://www.scipyjapan.scipy.org/
+  cfp: TBA
+  place: Online
+  start: 2020-10-30
+  end: 2020-11-03
+
+- conference: Swiss Python Summit
+  year: 2020
+  link: https://www.python-summit.ch/
+  cfp: TBA
+  place: Rapperswil, Switzerland
+  start: 2020-10-23
+  end: 2020-10-24
+  location:
+    latitude: 47.2266532
+    longitude: 8.8164042
+
+- conference: PyConDE & PyData Berlin
+  year: 2020
+  link: https://de.pycon.org/
+  cfp: TBA
+  place: Berlin, Germany
+  start: 2020-10-14
+  end: 2020-10-17
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyCon Estonia
+  year: 2020
+  link: https://pycon.ee/
+  cfp: TBA
+  place: Online
+  start: 2020-10-08
+  end: 2020-10-09
+
+- conference: PyGotham TV
+  year: 2020
+  link: https://2020.pygotham.tv/
+  cfp: TBA
+  place: Online
+  start: 2020-10-02
+  end: 2020-10-04
+
+- conference: PyCon India
+  year: 2020
+  link: https://in.pycon.org/2020/
+  cfp: TBA
+  place: Online
+  start: 2020-10-02
+  end: 2020-10-06
+
+- conference: PyCon ES
+  year: 2020
+  link: https://2020.es.pycon.org/
+  cfp: TBA
+  place: Online
+  start: 2020-10-02
+  end: 2020-10-04
+
+- conference: PyCon Turkey
+  year: 2020
+  link: https://tr.pycon.org/
+  cfp: TBA
+  place: Online
+  start: 2020-09-26
+  end: 2020-09-27
+
+- conference: Django Day Copenhagen
+  year: 2020
+  link: https://djangoday.dk/
+  cfp: TBA
+  place: Online & Copenhagen, Denmark
+  start: 2020-09-25
+  end: 2020-09-26
+
+- conference: GeoPython
+  year: 2020
+  link: http://2020.geopython.net/
+  cfp: TBA
+  place: Online
+  start: 2020-09-21
+  end: 2020-09-23
+
+- conference: DragonPy
+  year: 2020
+  link: https://dragonpy.com/
+  cfp: TBA
+  place: Ljubljana, Slovenia
+  start: 2020-09-19
+  end: 2020-09-21
+  location:
+    latitude: 46.0500268
+    longitude: 14.5069289
+
+- conference: PyCon APAC
+  year: 2020
+  link: https://pycon.my/
+  cfp: TBA
+  place: Online
+  start: 2020-09-19
+  end: 2020-09-21
+
+- conference: DjangoCon EU
+  year: 2020
+  link: https://2020.djangocon.eu/
+  cfp: TBA
+  place: Online
+  start: 2020-09-18
+  end: 2020-09-20
+
+- conference: PyCon Slovakia
+  year: 2020
+  link: https://2020.pycon.sk/en/
+  cfp: TBA
+  place: Bratislava, Slovakia
+  start: 2020-09-11
+  end: 2020-09-14
+  location:
+    latitude: 48.1516988
+    longitude: 17.1093063
+
+- conference: PyCon Taiwan
+  year: 2020
+  link: http://pycon.tw/
+  cfp: TBA
+  place: International Conference Hall, Taiwan
+  start: 2020-09-05
+  end: 2020-09-07
+  location:
+    latitude: 25.0560586
+    longitude: 121.4437641
+
+- conference: PyCon Japan
+  year: 2020
+  link: https://pycon.jp/2020/
+  cfp: TBA
+  place: Online
+  start: 2020-08-28
+  end: 2020-08-30
+
+- conference: EuroSciPy
+  year: 2020
+  link: https://www.euroscipy.org/
+  cfp: TBA
+  place: Bilbao, Spain
+  start: 2020-07-27
+  end: 2020-07-31
+  note: Cancelled due to Covid
+  location:
+    latitude: 43.2630018
+    longitude: -2.9350039
+
+- conference: Python Nordeste
+  year: 2020
+  link: https://2020.pythonnordeste.org/
+  cfp: TBA
+  place: Fortaleza, Brasil
+  start: 2020-07-17
+  end: 2020-07-18
+  location:
+    latitude: -3.7304512
+    longitude: -38.5217989
+
+- conference: Python Web Conference
+  year: 2020
+  link: https://2020.pythonwebconf.com/
+  cfp: TBA
+  place: Online
+  start: 2020-06-17
+  end: 2020-06-19
+
+- conference: PyCon Odessa
+  year: 2020
+  link: https://pyconodessa.com/en/
+  cfp: TBA
+  place: Odessa, Ukraine
+  start: 2020-06-13
+  end: 2020-06-15
+  location:
+    latitude: 46.4843023
+    longitude: 30.7322878
+
+- conference: PyCon Czechia
+  year: 2020
+  link: https://cz.pycon.org/2020/
+  cfp: TBA
+  place: Ostrava, Czechia
+  start: 2020-06-05
+  end: 2020-06-08
+  location:
+    latitude: 49.8349139
+    longitude: 18.2820084
+
+- conference: PyLondinium
+  year: 2020
+  link: https://web.archive.org/web/20200812040952/http://pylondinium.org/
+  cfp: TBA
+  place: London, UK
+  start: 2020-06-05
+  end: 2020-06-08
+  location:
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: website
+  year: 2020
+  link: https://fwdays.com/en/event/python-fwdays-conference
+  cfp: TBA
+  place: Online
+  start: 2020-05-16
+  end: 2020-05-16
+
+- conference: PyConWeb
+  year: 2020
+  link: https://pyconweb.com/
+  cfp: TBA
+  place: Munich, Germany
+  start: 2020-05-09
+  end: 2020-05-11
+  location:
+    latitude: 48.1371079
+    longitude: 11.5753822
+
+- conference: PyCon Israel
+  year: 2020
+  link: https://il.pycon.org/2020/
+  cfp: TBA
+  place: Ramat Gan, Israel
+  start: 2020-05-04
+  end: 2020-05-07
+  location:
+    latitude: 32.0686867
+    longitude: 34.8246812
+
+- conference: Remote Python Pizza
+  year: 2020
+  link: https://remote.python.pizza/
+  cfp: TBA
+  place: Online Event
+  start: 2020-04-25
+  end: 2020-04-26
+
+- conference: MoscowPythonConf++
+  year: 2020
+  link: https://conf.python.ru/en/2020
+  cfp: TBA
+  place: Moscow, Russia
+  start: 2020-03-27
+  end: 2020-03-28
+  location:
+    latitude: 55.625578
+    longitude: 37.6063916
+
+- conference: PyCon Belarus
+  year: 2020
+  link: https://by.pycon.org/
+  cfp: TBA
+  place: Minsk, Belarus
+  start: 2020-02-21
+  end: 2020-02-23
+  location:
+    latitude: 53.9024716
+    longitude: 27.5618225
+
+- conference: Open Source Festival
+  year: 2020
+  link: https://festival.oscafrica.org/
+  cfp: TBA
+  place: Lagos, Nigeria
+  start: 2020-02-20
+  end: 2020-02-23
+  location:
+    latitude: 6.4550575
+    longitude: 3.3941795
+
+- conference: PyCon Namibia
+  year: 2020
+  link: https://na.pycon.org/
+  cfp: TBA
+  place: Windhoek, Namibia
+  start: 2020-02-18
+  end: 2020-02-21
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
+
+- conference: PyCascades
+  year: 2020
+  link: https://2020.pycascades.com/
+  cfp: TBA
+  place: Portland, USA
+  start: 2020-02-08
+  end: 2020-02-10
+  location:
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: FOSDEM
+  year: 2020
+  link: https://fosdem.org/2020/schedule/track/python/
+  cfp: TBA
+  place: Brussel, Belgium
+  start: 2020-02-01
+  end: 2020-02-02
+  location:
+    latitude: 50.8550018
+    longitude: 4.3512333761166175
+
+- conference: PyCon Tanzania
+  year: 2019
+  link: http://pycon.or.tz/
+  cfp: TBA
+  place: Dar Es Salaam, Tanzania
+  start: 2019-12-10
+  end: 2019-12-12
+  location:
+    latitude: -6.8160837
+    longitude: 39.2803583
+
+- conference: PyCon Indonesia
+  year: 2019
+  link: https://pycon.id/
+  cfp: TBA
+  place: Surabaya, Indonesia
+  start: 2019-11-23
+  end: 2019-11-24
+  location:
+    latitude: -7.2459717
+    longitude: 112.7378266
+
+- conference: PiterPy
+  year: 2019
+  link: https://piterpy.com/en/
+  cfp: TBA
+  place: Saint Petersburg, Russia
+  start: 2019-11-01
+  end: 2019-11-02
+  location:
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: PyCon France
+  year: 2019
+  link: https://www.pycon.fr/2019/
+  cfp: TBA
+  place: Bordeaux, Nouvelle-Aquitaine, France
+  start: 2019-10-31
+  end: 2019-11-03
+  location:
+    latitude: 44.841225
+    longitude: -0.5800364
+
+- conference: Python Brasil
+  year: 2019
+  link: https://pythonbrasil.org.br/
+  cfp_link: https://2019.pythonbrasil.org.br/submissao-de-palestras
+  cfp: TBA
+  place: "Ribeir\xE3o Preto, S\xE3o Paulo, Brazil"
+  start: 2019-10-23
+  end: 2019-10-28
+  sponsor: https://2019.pythonbrasil.org.br/assets/pdfs/sponsorship_plan.pdf
+  location:
+    latitude: -21.1776315
+    longitude: -47.8100983
+
+- conference: PyDay Barcelona
+  year: 2019
+  link: https://web.archive.org/web/20200513113600/http://pybcn.org/pyday-bcn-2019/
+  cfp: TBA
+  place: Barcelona, Spain
+  start: 2019-10-19
+  end: 2019-10-20
+  location:
+    latitude: 41.3828939
+    longitude: 2.1774322
+
+- conference: PyCode Conference
+  year: 2019
+  link: https://pycode-conference.org/
+  cfp: TBA
+  place: Gdansk, Poland
+  start: 2019-10-14
+  end: 2019-10-17
+  location:
+    latitude: 54.3706858
+    longitude: 18.61298210330077
+
+- conference: PyCon mini Hiroshima
+  year: 2019
+  link: https://hiroshima.pycon.jp/2019/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdIebD2ijyIFFKAtlR-iYiYWs8kPbP8ZMXNSaw0iiXeC57szA/viewform
+  cfp: TBA
+  place: Hiroshima, Chugoku, Japan
+  start: 2019-10-12
+  end: 2019-10-12
+  location:
+    latitude: 34.5745379
+    longitude: 132.4517139
+
+- conference: PyCon India
+  year: 2019
+  link: https://in.pycon.org/2019/
+  cfp: TBA
+  place: Chennai, India
+  start: 2019-10-12
+  end: 2019-10-16
+  location:
+    latitude: 13.0836939
+    longitude: 80.270186
+
+- conference: PyCon Pakistan
+  year: 2019
+  link: https://pycon.pk/
+  cfp: TBA
+  place: Karachi, Pakistan
+  start: 2019-10-12
+  end: 2019-10-13
+  location:
+    latitude: 24.8546842
+    longitude: 67.0207055
+
+- conference: PyCon Germany
+  year: 2019
+  link: https://de.pycon.org
+  cfp: TBA
+  place: Berlin, Germany
+  start: 2019-10-09
+  end: 2019-10-12
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyCon South Africa
+  year: 2019
+  link: https://za.pycon.org/
+  cfp: TBA
+  place: Johannesburg, South Africa
+  start: 2019-10-09
+  end: 2019-10-14
+  location:
+    latitude: -26.205
+    longitude: 28.049722
+
+- conference: SciPy Latin America
+  year: 2019
+  link: https://web.archive.org/web/20200112191236/http://conf.scipyla.org/en/
+  cfp: TBA
+  place: Bogota, Colombia
+  start: 2019-10-08
+  end: 2019-10-11
+  location:
+    latitude: 4.6529539
+    longitude: -74.0835643
+
+- conference: PyCon Estonia
+  year: 2019
+  link: https://pycon.ee/
+  cfp: TBA
+  place: Tallinn, Estonia
+  start: 2019-10-03
+  end: 2019-10-04
+  location:
+    latitude: 59.4372155
+    longitude: 24.7453688
+
+- conference: DjangoCon US
+  year: 2019
+  link: https://2019.djangocon.us/
+  cfp: TBA
+  place: San Diego, California, USA
+  start: 2019-09-22
+  end: 2019-09-28
+  location:
+    latitude: 32.7174202
+    longitude: -117.162772
+
+- conference: PyCon China Shanghai
+  year: 2019
+  link: https://cn.pycon.org/2023/
+  cfp: TBA
+  place: Shanghai, China
+  start: 2019-09-21
+  end: 2019-09-22
+  location:
+    latitude: 31.2323437
+    longitude: 121.4691024
+
+- conference: PyCon Taiwan
+  year: 2019
+  link: https://tw.pycon.org/2019/en-us/
+  cfp_link: https://tw.pycon.org/2019/en-us/events/talks
+  cfp: TBA
+  place: Taipei, Taiwan
+  start: 2019-09-20
+  end: 2019-09-22
+  sponsor: https://tw.pycon.org/2019/en-us/sponsor/sponsor
+  location:
+    latitude: 25.0375198
+    longitude: 121.5636796
+
+- conference: AfroPython
+  year: 2019
+  link: https://afropython.org/
+  cfp: TBA
+  place: Rio de Janeiro, Brazil
+  start: 2019-09-14
+  end: 2019-09-15
+  location:
+    latitude: -22.9110137
+    longitude: -43.2093727
+
+- conference: PyCon UK
+  year: 2019
+  link: https://web.archive.org/web/20190905015126/http://2019.pyconuk.org/
+  cfp: TBA
+  place: Cardiff, UK
+  start: 2019-09-13
+  end: 2019-09-17
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
+
+- conference: PyColorado
+  year: 2019
+  link: https://pycolorado.org/
+  cfp: TBA
+  place: Denver, Colorado, USA
+  start: 2019-09-07
+  end: 2019-09-08
+  location:
+    latitude: 39.7392364
+    longitude: -104.984862
+
+- conference: Flask Conf Brasil
+  year: 2019
+  link: https://2019.flask.python.org.br/
+  cfp: TBA
+  place: "Florian\xF3polis, Santa Catarina, Brazil"
+  start: 2019-09-06
+  end: 2019-09-08
+  location:
+    latitude: -27.5973002
+    longitude: -48.5496098
+
+- conference: Kiwi PyCon
+  year: 2019
+  link: https://python.nz/
+  cfp: TBA
+  place: Wellington, Wellington, New Zealand
+  start: 2019-08-23
+  end: 2019-08-25
+  location:
+    latitude: -41.2887953
+    longitude: 174.7772114
+
+- conference: IndyPy Web Conf
+  year: 2019
+  link: https://2019.indypy.org/webconf/
+  cfp: TBA
+  place: Indianapolis, USA
+  start: 2019-08-23
+  end: 2019-08-24
+  location:
+    latitude: 39.7683331
+    longitude: -86.1583502
+
+- conference: PyCon Korea
+  year: 2019
+  link: http://pycon.kr/
+  cfp: TBA
+  place: Seoul
+  start: 2019-08-15
+  end: 2019-08-19
+  location:
+    latitude: 37.5666791
+    longitude: 126.9782914
+
+- conference: PyCon Australia
+  year: 2019
+  link: https://2019.pycon-au.org/
+  cfp: TBA
+  place: Sydney, New South Wales, Australia
+  start: 2019-08-02
+  end: 2019-08-06
+  sponsor: https://2019.pycon-au.org/sponsor
+  location:
+    latitude: -33.8698439
+    longitude: 151.2082848
+
+- conference: DjangoCon AU
+  year: 2019
+  link: https://djangocon.com.au/
+  cfp: TBA
+  place: Sydney, Australia
+  start: 2019-08-02
+  end: 2019-08-03
+  location:
+    latitude: -33.8698439
+    longitude: 151.2082848
+
+- conference: PyData London
+  year: 2019
+  link: https://web.archive.org/web/20190405192005/http://pydata.org/london2019/
+  cfp: TBA
+  place: London, UK
+  start: 2019-07-12
+  end: 2019-07-15
+  location:
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: EuroPython
+  year: 2019
+  link: https://www.europython.eu
+  cfp: TBA
+  place: Basel, Switzerland
+  start: 2019-07-08
+  end: 2019-07-15
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
+- conference: SciPy US
+  year: 2019
+  link: https://www.scipy2019.scipy.org/
+  cfp: TBA
+  place: Austin, TX, US
+  start: 2019-07-08
+  end: 2019-07-15
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: Caipyra
+  year: 2019
+  link: http://caipyra.python.org.br/
+  cfp: TBA
+  place: "S\xE3o Carlos, Brazil"
+  start: 2019-07-07
+  end: 2019-07-11
+  location:
+    latitude: -22.0180395
+    longitude: -47.891154
+
+- conference: PyDay Pereira, Colombia
+  year: 2019
+  link: https://pereira.pyday.co/
+  cfp: TBA
+  place: Pereira, Colombia
+  start: 2019-06-29
+  end: 2019-06-30
+  location:
+    latitude: 4.8143159
+    longitude: -75.6946778
+
+- conference: PyDay NEA
+  year: 2019
+  link: https://eventos.python.org.ar/events/pydaynea2019/
+  cfp: TBA
+  place: Resistencia, Argentina
+  start: 2019-06-29
+  end: 2019-06-30
+  location:
+    latitude: -27.4511235
+    longitude: -58.9865196
+
+- conference: GeoPython
+  year: 2019
+  link: http://2019.geopython.net/
+  cfp: TBA
+  place: Basel, Switzerland
+  start: 2019-06-24
+  end: 2019-06-27
+  sponsor: http://2019.geopython.net/GeoPython_Sponsoring_2019_lowres.pdf
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
+- conference: PyCon Russia
+  year: 2019
+  link: https://pycon.ru
+  cfp: TBA
+  place: Tarusa, Tarussky, Russia
+  start: 2019-06-24
+  end: 2019-06-25
+  location:
+    latitude: 54.7293536
+    longitude: 37.1815538
+
+- conference: PyCon Thailand
+  year: 2019
+  link: https://web.archive.org/web/20190602072052/http://th.pycon.org/en/
+  cfp: TBA
+  place: Bangkok, Thailand
+  start: 2019-06-15
+  end: 2019-06-17
+  location:
+    latitude: 13.7524938
+    longitude: 100.4935089
+
+- conference: PyCon Czechia
+  year: 2019
+  link: https://cz.pycon.org/2019/
+  cfp: TBA
+  place: Ostrava, Czechia
+  start: 2019-06-14
+  end: 2019-06-16
+  sponsor: https://cz.pycon.org/2019/static/pyconcz-2019-sponsorship-prospectus.pdf
+  location:
+    latitude: 49.8349139
+    longitude: 18.2820084
+
+- conference: PyLondinium
+  year: 2019
+  link: https://pylondinium.org
+  cfp: TBA
+  place: London, England, UK
+  start: 2019-06-14
+  end: 2019-06-16
+  location:
+    latitude: 51.4893335
+    longitude: -0.14405508452768728
+
+- conference: PyCon Israel
+  year: 2019
+  link: https://il.pycon.org/2019
+  cfp: TBA
+  place: Ramat Gan, Tel Aviv, Israel
+  start: 2019-06-02
+  end: 2019-06-05
+  location:
+    latitude: 32.0686867
+    longitude: 34.8246812
+
+- conference: PyConWeb
+  year: 2019
+  link: https://pyconweb.com/
+  cfp: TBA
+  place: Microsoft Deutschland GmbH, Germany
+  start: 2019-05-25
+  end: 2019-05-27
+  location:
+    latitude: 48.178076450000006
+    longitude: 11.593880853284434
+
+- conference: PyCon Kyushu in Okinawa
+  year: 2019
+  link: https://kyushu.pycon.jp/2019/
+  cfp: TBA
+  place: Okinawa, Japan
+  start: 2019-05-18
+  end: 2019-05-18
+  location:
+    latitude: 26.4748948
+    longitude: 127.91146866408414
+
+- conference: PyCon mini Sapporo
+  year: 2019
+  link: https://sapporo.pycon.jp/2019/
+  cfp: TBA
+  place: Sapporo, Japan
+  start: 2019-05-11
+  end: 2019-05-11
+  location:
+    latitude: 43.061936
+    longitude: 141.3542924
+
+- conference: PyData Amsterdam
+  year: 2019
+  link: https://web.archive.org/web/20210724114427/http://pydata.org/amsterdam2019/
+  cfp: TBA
+  place: Amsterdam, Netherlands
+  start: 2019-05-10
+  end: 2019-05-12
+  location:
+    latitude: 52.3730796
+    longitude: 4.8924534
+
+- conference: PyDays Vienna
+  year: 2019
+  link: https://www.pydays.at/
+  cfp: TBA
+  place: Vienna, Austria
+  start: 2019-05-03
+  end: 2019-05-05
+  location:
+    latitude: 48.1857192
+    longitude: 16.4221587
+
+- conference: Python Sudeste
+  year: 2019
+  link: http://2019.pythonsudeste.org
+  cfp: TBA
+  place: "Vit\xF3ria - ES, Brasil"
+  start: 2019-04-26
+  end: 2019-04-29
+  location:
+    latitude: -20.3200917
+    longitude: -40.3376682
+
+- conference: SciPy Japan
+  year: 2019
+  link: https://web.archive.org/web/20190427005257/http://www.scipyjapan2019.scipy.org/
+  cfp: TBA
+  place: Tokyo, Japan
+  start: 2019-04-23
+  end: 2019-04-25
+  location:
+    latitude: 35.6812665
+    longitude: 139.757653
+
+- conference: PythonCamp Cologne
+  year: 2019
+  link: http://pythoncamp.de
+  cfp: TBA
+  place: Cologne, Germany
+  start: 2019-04-13
+  end: 2019-04-15
+  location:
+    latitude: 50.938361
+    longitude: 6.959974
+
+- conference: PyTexas
+  year: 2019
+  link: https://www.pytexas.org/2019/
+  cfp: TBA
+  place: Austin, USA
+  start: 2019-04-13
+  end: 2019-04-15
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: DjangoCon Europe
+  year: 2019
+  link: https://2019.djangocon.eu/
+  cfp: TBA
+  place: Copenhagen, Denmark
+  start: 2019-04-10
+  end: 2019-04-15
+  location:
+    latitude: 55.6867243
+    longitude: 12.5700724
+
+- conference: Moscow Python Conf++
+  year: 2019
+  link: https://web.archive.org/web/20190404034605/http://mpc2019.tilda.ws/
+  cfp: TBA
+  place: Moscow, Russia
+  start: 2019-04-05
+  end: 2019-04-06
+  location:
+    latitude: 55.625578
+    longitude: 37.6063916
+
+- conference: PyCon Slovakia
+  year: 2019
+  link: https://2019.pycon.sk/
+  cfp: TBA
+  place: Bratislava, Bratislava, Slovakia
+  start: 2019-03-22
+  end: 2019-03-24
+  location:
+    latitude: 48.15926025
+    longitude: 17.139658691421687
+
+- conference: IndyPy Automate Conf
+  year: 2019
+  link: https://2019.indypy.org/automate/
+  cfp: TBA
+  place: Indiana, USA
+  start: 2019-03-22
+  end: 2019-03-23
+  location:
+    latitude: 40.3270127
+    longitude: -86.1746933
+
+- conference: PyCon Odessa
+  year: 2019
+  link: https://pyconodessa.com/en/2019
+  cfp: TBA
+  place: Odessa, Odesa Oblast, Ukraine
+  start: 2019-03-16
+  end: 2019-03-16
+  location:
+    latitude: 46.4843023
+    longitude: 30.7322878
+
+- conference: PyCon APAC
+  year: 2019
+  link: https://pycon-tickets.python.ph/
+  cfp: TBA
+  place: Manila, Philippines
+  start: 2019-02-23
+  end: 2019-02-24
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSfZ7g2QxEpA13QvvHUXvLHcQ0KAiJBEidDMY5UpRRPs_bb4gA/viewform
+  location:
+    latitude: 14.5906346
+    longitude: 120.9799964
+
+- conference: Berlin Python Pizza
+  year: 2019
+  link: https://berlin.python.pizza/
+  cfp: TBA
+  place: Berlin, Germany
+  start: 2019-02-23
+  end: 2019-02-24
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyCon Namibia
+  year: 2019
+  link: https://na.pycon.org/
+  cfp: TBA
+  place: Windhoek, Namibia
+  start: 2019-02-19
+  end: 2019-02-22
+  location:
+    latitude: -22.5776104
+    longitude: 17.0772739
+
+- conference: FOSDEM
+  year: 2019
+  link: https://fosdem.org/2019/schedule/track/python/
+  cfp: TBA
+  place: Brussels, Belgium
+  start: 2019-02-02
+  end: 2019-02-04
+  location:
+    latitude: 50.8465573
+    longitude: 4.351697
+
+
 - conference: XtremePython
   year: 2023
   link: https://xtremepython.dev/2023/
@@ -12,7 +1445,7 @@
   sponsor: https://xtremepython.dev/2023/sponsors/
   sub: PY
 
-- conference: FlaskCon
+- conference: Flask Con
   year: 2023
   link: https://flaskcon.com/2023/
   cfp: '2023-10-31 23:59:00'
@@ -86,7 +1519,7 @@
   link: https://pycon.cl/
   cfp: '2023-09-15 23:59:59'
   timezone: America/Santiago
-  place: Valparaiso, Chile
+  place: Valparaiso, Chile & Online
   date: November 24 - 26, 2023
   start: 2023-11-24
   end: 2023-11-26
@@ -99,7 +1532,7 @@
 
 - conference: PyHEP
   year: 2023
-  link: https://indico.cern.ch/e/PyHEP2023
+  link: https://indico.cern.ch/event/1252095/
   cfp_link: https://indico.cern.ch/event/1252095/abstracts/
   cfp: '2023-09-06 23:59:00'
   timezone: Europe/Zurich
@@ -112,7 +1545,7 @@
 
 - conference: PyLadiesCon
   year: 2023
-  link: https://conference.pyladies.com
+  link: https://conference.pyladies.com/
   cfp_link: https://pretalx.com/pyladiescon-2023/cfp
   cfp: '2023-09-04 23:59:00'
   place: Online
@@ -167,8 +1600,8 @@
   date: October 5 - 6, 2023
   start: 2023-10-05
   end: 2023-10-06
-  twitter: pyconza
-  mastodon: https://fosstodon.org/@pyconza
+  twitter: PyConZA
+  mastodon: https://fosstodon.org/@PyConZA
   sub: PY
   location:
     latitude: -29.861825
@@ -176,7 +1609,7 @@
 
 - conference: PyCon Thailand
   year: 2023
-  link: https://th.pycon.org
+  link: https://th.pycon.org/
   cfp_link: https://papercall.io/pyconth2023
   cfp: '2023-08-16 23:59:00'
   workshop_deadline: '2023-08-16 23:59:00'
@@ -240,7 +1673,7 @@
 
 - conference: PyCon Indonesia
   year: 2023
-  link: https://pycon.id
+  link: https://pycon.id/
   cfp_link: https://papercall.io/pyconid2023
   cfp: '2023-07-15 16:59:59'
   place: Badung City, Indonesia
@@ -256,7 +1689,7 @@
 
 - conference: PyData Tel Aviv
   year: 2023
-  link: https://pydata.org/telaviv2023/
+  link: https://pydata.org/telaviv2024/
   cfp_link: https://pydata.org/telaviv2023/cfp
   cfp: '2023-07-14 23:59:00'
   timezone: Asia/Jerusalem
@@ -343,9 +1776,9 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
-- conference: PyCon CZ
+- conference: PyCon Czechia
   year: 2023
-  link: https://cz.pycon.org/2023
+  link: https://cz.pycon.org/2023/
   cfp_link: https://cz.pycon.org/2023/cfp
   cfp: '2023-06-25 23:59:00'
   workshop_deadline: '2023-06-25 23:59:00'
@@ -363,7 +1796,7 @@
     latitude: 50.0596288
     longitude: 14.446459273258009
 
-- conference: "PyCon Espa\xF1a"
+- conference: PyCon Spain
   year: 2023
   link: https://2023.es.pycon.org/
   cfp_link: https://2023.es.pycon.org/c4p
@@ -383,7 +1816,7 @@
 
 - conference: AfroPython Conf
   year: 2023
-  link: https://afropython.org/conf2023/
+  link: https://web.archive.org/web/20230609213307/http://afropython.org/conf2023/
   cfp_link: https://bit.ly/conf2023-palestrantes
   cfp: '2023-06-19 23:59:00'
   timezone: America/Bahia
@@ -448,7 +1881,7 @@
     latitude: -29.1685045
     longitude: -51.1796385
 
-- conference: PyCon Asia Pacific
+- conference: PyCon APAC
   year: 2023
   link: https://2023-apac.pycon.jp/
   cfp_link: https://pretalx.com/pyconapac2023/cfp
@@ -463,7 +1896,7 @@
     latitude: 35.6812665
     longitude: 139.757653
 
-- conference: PyCon MEA @GlobalDevSlam
+- conference: PyCon MEA
   year: 2023
   link: https://globaldevslam.com/
   cfp: '2023-05-31 23:59:00'
@@ -545,7 +1978,7 @@
 
 - conference: DjangoCon US
   year: 2023
-  link: https://2023.djangocon.us
+  link: https://2023.djangocon.us/
   cfp_link: https://2023.djangocon.us/speaking
   cfp: '2023-05-15 18:00:00'
   tutorial_deadline: '2023-05-15 23:59:00'
@@ -617,7 +2050,7 @@
 
 - conference: DjangoCon Australia
   year: 2023
-  link: https://2023.djangocon.com.au
+  link: https://2023.djangocon.com.au/
   cfp_link: https://2023.pycon.org.au/program
   cfp: '2023-05-14 23:59:00'
   timezone: Australia/Adelaide
@@ -669,7 +2102,7 @@
 
 - conference: PyCon Uganda
   year: 2023
-  link: https://ug.pycon.org
+  link: https://ug.pycon.org/2024
   cfp_link: https://ug.pycon.org/speakers
   cfp: '2023-05-05 23:59:00'
   timezone: Africa/Kampala
@@ -718,7 +2151,7 @@
 
 - conference: PyCon Taiwan
   year: 2023
-  link: https://tw.pycon.org/2023
+  link: https://tw.pycon.org/2023/
   cfp: '2023-03-31 23:59:59'
   place: Taipei, Taiwan
   date: September 02 - 03, 2023
@@ -764,7 +2197,7 @@
 
 - conference: PyCon Poland
   year: 2023
-  link: https://pl.pycon.org/2023
+  link: https://pl.pycon.org/2023/
   cfp: '2023-03-27 23:59:00'
   timezone: Europe/Warsaw
   place: Gliwice, Poland
@@ -798,7 +2231,7 @@
 
 - conference: PyCon Lithuania
   year: 2023
-  link: https://pycon.lt/2023
+  link: https://pycon.lt/2024
   cfp: '2023-03-18 00:00:00'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
@@ -843,8 +2276,8 @@
   twitter: PyDataLondon
   sub: PYDATA
   location:
-    latitude: 51.5073359
-    longitude: -0.12765
+    latitude: 51.5074456
+    longitude: -0.1277653
 
 - conference: SciPy US
   year: 2023
@@ -884,7 +2317,7 @@
 
 - conference: PyData Seattle
   year: 2023
-  link: https://pydata.org/seattle2023/
+  link: https://web.archive.org/web/20230405212605/http://pydata.org/seattle2023/
   cfp: '2023-02-06 23:59:00'
   timezone: America/Los_Angeles
   place: Seattle, USA
@@ -901,7 +2334,7 @@
 
 - conference: PyCon Namibia
   year: 2023
-  link: https://na.pycon.org
+  link: https://na.pycon.org/
   cfp_link: https://pretalx.com/pycon-namibia-2022/cfp
   cfp: '2023-01-22 23:59:59'
   tutorial_deadline: '2023-01-22'
@@ -968,7 +2401,7 @@
     latitude: 44.841225
     longitude: -0.5800364
 
-- conference: PyCon DE & PyData Berlin
+- conference: PyCon Germany & PyData Berlin
   year: 2023
   link: https://2023.pycon.de/
   cfp_link: https://2023.pycon.de/blog/call-for-proposals
@@ -989,7 +2422,7 @@
 
 - conference: PyCon Philippines
   year: 2023
-  link: https://pycon-2023.python.ph
+  link: https://pycon-2023.python.ph/
   cfp: '2022-12-23 23:59:00'
   timezone: Asia/Manila
   place: Manila, Philippines
@@ -1004,7 +2437,7 @@
 
 - conference: JupyterCon
   year: 2023
-  link: https://jupytercon.com/
+  link: https://web.archive.org/web/20230507170740/http://www.jupytercon.com/
   cfp: '2022-12-20 23:59:00'
   place: Paris, France
   date: May 10 - 12, 2023
@@ -1082,7 +2515,7 @@
     latitude: 49.2608724
     longitude: -123.113952
 
-- conference: Python Web Conf
+- conference: Python Web Conference
   year: 2023
   link: https://2023.pythonwebconf.com/
   cfp: '2022-10-01 23:00:00'
@@ -1096,36 +2529,36 @@
 
 - conference: Pyjamas Conf
   year: 2022
-  link: https://pyjamas.live
+  link: https://pyjamas.live/
   cfp: '2022-09-19 23:59:00'
+  place: Online
+  date: November, 26-27, 2022
   start: 2022-11-26
   end: 2022-11-27
-  date: November, 26-27, 2022
-  place: Online
   sub: PY
-  full_name: Laziest Conference ever
   note: Support any language of talks
 
-- conference: Pydata Global
+- conference: PyData Global
   year: 2022
-  link: https://pydata.org/global2022/
+  link: https://web.archive.org/web/20221130202143/http://pydata.org/global2022/
   cfp: '2022-09-12 23:59:00'
-  start: 2022-12-01
-  end: 2022-12-03
-  date: December 1 - 3, 2022
   timezone: UTC
   place: Online
+  date: December 1 - 3, 2022
+  start: 2022-12-01
+  end: 2022-12-03
+  sponsor: https://pydata.org/global2022/sponsors
   sub: PYDATA
 
 - conference: PyData Tel Aviv
   year: 2022
-  link: https://pydata.org/telaviv2022/
+  link: https://web.archive.org/web/20221203190353/http://pydata.org/telaviv2022/
   cfp: '2022-09-12 23:59:00'
-  start: 2022-12-13
-  end: 2022-12-13
-  date: December 13th, 2022
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
+  date: December 13th, 2022
+  start: 2022-12-13
+  end: 2022-12-13
   sub: PYDATA
   location:
     latitude: 32.0852997
@@ -1133,13 +2566,14 @@
 
 - conference: PyCon Sweden
   year: 2022
-  link: http://www.pycon.se
+  link: http://pycon.se
   cfp: '2022-09-11 23:59:59'
-  start: 2022-11-03
-  end: 2022-11-05
-  date: November 03 - 05, 2022
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
+  date: November 03 - 05, 2022
+  start: 2022-11-03
+  end: 2022-11-04
+  sponsor: https://pycon.se/#sponsorship
   sub: PY
   location:
     latitude: 59.3251172
@@ -1147,13 +2581,14 @@
 
 - conference: PyCon Ireland
   year: 2022
-  link: https://python.ie/pycon-2022/
+  link: http://python.ie/previous-pycons/pycon-2022/
+  cfp_link: https://sessionize.com/pycon-ireland-2022720
   cfp: '2022-08-29 23:59:00'
-  start: 2022-11-12
-  end: 2022-11-13
-  date: November 12 - 13, 2022
   timezone: Europe/Dublin
   place: Dublin, Ireland
+  date: November 12 - 13, 2022
+  start: 2022-11-12
+  end: 2022-11-13
   sub: PY
   location:
     latitude: 53.3498006
@@ -1161,40 +2596,63 @@
 
 - conference: Pydata NYC
   year: 2022
-  link: https://pydata.org/nyc2022/
+  link: https://web.archive.org/web/20221203182532/http://pydata.org/nyc2022
   cfp: '2022-08-24 23:59:00'
-  start: 2022-11-09
-  end: 2022-11-11
-  date: November 09 - 11, 2022
   timezone: America/New_York
   place: New York, NY, USA
+  date: November 09 - 11, 2022
+  start: 2022-11-09
+  end: 2022-11-11
   sub: PYDATA
   location:
     latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: PyCon ZA
+- conference: PyData NYC
+  year: 2022
+  link: https://pydata.org/nyc2022/
+  cfp: '2022-08-24 23:59:00'
+  timezone: America/New_York
+  place: New York, NY, USA
+  date: November 09 - 11, 2022
+  start: 2022-11-09
+  end: 2022-11-11
+  sponsor: https://pydata.org/nyc2022/sponsors
+  sub: PYDATA
+  location:
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyCon South Africa
   year: 2022
   link: https://za.pycon.org/
   cfp: '2022-08-19 23:59:00'
+  place: Durban, South Africa
+  date: October 13 - 14, 2022
   start: 2022-10-13
   end: 2022-10-14
-  date: October 13 - 14, 2022
-  place: Durban, South Africa
   sub: PY
   location:
     latitude: -29.861825
     longitude: 31.009909
 
+- conference: PyHEP
+  year: 2022
+  link: https://indico.cern.ch/event/1150631/
+  cfp: '2022-08-17 23:59:00'
+  place: Online
+  start: 2022-09-12
+  end: 2022-09-16
+
 - conference: PyCon Poland
   year: 2022
-  link: https://pl.pycon.org/2022
+  link: https://pl.pycon.org/2022/
   cfp: '2022-08-13 23:59:00'
-  start: 2022-11-03
-  end: 2022-11-06
-  date: November 3 - 6, 2022
   timezone: Europe/Warsaw
   place: Gliwice, Poland
+  date: November 3 - 6, 2022
+  start: 2022-11-03
+  end: 2022-11-06
   sub: PY
   location:
     latitude: 50.294113
@@ -1202,13 +2660,13 @@
 
 - conference: Pydata Miami
   year: 2022
-  link: https://pydata.org/miami2022/
+  link: https://web.archive.org/web/20220926183127/http://pydata.org/miami2022/
   cfp: '2022-08-08 23:59:00'
-  start: 2022-09-22
-  end: 2022-09-22
-  date: September 22, 2022
   timezone: America/New_York
   place: Miami, Florida, USA
+  date: September 22, 2022
+  start: 2022-09-22
+  end: 2022-09-22
   sub: PYDATA
   location:
     latitude: 25.7741728
@@ -1216,13 +2674,15 @@
 
 - conference: PyCon Ghana
   year: 2022
-  link: http://gh.pycon.org/
+  link: https://gh.pycon.org/
+  cfp_link: https://gh.pycon.org/talks/speaking
   cfp: '2022-08-08 23:59:00'
-  start: 2022-10-13
-  end: 2022-10-15
-  date: October, 13-15, 2022
   timezone: Africa/Accra
   place: Accra, Ghana
+  date: October, 13-15, 2022
+  start: 2022-10-13
+  end: 2022-10-15
+  sponsor: https://gh.pycon.org/support-us
   sub: PY
   location:
     latitude: 5.5571096
@@ -1230,24 +2690,26 @@
 
 - conference: Python at Scale
   year: 2022
-  link: https://www.pythonatscale.com/
+  link: https://pythonatscale.com/
   cfp: '2022-08-01 23:59:59'
-  start: 2022-10-27
-  end: 2022-10-29
-  date: October 27 - 29, 2022
   timezone: America/Chicago
   place: Texas, USA and Online
+  date: October 27 - 29, 2022
+  start: 2022-10-27
+  end: 2022-10-29
   sub: PYDATA
 
 - conference: SciPy Latin America
   year: 2022
   link: https://pythoncientifico.ar/
+  cfp_link: https://pythoncientifico.ar/pages/llamado-a-propuestas
   cfp: '2022-07-31 23:59:00'
-  start: 2022-09-26
-  end: 2022-09-28
-  date: September, 26-28, 2022
   timezone: America/Argentina/Buenos_Aires
   place: Salta, Argentina
+  date: September, 26-28, 2022
+  start: 2022-09-26
+  end: 2022-09-28
+  sponsor: https://pythoncientifico.ar/sponsors
   sub: SCIPY
   location:
     latitude: -25.1076701
@@ -1257,11 +2719,11 @@
   year: 2022
   link: https://2022.pycon.kr/
   cfp: '2022-07-14 23:59:00'
+  timezone: Asia/Seoul
+  place: Seoul, South Korea
+  date: October 1 - 2, 2022
   start: 2022-10-01
   end: 2022-10-02
-  date: October 1 - 2, 2022
-  timezone: Asia/Seoul
-  place: South Korea
   sub: PY
   location:
     latitude: 36.638392
@@ -1271,11 +2733,11 @@
   year: 2022
   link: https://2022.pythonbrasil.org.br/
   cfp: '2022-07-03 23:59:00'
-  start: 2022-10-17
-  end: 2022-10-23
-  date: October 17 - 23, 2022
   timezone: America/Manaus
   place: Manaus, Brasil
+  date: October 17 - 23, 2022
+  start: 2022-10-17
+  end: 2022-10-23
   sub: PY
   location:
     latitude: -3.1316333
@@ -1284,12 +2746,15 @@
 - conference: PyCon UK
   year: 2022
   link: https://2022.pyconuk.org/
-  cfp: '2022-07-02 16:59:59'
+  cfp_link: https://2022.pyconuk.org/call-for-proposals/
+  cfp: '2022-07-02 17:00:00'
+  timezone: Europe/London
+  place: Cardiff, UK
+  date: September 16 - 18, 2022
   start: 2022-09-16
   end: 2022-09-18
-  date: September 16 - 18, 2022
-  timezone: Europe/London
-  place: Cardiff, United Kingdom
+  sponsor: https://2022.pyconuk.org/sponsors/
+  finaid: https://2022.pyconuk.org/financial-assistance/
   sub: PY
   location:
     latitude: 51.4816546
@@ -1298,12 +2763,15 @@
 - conference: PyCon Portugal
   year: 2022
   link: https://2022.pycon.pt/
+  cfp_link: https://2022.pycon.pt/talks/cfp
   cfp: '2022-06-30 23:59:00'
-  start: 2022-09-24
-  end: 2022-09-25
-  date: September 24 - 25, 2022
+  tutorial_deadline: '2022-06-30'
   timezone: Europe/Lisbon
   place: Porto, Portugal
+  date: September 24 - 25, 2022
+  start: 2022-09-24
+  end: 2022-09-25
+  sponsor: https://2022.pycon.pt/sponsors/sponsorship
   sub: PY
   location:
     latitude: 41.1494512
@@ -1313,11 +2781,11 @@
   year: 2022
   link: https://2022.pycon.sk/en/
   cfp: '2022-06-30 23:59:59'
-  start: 2022-09-09
-  end: 2022-09-12
-  date: September 09 - 12, 2022
   timezone: Europe/Bratislava
   place: Bratislava, Slovakia
+  date: September 09 - 11, 2022
+  start: 2022-09-09
+  end: 2022-09-11
   sub: PY
   location:
     latitude: 48.1516988
@@ -1325,13 +2793,13 @@
 
 - conference: Pydata Yerevan
   year: 2022
-  link: https://pydata.org/yerevan2022
+  link: https://web.archive.org/web/20220812003726/http://pydata.org/yerevan2022/
   cfp: '2022-06-30 23:59:00'
-  start: 2022-08-12
-  end: 2022-08-13
-  date: August 12 - 13, 2022
   timezone: Asia/Yerevan
   place: Yerevan, Armenia
+  date: August 12 - 13, 2022
+  start: 2022-08-12
+  end: 2022-08-13
   sub: PYDATA
   location:
     latitude: 40.1777112
@@ -1339,13 +2807,14 @@
 
 - conference: PyBay
   year: 2022
-  link: https://pybay.com/
+  link: https://web.archive.org/web/20220901001232/http://pybay.com/
   cfp: '2022-06-29 23:59:00'
-  start: 2022-09-10
-  end: 2022-09-10
-  date: September 10, 2022
   timezone: America/Los_Angeles
   place: San Francisco, USA
+  date: September 10, 2022
+  start: 2022-09-10
+  end: 2022-09-11
+  sponsor: https://pybay.com/sponsors-prospectus
   sub: PY
   location:
     latitude: 37.7790262
@@ -1353,13 +2822,17 @@
 
 - conference: EuroSciPy
   year: 2022
-  link: https://euroscipy.org/2022/
+  link: https://www.euroscipy.org/2022/
+  cfp_link: https://pretalx.com/euroscipy-2022/cfp
   cfp: '2022-06-13 23:59:59'
-  start: 2022-08-29
-  end: 2022-09-02
-  date: Aug 29 - Sep 2, 2022
+  tutorial_deadline: '2022-05-30'
   timezone: Europe/Zurich
   place: Basel, Switzerland
+  date: Aug 29 - Sep 2, 2022
+  start: 2022-08-29
+  end: 2022-09-02
+  sponsor: https://www.euroscipy.org/2022/sponsoring.html
+  finaid: https://www.euroscipy.org/2022/finaid.html
   sub: SCIPY
   location:
     latitude: 47.5581077
@@ -1369,10 +2842,10 @@
   year: 2022
   link: https://2022.pycon.jp/
   cfp: '2022-06-12 23:59:59'
-  start: 2022-10-14
-  end: 2022-10-17
-  date: October 14 - 17, 2022
   place: Tokyo, Japan
+  date: October 14 - 16, 2022
+  start: 2022-10-14
+  end: 2022-10-16
   sub: PY
   location:
     latitude: 35.6812665
@@ -1380,13 +2853,13 @@
 
 - conference: DjangoCon US
   year: 2022
-  link: https://2022.djangocon.us
+  link: https://2022.djangocon.us/
   cfp: '2022-06-11 07:31:00'
-  start: 2022-10-16
-  end: 2022-10-21
-  date: October 16 - 21, 2022
   timezone: America/Los_Angeles
   place: San Diego, USA
+  date: October 16 - 21, 2022
+  start: 2022-10-16
+  end: 2022-10-21
   sub: WEB
   location:
     latitude: 32.7174202
@@ -1396,39 +2869,51 @@
   year: 2022
   link: https://2022.djangocon.eu/
   cfp: '2022-05-31 23:59:00'
-  start: 2022-12-12
-  end: 2022-12-14
-  date: September 21-25 2022
   timezone: Europe/Lisbon
   place: Porto, Portugal
+  date: September 21-25 2022
+  start: 2022-09-21
+  end: 2022-09-25
   sub: WEB
   location:
     latitude: 41.1494512
     longitude: -8.6107884
 
-- conference: PyConEs
+- conference: PyCon Spain
   year: 2022
   link: https://2022.es.pycon.org/
   cfp: '2022-05-31 23:59:59'
-  start: 2022-09-30
-  end: 2022-10-03
-  date: September 30 - 03, 2022
   timezone: Europe/Madrid
   place: Granada, Spain
+  date: September 30 - 03, 2022
+  start: 2022-09-30
+  end: 2022-10-03
   sub: PY
   location:
     latitude: 37.1734995
     longitude: -3.5995337
 
+- conference: PyOhio
+  year: 2022
+  link: https://pyohio.org/2022
+  cfp_link: https://pyohio.org/2022/speaking/call-for-proposals
+  cfp: '2022-05-15 23:59:00'
+  place: Columbus, Ohio, USA
+  start: 2022-07-30
+  end: 2022-07-30
+  location:
+    latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: PyCon LT
   year: 2022
-  link: http://pycon.lt/
+  link: https://pycon.lt/
   cfp: '2022-05-07 23:59:00'
-  start: 2022-05-26
-  end: 2022-05-28
-  date: May 26 - 28, 2022
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
+  date: May 26 - 28, 2022
+  start: 2022-05-26
+  end: 2022-05-28
   sub: PY
   location:
     latitude: 54.6870458
@@ -1438,22 +2923,22 @@
   year: 2022
   link: https://2022.pycon.co/
   cfp: '2022-04-30 23:59:59'
-  start: 2022-07-09
-  end: 2022-07-11
-  date: July 09 - 11, 2022
   timezone: America/Bogota
   place: Online
+  date: July 09 - 11, 2022
+  start: 2022-07-09
+  end: 2022-07-10
   sub: PY
 
 - conference: PyCon Israel
   year: 2022
   link: https://pycon.org.il/2022/
   cfp: '2022-04-30 23:59:59'
-  start: 2022-06-28
-  end: 2022-06-30
-  date: June 28 - 30, 2022
   timezone: Asia/Jerusalem
   place: Ramat-Gan, Israel
+  date: June 28 - 30, 2022
+  start: 2022-06-28
+  end: 2022-06-29
   sub: PY
   location:
     latitude: 32.0686867
@@ -1461,26 +2946,26 @@
 
 - conference: PyCon APAC
   year: 2022
-  link: https://tw.pycon.org/
+  link: https://tw.pycon.org/2022/en-us/
   cfp: '2022-04-15 23:59:59'
-  start: 2022-09-03
-  end: 2022-09-05
+  place: Online, Taiwan
   date: September 03 - 05, 2022
-  place: Taiwan
+  start: 2022-09-03
+  end: 2022-09-04
   sub: PY
   location:
     latitude: 23.9739374
     longitude: 120.9820179
 
-- conference: PyCon Kenya Conference
+- conference: PyCon Kenya
   year: 2022
   link: https://www.pyconke.org/
   cfp: '2022-04-15 23:59:59'
-  start: 2022-05-06
-  end: 2022-05-08
-  date: May 06 - 08, 2022
   timezone: Africa/Nairobi
   place: Nairobi, Kenia
+  date: May 06 - 08, 2022
+  start: 2022-05-06
+  end: 2022-05-08
   sub: PY
   location:
     latitude: -1.2832533
@@ -1488,12 +2973,12 @@
 
 - conference: EuroPython
   year: 2022
-  link: https://www.europython.eu/
+  link: https://ep2022.europython.eu
   cfp: '2022-04-03 23:59:59'
-  start: 2022-07-11
-  end: 2022-07-18
-  date: July 11 - 18, 2022
   place: Dublin, Ireland
+  date: July 11 - 18, 2022
+  start: 2022-07-11
+  end: 2022-07-17
   sub: PY
   location:
     latitude: 53.3498006
@@ -1501,13 +2986,13 @@
 
 - conference: PyCon Estonia
   year: 2022
-  link: https://pycon.ee/
+  link: https://web.archive.org/web/20220801000000*/https://pycon.ee/
   cfp: '2022-04-01 23:59:59'
-  start: 2022-08-25
-  end: 2022-08-26
-  date: August 25 - 26, 2022
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
+  date: August 25 - 26, 2022
+  start: 2022-08-25
+  end: 2022-08-25
   sub: PY
   location:
     latitude: 59.4372155
@@ -1516,11 +3001,13 @@
 - conference: GeoPython
   year: 2022
   link: https://2022.geopython.net/
+  cfp_link: https://2022.geopython.net
   cfp: '2022-02-28 12:00:00'
+  tutorial_deadline: '2022-02-15'
+  place: Basel, Switzerland
+  date: June 20 - 23, 2022
   start: 2022-06-20
   end: 2022-06-23
-  date: June 20 - 23, 2022
-  place: Basel, Switzerland
   sub: PY
   location:
     latitude: 47.5581077
@@ -1530,11 +3017,11 @@
   year: 2022
   link: https://conference.scipy.org/
   cfp: '2022-02-22 23:59:00'
+  timezone: America/Chicago
+  place: Austin, Texas, USA
+  date: July 11 - 17, 2022
   start: 2022-07-11
   end: 2022-07-17
-  date: July 11 - 17, 2022
-  timezone: America/Chicago
-  place: Austin, Texas, United States
   sub: SCIPY
   location:
     latitude: 30.2711286
@@ -1544,35 +3031,41 @@
   year: 2022
   link: https://ir.pycon.org/?lang=en
   cfp: '2022-02-04 23:59:59'
-  start: 2022-02-16
-  end: 2022-02-19
-  date: February 16 - 19, 2022
   timezone: Asia/Tehran
   place: Online / Cancelled
+  date: February 16 - 19, 2022
+  start: 2022-02-16
+  end: 2022-02-19
   sub: PY
+  location:
+    latitude: 44.9379672
+    longitude: 7.5400398
 
-- conference: PyCon Italy
+- conference: PyCon Italia
   year: 2022
   link: https://pycon.it/en
   cfp: '2022-01-16 23:59:59'
+  place: Florence, Italy
+  date: June 02 - 06, 2022
   start: 2022-06-02
   end: 2022-06-06
-  date: June 02 - 06, 2022
-  place: Florence, Italy
   sub: PY
   location:
     latitude: 43.7698712
     longitude: 11.2555757
 
-- conference: PyCon DE & PyData Berlin
+- conference: PyCon Germany & PyData Berlin
   year: 2022
   link: https://2022.pycon.de/
+  cfp_link: https://2022.pycon.de/call-for-proposals
   cfp: '2022-01-16 23:59:59'
-  start: 2022-04-11
-  end: 2022-04-14
-  date: April 11 - 14, 2022
+  tutorial_deadline: '2022-01-16'
   timezone: Europe/Berlin
   place: Berlin, Germany
+  date: April 11 - 13, 2022
+  start: 2022-04-11
+  end: 2022-04-14
+  sponsor: https://2022.pycon.de/blog/pyconde-pydata-berlin-call-for-sponsors
   sub: PY,PYDATA
   location:
     latitude: 52.5170365
@@ -1582,21 +3075,21 @@
   year: 2021
   link: https://scipy.in/2021
   cfp: '2022-01-07 23:59:00'
-  start: 2022-01-21
-  end: 2022-01-22
-  date: January 21 - 22, 2022
   timezone: Asia/Kolkata
   place: Online
+  date: January 21 - 22, 2022
+  start: 2022-01-21
+  end: 2022-01-22
   sub: SCIPY
 
 - conference: PyCon US
   year: 2022
   link: https://us.pycon.org/2022/
   cfp: '2021-12-20 23:59:00'
-  start: 2022-04-27
-  end: 2022-05-03
+  place: Salt Lake City, Utah, USA
   date: April 27 - May 3, 2022
-  place: Salt Lake City, US
+  start: 2022-04-27
+  end: 2022-05-06
   sub: PY
   location:
     latitude: 40.7596198
@@ -1604,49 +3097,436 @@
 
 - conference: Kiwi PyCon
   year: 2022
-  link: https://kiwipycon.nz/
+  link: https://web.archive.org/web/20220311104918/http://python.nz/kiwipycon
   cfp: '2021-11-30 23:59:00'
-  start: 2022-08-19
-  end: 2022-08-21
-  date: August 19-21, 2022
   timezone: Pacific/Auckland
   place: Otautahi Christchurch, New Zealand
+  date: August 19-21, 2022
+  start: 2022-08-19
+  end: 2022-08-21
   sub: PY
   location:
     latitude: -43.530955
-    longitude: 172.6366455
+    longitude: 172.6364343
 
-- conference: Python Web Conf
+- conference: Python Web Conference
   year: 2022
-  link: https://2022.pythonwebconf.com/
+  link: https://pythonwebconference.com/
   cfp: '2021-11-01 23:59:59'
-  start: 2022-03-21
-  end: 2022-03-26
-  date: March 21 - 26, 2022
   timezone: UTC+0
   place: Online
+  date: March 21 - 26, 2022
+  start: 2022-03-21
+  end: 2022-03-26
   sub: WEB
 
 - conference: PyCascades Remote
   year: 2022
   link: https://2022.pycascades.com/
   cfp: '2021-10-24 23:59:59'
+  place: Online
+  date: February 05 - 07, 2022
   start: 2022-02-05
   end: 2022-02-07
-  date: February 05 - 07, 2022
-  place: Online
   sub: PY
+
+- conference: PyData Global
+  year: 2021
+  link: https://web.archive.org/web/20211028140235/http://pydata.org/global2021/
+  cfp_link: https://pydata.org/global2021/present
+  cfp: '2021-08-15 23:59:00'
+  tutorial_deadline: '2021-08-15'
+  place: Worldwide
+  start: 2021-10-28
+  end: 2021-10-31
+  sponsor: https://pydata.org/global2021/sponsor
+  location:
+    latitude: -33.8938107
+    longitude: 151.2621478
+
+- conference: PyOhio
+  year: 2021
+  link: https://www.pyohio.org/2021/
+  cfp_link: https://pyohio.org/cfp
+  cfp: '2021-05-02 23:59:00'
+  place: Columbus, Ohio, USA
+  start: 2021-07-31
+  end: 2021-08-01
+  location:
+    latitude: 39.9622601
+    longitude: -83.0007065
+
+- conference: DjangoCon Europe
+  year: 2021
+  link: https://2021.djangocon.eu/
+  cfp_link: https://2021.djangocon.eu/talks/cfp
+  cfp: '2021-04-01 23:59:00'
+  tutorial_deadline: '2021-04-01'
+  place: Porto, Oporto, Portugal
+  start: 2021-06-02
+  end: 2021-06-07
+  sponsor: https://2021.djangocon.eu/sponsors/sponsorships
+  location:
+    latitude: 41.1494512
+    longitude: -8.6107884
+
+- conference: PyCon US
+  year: 2021
+  link: https://us.pycon.org/2021/
+  cfp_link: https://us.pycon.org/2021/speaking/talks
+  cfp: '2021-02-12 23:59:00'
+  tutorial_deadline: '2021-02-12'
+  place: Online
+  start: 2021-05-12
+  end: 2021-05-21
+  sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+
+- conference: GeoPython
+  year: 2021
+  link: https://2021.geopython.net/
+  cfp_link: https://submit.geopython.net/gp2021/cfp
+  cfp: '2021-01-25 23:59:00'
+  tutorial_deadline: '2021-01-31'
+  place: Basel, Basel-Stadt, Switzerland
+  start: 2021-04-22
+  end: 2021-04-23
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
+- conference: PyHEP
+  year: 2020
+  link: https://indico.cern.ch/event/882824/
+  cfp: '2020-06-22 16:59:00'
+  place: Online
+  start: 2020-07-13
+  end: 2020-07-17
+  note: Online due to Covid
+
+- conference: Flask Con
+  year: 2020
+  link: https://web.archive.org/web/20200611021621/https://flaskcon.com/
+  cfp: '2020-06-14 23:59:00'
+  place: Online
+  start: 2020-07-04
+  end: 2020-07-05
+
+- conference: EuroPython
+  year: 2020
+  link: https://ep2020.europython.eu/
+  cfp: '2020-05-24 23:59:59'
+  place: Online
+  start: 2020-07-23
+  end: 2020-07-26
+
+- conference: SciPy US
+  year: 2020
+  link: https://www.scipy2020.scipy.org/
+  cfp: '2020-01-31 23:59:00'
+  cfp_ext: '2020-02-15 23:59:00'
+  timezone: America/Chicago
+  place: Online
+  start: 2020-07-06
+  end: 2020-07-12
+
+- conference: Python fwdays
+  year: 2019
+  link: https://fwdays.com/en/event/python-fwdays-online-conference
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSde6NvTplJa_S8AwDYbXPHqCrUDlEGvaq_78xD2VyPgV6Cz6g/viewform
+  cfp: '2019-11-28 23:59:00'
+  place: Kyiv, Kyiv Oblast, Ukraine
+  start: 2019-12-14
+  end: 2019-12-14
+  location:
+    latitude: 50.6215011
+    longitude: 30.460508167757546
+
+- conference: PyDay Mexico
+  year: 2019
+  link: https://web.archive.org/web/20190505175944/http://pythonday.mx/
+  cfp_link: https://papercall.io/pythondaymx2019
+  cfp: '2019-09-27 23:59:00'
+  tutorial_deadline: '2019-09-27'
+  place: Mexico City, Mexico
+  start: 2019-10-18
+  end: 2019-10-19
+  location:
+    latitude: 19.4326296
+    longitude: -99.1331785
+
+- conference: PyCon Sweden
+  year: 2019
+  link: http://www.pycon.se/
+  cfp_link: https://forms.gle/hZWhUePsHB34xtUM9
+  cfp: '2019-09-13 23:59:00'
+  tutorial_deadline: '2019-09-13'
+  place: Stockholm, Stockholm County, Sweden
+  start: 2019-10-31
+  end: 2019-11-02
+  sponsor: http://pycon.se/sponsorship.html
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
+
+- conference: PyCon Canada
+  year: 2019
+  link: https://2019.pycon.ca/
+  cfp_link: https://cfp.pycon.ca
+  cfp: '2019-08-31 23:59:00'
+  tutorial_deadline: '2019-08-31'
+  place: Toronto, Ontario, Canada
+  start: 2019-11-16
+  end: 2019-11-20
+  location:
+    latitude: 43.6534817
+    longitude: -79.3839347
+
+- conference: North Bay Python
+  year: 2019
+  link: https://2019.northbaypython.org/
+  cfp: '2019-08-16 23:59:00'
+  place: Petaluma, California, USA
+  start: 2019-11-02
+  end: 2019-11-03
+  location:
+    latitude: 38.295411
+    longitude: -122.61369350203252
+
+- conference: PyCon Balkan
+  year: 2019
+  link: https://conference.pyconbalkan.com/
+  cfp_link: https://sessionize.com/pycon-balkan-2019
+  cfp: '2019-07-15 23:59:00'
+  tutorial_deadline: '2019-07-15'
+  place: Belgrade, Serbia
+  start: 2019-10-03
+  end: 2019-10-06
+  sponsor: https://pyconbalkan.com/faq
+  location:
+    latitude: 44.8178131
+    longitude: 20.4568974
+
+- conference: PyCon Germany & PyData Berlin
+  year: 2019
+  link: https://2019.pycon.de/
+  cfp_link: https://2019.pycon.de/call-for-proposals
+  cfp: '2019-06-09 23:59:00'
+  place: Berlin, Germany
+  start: 2019-10-09
+  end: 2019-10-13
+  sponsor: https://de.pycon.org/sponsors
+  location:
+    latitude: 52.366528349999996
+    longitude: 13.488062884599568
+
+- conference: PyCon Japan
+  year: 2019
+  link: https://pycon.jp/2019/
+  cfp_link: https://papercall.io/pyconjp2019
+  cfp: '2019-06-02 23:59:00'
+  place: Tokyo, Japan
+  start: 2019-09-16
+  end: 2019-09-17
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/viewform
+  location:
+    latitude: 35.683805050000004
+    longitude: 139.98897671289967
+
+- conference: PyCon Africa
+  year: 2019
+  link: https://africa.pycon.org/
+  cfp_link: https://africa.pycon.org/speaking
+  cfp: '2019-06-01 23:59:00'
+  tutorial_deadline: '2019-06-01'
+  place: Accra, Greater Accra, Ghana
+  start: 2019-08-06
+  end: 2019-08-10
+  sponsor: https://africa.pycon.org/sponsor
+  location:
+    latitude: 5.5571096
+    longitude: -0.2012376
+
+- conference: PyCon Latin America
+  year: 2019
+  link: https://pylatam.org
+  cfp_link: https://papercall.io/pyconlatam
+  cfp: '2019-05-31 23:59:00'
+  place: Puerto Vallarta, Jalisco, Mexico
+  start: 2019-08-29
+  end: 2019-08-31
+  location:
+    latitude: 20.6407176
+    longitude: -105.220306
+
+- conference: PyGotham
+  year: 2019
+  link: https://2019.pygotham.org/
+  cfp_link: https://cfp.pygotham.org
+  cfp: '2019-05-12 23:59:00'
+  place: New York, New York, USA
+  start: 2019-10-04
+  end: 2019-10-05
+  sponsor: https://2019.pygotham.org/sponsors/prospectus
+  location:
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyBay
+  year: 2019
+  link: https://web.archive.org/web/20190815015012/http://pybay.com/
+  cfp_link: https://pybay2019cfp.hubb.me
+  cfp: '2019-05-12 23:59:00'
+  tutorial_deadline: '2019-05-12'
+  place: San Francisco, California, USA
+  start: 2019-08-15
+  end: 2019-08-19
+  location:
+    latitude: 26.373286
+    longitude: -80.20743653407952
+
+- conference: PyOhio
+  year: 2019
+  link: https://pyohio.org/2019
+  cfp_link: https://pyohio.org/cfp
+  cfp: '2019-05-12 23:59:00'
+  tutorial_deadline: '2019-05-12'
+  place: Columbus, Ohio, USA
+  start: 2019-07-27
+  end: 2019-07-28
+  sponsor: https://pyohio.org/2019/sponsorship
+  location:
+    latitude: 39.9622601
+    longitude: -83.0007065
+
+- conference: PyCon Spain
+  year: 2019
+  link: https://2019.es.pycon.org/
+  cfp_link: https://easychair.org/cfp/pycones2019
+  cfp: '2019-05-10 23:59:00'
+  place: Alicante, Spain
+  start: 2019-10-04
+  end: 2019-10-06
+  location:
+    latitude: 38.3436365
+    longitude: -0.4881708
 
 - conference: EuroSciPy
   year: 2019
-  link: https://euroscipy.org/2019/
+  link: https://www.euroscipy.org/2019/
+  cfp_link: https://pretalx.com/euroscipy-2019
   cfp: '2019-04-28 23:59:59'
-  start: 2019-09-02
-  end: 2019-09-06
-  date: September 2 - 6, 2019
+  tutorial_deadline: '2019-05-12'
   timezone: Europe/Madrid
   place: Bilbao, Spain
+  date: September 2 - 6, 2019
+  start: 2019-09-02
+  end: 2019-09-07
+  sponsor: https://euroscipy.org/2019/sponsors.html
   sub: SCIPY
   location:
     latitude: 43.2630018
     longitude: -2.9350039
+
+- conference: PyCon Italia
+  year: 2019
+  link: https://pycon.it/en
+  cfp_link: https://pycon.it/en/call-for-proposals
+  cfp: '2019-01-06 23:59:00'
+  place: Florence, Tuscany, Italy
+  start: 2019-05-02
+  end: 2019-05-05
+  sponsor: https://pycon.it/en/sponsor
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
+- conference: PyCon US
+  year: 2019
+  link: https://us.pycon.org/2019/
+  cfp_link: https://us.pycon.org/2019/speaking
+  cfp: '2019-01-03 23:59:00'
+  tutorial_deadline: '2018-11-26'
+  place: Cleveland, Ohio, USA
+  start: 2019-05-01
+  end: 2019-05-10
+  sponsor: https://us.pycon.org/2019/sponsors/prospectus
+  location:
+    latitude: 41.4996574
+    longitude: -81.6936772
+
+- conference: PyCon Belarus
+  year: 2019
+  link: https://by.pycon.org/
+  cfp_link: https://papercall.io/pyconby
+  cfp: '2018-12-24 23:59:00'
+  place: Minsk, Minsk, Belarus
+  start: 2019-02-15
+  end: 2019-02-17
+  sponsor: https://drive.google.com/file/d/1DEY7aYs7byXUwZLozHhoHs8uuLHq_la1/view
+  location:
+    latitude: 53.9024716
+    longitude: 27.5618225
+
+- conference: PyCaribbean
+  year: 2019
+  link: http://pycaribbean.com
+  cfp_link: https://papercall.io/pycaribbean-2019
+  cfp: '2018-11-15 23:59:00'
+  place: Santo Domingo, Dominican Republic
+  start: 2019-02-16
+  end: 2019-02-17
+  location:
+    latitude: 18.4801972
+    longitude: -69.942111
+
+- conference: PyTennessee
+  year: 2019
+  link: https://web.archive.org/web/20190301154334/http://www.pytennessee.org/
+  cfp_link: https://papercall.io/pytn2019
+  cfp: '2018-11-01 23:59:00'
+  tutorial_deadline: '2018-11-01'
+  place: Nashville, Tennessee, USA
+  start: 2019-02-09
+  end: 2019-02-11
+  sponsor: https://pytennessee.org/prospectus
+  location:
+    latitude: 36.1622767
+    longitude: -86.7742984
+
+- conference: PyCascades
+  year: 2019
+  link: https://2019.pycascades.com/
+  cfp_link: https://papercall.io/pycascades-2019
+  cfp: '2018-10-21 23:59:00'
+  place: Seattle, Washington, USA
+  start: 2019-02-23
+  end: 2019-02-25
+  sponsor: https://2019.pycascades.com/become-a-sponsor
+  location:
+    latitude: 47.6038321
+    longitude: -122.330062
+
+- conference: PyCon Colombia
+  year: 2019
+  link: https://pycon.co
+  cfp_link: https://papercall.io/pycon-colombia-2019-talks
+  cfp: '2018-09-01 23:59:00'
+  tutorial_deadline: '2018-09-01'
+  place: Medellin, Antioquia, Colombia
+  start: 2019-02-08
+  end: 2019-02-10
+  location:
+    latitude: 6.2443382
+    longitude: -75.573553
+
+- conference: PyData DC
+  year: 2016
+  link: https://pydata.org/dc2016/
+  cfp: '2016-08-01 23:59:00'
+  timezone: America/New_York
+  place: McLean, USA
+  start: 2016-10-07
+  end: 2016-10-09
+  location:
+    latitude: 40.4631789
+    longitude: -88.8196613
