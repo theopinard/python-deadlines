@@ -25,7 +25,7 @@ title: Python Event Series List
         </div>
         <div id="confs">
         <div id="past_confs">
-          {% assign confs = site.data.conferences | concat: site.data.archive | concat: site.data.legacy | group_by: "conference" | sort: "name" %}
+          {% assign confs = site.data.conferences | concat: site.data.archive | concat: site.data.legacy | sort: "year" | reverse | group_by: "conference" | sort: "name" %}
           {% assign this_time = "now" | date: "%s" %}
           {% for conf in confs %}
           {% if conf.items.size > 1 %}
