@@ -3,17 +3,17 @@ import datetime
 
 
 dateformat = "%Y-%m-%d %H:%M:%S"
-tba_words = ["tba", "tbd"]
+tba_words = ["tba", "tbd", "cancelled"]
 
 
 def clean_dates(data):
-    
+
     # Clean Up Dates
     for dates in ["start", "end"]:
             if isinstance(data[dates], str):
                 data[dates] = datetime.datetime.strptime(data[dates], dateformat.split(" ")[0]).date()
-    
-    # Make deadlines 
+
+    # Make deadlines
     for datetimes in ["cfp", "workshop_deadline", "tutorial_deadline"]:
             if datetimes in data and data[datetimes].lower() not in tba_words:
                 try:
@@ -33,17 +33,17 @@ def suffix(d):
 def create_nice_date(data):
     if "date" in data and data["date"]:
         return data
-    
+
     try:
         start = datetime.datetime.strptime(data["start"], dateformat.split(" ")[0])
         end = datetime.datetime.strptime(data["end"], dateformat.split(" ")[0])
     except TypeError:
         start = data["start"]
         end = data["end"]
-    
+
     if start == end:
         tmp_date = start.strftime("%B %d, %Y")
-        
+
         data["date"] = tmp_date[:-6] + suffix(start.day) + tmp_date[-6:]
     elif start.month == end.month:
         tmp_date = start.strftime("%B %d, %Y")

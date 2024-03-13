@@ -1,8 +1,9 @@
-- title: BestConf                          # Title of conference without year
+- conference: BestConf                     # Title of conference without year
   year: 2022                               # Year
   link: link-to-website.com                # URL to conference
-  cfp_link: link-to-cfp.com                 # URL to call for proposals (Optional)
+  cfp_link: link-to-cfp.com                # URL to call for proposals (Optional)
   cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
+  cfp_ext: 'YYYY-MM-DD HH:mm:ss'           # Extension for Deadline (Optional)
   workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
   tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
   timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)

@@ -191,6 +191,10 @@ title: Past Python Conferences
           $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("TBA");
           $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("TBA");
           $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
+        {% if cfp == "Cancelled" %}
+          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("Cancelled");
+          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("Cancelled");
+          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% else %}
 
           // Use specified timezone for deadlines if available else use AoE timezone

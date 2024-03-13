@@ -53,7 +53,10 @@ def pretty_print(header, conf, tba=None, expired=None):
     for data in [conf, tba, expired]:
         if data is not None:
             for q in data:
-                print(q["cfp"], " - ", q["title"])
+                try:
+                    print(q["cfp"], " - ", q["conference"])
+                except KeyError:
+                    print(q)
             print("\n")
 
 

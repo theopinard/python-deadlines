@@ -36,12 +36,12 @@ def load_yml():
     return pd.concat(
         [schema, pd.DataFrame.from_dict(data), pd.DataFrame.from_dict(archive)],
         ignore_index=True,
-    ).set_index("title", drop=False)
+    ).set_index("conference", drop=False)
 
 
 def map_columns(df, reverse=False):
     cols = {
-        "Subject": "title",
+        "Subject": "conference",
         "Start Date": "start",
         "End Date": "end",
         "Tutorial Deadline": "tutorial_deadline",
@@ -61,28 +61,30 @@ def map_columns(df, reverse=False):
 
 def fuzzy_match(df_yml, df_remote):
     # Make Title the index
-    df_remote = df_remote.set_index("title", drop=False)
+    df_remote = df_remote.set_index("conference", drop=False)
     df_remote.index.rename("title_match", inplace=True)
     known_mappings = {"SciPy US": "SciPy"}
 
     df = df_yml.copy()
 
     # Get closest match for titles
-    df["title_match"] = df["title"].apply(lambda x: process.extract(x, df_remote["title"], limit=1))
+    df["title_match"] = df["conference"].apply(lambda x: process.extract(x, df_remote["conference"], limit=1))
 
     for key, value in known_mappings.items():
-        if key in df["title"].values:
-            df.loc[df["title"] == key, "title_match"] = value
+        if key in df["conference"].values:
+            df.loc[df["conference"] == key, "title_match"] = value
 
     # Get first match if it's over 90
     for i, row in df.copy().iterrows():
         if isinstance(row["title_match"], str):
             continue
+        if len(row["title_match"]) == 0:
+            continue
         title, prob, _ = row["title_match"][0]
         if prob == 100:
             title = title
         elif prob >= 70:
-            if not query_yes_no(f"Do '{row['title']}' and '{title}' match? (y/n): "):
+            if not query_yes_no(f"Do '{row['conference']}' and '{title}' match? (y/n): "):
                 # Code for non-matching case
                 title = i
         else:
@@ -106,11 +108,11 @@ def interactive_merge(df_yml, df_remote):
     columns = df_new.columns.tolist()
 
     try:
-        df_yml = df_yml.drop(["title"], axis=1)
+        df_yml = df_yml.drop(["conference"], axis=1)
     except:
         pass
     try:
-        df_remote = df_remote.drop(["title"], axis=1)
+        df_remote = df_remote.drop(["conference"], axis=1)
     except:
         pass
 
@@ -124,7 +126,7 @@ def interactive_merge(df_yml, df_remote):
 
     df_merge = pd.merge(left=df_yml, right=df_remote, how="outer", on="title_match", validate="one_to_one")
     for i, row in df_merge.iterrows():
-        df_new.loc[i, "title"] = i
+        df_new.loc[i, "conference"] = i
         for column in columns:
             cx, cy = column + "_x", column + "_y"
             # print(i,cx,cy,cx in df_merge.columns and cy in df_merge.columns,column in df_merge.columns,)
@@ -197,7 +199,16 @@ def interactive_merge(df_yml, df_remote):
                     ):
                         df_new.loc[i, column] = rx + cfp_time_x
                     else:
-                        df_new.loc[i, column] = ry + cfp_time_y
+                        if query_yes_no(f"Is this an extension?"):
+                            rrx, rry = int(rx.replace("-", "").split(" ")[0]), int(ry.replace("-", "").split(" ")[0])
+                            if rrx < rry:
+                                df_new.loc[i, "cfp"] = rx + cfp_time_x
+                                df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
+                            else:
+                                df_new.loc[i, "cfp"] = ry + cfp_time_y
+                                df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
+                        else:
+                            df_new.loc[i, column] = ry + cfp_time_y
                 else:
                     # For everything else give a choice
                     if query_yes_no(f"For {i} in column '{column}' would you prefer '{rx}' or keep '{ry}'?"):
@@ -213,7 +224,7 @@ def interactive_merge(df_yml, df_remote):
 
 def fill_missing_required(df):
     required = [
-        "title",
+        "conference",
         "year",
         "link",
         "cfp",
@@ -228,7 +239,7 @@ def fill_missing_required(df):
         for keyword in required:
             if pd.isna(row[keyword]):
                 user_input = input(
-                    f"What's the value of '{keyword}' for conference '{row['title']}' check {row['link']} ?: "
+                    f"What's the value of '{keyword}' for conference '{row['conference']}' check {row['link']} ?: "
                 )
                 if user_input != "":
                     df.loc[i, keyword] = user_input
@@ -251,7 +262,7 @@ def write_yaml(df, out_url):
             default_flow_style=False,
             explicit_start=True,
         ).splitlines():
-            outfile.write(line.replace("- title:", "\n- title:"))
+            outfile.write(line.replace("- conference:", "\n- conference:"))
             outfile.write("\n")
 
 
@@ -296,15 +307,18 @@ def main(year=None, base=""):
         except urllib.error.HTTPError:
             break
 
-        df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df)
-        df_merged["year"] = y
-        df_merged = df_merged.drop(["title"], axis=1)
-        df_merged = interactive_merge(df_merged, df_remote)
+        if df_yml[df_yml["year"] == y].empty:
+            df_csv = pd.concat([df_new, df], ignore_index=True)
+        else:
+            df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df)
+            df_merged["year"] = y
+            df_merged = df_merged.drop(["conference"], axis=1)
+            df_merged = interactive_merge(df_merged, df_remote)
 
-        df_new = pd.concat([df_new, df_merged], ignore_index=True)
+            df_new = pd.concat([df_new, df_merged], ignore_index=True)
 
-        merged, _ = fuzzy_match(df, df_yml[df_yml["year"] == y])
-        df_csv = pd.concat([df_csv, merged], ignore_index=True)
+            merged, _ = fuzzy_match(df, df_yml[df_yml["year"] == y])
+            df_csv = pd.concat([df_csv, merged], ignore_index=True)
 
     df_new = fill_missing_required(df_new)
     write_yaml(df_new, target_file)
