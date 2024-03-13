@@ -61,7 +61,7 @@
   cfp: '2024-04-15 23:59:00'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
-  date: September 05 - 06, 2024
+  date: September 5 - 6, 2024
   start: 2024-09-05
   end: 2024-09-06
   sponsor: https://pydata.org/paris2024/sponsorship-opportunites
@@ -108,7 +108,7 @@
   cfp: '2024-03-31 23:59:00'
   timezone: Europe/Zurich
   place: Brighton, UK
-  date: September 04 - 05, 2024
+  date: September 4 - 5, 2024
   start: 2024-09-04
   end: 2024-09-05
   sub: PY
@@ -122,7 +122,7 @@
   cfp_link: https://docs.google.com/forms/d/1PpI3MstjIBH2e9J21UQaTHQLKTTEuR13od3iQkfJ8Zo/viewform?edit_requested=true
   cfp: '2024-03-27 23:59:00'
   place: Lleida, Spain
-  date: March 29 - April 01, 2024
+  date: March 29 - April 1, 2024
   start: 2024-03-29
   end: 2024-04-01
   location:
@@ -136,7 +136,7 @@
   cfp: '2024-03-11 23:59:59'
   timezone: America/Bogota
   place: Medellin, Colombia
-  date: June 07 - 09, 2024
+  date: June 7 - 9, 2024
   start: 2024-06-07
   end: 2024-06-09
   twitter: PyConColombia
@@ -169,7 +169,7 @@
   cfp_link: https://ep2024.europython.eu/cfp/
   cfp: '2024-03-06 23:59:00'
   place: Prague, Czechia
-  date: July 08 - 14, 2024
+  date: July 8 - 14, 2024
   start: 2024-07-08
   end: 2024-07-14
   finaid: https://ep2024.europython.eu/finaid/
@@ -223,7 +223,7 @@
   cfp: '2024-02-27 23:59:00'
   timezone: America/Los_Angeles
   place: Tacoma, USA
-  date: July 08 - 14, 2024
+  date: July 8 - 14, 2024
   start: 2024-07-08
   end: 2024-07-14
   twitter: SciPyConf
@@ -254,7 +254,7 @@
   cfp: '2024-01-21 23:59:00'
   timezone: Africa/Windhoek
   place: Windhoek, Namibia
-  date: March 04 - 08, 2024
+  date: March 4 - 8, 2024
   start: 2024-03-04
   end: 2024-03-08
   sponsor: https://na.pycon.org/sponsorship/
@@ -270,7 +270,7 @@
   cfp: '2024-01-15 23:59:00'
   timezone: Asia/Karachi
   place: Lahore, Pakistan
-  date: March 09, 2024
+  date: March 9 - 10, 2024
   start: 2024-03-09
   end: 2024-03-10
   twitter: PyConPK
@@ -287,7 +287,7 @@
   timezone: America/Chicago
   place: Austin, Texas, USA
   date: April 19 - 21, 2024
-  start: 2024-04-20
+  start: 2024-04-19
   end: 2024-04-21
   sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
   finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
@@ -336,7 +336,7 @@
   cfp_link: https://pretalx.com/pycascades-2024/cfp
   cfp: '2024-01-04 23:59:59'
   place: Seattle, USA
-  date: April 05 - 08, 2024
+  date: April 5 - 8, 2024
   start: 2024-04-05
   end: 2024-04-08
   sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor
