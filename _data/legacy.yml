@@ -1,5 +1,57 @@
 ---
 
+- conference: PyCon Chile
+  year: 2021
+  link: https://pycon.cl/2021/
+  cfp: TBA
+  place: Online
+  start: 2021-11-05
+  end: 2021-11-07
+
+- conference: Plone Conference
+  year: 2021
+  link: https://2021.ploneconf.org/
+  cfp: TBA
+  place: Online
+  start: 2021-10-23
+  end: 2021-10-31
+
+- conference: Women Who Code CONNECT Forward
+  year: 2021
+  link: https://connectforward.womenwhocode.dev/
+  cfp: TBA
+  place: Online
+  start: 2021-11-18
+  end: 2021-11-19
+
+- conference: Women Who Code CONNECT Forward
+  year: 2020
+  link: https://web.archive.org/web/20210727144948/https://connectforward.womenwhocode.dev/
+  cfp: TBA
+  place: Online
+  start: 2020-12-02
+  end: 2020-12-04
+
+- conference: PyCon Indonesia
+  year: 2021
+  link: https://pycon.id/
+  cfp: TBA
+  place: Online
+  start: 2021-12-04
+  end: 2021-12-06
+  sponsor: https://pycon.id/sponsorship
+  location:
+    latitude: -2.4833826
+    longitude: 117.8902853
+
+- conference: IndyPy Web Conf
+  year: 2019
+  link: https://web.archive.org/web/20191220043242/https://2019.indypy.org/webconf/
+  cfp: TBA
+  place: Online
+  start: 2019-08-23
+  end: 2019-08-23
+
 - conference: PyCon Sweden
   year: 2018
   link: http://www.pycon.se/
@@ -517,7 +569,7 @@
     latitude: 50.0874654
     longitude: 14.4212535
 
-- conference: PyConTW
+- conference: PyCon Taiwan
   year: 2018
   link: https://tw.pycon.org/2018/en-us/
   cfp: TBA
