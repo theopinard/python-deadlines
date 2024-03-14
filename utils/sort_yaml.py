@@ -75,7 +75,7 @@ def merge_duplicates(data):
     filtered = []
     filtered_reduced = []
     for q in tqdm(data):
-        q_reduced = f'{q["conference"]} {q["year"]}'
+        q_reduced = f'{q["conference"]} {q["year"]} {q["place"]}'
         if q_reduced not in filtered_reduced:
             filtered.append(q)
             filtered_reduced.append(q_reduced)
@@ -90,17 +90,24 @@ def merge_duplicates(data):
     return filtered
 
 
+def tidy_dates(data):
+    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
+        data[i] = clean_dates(q)
+        data[i] = create_nice_date(q)
+    return data
+
+
 def split_data(data):
-    conf, tba, expired = [], [], []
+    conf, tba, expired, legacy = [], [], [], []
     for q in tqdm(data):
         if q.get("end", datetime.datetime.utcnow().replace(microsecond=0).date()) < datetime.datetime.utcnow().replace(
             microsecond=0
         ).date() - datetime.timedelta(days=37):
-            expired.append(q)
+            if q["cfp"].lower() in tba_words:
+                legacy.append(q)
+            else:
+                expired.append(q)
             continue
-
-        q = clean_dates(q)
-        q = create_nice_date(q)
 
         try:
             if q["cfp"].lower() in tba_words:
@@ -111,7 +118,7 @@ def split_data(data):
                 conf.append(q)
         except:
             print(data["cfp"].lower(), tba_words)
-    return conf, tba, expired
+    return conf, tba, expired, legacy
 
 
 def add_latlon(data):
@@ -169,106 +176,94 @@ def add_latlon(data):
 
 def check_links(data):
     cache = {}
-    for q in tqdm(data):
+    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         if "link" in q:
             if q["link"] in cache:
                 q["link"] = cache[q["link"]]
             else:
+                time.sleep(0.5)
                 new_link = link_check.check_link_availability(q["link"], q["start"])
-                cache[q["link"]] = q["link"]
-                cache[new_link] = new_link
+                if not "https://web.archive.org" in new_link:
+                    cache[q["link"]] = new_link
+                    cache[new_link] = new_link
                 q["link"] = new_link
-            time.sleep(0.5)
+            data[i] = q
     return data
+
+
+def write_yaml(data, url):
+    with open(url, "w") as outfile:
+        for line in ordered_dump(
+            data,
+            Dumper=yaml.SafeDumper,
+            default_flow_style=False,
+            explicit_start=True,
+        ).splitlines():
+            outfile.write(line.replace("- conference:", "\n- conference:"))
+            outfile.write("\n")
 
 
 # Sort:
 def sort_data(base="", prefix=""):
-    url = Path(base, "_data", "conferences.yml")
-    out_url = Path(base, "_data", f"{prefix}conferences.yml")
+    current = Path(base, "_data", "conferences.yml")
+    out_current = Path(base, "_data", f"{prefix}conferences.yml")
     archive = Path(base, "_data", "archive.yml")
     out_archive = Path(base, "_data", f"{prefix}archive.yml")
+    legacy = Path(base, "_data", "legacy.yml")
+    out_legacy = Path(base, "_data", f"{prefix}legacy.yml")
 
-    with open(url, "r") as stream:
-        try:
-            data = yaml.load(stream, Loader=Loader)
+    data = []
 
-            print("Initial Sorting:")
-            for i, q in enumerate(data.copy()):
-                print(q["cfp"], " - ", q["conference"])
-                data[i] = order_keywords(q)
+    for url in (current, archive, legacy):
+        with open(url, "r") as stream:
+            try:
+                data += yaml.load(stream, Loader=Loader)
+            except yaml.YAMLError as exc:
+                print(exc)
 
-            print("\n\n")
+    print("Sorting Keywords:")
+    for i, q in enumerate(data.copy()):
+        data[i] = order_keywords(q)
 
-            # Geocode Data
-            print("Adding Lat Lon from Place")
-            data = add_latlon(data)
+    # Clean Dates
+    print("Cleaning Dates")
+    data = tidy_dates(data)
 
-            # Merge duplicates
-            print("Merging duplicates")
-            data = merge_duplicates(data)
+    # Geocode Data
+    print("Adding Lat Lon from Place")
+    data = add_latlon(data)
 
-            # Check Links
-            # print("Checking Links")
-            # data = check_links(data)
+    # Merge duplicates
+    print("Merging duplicates")
+    data = merge_duplicates(data)
 
-            # Split data by cfp
-            print("Splitting conferences, tba, and archive")
-            conf, tba, expired = split_data(data)
+    # Check Links
+    print("Checking Links")
+    data = check_links(data)
 
-            # just sort:
-            conf.sort(key=sort_by_cfp, reverse=True)
-            pretty_print("Date Sorting:", conf, tba, expired)
-            conf.sort(key=sort_by_date_passed)
-            pretty_print("Date and Passed Deadline Sorting with tba:", conf, tba, expired)
+    # Split data by cfp
+    print("Splitting conferences, tba, and archive")
+    conf, tba, expired, legacy = split_data(data)
 
-            with open(out_url, "w") as outfile:
-                for line in ordered_dump(
-                    conf + tba,
-                    Dumper=yaml.SafeDumper,
-                    default_flow_style=False,
-                    explicit_start=True,
-                ).splitlines():
-                    outfile.write(line.replace("- conference:", "\n- conference:"))
-                    outfile.write("\n")
-        except yaml.YAMLError as exc:
-            print(exc)
+    # just sort:
+    conf.sort(key=sort_by_cfp, reverse=True)
+    # pretty_print("Date Sorting:", conf, tba, expired, legacy)
+    conf.sort(key=sort_by_date_passed)
+    # pretty_print("Date and Passed Deadline Sorting with tba:", conf, tba, expired)
+    tba.sort(key=sort_by_date, reverse=True)
 
-    with open(archive, "r") as stream:
-        try:
-            data = yaml.load(stream, Loader=Loader)
+    write_yaml(conf + tba, out_current)
 
-            for old in expired:
-                if old not in data:
-                    data.append(old)
+    expired.sort(key=sort_by_date, reverse=True)
+    expired.sort(key=sort_by_cfp, reverse=True)
 
-            for i, q in enumerate(data.copy()):
-                data[i] = order_keywords(q)
+    # pretty_print("New archive:", data)
+    write_yaml(expired, out_archive)
 
-            # Merge duplicates
-            data = merge_duplicates(data)
+    legacy.sort(key=sort_by_date, reverse=True)
 
-            # Check Links
-            # data = check_links(data)
-
-            # Geocode Data
-            data = add_latlon(data)
-
-            data.sort(key=sort_by_date, reverse=True)
-            data.sort(key=sort_by_cfp, reverse=True)
-
-            pretty_print("New archive:", data)
-            with open(out_archive, "w") as outfile:
-                for line in ordered_dump(
-                    data,
-                    Dumper=yaml.SafeDumper,
-                    default_flow_style=False,
-                    explicit_start=True,
-                ).splitlines():
-                    outfile.write(line.replace("- conference:", "\n- conference:"))
-                    outfile.write("\n")
-        except yaml.YAMLError as exc:
-            print(exc)
+    # pretty_print("New legacy:", data)
+    write_yaml(legacy, out_legacy)
 
 
 if __name__ == "__main__":

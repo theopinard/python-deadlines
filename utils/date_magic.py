@@ -1,4 +1,3 @@
-
 import datetime
 
 
@@ -31,8 +30,8 @@ def suffix(d):
 
 
 def create_nice_date(data):
-    if "date" in data and data["date"]:
-        return data
+    # if "date" in data and data["date"]:
+    #     return data
 
     try:
         start = datetime.datetime.strptime(data["start"], dateformat.split(" ")[0])
@@ -55,6 +54,6 @@ def create_nice_date(data):
     else:
         data["date"] = start.strftime("%B %d, %Y") + " - " + end.strftime("%B %d, %Y")
 
+    data["date"] = data["date"].replace(" 0", " ")
+
     return data
-
-

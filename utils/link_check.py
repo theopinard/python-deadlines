@@ -16,7 +16,9 @@ def check_link_availability(url, start):
             print(f"URL {url} was redirected within the same domain to: {final_url}")
             return final_url  # Use the final URL for the rest of the process
         elif response.status_code != 200:
-            print(f"Link is not available (status code: {response.status_code}). Trying to find an archived version...")
+            print(
+                f"Link {url} is not available (status code: {response.status_code}). Trying to find an archived version..."
+            )
         else:
             return url
     except requests.RequestException as e:
