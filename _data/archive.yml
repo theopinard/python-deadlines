@@ -1891,6 +1891,19 @@
   end: 2022-03-26
   sub: WEB
 
+- conference: PyCon Indonesia
+  year: 2021
+  link: https://pycon.id/
+  cfp: '2021-10-31 23:59:00'
+  place: Online
+  date: December 4 - 5, 2021
+  start: 2021-12-04
+  end: 2021-12-05
+  sponsor: https://pycon.id/sponsorship
+  location:
+    latitude: -2.4833826
+    longitude: 117.8902853
+
 - conference: PyCascades Remote
   year: 2022
   link: https://2022.pycascades.com/
@@ -1953,14 +1966,11 @@
   cfp_link: https://pydata.org/global2021/present
   cfp: '2021-08-15 23:59:00'
   tutorial_deadline: '2021-08-15 23:59:00'
-  place: Worldwide
+  place: Online
   date: October 28 - 31, 2021
   start: 2021-10-28
   end: 2021-10-31
   sponsor: https://pydata.org/global2021/sponsor
-  location:
-    latitude: -33.8938107
-    longitude: 151.2621478
 
 - conference: PyCon Japan
   year: 2021

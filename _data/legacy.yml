@@ -23,19 +23,6 @@
     latitude: 44.9379672
     longitude: 7.5400398
 
-- conference: PyCon Indonesia
-  year: 2021
-  link: https://pycon.id/
-  cfp: TBA
-  place: Online
-  date: December 4 - 6, 2021
-  start: 2021-12-04
-  end: 2021-12-06
-  sponsor: https://pycon.id/sponsorship
-  location:
-    latitude: -2.4833826
-    longitude: 117.8902853
-
 - conference: Women Who Code CONNECT Forward
   year: 2021
   link: https://connectforward.womenwhocode.dev/
