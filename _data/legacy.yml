@@ -481,11 +481,12 @@
 - conference: Python Nordeste
   year: 2020
   link: https://2020.pythonnordeste.org/
-  cfp: TBA
+  cfp: Cancelled
   place: Fortaleza, Brasil
   date: July 17 - 18, 2020
   start: 2020-07-17
   end: 2020-07-18
+  note: Moved to 2021 due to Covid
   location:
     latitude: -3.7304512
     longitude: -38.5217989
@@ -1590,18 +1591,6 @@
     latitude: 46.0664228
     longitude: 11.1257601
 
-- conference: FrOSCon
-  year: 2018
-  link: http://www.froscon.org/
-  cfp: TBA
-  place: University of Applied Sciences Bonn-Rhein-Sieg, Germany
-  date: August 25 - 27, 2018
-  start: 2018-08-25
-  end: 2018-08-27
-  location:
-    latitude: 50.779991
-    longitude: 7.182036
-
 - conference: PyCon Australia
   year: 2018
   link: https://2018.pycon-au.org/
@@ -2398,7 +2387,7 @@
   year: 2017
   link: https://web.archive.org/web/20170929035432/http://www.pycon.or.ke/
   cfp: TBA
-  place: United States International University, Kenya
+  place: Nairobi, Kenya
   date: September 28 - 30, 2017
   start: 2017-09-28
   end: 2017-09-30
@@ -3406,7 +3395,7 @@
   year: 2016
   link: https://pycon.sg/
   cfp: TBA
-  place: National University of Singapore, Republic of Singapore
+  place: Singapore
   date: June 23 - 26, 2016
   start: 2016-06-23
   end: 2016-06-26
@@ -4002,18 +3991,6 @@
     latitude: 12.9341395
     longitude: 77.612945
 
-- conference: FrOSCon
-  year: 2015
-  link: https://web.archive.org/web/20150818115029/http://www.froscon.de/en/home/
-  cfp: TBA
-  place: Sankt Augustin, Germany
-  date: August 22 - 24, 2015
-  start: 2015-08-22
-  end: 2015-08-24
-  location:
-    latitude: 50.7752776
-    longitude: 7.1895507
-
 - conference: PyCon Malaysia
   year: 2015
   link: https://web.archive.org/web/20150812151551/http://www.pycon.my/pycon-my-2015
@@ -4126,7 +4103,7 @@
   year: 2015
   link: http://ph.pycon.org/
   cfp: TBA
-  place: Ateneo de Manila University, 1108 Metro Manila
+  place: Manila, Philippines
   date: July 4 - 6, 2015
   start: 2015-07-04
   end: 2015-07-06
@@ -4150,7 +4127,7 @@
   year: 2015
   link: http://plone.jp/plone-symposium-tokyo-2015
   cfp: TBA
-  place: Ochanomizu University, Japan
+  place: Tokyo, Japan
   date: June 13 - 15, 2015
   start: 2015-06-13
   end: 2015-06-15
@@ -4402,7 +4379,7 @@
   year: 2015
   link: https://web.archive.org/web/20150201083907/http://python-namibia.org/
   cfp: TBA
-  place: University of Namibia, Namibia
+  place: Windhoek, Namibia
   date: February 2 - 6, 2015
   start: 2015-02-02
   end: 2015-02-06
@@ -4733,18 +4710,6 @@
   location:
     latitude: 37.5666791
     longitude: 126.9782914
-
-- conference: FrOSCon
-  year: 2014
-  link: http://www.froscon.de/
-  cfp: TBA
-  place: Sankt Augustin, Germany
-  date: August 23 - 25, 2014
-  start: 2014-08-23
-  end: 2014-08-25
-  location:
-    latitude: 50.7752776
-    longitude: 7.1895507
 
 - conference: PyGotham
   year: 2014
@@ -5262,18 +5227,6 @@
     latitude: 12.9767936
     longitude: 77.590082
 
-- conference: FrOSCon
-  year: 2013
-  link: https://web.archive.org/web/20130818002557/http://www.froscon.de/en/home/
-  cfp: TBA
-  place: Sankt Augustin, Germany
-  date: August 24 - 26, 2013
-  start: 2013-08-24
-  end: 2013-08-26
-  location:
-    latitude: 50.7752776
-    longitude: 7.1895507
-
 - conference: EuroSciPy
   year: 2013
   link: https://www.euroscipy.org/
@@ -5417,18 +5370,6 @@
   location:
     latitude: 25.0420743
     longitude: 121.61404600926753
-
-- conference: PythonNordeste
-  year: 2013
-  link: http://pythonnordeste.org/
-  cfp: TBA
-  place: Fortaleza, Brazil
-  date: May 24 - 26, 2013
-  start: 2013-05-24
-  end: 2013-05-26
-  location:
-    latitude: -3.7304512
-    longitude: -38.5217989
 
 - conference: DjangoCon Europe
   year: 2013
