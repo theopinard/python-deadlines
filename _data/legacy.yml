@@ -821,7 +821,7 @@
     latitude: 32.7174202
     longitude: -117.162772
 
-- conference: PyCon China Shanghai
+- conference: PyCon China
   year: 2019
   link: https://cn.pycon.org/2023/
   cfp: TBA
@@ -3079,7 +3079,7 @@
     latitude: 42.3655767
     longitude: -71.1040018
 
-- conference: PyCon China Beijing
+- conference: PyCon China
   year: 2016
   link: https://cn.pycon.org/2016/beijing.html
   cfp: TBA
@@ -3091,7 +3091,7 @@
     latitude: 40.190632
     longitude: 116.412144
 
-- conference: PyCon China Hangzhou
+- conference: PyCon China
   year: 2016
   link: https://cn.pycon.org/2016/hangzhou.html
   cfp: TBA
@@ -3187,7 +3187,7 @@
     latitude: 43.3224219
     longitude: -1.9838889
 
-- conference: PyCon China Shenzhen
+- conference: PyCon China
   year: 2016
   link: https://cn.pycon.org/2016/shenzhen.html
   cfp: TBA
@@ -3247,7 +3247,7 @@
     latitude: 35.8923773
     longitude: -78.86588989367681
 
-- conference: PyCon China Shanghai
+- conference: PyCon China
   year: 2016
   link: https://cn.pycon.org/2016/shanghai.html
   cfp: TBA
@@ -3919,7 +3919,7 @@
     latitude: 56.839104
     longitude: 60.60825
 
-- conference: PyCon China Shanghai
+- conference: PyCon China
   year: 2015
   link: https://cn.pycon.org/2023/
   cfp: TBA
@@ -4447,7 +4447,7 @@
     latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: PyCon China Hangzhou
+- conference: PyCon China
   year: 2014
   link: https://web.archive.org/web/20141118174321/http://cn.pycon.org:80/en/
   cfp: TBA
@@ -4471,7 +4471,7 @@
     latitude: 29.9759983
     longitude: -90.0782127
 
-- conference: PyCon China Zhuhai
+- conference: PyCon China
   year: 2014
   link: http://web.archive.org/web/20141118174321/http://cn.pycon.org:80/en/
   cfp: TBA
@@ -4483,7 +4483,7 @@
     latitude: 22.273734
     longitude: 113.5721327
 
-- conference: PyCon China Beijing
+- conference: PyCon China
   year: 2014
   link: http://web.archive.org/web/20141118174321/http://cn.pycon.org:80/en/
   cfp: TBA
@@ -4495,7 +4495,7 @@
     latitude: 40.190632
     longitude: 116.412144
 
-- conference: PyCon China Shenzhen
+- conference: PyCon China
   year: 2014
   link: http://web.archive.org/web/20141118174321/http://cn.pycon.org:80/en/
   cfp: TBA
@@ -4507,7 +4507,7 @@
     latitude: 22.5445741
     longitude: 114.0545429
 
-- conference: PyCon China Suzhou
+- conference: PyCon China
   year: 2014
   link: http://web.archive.org/web/20141118174321/http://cn.pycon.org:80/en/
   cfp: TBA
@@ -5599,7 +5599,7 @@
     latitude: 50.4500336
     longitude: 30.5241361
 
-- conference: PyCon China Shanghai
+- conference: PyCon China
   year: 2012
   link: https://cn.pycon.org/2023/
   cfp: TBA
@@ -5611,7 +5611,7 @@
     latitude: 31.2323437
     longitude: 121.4691024
 
-- conference: PyCon China Hefei
+- conference: PyCon China
   year: 2012
   link: https://cn.pycon.org/2023/
   cfp: TBA
@@ -5623,7 +5623,7 @@
     latitude: 31.8665676
     longitude: 117.281428
 
-- conference: PyCon China Wuhan
+- conference: PyCon China
   year: 2012
   link: https://cn.pycon.org/2023/
   cfp: TBA
