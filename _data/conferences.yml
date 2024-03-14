@@ -144,6 +144,19 @@
     latitude: 41.6147605
     longitude: 0.6267842
 
+- conference: Python fwdays
+  year: 2024
+  link: https://fwdays.com/en/event/python-ds-fwdays-2024
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/viewform
+  cfp: '2024-03-20 23:59:00'
+  place: Kyiv, Ukraine
+  date: April 20th, 2024
+  start: 2024-04-20
+  end: 2024-04-20
+  location:
+    latitude: 50.6215011
+    longitude: 30.460508167757546
+
 - conference: PyCon Colombia
   year: 2024
   link: https://2024.pycon.co/en

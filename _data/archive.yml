@@ -52,7 +52,7 @@
     latitude: 3.4520339
     longitude: -76.5329352
 
-- conference: Pydata Global
+- conference: PyData Global
   year: 2023
   link: https://pydata.org/global2023/
   cfp_link: https://pydata.org/global2023/cfp
@@ -1213,20 +1213,6 @@
     latitude: 53.3498006
     longitude: -6.2602964
 
-- conference: Pydata NYC
-  year: 2022
-  link: https://web.archive.org/web/20221203182532/http://pydata.org/nyc2022
-  cfp: '2022-08-24 23:59:00'
-  timezone: America/New_York
-  place: New York, NY, USA
-  date: November 9 - 11, 2022
-  start: 2022-11-09
-  end: 2022-11-11
-  sub: PYDATA
-  location:
-    latitude: 40.7127281
-    longitude: -74.0060152
-
 - conference: PyData NYC
   year: 2022
   link: https://web.archive.org/web/20221203182532/https://pydata.org/nyc2022
@@ -1236,11 +1222,11 @@
   date: November 9 - 11, 2022
   start: 2022-11-09
   end: 2022-11-11
-  sponsor: https://pydata.org/nyc2022/sponsors
   sub: PYDATA
   location:
     latitude: 40.7127281
     longitude: -74.0060152
+  sponsor: https://pydata.org/nyc2022/sponsors
 
 - conference: PyCon South Africa
   year: 2022
@@ -1278,7 +1264,7 @@
     latitude: 50.294113
     longitude: 18.6657306
 
-- conference: Pydata Miami
+- conference: PyData Miami
   year: 2022
   link: https://web.archive.org/web/20220926183127/http://pydata.org/miami2022/
   cfp: '2022-08-08 23:59:00'
@@ -1411,7 +1397,7 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
-- conference: Pydata Yerevan
+- conference: PyData Yerevan
   year: 2022
   link: https://web.archive.org/web/20220812003726/http://pydata.org/yerevan2022/
   cfp: '2022-06-30 23:59:00'
@@ -2149,7 +2135,7 @@
   link: https://fwdays.com/en/event/python-fwdays-Online-conference
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSde6NvTplJa_S8AwDYbXPHqCrUDlEGvaq_78xD2VyPgV6Cz6g/viewform
   cfp: '2019-11-28 23:59:00'
-  place: Kyiv, Kyiv Oblast, Ukraine
+  place: Kyiv, Ukraine
   date: December 14th, 2019
   start: 2019-12-14
   end: 2019-12-14
