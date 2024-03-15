@@ -92,11 +92,12 @@
   cfp_link: https://tw.pycon.org/2024/en-us/speaking/cfp
   cfp: '2024-04-08 23:59:00'
   tutorial_deadline: '2024-04-08 23:59:00'
-  place: TBD,TBD
+  place: Taipei, Taiwan
   date: September 21 - 22, 2024
   start: 2024-09-21
   end: 2024-09-22
   sponsor: https://tw.pycon.org/2024/en-us/sponsor
+  sub: PY
   location:
     latitude: 50.4431636
     longitude: 9.9853751
@@ -126,7 +127,7 @@
   date: September 4 - 5, 2024
   start: 2024-09-04
   end: 2024-09-05
-  sub: PY
+  sub: BIZ
   location:
     latitude: 50.8214626
     longitude: -0.1400561
@@ -140,6 +141,7 @@
   date: March 29 - April 1, 2024
   start: 2024-03-29
   end: 2024-04-01
+  sub: PY
   location:
     latitude: 41.6147605
     longitude: 0.6267842
@@ -153,6 +155,7 @@
   date: April 20th, 2024
   start: 2024-04-20
   end: 2024-04-20
+  sub: PY
   location:
     latitude: 50.6215011
     longitude: 30.460508167757546
@@ -219,6 +222,7 @@
   end: 2024-08-11
   sponsor: https://drive.google.com/file/d/1WvfelX-Sfp79YcUbf8Hs6e-MtPabVSmO/view
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -5.794477
     longitude: -35.211932
@@ -285,7 +289,7 @@
   date: May 27 - 29, 2024
   start: 2024-05-27
   end: 2024-05-29
-  sub: PY
+  sub: GEO
   location:
     latitude: 47.5581077
     longitude: 7.5878261
@@ -498,6 +502,7 @@
   date: May 17th, 2024
   start: 2024-05-17
   end: 2024-05-17
+  sub: WEB
   note: Alongside PyCon US 2024
   location:
     latitude: 40.4416941

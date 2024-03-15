@@ -53,7 +53,7 @@ description: Summary of the conference and its instances throughout the years.
 
 <body>
   {% include header.html %}
-  {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy | where:"conference",page.conference | sort: "year" | reverse %}
+  {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy | where_exp:"conference","conference contains page.conference or page.conference contains conference" | sort: "year" | reverse %}
   <div class="container">
     <div class="page-header" id="conf-title">
       <div class="row">

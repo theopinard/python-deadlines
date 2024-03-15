@@ -148,6 +148,7 @@
   date: October 6th, 2023
   start: 2023-10-06
   end: 2023-10-06
+  sub: WEB
   location:
     latitude: 55.6867243
     longitude: 12.5700724
@@ -367,6 +368,7 @@
   start: 2023-09-22
   end: 2023-09-24
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -12.9822499
     longitude: -38.4812772
@@ -1042,7 +1044,7 @@
   sponsor: https://jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
   finaid: https://www.jupytercon.com/scholarships
   twitter: jupyterCon
-  sub: PY
+  sub: PYDATA
   location:
     latitude: 48.8588897
     longitude: 2.3200410217200766
@@ -1057,7 +1059,7 @@
   start: 2023-03-06
   end: 2023-03-08
   twitter: GeoPythonConf
-  sub: PY
+  sub: GEO
   location:
     latitude: 47.6081077
     longitude: 7.6378261
@@ -1103,6 +1105,7 @@
   date: December 27th, 2022
   start: 2022-12-27
   end: 2022-12-27
+  sub: PY
   note: No formal CfP, but you can submit a talk proposal via the website
 
 - conference: PyCascades
@@ -1194,6 +1197,7 @@
   date: September 26 - 28, 2022
   start: 2022-09-26
   end: 2022-09-28
+  sub: SCIPY
   location:
     latitude: -25.1076701
     longitude: -64.3494964
@@ -1249,6 +1253,7 @@
   date: September 12 - 16, 2022
   start: 2022-09-12
   end: 2022-09-16
+  sub: SCIPY
 
 - conference: PyCon Poland
   year: 2022
@@ -1303,7 +1308,7 @@
   date: October 27 - 29, 2022
   start: 2022-10-27
   end: 2022-10-29
-  sub: PYDATA
+  sub: PY
 
 - conference: SciPy Latin America
   year: 2022
@@ -1480,6 +1485,7 @@
   start: 2022-08-26
   end: 2022-08-28
   twitter: PythonNordeste
+  sub: PY
   location:
     latitude: -10.9162061
     longitude: -37.0774655
@@ -1535,6 +1541,7 @@
   start: 2022-07-30
   end: 2022-07-31
   sponsor: https://web.archive.org/web/20220330120305/https://pycon.ru/partneram
+  sub: PY
   location:
     latitude: 55.625578
     longitude: 37.6063916
@@ -1587,6 +1594,7 @@
   start: 2022-06-17
   end: 2022-06-19
   sponsor: https://pydata.org/london2022/sponsors
+  sub: PYDATA
   location:
     latitude: 51.5074456
     longitude: -0.1277653
@@ -1653,6 +1661,7 @@
   date: April 15 - 19, 2022
   start: 2022-04-15
   end: 2022-04-19
+  sub: PY
   location:
     latitude: 41.9793006
     longitude: 2.8199439
@@ -1666,6 +1675,7 @@
   date: April 8 - 9, 2022
   start: 2022-04-08
   end: 2022-04-09
+  sub: WEB
   location:
     latitude: 55.6867243
     longitude: 12.5700724
@@ -1680,7 +1690,7 @@
   date: June 20 - 23, 2022
   start: 2022-06-20
   end: 2022-06-23
-  sub: PY
+  sub: GEO
   location:
     latitude: 47.5581077
     longitude: 7.5878261
@@ -1707,6 +1717,7 @@
   date: January 29 - 30, 2022
   start: 2022-01-29
   end: 2022-01-30
+  sub: PY
   location:
     latitude: 51.3406321
     longitude: 12.3747329
@@ -1772,6 +1783,7 @@
   date: February 22nd, 2022
   start: 2022-02-22
   end: 2022-02-22
+  sub: PY
 
 - conference: FOSDEM
   year: 2022
@@ -1818,6 +1830,7 @@
   date: January 22nd, 2022
   start: 2022-01-22
   end: 2022-01-22
+  sub: PY
   location:
     latitude: 32.6450475
     longitude: 130.6341345
@@ -1830,6 +1843,7 @@
   date: December 1 - 4, 2021
   start: 2021-12-01
   end: 2021-12-04
+  sub: PY
   location:
     latitude: 44.9379672
     longitude: 7.5400398
@@ -1852,6 +1866,7 @@
   date: December 1 - 4, 2021
   start: 2021-12-01
   end: 2021-12-04
+  sub: WEB
   location:
     latitude: -33.8938107
     longitude: 151.2621478
@@ -1864,6 +1879,7 @@
   date: November 25th, 2021
   start: 2021-11-25
   end: 2021-11-25
+  sub: PY
   note: No formal CfP, but you can submit a talk proposal via the website
 
 - conference: Python Web Conference
@@ -1886,11 +1902,12 @@
   start: 2021-12-04
   end: 2021-12-05
   sponsor: https://pycon.id/sponsorship
+  sub: PY
   location:
     latitude: -2.4833826
     longitude: 117.8902853
 
-- conference: PyCascades Remote
+- conference: PyCascades
   year: 2022
   link: https://2022.pycascades.com/
   cfp: '2021-10-24 23:59:59'
@@ -1899,6 +1916,7 @@
   start: 2022-02-05
   end: 2022-02-07
   sub: PY
+  note: Remote
 
 - conference: Pyjamas Conf
   year: 2021
@@ -1909,6 +1927,7 @@
   date: December 5th, 2021
   start: 2021-12-05
   end: 2021-12-05
+  sub: PY
 
 - conference: PyCon APAC
   year: 2021
@@ -1920,6 +1939,7 @@
   date: November 20 - 21, 2021
   start: 2021-11-20
   end: 2021-11-21
+  sub: PY
   location:
     latitude: 13.7524938
     longitude: 100.4935089
@@ -1933,6 +1953,7 @@
   date: September 11 - 12, 2021
   start: 2021-09-11
   end: 2021-09-12
+  sub: PY
   location:
     latitude: 46.4843023
     longitude: 30.7322878
@@ -1945,6 +1966,7 @@
   date: October 7 - 8, 2021
   start: 2021-10-07
   end: 2021-10-08
+  sub: PY
 
 - conference: PyData Global
   year: 2021
@@ -1957,6 +1979,7 @@
   start: 2021-10-28
   end: 2021-10-31
   sponsor: https://pydata.org/global2021/sponsor
+  sub: PYDATA
 
 - conference: PyCon Japan
   year: 2021
@@ -1966,6 +1989,7 @@
   date: October 15 - 16, 2021
   start: 2021-10-15
   end: 2021-10-16
+  sub: PY
   location:
     latitude: 35.683805050000004
     longitude: 139.98897671289967
@@ -1979,6 +2003,7 @@
   date: September 17 - 21, 2021
   start: 2021-09-17
   end: 2021-09-21
+  sub: PY
 
 - conference: PyOhio
   year: 2021
@@ -2004,6 +2029,7 @@
   start: 2021-06-02
   end: 2021-06-07
   sponsor: https://2021.djangocon.eu/sponsors/sponsorships
+  sub: WEB
   location:
     latitude: 41.1494512
     longitude: -8.6107884
@@ -2019,6 +2045,7 @@
   start: 2021-07-16
   end: 2021-07-18
   twitter: pythonnordeste
+  sub: PY
 
 - conference: SciPy US
   year: 2021
@@ -2029,6 +2056,7 @@
   date: July 12 - 19, 2021
   start: 2021-07-12
   end: 2021-07-19
+  sub: SCIPY
   location:
     latitude: 30.2711286
     longitude: -97.7436995
@@ -2044,6 +2072,7 @@
   start: 2021-05-12
   end: 2021-05-21
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+  sub: PY
 
 - conference: Python Web Conference
   year: 2021
@@ -2054,6 +2083,7 @@
   date: March 22 - 26, 2021
   start: 2021-03-22
   end: 2021-03-26
+  sub: WEB
 
 - conference: GeoPython
   year: 2021
@@ -2065,6 +2095,7 @@
   date: April 22 - 23, 2021
   start: 2021-04-22
   end: 2021-04-23
+  sub: GEO
   location:
     latitude: 47.5581077
     longitude: 7.5878261
@@ -2078,6 +2109,7 @@
   date: November 12 - 13, 2020
   start: 2020-11-12
   end: 2020-11-13
+  sub: PY
 
 - conference: PyHPC
   year: 2020
@@ -2096,6 +2128,7 @@
   date: July 13 - 17, 2020
   start: 2020-07-13
   end: 2020-07-17
+  sub: SCIPY
   note: Online due to Covid
 
 - conference: Flask Con
@@ -2106,6 +2139,7 @@
   date: July 4 - 5, 2020
   start: 2020-07-04
   end: 2020-07-05
+  sub: WEB
 
 - conference: PyCon Japan
   year: 2020
@@ -2115,6 +2149,7 @@
   date: August 28 - 29, 2020
   start: 2020-08-28
   end: 2020-08-29
+  sub: PY
 
 - conference: EuroPython
   year: 2020
@@ -2124,6 +2159,7 @@
   date: July 23 - 26, 2020
   start: 2020-07-23
   end: 2020-07-26
+  sub: PY
 
 - conference: Python Web Conference
   year: 2020
@@ -2134,6 +2170,7 @@
   date: June 17 - 19, 2020
   start: 2020-06-17
   end: 2020-06-19
+  sub: WEB
 
 - conference: PyCon Odessa
   year: 2020
@@ -2144,6 +2181,7 @@
   date: June 13 - 15, 2020
   start: 2020-06-13
   end: 2020-06-15
+  sub: PY
   location:
     latitude: 46.4843023
     longitude: 30.7322878
@@ -2158,6 +2196,7 @@
   date: July 6 - 12, 2020
   start: 2020-07-06
   end: 2020-07-12
+  sub: SCIPY
 
 - conference: Python fwdays
   year: 2019
@@ -2168,6 +2207,7 @@
   date: December 14th, 2019
   start: 2019-12-14
   end: 2019-12-14
+  sub: PY
   location:
     latitude: 50.6215011
     longitude: 30.460508167757546
@@ -2181,6 +2221,7 @@
   date: November 23 - 24, 2019
   start: 2019-11-23
   end: 2019-11-24
+  sub: PY
   location:
     latitude: -30.0324999
     longitude: -51.2303767
@@ -2195,6 +2236,7 @@
   date: October 18 - 19, 2019
   start: 2019-10-18
   end: 2019-10-19
+  sub: PY
   location:
     latitude: 19.4326296
     longitude: -99.1331785
@@ -2210,6 +2252,7 @@
   start: 2019-10-31
   end: 2019-11-02
   sponsor: http://pycon.se/sponsorship.html
+  sub: PY
   location:
     latitude: 59.3251172
     longitude: 18.0710935
@@ -2224,6 +2267,7 @@
   date: November 16 - 20, 2019
   start: 2019-11-16
   end: 2019-11-20
+  sub: PY
   location:
     latitude: 43.6534817
     longitude: -79.3839347
@@ -2236,6 +2280,7 @@
   date: November 2 - 3, 2019
   start: 2019-11-02
   end: 2019-11-03
+  sub: PY
   location:
     latitude: 38.295411
     longitude: -122.61369350203252
@@ -2250,6 +2295,7 @@
   date: August 23rd, 2019
   start: 2019-08-23
   end: 2019-08-23
+  sub: WEB
 
 - conference: PyCon Balkan
   year: 2019
@@ -2262,6 +2308,7 @@
   start: 2019-10-03
   end: 2019-10-06
   sponsor: https://pyconbalkan.com/faq
+  sub: PY
   location:
     latitude: 44.8178131
     longitude: 20.4568974
@@ -2274,6 +2321,7 @@
   date: August 23 - 25, 2019
   start: 2019-08-23
   end: 2019-08-25
+  sub: PY
   location:
     latitude: -41.2887953
     longitude: 174.7772114
@@ -2288,6 +2336,7 @@
   start: 2019-10-09
   end: 2019-10-13
   sponsor: https://de.pycon.org/sponsors
+  sub: PY,PYDATA
   location:
     latitude: 52.366528349999996
     longitude: 13.488062884599568
@@ -2302,6 +2351,7 @@
   date: September 13 - 17, 2019
   start: 2019-09-13
   end: 2019-09-17
+  sub: PY
   location:
     latitude: 51.4816546
     longitude: -3.1791934
@@ -2316,6 +2366,7 @@
   start: 2019-09-16
   end: 2019-09-17
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/viewform
+  sub: PY
   location:
     latitude: 35.683805050000004
     longitude: 139.98897671289967
@@ -2331,6 +2382,7 @@
   start: 2019-08-06
   end: 2019-08-10
   sponsor: https://africa.pycon.org/sponsor
+  sub: PY
   location:
     latitude: 5.5571096
     longitude: -0.2012376
@@ -2344,11 +2396,26 @@
   date: August 29 - 31, 2019
   start: 2019-08-29
   end: 2019-08-31
+  sub: PY
   location:
     latitude: 20.6407176
     longitude: -105.220306
 
-- conference: PyGotham
+- conference: PyColorado
+  year: 2019
+  link: https://pycolorado.org/
+  cfp_link: https://www.papercall.io/pycolorado
+  cfp: '2019-05-17 12:05:00'
+  timezone: UTC
+  place: Denver, Colorado, USA
+  date: September 7 - 8, 2019
+  start: 2019-09-07
+  end: 2019-09-08
+  location:
+    latitude: 39.7392364
+    longitude: -104.984862
+
+- conference: PyGotham TV
   year: 2019
   link: https://2019.pygotham.org/
   cfp_link: https://cfp.pygotham.org
@@ -2401,6 +2468,7 @@
   start: 2021-07-26
   end: 2021-08-02
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+  sub: PY
 
 - conference: PyCon Spain
   year: 2019
@@ -2411,6 +2479,7 @@
   date: October 4 - 6, 2019
   start: 2019-10-04
   end: 2019-10-06
+  sub: PY
   location:
     latitude: 38.3436365
     longitude: -0.4881708
@@ -2425,6 +2494,7 @@
   start: 2019-07-19
   end: 2019-07-21
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -8.05389
     longitude: -34.88111
@@ -2438,6 +2508,7 @@
   start: 2019-08-02
   end: 2019-08-06
   sponsor: https://2019.pycon-au.org/sponsor
+  sub: PY
   location:
     latitude: -33.8698439
     longitude: 151.2082848
@@ -2467,6 +2538,7 @@
   date: July 12 - 15, 2019
   start: 2019-07-12
   end: 2019-07-15
+  sub: PYDATA
   location:
     latitude: 51.5074456
     longitude: -0.1277653
@@ -2480,6 +2552,7 @@
   date: July 8 - 14, 2019
   start: 2019-07-08
   end: 2019-07-14
+  sub: SCIPY
   location:
     latitude: 30.2711286
     longitude: -97.7436995
@@ -2494,6 +2567,7 @@
   start: 2019-05-02
   end: 2019-05-05
   sponsor: https://pycon.it/en/sponsor
+  sub: PY
   location:
     latitude: 43.7698712
     longitude: 11.2555757
@@ -2509,6 +2583,7 @@
   start: 2019-05-01
   end: 2019-05-10
   sponsor: https://us.pycon.org/2019/sponsors/prospectus
+  sub: PY
   location:
     latitude: 41.4996574
     longitude: -81.6936772
@@ -2523,6 +2598,7 @@
   start: 2019-02-15
   end: 2019-02-17
   sponsor: https://drive.google.com/file/d/1DEY7aYs7byXUwZLozHhoHs8uuLHq_la1/view
+  sub: PY
   location:
     latitude: 53.9024716
     longitude: 27.5618225
@@ -2579,9 +2655,24 @@
   date: February 8 - 10, 2019
   start: 2019-02-08
   end: 2019-02-10
+  sub: PY
   location:
     latitude: 6.2443382
     longitude: -75.573553
+
+- conference: Flask Conf Brasil
+  year: 2019
+  link: https://2019.flask.python.org.br/
+  cfp_link: https://speakerfight.com/events/flaskconf-2018/
+  cfp: '2018-08-01 23:55:00'
+  place: "Florian\xF3polis, Santa Catarina, Brazil"
+  date: September 6 - 8, 2019
+  start: 2019-09-06
+  end: 2019-09-08
+  sub: WEB
+  location:
+    latitude: -27.5973002
+    longitude: -48.5496098
 
 - conference: Python Nordeste
   year: 2018
@@ -2595,6 +2686,7 @@
   start: 2018-05-24
   end: 2018-05-26
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -7.23056
     longitude: -35.88111
@@ -2610,6 +2702,7 @@
   start: 2017-06-08
   end: 2017-06-10
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -2.5307316
     longitude: -44.3068265
@@ -2623,6 +2716,7 @@
   date: October 7 - 9, 2016
   start: 2016-10-07
   end: 2016-10-09
+  sub: PYDATA
   location:
     latitude: 40.4631789
     longitude: -88.8196613
@@ -2638,6 +2732,7 @@
   start: 2016-06-09
   end: 2016-06-11
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -2.5307316
     longitude: -44.3068265
@@ -2650,6 +2745,7 @@
   date: June 19 - 21, 2015
   start: 2015-06-19
   end: 2015-06-21
+  sub: PYDATA
   location:
     latitude: 51.512773
     longitude: -0.0906448
@@ -2665,6 +2761,7 @@
   start: 2015-05-15
   end: 2015-06-16
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -5.7944777
     longitude: -35.2119324
@@ -2679,6 +2776,7 @@
   start: 2014-05-01
   end: 2014-05-03
   twitter: pythonnordeste
+  sub: PY
   location:
     latitude: -5.7944777
     longitude: -35.2119324
@@ -2691,6 +2789,7 @@
   date: February 21 - 23, 2014
   start: 2014-02-21
   end: 2014-02-23
+  sub: PYDATA
   location:
     latitude: 51.5048954
     longitude: -0.0190006
@@ -2703,6 +2802,7 @@
   date: May 24 - 25, 2013
   start: 2013-05-24
   end: 2013-05-25
+  sub: PY
   location:
     latitude: -3.7304512
     longitude: -38.5217989

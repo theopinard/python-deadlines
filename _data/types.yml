@@ -10,3 +10,9 @@
 - name: Python for Web
   sub: WEB
   color: "#0D0A0B"
+- name: Python for Business
+  sub: BIZ
+  color: "#A8B9CC"
+- name: Python for Earth
+  sub: GEO
+  color: "#310c0c"
