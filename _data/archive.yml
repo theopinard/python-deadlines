@@ -1222,11 +1222,11 @@
   date: November 9 - 11, 2022
   start: 2022-11-09
   end: 2022-11-11
+  sponsor: https://pydata.org/nyc2022/sponsors
   sub: PYDATA
   location:
     latitude: 40.7127281
     longitude: -74.0060152
-  sponsor: https://pydata.org/nyc2022/sponsors
 
 - conference: PyCon South Africa
   year: 2022

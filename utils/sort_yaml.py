@@ -97,6 +97,15 @@ def tidy_dates(data):
     return data
 
 
+def tidy_titles(data):
+    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
+        if "conference" in q:
+            data[i]["conference"] = (
+                q["conference"].strip().replace("Pycon", "PyCon").replace("Pydata", "PyData").replace("Pyday", "PyDay")
+            )
+    return data
+
+
 def split_data(data):
     conf, tba, expired, legacy = [], [], [], []
     for q in tqdm(data):
@@ -229,6 +238,10 @@ def sort_data(base="", prefix=""):
     print("Cleaning Dates")
     data = tidy_dates(data)
 
+    # Clean Titles
+    print("Cleaning Titles")
+    data = tidy_titles(data)
+
     # Geocode Data
     print("Adding Lat Lon from Place")
     data = add_latlon(data)
@@ -239,7 +252,7 @@ def sort_data(base="", prefix=""):
 
     # Check Links
     print("Checking Links")
-    data = check_links(data)
+    # data = check_links(data)
 
     # Split data by cfp
     print("Splitting conferences, tba, and archive")
