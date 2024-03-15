@@ -110,15 +110,6 @@
     latitude: 44.9379672
     longitude: 7.5400398
 
-- conference: Python Web Conference
-  year: 2021
-  link: https://pythonwebconference.com
-  cfp: TBA
-  place: Online
-  date: March 22 - 27, 2021
-  start: 2021-03-22
-  end: 2021-03-27
-
 - conference: PyCon Cameroon
   year: 2021
   link: https://web.archive.org/web/20200806193219/http://pythoncm.org/pycon.html
@@ -443,15 +434,6 @@
     latitude: 25.0560586
     longitude: 121.4437641
 
-- conference: PyCon Japan
-  year: 2020
-  link: https://pycon.jp/2020/
-  cfp: TBA
-  place: Online
-  date: August 28 - 30, 2020
-  start: 2020-08-28
-  end: 2020-08-30
-
 - conference: EuroSciPy
   year: 2020
   link: https://www.euroscipy.org/
@@ -477,15 +459,6 @@
   location:
     latitude: -3.7304512
     longitude: -38.5217989
-
-- conference: Python Web Conference
-  year: 2020
-  link: https://2020.pythonwebconf.com/
-  cfp: TBA
-  place: Online
-  date: June 17 - 19, 2020
-  start: 2020-06-17
-  end: 2020-06-19
 
 - conference: PyCon Czechia
   year: 2020
@@ -834,30 +807,6 @@
     latitude: 25.0375198
     longitude: 121.5636796
 
-- conference: AfroPython
-  year: 2019
-  link: https://afropython.org/
-  cfp: TBA
-  place: Rio de Janeiro, Brazil
-  date: September 14 - 15, 2019
-  start: 2019-09-14
-  end: 2019-09-15
-  location:
-    latitude: -22.9110137
-    longitude: -43.2093727
-
-- conference: PyCon UK
-  year: 2019
-  link: https://web.archive.org/web/20190905015126/http://2019.pyconuk.org/
-  cfp: TBA
-  place: Cardiff, UK
-  date: September 13 - 17, 2019
-  start: 2019-09-13
-  end: 2019-09-17
-  location:
-    latitude: 51.4816546
-    longitude: -3.1791934
-
 - conference: PyColorado
   year: 2019
   link: https://pycolorado.org/
@@ -881,15 +830,6 @@
   location:
     latitude: -27.5973002
     longitude: -48.5496098
-
-- conference: IndyPy Web Conf
-  year: 2019
-  link: https://web.archive.org/web/20191220043242/https://2019.indypy.org/webconf/
-  cfp: TBA
-  place: Online
-  date: August 23rd, 2019
-  start: 2019-08-23
-  end: 2019-08-23
 
 - conference: PyCon Korea
   year: 2019
