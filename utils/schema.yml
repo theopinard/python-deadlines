@@ -1,4 +1,5 @@
 - conference: BestConf                     # Title of conference without year
+  alt_name: Bestest Conf                   # Title of conference with year
   year: 2022                               # Year
   link: link-to-website.com                # URL to conference
   cfp_link: link-to-cfp.com                # URL to call for proposals (Optional)

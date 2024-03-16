@@ -122,6 +122,7 @@
   sub: PY
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2023
   link: https://pycon.se
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/viewform
@@ -171,6 +172,7 @@
     longitude: 12.5700724
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2023
   link: https://za.pycon.org/
   cfp_link: https://za.pycon.org/talks/how-to-submit-a-talk
@@ -253,6 +255,7 @@
     longitude: -6.2602964
 
 - conference: PyCon Indonesia
+  alt_name: PyCon ID
   year: 2023
   link: https://pycon.id/
   cfp_link: https://papercall.io/pyconid2023
@@ -374,6 +377,7 @@
     longitude: -38.4812772
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2023
   link: https://cz.pycon.org/2023/
   cfp_link: https://cz.pycon.org/2023/cfp
@@ -394,6 +398,7 @@
     longitude: 14.446459273258009
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2023
   link: https://2023.es.pycon.org/
   cfp_link: https://2023.es.pycon.org/c4p
@@ -509,6 +514,7 @@
     longitude: 55.18853865430702
 
 - conference: PyCon Malaysia
+  alt_name: PyCon MY
   year: 2023
   link: https://pycon.my/
   cfp_link: https://papercall.io/pycon-my-2023
@@ -593,6 +599,7 @@
     longitude: -79.0392919
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2023
   link: https://2023.pycon.org.au/
   cfp_link: https://2023.pycon.org.au/program
@@ -664,6 +671,7 @@
     longitude: 138.5999312
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2023
   link: https://pycon.ee/
   cfp_link: https://pyconestonia.typeform.com/to/hBOEtTQ3
@@ -681,6 +689,7 @@
     longitude: 24.7453688
 
 - conference: PyCon Latin America
+  alt_name: PyCon LatAm
   year: 2023
   link: https://pylatam.org
   cfp_link: https://papercall.io/pyconlatam23
@@ -747,6 +756,7 @@
     longitude: 34.8594762
 
 - conference: PyCon Taiwan
+  alt_name: PyCon TW
   year: 2023
   link: https://tw.pycon.org/2023/
   cfp: '2023-03-31 23:59:59'
@@ -792,7 +802,8 @@
     latitude: -16.4955455
     longitude: -68.1336229
 
-- conference: PyCon Poland
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2023
   link: https://pl.pycon.org/2023/
   cfp: '2023-03-27 23:59:00'
@@ -827,6 +838,7 @@
     longitude: 14.4212535
 
 - conference: PyCon Lithuania
+  alt_name: PyCon LT
   year: 2023
   link: https://pycon.lt/2024
   cfp: '2023-03-18 00:00:00'
@@ -982,6 +994,7 @@
     longitude: -97.7436995
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2023
   link: https://pycon.fr/2023/
   cfp_link: https://cfp-2023.pycon.fr/cfp
@@ -1000,6 +1013,7 @@
     longitude: -0.5800364
 
 - conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
   year: 2023
   link: https://2023.pycon.de/
   cfp_link: https://2023.pycon.de/blog/call-for-proposals
@@ -1019,6 +1033,7 @@
     longitude: 13.3888599
 
 - conference: PyCon Philippines
+  alt_name: PyCon PH
   year: 2023
   link: https://pycon-2023.python.ph/
   cfp: '2022-12-23 23:59:00'
@@ -1175,6 +1190,7 @@
     longitude: 34.7818064
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2022
   link: http://pycon.se
   cfp: '2022-09-11 23:59:59'
@@ -1233,6 +1249,7 @@
     longitude: -74.0060152
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2022
   link: https://za.pycon.org/
   cfp: '2022-08-19 23:59:00'
@@ -1255,7 +1272,8 @@
   end: 2022-09-16
   sub: SCIPY
 
-- conference: PyCon Poland
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2022
   link: https://pl.pycon.org/2022/
   cfp: '2022-08-13 23:59:00'
@@ -1389,6 +1407,7 @@
     longitude: -8.6107884
 
 - conference: PyCon Slovakia
+  alt_name: PyCon SK
   year: 2022
   link: https://2022.pycon.sk/en/
   cfp: '2022-06-30 23:59:59'
@@ -1450,6 +1469,7 @@
     longitude: 7.5878261
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2022
   link: https://2022.pycon.jp/
   cfp: '2022-06-12 23:59:59'
@@ -1505,6 +1525,7 @@
     longitude: -8.6107884
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2022
   link: https://2022.es.pycon.org/
   cfp: '2022-05-31 23:59:59'
@@ -1640,6 +1661,7 @@
     longitude: -6.2602964
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2022
   link: https://web.archive.org/web/20220801000000*/https://pycon.ee/
   cfp: '2022-04-01 23:59:59'
@@ -1736,6 +1758,7 @@
     longitude: 11.2555757
 
 - conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
   year: 2022
   link: https://2022.pycon.de/
   cfp_link: https://2022.pycon.de/call-for-proposals
@@ -1894,6 +1917,7 @@
   sub: WEB
 
 - conference: PyCon Indonesia
+  alt_name: PyCon ID
   year: 2021
   link: https://pycon.id/
   cfp: '2021-10-31 23:59:00'
@@ -1959,6 +1983,7 @@
     longitude: 30.7322878
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2021
   link: https://2021.za.pycon.org/
   cfp: '2021-08-16 23:59:00'
@@ -1982,6 +2007,7 @@
   sub: PYDATA
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2021
   link: https://2021.pycon.jp/
   cfp: '2021-07-10 23:59:00'
@@ -2101,6 +2127,7 @@
     longitude: 7.5878261
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2020
   link: https://www.pycon.se/2020/
   cfp: '2020-10-01 00:00:00'
@@ -2142,6 +2169,7 @@
   sub: WEB
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2020
   link: https://pycon.jp/2020/
   cfp: '2020-05-31 23:59:00'
@@ -2242,6 +2270,7 @@
     longitude: -99.1331785
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2019
   link: https://www.pycon.se/
   cfp_link: https://forms.gle/hZWhUePsHB34xtUM9
@@ -2327,6 +2356,7 @@
     longitude: 174.7772114
 
 - conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
   year: 2019
   link: https://2019.pycon.de/
   cfp_link: https://2019.pycon.de/call-for-proposals
@@ -2357,6 +2387,7 @@
     longitude: -3.1791934
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2019
   link: https://pycon.jp/2019/
   cfp_link: https://papercall.io/pyconjp2019
@@ -2388,6 +2419,7 @@
     longitude: -0.2012376
 
 - conference: PyCon Latin America
+  alt_name: PyCon LatAm
   year: 2019
   link: https://pylatam.org
   cfp_link: https://papercall.io/pyconlatam
@@ -2471,6 +2503,7 @@
   sub: PY
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2019
   link: https://2019.es.pycon.org/
   cfp_link: https://easychair.org/cfp/pycones2019
@@ -2500,6 +2533,7 @@
     longitude: -34.88111
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2019
   link: https://2019.pycon-au.org/
   cfp: '2019-05-05 23:59:00'
@@ -2674,7 +2708,8 @@
     latitude: -27.5973002
     longitude: -48.5496098
 
-- conference: PyCon Poland
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2018
   link: https://pl.pycon.org/2018/
   cfp: '2018-05-13 23:00:00'
@@ -2704,7 +2739,21 @@
     latitude: -7.23056
     longitude: -35.88111
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2018
+  link: https://us.pycon.org/2018/
+  cfp: '2018-01-03 23:59:00'
+  place: Cleveland, USA
+  date: May 9 - 17, 2018
+  start: 2018-05-09
+  end: 2018-05-17
+  sub: PY
+  location:
+    latitude: 41.4996574
+    longitude: -81.6936772
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2017
   link: https://pl.pycon.org/2017/index_en.html
   cfp: '2017-05-31 23:59:59'
@@ -2733,6 +2782,19 @@
     latitude: -2.5307316
     longitude: -44.3068265
 
+- conference: PyCon US
+  year: 2017
+  link: https://us.pycon.org/2017/
+  cfp: '2017-01-03 23:59:59'
+  place: Portland, USA
+  date: May 17 - 25, 2017
+  start: 2017-05-17
+  end: 2017-05-25
+  sub: PY
+  location:
+    latitude: 45.5202471
+    longitude: -122.674194
+
 - conference: PyData DC
   year: 2016
   link: https://web.archive.org/web/20161007055823/http://pydata.org:80/dc2016/
@@ -2747,7 +2809,8 @@
     latitude: 40.4631789
     longitude: -88.8196613
 
-- conference: PyCon Poland
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2016
   link: https://pl.pycon.org/2016/
   cfp: '2016-06-10 23:59:00'
@@ -2818,7 +2881,34 @@
     latitude: -5.7944777
     longitude: -35.2119324
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2016
+  link: https://us.pycon.org/2016/
+  cfp: '2015-01-03 23:59:00'
+  place: Portland, USA
+  date: May 28 - June 5, 2016
+  start: 2016-05-28
+  end: 2016-06-05
+  sub: PY
+  location:
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: PyCon US
+  year: 2015
+  link: https://us.pycon.org/2015/
+  cfp: '2014-09-15 23:59:00'
+  place: Montreal, Canada
+  date: April 8 - 16, 2015
+  start: 2015-04-08
+  end: 2015-04-16
+  sub: PY
+  location:
+    latitude: 45.5031824
+    longitude: -73.5698065
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2014
   link: https://pl.pycon.org/2014/en/
   cfp: '2014-07-14 23:59:00'
@@ -2859,7 +2949,21 @@
     latitude: 51.5048954
     longitude: -0.0190006
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2014
+  link: https://us.pycon.org/2014/
+  cfp: '2013-09-15 23:59:00'
+  place: Montreal, Canada
+  date: April 9 - 17, 2014
+  start: 2014-04-09
+  end: 2014-04-17
+  sub: PY
+  location:
+    latitude: 45.5031824
+    longitude: -73.5698065
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2013
   link: https://pl.pycon.org/2013/
   cfp: '2013-07-28 23:59:00'
@@ -2885,7 +2989,34 @@
     latitude: -3.7304512
     longitude: -38.5217989
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2013
+  link: https://us.pycon.org/2013/
+  cfp: '2012-09-28 23:59:00'
+  place: Santa Clara, USA
+  date: March 13 - 21, 2013
+  start: 2013-03-13
+  end: 2013-03-21
+  sub: PY
+  location:
+    latitude: 37.2333253
+    longitude: -121.6846349
+
+- conference: PyCon France
+  year: 2012
+  link: https://www.pycon.fr/2012/
+  cfp: '2012-07-15 23:59:00'
+  place: Paris, France
+  date: September 13 - 16, 2012
+  start: 2012-09-13
+  end: 2012-09-16
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2012
   link: https://pl.pycon.org/2012/
   cfp: '2012-06-24 23:59:59'
@@ -2899,6 +3030,7 @@
     longitude: 17.1275518
 
 - conference: PyCon Germany
+  alt_name: PyCon DE
   year: 2012
   link: https://web.archive.org/web/20121028040216/http://2012.de.pycon.org/
   cfp: '2012-06-15 23:59:00'
@@ -2911,7 +3043,34 @@
     latitude: 51.3406321
     longitude: 12.3747329
 
+- conference: PyCon US
+  year: 2012
+  link: https://us.pycon.org/2012/
+  cfp: '2011-10-12 23:59:00'
+  place: Santa Clara, USA
+  date: March 7 - 15, 2012
+  start: 2012-03-07
+  end: 2012-03-15
+  sub: PY
+  location:
+    latitude: 37.2333253
+    longitude: -121.6846349
+
+- conference: PyCon France
+  year: 2011
+  link: https://www.pycon.fr/2011/category/conference.html
+  cfp: '2011-08-01 23:59:00'
+  place: Paris, France
+  date: September 17 - 18, 2011
+  start: 2011-09-17
+  end: 2011-09-18
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217
+
 - conference: PyCon Germany
+  alt_name: PyCon DE
   year: 2011
   link: https://web.archive.org/web/20120728002815/http://2011.de.pycon.org/2011/home/
   cfp: '2011-07-15 23:59:00'
@@ -2924,7 +3083,8 @@
     latitude: 51.3406321
     longitude: 12.3747329
 
-- conference: PyCon Poland
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2011
   link: https://pl.pycon.org/2011/
   cfp: '2011-07-02 23:59:00'
@@ -2937,7 +3097,34 @@
     latitude: 50.85402845
     longitude: 20.60991568734511
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2011
+  link: https://web.archive.org/web/20101126050309/http://us.pycon.org/2011/about/
+  cfp: '2010-11-01 23:59:00'
+  place: Atlanta, USA
+  date: March 9 - 17, 2011
+  start: 2011-03-09
+  end: 2011-03-17
+  sub: PY
+  location:
+    latitude: 33.7489924
+    longitude: -84.3902644
+
+- conference: PyCon France
+  year: 2010
+  link: https://www.pycon.fr/2010/category/conference.html
+  cfp: '2010-07-15 23:59:00'
+  place: Paris, France
+  date: August 28 - 29, 2010
+  start: 2010-08-28
+  end: 2010-08-29
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2010
   link: https://pl.pycon.org/2010/
   cfp: '2010-07-07 23:59:00'
@@ -2951,7 +3138,34 @@
     latitude: 49.7181505
     longitude: 18.8028338
 
-- conference: PyCon Poland
+- conference: PyCon US
+  year: 2009
+  link: https://web.archive.org/web/20090221061927/http://us.pycon.org/2009/about/
+  cfp: '2009-11-03 23:59:00'
+  place: Chicago, USA
+  date: March 25 - April 2, 2009
+  start: 2009-03-25
+  end: 2009-04-02
+  sub: PY
+  location:
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: PyCon US
+  year: 2010
+  link: https://web.archive.org/web/20090813153340/http://us.pycon.org/2010/about/
+  cfp: '2009-10-01 23:59:00'
+  place: Atlanta, USA
+  date: February 17 - 25, 2010
+  start: 2010-02-17
+  end: 2010-02-25
+  sub: PY
+  location:
+    latitude: 33.7489924
+    longitude: -84.3902644
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2009
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2009/
   cfp: '2009-06-26 23:59:00'
@@ -2964,7 +3178,34 @@
     latitude: 49.7181505
     longitude: 18.8028338
 
-- conference: PyCon Poland
+- conference: PyCon France
+  year: 2009
+  link: https://web.archive.org/web/20090307100440/http://www.pycon.fr/sessions
+  cfp: '2009-04-24 23:59:00'
+  place: Paris, France
+  date: May 30 - 31, 2009
+  start: 2009-05-30
+  end: 2009-05-31
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217
+
+- conference: PyCon US
+  year: 2008
+  link: https://web.archive.org/web/20080906013119/http://us.pycon.org/2008/about/
+  cfp: '2008-11-16 23:59:00'
+  place: Chicago, USA
+  date: March 13 - 20, 2008
+  start: 2008-03-13
+  end: 2008-03-20
+  sub: PY
+  location:
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: PyCon Poland$1
+  alt_name: PyCon PL
   year: 2008
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2008/
   cfp: '2008-07-02 23:59:00'
@@ -2976,3 +3217,87 @@
   location:
     latitude: 50.0955793
     longitude: 18.5419933
+
+- conference: PyCon France
+  year: 2008
+  link: https://web.archive.org/web/20080513070424/http://fr.pycon.org/
+  cfp: '2008-03-30 23:59:00'
+  place: Paris, France
+  date: May 17 - 18, 2008
+  start: 2008-05-17
+  end: 2008-05-18
+  sub: PY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217
+
+- conference: PyCon US
+  alt_name: PyCon TX
+  year: 2007
+  link: https://web.archive.org/web/20060908054034/http://us.pycon.org/TX2007/HomePage
+  cfp: '2006-10-31 23:59:00'
+  place: Dallas, USA
+  date: February 22 - March 1, 2007
+  start: 2007-02-22
+  end: 2007-03-01
+  sub: PY
+  location:
+    latitude: 32.7762719
+    longitude: -96.7968559
+
+- conference: PyCon US
+  alt_name: PyCon TX
+  year: 2006
+  link: https://web.archive.org/web/20060209040004/http://us.pycon.org/TX2006/HomePage
+  cfp: '2005-10-31 23:59:00'
+  place: Addison, USA
+  date: February 23 - March 2, 2006
+  start: 2006-02-23
+  end: 2006-03-02
+  sub: PY
+  location:
+    latitude: 41.931696
+    longitude: -87.9889556
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2005
+  link: https://web.archive.org/web/20050421013434/http://www.pycon.org/dc2005
+  cfp: '2004-12-31 23:59:00'
+  place: Washington DC, USA
+  date: March 19 - 25, 2005
+  start: 2005-03-19
+  end: 2005-03-25
+  sub: PY
+  location:
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2004
+  link: https://web.archive.org/web/20040401171437/http://pycon.org/dc2004/
+  cfp: '2004-01-15 23:59:00'
+  place: Washington DC, USA
+  date: March 20 - 26, 2004
+  start: 2004-03-20
+  end: 2004-03-26
+  sub: PY
+  location:
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2003
+  link: https://wiki.python.org/moin/PyConDC2003/
+  cfp: '2002-12-15 23:59:00'
+  cfp_ext: '2003-01-15 23:59:00'
+  place: Washington DC, USA
+  date: March 26 - 28, 2003
+  start: 2003-03-26
+  end: 2003-03-28
+  sub: PY
+  location:
+    latitude: 38.8950368
+    longitude: -77.0365427

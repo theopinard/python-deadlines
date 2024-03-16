@@ -78,6 +78,7 @@
   sub: PY
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2021
   link: https://2021.pycon.org.au/
   cfp: TBA
@@ -357,6 +358,7 @@
     longitude: 13.3888599
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2020
   link: https://pycon.ee/
   cfp: TBA
@@ -385,7 +387,8 @@
   end: 2020-10-06
   sub: PY
 
-- conference: PyCon ES
+- conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2020
   link: https://2020.es.pycon.org/
   cfp: TBA
@@ -512,6 +515,7 @@
     longitude: -38.5217989
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2020
   link: https://cz.pycon.org/2020/
   cfp: TBA
@@ -789,6 +793,7 @@
     longitude: 67.0207055
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2019
   link: https://za.pycon.org/
   cfp: TBA
@@ -815,6 +820,7 @@
     longitude: -74.0835643
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2019
   link: https://pycon.ee/
   cfp: TBA
@@ -986,6 +992,7 @@
     longitude: 100.4935089
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2019
   link: https://cz.pycon.org/2019/
   cfp: TBA
@@ -1257,6 +1264,7 @@
     longitude: 4.351697
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2018
   link: https://www.pycon.se/
   cfp: TBA
@@ -1283,6 +1291,7 @@
     longitude: -103.338396
 
 - conference: PyCon Argentina
+  alt_name: PyCon AR
   year: 2018
   link: https://pycon.python.org.ar/
   cfp: TBA
@@ -1473,6 +1482,7 @@
     longitude: -1.9856145
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2018
   link: https://za.pycon.org/
   cfp: TBA
@@ -1499,6 +1509,7 @@
     longitude: 78.4740613
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2018
   link: https://pycon.ee/
   cfp: TBA
@@ -1524,6 +1535,7 @@
     longitude: 21.0067249
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2018
   link: https://pycon.jp/2018/
   cfp: TBA
@@ -1601,6 +1613,7 @@
     longitude: 11.1257601
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2018
   link: https://2018.pycon-au.org/
   cfp: TBA
@@ -1820,6 +1833,7 @@
     longitude: 34.8246812
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2018
   link: http://pycon.cz/
   cfp: TBA
@@ -1870,19 +1884,6 @@
   location:
     latitude: 49.4093582
     longitude: 8.694724
-
-- conference: PyCon US
-  year: 2018
-  link: https://us.pycon.org/2018/
-  cfp: TBA
-  place: Cleveland, USA
-  date: May 9 - 18, 2018
-  start: 2018-05-09
-  end: 2018-05-18
-  sub: PY
-  location:
-    latitude: 41.4996574
-    longitude: -81.6936772
 
 - conference: GeoPython
   year: 2018
@@ -1975,6 +1976,7 @@
     longitude: 27.5618225
 
 - conference: PyCon Philippines
+  alt_name: PyCon PH
   year: 2018
   link: https://pycon.python.ph/
   cfp: TBA
@@ -2191,6 +2193,7 @@
     longitude: -73.5698065
 
 - conference: PyCon Argentina
+  alt_name: PyCon AR
   year: 2017
   link: http://ar.pycon.org/
   cfp: TBA
@@ -2419,6 +2422,7 @@
     longitude: 78.64471797598779
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2017
   link: https://za.pycon.org/
   cfp: TBA
@@ -2445,6 +2449,7 @@
     longitude: 36.87930533266044
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2017
   link: https://2017.es.pycon.org/
   cfp: TBA
@@ -2497,6 +2502,7 @@
     longitude: -51.1796385
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2017
   link: https://pycon.jp/2017/en/
   cfp: TBA
@@ -2703,6 +2709,7 @@
     longitude: -99.1331785
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2017
   link: https://cz.pycon.org/2023/
   cfp: TBA
@@ -2753,19 +2760,6 @@
   location:
     latitude: 41.3828939
     longitude: 2.1774322
-
-- conference: PyCon US
-  year: 2017
-  link: https://us.pycon.org/2017/
-  cfp: TBA
-  place: Portland, USA
-  date: May 17 - 26, 2017
-  start: 2017-05-17
-  end: 2017-05-26
-  sub: PY
-  location:
-    latitude: 45.5202471
-    longitude: -122.674194
 
 - conference: GeoPython
   year: 2017
@@ -2898,6 +2892,7 @@
     longitude: 17.1093063
 
 - conference: PyCon Philippines
+  alt_name: PyCon PH
   year: 2017
   link: https://pycon.python.ph
   cfp: TBA
@@ -3026,6 +3021,7 @@
     longitude: 13.072966153528762
 
 - conference: PyCon Argentina
+  alt_name: PyCon AR
   year: 2016
   link: http://ar.pycon.org
   cfp: TBA
@@ -3116,6 +3112,7 @@
     longitude: 114.125794
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2016
   link: https://cz.pycon.org/2016/
   cfp: TBA
@@ -3206,6 +3203,7 @@
     longitude: -48.5496098
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2016
   link: https://2016.es.pycon.org/es/
   cfp: TBA
@@ -3219,6 +3217,7 @@
     longitude: -2.4628135
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2016
   link: https://za.pycon.org/
   cfp: TBA
@@ -3296,6 +3295,7 @@
     longitude: 77.2090057
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2016
   link: https://pycon.jp/2016/en/
   cfp: TBA
@@ -3374,6 +3374,7 @@
     longitude: 9.941726150411604
 
 - conference: PyCon Malaysia
+  alt_name: PyCon MY
   year: 2016
   link: https://pycon.my/
   cfp: TBA
@@ -3438,6 +3439,7 @@
     longitude: 127.6961188
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2016
   link: https://2016.pycon-au.org/
   cfp: TBA
@@ -3526,19 +3528,6 @@
     latitude: 25.0420743
     longitude: 121.61404600926753
 
-- conference: PyCon US
-  year: 2016
-  link: https://us.pycon.org/2016/
-  cfp: TBA
-  place: Portland, USA
-  date: May 28 - June 6, 2016
-  start: 2016-05-28
-  end: 2016-06-06
-  sub: PY
-  location:
-    latitude: 45.5202471
-    longitude: -122.674194
-
 - conference: PyData Berlin
   year: 2016
   link: https://web.archive.org/web/20160521214556/http://pydata.org:80/berlin2016/
@@ -3603,6 +3592,7 @@
     longitude: 6.5693841
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2016
   link: https://www.pycon.se/
   cfp: TBA
@@ -3846,6 +3836,7 @@
     longitude: 72.82810491917377
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2015
   link: https://2015.es.pycon.org/
   cfp: TBA
@@ -3859,6 +3850,7 @@
     longitude: -0.3763353
 
 - conference: PyCon Czechia
+  alt_name: PyCon CZ
   year: 2015
   link: https://cz.pycon.org/2023/
   cfp: TBA
@@ -3884,6 +3876,7 @@
     longitude: -81.0331309
 
 - conference: PyCon Argentina
+  alt_name: PyCon AR
   year: 2015
   link: http://ar.pycon.org/
   cfp: TBA
@@ -3975,6 +3968,7 @@
     longitude: 26.1027202
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2015
   link: https://pycon.jp/2015/en/
   cfp: TBA
@@ -4001,6 +3995,7 @@
     longitude: 77.590082
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2015
   link: https://www.za.pycon.org/
   cfp: TBA
@@ -4130,6 +4125,7 @@
     longitude: 77.612945
 
 - conference: PyCon Malaysia
+  alt_name: PyCon MY
   year: 2015
   link: https://web.archive.org/web/20150812151551/http://www.pycon.my/pycon-my-2015
   cfp: TBA
@@ -4192,6 +4188,7 @@
     longitude: -83.0007065
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2015
   link: https://2015.pycon-au.org/
   cfp: TBA
@@ -4243,6 +4240,7 @@
     longitude: -97.7436995
 
 - conference: PyCon Philippines
+  alt_name: PyCon PH
   year: 2015
   link: http://ph.pycon.org/
   cfp: TBA
@@ -4345,6 +4343,7 @@
     longitude: 21.0067249
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2015
   link: https://www.pycon.se/
   cfp: TBA
@@ -4407,19 +4406,6 @@
   location:
     latitude: 23.16290525
     longitude: 72.68869496501037
-
-- conference: PyCon US
-  year: 2015
-  link: https://us.pycon.org/2015/
-  cfp: TBA
-  place: Montreal, Canada
-  date: April 8 - 17, 2015
-  start: 2015-04-08
-  end: 2015-04-17
-  sub: PY
-  location:
-    latitude: 45.5031824
-    longitude: -73.5698065
 
 - conference: PyData Paris
   year: 2015
@@ -4780,6 +4766,7 @@
     longitude: -97.7436995
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2014
   link: http://www.za.pycon.org/
   cfp: TBA
@@ -4845,6 +4832,7 @@
     longitude: 174.7772114
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2014
   link: https://pycon.jp/2014/
   cfp: TBA
@@ -4896,6 +4884,7 @@
     longitude: 24.9427473
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2014
   link: https://2014.pycon-au.org/
   cfp: TBA
@@ -5076,6 +5065,7 @@
     longitude: 11.2555757
 
 - conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2014
   link: http://2014.pycon.se/
   cfp: TBA
@@ -5126,19 +5116,6 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
-- conference: PyCon US
-  year: 2014
-  link: https://us.pycon.org/2024/
-  cfp: TBA
-  place: Montreal, Canada
-  date: April 9 - 18, 2014
-  start: 2014-04-09
-  end: 2014-04-18
-  sub: PY
-  location:
-    latitude: 45.5031824
-    longitude: -73.5698065
-
 - conference: PythonCamp
   year: 2014
   link: https://www.barcamptools.eu/pycamp201403
@@ -5153,6 +5130,7 @@
     longitude: 6.959974
 
 - conference: PyCon Malaysia
+  alt_name: PyCon MY
   year: 2014
   link: https://web.archive.org/web/20140301204105/http://www.pycon.my/mini-pycon-my-2014
   cfp: TBA
@@ -5216,6 +5194,7 @@
     longitude: 121.4691024
 
 - conference: PyCon Spain
+  alt_name: PyCon ES
   year: 2013
   link: https://2013.es.pycon.org/
   cfp: TBA
@@ -5319,6 +5298,7 @@
     longitude: 19.14609412691246
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2013
   link: https://za.pycon.org/
   cfp: TBA
@@ -5500,6 +5480,7 @@
     longitude: -83.0007065
 
 - conference: PyCon Australia
+  alt_name: PyCon AU
   year: 2013
   link: https://pycon-au.org/
   cfp: TBA
@@ -5628,19 +5609,6 @@
     latitude: 37.4043966
     longitude: -121.97505187753514
 
-- conference: PyCon US
-  year: 2013
-  link: https://us.pycon.org/2013/
-  cfp: TBA
-  place: Santa Clara, USA
-  date: March 13 - 22, 2013
-  start: 2013-03-13
-  end: 2013-03-22
-  sub: PY
-  location:
-    latitude: 37.2333253
-    longitude: -121.6846349
-
 - conference: PyCon Russia
   year: 2013
   link: https://web.archive.org/web/20130210032917/http://ru.pycon.org/en/
@@ -5716,6 +5684,7 @@
     longitude: -111.886797
 
 - conference: PyCon Argentina
+  alt_name: PyCon AR
   year: 2012
   link: http://ar.pycon.org/2012/default/index
   cfp: TBA
@@ -5858,6 +5827,7 @@
     longitude: 5.9108573
 
 - conference: PyCon South Africa
+  alt_name: PyCon ZA
   year: 2012
   link: https://za.pycon.org/
   cfp: TBA
@@ -5897,6 +5867,7 @@
     longitude: -1.510477
 
 - conference: PyCon Japan
+  alt_name: PyCon JP
   year: 2012
   link: https://2012.pycon.jp/en/index.html
   cfp: TBA
@@ -5908,16 +5879,3 @@
   location:
     latitude: 35.6812665
     longitude: 139.757653
-
-- conference: PyCon France
-  year: 2012
-  link: https://www.pycon.fr/2012/
-  cfp: TBA
-  place: Paris, France
-  date: September 13 - 17, 2012
-  start: 2012-09-13
-  end: 2012-09-17
-  sub: PY
-  location:
-    latitude: 48.8588897
-    longitude: 2.3200410217200766

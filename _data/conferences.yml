@@ -70,6 +70,7 @@
     longitude: -75.198
 
 - conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2024
   link: https://pycon.ee/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ
@@ -87,6 +88,7 @@
     longitude: 24.7453688
 
 - conference: PyCon Taiwan
+  alt_name: PyCon TW
   year: 2024
   link: https://tw.pycon.org/2024/en-us
   cfp_link: https://tw.pycon.org/2024/en-us/speaking/cfp
@@ -344,6 +346,7 @@
     longitude: -97.7436995
 
 - conference: PyCon Lithuania
+  alt_name: PyCon LT
   year: 2024
   link: https://pycon.lt/2024
   cfp_link: https://pycon.lt/2024/call-for-proposals
@@ -395,6 +398,7 @@
     longitude: -122.330062
 
 - conference: PyCon Philippines
+  alt_name: PyCon PH
   year: 2024
   link: https://pycon-2024.python.ph/
   cfp: '2023-12-31 23:59:00'
@@ -411,6 +415,7 @@
     longitude: 120.9782618
 
 - conference: PyCon Slovakia
+  alt_name: PyCon SK
   year: 2024
   link: https://2024.pycon.sk/
   cfp_link: https://2024.pycon.sk/en/cfp
@@ -444,6 +449,7 @@
     longitude: 14.4212535
 
 - conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
   year: 2024
   link: https://pycon.de/
   cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
