@@ -2674,6 +2674,19 @@
     latitude: -27.5973002
     longitude: -48.5496098
 
+- conference: PyCon Poland
+  year: 2018
+  link: https://pl.pycon.org/2018/
+  cfp: '2018-05-13 23:00:00'
+  place: Ossa, Poland
+  date: August 23 - 26, 2018
+  start: 2018-08-23
+  end: 2018-08-26
+  sub: PY
+  location:
+    latitude: 51.8151645
+    longitude: 20.3859912
+
 - conference: Python Nordeste
   year: 2018
   link: https://2018.pythonnordeste.org/
@@ -2690,6 +2703,19 @@
   location:
     latitude: -7.23056
     longitude: -35.88111
+
+- conference: PyCon Poland
+  year: 2017
+  link: https://pl.pycon.org/2017/index_en.html
+  cfp: '2017-05-31 23:59:59'
+  place: Ossa, Poland
+  date: August 17 - 20, 2017
+  start: 2017-08-17
+  end: 2017-08-20
+  sub: PY
+  location:
+    latitude: 51.8151645
+    longitude: 20.3859912
 
 - conference: Python Nordeste
   year: 2017
@@ -2720,6 +2746,19 @@
   location:
     latitude: 40.4631789
     longitude: -88.8196613
+
+- conference: PyCon Poland
+  year: 2016
+  link: https://pl.pycon.org/2016/
+  cfp: '2016-06-10 23:59:00'
+  place: Ossa, Poland
+  date: October 13 - 16, 2016
+  start: 2016-10-13
+  end: 2016-10-16
+  sub: PY
+  location:
+    latitude: 51.8151645
+    longitude: 20.3859912
 
 - conference: Python Nordeste
   year: 2016
@@ -2779,6 +2818,19 @@
     latitude: -5.7944777
     longitude: -35.2119324
 
+- conference: PyCon Poland
+  year: 2014
+  link: https://pl.pycon.org/2014/en/
+  cfp: '2014-07-14 23:59:00'
+  place: Szczyrk, Poland
+  date: October 16 - 19, 2014
+  start: 2014-10-16
+  end: 2014-10-19
+  sub: PY
+  location:
+    latitude: 49.69649115
+    longitude: 19.010946935372793
+
 - conference: Python Nordeste
   year: 2014
   link: https://2014.pythonnordeste.org/
@@ -2807,6 +2859,19 @@
     latitude: 51.5048954
     longitude: -0.0190006
 
+- conference: PyCon Poland
+  year: 2013
+  link: https://pl.pycon.org/2013/
+  cfp: '2013-07-28 23:59:00'
+  place: Szczyrk, Poland
+  date: October 17 - 20, 2013
+  start: 2013-10-17
+  end: 2013-10-20
+  sub: PY
+  location:
+    latitude: 49.69649115
+    longitude: 19.010946935372793
+
 - conference: Python Nordeste
   year: 2013
   link: http://2013.pythonnordeste.org/
@@ -2819,6 +2884,19 @@
   location:
     latitude: -3.7304512
     longitude: -38.5217989
+
+- conference: PyCon Poland
+  year: 2012
+  link: https://pl.pycon.org/2012/
+  cfp: '2012-06-24 23:59:59'
+  place: "Mas\u0142\xF3w, Poland"
+  date: September 13 - 16, 2012
+  start: 2012-09-13
+  end: 2012-09-16
+  sub: PY
+  location:
+    latitude: 51.3388736
+    longitude: 17.1275518
 
 - conference: PyCon Germany
   year: 2012
@@ -2845,3 +2923,56 @@
   location:
     latitude: 51.3406321
     longitude: 12.3747329
+
+- conference: PyCon Poland
+  year: 2011
+  link: https://pl.pycon.org/2011/
+  cfp: '2011-07-02 23:59:00'
+  place: Kielce, Poland
+  date: September 22 - 25, 2011
+  start: 2011-09-22
+  end: 2011-09-25
+  sub: PY
+  location:
+    latitude: 50.85402845
+    longitude: 20.60991568734511
+
+- conference: PyCon Poland
+  year: 2010
+  link: https://pl.pycon.org/2010/
+  cfp: '2010-07-07 23:59:00'
+  cfp_ext: '2010-07-16 23:59:00'
+  place: Ustron, Poland
+  date: October 8 - 10, 2010
+  start: 2010-10-08
+  end: 2010-10-10
+  sub: PY
+  location:
+    latitude: 49.7181505
+    longitude: 18.8028338
+
+- conference: PyCon Poland
+  year: 2009
+  link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2009/
+  cfp: '2009-06-26 23:59:00'
+  place: Ustron, Poland
+  date: October 16 - 18, 2009
+  start: 2009-10-16
+  end: 2009-10-18
+  sub: PY
+  location:
+    latitude: 49.7181505
+    longitude: 18.8028338
+
+- conference: PyCon Poland
+  year: 2008
+  link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2008/
+  cfp: '2008-07-02 23:59:00'
+  place: Rybnik, Poland
+  date: October 18 - 19, 2008
+  start: 2008-10-18
+  end: 2008-10-19
+  sub: PY
+  location:
+    latitude: 50.0955793
+    longitude: 18.5419933

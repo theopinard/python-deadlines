@@ -1626,19 +1626,6 @@
     latitude: -1.2043218
     longitude: -47.1583944
 
-- conference: PyCon Poland
-  year: 2018
-  link: https://pl.pycon.org/2018/
-  cfp: TBA
-  place: Ossa, Poland
-  date: August 23 - 27, 2018
-  start: 2018-08-23
-  end: 2018-08-27
-  sub: PY
-  location:
-    latitude: 51.8151645
-    longitude: 20.3859912
-
 - conference: PyBay
   year: 2018
   link: https://web.archive.org/web/20180811130121/http://pybay.com/
@@ -2574,19 +2561,6 @@
     latitude: -17.8567035
     longitude: 31.0601584
 
-- conference: PyCon Poland
-  year: 2017
-  link: https://pl.pycon.org/2017/index_en.html
-  cfp: TBA
-  place: Ossa, Poland
-  date: August 17 - 21, 2017
-  start: 2017-08-17
-  end: 2017-08-21
-  sub: PY
-  location:
-    latitude: 51.8151645
-    longitude: 20.3859912
-
 - conference: DjangoCon US
   year: 2017
   link: https://2017.djangocon.us/
@@ -2767,7 +2741,7 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
-- conference: PyDataBCN
+- conference: PyData BCN
   year: 2017
   link: https://web.archive.org/web/20170313045143/http://pydata.org:80/barcelona2017/
   cfp: TBA
@@ -3217,19 +3191,6 @@
   location:
     latitude: 30.2489634
     longitude: 120.2052342
-
-- conference: PyCon Poland
-  year: 2016
-  link: https://pl.pycon.org/2016/
-  cfp: TBA
-  place: Ossa, Poland
-  date: October 13 - 17, 2016
-  start: 2016-10-13
-  end: 2016-10-17
-  sub: PY
-  location:
-    latitude: 51.8151645
-    longitude: 20.3859912
 
 - conference: Python Brasil
   year: 2016
@@ -4793,19 +4754,6 @@
     latitude: 47.1615416
     longitude: 27.5837224
 
-- conference: PyCon Poland
-  year: 2014
-  link: https://pl.pycon.org/2014/en/
-  cfp: TBA
-  place: Szczyrk, Poland
-  date: October 16 - 20, 2014
-  start: 2014-10-16
-  end: 2014-10-20
-  sub: PY
-  location:
-    latitude: 49.69649115
-    longitude: 19.010946935372793
-
 - conference: PyCon Ireland
   year: 2014
   link: http://python.ie/pycon/
@@ -5344,19 +5292,6 @@
   location:
     latitude: 60.1879383
     longitude: 24.8318201
-
-- conference: PyCon Poland
-  year: 2013
-  link: https://pl.pycon.org/2023/
-  cfp: TBA
-  place: Szczyrk, Poland
-  date: October 17 - 21, 2013
-  start: 2013-10-17
-  end: 2013-10-21
-  sub: PY
-  location:
-    latitude: 49.69649115
-    longitude: 19.010946935372793
 
 - conference: PyCon Germany
   year: 2013
@@ -5986,16 +5921,3 @@
   location:
     latitude: 48.8588897
     longitude: 2.3200410217200766
-
-- conference: PyCon Poland
-  year: 2012
-  link: https://pl.pycon.org/2012/
-  cfp: TBA
-  place: "Mas\u0142\xF3w, Poland"
-  date: September 13 - 17, 2012
-  start: 2012-09-13
-  end: 2012-09-17
-  sub: PY
-  location:
-    latitude: 51.3388736
-    longitude: 17.1275518
