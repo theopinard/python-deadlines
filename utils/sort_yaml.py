@@ -98,11 +98,20 @@ def tidy_dates(data):
 
 
 def tidy_titles(data):
+    mappings = {
+        "Pycon": "PyCon",
+        "Pydata": "PyData",
+        "Pyday": "PyDay",
+        "PyCon DE": "PyCon Germany",
+        "PyCon SK": "PyCon Slovakia",
+        "PyCon PL": "PyCon Poland",
+        "PyCon CZ": "PyCon Czechia",
+        "PyCon Italy": "PyCon Italia",
+        "Scipy": "SciPy",
+    }
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         if "conference" in q:
-            data[i]["conference"] = (
-                q["conference"].strip().replace("Pycon", "PyCon").replace("Pydata", "PyData").replace("Pyday", "PyDay")
-            )
+            data[i]["conference"] = q["conference"].strip()
     return data
 
 
@@ -183,6 +192,24 @@ def add_latlon(data):
     return data
 
 
+def auto_add_sub(data):
+    keywords = {
+        "PY": ["pycon", "pyladies", "pyday", "pycamp", "pyjamas"],
+        "WEB": ["django", "flask", "plone", "wagtail", "web"],
+        "PYDATA": ["pydata", "jupyter"],
+        "SCIPY": ["scipy"],
+        "BIZ": ["business"],
+        "GEO": ["geopython"],
+    }
+    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
+        if "sub" not in q:
+            for key, value in keywords.items():
+                if any(word in q["conference"].lower() for word in value):
+                    data[i]["sub"] = key
+                    break
+    return data
+
+
 def check_links(data):
     cache = {}
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
@@ -241,6 +268,10 @@ def sort_data(base="", prefix=""):
     # Clean Titles
     print("Cleaning Titles")
     data = tidy_titles(data)
+
+    # Add Sub
+    print("Adding Sub")
+    data = auto_add_sub(data)
 
     # Geocode Data
     print("Adding Lat Lon from Place")

@@ -2750,6 +2750,19 @@
     latitude: 51.512773
     longitude: -0.0906448
 
+- conference: SciPy Latin America
+  year: 2015
+  link: https://web.archive.org/web/20150508131405/http://conf.scipyla.org/
+  cfp: '2015-04-13 23:59:00'
+  place: Posadas, Argentina
+  date: May 20 - 22, 2015
+  start: 2015-05-20
+  end: 2015-05-22
+  sub: SCIPY
+  location:
+    latitude: -27.4035083
+    longitude: -55.949711812781445
+
 - conference: Python Nordeste
   year: 2015
   link: https://2015.pythonnordeste.org/
