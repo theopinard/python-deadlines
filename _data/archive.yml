@@ -2819,3 +2819,29 @@
   location:
     latitude: -3.7304512
     longitude: -38.5217989
+
+- conference: PyCon Germany
+  year: 2012
+  link: https://web.archive.org/web/20121028040216/http://2012.de.pycon.org/
+  cfp: '2012-06-15 23:59:00'
+  place: Leipzig, Germany
+  date: October 29 - November 3, 2012
+  start: 2012-10-29
+  end: 2012-11-03
+  sub: PY
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: PyCon Germany
+  year: 2011
+  link: https://web.archive.org/web/20120728002815/http://2011.de.pycon.org/2011/home/
+  cfp: '2011-07-15 23:59:00'
+  place: Leipzig, Germany
+  date: October 4 - 9, 2011
+  start: 2011-10-04
+  end: 2011-10-09
+  sub: PY
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329

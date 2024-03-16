@@ -2681,7 +2681,7 @@
   year: 2017
   link: https://web.archive.org/web/20170623225603/http://pydata.org/berlin2017/
   cfp: TBA
-  place: Treskowallee 8, Germany
+  place: Berlin, Germany
   date: June 30 - July 3, 2017
   start: 2017-06-30
   end: 2017-07-03
@@ -3582,7 +3582,7 @@
   year: 2016
   link: https://web.archive.org/web/20160521214556/http://pydata.org:80/berlin2016/
   cfp: TBA
-  place: Kosmos, Germany
+  place: Berlin, Germany
   date: May 20 - 22, 2016
   start: 2016-05-20
   end: 2016-05-22
@@ -4362,7 +4362,7 @@
   year: 2015
   link: https://web.archive.org/web/20150520195754/http://pydata.org:80/berlin2015/
   cfp: TBA
-  place: Betahaus Berlin, Germany
+  place: Berlin, Germany
   date: May 29 - 31, 2015
   start: 2015-05-29
   end: 2015-05-31
@@ -5818,19 +5818,6 @@
   location:
     latitude: 43.6534817
     longitude: -79.3839347
-
-- conference: PyCon Germany
-  year: 2012
-  link: https://web.archive.org/web/20121028040216/http://2012.de.pycon.org/
-  cfp: TBA
-  place: Leipzig, Germany
-  date: October 29 - November 4, 2012
-  start: 2012-10-29
-  end: 2012-11-04
-  sub: PY
-  location:
-    latitude: 51.3406321
-    longitude: 12.3747329
 
 - conference: pyArkansas
   year: 2012
