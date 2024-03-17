@@ -59,12 +59,10 @@ description: Countdown for the Call for Participation of this conference includi
           {% include breadcrumbs.html %}
           <h1>
             <span id="conf-title-href" href="/conference/{{page.conference | slugify}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
-            <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
-                data-text="Countdown to the #{{ page.conference }} {{ page.year }} deadline!" data-show-count="false"
-                style="font-size:13px;">Tweet</a>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </span>
           </h1>
+          {% if page.alt_name %}
+          <h3 id="conf-subtitle">a.k.a. {{page.alt_name}} {{page.year}}</h3>
+          {% endif %}
         </div>
       </div>
       <div class="row">
@@ -141,6 +139,10 @@ description: Countdown for the Call for Participation of this conference includi
             <a id="conf-mastodon" target="_blank" href="{{page.mastodon}}">Mastodon</a>
           </div>
           {% endif %}
+        </div>
+        </div>
+        <div id="conf-deadlines" class="row">
+          <div class="col-12 col-md-6">
           <div class="meta deadline">
             Download Conference deadline:
           </div>
@@ -158,7 +160,6 @@ description: Countdown for the Call for Participation of this conference includi
             <span class="deadline-local-time"></span>
           </div>
         </div>
-
         <div class="col-12 col-md-6">
           {% if page.mastodon %}
           <!-- Mastodon timeline -->
@@ -175,6 +176,30 @@ description: Countdown for the Call for Participation of this conference includi
           {% endif %}
         </div>
       </div>
+      <div class="row" id="conf-share-links">
+        <div class="col-12">
+              <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&via=jesperdramsch&text=I%20found%20this%20Python%20conference:%20{{ page.conference }}%20{{page.year}}"
+                data-toggle="tooltip" title="Tweet on Twitter!">
+                Tweet Conference
+              </a> |
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url={{site.url}}{{page.url}}" data-toggle="tooltip"
+                title="Share on Linkedin!">
+                Link Conference on LinkedIn
+              </a> |
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&t={{ page.conference }}%20{{page.year}}"
+                data-toggle="tooltip" title="Share of Facebook!">
+                Share Conference on FB
+              </a> |
+              <a href="https://api.whatsapp.com/send?text=I%20found%20this%20Python%20conference:%20{{ page.conference }}%20{{page.year}}%20{{site.url}}{{page.url}}"
+                data-action="share/whatsapp/share" data-toggle="tooltip" title="Text on Whatsapp!">
+                Text Conference on WhatsApp
+              </a> |
+              <a href="mailto:?subject=Do%20you%want%20to%20speak%20at%20{{ page.conference }}%20{{page.year}}!&body=Hey!%20the%20CfP%20deadline%20for%20{{ page.conference }}%20{{page.year}}%20is%20approaching!%20%20{{site.url}}{{page.url}}"
+                data-toggle="tooltip" title="Email to a Friend!">
+                Mail Conference
+              </a>
+        </div>
+        </div>
       <div class="row">
         {% if page.location %}
         {% google_map zoom="6" width="100%" %}
