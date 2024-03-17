@@ -240,6 +240,7 @@
       longitude: 78.4740613
 
 - conference: PyCon Ireland
+  alt_name: PyCon IE
   year: 2023
   link: https://python.ie/pycon-2023/
   cfp: '2023-07-16 23:59:00'
@@ -1218,6 +1219,7 @@
       longitude: -64.3494964
 
 - conference: PyCon Ireland
+  alt_name: PyCon IE
   year: 2022
   link: http://python.ie/previous-pycons/pycon-2022/
   cfp_link: https://sessionize.com/pycon-ireland-2022720
