@@ -54,30 +54,30 @@ page_gen:
     - data: 'conferences'
       template: 'conference'
       dir: 'conference'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')+"-"+record['year'].to_s
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')+"-"+record['year'].to_s
       title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
     - data: 'archive'
       template: 'conference'
       dir: 'conference'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')+"-"+record['year'].to_s
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')+"-"+record['year'].to_s
       title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
     - data: 'legacy'
       template: 'conference'
       dir: 'conference'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')+"-"+record['year'].to_s
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')+"-"+record['year'].to_s
       title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
     - data: 'legacy'
       template: 'summary'
       dir: 'series'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
       title_expr: record['conference']+" "+"Conference Summary"
     - data: 'archive'
       template: 'summary'
       dir: 'series'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
       title_expr: record['conference']+" "+"Conference Summary"
     - data: 'conferences'
       template: 'summary'
       dir: 'series'
-      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\w]+/, '-')
+      name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
       title_expr: record['conference']+" "+"Conference Summary"
