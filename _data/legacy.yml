@@ -1534,20 +1534,6 @@
     latitude: 52.2319581
     longitude: 21.0067249
 
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2018
-  link: https://pycon.jp/2018/
-  cfp: TBA
-  place: Tokyo, Japan
-  date: September 17 - 19, 2018
-  start: 2018-09-17
-  end: 2018-09-19
-  sub: PY
-  location:
-    latitude: 35.6812665
-    longitude: 139.757653
-
 - conference: PyCon UK
   year: 2018
   link: https://web.archive.org/web/20181116195614/http://2018.pyconuk.org/
@@ -2501,20 +2487,6 @@
     latitude: -29.1685045
     longitude: -51.1796385
 
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2017
-  link: https://pycon.jp/2017/en/
-  cfp: TBA
-  place: Tokyo, Japan
-  date: September 7 - 11, 2017
-  start: 2017-09-07
-  end: 2017-09-11
-  sub: PY
-  location:
-    latitude: 35.6812665
-    longitude: 139.757653
-
 - conference: PyData Delhi
   year: 2017
   link: https://web.archive.org/web/20210416150353/http://pydata.org/delhi2017/
@@ -3294,20 +3266,6 @@
     latitude: 28.6138954
     longitude: 77.2090057
 
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2016
-  link: https://pycon.jp/2016/en/
-  cfp: TBA
-  place: Tokyo, Japan
-  date: September 20 - 25, 2016
-  start: 2016-09-20
-  end: 2016-09-25
-  sub: PY
-  location:
-    latitude: 35.683805050000004
-    longitude: 139.98897671289967
-
 - conference: PyCon UK
   year: 2016
   link: https://web.archive.org/web/20160915163722/http://2016.pyconuk.org:80/
@@ -3966,20 +3924,6 @@
   location:
     latitude: 44.4361414
     longitude: 26.1027202
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2015
-  link: https://pycon.jp/2015/en/
-  cfp: TBA
-  place: Tokyo, Japan
-  date: October 9 - 13, 2015
-  start: 2015-10-09
-  end: 2015-10-13
-  sub: PY
-  location:
-    latitude: 35.6812665
-    longitude: 139.757653
 
 - conference: PyCon India
   year: 2015
@@ -4830,20 +4774,6 @@
   location:
     latitude: -41.2887953
     longitude: 174.7772114
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2014
-  link: https://pycon.jp/2014/
-  cfp: TBA
-  place: Tokyo, Japan
-  date: September 12 - 16, 2014
-  start: 2014-09-12
-  end: 2014-09-16
-  sub: PY
-  location:
-    latitude: 35.6812665
-    longitude: 139.757653
 
 - conference: PyCon KR
   year: 2014
@@ -5865,17 +5795,3 @@
   location:
     latitude: 52.4081812
     longitude: -1.510477
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2012
-  link: https://2012.pycon.jp/en/index.html
-  cfp: TBA
-  place: Tokyo, Japan
-  date: September 15 - 17, 2012
-  start: 2012-09-15
-  end: 2012-09-17
-  sub: PY
-  location:
-    latitude: 35.6812665
-    longitude: 139.757653

@@ -1,5 +1,4 @@
 ---
-
 - conference: Xtreme Python
   year: 2023
   link: https://xtremepython.dev/2023/
@@ -34,8 +33,8 @@
   start: 2023-12-16
   end: 2023-12-16
   location:
-    latitude: 40.2253569
-    longitude: -82.6881395
+      latitude: 40.2253569
+      longitude: -82.6881395
 
 - conference: EduPy
   year: 2023
@@ -49,8 +48,8 @@
   sponsor: https://slec.net/edupy/posts/callforsponsors/
   sub: PY
   location:
-    latitude: 3.4520339
-    longitude: -76.5329352
+      latitude: 3.4520339
+      longitude: -76.5329352
 
 - conference: PyData Global
   year: 2023
@@ -78,8 +77,8 @@
   twitter: PythonPizzaConf
   sub: PY
   location:
-    latitude: 53.5672881
-    longitude: 9.941726150411604
+      latitude: 53.5672881
+      longitude: 9.941726150411604
 
 - conference: PyCon Chile
   year: 2023
@@ -94,8 +93,8 @@
   sub: PY
   note: Saturday presence, 2 days Online
   location:
-    latitude: -32.5976089
-    longitude: -70.8529753
+      latitude: -32.5976089
+      longitude: -70.8529753
 
 - conference: PyHEP
   year: 2023
@@ -137,8 +136,8 @@
   mastodon: https://fosstodon.org/@pyconsweden
   sub: PY
   location:
-    latitude: 59.3251172
-    longitude: 18.0710935
+      latitude: 59.3251172
+      longitude: 18.0710935
 
 - conference: Django Day Copenhagen
   year: 2023
@@ -151,8 +150,8 @@
   end: 2023-10-06
   sub: WEB
   location:
-    latitude: 55.6867243
-    longitude: 12.5700724
+      latitude: 55.6867243
+      longitude: 12.5700724
 
 - conference: DjangoDay Copenhagen
   year: 2023
@@ -168,8 +167,8 @@
   mastodon: https://fosstodon.org/@djangodenmark
   sub: WEB
   location:
-    latitude: 55.6867243
-    longitude: 12.5700724
+      latitude: 55.6867243
+      longitude: 12.5700724
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -187,8 +186,8 @@
   mastodon: https://fosstodon.org/@PyConZA
   sub: PY
   location:
-    latitude: -29.861825
-    longitude: 31.009909
+      latitude: -29.861825
+      longitude: 31.009909
 
 - conference: PyCon Thailand
   year: 2023
@@ -205,8 +204,8 @@
   sponsor: https://shorturl.at/kqrL4
   sub: PY
   location:
-    latitude: 13.7524938
-    longitude: 100.4935089
+      latitude: 13.7524938
+      longitude: 100.4935089
 
 - conference: PackagingCon
   year: 2023
@@ -220,8 +219,8 @@
   sponsor: https://packaging-con.org/s/sponsorship_prospectus_packagingcon_2023.pdf
   sub: PY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: PyCon India
   year: 2023
@@ -237,8 +236,8 @@
   twitter: PyConIndia
   sub: PY
   location:
-    latitude: 17.360589
-    longitude: 78.4740613
+      latitude: 17.360589
+      longitude: 78.4740613
 
 - conference: PyCon Ireland
   year: 2023
@@ -251,8 +250,8 @@
   end: 2023-11-12
   sub: PY
   location:
-    latitude: 53.3498006
-    longitude: -6.2602964
+      latitude: 53.3498006
+      longitude: -6.2602964
 
 - conference: PyCon Indonesia
   alt_name: PyCon ID
@@ -268,8 +267,8 @@
   twitter: id_pycon
   sub: PY
   location:
-    latitude: -8.7326688
-    longitude: 115.1701613
+      latitude: -8.7326688
+      longitude: 115.1701613
 
 - conference: PyData Tel Aviv
   year: 2023
@@ -285,8 +284,8 @@
   twitter: PyDataTLV
   sub: PYDATA
   location:
-    latitude: 32.0852997
-    longitude: 34.7818064
+      latitude: 32.0852997
+      longitude: 34.7818064
 
 - conference: DjangoCon Africa
   year: 2023
@@ -302,8 +301,8 @@
   twitter: djcafrica
   sub: WEB
   location:
-    latitude: -6.09994425
-    longitude: 39.32094431715264
+      latitude: -6.09994425
+      longitude: 39.32094431715264
 
 - conference: Swiss Python Summit
   year: 2023
@@ -319,8 +318,8 @@
   twitter: pythonsummit
   sub: PY
   location:
-    latitude: 47.2266532
-    longitude: 8.8164042
+      latitude: 47.2266532
+      longitude: 8.8164042
 
 - conference: PyCon Portugal
   year: 2023
@@ -338,8 +337,8 @@
   twitter: PyConPT
   sub: PY
   location:
-    latitude: 41.1494512
-    longitude: -8.6107884
+      latitude: 41.1494512
+      longitude: -8.6107884
 
 - conference: PyCon UK
   year: 2023
@@ -357,8 +356,8 @@
   mastodon: https://fosstodon.org/@PyConUK
   sub: PY
   location:
-    latitude: 51.4816546
-    longitude: -3.1791934
+      latitude: 51.4816546
+      longitude: -3.1791934
 
 - conference: Python Nordeste
   year: 2023
@@ -373,8 +372,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -12.9822499
-    longitude: -38.4812772
+      latitude: -12.9822499
+      longitude: -38.4812772
 
 - conference: PyCon Czechia
   alt_name: PyCon CZ
@@ -394,8 +393,8 @@
   twitter: pyconcz
   sub: PY
   location:
-    latitude: 50.0596288
-    longitude: 14.446459273258009
+      latitude: 50.0596288
+      longitude: 14.446459273258009
 
 - conference: PyCon Spain
   alt_name: PyCon ES
@@ -413,8 +412,8 @@
   mastodon: https://fosstodon.org/@pycones
   sub: PY
   location:
-    latitude: 28.2935785
-    longitude: -16.621447121144122
+      latitude: 28.2935785
+      longitude: -16.621447121144122
 
 - conference: AfroPython Conf
   year: 2023
@@ -430,8 +429,8 @@
   twitter: AfroPython
   sub: PY
   location:
-    latitude: -12.9822499
-    longitude: -38.4812772
+      latitude: -12.9822499
+      longitude: -38.4812772
 
 - conference: PyCon Hong Kong
   year: 2023
@@ -446,8 +445,8 @@
   twitter: pyconhk
   sub: PY
   location:
-    latitude: 22.2793278
-    longitude: 114.1628131
+      latitude: 22.2793278
+      longitude: 114.1628131
 
 - conference: PyData Amsterdam
   year: 2023
@@ -463,8 +462,8 @@
   sponsor: https://amsterdam.pydata.org/sponsor/
   sub: PYDATA
   location:
-    latitude: 52.3730796
-    longitude: 4.8924534
+      latitude: 52.3730796
+      longitude: 4.8924534
 
 - conference: Python Brazil
   year: 2023
@@ -480,8 +479,8 @@
   twitter: PyConBrazil
   sub: PY
   location:
-    latitude: -29.1685045
-    longitude: -51.1796385
+      latitude: -29.1685045
+      longitude: -51.1796385
 
 - conference: PyCon APAC
   year: 2023
@@ -495,8 +494,8 @@
   sponsor: https://pyconjp.blogspot.com/2023/05/pyconapac2023-call-for-sponsors-en.html
   sub: PY
   location:
-    latitude: 35.6812665
-    longitude: 139.757653
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: PyCon MEA
   year: 2023
@@ -510,8 +509,8 @@
   twitter: GlobalDevSlam
   sub: PY
   location:
-    latitude: 25.074282349999997
-    longitude: 55.18853865430702
+      latitude: 25.074282349999997
+      longitude: 55.18853865430702
 
 - conference: PyCon Malaysia
   alt_name: PyCon MY
@@ -527,8 +526,8 @@
   twitter: pyconmy
   sub: PY
   location:
-    latitude: 4.5693754
-    longitude: 102.2656823
+      latitude: 4.5693754
+      longitude: 102.2656823
 
 - conference: North Bay Python
   year: 2023
@@ -545,8 +544,8 @@
   mastodon: https://floss.social/@northbaypython
   sub: PY
   location:
-    latitude: 38.295411
-    longitude: -122.61369350203252
+      latitude: 38.295411
+      longitude: -122.61369350203252
 
 - conference: Kiwi PyCon
   year: 2023
@@ -563,8 +562,8 @@
   twitter: KiwiPyCon
   sub: PY
   location:
-    latitude: -46.4099902
-    longitude: 168.3507773
+      latitude: -46.4099902
+      longitude: 168.3507773
 
 - conference: PyGotham TV
   year: 2023
@@ -595,8 +594,8 @@
   twitter: djangoCon
   sub: WEB
   location:
-    latitude: 35.6729639
-    longitude: -79.0392919
+      latitude: 35.6729639
+      longitude: -79.0392919
 
 - conference: PyCon Australia
   alt_name: PyCon AU
@@ -614,8 +613,8 @@
   mastodon: https://fosstodon.org/@pyconau
   sub: PY
   location:
-    latitude: -34.9281805
-    longitude: 138.5999312
+      latitude: -34.9281805
+      longitude: 138.5999312
 
 - conference: EuroSciPy
   year: 2023
@@ -632,8 +631,8 @@
   twitter: euroSciPy
   sub: SCIPY
   location:
-    latitude: 47.5581077
-    longitude: 7.5878261
+      latitude: 47.5581077
+      longitude: 7.5878261
 
 - conference: PyCon Korea
   year: 2023
@@ -649,8 +648,8 @@
   twitter: PyConKR
   sub: PY
   location:
-    latitude: 37.5666791
-    longitude: 126.9782914
+      latitude: 37.5666791
+      longitude: 126.9782914
 
 - conference: DjangoCon Australia
   year: 2023
@@ -667,8 +666,8 @@
   mastodon: https://fosstodon.org/@djangoconau
   sub: WEB
   location:
-    latitude: -34.9281805
-    longitude: 138.5999312
+      latitude: -34.9281805
+      longitude: 138.5999312
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -685,8 +684,8 @@
   twitter: PyConEstonia
   sub: PY
   location:
-    latitude: 59.4372155
-    longitude: 24.7453688
+      latitude: 59.4372155
+      longitude: 24.7453688
 
 - conference: PyCon Latin America
   alt_name: PyCon LatAm
@@ -703,8 +702,8 @@
   twitter: PyLatam
   sub: PY
   location:
-    latitude: 25.6802019
-    longitude: -100.315258
+      latitude: 25.6802019
+      longitude: -100.315258
 
 - conference: PyCon Uganda
   year: 2023
@@ -719,8 +718,8 @@
   sponsor: https://ug.pycon.org/sponsors
   sub: PY
   location:
-    latitude: 0.3177137
-    longitude: 32.5813539
+      latitude: 0.3177137
+      longitude: 32.5813539
 
 - conference: Moscow Python Conf++
   year: 2023
@@ -735,8 +734,8 @@
   twitter: moscowpython
   sub: PY
   location:
-    latitude: 55.7504461
-    longitude: 37.6174943
+      latitude: 55.7504461
+      longitude: 37.6174943
 
 - conference: PyCon Israel
   year: 2023
@@ -752,8 +751,8 @@
   twitter: PyConIL
   sub: PY
   location:
-    latitude: 30.8124247
-    longitude: 34.8594762
+      latitude: 30.8124247
+      longitude: 34.8594762
 
 - conference: PyCon Taiwan
   alt_name: PyCon TW
@@ -769,8 +768,8 @@
   twitter: PyConTW
   sub: PY
   location:
-    latitude: 25.0375198
-    longitude: 121.5636796
+      latitude: 25.0375198
+      longitude: 121.5636796
 
 - conference: PyCon Colombia
   year: 2023
@@ -799,8 +798,8 @@
   twitter: PyDayLaPaz
   sub: PY
   location:
-    latitude: -16.4955455
-    longitude: -68.1336229
+      latitude: -16.4955455
+      longitude: -68.1336229
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -817,8 +816,8 @@
   twitter: PyConPL
   sub: PY
   location:
-    latitude: 50.294113
-    longitude: 18.6657306
+      latitude: 50.294113
+      longitude: 18.6657306
 
 - conference: EuroPython
   year: 2023
@@ -834,8 +833,8 @@
   twitter: EuroPython
   sub: PY
   location:
-    latitude: 50.0874654
-    longitude: 14.4212535
+      latitude: 50.0874654
+      longitude: 14.4212535
 
 - conference: PyCon Lithuania
   alt_name: PyCon LT
@@ -852,8 +851,8 @@
   twitter: PyConLT
   sub: PY
   location:
-    latitude: 54.6870458
-    longitude: 25.2829111
+      latitude: 54.6870458
+      longitude: 25.2829111
 
 - conference: PyCon Russia
   year: 2023
@@ -869,8 +868,8 @@
   twitter: IT_People_ru
   sub: PY
   location:
-    latitude: 55.7504461
-    longitude: 37.6174943
+      latitude: 55.7504461
+      longitude: 37.6174943
 
 - conference: PyData London
   year: 2023
@@ -885,8 +884,8 @@
   twitter: PyDataLondon
   sub: PYDATA
   location:
-    latitude: 51.5074456
-    longitude: -0.1277653
+      latitude: 51.5074456
+      longitude: -0.1277653
 
 - conference: SciPy US
   year: 2023
@@ -903,8 +902,8 @@
   twitter: SciPyConf
   sub: SCIPY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: DjangoCon Europe
   year: 2023
@@ -921,8 +920,8 @@
   twitter: DjangoConEurope
   sub: WEB
   location:
-    latitude: 55.9533456
-    longitude: -3.1883749
+      latitude: 55.9533456
+      longitude: -3.1883749
 
 - conference: PyData Seattle
   year: 2023
@@ -938,8 +937,8 @@
   twitter: PyDataSeattle
   sub: PYDATA
   location:
-    latitude: 47.6038321
-    longitude: -122.330062
+      latitude: 47.6038321
+      longitude: -122.330062
 
 - conference: PyCon Namibia
   year: 2023
@@ -956,8 +955,8 @@
   twitter: PyConNA
   sub: PY
   location:
-    latitude: -22.5776104
-    longitude: 17.0772739
+      latitude: -22.5776104
+      longitude: 17.0772739
 
 - conference: PyCon Italia
   year: 2023
@@ -975,8 +974,8 @@
   mastodon: https://social.python.it/@pycon
   sub: PY
   location:
-    latitude: 43.7698712
-    longitude: 11.2555757
+      latitude: 43.7698712
+      longitude: 11.2555757
 
 - conference: PyTexas
   year: 2023
@@ -990,8 +989,8 @@
   sponsor: https://pytexas.org/sponsors/prospectus
   sub: PY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: PyCon France
   alt_name: PyCon FR
@@ -1009,8 +1008,8 @@
   mastodon: https://mamot.fr/@AFPy
   sub: PY
   location:
-    latitude: 44.841225
-    longitude: -0.5800364
+      latitude: 44.841225
+      longitude: -0.5800364
 
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
@@ -1029,8 +1028,8 @@
   twitter: PyConDE
   sub: PY,PYDATA
   location:
-    latitude: 52.5170365
-    longitude: 13.3888599
+      latitude: 52.5170365
+      longitude: 13.3888599
 
 - conference: PyCon Philippines
   alt_name: PyCon PH
@@ -1045,8 +1044,8 @@
   twitter: PyConPH
   sub: PY
   location:
-    latitude: 14.5948914
-    longitude: 120.9782618
+      latitude: 14.5948914
+      longitude: 120.9782618
 
 - conference: JupyterCon
   year: 2023
@@ -1061,8 +1060,8 @@
   twitter: jupyterCon
   sub: PYDATA
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217200766
+      latitude: 48.8588897
+      longitude: 2.3200410217200766
 
 - conference: GeoPython
   year: 2023
@@ -1076,8 +1075,8 @@
   twitter: GeoPythonConf
   sub: GEO
   location:
-    latitude: 47.6081077
-    longitude: 7.6378261
+      latitude: 47.6081077
+      longitude: 7.6378261
 
 - conference: FOSDEM
   year: 2023
@@ -1091,8 +1090,8 @@
   sponsor: https://fosdem.org/2023/about/sponsors
   sub: PY
   location:
-    latitude: 50.8465573
-    longitude: 4.351697
+      latitude: 50.8465573
+      longitude: 4.351697
 
 - conference: PyCon US
   year: 2023
@@ -1109,8 +1108,8 @@
   mastodon: https://fosstodon.org/@pycon
   sub: PY
   location:
-    latitude: 40.7596198
-    longitude: -111.886797
+      latitude: 40.7596198
+      longitude: -111.886797
 
 - conference: Xtreme Python
   year: 2022
@@ -1137,8 +1136,8 @@
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
   location:
-    latitude: 49.2608724
-    longitude: -123.113952
+      latitude: 49.2608724
+      longitude: -123.113952
 
 - conference: Python Web Conference
   year: 2023
@@ -1186,8 +1185,8 @@
   end: 2022-12-13
   sub: PYDATA
   location:
-    latitude: 32.0852997
-    longitude: 34.7818064
+      latitude: 32.0852997
+      longitude: 34.7818064
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -1202,8 +1201,8 @@
   sponsor: https://pycon.se/#sponsorship
   sub: PY
   location:
-    latitude: 59.3251172
-    longitude: 18.0710935
+      latitude: 59.3251172
+      longitude: 18.0710935
 
 - conference: Scipy Latin America
   year: 2022
@@ -1215,8 +1214,8 @@
   end: 2022-09-28
   sub: SCIPY
   location:
-    latitude: -25.1076701
-    longitude: -64.3494964
+      latitude: -25.1076701
+      longitude: -64.3494964
 
 - conference: PyCon Ireland
   year: 2022
@@ -1230,8 +1229,8 @@
   end: 2022-11-13
   sub: PY
   location:
-    latitude: 53.3498006
-    longitude: -6.2602964
+      latitude: 53.3498006
+      longitude: -6.2602964
 
 - conference: PyData NYC
   year: 2022
@@ -1245,8 +1244,8 @@
   sponsor: https://pydata.org/nyc2022/sponsors
   sub: PYDATA
   location:
-    latitude: 40.7127281
-    longitude: -74.0060152
+      latitude: 40.7127281
+      longitude: -74.0060152
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -1259,8 +1258,8 @@
   end: 2022-10-14
   sub: PY
   location:
-    latitude: -29.861825
-    longitude: 31.009909
+      latitude: -29.861825
+      longitude: 31.009909
 
 - conference: PyHEP
   year: 2022
@@ -1284,8 +1283,8 @@
   end: 2022-11-06
   sub: PY
   location:
-    latitude: 50.294113
-    longitude: 18.6657306
+      latitude: 50.294113
+      longitude: 18.6657306
 
 - conference: PyData Miami
   year: 2022
@@ -1298,8 +1297,8 @@
   end: 2022-09-22
   sub: PYDATA
   location:
-    latitude: 25.7741728
-    longitude: -80.19362
+      latitude: 25.7741728
+      longitude: -80.19362
 
 - conference: PyCon Ghana
   year: 2022
@@ -1314,8 +1313,8 @@
   sponsor: https://gh.pycon.org/support-us
   sub: PY
   location:
-    latitude: 5.5571096
-    longitude: -0.2012376
+      latitude: 5.5571096
+      longitude: -0.2012376
 
 - conference: Python at Scale
   year: 2022
@@ -1341,8 +1340,8 @@
   sponsor: https://pythoncientifico.ar/sponsors
   sub: SCIPY
   location:
-    latitude: -25.1076701
-    longitude: -64.3494964
+      latitude: -25.1076701
+      longitude: -64.3494964
 
 - conference: PyCon Korea
   year: 2022
@@ -1355,8 +1354,8 @@
   end: 2022-10-02
   sub: PY
   location:
-    latitude: 36.638392
-    longitude: 127.6961188
+      latitude: 36.638392
+      longitude: 127.6961188
 
 - conference: PyCon Brazil
   year: 2022
@@ -1369,8 +1368,8 @@
   end: 2022-10-23
   sub: PY
   location:
-    latitude: -3.1316333
-    longitude: -59.9825041
+      latitude: -3.1316333
+      longitude: -59.9825041
 
 - conference: PyCon UK
   year: 2022
@@ -1386,8 +1385,8 @@
   finaid: https://2022.pyconuk.org/financial-assistance/
   sub: PY
   location:
-    latitude: 51.4816546
-    longitude: -3.1791934
+      latitude: 51.4816546
+      longitude: -3.1791934
 
 - conference: PyCon Portugal
   year: 2022
@@ -1403,8 +1402,8 @@
   sponsor: https://2022.pycon.pt/sponsors/sponsorship
   sub: PY
   location:
-    latitude: 41.1494512
-    longitude: -8.6107884
+      latitude: 41.1494512
+      longitude: -8.6107884
 
 - conference: PyCon Slovakia
   alt_name: PyCon SK
@@ -1418,8 +1417,8 @@
   end: 2022-09-11
   sub: PY
   location:
-    latitude: 48.1516988
-    longitude: 17.1093063
+      latitude: 48.1516988
+      longitude: 17.1093063
 
 - conference: PyData Yerevan
   year: 2022
@@ -1432,8 +1431,8 @@
   end: 2022-08-13
   sub: PYDATA
   location:
-    latitude: 40.1777112
-    longitude: 44.5126233
+      latitude: 40.1777112
+      longitude: 44.5126233
 
 - conference: PyBay
   year: 2022
@@ -1447,8 +1446,8 @@
   sponsor: https://pybay.com/sponsors-prospectus
   sub: PY
   location:
-    latitude: 37.7790262
-    longitude: -122.419906
+      latitude: 37.7790262
+      longitude: -122.419906
 
 - conference: EuroSciPy
   year: 2022
@@ -1465,8 +1464,8 @@
   finaid: https://www.euroscipy.org/2022/finaid.html
   sub: SCIPY
   location:
-    latitude: 47.5581077
-    longitude: 7.5878261
+      latitude: 47.5581077
+      longitude: 7.5878261
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -1479,8 +1478,8 @@
   end: 2022-10-16
   sub: PY
   location:
-    latitude: 35.6812665
-    longitude: 139.757653
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: DjangoCon US
   year: 2022
@@ -1493,8 +1492,8 @@
   end: 2022-10-21
   sub: WEB
   location:
-    latitude: 32.7174202
-    longitude: -117.1627728
+      latitude: 32.7174202
+      longitude: -117.1627728
 
 - conference: Python Nordeste
   year: 2022
@@ -1507,8 +1506,8 @@
   twitter: PythonNordeste
   sub: PY
   location:
-    latitude: -10.9162061
-    longitude: -37.0774655
+      latitude: -10.9162061
+      longitude: -37.0774655
 
 - conference: DjangoCon Europe
   year: 2022
@@ -1521,8 +1520,8 @@
   end: 2022-09-25
   sub: WEB
   location:
-    latitude: 41.1494512
-    longitude: -8.6107884
+      latitude: 41.1494512
+      longitude: -8.6107884
 
 - conference: PyCon Spain
   alt_name: PyCon ES
@@ -1536,8 +1535,8 @@
   end: 2022-10-03
   sub: PY
   location:
-    latitude: 37.1734995
-    longitude: -3.5995337
+      latitude: 37.1734995
+      longitude: -3.5995337
 
 - conference: PyOhio
   year: 2022
@@ -1549,8 +1548,8 @@
   start: 2022-07-30
   end: 2022-07-30
   location:
-    latitude: 39.9622601
-    longitude: -83.0007065
+      latitude: 39.9622601
+      longitude: -83.0007065
 
 - conference: PyCon Russia
   year: 2022
@@ -1564,8 +1563,8 @@
   sponsor: https://web.archive.org/web/20220330120305/https://pycon.ru/partneram
   sub: PY
   location:
-    latitude: 55.625578
-    longitude: 37.6063916
+      latitude: 55.625578
+      longitude: 37.6063916
 
 - conference: PyCon LT
   year: 2022
@@ -1578,8 +1577,8 @@
   end: 2022-05-28
   sub: PY
   location:
-    latitude: 54.6870458
-    longitude: 25.2829111
+      latitude: 54.6870458
+      longitude: 25.2829111
 
 - conference: PyCon Colombia
   year: 2022
@@ -1603,8 +1602,8 @@
   end: 2022-06-29
   sub: PY
   location:
-    latitude: 32.0686867
-    longitude: 34.8246812
+      latitude: 32.0686867
+      longitude: 34.8246812
 
 - conference: PyData London
   year: 2022
@@ -1617,8 +1616,8 @@
   sponsor: https://pydata.org/london2022/sponsors
   sub: PYDATA
   location:
-    latitude: 51.5074456
-    longitude: -0.1277653
+      latitude: 51.5074456
+      longitude: -0.1277653
 
 - conference: PyCon APAC
   year: 2022
@@ -1630,8 +1629,8 @@
   end: 2022-09-04
   sub: PY
   location:
-    latitude: 23.9739374
-    longitude: 120.9820179
+      latitude: 23.9739374
+      longitude: 120.9820179
 
 - conference: PyCon Kenya
   year: 2022
@@ -1644,8 +1643,8 @@
   end: 2022-05-08
   sub: PY
   location:
-    latitude: -1.2832533
-    longitude: 36.8172449
+      latitude: -1.2832533
+      longitude: 36.8172449
 
 - conference: EuroPython
   year: 2022
@@ -1657,8 +1656,8 @@
   end: 2022-07-17
   sub: PY
   location:
-    latitude: 53.3498006
-    longitude: -6.2602964
+      latitude: 53.3498006
+      longitude: -6.2602964
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -1672,8 +1671,8 @@
   end: 2022-08-25
   sub: PY
   location:
-    latitude: 59.4372155
-    longitude: 24.7453688
+      latitude: 59.4372155
+      longitude: 24.7453688
 
 - conference: "PyCamp Espa\xF1a"
   year: 2022
@@ -1685,8 +1684,8 @@
   end: 2022-04-19
   sub: PY
   location:
-    latitude: 41.9793006
-    longitude: 2.8199439
+      latitude: 41.9793006
+      longitude: 2.8199439
 
 - conference: Django Day Copenhagen
   year: 2022
@@ -1699,8 +1698,8 @@
   end: 2022-04-09
   sub: WEB
   location:
-    latitude: 55.6867243
-    longitude: 12.5700724
+      latitude: 55.6867243
+      longitude: 12.5700724
 
 - conference: GeoPython
   year: 2022
@@ -1714,8 +1713,8 @@
   end: 2022-06-23
   sub: GEO
   location:
-    latitude: 47.5581077
-    longitude: 7.5878261
+      latitude: 47.5581077
+      longitude: 7.5878261
 
 - conference: SciPy US
   year: 2022
@@ -1728,8 +1727,8 @@
   end: 2022-07-17
   sub: SCIPY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: PyCamp Leipzig
   year: 2022
@@ -1741,8 +1740,8 @@
   end: 2022-01-30
   sub: PY
   location:
-    latitude: 51.3406321
-    longitude: 12.3747329
+      latitude: 51.3406321
+      longitude: 12.3747329
 
 - conference: PyCon Italia
   year: 2022
@@ -1754,8 +1753,8 @@
   end: 2022-06-06
   sub: PY
   location:
-    latitude: 43.7698712
-    longitude: 11.2555757
+      latitude: 43.7698712
+      longitude: 11.2555757
 
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
@@ -1772,8 +1771,8 @@
   sponsor: https://2022.pycon.de/blog/pyconde-pydata-berlin-call-for-sponsors
   sub: PY,PYDATA
   location:
-    latitude: 52.5170365
-    longitude: 13.3888599
+      latitude: 52.5170365
+      longitude: 13.3888599
 
 - conference: PyTexas
   year: 2022
@@ -1784,8 +1783,8 @@
   start: 2022-03-26
   end: 2022-03-27
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: Scipy India
   year: 2021
@@ -1827,8 +1826,8 @@
   end: 2022-05-06
   sub: PY
   location:
-    latitude: 40.7596198
-    longitude: -111.886797
+      latitude: 40.7596198
+      longitude: -111.886797
 
 - conference: Kiwi PyCon
   year: 2022
@@ -1841,8 +1840,8 @@
   end: 2022-08-21
   sub: PY
   location:
-    latitude: -43.530955
-    longitude: 172.6364343
+      latitude: -43.530955
+      longitude: 172.6364343
 
 - conference: PyCon Kyushu Kumamoto
   year: 2022
@@ -1855,8 +1854,8 @@
   end: 2022-01-22
   sub: PY
   location:
-    latitude: 32.6450475
-    longitude: 130.6341345
+      latitude: 32.6450475
+      longitude: 130.6341345
 
 - conference: PyCon Tanzania
   year: 2021
@@ -1868,8 +1867,8 @@
   end: 2021-12-04
   sub: PY
   location:
-    latitude: 44.9379672
-    longitude: 7.5400398
+      latitude: 44.9379672
+      longitude: 7.5400398
 
 - conference: PyCode Conference
   year: 2021
@@ -1891,8 +1890,8 @@
   end: 2021-12-04
   sub: WEB
   location:
-    latitude: -33.8938107
-    longitude: 151.2621478
+      latitude: -33.8938107
+      longitude: 151.2621478
 
 - conference: Xtreme Python
   year: 2021
@@ -1928,8 +1927,8 @@
   sponsor: https://pycon.id/sponsorship
   sub: PY
   location:
-    latitude: -2.4833826
-    longitude: 117.8902853
+      latitude: -2.4833826
+      longitude: 117.8902853
 
 - conference: PyCascades
   year: 2022
@@ -1965,8 +1964,8 @@
   end: 2021-11-21
   sub: PY
   location:
-    latitude: 13.7524938
-    longitude: 100.4935089
+      latitude: 13.7524938
+      longitude: 100.4935089
 
 - conference: PyCon Odessa
   year: 2021
@@ -1979,8 +1978,8 @@
   end: 2021-09-12
   sub: PY
   location:
-    latitude: 46.4843023
-    longitude: 30.7322878
+      latitude: 46.4843023
+      longitude: 30.7322878
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -2017,8 +2016,8 @@
   end: 2021-10-16
   sub: PY
   location:
-    latitude: 35.683805050000004
-    longitude: 139.98897671289967
+      latitude: 35.683805050000004
+      longitude: 139.98897671289967
 
 - conference: PyCon India
   year: 2021
@@ -2041,8 +2040,8 @@
   start: 2021-07-31
   end: 2021-08-01
   location:
-    latitude: 39.9622601
-    longitude: -83.0007065
+      latitude: 39.9622601
+      longitude: -83.0007065
 
 - conference: DjangoCon Europe
   year: 2021
@@ -2057,8 +2056,8 @@
   sponsor: https://2021.djangocon.eu/sponsors/sponsorships
   sub: WEB
   location:
-    latitude: 41.1494512
-    longitude: -8.6107884
+      latitude: 41.1494512
+      longitude: -8.6107884
 
 - conference: Python Nordeste
   year: 2021
@@ -2084,8 +2083,8 @@
   end: 2021-07-19
   sub: SCIPY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: PyCon US
   year: 2021
@@ -2123,8 +2122,8 @@
   end: 2021-04-23
   sub: GEO
   location:
-    latitude: 47.5581077
-    longitude: 7.5878261
+      latitude: 47.5581077
+      longitude: 7.5878261
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -2211,8 +2210,8 @@
   end: 2020-06-15
   sub: PY
   location:
-    latitude: 46.4843023
-    longitude: 30.7322878
+      latitude: 46.4843023
+      longitude: 30.7322878
 
 - conference: SciPy US
   year: 2020
@@ -2237,8 +2236,8 @@
   end: 2019-12-14
   sub: PY
   location:
-    latitude: 50.6215011
-    longitude: 30.460508167757546
+      latitude: 50.6215011
+      longitude: 30.460508167757546
 
 - conference: AfroPython Conf
   year: 2019
@@ -2251,8 +2250,8 @@
   end: 2019-11-24
   sub: PY
   location:
-    latitude: -30.0324999
-    longitude: -51.2303767
+      latitude: -30.0324999
+      longitude: -51.2303767
 
 - conference: PyDay Mexico
   year: 2019
@@ -2266,8 +2265,8 @@
   end: 2019-10-19
   sub: PY
   location:
-    latitude: 19.4326296
-    longitude: -99.1331785
+      latitude: 19.4326296
+      longitude: -99.1331785
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -2283,8 +2282,8 @@
   sponsor: http://pycon.se/sponsorship.html
   sub: PY
   location:
-    latitude: 59.3251172
-    longitude: 18.0710935
+      latitude: 59.3251172
+      longitude: 18.0710935
 
 - conference: PyCon Canada
   year: 2019
@@ -2298,8 +2297,8 @@
   end: 2019-11-20
   sub: PY
   location:
-    latitude: 43.6534817
-    longitude: -79.3839347
+      latitude: 43.6534817
+      longitude: -79.3839347
 
 - conference: North Bay Python
   year: 2019
@@ -2311,8 +2310,8 @@
   end: 2019-11-03
   sub: PY
   location:
-    latitude: 38.295411
-    longitude: -122.61369350203252
+      latitude: 38.295411
+      longitude: -122.61369350203252
 
 - conference: Python Web Conference
   year: 2019
@@ -2339,8 +2338,8 @@
   sponsor: https://pyconbalkan.com/faq
   sub: PY
   location:
-    latitude: 44.8178131
-    longitude: 20.4568974
+      latitude: 44.8178131
+      longitude: 20.4568974
 
 - conference: Kiwi PyCon
   year: 2019
@@ -2352,8 +2351,8 @@
   end: 2019-08-25
   sub: PY
   location:
-    latitude: -41.2887953
-    longitude: 174.7772114
+      latitude: -41.2887953
+      longitude: 174.7772114
 
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
@@ -2368,8 +2367,8 @@
   sponsor: https://de.pycon.org/sponsors
   sub: PY,PYDATA
   location:
-    latitude: 52.366528349999996
-    longitude: 13.488062884599568
+      latitude: 52.366528349999996
+      longitude: 13.488062884599568
 
 - conference: PyCon UK
   year: 2019
@@ -2383,8 +2382,8 @@
   end: 2019-09-17
   sub: PY
   location:
-    latitude: 51.4816546
-    longitude: -3.1791934
+      latitude: 51.4816546
+      longitude: -3.1791934
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -2399,8 +2398,8 @@
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/viewform
   sub: PY
   location:
-    latitude: 35.683805050000004
-    longitude: 139.98897671289967
+      latitude: 35.683805050000004
+      longitude: 139.98897671289967
 
 - conference: PyCon Africa
   year: 2019
@@ -2415,8 +2414,8 @@
   sponsor: https://africa.pycon.org/sponsor
   sub: PY
   location:
-    latitude: 5.5571096
-    longitude: -0.2012376
+      latitude: 5.5571096
+      longitude: -0.2012376
 
 - conference: PyCon Latin America
   alt_name: PyCon LatAm
@@ -2430,8 +2429,8 @@
   end: 2019-08-31
   sub: PY
   location:
-    latitude: 20.6407176
-    longitude: -105.220306
+      latitude: 20.6407176
+      longitude: -105.220306
 
 - conference: PyColorado
   year: 2019
@@ -2444,8 +2443,8 @@
   start: 2019-09-07
   end: 2019-09-08
   location:
-    latitude: 39.7392364
-    longitude: -104.984862
+      latitude: 39.7392364
+      longitude: -104.984862
 
 - conference: PyGotham TV
   year: 2019
@@ -2458,8 +2457,8 @@
   end: 2019-10-05
   sponsor: https://2019.pygotham.org/sponsors/prospectus
   location:
-    latitude: 40.7127281
-    longitude: -74.0060152
+      latitude: 40.7127281
+      longitude: -74.0060152
 
 - conference: PyBay
   year: 2019
@@ -2472,8 +2471,8 @@
   start: 2019-08-15
   end: 2019-08-19
   location:
-    latitude: 26.373286
-    longitude: -80.20743653407952
+      latitude: 26.373286
+      longitude: -80.20743653407952
 
 - conference: PyOhio
   year: 2019
@@ -2487,8 +2486,8 @@
   end: 2019-07-28
   sponsor: https://pyohio.org/2019/sponsorship
   location:
-    latitude: 39.9622601
-    longitude: -83.0007065
+      latitude: 39.9622601
+      longitude: -83.0007065
 
 - conference: EuroPython
   year: 2021
@@ -2514,8 +2513,8 @@
   end: 2019-10-06
   sub: PY
   location:
-    latitude: 38.3436365
-    longitude: -0.4881708
+      latitude: 38.3436365
+      longitude: -0.4881708
 
 - conference: Python Nordeste
   year: 2019
@@ -2529,8 +2528,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -8.05389
-    longitude: -34.88111
+      latitude: -8.05389
+      longitude: -34.88111
 
 - conference: PyCon Australia
   alt_name: PyCon AU
@@ -2544,8 +2543,8 @@
   sponsor: https://2019.pycon-au.org/sponsor
   sub: PY
   location:
-    latitude: -33.8698439
-    longitude: 151.2082848
+      latitude: -33.8698439
+      longitude: 151.2082848
 
 - conference: EuroSciPy
   year: 2019
@@ -2561,8 +2560,8 @@
   sponsor: https://euroscipy.org/2019/sponsors.html
   sub: SCIPY
   location:
-    latitude: 43.2630018
-    longitude: -2.9350039
+      latitude: 43.2630018
+      longitude: -2.9350039
 
 - conference: PyData London
   year: 2019
@@ -2574,8 +2573,8 @@
   end: 2019-07-15
   sub: PYDATA
   location:
-    latitude: 51.5074456
-    longitude: -0.1277653
+      latitude: 51.5074456
+      longitude: -0.1277653
 
 - conference: SciPy US
   year: 2019
@@ -2588,8 +2587,8 @@
   end: 2019-07-14
   sub: SCIPY
   location:
-    latitude: 30.2711286
-    longitude: -97.7436995
+      latitude: 30.2711286
+      longitude: -97.7436995
 
 - conference: PyCon Italia
   year: 2019
@@ -2603,8 +2602,8 @@
   sponsor: https://pycon.it/en/sponsor
   sub: PY
   location:
-    latitude: 43.7698712
-    longitude: 11.2555757
+      latitude: 43.7698712
+      longitude: 11.2555757
 
 - conference: PyCon US
   year: 2019
@@ -2619,8 +2618,8 @@
   sponsor: https://us.pycon.org/2019/sponsors/prospectus
   sub: PY
   location:
-    latitude: 41.4996574
-    longitude: -81.6936772
+      latitude: 41.4996574
+      longitude: -81.6936772
 
 - conference: PyCon Belarus
   year: 2019
@@ -2634,8 +2633,8 @@
   sponsor: https://drive.google.com/file/d/1DEY7aYs7byXUwZLozHhoHs8uuLHq_la1/view
   sub: PY
   location:
-    latitude: 53.9024716
-    longitude: 27.5618225
+      latitude: 53.9024716
+      longitude: 27.5618225
 
 - conference: PyCaribbean
   year: 2019
@@ -2647,8 +2646,8 @@
   start: 2019-02-16
   end: 2019-02-17
   location:
-    latitude: 18.4801972
-    longitude: -69.942111
+      latitude: 18.4801972
+      longitude: -69.942111
 
 - conference: PyTennessee
   year: 2019
@@ -2662,8 +2661,8 @@
   end: 2019-02-11
   sponsor: https://pytennessee.org/prospectus
   location:
-    latitude: 36.1622767
-    longitude: -86.7742984
+      latitude: 36.1622767
+      longitude: -86.7742984
 
 - conference: PyCascades
   year: 2019
@@ -2676,8 +2675,8 @@
   end: 2019-02-25
   sponsor: https://2019.pycascades.com/become-a-sponsor
   location:
-    latitude: 47.6038321
-    longitude: -122.330062
+      latitude: 47.6038321
+      longitude: -122.330062
 
 - conference: PyCon Colombia
   year: 2019
@@ -2691,8 +2690,8 @@
   end: 2019-02-10
   sub: PY
   location:
-    latitude: 6.2443382
-    longitude: -75.573553
+      latitude: 6.2443382
+      longitude: -75.573553
 
 - conference: Flask Conf Brasil
   year: 2019
@@ -2705,8 +2704,22 @@
   end: 2019-09-08
   sub: WEB
   location:
-    latitude: -27.5973002
-    longitude: -48.5496098
+      latitude: -27.5973002
+      longitude: -48.5496098
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2018
+  link: https://pycon.jp/2018/
+  cfp: '2018-06-15 23:59:00'
+  place: Tokyo, Japan
+  date: September 15 - 18, 2018
+  start: 2018-09-15
+  end: 2018-09-18
+  sub: PY
+  location:
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -2719,8 +2732,8 @@
   end: 2018-08-26
   sub: PY
   location:
-    latitude: 51.8151645
-    longitude: 20.3859912
+      latitude: 51.8151645
+      longitude: 20.3859912
 
 - conference: Python Nordeste
   year: 2018
@@ -2736,8 +2749,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -7.23056
-    longitude: -35.88111
+      latitude: -7.23056
+      longitude: -35.88111
 
 - conference: PyCon US
   year: 2018
@@ -2749,8 +2762,22 @@
   end: 2018-05-17
   sub: PY
   location:
-    latitude: 41.4996574
-    longitude: -81.6936772
+      latitude: 41.4996574
+      longitude: -81.6936772
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2017
+  link: https://pycon.jp/2017/en/
+  cfp: '2017-06-19 23:59:00'
+  place: Tokyo, Japan
+  date: September 7 - 10, 2017
+  start: 2017-09-07
+  end: 2017-09-10
+  sub: PY
+  location:
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -2763,8 +2790,8 @@
   end: 2017-08-20
   sub: PY
   location:
-    latitude: 51.8151645
-    longitude: 20.3859912
+      latitude: 51.8151645
+      longitude: 20.3859912
 
 - conference: Python Nordeste
   year: 2017
@@ -2779,8 +2806,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -2.5307316
-    longitude: -44.3068265
+      latitude: -2.5307316
+      longitude: -44.3068265
 
 - conference: PyCon US
   year: 2017
@@ -2792,8 +2819,8 @@
   end: 2017-05-25
   sub: PY
   location:
-    latitude: 45.5202471
-    longitude: -122.674194
+      latitude: 45.5202471
+      longitude: -122.674194
 
 - conference: PyData DC
   year: 2016
@@ -2806,8 +2833,22 @@
   end: 2016-10-09
   sub: PYDATA
   location:
-    latitude: 40.4631789
-    longitude: -88.8196613
+      latitude: 40.4631789
+      longitude: -88.8196613
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2016
+  link: https://pycon.jp/2016/en/
+  cfp: '2016-06-13 23:59:00'
+  place: Tokyo, Japan
+  date: September 20 - 24, 2016
+  start: 2016-09-20
+  end: 2016-09-24
+  sub: PY
+  location:
+      latitude: 35.683805050000004
+      longitude: 139.98897671289967
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -2820,8 +2861,8 @@
   end: 2016-10-16
   sub: PY
   location:
-    latitude: 51.8151645
-    longitude: 20.3859912
+      latitude: 51.8151645
+      longitude: 20.3859912
 
 - conference: Python Nordeste
   year: 2016
@@ -2836,8 +2877,22 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -2.5307316
-    longitude: -44.3068265
+      latitude: -2.5307316
+      longitude: -44.3068265
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2015
+  link: https://pycon.jp/2015/en/
+  cfp: '2015-07-20 23:59:00'
+  place: Tokyo, Japan
+  date: October 9 - 12, 2015
+  start: 2015-10-09
+  end: 2015-10-12
+  sub: PY
+  location:
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: PyData London
   year: 2015
@@ -2849,8 +2904,8 @@
   end: 2015-06-21
   sub: PYDATA
   location:
-    latitude: 51.512773
-    longitude: -0.0906448
+      latitude: 51.512773
+      longitude: -0.0906448
 
 - conference: SciPy Latin America
   year: 2015
@@ -2862,8 +2917,8 @@
   end: 2015-05-22
   sub: SCIPY
   location:
-    latitude: -27.4035083
-    longitude: -55.949711812781445
+      latitude: -27.4035083
+      longitude: -55.949711812781445
 
 - conference: Python Nordeste
   year: 2015
@@ -2878,8 +2933,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -5.7944777
-    longitude: -35.2119324
+      latitude: -5.7944777
+      longitude: -35.2119324
 
 - conference: PyCon US
   year: 2016
@@ -2891,8 +2946,8 @@
   end: 2016-06-05
   sub: PY
   location:
-    latitude: 45.5202471
-    longitude: -122.674194
+      latitude: 45.5202471
+      longitude: -122.674194
 
 - conference: PyCon US
   year: 2015
@@ -2904,8 +2959,8 @@
   end: 2015-04-16
   sub: PY
   location:
-    latitude: 45.5031824
-    longitude: -73.5698065
+      latitude: 45.5031824
+      longitude: -73.5698065
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -2918,8 +2973,22 @@
   end: 2014-10-19
   sub: PY
   location:
-    latitude: 49.69649115
-    longitude: 19.010946935372793
+      latitude: 49.69649115
+      longitude: 19.010946935372793
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2014
+  link: https://pycon.jp/2014/
+  cfp: '2014-06-20 23:59:59'
+  place: Tokyo, Japan
+  date: September 12 - 15, 2014
+  start: 2014-09-12
+  end: 2014-09-15
+  sub: PY
+  location:
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: Python Nordeste
   year: 2014
@@ -2933,8 +3002,8 @@
   twitter: pythonnordeste
   sub: PY
   location:
-    latitude: -5.7944777
-    longitude: -35.2119324
+      latitude: -5.7944777
+      longitude: -35.2119324
 
 - conference: PyData London
   year: 2014
@@ -2946,8 +3015,8 @@
   end: 2014-02-23
   sub: PYDATA
   location:
-    latitude: 51.5048954
-    longitude: -0.0190006
+      latitude: 51.5048954
+      longitude: -0.0190006
 
 - conference: PyCon US
   year: 2014
@@ -2959,8 +3028,8 @@
   end: 2014-04-17
   sub: PY
   location:
-    latitude: 45.5031824
-    longitude: -73.5698065
+      latitude: 45.5031824
+      longitude: -73.5698065
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -2973,8 +3042,8 @@
   end: 2013-10-20
   sub: PY
   location:
-    latitude: 49.69649115
-    longitude: 19.010946935372793
+      latitude: 49.69649115
+      longitude: 19.010946935372793
 
 - conference: Python Nordeste
   year: 2013
@@ -2986,8 +3055,8 @@
   end: 2013-05-25
   sub: PY
   location:
-    latitude: -3.7304512
-    longitude: -38.5217989
+      latitude: -3.7304512
+      longitude: -38.5217989
 
 - conference: PyCon US
   year: 2013
@@ -2999,8 +3068,8 @@
   end: 2013-03-21
   sub: PY
   location:
-    latitude: 37.2333253
-    longitude: -121.6846349
+      latitude: 37.2333253
+      longitude: -121.6846349
 
 - conference: PyCon France
   year: 2012
@@ -3012,8 +3081,8 @@
   end: 2012-09-16
   sub: PY
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217
+      latitude: 48.8588897
+      longitude: 2.3200410217
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -3026,8 +3095,8 @@
   end: 2012-09-16
   sub: PY
   location:
-    latitude: 51.3388736
-    longitude: 17.1275518
+      latitude: 51.3388736
+      longitude: 17.1275518
 
 - conference: PyCon Germany
   alt_name: PyCon DE
@@ -3040,8 +3109,22 @@
   end: 2012-11-03
   sub: PY
   location:
-    latitude: 51.3406321
-    longitude: 12.3747329
+      latitude: 51.3406321
+      longitude: 12.3747329
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2012
+  link: https://2012.pycon.jp/en/index.html
+  cfp: '2012-05-31 23:59:00'
+  place: Tokyo, Japan
+  date: September 15 - 17, 2012
+  start: 2012-09-15
+  end: 2012-09-17
+  sub: PY
+  location:
+      latitude: 35.6812665
+      longitude: 139.757653
 
 - conference: PyCon US
   year: 2012
@@ -3053,8 +3136,8 @@
   end: 2012-03-15
   sub: PY
   location:
-    latitude: 37.2333253
-    longitude: -121.6846349
+      latitude: 37.2333253
+      longitude: -121.6846349
 
 - conference: PyCon France
   year: 2011
@@ -3066,8 +3149,8 @@
   end: 2011-09-18
   sub: PY
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217
+      latitude: 48.8588897
+      longitude: 2.3200410217
 
 - conference: PyCon Germany
   alt_name: PyCon DE
@@ -3080,8 +3163,8 @@
   end: 2011-10-09
   sub: PY
   location:
-    latitude: 51.3406321
-    longitude: 12.3747329
+      latitude: 51.3406321
+      longitude: 12.3747329
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -3094,8 +3177,8 @@
   end: 2011-09-25
   sub: PY
   location:
-    latitude: 50.85402845
-    longitude: 20.60991568734511
+      latitude: 50.85402845
+      longitude: 20.60991568734511
 
 - conference: PyCon US
   year: 2011
@@ -3107,8 +3190,8 @@
   end: 2011-03-17
   sub: PY
   location:
-    latitude: 33.7489924
-    longitude: -84.3902644
+      latitude: 33.7489924
+      longitude: -84.3902644
 
 - conference: PyCon France
   year: 2010
@@ -3120,8 +3203,8 @@
   end: 2010-08-29
   sub: PY
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217
+      latitude: 48.8588897
+      longitude: 2.3200410217
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -3135,8 +3218,8 @@
   end: 2010-10-10
   sub: PY
   location:
-    latitude: 49.7181505
-    longitude: 18.8028338
+      latitude: 49.7181505
+      longitude: 18.8028338
 
 - conference: PyCon US
   year: 2009
@@ -3148,8 +3231,8 @@
   end: 2009-04-02
   sub: PY
   location:
-    latitude: 41.8755616
-    longitude: -87.6244212
+      latitude: 41.8755616
+      longitude: -87.6244212
 
 - conference: PyCon US
   year: 2010
@@ -3161,8 +3244,8 @@
   end: 2010-02-25
   sub: PY
   location:
-    latitude: 33.7489924
-    longitude: -84.3902644
+      latitude: 33.7489924
+      longitude: -84.3902644
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -3175,8 +3258,8 @@
   end: 2009-10-18
   sub: PY
   location:
-    latitude: 49.7181505
-    longitude: 18.8028338
+      latitude: 49.7181505
+      longitude: 18.8028338
 
 - conference: PyCon France
   year: 2009
@@ -3188,8 +3271,8 @@
   end: 2009-05-31
   sub: PY
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217
+      latitude: 48.8588897
+      longitude: 2.3200410217
 
 - conference: PyCon US
   year: 2008
@@ -3201,8 +3284,8 @@
   end: 2008-03-20
   sub: PY
   location:
-    latitude: 41.8755616
-    longitude: -87.6244212
+      latitude: 41.8755616
+      longitude: -87.6244212
 
 - conference: PyCon Poland$1
   alt_name: PyCon PL
@@ -3215,8 +3298,8 @@
   end: 2008-10-19
   sub: PY
   location:
-    latitude: 50.0955793
-    longitude: 18.5419933
+      latitude: 50.0955793
+      longitude: 18.5419933
 
 - conference: PyCon France
   year: 2008
@@ -3228,8 +3311,8 @@
   end: 2008-05-18
   sub: PY
   location:
-    latitude: 48.8588897
-    longitude: 2.3200410217
+      latitude: 48.8588897
+      longitude: 2.3200410217
 
 - conference: PyCon US
   alt_name: PyCon TX
@@ -3242,8 +3325,8 @@
   end: 2007-03-01
   sub: PY
   location:
-    latitude: 32.7762719
-    longitude: -96.7968559
+      latitude: 32.7762719
+      longitude: -96.7968559
 
 - conference: PyCon US
   alt_name: PyCon TX
@@ -3256,8 +3339,8 @@
   end: 2006-03-02
   sub: PY
   location:
-    latitude: 41.931696
-    longitude: -87.9889556
+      latitude: 41.931696
+      longitude: -87.9889556
 
 - conference: PyCon US
   alt_name: PyCon DC
@@ -3270,8 +3353,8 @@
   end: 2005-03-25
   sub: PY
   location:
-    latitude: 38.8950368
-    longitude: -77.0365427
+      latitude: 38.8950368
+      longitude: -77.0365427
 
 - conference: PyCon US
   alt_name: PyCon DC
@@ -3284,8 +3367,8 @@
   end: 2004-03-26
   sub: PY
   location:
-    latitude: 38.8950368
-    longitude: -77.0365427
+      latitude: 38.8950368
+      longitude: -77.0365427
 
 - conference: PyCon US
   alt_name: PyCon DC
@@ -3299,5 +3382,5 @@
   end: 2003-03-28
   sub: PY
   location:
-    latitude: 38.8950368
-    longitude: -77.0365427
+      latitude: 38.8950368
+      longitude: -77.0365427
