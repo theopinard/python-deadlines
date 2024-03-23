@@ -267,7 +267,7 @@
     latitude: 42.240599
     longitude: -8.720727
 
-- conference: SciPy
+- conference: SciPy US
   year: 2024
   link: https://scipy2024.scipy.org
   cfp_link: https://cfp.scipy.org/2024/cfp
@@ -336,7 +336,7 @@
   cfp_link: https://pretalx.com/pytexas-2024/
   cfp: '2024-01-14 23:59:00'
   timezone: America/Chicago
-  place: Austin, Texas, USA
+  place: Austin, Texas, USA of America
   date: April 19 - 21, 2024
   start: 2024-04-19
   end: 2024-04-21
@@ -510,6 +510,7 @@
   date: July 27 - 28, 2024
   start: 2024-07-27
   end: 2024-07-28
+  sub: PY
   location:
     latitude: 39.9622601
     longitude: -83.0007065
@@ -539,6 +540,7 @@
   end: 2024-05-17
   sponsor: https://pygrunn.org/#sponsoring
   twitter: pygrunn
+  sub: PY
   location:
     latitude: 53.2139576
     longitude: 6.5693841

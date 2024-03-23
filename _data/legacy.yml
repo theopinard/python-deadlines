@@ -1730,10 +1730,10 @@
     latitude: 42.6977028
     longitude: 23.3217359
 
-- conference: https://pyconweb.com
+- conference: PyCon Web
   year: 2018
   link: https://pyconweb.com/
-  cfp: TBA
+  cfp: Cancelled
   place: Munich, Germany
   date: June 30 - July 2, 2018
   start: 2018-06-30
@@ -3854,7 +3854,7 @@
     latitude: -34.787093049999996
     longitude: -68.43818677312292
 
-- conference: PyCON HK
+- conference: PyCon HK
   year: 2015
   link: http://2015.pycon.hk/
   cfp: TBA
@@ -5032,7 +5032,7 @@
     latitude: 25.0420743
     longitude: 121.61404600926753
 
-- conference: Djangocon Europe
+- conference: DjangoCon Europe
   year: 2014
   link: https://web.archive.org/web/20140523035244/http://2014.djangocon.eu/
   cfp: TBA
