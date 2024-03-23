@@ -2723,6 +2723,21 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: PyCon Germany
+  alt_name: PyCon.DE
+  year: 2018
+  link: https://web.archive.org/web/20180419145724/https://de.pycon.org/
+  cfp: '2018-06-03 23:59:59'
+  timezone: Europe/Berlin
+  place: Karlsruhe, Germany
+  date: October 24 - 26, 2018
+  start: 2018-10-24
+  end: 2018-10-26
+  sub: PY
+  location:
+    latitude: 49.0068705
+    longitude: 8.4034195
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2018
@@ -2794,6 +2809,21 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: PyCon Germany
+  year: 2017
+  link: https://web.archive.org/web/20171030134448/https://de.pycon.org/
+  cfp_link: https://www.papercall.io/pyconde2017
+  cfp: '2017-08-06 23:59:00'
+  timezone: Europe/Berlin
+  place: Karlsruhe, Germany
+  date: October 25 - 27, 2017
+  start: 2017-10-25
+  end: 2017-10-27
+  sub: PY
+  location:
+    latitude: 49.0068705
+    longitude: 8.4034195
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2017
@@ -2850,6 +2880,21 @@
   location:
     latitude: 45.5202471
     longitude: -122.674194
+
+- conference: PyCon Germany
+  alt_name: PyMunich
+  year: 2016
+  link: https://web.archive.org/web/20161015212639/http://www.pymunich.com/
+  cfp: '2016-09-12 00:00:00'
+  timezone: Europe/Berlin
+  place: Munich, Germany
+  date: October 28 - 30, 2016
+  start: 2016-10-28
+  end: 2016-10-30
+  sub: PY
+  location:
+    latitude: 48.18707745
+    longitude: 11.54321322
 
 - conference: PyData DC
   year: 2016
@@ -3168,6 +3213,20 @@
   location:
     latitude: 49.69649115
     longitude: 19.010946935372793
+
+- conference: PyCon Germany
+  alt_name: PyCon.DE
+  year: 2013
+  link: https://web.archive.org/web/20131028065946/http://2013.de.pycon.org/
+  cfp: '2013-07-15 23:59:00'
+  place: Cologne, Germany
+  date: October 14 - 19, 2013
+  start: 2013-10-14
+  end: 2013-10-19
+  sub: PY
+  location:
+    latitude: 50.938361
+    longitude: 6.959974
 
 - conference: PyCon India
   year: 2013

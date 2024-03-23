@@ -1447,19 +1447,6 @@
     latitude: 3.4520339
     longitude: -76.5329352
 
-- conference: PyCon Germany
-  year: 2018
-  link: https://web.archive.org/web/20120426155127/http://pycon.de/
-  cfp: TBA
-  place: Karlsruhe, Germany
-  date: October 24 - 27, 2018
-  start: 2018-10-24
-  end: 2018-10-27
-  sub: PY
-  location:
-    latitude: 49.0068705
-    longitude: 8.4034195
-
 - conference: Pyweek
   year: 2018
   link: https://web.archive.org/web/20181106052316/https://pyweek.org/26/
@@ -2245,19 +2232,6 @@
   location:
     latitude: 17.360589
     longitude: 78.4740613
-
-- conference: PyCon Germany
-  year: 2017
-  link: https://web.archive.org/web/20171030134448/https://de.pycon.org/
-  cfp: TBA
-  place: Karlsruhe, Germany
-  date: October 25 - 28, 2017
-  start: 2017-10-25
-  end: 2017-10-28
-  sub: PY
-  location:
-    latitude: 49.0068705
-    longitude: 8.4034195
 
 - conference: MUPy
   year: 2017
@@ -3078,19 +3052,6 @@
   location:
     latitude: 49.1922443
     longitude: 16.6113382
-
-- conference: PyCon Germany
-  year: 2016
-  link: https://web.archive.org/web/20120426155127/http://pycon.de/
-  cfp: TBA
-  place: Leonardo Royal Hotel Munich, Germany
-  date: October 28 - 31, 2016
-  start: 2016-10-28
-  end: 2016-10-31
-  sub: PY
-  location:
-    latitude: 48.187077450000004
-    longitude: 11.543213224361129
 
 - conference: Plone Conference
   year: 2016
@@ -5063,19 +5024,6 @@
   location:
     latitude: 60.1879383
     longitude: 24.8318201
-
-- conference: PyCon Germany
-  year: 2013
-  link: https://web.archive.org/web/20131028065946/http://2013.de.pycon.org/
-  cfp: TBA
-  place: Cologne, Germany
-  date: October 14 - 20, 2013
-  start: 2013-10-14
-  end: 2013-10-20
-  sub: PY
-  location:
-    latitude: 50.938361
-    longitude: 6.959974
 
 - conference: RuPy
   year: 2013
