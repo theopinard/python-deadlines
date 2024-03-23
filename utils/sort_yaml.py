@@ -21,7 +21,7 @@ from tidy_conf.latlon import add_latlon
 from tidy_conf.date import clean_dates, create_nice_date
 from tidy_conf.links import check_link_availability
 from tidy_conf.titles import tidy_titles
-from tidy_conf.utils import Loader, get_schema
+from tidy_conf.utils import Loader, get_schema, query_yes_no
 
 dateformat = "%Y-%m-%d %H:%M:%S"
 tba_words = ["tba", "tbd", "cancelled"]
@@ -118,18 +118,21 @@ def split_data(data):
 
 def check_links(data):
     cache = {}
-    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
-        if "link" in q:
-            if q["link"] in cache:
-                q["link"] = cache[q["link"]]
-            else:
-                time.sleep(0.5)
-                new_link = check_link_availability(q["link"], q["start"])
-                if "https://web.archive.org" not in new_link:
-                    cache[q["link"]] = new_link
-                    cache[new_link] = new_link
-                q["link"] = new_link
-            data[i] = q
+    for i, q in tqdm(enumerate(sorted(data, key=lambda x: x["year"], reverse=True)), total=len(data)):
+        for key in ("link", "cfp_link", "sponsor", "finaid"):
+            if key in q:
+                if q[key] in cache:
+                    q[key] = cache[q[key]]
+                else:
+                    new_link = check_link_availability(q[key], q["start"])
+                    if "https://web.archive.org" not in new_link:
+                        cache[q[key]] = new_link
+                        cache[new_link] = new_link
+                    else:
+                        time.sleep(0.5)
+
+                    q[key] = new_link
+                data[i] = q
     return data
 
 
@@ -176,8 +179,8 @@ def sort_data(base="", prefix=""):
     data = merge_duplicates(data)
 
     # Check Links
-    print("Checking Links")
-    # data = check_links(data)
+    if query_yes_no("Check Links?"):
+        data = check_links(data)
 
     print("Sorting Keywords:")
     for i, q in enumerate(data.copy()):

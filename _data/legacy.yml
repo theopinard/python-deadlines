@@ -164,7 +164,7 @@
   date: February 19 - 22, 2021
   start: 2021-02-19
   end: 2021-02-22
-  sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor
+  sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
 
 - conference: PyCamp Leipzig
   year: 2021
@@ -174,7 +174,7 @@
   date: January 30th, 2021
   start: 2021-01-30
   end: 2021-01-30
-  sponsor: https://barcamps.eu/pycamp-leipzig-2021
+  sponsor: https://barcamps.eu/pycamp-leipzig-2021/
   sub: PY
   location:
     latitude: 51.3406321
@@ -863,13 +863,13 @@
 - conference: PyCon Taiwan
   year: 2019
   link: https://tw.pycon.org/2019/en-us/
-  cfp_link: https://tw.pycon.org/2019/en-us/events/talks
+  cfp_link: https://tw.pycon.org/2019/en-us/events/talks/
   cfp: TBA
   place: Taipei, Taiwan
   date: September 20 - 22, 2019
   start: 2019-09-20
   end: 2019-09-22
-  sponsor: https://tw.pycon.org/2019/en-us/sponsor/sponsor
+  sponsor: https://tw.pycon.org/2019/en-us/sponsor/sponsor/
   sub: PY
   location:
     latitude: 25.0375198
@@ -1407,9 +1407,9 @@
     latitude: 15.8572666
     longitude: 74.5069343
 
-- conference: PyPA sprint at Bloomberg NYC
+- conference: PyPA stqdm.write at Bloomberg NYC
   year: 2018
-  link: https://web.archive.org/web/20190419123751/https://wiki.python.org/psf/PackagingSprints
+  link: https://web.archive.org/web/20190419123751/https://wiki.python.org/psf/PackagingStqdm.writes
   cfp: TBA
   place: New York, USA
   date: October 27 - 29, 2018
@@ -1603,7 +1603,7 @@
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2018
-  link: https://2018.pycon-au.org/
+  link: https://web.archive.org/web/20180817031926/https://2018.pycon-au.org/
   cfp: TBA
   place: ICC, Australia
   date: August 24 - 29, 2018
@@ -1980,7 +1980,7 @@
 
 - conference: PyCaribbean
   year: 2018
-  link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/?
+  link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
   cfp: TBA
   place: Santo Domingo, Dominican Republic
   date: February 17 - 19, 2018
@@ -2349,7 +2349,7 @@
 
 - conference: PyConf Hyderabad
   year: 2017
-  link: https://web.archive.org/web/20171008124816/http://pyconf.hydpy.org/?
+  link: https://web.archive.org/web/20171008124816/http://pyconf.hydpy.org/
   cfp: TBA
   place: IIIT Hyderabad, India
   date: October 7 - 9, 2017
@@ -2701,7 +2701,7 @@
 
 - conference: PyCon Taiwan
   year: 2017
-  link: https://tw.pycon.org/2017/en-us/
+  link: https://web.archive.org/web/20170222053338/https://tw.pycon.org/2017/en-us/
   cfp: TBA
   place: Taipei, Taiwan
   date: June 6 - 12, 2017
@@ -2936,7 +2936,7 @@
 
 - conference: PyCon Belarus
   year: 2017
-  link: https://web.archive.org/web/20170202114714/http://by.pycon.org/?
+  link: https://web.archive.org/web/20170202114714/http://by.pycon.org/
   cfp: TBA
   place: Minsk, Belarus
   date: February 4 - 5, 2017
@@ -2973,7 +2973,7 @@
 
 - conference: PyCon Cameroon
   year: 2017
-  link: https://web.archive.org/web/20171005042303/http://pythoncm.org/?
+  link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
   cfp: TBA
   place: Molyko Buea, Cameroon
   date: January 20 - 23, 2017
@@ -3275,7 +3275,7 @@
 
 - conference: PyData Carolinas
   year: 2016
-  link: https://web.archive.org/web/20160909163256/http://pydata.org/carolinas2016/?
+  link: https://web.archive.org/web/20160909163256/http://pydata.org/carolinas2016/
   cfp: TBA
   place: Research Triangle Park, USA
   date: September 14 - 17, 2016
@@ -3574,7 +3574,7 @@
 
 - conference: PyCon Ukraine
   year: 2016
-  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/?
+  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
   cfp: TBA
   place: Lviv, Ukraine
   date: April 23 - 25, 2016
@@ -3715,7 +3715,7 @@
 
 - conference: PyCaribbean Conference
   year: 2016
-  link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/?
+  link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
   cfp: TBA
   place: Santo Domingo, Dominican Republic
   date: February 20 - 22, 2016
@@ -3885,7 +3885,7 @@
 
 - conference: PyCon Finland
   year: 2015
-  link: http://fi.pycon.org/2015/
+  link: https://web.archive.org/web/20150924173543/http://fi.pycon.org/2015/
   cfp: TBA
   place: Helsinki, Finland
   date: October 19 - 20, 2015
@@ -4774,7 +4774,7 @@
     latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: Helsinki Python Sprint
+- conference: Helsinki Python Stqdm.write
   year: 2014
   link: https://doodle.com/poll/vbd2ku4u6kxiw9nz
   cfp: TBA
@@ -4816,7 +4816,7 @@
 
 - conference: PyData Berlin
   year: 2014
-  link: https://web.archive.org/web/20140726215249/http://pydata.org/berlin2014/?
+  link: https://web.archive.org/web/20140726215249/http://pydata.org/berlin2014/
   cfp: TBA
   place: Berlin, Germany
   date: July 26 - 28, 2014
@@ -5645,7 +5645,7 @@
 
 - conference: PyCon Ukraine
   year: 2012
-  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/?
+  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
   cfp: TBA
   place: Kiew, Ukraine
   date: October 20 - 22, 2012

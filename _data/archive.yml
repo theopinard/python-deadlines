@@ -1,5 +1,4 @@
 ---
-
 - conference: FOSDEM
   year: 2024
   link: https://fosdem.org/2024/schedule/track/python-devroom/
@@ -138,7 +137,7 @@
   alt_name: PyCon SE
   year: 2023
   link: https://pycon.se
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/closedform
   cfp: '2023-09-01 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
@@ -188,7 +187,7 @@
   alt_name: PyCon ZA
   year: 2023
   link: https://za.pycon.org/
-  cfp_link: https://za.pycon.org/talks/how-to-submit-a-talk
+  cfp_link: https://za.pycon.org/talks/how-to-submit-a-talk/
   cfp: '2023-08-18 23:59:00'
   tutorial_deadline: '2023-08-18 23:59:00'
   timezone: Africa/Johannesburg
@@ -246,7 +245,7 @@
   date: September 29 - October 2, 2023
   start: 2023-09-29
   end: 2023-10-02
-  sponsor: https://docs.google.com/forms/d/13MVcj2XEF1DfTmV3fPjq9SN5qzY22k3R7cJVKlfbhZ4/
+  sponsor: https://docs.google.com/forms/d/13MVcj2XEF1DfTmV3fPjq9SN5qzY22k3R7cJVKlfbhZ4/viewform
   twitter: PyConIndia
   sub: PY
   location:
@@ -285,27 +284,10 @@
     latitude: -8.7326688
     longitude: 115.1701613
 
-- conference: PyData Tel Aviv
-  year: 2023
-  link: https://pydata.org/telaviv2024/
-  cfp_link: https://pydata.org/telaviv2023/cfp
-  cfp: '2023-07-14 23:59:00'
-  timezone: Asia/Jerusalem
-  place: Tel Aviv, Israel
-  date: November 14th, 2023
-  start: 2023-11-14
-  end: 2023-11-14
-  sponsor: https://pydata.org/telaviv2023/sponsor
-  twitter: PyDataTLV
-  sub: PYDATA
-  location:
-    latitude: 32.0852997
-    longitude: 34.7818064
-
 - conference: DjangoCon Africa
   year: 2023
   link: https://2023.djangocon.africa/
-  cfp_link: https://cfp-2023.djangocon.africa/
+  cfp_link: https://web.archive.org/web/20231002014735/https://cfp-2023.djangocon.africa/
   cfp: '2023-07-12 23:59:00'
   place: Zanzibar, Tanzania
   date: November 6 - 11, 2023
@@ -322,7 +304,7 @@
 - conference: Swiss Python Summit
   year: 2023
   link: https://python-summit.ch
-  cfp_link: https://python-summit.ch/cfp
+  cfp_link: https://web.archive.org/web/20230602211338/https://www.python-summit.ch/cfp/
   cfp: '2023-07-01 23:59:00'
   timezone: Europe/Zurich
   place: Rapperswil, Switzerland
@@ -339,7 +321,7 @@
 - conference: PyCon Portugal
   year: 2023
   link: https://2023.pycon.pt/
-  cfp_link: https://2023.pycon.pt/talks/cfp
+  cfp_link: https://2023.pycon.pt/talks/cfp/
   cfp: '2023-06-30 23:59:00'
   tutorial_deadline: '2023-06-30 23:59:00'
   timezone: UTC
@@ -394,7 +376,7 @@
   alt_name: PyCon CZ
   year: 2023
   link: https://cz.pycon.org/2023/
-  cfp_link: https://cz.pycon.org/2023/cfp
+  cfp_link: https://cz.pycon.org/2023/cfp/
   cfp: '2023-06-25 23:59:00'
   workshop_deadline: '2023-06-25 23:59:00'
   tutorial_deadline: '2023-06-25 23:59:00'
@@ -403,7 +385,7 @@
   date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
-  sponsor: https://cz.pycon.org/2023/pycon-cz-sponsorship-prospectus-2023.pdf
+  sponsor: https://web.archive.org/web/20230516214745/https://cz.pycon.org/2023/pycon-cz-sponsorship-prospectus-2023.pdf
   finaid: https://cz.pycon.org/2023/cfp/
   twitter: pyconcz
   sub: PY
@@ -415,7 +397,7 @@
   alt_name: PyCon ES
   year: 2023
   link: https://2023.es.pycon.org/
-  cfp_link: https://2023.es.pycon.org/c4p
+  cfp_link: https://2023.es.pycon.org/c4p/
   cfp: '2023-06-23 23:59:00'
   timezone: Europe/London
   place: Tenerife, Spain
@@ -450,7 +432,7 @@
 - conference: PyCon Hong Kong
   year: 2023
   link: https://pycon.hk/2023/
-  cfp_link: https://pycon.hk/2023/pycon-hk-2023-cfp
+  cfp_link: https://pycon.hk/2023/pycon-hk-2023-cfp/
   cfp: '2023-06-18 23:59:00'
   timezone: Asia/Hong_Kong
   place: Hong Kong
@@ -566,7 +548,7 @@
 - conference: Kiwi PyCon
   year: 2023
   link: https://kiwipycon.nz/
-  cfp_link: https://kiwipycon.nz/call-for-proposals
+  cfp_link: https://web.archive.org/web/20230314112258/https://kiwipycon.nz/call-for-proposals
   cfp: '2023-05-19 23:59:00'
   timezone: Pacific/Auckland
   place: "Waih\u014Dpai (Invercargill), Aotearoa, New Zealand"
@@ -574,7 +556,7 @@
   start: 2023-09-15
   end: 2023-09-17
   sponsor: https://kiwipycon.nz/s/Kiwi-Pycon-XII-Sponsorship-Prospectus.pdf
-  finaid: https://kiwipycon.nz/financial-aid
+  finaid: https://web.archive.org/web/20220721015137/https://kiwipycon.nz/financial-aid
   twitter: KiwiPyCon
   sub: PY
   location:
@@ -584,7 +566,7 @@
 - conference: PyGotham TV
   year: 2023
   link: https://2023.pygotham.tv/
-  cfp_link: https://cfp.pygotham.tv
+  cfp_link: https://cfp.pygotham.tv/
   cfp: '2023-05-15 23:59:00'
   place: Online
   date: October 6 - 7, 2023
@@ -597,7 +579,7 @@
 - conference: DjangoCon US
   year: 2023
   link: https://2023.djangocon.us/
-  cfp_link: https://2023.djangocon.us/speaking
+  cfp_link: https://2023.djangocon.us/speaking/
   cfp: '2023-05-15 18:00:00'
   tutorial_deadline: '2023-05-15 23:59:00'
   timezone: America/New_York
@@ -617,7 +599,7 @@
   alt_name: PyCon AU
   year: 2023
   link: https://2023.pycon.org.au/
-  cfp_link: https://2023.pycon.org.au/program
+  cfp_link: https://2023.pycon.org.au/program/
   cfp: '2023-05-15 23:59:00'
   timezone: Australia/Adelaide
   place: Tarndanya (Adelaide), Australia
@@ -670,14 +652,14 @@
 - conference: DjangoCon Australia
   year: 2023
   link: https://2023.djangocon.com.au/
-  cfp_link: https://2023.pycon.org.au/program
+  cfp_link: https://2023.pycon.org.au/program/
   cfp: '2023-05-14 23:59:00'
   timezone: Australia/Adelaide
   place: Tarndanya (Adelaide), Australia
   date: August 18th, 2023
   start: 2023-08-18
   end: 2023-08-18
-  sponsor: https://2023.pycon.org.au/sponsor
+  sponsor: https://2023.pycon.org.au/sponsor/
   twitter: DjangoConAU
   mastodon: https://fosstodon.org/@djangoconau
   sub: WEB
@@ -724,7 +706,7 @@
 - conference: PyCon Uganda
   year: 2023
   link: https://ug.pycon.org/2024
-  cfp_link: https://ug.pycon.org/speakers
+  cfp_link: https://web.archive.org/web/20230929225843/https://ug.pycon.org/speakers
   cfp: '2023-05-05 23:59:00'
   timezone: Africa/Kampala
   place: Kampala, Uganda
@@ -740,7 +722,7 @@
 - conference: Moscow Python Conf++
   year: 2023
   link: https://conf.python.ru/moscow/2023
-  cfp_link: https://cfp.conf.python.ru
+  cfp_link: https://cfp.conf.python.ru/
   cfp: '2023-04-17 23:59:00'
   timezone: Europe/Moscow
   place: Moscow, Central Federal District, Russia
@@ -779,8 +761,8 @@
   date: September 2 - 3, 2023
   start: 2023-09-02
   end: 2023-09-03
-  sponsor: https://tw.pycon.org/2023/en-us/sponsor
-  finaid: https://tw.pycon.org/2023/en-us/registration/financial-aid
+  sponsor: https://tw.pycon.org/2023/en-us/sponsor/
+  finaid: https://tw.pycon.org/2023/en-us/registration/financial-aid/
   twitter: PyConTW
   sub: PY
   location:
@@ -790,7 +772,7 @@
 - conference: PyCon Colombia
   year: 2023
   link: https://2023.pycon.co/
-  cfp_link: https://2023.pycon.co/call-for-proposals
+  cfp_link: https://2023.pycon.co/call-for-proposals/
   cfp: '2023-03-30 23:59:59'
   timezone: America/Bogota
   place: Online
@@ -838,14 +820,14 @@
 - conference: EuroPython
   year: 2023
   link: https://ep2023.europython.eu/
-  cfp_link: https://ep2023.europython.eu/cfp
+  cfp_link: https://ep2023.europython.eu/cfp/
   cfp: '2023-03-26 23:59:00'
   place: Prague, Czechia
   date: July 17 - 23, 2023
   start: 2023-07-17
   end: 2023-07-23
   sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
-  finaid: https://ep2023.europython.eu/finaid
+  finaid: https://ep2023.europython.eu/finaid/
   twitter: EuroPython
   sub: PY
   location:
@@ -873,14 +855,14 @@
 - conference: PyCon Russia
   year: 2023
   link: https://web.archive.org/web/20230715073901/https://pycon.ru/
-  cfp_link: https://pycon.ru/cfp
+  cfp_link: https://web.archive.org/web/20230210024458/https://pycon.ru/cfp/
   cfp: '2023-03-15 23:59:00'
   timezone: Europe/Moscow
   place: Moscow, Central Federal District, Russia
   date: July 28 - 29, 2023
   start: 2023-07-28
   end: 2023-07-29
-  sponsor: https://pycon.ru/partneram
+  sponsor: https://web.archive.org/web/20240203212600/https://pycon.ru/partneram
   twitter: IT_People_ru
   sub: PY
   location:
@@ -896,7 +878,7 @@
   date: June 2 - 4, 2023
   start: 2023-06-02
   end: 2023-06-04
-  sponsor: https://pydata.org/wp-content/uploads/2023/01/PyData-2023-Sponsorship-Prospectus.pdf
+  sponsor: https://web.archive.org/web/20230602014516/https://pydata.org/wp-content/uploads/2023/01/PyData-2023-Sponsorship-Prospectus.pdf
   twitter: PyDataLondon
   sub: PYDATA
   location:
@@ -913,8 +895,8 @@
   date: July 10 - 16, 2023
   start: 2023-07-10
   end: 2023-07-16
-  sponsor: https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
-  finaid: https://www.scipy2023.scipy.org/financial-aid
+  sponsor: https://web.archive.org/web/20230602014437/https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
+  finaid: https://web.archive.org/web/20230407213408/https://www.scipy2023.scipy.org/financial-aid
   twitter: SciPyConf
   sub: SCIPY
   location:
@@ -924,7 +906,7 @@
 - conference: DjangoCon Europe
   year: 2023
   link: https://2023.djangocon.eu/
-  cfp_link: https://2023.djangocon.eu/call-for-proposals
+  cfp_link: https://2023.djangocon.eu/call-for-proposals/
   cfp: '2023-02-27 23:59:59'
   tutorial_deadline: '2023-02-27 23:59:00'
   place: Edinburgh, Scotland, UK
@@ -948,8 +930,8 @@
   date: April 26 - 28, 2023
   start: 2023-04-26
   end: 2023-04-28
-  sponsor: https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
-  finaid: https://pydata.org/seattle2023/#diversity-scholars
+  sponsor: https://web.archive.org/web/20230327071537/https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
+  finaid: https://web.archive.org/web/20240121140723/https://pydata.org/seattle2023/
   twitter: PyDataSeattle
   sub: PYDATA
   location:
@@ -967,7 +949,7 @@
   date: February 21 - 23, 2023
   start: 2023-02-21
   end: 2023-02-23
-  sponsor: https://na.pycon.org/sponsorship
+  sponsor: https://na.pycon.org/sponsorship/
   twitter: PyConNA
   sub: PY
   location:
@@ -996,13 +978,13 @@
 - conference: PyTexas
   year: 2023
   link: https://pytexas.org
-  cfp_link: https://pretalx.com/pytexas-2023
+  cfp_link: https://pretalx.com/pytexas-2023/
   cfp: '2023-01-15 23:59:00'
   place: Austin, Texas, USA
   date: April 1 - 2, 2023
   start: 2023-04-01
   end: 2023-04-02
-  sponsor: https://pytexas.org/sponsors/prospectus
+  sponsor: https://web.archive.org/web/20230601022143/https://www.pytexas.org/sponsors/prospectus
   sub: PY
   location:
     latitude: 30.2711286
@@ -1012,7 +994,7 @@
   alt_name: PyCon FR
   year: 2023
   link: https://pycon.fr/2023/
-  cfp_link: https://cfp-2023.pycon.fr/cfp
+  cfp_link: https://cfp-2023.pycon.fr/cfp/
   cfp: '2023-01-07 23:59:59'
   timezone: Europe/Paris
   place: Bordeaux, France
@@ -1031,7 +1013,7 @@
   alt_name: PyCon DE & PyData Berlin
   year: 2023
   link: https://2023.pycon.de/
-  cfp_link: https://2023.pycon.de/blog/call-for-proposals
+  cfp_link: https://2023.pycon.de/blog/call-for-proposals/
   cfp: '2023-01-05 23:59:59'
   tutorial_deadline: '2023-01-05 23:59:00'
   timezone: Europe/Berlin
@@ -1072,7 +1054,7 @@
   start: 2023-05-10
   end: 2023-05-12
   sponsor: https://jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
-  finaid: https://www.jupytercon.com/scholarships
+  finaid: https://www.jupytercon.com/scholarships/
   twitter: jupyterCon
   sub: PYDATA
   location:
@@ -1112,7 +1094,7 @@
 - conference: PyCon US
   year: 2023
   link: https://us.pycon.org/2023/
-  cfp_link: https://us.pycon.org/2023/speaking/guidelines
+  cfp_link: https://web.archive.org/web/20230325060747/https://us.pycon.org/2023/speaking/guidelines/
   cfp: '2022-12-11 23:59:59'
   tutorial_deadline: '2022-12-11 23:59:00'
   place: Salt Lake City, Utah, USA
@@ -1147,7 +1129,7 @@
   date: March 18 - 19, 2023
   start: 2023-03-18
   end: 2023-03-19
-  sponsor: https://2023.pycascades.com/sponsors/become-a-sponsor
+  sponsor: https://2023.pycascades.com/sponsors/become-a-sponsor/
   twitter: pyCascades
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
@@ -1187,7 +1169,7 @@
   date: December 1 - 3, 2022
   start: 2022-12-01
   end: 2022-12-03
-  sponsor: https://pydata.org/global2022/sponsors
+  sponsor: https://web.archive.org/web/20221203190547/https://pydata.org/global2022/sponsors/
   sub: PYDATA
 
 - conference: PyData Tel Aviv
@@ -1223,14 +1205,14 @@
 - conference: SciPy Latin America
   year: 2022
   link: https://pythoncientifico.ar/
-  cfp_link: https://pythoncientifico.ar/pages/llamado-a-propuestas
+  cfp_link: https://pythoncientifico.ar/pages/llamado-a-propuestas/
   cfp: '2022-08-31 23:59:00'
   timezone: America/Argentina/Buenos_Aires
   place: Salta, Argentina
   date: September 26 - 28, 2022
   start: 2022-09-26
   end: 2022-09-28
-  sponsor: https://pythoncientifico.ar/sponsors
+  sponsor: https://web.archive.org/web/20220901114721/https://pythoncientifico.ar/sponsors
   sub: SCIPY
   location:
     latitude: -25.1076701
@@ -1261,7 +1243,7 @@
   date: November 9 - 11, 2022
   start: 2022-11-09
   end: 2022-11-11
-  sponsor: https://pydata.org/nyc2022/sponsors
+  sponsor: https://web.archive.org/web/20220907192705/https://pydata.org/nyc2022/sponsors/
   sub: PYDATA
   location:
     latitude: 40.7127281
@@ -1330,7 +1312,7 @@
   date: October 13 - 15, 2022
   start: 2022-10-13
   end: 2022-10-15
-  sponsor: https://gh.pycon.org/support-us
+  sponsor: https://gh.pycon.org/support-us/
   sub: PY
   location:
     latitude: 5.5571096
@@ -1395,7 +1377,7 @@
 - conference: PyCon Portugal
   year: 2022
   link: https://2022.pycon.pt/
-  cfp_link: https://2022.pycon.pt/talks/cfp
+  cfp_link: https://2022.pycon.pt/talks/cfp/
   cfp: '2022-06-30 23:59:00'
   tutorial_deadline: '2022-06-30 23:59:00'
   timezone: Europe/Lisbon
@@ -1403,7 +1385,7 @@
   date: September 24 - 25, 2022
   start: 2022-09-24
   end: 2022-09-25
-  sponsor: https://2022.pycon.pt/sponsors/sponsorship
+  sponsor: https://2022.pycon.pt/sponsors/sponsorship/
   sub: PY
   location:
     latitude: 41.1494512
@@ -1447,7 +1429,7 @@
   date: September 10 - 11, 2022
   start: 2022-09-10
   end: 2022-09-11
-  sponsor: https://pybay.com/sponsors-prospectus
+  sponsor: https://web.archive.org/web/20221002151717/https://pybay.com/sponsors-prospectus/
   sub: PY
   location:
     latitude: 37.7790262
@@ -1617,7 +1599,7 @@
   date: June 17 - 19, 2022
   start: 2022-06-17
   end: 2022-06-19
-  sponsor: https://pydata.org/london2022/sponsors
+  sponsor: https://web.archive.org/web/20220526121203/https://pydata.org/london2022/sponsors/
   sub: PYDATA
   location:
     latitude: 51.5074456
@@ -1709,7 +1691,7 @@
 - conference: GeoPython
   year: 2022
   link: https://2022.geopython.net/
-  cfp_link: https://2022.geopython.net
+  cfp_link: https://2022.geopython.net/
   cfp: '2022-02-28 12:00:00'
   tutorial_deadline: '2022-02-15 23:59:00'
   place: Basel, Switzerland
@@ -1765,7 +1747,7 @@
   alt_name: PyCon DE & PyData Berlin
   year: 2022
   link: https://2022.pycon.de/
-  cfp_link: https://2022.pycon.de/call-for-proposals
+  cfp_link: https://2022.pycon.de/call-for-proposals/
   cfp: '2022-01-16 23:59:59'
   tutorial_deadline: '2022-01-16 23:59:00'
   timezone: Europe/Berlin
@@ -1773,7 +1755,7 @@
   date: April 11 - 14, 2022
   start: 2022-04-11
   end: 2022-04-14
-  sponsor: https://2022.pycon.de/blog/pyconde-pydata-berlin-call-for-sponsors
+  sponsor: https://2022.pycon.de/blog/pyconde-pydata-berlin-call-for-sponsors/
   sub: PY,PYDATA
   location:
     latitude: 52.5170365
@@ -1929,7 +1911,7 @@
   date: December 4 - 5, 2021
   start: 2021-12-04
   end: 2021-12-05
-  sponsor: https://pycon.id/sponsorship
+  sponsor: https://web.archive.org/web/20210904043050/http://pycon.id/sponsorship/
   sub: PY
   location:
     latitude: -2.4833826
@@ -2001,14 +1983,14 @@
 - conference: PyData Global
   year: 2021
   link: https://web.archive.org/web/20211028140235/http://pydata.org/global2021/
-  cfp_link: https://pydata.org/global2021/present
+  cfp_link: https://web.archive.org/web/20211129200537/https://pydata.org/global2021/present/
   cfp: '2021-08-15 23:59:00'
   tutorial_deadline: '2021-08-15 23:59:00'
   place: Online
   date: October 28 - 31, 2021
   start: 2021-10-28
   end: 2021-10-31
-  sponsor: https://pydata.org/global2021/sponsor
+  sponsor: https://web.archive.org/web/20211017042901/https://pydata.org/global2021/sponsor/
   sub: PYDATA
 
 - conference: PyCon Japan
@@ -2052,14 +2034,14 @@
 - conference: DjangoCon Europe
   year: 2021
   link: https://2021.djangocon.eu/
-  cfp_link: https://2021.djangocon.eu/talks/cfp
+  cfp_link: https://2021.djangocon.eu/talks/cfp/
   cfp: '2021-04-01 23:59:00'
   tutorial_deadline: '2021-04-01 23:59:00'
   place: Porto, Oporto, Portugal
   date: June 2 - 7, 2021
   start: 2021-06-02
   end: 2021-06-07
-  sponsor: https://2021.djangocon.eu/sponsors/sponsorships
+  sponsor: https://2021.djangocon.eu/sponsors/sponsorships/
   sub: WEB
   location:
     latitude: 41.1494512
@@ -2068,7 +2050,7 @@
 - conference: Python Nordeste
   year: 2021
   link: https://2020.pythonnordeste.org/
-  cfp_link: https://speakerfight.com/events/python-nordeste-2020-palestras/
+  cfp_link: https://web.archive.org/web/20210516000954/https://speakerfight.com/events/python-nordeste-2020-palestras/
   cfp: '2021-03-10 23:59:00'
   timezone: America/Recife
   place: Online
@@ -2095,7 +2077,7 @@
 - conference: PyCon US
   year: 2021
   link: https://us.pycon.org/2021/
-  cfp_link: https://us.pycon.org/2021/speaking/talks
+  cfp_link: https://web.archive.org/web/20210428000634/https://us.pycon.org/2021/speaking/talks/
   cfp: '2021-02-12 23:59:00'
   tutorial_deadline: '2021-02-12 23:59:00'
   place: Online
@@ -2285,7 +2267,7 @@
   date: October 31 - November 2, 2019
   start: 2019-10-31
   end: 2019-11-02
-  sponsor: http://pycon.se/sponsorship.html
+  sponsor: https://web.archive.org/web/20191025124100/http://www.pycon.se/sponsorship.html
   sub: PY
   location:
     latitude: 59.3251172
@@ -2294,7 +2276,7 @@
 - conference: PyCon Canada
   year: 2019
   link: https://2019.pycon.ca/
-  cfp_link: https://cfp.pycon.ca
+  cfp_link: https://web.archive.org/web/20190503000520/http://cfp.pycon.ca/
   cfp: '2019-08-31 23:59:00'
   tutorial_deadline: '2019-08-31 23:59:00'
   place: Toronto, Ontario, Canada
@@ -2364,7 +2346,7 @@
   alt_name: PyCon DE & PyData Berlin
   year: 2019
   link: https://2019.pycon.de/
-  cfp_link: https://2019.pycon.de/call-for-proposals
+  cfp_link: https://2019.pycon.de/call-for-proposals/
   cfp: '2019-06-09 23:59:00'
   place: Berlin, Germany
   date: October 9 - 13, 2019
@@ -2401,7 +2383,7 @@
   date: September 16 - 17, 2019
   start: 2019-09-16
   end: 2019-09-17
-  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/viewform
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/closedform
   sub: PY
   location:
     latitude: 35.683805050000004
@@ -2410,14 +2392,14 @@
 - conference: PyCon Africa
   year: 2019
   link: https://africa.pycon.org/
-  cfp_link: https://africa.pycon.org/speaking
+  cfp_link: https://web.archive.org/web/20190528155625/https://africa.pycon.org/speaking/
   cfp: '2019-06-01 23:59:00'
   tutorial_deadline: '2019-06-01 23:59:00'
   place: Accra, Greater Accra, Ghana
   date: August 6 - 10, 2019
   start: 2019-08-06
   end: 2019-08-10
-  sponsor: https://africa.pycon.org/sponsor
+  sponsor: https://africa.pycon.org/sponsor/
   sub: PY
   location:
     latitude: 5.5571096
@@ -2461,7 +2443,7 @@
   date: October 4 - 5, 2019
   start: 2019-10-04
   end: 2019-10-05
-  sponsor: https://2019.pygotham.org/sponsors/prospectus
+  sponsor: https://2019.pygotham.org/sponsors/prospectus/
   location:
     latitude: 40.7127281
     longitude: -74.0060152
@@ -2546,7 +2528,7 @@
   date: August 2 - 6, 2019
   start: 2019-08-02
   end: 2019-08-06
-  sponsor: https://2019.pycon-au.org/sponsor
+  sponsor: https://2019.pycon-au.org/sponsor/
   sub: PY
   location:
     latitude: -33.8698439
@@ -2555,7 +2537,7 @@
 - conference: EuroSciPy
   year: 2019
   link: https://www.euroscipy.org/2019/
-  cfp_link: https://pretalx.com/euroscipy-2019
+  cfp_link: https://pretalx.com/euroscipy-2019/
   cfp: '2019-04-28 23:59:59'
   tutorial_deadline: '2019-05-12 23:59:00'
   timezone: Europe/Madrid
@@ -2645,7 +2627,7 @@
 - conference: PyCaribbean
   year: 2019
   link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
-  cfp_link: https://papercall.io/pycaribbean-2019
+  cfp_link: https://web.archive.org/web/20210125195809/https://www.papercall.io/pycaribbean-2019
   cfp: '2018-11-15 23:59:00'
   place: Santo Domingo, Dominican Republic
   date: February 16 - 17, 2019
@@ -2658,7 +2640,7 @@
 - conference: PyTennessee
   year: 2019
   link: https://web.archive.org/web/20190301154334/http://www.pytennessee.org/
-  cfp_link: https://papercall.io/pytn2019
+  cfp_link: https://web.archive.org/web/20190302101156/https://www.papercall.io/pytn2019
   cfp: '2018-11-01 23:59:00'
   tutorial_deadline: '2018-11-01 23:59:00'
   place: Nashville, Tennessee, USA
@@ -2673,13 +2655,13 @@
 - conference: PyCascades
   year: 2019
   link: https://web.archive.org/web/20190221030506/https://2019.pycascades.com/
-  cfp_link: https://papercall.io/pycascades-2019
+  cfp_link: https://web.archive.org/web/20180822003701/https://www.papercall.io/pycascades-2019
   cfp: '2018-10-21 23:59:00'
   place: Seattle, Washington, USA
   date: February 23 - 25, 2019
   start: 2019-02-23
   end: 2019-02-25
-  sponsor: https://2019.pycascades.com/become-a-sponsor
+  sponsor: https://web.archive.org/web/20210622113958/https://2019.pycascades.com/become-a-sponsor/
   location:
     latitude: 47.6038321
     longitude: -122.330062
@@ -2702,7 +2684,7 @@
 - conference: Flask Conf Brasil
   year: 2019
   link: https://2019.flask.python.org.br/
-  cfp_link: https://speakerfight.com/events/flaskconf-2018/
+  cfp_link: https://web.archive.org/web/20210515223939/https://speakerfight.com/events/flaskconf-2018/
   cfp: '2018-08-01 23:55:00'
   place: "Florian\xF3polis, Santa Catarina, Brazil"
   date: September 6 - 8, 2019
@@ -2744,7 +2726,7 @@
 - conference: Python Nordeste
   year: 2018
   link: https://web.archive.org/web/20181220005202/https://2018.pythonnordeste.org/
-  cfp_link: https://speakerfight.com/events/python-nordeste-2018-24-25-e-26-de-maio-campina-grandepb-palestras/
+  cfp_link: https://web.archive.org/web/20210516001802/https://speakerfight.com/events/python-nordeste-2018-24-25-e-26-de-maio-campina-grandepb-palestras/
   cfp: '2018-04-20 23:00:00'
   cfp_ext: '2018-04-27 23:55:00'
   timezone: America/Recife
@@ -2802,7 +2784,7 @@
 - conference: Python Nordeste
   year: 2017
   link: https://web.archive.org/web/20170609010039/http://2017.pythonnordeste.org/
-  cfp_link: https://speakerfight.com/events/palestras-python-nordeste-2017-sao-luis-ma/
+  cfp_link: https://web.archive.org/web/20170429161113/http://speakerfight.com/events/palestras-python-nordeste-2017-sao-luis-ma/
   cfp: '2017-04-10 23:55:00'
   timezone: America/Recife
   place: "S\xE3o Lu\xEDs, Brazil"
@@ -2873,7 +2855,7 @@
 - conference: Python Nordeste
   year: 2016
   link: https://web.archive.org/web/20160614023844/http://2016.pythonnordeste.org/
-  cfp_link: https://speakerfight.com/events/python-nordeste-2016/
+  cfp_link: https://web.archive.org/web/20160612043438/http://speakerfight.com/events/python-nordeste-2016/
   cfp: '2016-05-07 23:55:00'
   timezone: America/Recife
   place: "S\xE3o Lu\xEDs, Brazil"

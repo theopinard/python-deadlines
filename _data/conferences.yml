@@ -131,7 +131,7 @@
   alt_name: PyCon EE
   year: 2024
   link: https://pycon.ee/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ/viewform
   cfp: '2024-04-15 23:59:00'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
@@ -224,7 +224,7 @@
 - conference: Python fwdays
   year: 2024
   link: https://fwdays.com/en/event/python-ds-fwdays-2024
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/closedform
   cfp: '2024-03-20 23:59:00'
   place: Kyiv, Ukraine
   date: April 20th, 2024
@@ -238,7 +238,7 @@
 - conference: PyCon Colombia
   year: 2024
   link: https://2024.pycon.co/en
-  cfp_link: https://2024.pycon.co/call-for-proposals
+  cfp_link: https://2024.pycon.co/en/call-for-proposals
   cfp: '2024-03-11 23:59:59'
   timezone: America/Bogota
   place: "Medell\xEDn, Colombia"
@@ -475,7 +475,7 @@
   date: April 5 - 8, 2024
   start: 2024-04-05
   end: 2024-04-08
-  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor
+  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor/
   twitter: pyCascades
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
@@ -520,7 +520,7 @@
 - conference: Python Pizza Prague
   year: 2024
   link: https://prague.python.pizza/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/viewform?usp=sf_link
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/closedform
   cfp: '2023-12-31 23:59:00'
   timezone: Europe/Prague
   place: Prague, Czechia
@@ -572,6 +572,24 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
+- conference: PyData Tel Aviv
+  year: 2023
+  link: https://pydata.org/telaviv2024/
+  cfp_link: https://pydata.org/telaviv2023/cfp
+  cfp: '2023-07-14 23:59:00'
+  timezone: Asia/Jerusalem
+  place: Tel Aviv, Israel
+  date: November 4th, 2024
+  start: 2024-11-04
+  end: 2024-11-04
+  sponsor: https://pydata.org/telaviv2023/sponsor
+  twitter: PyDataTLV
+  sub: PYDATA
+  note: Postponed from 2023
+  location:
+    latitude: 32.0852997
+    longitude: 34.7818064
+
 - conference: Plone Conference
   year: 2024
   link: https://2024.ploneconf.org/en
@@ -591,7 +609,7 @@
   alt_name: PyCon FR
   year: 2024
   link: https://pycon.fr/2024/
-  cfp_link: https://cfp-2024.pycon.fr/cfp
+  cfp_link: https://cfp-2024.pycon.fr/cfp/
   cfp: TBA
   timezone: Europe/Paris
   place: Strasbourg, France
