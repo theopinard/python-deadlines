@@ -817,7 +817,7 @@
     latitude: -16.4955455
     longitude: -68.1336229
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2023
   link: https://pl.pycon.org/2023/
@@ -1291,7 +1291,7 @@
   end: 2022-09-16
   sub: SCIPY
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2022
   link: https://pl.pycon.org/2022/
@@ -2727,7 +2727,7 @@
     latitude: 35.6812665
     longitude: 139.757653
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2018
   link: https://pl.pycon.org/2018/
@@ -2785,7 +2785,7 @@
     latitude: 35.6812665
     longitude: 139.757653
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2017
   link: https://pl.pycon.org/2017/index_en.html
@@ -2856,7 +2856,7 @@
     latitude: 35.683805050000004
     longitude: 139.98897671289967
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2016
   link: https://pl.pycon.org/2016/
@@ -2968,7 +2968,7 @@
     latitude: 45.5031824
     longitude: -73.5698065
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2014
   link: https://pl.pycon.org/2014/en/
@@ -3037,7 +3037,7 @@
     latitude: 45.5031824
     longitude: -73.5698065
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2013
   link: https://pl.pycon.org/2013/
@@ -3090,7 +3090,7 @@
     latitude: 48.8588897
     longitude: 2.3200410217
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2012
   link: https://pl.pycon.org/2012/
@@ -3172,7 +3172,7 @@
     latitude: 51.3406321
     longitude: 12.3747329
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2011
   link: https://pl.pycon.org/2011/
@@ -3212,7 +3212,7 @@
     latitude: 48.8588897
     longitude: 2.3200410217
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2010
   link: https://pl.pycon.org/2010/
@@ -3253,7 +3253,7 @@
     latitude: 33.7489924
     longitude: -84.3902644
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2009
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2009/
@@ -3293,7 +3293,7 @@
     latitude: 41.8755616
     longitude: -87.6244212
 
-- conference: PyCon Poland$1
+- conference: PyCon Poland
   alt_name: PyCon PL
   year: 2008
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2008/

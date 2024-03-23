@@ -1123,7 +1123,7 @@
     latitude: 35.6812665
     longitude: 139.757653
 
-- conference: PythonCamp Cologne
+- conference: PythonCamp
   year: 2019
   link: http://pythoncamp.de
   cfp: TBA
@@ -1925,7 +1925,7 @@
     latitude: 43.7698712
     longitude: 11.2555757
 
-- conference: PythonCamp Cologne
+- conference: PythonCamp
   year: 2018
   link: http://pythoncamp.de
   cfp: TBA
@@ -2386,7 +2386,7 @@
     latitude: -19.9227318
     longitude: -43.9450948
 
-- conference: PyGotham
+- conference: PyGotham TV
   year: 2017
   link: https://2017.pygotham.org/
   cfp: TBA
@@ -3116,18 +3116,6 @@
     latitude: 48.187077450000004
     longitude: 11.543213224361129
 
-- conference: OSCON Europe
-  year: 2016
-  link: http://conferences.oreilly.com/oscon/open-source-eu-2016
-  cfp: TBA
-  place: London, UK
-  date: October 17 - 20, 2016
-  start: 2016-10-17
-  end: 2016-10-20
-  location:
-    latitude: 51.5074456
-    longitude: -0.1277653
-
 - conference: Plone Conference
   year: 2016
   link: https://ploneconf.org/
@@ -3442,7 +3430,7 @@
     latitude: 43.3913468
     longitude: -3.7526930295575607
 
-- conference: PyGotham
+- conference: PyGotham TV
   year: 2016
   link: https://2016.pygotham.org/
   cfp: TBA
@@ -3518,18 +3506,6 @@
   location:
     latitude: -27.5973002
     longitude: -48.5496098
-
-- conference: OSCON
-  year: 2016
-  link: http://conferences.oreilly.com/oscon/open-source
-  cfp: TBA
-  place: Austin, USA
-  date: May 16 - 20, 2016
-  start: 2016-05-16
-  end: 2016-05-20
-  location:
-    latitude: 30.2711286
-    longitude: -97.7436995
 
 - conference: PyCon Iran
   year: 2016
@@ -3660,7 +3636,7 @@
     latitude: 40.4167047
     longitude: -3.7035825
 
-- conference: PythonCamp Cologne
+- conference: PythonCamp
   year: 2016
   link: https://www.barcamptools.eu/pycamp201604
   cfp: TBA
@@ -4102,7 +4078,7 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
-- conference: PyGotham
+- conference: PyGotham TV
   year: 2015
   link: https://web.archive.org/web/20150817161836/http://pygotham.org/2015/
   cfp: TBA
@@ -4165,18 +4141,6 @@
   location:
     latitude: 43.2630018
     longitude: -2.9350039
-
-- conference: OSCON
-  year: 2015
-  link: https://web.archive.org/web/20150719202150/http://www.oscon.com/open-source-2015
-  cfp: TBA
-  place: Oregon Convention Center, USA
-  date: July 20 - 25, 2015
-  start: 2015-07-20
-  end: 2015-07-25
-  location:
-    latitude: 45.52832395
-    longitude: -122.66310498532252
 
 - conference: SciPy US
   year: 2015
@@ -4798,7 +4762,7 @@
     latitude: 37.5666791
     longitude: 126.9782914
 
-- conference: PyGotham
+- conference: PyGotham TV
   year: 2014
   link: http://pygotham.org/
   cfp: TBA
@@ -4838,6 +4802,7 @@
     longitude: 153.0234991
 
 - conference: PyOhio
+  alt_name: PyOhio PyCamp
   year: 2014
   link: https://www.pyohio.org/2024/
   cfp: TBA
@@ -4862,7 +4827,7 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
-- conference: PyOhio PyCamp
+- conference: PyOhio
   year: 2014
   link: https://web.archive.org/web/20140704014624/http://tripython.org/pyohio14
   cfp: TBA
@@ -4887,18 +4852,6 @@
   location:
     latitude: 52.5170365
     longitude: 13.3888599
-
-- conference: OSCON
-  year: 2014
-  link: https://web.archive.org/web/20140720043233/http://www.oscon.com/oscon2014
-  cfp: TBA
-  place: Portland, US
-  date: July 20 - 25, 2014
-  start: 2014-07-20
-  end: 2014-07-25
-  location:
-    latitude: 45.5202471
-    longitude: -122.674194
 
 - conference: SciPy US
   year: 2014
@@ -5407,9 +5360,10 @@
     latitude: 42.3655767
     longitude: -71.1040018
 
-- conference: PyOhio PyCamp
+- conference: PyOhio
+  alt_name: PyOhio PyCamp
   year: 2013
-  link: https://web.archive.org/web/20130812030622/http://trizpug.org:80/boot-camp/pyohio13
+  link: https://web.archive.org/web/20130812030622/http://trizpug.org/boot-camp/pyohio13
   cfp: TBA
   place: Columbus, USA
   date: July 22 - 27, 2013

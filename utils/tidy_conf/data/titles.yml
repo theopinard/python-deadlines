@@ -18,6 +18,8 @@ alt_name:
   - Kiwi PyCon XIII
   - Kiwi PyCon XIV
   - Kiwi PyCon XV
+  Piter Py:
+  - PiterPy
   PyCon Asia Pacific:
   - PyCon APAC
   PyCon Australia:
@@ -35,6 +37,8 @@ alt_name:
   - PyCon DE
   PyCon Germany & PyData Berlin:
   - PyCon DE & PyData Berlin
+  PyCon Hong Kong:
+  - PyCon HK
   PyCon Indonesia:
   - PyCon ID
   PyCon Ireland:
@@ -55,6 +59,9 @@ alt_name:
   - PyCon SK
   PyCon South Africa:
   - PyCon ZA
+  PyCon South Korea:
+  - PyCon KR
+  - PyCon Korea
   PyCon Spain:
   - PyCon ES
   - "PyCon Espa\xF1a"
