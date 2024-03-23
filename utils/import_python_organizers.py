@@ -4,10 +4,11 @@ import urllib
 import sys
 from pathlib import Path
 
-from tidy_conf import load_conferences
 
 sys.path.append(".")
-from tidy_conf import fuzzy_match, merge_conferences, write_conference_yaml
+from tidy_conf.yaml import write_df_yaml
+from tidy_conf.utils import fill_missing_required
+from tidy_conf import load_conferences, fuzzy_match, merge_conferences
 
 
 def load_remote(year):
@@ -41,41 +42,6 @@ def map_columns(df, reverse=False):
         cols = {v: k for k, v in cols.items()}
 
     return df.rename(columns=cols)
-
-
-def fill_missing_required(df):
-    required = [
-        "conference",
-        "year",
-        "link",
-        "cfp",
-        "place",
-        "start",
-        "end",
-        "sub",
-    ]
-
-    for i, row in df.copy().iterrows():
-        for keyword in required:
-            if pd.isna(row[keyword]):
-                user_input = input(
-                    f"What's the value of '{keyword}' for conference '{row['conference']}' check {row['link']} ?: "
-                )
-                if user_input != "":
-                    df.loc[i, keyword] = user_input
-    return df
-
-
-def write_yaml(df, out_url):
-    try:
-        df = df.drop(["Country", "Venue"], axis=1)
-    except KeyError:
-        pass
-    df["end"] = pd.to_datetime(df["end"]).dt.date
-    df["start"] = pd.to_datetime(df["start"]).dt.date
-    df["year"] = df["year"].astype(int)
-    df["cfp"] = df["cfp"].astype(str)
-    write_conference_yaml(df, out_url)
 
 
 def write_csv(df, year, csv_location):
@@ -133,7 +99,7 @@ def main(year=None, base=""):
             df_csv = pd.concat([df_csv, merged], ignore_index=True)
 
     df_new = fill_missing_required(df_new)
-    write_yaml(df_new, target_file)
+    write_df_yaml(df_new, target_file)
 
     df_csv.loc[:, "Location"] = df_csv.place
     write_csv(df_csv, year, csv_location)

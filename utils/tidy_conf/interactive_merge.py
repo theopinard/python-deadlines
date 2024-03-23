@@ -149,46 +149,61 @@ def merge_conferences(df_yml, df_remote):
                 elif column == "cfp_ext":
                     continue
                 elif column == "cfp" and rx != ry:
-                    # Special CFP stuff
-                    cfp_time_x = cfp_time_y = ""
-                    if " " in rx and " " not in ry:
-                        cfp_time_y = " " + rx.split(" ")[1]
-                    elif " " not in rx and " " in ry:
-                        cfp_time_x = " " + ry.split(" ")[1]
-
-                    if rx + cfp_time_x == row["cfp_ext"]:
-                        df_new.loc[i, "cfp"] = ry + cfp_time_y
-                        df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
-                        continue
-                    elif ry + cfp_time_y == row["cfp_ext"]:
-                        df_new.loc[i, "cfp"] = rx + cfp_time_x
-                        df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
-                        continue
-                    if query_yes_no(
-                        f"For {i} in column '{column}' would you prefer '{ry+cfp_time_y}' or keep '{rx+ cfp_time_x}'?"
-                    ):
-                        df_new.loc[i, column] = ry + cfp_time_y
+                    if "TBA" in rx:
+                        df_new.loc[i, column] = ry
+                    elif "TBA" in ry:
+                        df_new.loc[i, column] = rx
                     else:
-                        if query_yes_no("Is this an extension?"):
-                            rrx, rry = int(rx.replace("-", "").split(" ")[0]), int(ry.replace("-", "").split(" ")[0])
-                            if rrx < rry:
-                                df_new.loc[i, "cfp"] = rx + cfp_time_x
-                                df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
-                            else:
-                                df_new.loc[i, "cfp"] = ry + cfp_time_y
-                                df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
-                        else:
-                            df_new.loc[i, column] = rx + cfp_time_x
+                        # Special CFP stuff
+                        cfp_time_x = cfp_time_y = ""
+                        if " " in rx and " " not in ry:
+                            cfp_time_y = " " + rx.split(" ")[1]
+                        elif " " not in rx and " " in ry:
+                            cfp_time_x = " " + ry.split(" ")[1]
 
-                elif column == "place":
+                        if rx + cfp_time_x == row["cfp_ext"]:
+                            df_new.loc[i, "cfp"] = ry + cfp_time_y
+                            df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
+                            continue
+                        elif ry + cfp_time_y == row["cfp_ext"]:
+                            df_new.loc[i, "cfp"] = rx + cfp_time_x
+                            df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
+                            continue
+                        if query_yes_no(
+                            f"For {i} in column '{column}' would you prefer '{ry+cfp_time_y}' or keep '{rx+ cfp_time_x}'?"
+                        ):
+                            df_new.loc[i, column] = ry + cfp_time_y
+                        else:
+                            if query_yes_no("Is this an extension?"):
+                                rrx, rry = int(rx.replace("-", "").split(" ")[0]), int(
+                                    ry.replace("-", "").split(" ")[0]
+                                )
+                                if rrx < rry:
+                                    df_new.loc[i, "cfp"] = rx + cfp_time_x
+                                    df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
+                                else:
+                                    df_new.loc[i, "cfp"] = ry + cfp_time_y
+                                    df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
+                            else:
+                                df_new.loc[i, column] = rx + cfp_time_x
+                elif column == "place" and rx != ry:
                     # Special Place stuff
                     rxx = ", ".join((rx.split(",")[0].strip(), rx.split(",")[-1].strip())) if "," in rx else rx
                     ryy = ", ".join((ry.split(",")[0].strip(), ry.split(",")[-1].strip())) if "," in ry else ry
                     if rxx == ryy:
-                        continue
-                    elif "TBD" in rxx:
                         df_new.loc[i, column] = ryy
-                    elif "TBD" in ryy:
+                    elif rxx in ["TBD", "TBA", "None"]:
+                        df_new.loc[i, column] = ryy
+                    elif ryy in ["TBD", "TBA", "None"]:
+                        df_new.loc[i, column] = rxx
+                    elif rx in ry:
+                        # If one is a substring of the other use the longer one
+                        df_new.loc[i, column] = ry
+                    elif ry in rx:
+                        df_new.loc[i, column] = rx
+                    elif rxx in ryy:
+                        df_new.loc[i, column] = ryy
+                    elif ryy in rxx:
                         df_new.loc[i, column] = rxx
                     else:
                         if query_yes_no(f"For {i} in column '{column}' would you prefer '{ryy}' or keep '{rxx}'?"):

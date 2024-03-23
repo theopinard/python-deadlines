@@ -170,7 +170,7 @@
   cfp_link: https://2024.pycon.co/call-for-proposals
   cfp: '2024-03-11 23:59:59'
   timezone: America/Bogota
-  place: Medellin, Colombia
+  place: "Medell\xEDn, Colombia"
   date: June 7 - 9, 2024
   start: 2024-06-07
   end: 2024-06-09
@@ -305,9 +305,9 @@
   cfp: '2024-01-21 23:59:00'
   timezone: Africa/Windhoek
   place: Windhoek, Namibia
-  date: March 4 - 8, 2024
+  date: March 4 - 7, 2024
   start: 2024-03-04
-  end: 2024-03-08
+  end: 2024-03-07
   sponsor: https://na.pycon.org/sponsorship/
   twitter: PyConNA
   sub: PY
@@ -332,7 +332,7 @@
 
 - conference: PyTexas
   year: 2024
-  link: https://pytexas.org/2024
+  link: https://pytexas.org/2024/
   cfp_link: https://pretalx.com/pytexas-2024/
   cfp: '2024-01-14 23:59:00'
   timezone: America/Chicago
@@ -503,6 +503,19 @@
     latitude: 47.2266532
     longitude: 8.8164042
 
+- conference: Python Sul
+  year: 2024
+  link: https://sul.python.org.br/
+  cfp: TBA
+  place: "Florian\xF3polis - SC, Brazil"
+  date: September 13 - 15, 2024
+  start: 2024-09-13
+  end: 2024-09-15
+  sub: PY
+  location:
+    latitude: -27.5973002
+    longitude: -48.5496098
+
 - conference: PyOhio
   year: 2024
   link: https://pyohio.org/2024/
@@ -515,6 +528,19 @@
   location:
     latitude: 39.9622601
     longitude: -83.0007065
+
+- conference: PyCon Nigeria
+  year: 2024
+  link: https://ng.pycon.org/
+  cfp: TBA
+  place: Lagos, Nigeria
+  date: July 10 - 13, 2024
+  start: 2024-07-10
+  end: 2024-07-13
+  sub: PY
+  location:
+    latitude: 6.4550575
+    longitude: 3.3941795
 
 - conference: Flask Con
   year: 2024
@@ -545,3 +571,16 @@
   location:
     latitude: 53.2139576
     longitude: 6.5693841
+
+- conference: Python Niger
+  year: 2024
+  link: https://fb.me/e/8alLCsc39
+  cfp: TBA
+  place: Maradi, Niger Republic
+  date: April 28th, 2024
+  start: 2024-04-28
+  end: 2024-04-28
+  sub: PY
+  location:
+    latitude: 13.1277068
+    longitude: 7.2601319

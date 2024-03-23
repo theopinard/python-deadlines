@@ -1,5 +1,18 @@
 ---
 
+- conference: FOSDEM
+  year: 2024
+  link: https://fosdem.org/2024/schedule/track/python-devroom/
+  cfp: '2023-12-01 23:59:00'
+  place: Brussels, Belgium
+  date: February 4th, 2024
+  start: 2024-02-04
+  end: 2024-02-04
+  sub: PY
+  location:
+    latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: Xtreme Python
   year: 2023
   link: https://xtremepython.dev/2023/

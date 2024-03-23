@@ -1,5 +1,8 @@
 import yaml
 
+import sys
+
+sys.path.append(".")
 from tidy_conf.utils import get_schema
 from .utils import ordered_dump
 import pandas as pd
@@ -95,3 +98,15 @@ def update_title_mappings(data, path="utils/tidy_conf/data/titles.yml"):
         title_data["alt_name"].update(data)
         with open(path, "w") as file:
             yaml.dump(title_data, file, default_flow_style=False)
+
+
+def write_df_yaml(df, out_url):
+    try:
+        df = df.drop(["Country", "Venue"], axis=1)
+    except KeyError:
+        pass
+    df["end"] = pd.to_datetime(df["end"]).dt.date
+    df["start"] = pd.to_datetime(df["start"]).dt.date
+    df["year"] = df["year"].astype(int)
+    df["cfp"] = df["cfp"].astype(str)
+    write_conference_yaml(df, out_url)

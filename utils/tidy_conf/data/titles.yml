@@ -1,4 +1,6 @@
 alt_name:
+  FOSDEM:
+  - Python Devroom @ FOSDEM
   Kiwi PyCon:
   - PyCon NZ
   - Kiwi PyCon I
@@ -45,6 +47,8 @@ alt_name:
   - PyCon LatAm
   PyCon Lithuania:
   - PyCon LT
+  PyCon Philippines:
+  - PyCon PH
   PyCon Poland:
   - PyCon PL
   PyCon Slovakia:
@@ -58,6 +62,12 @@ alt_name:
   - PyCon SE
   PyCon Taiwan:
   - PyCon TW
+  Python Niger:
+  - Launching Python Niger
+  Python Pizza Prague:
+  - Prague Python Pizza
+  Python Sul:
+  - Python Sul 2024 (Brazil)
   Scipy US:
   - SciPy
 spelling:
