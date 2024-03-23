@@ -1,4 +1,5 @@
 ---
+
 - conference: FOSDEM
   year: 2024
   link: https://fosdem.org/2024/schedule/track/python-devroom/
@@ -2709,6 +2710,19 @@
     latitude: 35.6812665
     longitude: 139.757653
 
+- conference: PyCon UK
+  year: 2018
+  link: https://web.archive.org/web/20180612191355/https://2018.pyconuk.org/
+  cfp: '2018-06-15 23:59:00'
+  place: Cardiff, UK
+  date: September 15 - 19, 2018
+  start: 2018-09-15
+  end: 2018-09-19
+  sub: PY
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2018
@@ -2752,6 +2766,19 @@
   location:
     latitude: 41.4996574
     longitude: -81.6936772
+
+- conference: PyCon UK
+  year: 2017
+  link: https://web.archive.org/web/20171023090724/http://2017.pyconuk.org/
+  cfp: '2017-08-10 23:59:00'
+  place: Cardiff, UK
+  date: October 26 - 30, 2017
+  start: 2017-10-26
+  end: 2017-10-30
+  sub: PY
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -2852,6 +2879,19 @@
     latitude: 51.8151645
     longitude: 20.3859912
 
+- conference: PyCon UK
+  year: 2016
+  link: https://web.archive.org/web/20160915163722/http://2016.pyconuk.org/
+  cfp: '2016-06-08 23:59:00'
+  place: Cardiff, UK
+  date: September 15 - 19, 2016
+  start: 2016-09-15
+  end: 2016-09-19
+  sub: PY
+  location:
+    latitude: 51.4816546
+    longitude: -3.1791934
+
 - conference: Python Nordeste
   year: 2016
   link: https://web.archive.org/web/20160614023844/http://2016.pythonnordeste.org/
@@ -2881,6 +2921,19 @@
   location:
     latitude: 35.6812665
     longitude: 139.757653
+
+- conference: PyCon UK
+  year: 2015
+  link: https://web.archive.org/web/20150706194946/http://www.pyconuk.org/
+  cfp: '2015-06-19 23:59:00'
+  place: Coventry, UK
+  date: September 18 - 21, 2015
+  start: 2015-09-18
+  end: 2015-09-21
+  sub: PY
+  location:
+    latitude: 52.4081812
+    longitude: -1.510477
 
 - conference: PyData London
   year: 2015
@@ -2949,6 +3002,20 @@
   location:
     latitude: 45.5031824
     longitude: -73.5698065
+
+- conference: PyCon UK
+  year: 2014
+  link: https://web.archive.org/web/20140615103455/http://www.pyconuk.org/
+  cfp: '2014-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  date: September 19 - 22, 2014
+  start: 2014-09-19
+  end: 2014-09-22
+  sub: PY
+  location:
+    latitude: 52.4081812
+    longitude: -1.510477
 
 - conference: PyCon Poland
   alt_name: PyCon PL
@@ -3019,6 +3086,20 @@
     latitude: 45.5031824
     longitude: -73.5698065
 
+- conference: PyCon UK
+  year: 2013
+  link: https://web.archive.org/web/20130612041903/http://www.pyconuk.org/
+  cfp: '2013-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  date: September 20 - 23, 2013
+  start: 2013-09-20
+  end: 2013-09-23
+  sub: PY
+  location:
+    latitude: 52.4081812
+    longitude: -1.510477
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2013
@@ -3058,6 +3139,20 @@
   location:
     latitude: 37.2333253
     longitude: -121.6846349
+
+- conference: PyCon UK
+  year: 2012
+  link: https://web.archive.org/web/20120902022819/http://www.pyconuk.org/
+  cfp: '2012-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  date: September 28 - October 1, 2012
+  start: 2012-09-28
+  end: 2012-10-01
+  sub: PY
+  location:
+    latitude: 52.4081812
+    longitude: -1.510477
 
 - conference: PyCon France
   year: 2012
@@ -3181,6 +3276,22 @@
     latitude: 33.7489924
     longitude: -84.3902644
 
+- conference: PyCon UK
+  alt_name: PyCon UK Unconference
+  year: 2010
+  link: https://web.archive.org/web/20110720142211/http://www.pyconuk.org/
+  cfp: '2010-10-15 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  date: October 16th, 2010
+  start: 2010-10-16
+  end: 2010-10-16
+  sub: PY
+  note: UnConference
+  location:
+    latitude: 52.4796992
+    longitude: -1.9026911
+
 - conference: PyCon France
   year: 2010
   link: https://www.pycon.fr/2010/category/conference.html
@@ -3234,6 +3345,22 @@
   location:
     latitude: 33.7489924
     longitude: -84.3902644
+
+- conference: PyCon UK
+  alt_name: PyCon UK Unconference
+  year: 2009
+  link: https://web.archive.org/web/20090927081122/http://www.pyconuk.org/
+  cfp: '2009-09-04 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  date: September 5th, 2009
+  start: 2009-09-05
+  end: 2009-09-05
+  sub: PY
+  note: UnConference
+  location:
+    latitude: 52.4796992
+    longitude: -1.9026911
 
 - conference: PyCon Poland
   alt_name: PyCon PL
@@ -3289,6 +3416,21 @@
     latitude: 50.0955793
     longitude: 18.5419933
 
+- conference: PyCon UK
+  year: 2008
+  link: https://web.archive.org/web/20080630193740/http://www.pyconuk.org/
+  cfp_link: https://web.archive.org/web/20080510194926/http://www.pyconuk.org/callforpapers.html
+  cfp: '2008-07-01 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  date: September 12 - 14, 2008
+  start: 2008-09-12
+  end: 2008-09-14
+  sub: PY
+  location:
+    latitude: 52.4796992
+    longitude: -1.9026911
+
 - conference: PyCon France
   year: 2008
   link: https://web.archive.org/web/20080513070424/http://fr.pycon.org/
@@ -3301,6 +3443,19 @@
   location:
     latitude: 48.8588897
     longitude: 2.3200410217
+
+- conference: PyCon UK
+  year: 2007
+  link: https://web.archive.org/web/20070630193740/http://www.pyconuk.org/
+  cfp: '2007-07-14 23:59:00'
+  place: Birmingham, UK
+  date: September 8 - 9, 2007
+  start: 2007-09-08
+  end: 2007-09-09
+  sub: PY
+  location:
+    latitude: 52.4796992
+    longitude: -1.9026911
 
 - conference: PyCon US
   alt_name: PyCon TX
