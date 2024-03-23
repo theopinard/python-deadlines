@@ -3,9 +3,11 @@
 - conference: PyCon India
   year: 2024
   link: https://in.pycon.org/2024/
+  cfp_link: https://in.pycon.org/cfp/2024/proposals/
   cfp: '2024-05-31 23:59:00'
+  tutorial_deadline: '2024-05-31 23:59:00'
   timezone: Asia/Kolkata
-  place: NIMHANS Convention Centre, Bengaluru, India
+  place: Bengaluru, India
   date: September 20 - 23, 2024
   start: 2024-09-20
   end: 2024-09-23
@@ -216,7 +218,7 @@
 - conference: Python Nordeste
   year: 2024
   link: https://2024.pythonnordeste.org/
-  cfp_link: https://www.even3.com.br/python-nordeste-2024/
+  cfp_link: https://even3.com.br/python-nordeste-2024/
   cfp: '2024-03-04 23:59:00'
   place: Natal, Brazil
   date: August 9 - 11, 2024
@@ -500,6 +502,18 @@
     latitude: 47.2266532
     longitude: 8.8164042
 
+- conference: PyOhio
+  year: 2024
+  link: https://pyohio.org/2024/
+  cfp: TBA
+  place: Columbus, USA
+  date: July 27 - 28, 2024
+  start: 2024-07-27
+  end: 2024-07-28
+  location:
+    latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: Flask Con
   year: 2024
   link: https://flaskcon.com/2024/coming-soon
@@ -516,7 +530,7 @@
 
 - conference: PyGrunn
   year: 2024
-  link: http://www.pygrunn.org/
+  link: http://pygrunn.org/
   cfp_link: https://forms.gle/AXzpAA9KyFaR9VHx8
   cfp: TBA
   place: Groningen, Netherlands
