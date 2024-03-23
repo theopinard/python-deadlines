@@ -5,13 +5,10 @@
 # It writes to `"prefix"data.yml`, copy those to the conference.yml after screening.
 
 import datetime
-import pdb
 import sys
 import time
 import urllib
-from builtins import input
 from pathlib import Path
-from shutil import copyfile
 
 
 import pytz
@@ -21,7 +18,7 @@ from tqdm import tqdm
 
 sys.path.append(".")
 import link_check
-from utils import pretty_print, ordered_dump, Loader, get_schema
+from utils import ordered_dump, Loader, get_schema
 from date_magic import clean_dates, create_nice_date
 
 dateformat = "%Y-%m-%d %H:%M:%S"
@@ -33,7 +30,7 @@ def sort_by_cfp(data):
         return "TBA"
     if data["cfp"] in ["TBA", "Cancelled"]:
         return data["cfp"]
-    if not " " in data["cfp"]:
+    if " " not in data["cfp"]:
         data["cfp"] += " 23:59:00"
     return pytz.utc.normalize(
         datetime.datetime.strptime(data["cfp"], dateformat).replace(
@@ -55,10 +52,6 @@ def sort_by_date(data):
 
 def sort_by_date_passed(data):
     right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
-    return sort_by_cfp(data) < right_now
-
-
-def sort_by_year(data):
     return sort_by_cfp(data) < right_now
 
 
@@ -111,7 +104,9 @@ def tidy_titles(data):
     }
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         if "conference" in q:
-            data[i]["conference"] = q["conference"].strip()
+            for key, value in mappings.items():
+                if key in q["conference"]:
+                    data[i]["conference"] = q["conference"].strip().replace(key, value)
     return data
 
 
@@ -134,7 +129,7 @@ def split_data(data):
                 if " " not in q["cfp"]:
                     q["cfp"] += " 23:59:00"
                 conf.append(q)
-        except:
+        except KeyError:
             print(data["cfp"].lower(), tba_words)
     return conf, tba, expired, legacy
 
@@ -167,11 +162,7 @@ def add_latlon(data):
             }
 
         else:
-            url = (
-                "https://nominatim.openstreetmap.org/search"
-                + "?format=json&q="
-                + urllib.parse.quote(q["place"])
-            )
+            url = "https://nominatim.openstreetmap.org/search" + "?format=json&q=" + urllib.parse.quote(q["place"])
             response = requests.get(url)
 
             if response:
@@ -219,7 +210,7 @@ def check_links(data):
             else:
                 time.sleep(0.5)
                 new_link = link_check.check_link_availability(q["link"], q["start"])
-                if not "https://web.archive.org" in new_link:
+                if "https://web.archive.org" not in new_link:
                     cache[q["link"]] = new_link
                     cache[new_link] = new_link
                 q["link"] = new_link

@@ -9,24 +9,25 @@ def clean_dates(data):
 
     # Clean Up Dates
     for dates in ["start", "end"]:
-            if isinstance(data[dates], str):
-                data[dates] = datetime.datetime.strptime(data[dates], dateformat.split(" ")[0]).date()
+        if isinstance(data[dates], str):
+            data[dates] = datetime.datetime.strptime(data[dates], dateformat.split(" ")[0]).date()
 
     # Make deadlines
     for datetimes in ["cfp", "workshop_deadline", "tutorial_deadline"]:
-            if datetimes in data and data[datetimes].lower() not in tba_words:
-                try:
-                    tmp_time = datetime.datetime.strptime(data[datetimes], dateformat.split(" ")[0])
-                    if tmp_time.hour == 0 and tmp_time.minute == 0:
-                        tmp_time += datetime.timedelta(hours=23, minutes=59)
-                    data[datetimes] = tmp_time.strftime(dateformat)
-                except ValueError:
-                    continue
+        if datetimes in data and data[datetimes].lower() not in tba_words:
+            try:
+                tmp_time = datetime.datetime.strptime(data[datetimes], dateformat.split(" ")[0])
+                if tmp_time.hour == 0 and tmp_time.minute == 0:
+                    tmp_time += datetime.timedelta(hours=23, minutes=59)
+                data[datetimes] = tmp_time.strftime(dateformat)
+            except ValueError:
+                continue
 
     return data
 
+
 def suffix(d):
-    return 'th' if 11<=d<=13 else {1:'st',2:'nd',3:'rd'}.get(d%10, 'th')
+    return "th" if 11 <= d <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(d % 10, "th")
 
 
 def create_nice_date(data):

@@ -1,7 +1,5 @@
 import pandas as pd
-from icalendar import Calendar, Event
-from datetime import datetime
-import pytz
+from icalendar import Calendar
 from urllib import request
 import re
 import yaml
