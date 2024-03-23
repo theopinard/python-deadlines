@@ -19,7 +19,7 @@ sys.path.append(".")
 from tidy_conf import auto_add_sub, write_conference_yaml
 from tidy_conf.latlon import add_latlon
 from tidy_conf.date import clean_dates, create_nice_date
-from tidy_conf.links import check_link_availability as link_check
+from tidy_conf.links import check_link_availability
 from tidy_conf.titles import tidy_titles
 from tidy_conf.utils import Loader, get_schema
 
@@ -124,7 +124,7 @@ def check_links(data):
                 q["link"] = cache[q["link"]]
             else:
                 time.sleep(0.5)
-                new_link = link_check.check_link_availability(q["link"], q["start"])
+                new_link = check_link_availability(q["link"], q["start"])
                 if "https://web.archive.org" not in new_link:
                     cache[q["link"]] = new_link
                     cache[new_link] = new_link
