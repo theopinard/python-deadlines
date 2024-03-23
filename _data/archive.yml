@@ -872,7 +872,7 @@
 
 - conference: PyCon Russia
   year: 2023
-  link: http://web.archive.org/web/20230715073901/https://pycon.ru/
+  link: https://web.archive.org/web/20230715073901/https://pycon.ru/
   cfp_link: https://pycon.ru/cfp
   cfp: '2023-03-15 23:59:00'
   timezone: Europe/Moscow
@@ -2644,7 +2644,7 @@
 
 - conference: PyCaribbean
   year: 2019
-  link: http://pycaribbean.com/
+  link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
   cfp_link: https://papercall.io/pycaribbean-2019
   cfp: '2018-11-15 23:59:00'
   place: Santo Domingo, Dominican Republic
@@ -2672,7 +2672,7 @@
 
 - conference: PyCascades
   year: 2019
-  link: https://2019.pycascades.com/
+  link: https://web.archive.org/web/20190221030506/https://2019.pycascades.com/
   cfp_link: https://papercall.io/pycascades-2019
   cfp: '2018-10-21 23:59:00'
   place: Seattle, Washington, USA
@@ -2686,7 +2686,7 @@
 
 - conference: PyCon Colombia
   year: 2019
-  link: https://pycon.co
+  link: https://web.archive.org/web/20190208183622/https://www.pycon.co/
   cfp_link: https://papercall.io/pycon-colombia-2019-talks
   cfp: '2018-09-01 23:59:00'
   tutorial_deadline: '2018-09-01 23:59:00'
@@ -2716,7 +2716,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2018
-  link: https://pycon.jp/2018/
+  link: https://web.archive.org/web/20180914150246/https://pycon.jp/2018/
   cfp: '2018-06-15 23:59:00'
   place: Tokyo, Japan
   date: September 15 - 18, 2018
@@ -2730,7 +2730,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2018
-  link: https://pl.pycon.org/2018/
+  link: https://web.archive.org/web/20180628105952/https://pl.pycon.org/2018/
   cfp: '2018-05-13 23:00:00'
   place: Ossa, Poland
   date: August 23 - 26, 2018
@@ -2743,7 +2743,7 @@
 
 - conference: Python Nordeste
   year: 2018
-  link: https://2018.pythonnordeste.org/
+  link: https://web.archive.org/web/20181220005202/https://2018.pythonnordeste.org/
   cfp_link: https://speakerfight.com/events/python-nordeste-2018-24-25-e-26-de-maio-campina-grandepb-palestras/
   cfp: '2018-04-20 23:00:00'
   cfp_ext: '2018-04-27 23:55:00'
@@ -2760,7 +2760,7 @@
 
 - conference: PyCon US
   year: 2018
-  link: https://us.pycon.org/2018/
+  link: https://web.archive.org/web/20180509145212/https://us.pycon.org/2018/
   cfp: '2018-01-03 23:59:00'
   place: Cleveland, USA
   date: May 9 - 17, 2018
@@ -2774,7 +2774,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2017
-  link: https://pycon.jp/2017/en/
+  link: https://web.archive.org/web/20171017043010/https://pycon.jp/2017/en/
   cfp: '2017-06-19 23:59:00'
   place: Tokyo, Japan
   date: September 7 - 10, 2017
@@ -2788,7 +2788,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2017
-  link: https://pl.pycon.org/2017/index_en.html
+  link: https://web.archive.org/web/20170701211408/https://pl.pycon.org/2017/index_en.html
   cfp: '2017-05-31 23:59:59'
   place: Ossa, Poland
   date: August 17 - 20, 2017
@@ -2801,7 +2801,7 @@
 
 - conference: Python Nordeste
   year: 2017
-  link: https://2017.pythonnordeste.org/
+  link: https://web.archive.org/web/20170609010039/http://2017.pythonnordeste.org/
   cfp_link: https://speakerfight.com/events/palestras-python-nordeste-2017-sao-luis-ma/
   cfp: '2017-04-10 23:55:00'
   timezone: America/Recife
@@ -2817,7 +2817,7 @@
 
 - conference: PyCon US
   year: 2017
-  link: https://us.pycon.org/2017/
+  link: https://web.archive.org/web/20170608061733/https://us.pycon.org/2017/
   cfp: '2017-01-03 23:59:59'
   place: Portland, USA
   date: May 17 - 25, 2017
@@ -2830,7 +2830,7 @@
 
 - conference: PyData DC
   year: 2016
-  link: https://web.archive.org/web/20161007055823/http://pydata.org:80/dc2016/
+  link: https://web.archive.org/web/20161007055823/http://pydata.org/dc2016/
   cfp: '2016-08-01 23:59:00'
   timezone: America/New_York
   place: McLean, USA
@@ -2845,7 +2845,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2016
-  link: https://pycon.jp/2016/en/
+  link: https://web.archive.org/web/20161017222234/https://pycon.jp/2016/en/
   cfp: '2016-06-13 23:59:00'
   place: Tokyo, Japan
   date: September 20 - 24, 2016
@@ -2859,7 +2859,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2016
-  link: https://pl.pycon.org/2016/
+  link: https://web.archive.org/web/20160605192843/http://pl.pycon.org/2016/
   cfp: '2016-06-10 23:59:00'
   place: Ossa, Poland
   date: October 13 - 16, 2016
@@ -2872,7 +2872,7 @@
 
 - conference: Python Nordeste
   year: 2016
-  link: https://2016.pythonnordeste.org/
+  link: https://web.archive.org/web/20160614023844/http://2016.pythonnordeste.org/
   cfp_link: https://speakerfight.com/events/python-nordeste-2016/
   cfp: '2016-05-07 23:55:00'
   timezone: America/Recife
@@ -2889,7 +2889,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2015
-  link: https://pycon.jp/2015/en/
+  link: https://web.archive.org/web/20160807221928/https://pycon.jp/2015/en/
   cfp: '2015-07-20 23:59:00'
   place: Tokyo, Japan
   date: October 9 - 12, 2015
@@ -2928,7 +2928,7 @@
 
 - conference: Python Nordeste
   year: 2015
-  link: https://2015.pythonnordeste.org/
+  link: https://web.archive.org/web/20150428210556/http://2015.pythonnordeste.org/
   cfp_link: https://speakerfight.com/events/python-nordeste-2015/
   cfp: '2015-03-27 12:00:00'
   timezone: America/Recife
@@ -2944,7 +2944,7 @@
 
 - conference: PyCon US
   year: 2016
-  link: https://us.pycon.org/2016/
+  link: https://web.archive.org/web/20160602041511/https://us.pycon.org/2016/
   cfp: '2015-01-03 23:59:00'
   place: Portland, USA
   date: May 28 - June 5, 2016
@@ -2957,7 +2957,7 @@
 
 - conference: PyCon US
   year: 2015
-  link: https://us.pycon.org/2015/
+  link: https://web.archive.org/web/20150404081943/https://us.pycon.org/2015/
   cfp: '2014-09-15 23:59:00'
   place: Montreal, Canada
   date: April 8 - 16, 2015
@@ -2971,7 +2971,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2014
-  link: https://pl.pycon.org/2014/en/
+  link: https://web.archive.org/web/20141026131600/http://pl.pycon.org/2014/en
   cfp: '2014-07-14 23:59:00'
   place: Szczyrk, Poland
   date: October 16 - 19, 2014
@@ -2985,7 +2985,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2014
-  link: https://pycon.jp/2014/
+  link: https://web.archive.org/web/20140907073857/https://pycon.jp/2014/
   cfp: '2014-06-20 23:59:59'
   place: Tokyo, Japan
   date: September 12 - 15, 2014
@@ -2998,7 +2998,7 @@
 
 - conference: Python Nordeste
   year: 2014
-  link: https://2014.pythonnordeste.org/
+  link: https://web.archive.org/web/20140411192842/http://2014.pythonnordeste.org/
   cfp: '2014-03-31 23:55:00'
   timezone: America/Recife
   place: Salvador, Brazil
@@ -3026,7 +3026,7 @@
 
 - conference: PyCon US
   year: 2014
-  link: https://us.pycon.org/2014/
+  link: https://web.archive.org/web/20140409001111/https://us.pycon.org/2014/
   cfp: '2013-09-15 23:59:00'
   place: Montreal, Canada
   date: April 9 - 17, 2014
@@ -3040,7 +3040,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2013
-  link: https://pl.pycon.org/2013/
+  link: https://web.archive.org/web/20131015143206/http://pl.pycon.org/2013/
   cfp: '2013-07-28 23:59:00'
   place: Szczyrk, Poland
   date: October 17 - 20, 2013
@@ -3053,7 +3053,7 @@
 
 - conference: Python Nordeste
   year: 2013
-  link: http://2013.pythonnordeste.org/
+  link: https://web.archive.org/web/20160708210325/http://2013.pythonnordeste.org/
   cfp: '2013-03-01 00:00:00'
   place: Fortaleza, Brazil
   date: May 24 - 25, 2013
@@ -3066,7 +3066,7 @@
 
 - conference: PyCon US
   year: 2013
-  link: https://us.pycon.org/2013/
+  link: https://web.archive.org/web/20130327104545/https://us.pycon.org/2013/
   cfp: '2012-09-28 23:59:00'
   place: Santa Clara, USA
   date: March 13 - 21, 2013
@@ -3079,7 +3079,7 @@
 
 - conference: PyCon France
   year: 2012
-  link: https://www.pycon.fr/2012/
+  link: https://web.archive.org/web/20120919110354/http://www.pycon.fr/2012/
   cfp: '2012-07-15 23:59:00'
   place: Paris, France
   date: September 13 - 16, 2012
@@ -3093,7 +3093,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2012
-  link: https://pl.pycon.org/2012/
+  link: https://web.archive.org/web/20120918233237/http://pl.pycon.org/2012/
   cfp: '2012-06-24 23:59:59'
   place: "Mas\u0142\xF3w, Poland"
   date: September 13 - 16, 2012
@@ -3121,7 +3121,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2012
-  link: https://2012.pycon.jp/en/index.html
+  link: https://web.archive.org/web/20120916084616/http://2012.pycon.jp/en/index.html
   cfp: '2012-05-31 23:59:00'
   place: Tokyo, Japan
   date: September 15 - 17, 2012
@@ -3134,7 +3134,7 @@
 
 - conference: PyCon US
   year: 2012
-  link: https://us.pycon.org/2012/
+  link: https://web.archive.org/web/20120319021157/https://us.pycon.org/2012/
   cfp: '2011-10-12 23:59:00'
   place: Santa Clara, USA
   date: March 7 - 15, 2012
@@ -3147,7 +3147,7 @@
 
 - conference: PyCon France
   year: 2011
-  link: https://www.pycon.fr/2011/category/conference.html
+  link: https://web.archive.org/web/20231209152547/https://www.pycon.fr/2011/category/conference.html
   cfp: '2011-08-01 23:59:00'
   place: Paris, France
   date: September 17 - 18, 2011
@@ -3175,7 +3175,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2011
-  link: https://pl.pycon.org/2011/
+  link: https://web.archive.org/web/20110924185632/http://pl.pycon.org/2011/
   cfp: '2011-07-02 23:59:00'
   place: Kielce, Poland
   date: September 22 - 25, 2011
@@ -3215,7 +3215,7 @@
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2010
-  link: https://pl.pycon.org/2010/
+  link: https://web.archive.org/web/20101028105939/http://pl.pycon.org/2010/
   cfp: '2010-07-07 23:59:00'
   cfp_ext: '2010-07-16 23:59:00'
   place: Ustron, Poland
@@ -3379,7 +3379,7 @@
 - conference: PyCon US
   alt_name: PyCon DC
   year: 2003
-  link: https://wiki.python.org/moin/PyConDC2003/
+  link: https://web.archive.org/web/20051108055842/http://wiki.python.org/moin/PyConDC2003
   cfp: '2002-12-15 23:59:00'
   cfp_ext: '2003-01-15 23:59:00'
   place: Washington DC, USA

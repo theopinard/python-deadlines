@@ -18,7 +18,7 @@
 
 - conference: PyHEP
   year: 2024
-  link: https://indico.cern.ch/event/1375573
+  link: https://indico.cern.ch/event/1375573/
   cfp: '2024-06-25 05:59:00'
   timezone: Europe/Brussels
   place: Aachen, Germany
@@ -30,7 +30,7 @@
     latitude: 50.776351
     longitude: 6.083862
 
-- conference: PiterPy
+- conference: Piter Py
   year: 2024
   link: https://piterpy.com/en/
   cfp: '2024-06-01 23:59:00'
@@ -80,7 +80,7 @@
 
 - conference: PyCon Russia
   year: 2024
-  link: http://pycon.ru/
+  link: https://www.pycon.ru/
   cfp: '2024-05-15 23:59:00'
   place: Moscow, Russia
   date: July 26 - 27, 2024
@@ -574,7 +574,7 @@
 
 - conference: Plone Conference
   year: 2024
-  link: https://2024.ploneconf.org/
+  link: https://2024.ploneconf.org/en
   cfp: TBA
   place: Brasilia, Brazil
   date: November 25 - December 1, 2024
@@ -720,7 +720,7 @@
 
 - conference: PyGrunn
   year: 2024
-  link: http://pygrunn.org/
+  link: https://pygrunn.org/
   cfp_link: https://forms.gle/AXzpAA9KyFaR9VHx8
   cfp: TBA
   place: Groningen, Netherlands
