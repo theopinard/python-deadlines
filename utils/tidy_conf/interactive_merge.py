@@ -1,25 +1,32 @@
 import pandas as pd
 import sys
 from thefuzz import process
+from collections import defaultdict
 
 sys.path.append(".")
-from utils import get_schema, query_yes_no
+from tidy_conf.yaml import load_title_mappings, update_title_mappings
+from tidy_conf.utils import get_schema, query_yes_no
 
 
 def fuzzy_match(df_yml, df_remote):
+    # Load known title mappings
+    _, known_mappings = load_title_mappings(reverse=True)
+    _, known_rejections = load_title_mappings(reverse=True, path="utils/tidy_conf/data/.tmp/rejections.yml")
+    df_remote.loc[:, "conference"] = df_remote.conference.replace(known_mappings)
+    df_yml.loc[:, "conference"] = df_yml.conference.replace(known_mappings)
+    new_mappings = defaultdict(list)
+    new_rejections = defaultdict(list)
+
     # Make Title the index
     df_remote = df_remote.set_index("conference", drop=False)
     df_remote.index.rename("title_match", inplace=True)
-    known_mappings = {"SciPy US": "SciPy"}
 
     df = df_yml.copy()
 
     # Get closest match for titles
-    df["title_match"] = df["conference"].apply(lambda x: process.extract(x, df_remote["conference"], limit=1))
-
-    for key, value in known_mappings.items():
-        if key in df["conference"].values:
-            df.loc[df["conference"] == key, "title_match"] = value
+    df["title_match"] = df["conference"].apply(
+        lambda x: process.extract(x, df_remote["conference"].replace(known_mappings), limit=1)
+    )
 
     # Get first match if it's over 90
     for i, row in df.copy().iterrows():
@@ -31,26 +38,34 @@ def fuzzy_match(df_yml, df_remote):
         if prob == 100:
             title = title
         elif prob >= 70:
-            if not query_yes_no(f"Do '{row['conference']}' and '{title}' match? (y/n): "):
-                # Code for non-matching case
+            if title in known_rejections and known_rejections[title] == i:
                 title = i
+            elif i in known_rejections and known_rejections[i] == title:
+                title = i
+            else:
+                if not query_yes_no(f"Do '{row['conference']}' and '{title}' match? (y/n): "):
+                    # Code for non-matching case
+                    new_rejections[title].append(i)
+                    title = i
+                else:
+                    new_mappings[i].append(title)
         else:
             title = i
         df.loc[i, "title_match"] = title
 
+    update_title_mappings(new_mappings)
+    update_title_mappings(new_rejections, path="utils/tidy_conf/data/.tmp/rejections.yml")
+
     df.set_index("title_match", inplace=True)
-    print(df)
     # Update missing data in existing records
     df_new = df.combine_first(df_remote)
 
     df_new.loc[df_new["cfp"].isna(), "cfp"] = "TBA"
 
-    print(df_new, df_remote)
-
     return df_new, df_remote
 
 
-def interactive_merge(df_yml, df_remote):
+def merge_conferences(df_yml, df_remote):
     df_new = get_schema()
     columns = df_new.columns.tolist()
 
@@ -65,7 +80,6 @@ def interactive_merge(df_yml, df_remote):
 
     replacements = {
         "United States of America": "USA",
-        "United States": "USA",
         "United Kingdom": "UK",
         "Czech Republic": "Czechia",
         "www.": "",
@@ -109,8 +123,6 @@ def interactive_merge(df_yml, df_remote):
                         rx = ry
                     elif ry.endswith(rx):
                         ry = rx
-                    if "Online" in [rx, ry]:
-                        ry, rx = "Online", "Online"
                 if rx == ry:
                     # When both are equal just assign
                     df_new.loc[i, column] = rx
@@ -130,10 +142,12 @@ def interactive_merge(df_yml, df_remote):
                             df_new.loc[i, column] = rx
                             ry = rx
                     else:
-                        if query_yes_no(f"For {i} in column '{column}' would you prefer '{rx}' or keep '{ry}'?"):
-                            df_new.loc[i, column] = rx
-                        else:
+                        if query_yes_no(f"For {i} in column '{column}' would you prefer '{ry}' or keep '{rx}'?"):
                             df_new.loc[i, column] = ry
+                        else:
+                            df_new.loc[i, column] = rx
+                elif column == "cfp_ext":
+                    continue
                 elif column == "cfp" and rx != ry:
                     # Special CFP stuff
                     cfp_time_x = cfp_time_y = ""
@@ -141,10 +155,19 @@ def interactive_merge(df_yml, df_remote):
                         cfp_time_y = " " + rx.split(" ")[1]
                     elif " " not in rx and " " in ry:
                         cfp_time_x = " " + ry.split(" ")[1]
+
+                    if rx + cfp_time_x == row["cfp_ext"]:
+                        df_new.loc[i, "cfp"] = ry + cfp_time_y
+                        df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
+                        continue
+                    elif ry + cfp_time_y == row["cfp_ext"]:
+                        df_new.loc[i, "cfp"] = rx + cfp_time_x
+                        df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
+                        continue
                     if query_yes_no(
-                        f"For {i} in column '{column}' would you prefer '{rx+ cfp_time_x}' or keep '{ry+cfp_time_y}'?"
+                        f"For {i} in column '{column}' would you prefer '{ry+cfp_time_y}' or keep '{rx+ cfp_time_x}'?"
                     ):
-                        df_new.loc[i, column] = rx + cfp_time_x
+                        df_new.loc[i, column] = ry + cfp_time_y
                     else:
                         if query_yes_no("Is this an extension?"):
                             rrx, rry = int(rx.replace("-", "").split(" ")[0]), int(ry.replace("-", "").split(" ")[0])
@@ -155,15 +178,39 @@ def interactive_merge(df_yml, df_remote):
                                 df_new.loc[i, "cfp"] = ry + cfp_time_y
                                 df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
                         else:
-                            df_new.loc[i, column] = ry + cfp_time_y
+                            df_new.loc[i, column] = rx + cfp_time_x
+
+                elif column == "place":
+                    # Special Place stuff
+                    rxx = ", ".join((rx.split(",")[0].strip(), rx.split(",")[-1].strip())) if "," in rx else rx
+                    ryy = ", ".join((ry.split(",")[0].strip(), ry.split(",")[-1].strip())) if "," in ry else ry
+                    if rxx == ryy:
+                        continue
+                    elif "TBD" in rxx:
+                        df_new.loc[i, column] = ryy
+                    elif "TBD" in ryy:
+                        df_new.loc[i, column] = rxx
+                    else:
+                        if query_yes_no(f"For {i} in column '{column}' would you prefer '{ryy}' or keep '{rxx}'?"):
+                            df_new.loc[i, column] = ryy
+                        else:
+                            df_new.loc[i, column] = rxx
                 else:
                     # For everything else give a choice
-                    if query_yes_no(f"For {i} in column '{column}' would you prefer '{rx}' or keep '{ry}'?"):
-                        df_new.loc[i, column] = rx
-                    else:
+                    if query_yes_no(f"For {i} in column '{column}' would you prefer '{ry}' or keep '{rx}'?"):
                         df_new.loc[i, column] = ry
+                    else:
+                        df_new.loc[i, column] = rx
             elif column in df_merge.columns:
-                df_new[column] = df_merge[column]
+                df_new[column] = (
+                    df_new[column].copy()
+                    if df_merge[column].empty
+                    else (
+                        df_merge[column].copy()
+                        if df_new[column].empty
+                        else df_new[column].combine_first(df_merge[column])
+                    )
+                )
 
     df_new.loc[df_new.cfp.isna(), "cfp"] = "TBA"
     return df_new

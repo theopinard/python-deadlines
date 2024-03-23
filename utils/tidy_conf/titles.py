@@ -1,0 +1,32 @@
+from tqdm import tqdm
+
+from tidy_conf.yaml import load_title_mappings
+
+
+def tidy_titles(data):
+    """Tidy up conference titles by replacing common misspellings and alternative names."""
+    spellings, alt_names = load_title_mappings()
+
+    for i, q in tqdm(enumerate(data.copy()), total=len(data)):
+        if "conference" in q:
+            low_conf = q["conference"].lower().strip()
+            # Replace common misspellings
+            for spelling in spellings:
+                if spelling.lower() in low_conf:
+                    # Find the index in the lower case string and replace it in the original string
+                    index = low_conf.index(spelling.lower())
+                    q["conference"] = q["conference"][:index] + spelling + q["conference"][index + len(spelling) :]
+
+            # Replace alternative names
+            for key, values in alt_names.items():
+                for value in values:
+                    if value.lower().strip() is low_conf:
+                        if "alt_name" not in q:
+                            if q["conference"].strip() != key:
+                                q["alt_name"] = q["conference"].strip()
+                            else:
+                                # Use the first entry as "canonical" alt_name
+                                q["alt_name"] = values[0]
+                        q["conference"] = key.strip()
+            data[i] = q
+    return data

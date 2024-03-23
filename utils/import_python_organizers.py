@@ -1,13 +1,13 @@
 from datetime import datetime
 import pandas as pd
 import urllib
-import yaml
 import sys
 from pathlib import Path
 
+from tidy_conf import load_conferences
+
 sys.path.append(".")
-from interactive_merge import fuzzy_match, interactive_merge
-from utils import ordered_dump, get_schema
+from tidy_conf import fuzzy_match, merge_conferences, write_conference_yaml
 
 
 def load_remote(year):
@@ -21,22 +21,6 @@ def load_remote(year):
     # Only return valid cfps
     # return df.dropna(subset=['cfp'])
     return df
-
-
-def load_yml():
-    schema = get_schema()
-
-    # Load the YAML file
-    with open("_data/conferences.yml", "r") as file:
-        data = yaml.load(file, Loader=yaml.FullLoader)
-    with open("_data/archive.yml", "r") as file:
-        archive = yaml.load(file, Loader=yaml.FullLoader)
-
-    # Convert the YAML data to a Pandas DataFrame
-    return pd.concat(
-        [schema, pd.DataFrame.from_dict(data), pd.DataFrame.from_dict(archive)],
-        ignore_index=True,
-    ).set_index("conference", drop=False)
 
 
 def map_columns(df, reverse=False):
@@ -65,7 +49,6 @@ def fill_missing_required(df):
         "year",
         "link",
         "cfp",
-        "timezone",
         "place",
         "start",
         "end",
@@ -92,15 +75,7 @@ def write_yaml(df, out_url):
     df["start"] = pd.to_datetime(df["start"]).dt.date
     df["year"] = df["year"].astype(int)
     df["cfp"] = df["cfp"].astype(str)
-    with open(out_url, "w") as outfile:
-        for line in ordered_dump(
-            [{k: v for k, v in record.items() if pd.notnull(v)} for record in df.to_dict(orient="records")],
-            Dumper=yaml.SafeDumper,
-            default_flow_style=False,
-            explicit_start=True,
-        ).splitlines():
-            outfile.write(line.replace("- conference:", "\n- conference:"))
-            outfile.write("\n")
+    write_conference_yaml(df, out_url)
 
 
 def write_csv(df, year, csv_location):
@@ -134,7 +109,7 @@ def main(year=None, base=""):
     if year is None:
         year = datetime.now().year
 
-    df_yml = load_yml()
+    df_yml = load_conferences()
     df_new = pd.DataFrame(columns=df_yml.columns)
     df_csv = pd.DataFrame(columns=df_yml.columns)
 
@@ -150,7 +125,7 @@ def main(year=None, base=""):
             df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df)
             df_merged["year"] = y
             df_merged = df_merged.drop(["conference"], axis=1)
-            df_merged = interactive_merge(df_merged, df_remote)
+            df_merged = merge_conferences(df_merged, df_remote)
 
             df_new = pd.concat([df_new, df_merged], ignore_index=True)
 
