@@ -2767,6 +2767,20 @@
     latitude: 41.4996574
     longitude: -81.6936772
 
+- conference: PyCon India
+  year: 2017
+  link: https://web.archive.org/web/20180205164409/https://in.pycon.org/2017/
+  cfp: '2017-08-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Delhi, India
+  date: November 2 - 5, 2017
+  start: 2017-11-02
+  end: 2017-11-05
+  sub: PY
+  location:
+    latitude: 28.6273928
+    longitude: 77.1716954
+
 - conference: PyCon UK
   year: 2017
   link: https://web.archive.org/web/20171023090724/http://2017.pyconuk.org/
@@ -2851,6 +2865,20 @@
     latitude: 40.4631789
     longitude: -88.8196613
 
+- conference: PyCon India
+  year: 2016
+  link: https://web.archive.org/web/20161027165711/https://in.pycon.org/2016/
+  cfp: '2016-06-30 23:59:00'
+  timezone: Asia/Kolkata
+  place: New Delhi, India
+  date: September 23 - 25, 2016
+  start: 2016-09-23
+  end: 2016-09-25
+  sub: PY
+  location:
+    latitude: 28.6138954
+    longitude: 77.2090057
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2016
@@ -2934,6 +2962,20 @@
   location:
     latitude: 52.4081812
     longitude: -1.510477
+
+- conference: PyCon India
+  year: 2015
+  link: https://web.archive.org/web/20150924165102/https://in.pycon.org/2015/
+  cfp: '2015-05-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  date: October 2 - 4, 2015
+  start: 2015-10-02
+  end: 2015-10-04
+  sub: PY
+  location:
+    latitude: 12.9767936
+    longitude: 77.590082
 
 - conference: PyData London
   year: 2015
@@ -3045,6 +3087,19 @@
     latitude: 35.6812665
     longitude: 139.757653
 
+- conference: PyCon India
+  year: 2014
+  link: https://web.archive.org/web/20140929035341/http://in.pycon.org/2014/
+  cfp: '2014-05-30 23:59:00'
+  place: Bangalore, India
+  date: September 26 - 28, 2014
+  start: 2014-09-26
+  end: 2014-09-28
+  sub: PY
+  location:
+    latitude: 12.9767936
+    longitude: 77.590082
+
 - conference: Python Nordeste
   year: 2014
   link: https://web.archive.org/web/20140411192842/http://2014.pythonnordeste.org/
@@ -3114,6 +3169,20 @@
     latitude: 49.69649115
     longitude: 19.010946935372793
 
+- conference: PyCon India
+  year: 2013
+  link: https://web.archive.org/web/20130831132556/http://in.pycon.org/2013/
+  cfp: '2013-07-15 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bangalore, India
+  date: August 31 - September 1, 2013
+  start: 2013-08-31
+  end: 2013-09-01
+  sub: PY
+  location:
+    latitude: 12.9767936
+    longitude: 77.590082
+
 - conference: Python Nordeste
   year: 2013
   link: https://web.archive.org/web/20160708210325/http://2013.pythonnordeste.org/
@@ -3139,6 +3208,20 @@
   location:
     latitude: 37.2333253
     longitude: -121.6846349
+
+- conference: PyCon India
+  year: 2012
+  link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
+  cfp: '2012-08-25 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bangalore, India
+  date: September 28 - 30, 2012
+  start: 2012-09-28
+  end: 2012-09-30
+  sub: PY
+  location:
+    latitude: 12.9767936
+    longitude: 77.590082
 
 - conference: PyCon UK
   year: 2012

@@ -2234,19 +2234,6 @@
     latitude: 59.8060977
     longitude: 30.3162358
 
-- conference: PyCon India
-  year: 2017
-  link: https://web.archive.org/web/20180205164409/https://in.pycon.org/2017/
-  cfp: TBA
-  place: Delhi, India
-  date: November 2 - 6, 2017
-  start: 2017-11-02
-  end: 2017-11-06
-  sub: PY
-  location:
-    latitude: 28.6273928
-    longitude: 77.1716954
-
 - conference: PyBITS
   year: 2017
   link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
@@ -3236,19 +3223,6 @@
     latitude: 22.5445741
     longitude: 114.0545429
 
-- conference: PyCon India
-  year: 2016
-  link: https://web.archive.org/web/20161027165711/https://in.pycon.org/2016/
-  cfp: TBA
-  place: New Delhi, India
-  date: September 23 - 26, 2016
-  start: 2016-09-23
-  end: 2016-09-26
-  sub: PY
-  location:
-    latitude: 28.6138954
-    longitude: 77.2090057
-
 - conference: PyData Carolinas
   year: 2016
   link: https://web.archive.org/web/20160909163256/http://pydata.org/carolinas2016/
@@ -3884,19 +3858,6 @@
   location:
     latitude: 44.4361414
     longitude: 26.1027202
-
-- conference: PyCon India
-  year: 2015
-  link: https://web.archive.org/web/20150924165102/https://in.pycon.org/2015/
-  cfp: TBA
-  place: Bengaluru, India
-  date: October 2 - 5, 2015
-  start: 2015-10-02
-  end: 2015-10-05
-  sub: PY
-  location:
-    latitude: 12.9767936
-    longitude: 77.590082
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -4673,19 +4634,6 @@
     latitude: 43.3224219
     longitude: -1.9838889
 
-- conference: PyCon India
-  year: 2014
-  link: https://web.archive.org/web/20140929035341/http://in.pycon.org/2014/
-  cfp: TBA
-  place: Bangalore, India
-  date: September 26 - 29, 2014
-  start: 2014-09-26
-  end: 2014-09-29
-  sub: PY
-  location:
-    latitude: 12.9767936
-    longitude: 77.590082
-
 - conference: Kiwi PyCon
   year: 2014
   link: https://web.archive.org/web/20140802025405/http://kiwi.pycon.org/
@@ -5207,19 +5155,6 @@
     latitude: -36.5412811
     longitude: 174.5506104914412
 
-- conference: PyCon India
-  year: 2013
-  link: https://web.archive.org/web/20130831132556/http://in.pycon.org/2013/
-  cfp: TBA
-  place: Bangalore, India
-  date: August 31 - September 2, 2013
-  start: 2013-08-31
-  end: 2013-09-02
-  sub: PY
-  location:
-    latitude: 12.9767936
-    longitude: 77.590082
-
 - conference: EuroSciPy
   year: 2013
   link: https://www.euroscipy.org/
@@ -5672,19 +5607,6 @@
   location:
     latitude: -33.928992
     longitude: 18.417396
-
-- conference: PyCon India
-  year: 2012
-  link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
-  cfp: TBA
-  place: Bangalore, India
-  date: September 28 - October 1, 2012
-  start: 2012-09-28
-  end: 2012-10-01
-  sub: PY
-  location:
-    latitude: 12.9767936
-    longitude: 77.590082
 
 - conference: PyCon UK
   year: 2011
