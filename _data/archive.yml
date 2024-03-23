@@ -2490,6 +2490,20 @@
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
   sub: PY
 
+- conference: EuroPython
+  year: 2019
+  link: https://ep2019.europython.eu/
+  cfp: '2019-05-12 23:59:59'
+  timezone: Europe/Zurich
+  place: Basel, Switzerland
+  date: July 8 - 14, 2019
+  start: 2019-07-08
+  end: 2019-07-14
+  sub: PY
+  location:
+    latitude: 47.5581077
+    longitude: 7.5878261
+
 - conference: PyCon Spain
   alt_name: PyCon ES
   year: 2019
@@ -3268,6 +3282,21 @@
     latitude: 37.2333253
     longitude: -121.6846349
 
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2012
+  link: https://web.archive.org/web/20120825164659/http://za.pycon.org/#&panel1-3
+  cfp: '2012-09-15 23:59:00'
+  timezone: Africa/Johannesburg
+  place: Cape Town, South Africa
+  date: October 4 - 5, 2012
+  start: 2012-10-04
+  end: 2012-10-05
+  sub: PY
+  location:
+    latitude: -33.928992
+    longitude: 18.417396
+
 - conference: PyCon India
   year: 2012
   link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
@@ -3295,6 +3324,20 @@
   location:
     latitude: 52.4081812
     longitude: -1.510477
+
+- conference: Plone Conference
+  year: 2012
+  link: https://web.archive.org/web/20120923023043/http://www.ploneconf.org/
+  cfp: '2012-08-15 23:59:00'
+  cfp_ext: '2012-08-19 23:59:00'
+  place: Arnhem, Netherlands
+  date: October 8 - 14, 2012
+  start: 2012-10-08
+  end: 2012-10-14
+  sub: WEB
+  location:
+    latitude: 51.984257
+    longitude: 5.9108573
 
 - conference: PyCon France
   year: 2012

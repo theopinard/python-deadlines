@@ -916,19 +916,6 @@
     latitude: -33.8698439
     longitude: 151.2082848
 
-- conference: EuroPython
-  year: 2019
-  link: https://ep2019.europython.eu/
-  cfp: TBA
-  place: Basel, Switzerland
-  date: July 8 - 14, 2019
-  start: 2019-07-08
-  end: 2019-07-14
-  sub: PY
-  location:
-    latitude: 47.5581077
-    longitude: 7.5878261
-
 - conference: Caipyra
   year: 2019
   link: http://caipyra.python.org.br/
@@ -5528,33 +5515,6 @@
   location:
     latitude: 53.3498006
     longitude: -6.2602964
-
-- conference: Plone Conference
-  year: 2012
-  link: https://web.archive.org/web/20120923023043/http://www.ploneconf.org/
-  cfp: TBA
-  place: Arnheim, Netherlands
-  date: October 8 - 13, 2012
-  start: 2012-10-08
-  end: 2012-10-13
-  sub: WEB
-  location:
-    latitude: 51.984257
-    longitude: 5.9108573
-
-- conference: PyCon South Africa
-  alt_name: PyCon ZA
-  year: 2012
-  link: https://za.pycon.org/
-  cfp: TBA
-  place: Cape Town, South Africa
-  date: October 4 - 6, 2012
-  start: 2012-10-04
-  end: 2012-10-06
-  sub: PY
-  location:
-    latitude: -33.928992
-    longitude: 18.417396
 
 - conference: PyCon UK
   year: 2011
