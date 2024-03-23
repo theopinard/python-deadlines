@@ -60,7 +60,7 @@ description: Summary of the conference and its instances throughout the years.
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="/summary/{{page.conference | slugify}}/">{{page.title}}</span>
+            <span id="conf-title-href" href="/summary/{{page.conference | slugify: "latin"}}/">{{page.title}}</span>
             <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
                 data-text="Conference instances for the #{{ page.conference }} conference!" data-show-count="false"
                 style="font-size:13px;">Tweet</a>
@@ -126,17 +126,17 @@ description: Summary of the conference and its instances throughout the years.
       <div id="all_confs">
         {% for conf in confs %}
           {% assign subs = conf.sub | split: "," %}
-          <div id="{{conf.conference | slugify}}-{{conf.year}}"
+          <div id="{{conf.conference | slugify: "latin"}}-{{conf.year}}"
             class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
             <div class="row conf-row">
               <div class="col-6">
                 <span class="conf-title">
                   <a title="Deadline Details"
-                    href="{{site.baseurl}}/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
+                    href="{{site.baseurl}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
                 </span>
                 <span class="conf-title-small">
                   <a title="Deadline Details"
-                    href="{{site.baseurl}}/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} '{{conf.year |
+                    href="{{site.baseurl}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year |
                     slice: -2, 3}}</a>
                 </span>
                 <span class="conf-title-icon">
@@ -271,16 +271,16 @@ description: Summary of the conference and its instances throughout the years.
         {% endif %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
         {% if cfp == "TBA" %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("TBA");
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("TBA");
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("TBA");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("TBA");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% elsif cfp == "Cancelled" %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("Cancelled");
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("Cancelled");
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("Cancelled");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("Cancelled");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% else %}
 
           // Use specified timezone for deadlines if available else use AoE timezone
@@ -296,33 +296,33 @@ description: Summary of the conference and its instances throughout the years.
           if (cfpDate.invalid || confDate.invalid) {
             var cfpDate = DateTime.fromSQL("{{cfp}}");
             var confDate = DateTime.fromSQL("{{conf.start}}");
-            console.log("Invalid timezone in {{conf.conference | slugify}}-{{conf.year}}. Using system timezone instead.");
+            console.log("Invalid timezone in {{conf.conference | slugify: "latin"}}-{{conf.year}}. Using system timezone instead.");
           }
 
           // render countdown timer
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').countdown(cfpDate.toJSDate(), function (event) {
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').countdown(cfpDate.toJSDate(), function (event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
           // render countdown timer small
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer-small').countdown(cfpDate.toJSDate(), function (event) {
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer-small').countdown(cfpDate.toJSDate(), function (event) {
             $(this).html(event.strftime('%Dd %H:%M:%S'));
           });
 
           // deadline in local timezone
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
 
           // add calendar button
           try {
             var myCalendar = createCalendarFromObject({
-              id: '{{conf.conference | slugify}}-{{conf.year}}',
+              id: '{{conf.conference | slugify: "latin"}}-{{conf.year}}',
               title: '{{conf.conference}} {{conf.year}} deadline',
               date: cfpDate.toJSDate(),
               duration: 60,
             });
-            document.querySelector('#{{conf.conference | slugify}}-{{conf.year}} .calendar').appendChild(myCalendar);
+            document.querySelector('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .calendar').appendChild(myCalendar);
           } catch (err) {
-            document.querySelector('#{{conf.conference | slugify}}-{{conf.year}} .calendar').appendChild("<p>Calendar not available.</p>");
+            document.querySelector('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .calendar').appendChild("<p>Calendar not available.</p>");
             console.log("Error in cfp date.");
           }
 
@@ -330,21 +330,21 @@ description: Summary of the conference and its instances throughout the years.
           cfpDiff = cfpDate.diffNow("seconds");
           confDiff = confDate.diffNow("seconds");
 
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", cfpDiff.toMillis());
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("confDiff", confDiff.toMillis());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", cfpDiff.toMillis());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("confDiff", confDiff.toMillis());
 
           if (cfpDiff < 0) {
-            $('#{{conf.conference | slugify}}-{{conf.year}}').addClass('pastcfp');
-            $('#{{conf.conference | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.conference | slugify}}-{{conf.year}} .deadline'));
-            $('#{{conf.conference | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.conference | slugify}}-{{conf.year}} .deadline'));
-            $('#{{conf.conference | slugify}}-{{conf.year}} .calendar').remove();
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').addClass('pastcfp');
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').replaceWith($('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline'));
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline'));
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .calendar').remove();
           }
 
           if (confDiff < 0) {
-            $('#{{conf.conference | slugify}}-{{conf.year}}').addClass('pastconf');
-            $('#{{conf.conference | slugify}}-{{conf.year}} .timer').replaceWith($('#{{conf.conference | slugify}}-{{conf.year}} .deadline'));
-            $('#{{conf.conference | slugify}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.conference | slugify}}-{{conf.year}} .deadline'));
-            $('#{{conf.conference | slugify}}-{{conf.year}} .calendar').remove();
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').addClass('pastconf');
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').replaceWith($('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline'));
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer-small').replaceWith($('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline'));
+            $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .calendar').remove();
           }
         {% endif %}
       {% endfor %}

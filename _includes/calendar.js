@@ -90,8 +90,8 @@ function load_conference_list() {
 		{% endif %}
     // add deadlines in red
     conf_list_all.push({
-      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify: "latin"}}-{{conf.year}}",
       name: "{{conf.conference}} {{conf.year}} CfP {{extended}}",
       color: "red",
       location: "{{conf.place}}",
@@ -102,8 +102,8 @@ function load_conference_list() {
     });
     {% if conf.workshop_deadline %}
     conf_list_all.push({
-      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify: "latin"}}-{{conf.year}}",
       name: "{{conf.conference}} {{conf.year}} Workshop Deadline",
       color: "red",
       location: "{{conf.place}}",
@@ -115,8 +115,8 @@ function load_conference_list() {
     {% endif %}
     {% if conf.tutorial_deadline %}
     conf_list_all.push({
-      id: "{{conf.conference | slugify}}-{{conf.year}}-deadline",
-      abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+      id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-deadline",
+      abbreviation: "{{conf.conference | slugify: "latin"}}-{{conf.year}}",
       name: "{{conf.conference}} {{conf.year}} Tutorial Deadline",
       color: "red",
       location: "{{conf.place}}",
@@ -137,8 +137,8 @@ function load_conference_list() {
             {% endif %}
       {% endfor %}
       conf_list_all.push({
-        id: "{{conf.conference | slugify}}-{{conf.year}}-conference",
-        abbreviation: "{{conf.conference | slugify}}-{{conf.year}}",
+        id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-conference",
+        abbreviation: "{{conf.conference | slugify: "latin"}}-{{conf.year}}",
         name: "{{conf.conference}} {{conf.year}}",
         color: color,
         location: "{{conf.place}}",

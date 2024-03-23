@@ -29,14 +29,14 @@ title: Python Event Series List
           {% assign this_time = "now" | date: "%s" %}
           {% for conf in confs %}
           {% if conf.items.size > 1 %}
-          <div id="{{conf.name | slugify}}" class="ConfItem">
+          <div id="{{conf.name | slugify: "latin"}}" class="ConfItem">
             <div class="row conf-row">
                 <div class="col-12">
                   <span class="conf-title">
-                      <a title="Deadline Details" href="/series/{{conf.name | slugify}}/">{{conf.name}}</a>
+                      <a title="Deadline Details" href="/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
                   </span>
                   <span class="conf-title-small">
-                      <a title="Deadline Details" href="/series/{{conf.name | slugify}}/">{{conf.name}}</a>
+                      <a title="Deadline Details" href="/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
                   </span>
                   <span class="conf-title-icon">
                     <a title="Conference Website" href="{{conf.items[0].link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>

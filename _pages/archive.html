@@ -61,14 +61,14 @@ title: Past Python Conferences
           <h1 id="past-events-title">Past Events</h1>
           {% for conf in site.data.archive %}
           {% assign subs = conf.sub | split: "," %}
-          <div id="{{conf.conference | slugify}}-{{conf.year}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
+          <div id="{{conf.conference | slugify: "latin"}}-{{conf.year}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
-                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
+                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
                   </span>
                   <span class="conf-title-small">
-                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
+                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
                   </span>
                   <span class="conf-title-icon">
                     <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
@@ -185,16 +185,16 @@ title: Past Python Conferences
         {% endif %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
         {% if cfp == "TBA" %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("TBA");
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("TBA");
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("TBA");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("TBA");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% elsif cfp == "Cancelled" %}
-          $('#{{conf.conference | slugify}}-{{conf.year}} .timer').html("Cancelled");
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html("Cancelled");
-          $('#{{conf.conference | slugify}}-{{conf.year}}').attr("cfpDiff", Infinity);
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("Cancelled");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("Cancelled");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% else %}
 
           // Use specified timezone for deadlines if available else use AoE timezone
@@ -210,11 +210,11 @@ title: Past Python Conferences
           if (cfpDate.invalid || confDate.invalid) {
             var cfpDate = DateTime.fromSQL("{{cfp}}");
             var confDate = DateTime.fromSQL("{{conf.start}}");
-            console.log("Invalid timezone in {{conf.conference | slugify}}-{{conf.year}}. Using system timezone instead.");
+            console.log("Invalid timezone in {{conf.conference | slugify: "latin"}}-{{conf.year}}. Using system timezone instead.");
           }
 
           // deadline in local timezone
-          $('#{{conf.conference | slugify}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
         {% endif %}
       {% endfor %}
 

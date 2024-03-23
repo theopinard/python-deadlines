@@ -58,7 +58,7 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="/conference/{{page.conference | slugify}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
+            <span id="conf-title-href" href="/conference/{{page.conference | slugify: "latin"}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
           </h1>
           {% if page.alt_name %}
           <h3 id="conf-subtitle">a.k.a. {{page.alt_name}} {{page.year}}</h3>
@@ -111,7 +111,7 @@ description: Countdown for the Call for Participation of this conference includi
           {% endif %}
           <div>
             <img src="/static/img/002-home2.svg" class="badge-link" alt="Conference Series" width="16" height="16" />
-            <a id="conf-series" href="/series/{{page.conference | slugify}}">All {{page.conference}} conferences</a>
+            <a id="conf-series" href="/series/{{page.conference | slugify: "latin"}}">All {{page.conference}} conferences</a>
           </div>
           {% if page.finaid %}
           <div>
@@ -250,7 +250,7 @@ description: Countdown for the Call for Participation of this conference includi
 
       // add calendar
       var conferenceDeadlineCalendar = createCalendarFromObject({
-        id: '{{ page.conference | slugify }}-{{ page.year }}',
+        id: '{{ page.conference | slugify: "latin" }}-{{ page.year }}',
         title: '{{ page.title }}',
         date: confDeadline.toJSDate(),
         duration: 60,
