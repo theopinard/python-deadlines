@@ -2302,6 +2302,22 @@
     latitude: 38.295411
     longitude: -122.61369350203252
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2019
+  link: https://web.archive.org/web/20191029092941/http://python.ie/pycon-2019/
+  cfp_link: https://web.archive.org/web/20191029123236/http://python.ie/pycon-2019/call-proposals/
+  cfp: '2019-08-11 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 12 - 13, 2019
+  start: 2019-10-12
+  end: 2019-10-13
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: Python Web Conference
   year: 2019
   link: https://web.archive.org/web/20191220043242/https://2019.indypy.org/webconf/
@@ -2681,6 +2697,21 @@
     latitude: 47.6038321
     longitude: -122.330062
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2018
+  link: https://web.archive.org/web/20180828133458/https://pyconie18.python.ie/
+  cfp: '2018-09-09 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: November 10 - 11, 2018
+  start: 2018-11-10
+  end: 2018-11-11
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon Colombia
   year: 2019
   link: https://web.archive.org/web/20190208183622/https://www.pycon.co/
@@ -2838,6 +2869,21 @@
     latitude: 28.6273928
     longitude: 77.1716954
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2017
+  link: https://web.archive.org/web/20171025025454/http://pyconie17.python.ie/
+  cfp: '2017-08-15 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 21 - 22, 2017
+  start: 2017-10-21
+  end: 2017-10-22
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon UK
   year: 2017
   link: https://web.archive.org/web/20171023090724/http://2017.pyconuk.org/
@@ -2980,6 +3026,21 @@
     latitude: 48.18707745
     longitude: 11.54321322
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2016
+  link: https://web.archive.org/web/20161025084155/http://python.ie/pycon-2016/
+  cfp: '2016-08-15 23:59:00'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: November 5 - 6, 2016
+  start: 2016-11-05
+  end: 2016-11-06
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyData DC
   year: 2016
   link: https://web.archive.org/web/20161007055823/http://pydata.org/dc2016/
@@ -3092,6 +3153,22 @@
   location:
     latitude: 43.3913468
     longitude: -3.7526930295
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2015
+  link: https://web.archive.org/web/20160521024356/http://python.ie/previous-pycons/pycon-2015/
+  cfp_link: https://web.archive.org/web/20150728132459/http://python.ie/pycon-2015/call-proposals/
+  cfp: '2015-07-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 24 - 25, 2015
+  start: 2015-10-24
+  end: 2015-10-25
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -3259,6 +3336,21 @@
     latitude: 49.69649115
     longitude: 19.010946935372793
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2014
+  link: http://python.ie/pycon/
+  cfp: '2014-07-14 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 11 - 14, 2014
+  start: 2014-10-11
+  end: 2014-10-14
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2014
@@ -3340,6 +3432,21 @@
   location:
     latitude: 45.5031824
     longitude: -73.5698065
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2013
+  link: https://web.archive.org/web/20130802043511/http://python.ie:80/pycon/2013/
+  cfp: '2013-08-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 12 - 15, 2012
+  start: 2012-10-12
+  end: 2012-10-15
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - conference: PyCon UK
   year: 2013
@@ -3480,6 +3587,21 @@
     latitude: 12.9767936
     longitude: 77.590082
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2012
+  link: https://web.archive.org/web/20121101011018/http://python.ie/pycon/2012/
+  cfp: '2012-08-19 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 13 - 14, 2012
+  start: 2012-10-13
+  end: 2012-10-14
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon UK
   year: 2012
   link: https://web.archive.org/web/20120902022819/http://www.pyconuk.org/
@@ -3617,6 +3739,21 @@
     latitude: 48.8588897
     longitude: 2.3200410217
 
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2011
+  link: https://web.archive.org/web/20111101011018/http://python.ie/pycon/2011/
+  cfp: '2011-07-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: October 8 - 9, 2011
+  start: 2011-10-08
+  end: 2011-10-09
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon Germany
   alt_name: PyCon DE
   year: 2011
@@ -3728,6 +3865,21 @@
   location:
     latitude: 49.7181505
     longitude: 18.8028338
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2010
+  link: https://web.archive.org/web/20100604053232/http://www.python.ie/pyconireland
+  cfp: '2010-05-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  date: July 17 - 18, 2010
+  start: 2010-07-17
+  end: 2010-07-18
+  sub: PY
+  location:
+    latitude: 53.3498006
+    longitude: -6.2602964
 
 - conference: EuroSciPy
   year: 2010

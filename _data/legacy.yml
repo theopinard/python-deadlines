@@ -2206,20 +2206,6 @@
     latitude: 13.347776849999999
     longitude: 74.79299358008947
 
-- conference: PyCon Ireland
-  alt_name: PyCon IE
-  year: 2017
-  link: https://web.archive.org/web/20171025025454/http://pyconie17.python.ie/
-  cfp: TBA
-  place: Dublin, Ireland
-  date: October 21 - 23, 2017
-  start: 2017-10-21
-  end: 2017-10-23
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
-
 - conference: PyData Warsaw
   year: 2017
   link: https://web.archive.org/web/20170312132232/http://pydata.org/warsaw2017/
@@ -2920,20 +2906,6 @@
   location:
     latitude: 43.6534817
     longitude: -79.3839347
-
-- conference: PyCon Ireland
-  alt_name: PyCon IE
-  year: 2016
-  link: https://web.archive.org/web/20161025084155/http://python.ie/pycon-2016/
-  cfp: TBA
-  place: Dublin, Ireland
-  date: November 5 - 7, 2016
-  start: 2016-11-05
-  end: 2016-11-07
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
 
 - conference: PyCon Finland
   year: 2016
@@ -3676,20 +3648,6 @@
     latitude: 43.3224219
     longitude: -1.9838889
 
-- conference: PyCon Ireland
-  alt_name: PyCon IE
-  year: 2015
-  link: https://web.archive.org/web/20160521024356/http://python.ie/previous-pycons/pycon-2015/
-  cfp: TBA
-  place: Dublin, Ireland
-  date: October 24 - 26, 2015
-  start: 2015-10-24
-  end: 2015-10-26
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
-
 - conference: PyCon Finland
   year: 2015
   link: https://web.archive.org/web/20150924173543/http://fi.pycon.org/2015/
@@ -4411,20 +4369,6 @@
   location:
     latitude: 47.1615416
     longitude: 27.5837224
-
-- conference: PyCon Ireland
-  alt_name: PyCon IE
-  year: 2014
-  link: http://python.ie/pycon/
-  cfp: TBA
-  place: Dublin, Ireland
-  date: October 11 - 15, 2014
-  start: 2014-10-11
-  end: 2014-10-15
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
 
 - conference: PyTexas
   year: 2014
@@ -5345,20 +5289,6 @@
   location:
     latitude: 30.5951051
     longitude: 114.2999353
-
-- conference: PyCon Ireland
-  alt_name: PyCon IE
-  year: 2012
-  link: https://web.archive.org/web/20121101011018/http://python.ie/pycon/2012/
-  cfp: TBA
-  place: Dublin, Ireland
-  date: October 13 - 15, 2012
-  start: 2012-10-13
-  end: 2012-10-15
-  sub: PY
-  location:
-    latitude: 53.3498006
-    longitude: -6.2602964
 
 - conference: PyCon UK
   year: 2011
