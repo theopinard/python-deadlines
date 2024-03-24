@@ -2519,19 +2519,6 @@
     latitude: 47.6694141
     longitude: -122.1238767
 
-- conference: PyData Berlin
-  year: 2017
-  link: https://web.archive.org/web/20170623225603/http://pydata.org/berlin2017/
-  cfp: TBA
-  place: Berlin, Germany
-  date: June 30 - July 3, 2017
-  start: 2017-06-30
-  end: 2017-07-03
-  sub: PYDATA
-  location:
-    latitude: 52.4931964
-    longitude: 13.52462014222825
-
 - conference: PyParis
   year: 2017
   link: https://web.archive.org/web/20170610194931/http://www.pyparis.org/
@@ -2636,19 +2623,6 @@
   location:
     latitude: 47.5581077
     longitude: 7.5878261
-
-- conference: PyData London
-  year: 2017
-  link: https://web.archive.org/web/20170606204024/http://pydata.org/london2017/
-  cfp: TBA
-  place: London, UK
-  date: May 5 - 8, 2017
-  start: 2017-05-05
-  end: 2017-05-08
-  sub: PYDATA
-  location:
-    latitude: 51.5074456
-    longitude: -0.1277653
 
 - conference: PyDays Vienna
   year: 2017
@@ -3296,20 +3270,8 @@
     latitude: 25.0420743
     longitude: 121.61404600926753
 
-- conference: PyData Berlin
-  year: 2016
-  link: https://web.archive.org/web/20160521214556/http://pydata.org/berlin2016/
-  cfp: TBA
-  place: Berlin, Germany
-  date: May 20 - 22, 2016
-  start: 2016-05-20
-  end: 2016-05-22
-  sub: PYDATA
-  location:
-    latitude: 52.51724585
-    longitude: 13.450009995006958
-
 - conference: SciPy Latin America
+  alt_name: SciPyLA
   year: 2016
   link: https://web.archive.org/web/20160518213755/http://conf.scipyla.org/scipyla2016/
   cfp: TBA
@@ -3360,19 +3322,6 @@
   location:
     latitude: 59.3204755
     longitude: 18.0692448
-
-- conference: PyData London
-  year: 2016
-  link: https://web.archive.org/web/20160515034159/http://pydata.org/london2016/
-  cfp: TBA
-  place: London, UK
-  date: May 6 - 9, 2016
-  start: 2016-05-06
-  end: 2016-05-09
-  sub: PYDATA
-  location:
-    latitude: 51.512773
-    longitude: -0.0906448
 
 - conference: PyCon Israel
   year: 2016
@@ -3991,19 +3940,6 @@
   location:
     latitude: 42.34559165
     longitude: -71.04632748228212
-
-- conference: PyData Berlin
-  year: 2015
-  link: https://web.archive.org/web/20150520195754/http://pydata.org/berlin2015/
-  cfp: TBA
-  place: Berlin, Germany
-  date: May 29 - 31, 2015
-  start: 2015-05-29
-  end: 2015-05-31
-  sub: PYDATA
-  location:
-    latitude: 52.5065726
-    longitude: 13.3916017
 
 - conference: PyWaw Summit
   year: 2015

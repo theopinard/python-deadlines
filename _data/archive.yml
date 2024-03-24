@@ -2973,6 +2973,20 @@
     latitude: 51.8151645
     longitude: 20.3859912
 
+- conference: PyData Berlin
+  year: 2017
+  link: https://web.archive.org/web/20170623225603/http://pydata.org/berlin2017/
+  cfp: '2017-04-23 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: June 30 - July 2, 2017
+  start: 2017-06-30
+  end: 2017-07-02
+  sub: PYDATA
+  location:
+    latitude: 52.4931964
+    longitude: 13.52462014222825
+
 - conference: EuroPython
   year: 2017
   link: https://web.archive.org/web/20170316094425/http://ep2017.europython.eu/
@@ -3017,6 +3031,21 @@
   location:
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: PyData London
+  year: 2017
+  link: https://web.archive.org/web/20170606204024/http://pydata.org/london2017/
+  cfp_link: https://web.archive.org/web/20170226122558/https://pydata.org/london2017/cfp
+  cfp: '2017-02-24 23:59:00'
+  timezone: Europe/London
+  place: London, UK
+  date: May 5 - 7, 2017
+  start: 2017-05-05
+  end: 2017-05-07
+  sub: PYDATA
+  location:
+    latitude: 51.5074456
+    longitude: -0.1277653
 
 - conference: PyCon US
   year: 2017
@@ -3160,6 +3189,32 @@
     latitude: -2.5307316
     longitude: -44.3068265
 
+- conference: PyData Berlin
+  year: 2016
+  link: https://web.archive.org/web/20160521214556/http://pydata.org/berlin2016/
+  cfp: '2016-03-08 23:59:00'
+  place: Berlin, Germany
+  date: May 20 - 21, 2016
+  start: 2016-05-20
+  end: 2016-05-21
+  sub: PYDATA
+  location:
+    latitude: 52.51724585
+    longitude: 13.450009995006958
+
+- conference: PyData London
+  year: 2016
+  link: https://web.archive.org/web/20160515034159/http://pydata.org/london2016/
+  cfp: '2016-03-07 23:59:00'
+  place: London, UK
+  date: May 6 - 8, 2016
+  start: 2016-05-06
+  end: 2016-05-08
+  sub: PYDATA
+  location:
+    latitude: 51.512773
+    longitude: -0.0906448
+
 - conference: EuroPython
   year: 2016
   link: https://web.archive.org/web/20160129180633/http://ep2016.europython.eu/
@@ -3257,6 +3312,20 @@
   location:
     latitude: 52.2055314
     longitude: 0.1186637
+
+- conference: PyData Berlin
+  year: 2015
+  link: https://web.archive.org/web/20150520195754/http://pydata.org/berlin2015/
+  cfp: '2015-04-30 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: May 29 - 30, 2015
+  start: 2015-05-29
+  end: 2015-05-30
+  sub: PYDATA
+  location:
+    latitude: 52.5065726
+    longitude: 13.3916017
 
 - conference: EuroPython
   year: 2015
