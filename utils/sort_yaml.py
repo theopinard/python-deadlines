@@ -117,21 +117,14 @@ def split_data(data):
 
 
 def check_links(data):
-    cache = {}
     for i, q in tqdm(enumerate(sorted(data, key=lambda x: x["year"], reverse=True)), total=len(data)):
         for key in ("link", "cfp_link", "sponsor", "finaid"):
             if key in q:
-                if q[key] in cache:
-                    q[key] = cache[q[key]]
-                else:
-                    new_link = check_link_availability(q[key], q["start"])
-                    if "https://web.archive.org" not in new_link:
-                        cache[q[key]] = new_link
-                        cache[new_link] = new_link
-                    else:
-                        time.sleep(0.5)
+                new_link = check_link_availability(q[key], q["start"])
+                if "https://web.archive.org" not in new_link:
+                    time.sleep(0.5)
 
-                    q[key] = new_link
+                q[key] = new_link
                 data[i] = q
     return data
 
