@@ -2752,6 +2752,20 @@
     latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: EuroSciPy
+  year: 2018
+  link: https://web.archive.org/web/20180831055351/https://www.euroscipy.org/2018/
+  cfp: '2018-05-31 23:59:00'
+  timezone: Europe/Rome
+  place: Trento, Italy
+  date: August 28 - September 1, 2018
+  start: 2018-08-28
+  end: 2018-09-01
+  sub: SCIPY
+  location:
+    latitude: 46.0664228
+    longitude: 11.1257601
+
 - conference: EuroPython
   year: 2018
   link: https://web.archive.org/web/20180728144400/https://ep2018.europython.eu/en/
@@ -2852,6 +2866,20 @@
     latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: EuroSciPy
+  year: 2017
+  link: https://web.archive.org/web/20170828124453/https://www.euroscipy.org/2017/
+  cfp: '2017-06-24 00:00:00'
+  cfp_ext: '2017-07-02 00:00:00'
+  place: Erlangen, Germany
+  date: August 28 - September 1, 2017
+  start: 2017-08-28
+  end: 2017-09-01
+  sub: SCIPY
+  location:
+    latitude: 49.5928616
+    longitude: 11.0056
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2017
@@ -2910,6 +2938,20 @@
     latitude: -2.5307316
     longitude: -44.3068265
 
+- conference: SciPy US
+  year: 2017
+  link: https://web.archive.org/web/20190502153803/https://scipy2017.scipy.org/
+  cfp: '2017-03-27 23:59:00'
+  timezone: America/Chicago
+  place: Austin, USA
+  date: July 10 - 16, 2017
+  start: 2017-07-10
+  end: 2017-07-16
+  sub: SCIPY
+  location:
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyCon US
   year: 2017
   link: https://web.archive.org/web/20170608061733/https://us.pycon.org/2017/
@@ -2965,6 +3007,20 @@
   location:
     latitude: 28.6138954
     longitude: 77.2090057
+
+- conference: EuroSciPy
+  year: 2016
+  link: https://web.archive.org/web/20160405221156/https://www.euroscipy.org/2016/
+  cfp: '2016-06-24 23:59:00'
+  timezone: Europe/Berlin
+  place: Erlangen, Germany
+  date: August 23 - 27, 2016
+  start: 2016-08-23
+  end: 2016-08-27
+  sub: SCIPY
+  location:
+    latitude: 49.5928616
+    longitude: 11.0056
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -3090,6 +3146,20 @@
   location:
     latitude: 51.512773
     longitude: -0.0906448
+
+- conference: EuroSciPy
+  year: 2015
+  link: https://web.archive.org/web/20150705054736/https://www.euroscipy.org/2015/
+  cfp: '2015-04-30 23:59:00'
+  cfp_ext: '2015-05-15 23:59:00'
+  place: Cambridge, UK
+  date: August 26 - 30, 2015
+  start: 2015-08-26
+  end: 2015-08-30
+  sub: SCIPY
+  location:
+    latitude: 52.2055314
+    longitude: 0.1186637
 
 - conference: EuroPython
   year: 2015
@@ -3327,6 +3397,20 @@
     latitude: 12.9767936
     longitude: 77.590082
 
+- conference: EuroSciPy
+  year: 2013
+  link: https://web.archive.org/web/20130523143818/https://www.euroscipy.org/
+  cfp: '2013-04-28 00:00:00'
+  cfp_ext: '2013-05-05 23:59:59'
+  place: Brussels, Belgium
+  date: August 21 - 24, 2013
+  start: 2013-08-21
+  end: 2013-08-24
+  sub: SCIPY
+  location:
+    latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: EuroPython
   year: 2013
   link: https://web.archive.org/web/20130603032549/https://ep2013.europython.eu/
@@ -3479,6 +3563,19 @@
     latitude: 35.6812665
     longitude: 139.757653
 
+- conference: EuroSciPy
+  year: 2012
+  link: https://web.archive.org/web/20120523143818/https://www.euroscipy.org/
+  cfp: '2012-05-06 00:00:00'
+  place: Brussels, Belgium
+  date: August 23 - 27, 2012
+  start: 2012-08-23
+  end: 2012-08-27
+  sub: SCIPY
+  location:
+    latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: EuroPython
   year: 2012
   link: https://ep2012.europython.eu/
@@ -3547,6 +3644,19 @@
   location:
     latitude: 50.85402845
     longitude: 20.60991568734511
+
+- conference: EuroSciPy
+  year: 2011
+  link: https://web.archive.org/web/20110523143818/https://www.euroscipy.org/
+  cfp: '2011-05-08 00:00:00'
+  place: Paris, France
+  date: August 25 - 28, 2011
+  start: 2011-08-25
+  end: 2011-08-28
+  sub: SCIPY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
 
 - conference: EuroPython
   year: 2011
@@ -3619,6 +3729,19 @@
     latitude: 49.7181505
     longitude: 18.8028338
 
+- conference: EuroSciPy
+  year: 2010
+  link: https://web.archive.org/web/20100523143818/https://www.euroscipy.org/
+  cfp: '2010-05-09 00:00:00'
+  place: Paris, France
+  date: July 8 - 11, 2010
+  start: 2010-07-08
+  end: 2010-07-11
+  sub: SCIPY
+  location:
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
 - conference: EuroPython
   year: 2010
   link: https://ep2010.europython.eu
@@ -3688,6 +3811,19 @@
   location:
     latitude: 49.7181505
     longitude: 18.8028338
+
+- conference: EuroSciPy
+  year: 2009
+  link: https://web.archive.org/web/20090523143818/https://www.euroscipy.org/
+  cfp: '2009-04-30 00:00:00'
+  place: Leipzig, Germany
+  date: July 25 - 26, 2009
+  start: 2009-07-25
+  end: 2009-07-26
+  sub: SCIPY
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
 
 - conference: PyCon France
   year: 2009
@@ -3771,6 +3907,19 @@
   location:
     latitude: 54.6870458
     longitude: 25.2829111
+
+- conference: EuroSciPy
+  year: 2008
+  link: https://scipy.github.io/old-wiki/pages/EuroSciPy2008.html
+  cfp: '2008-04-30 23:59:00'
+  place: Leipzig, Germany
+  date: July 26 - 27, 2008
+  start: 2008-07-26
+  end: 2008-07-27
+  sub: SCIPY
+  location:
+    latitude: 51.3406321
+    longitude: 12.3747329
 
 - conference: PyCon France
   year: 2008

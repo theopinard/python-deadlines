@@ -1563,19 +1563,6 @@
     latitude: 10.9094334
     longitude: 78.3665347
 
-- conference: EuroSciPy
-  year: 2018
-  link: https://web.archive.org/web/20180831055351/https://www.euroscipy.org/2018/
-  cfp: TBA
-  place: Trento, Italy
-  date: August 28 - September 2, 2018
-  start: 2018-08-28
-  end: 2018-09-02
-  sub: SCIPY
-  location:
-    latitude: 46.0664228
-    longitude: 11.1257601
-
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2018
@@ -2428,19 +2415,6 @@
     latitude: 28.6138954
     longitude: 77.2090057
 
-- conference: EuroSciPy
-  year: 2017
-  link: https://web.archive.org/web/20170828124453/https://www.euroscipy.org/2017/
-  cfp: TBA
-  place: Erlangen, Germany
-  date: August 28 - September 2, 2017
-  start: 2017-08-28
-  end: 2017-09-02
-  sub: SCIPY
-  location:
-    latitude: 49.5928616
-    longitude: 11.0056
-
 - conference: PyCon Asia Pacific
   alt_name: PyCon APAC
   year: 2017
@@ -2518,19 +2492,6 @@
   location:
     latitude: 54.4382773
     longitude: 35.5272854
-
-- conference: SciPy US
-  year: 2017
-  link: https://web.archive.org/web/20190502153803/https://scipy2017.scipy.org/
-  cfp: TBA
-  place: Austin, USA
-  date: July 10 - 15, 2017
-  start: 2017-07-10
-  end: 2017-07-15
-  sub: SCIPY
-  location:
-    latitude: 30.2711286
-    longitude: -97.7436995
 
 - conference: PyData Seattle
   year: 2017
@@ -3211,19 +3172,6 @@
     latitude: 4.5693754
     longitude: 102.2656823
 
-- conference: EuroSciPy
-  year: 2016
-  link: https://web.archive.org/web/20170405221156/https://www.euroscipy.org/2016/
-  cfp: TBA
-  place: Erlangen, Germany
-  date: August 23 - 28, 2016
-  start: 2016-08-23
-  end: 2016-08-28
-  sub: SCIPY
-  location:
-    latitude: 49.5928616
-    longitude: 11.0056
-
 - conference: PyDay Piura
   year: 2016
   link: https://web.archive.org/web/20160806062921/http://pythonpiura.org/primer-pyday-en-piura/
@@ -3858,19 +3806,6 @@
   location:
     latitude: 37.5666791
     longitude: 126.9782914
-
-- conference: EuroSciPy
-  year: 2015
-  link: https://web.archive.org/web/20150905054736/https://www.euroscipy.org/2015/
-  cfp: TBA
-  place: Cambridge, UK
-  date: August 26 - 31, 2015
-  start: 2015-08-26
-  end: 2015-08-31
-  sub: SCIPY
-  location:
-    latitude: 52.2055314
-    longitude: 0.1186637
 
 - conference: Djangothon
   year: 2015
@@ -5024,19 +4959,6 @@
   location:
     latitude: -36.5412811
     longitude: 174.5506104914412
-
-- conference: EuroSciPy
-  year: 2013
-  link: https://www.euroscipy.org/
-  cfp: TBA
-  place: Brussels, Belgium
-  date: August 21 - 25, 2013
-  start: 2013-08-21
-  end: 2013-08-25
-  sub: SCIPY
-  location:
-    latitude: 50.8465573
-    longitude: 4.351697
 
 - conference: Toronto PyCamp
   year: 2013
