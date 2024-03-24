@@ -1,5 +1,6 @@
 from datetime import datetime
 import pandas as pd
+import iso3166
 import urllib
 import sys
 from pathlib import Path
@@ -112,6 +113,12 @@ def main(year=None, base=""):
 
     # Write the new data to the CSV file
     df_csv.loc[:, "Location"] = df_csv.place
+    df_csv.loc[:, "Country"] = (
+        df_csv.place.str.split(",")
+        .str[-1]
+        .str.strip()
+        .apply(lambda x: iso3166.countries_by_name.get(x.upper(), iso3166.Country("", "", "", "", "")).alpha3)
+    )
     write_csv(df_csv, year, csv_location)
 
 
