@@ -1145,6 +1145,20 @@
     latitude: 49.2608724
     longitude: -123.113952
 
+- conference: PyCon Chile
+  year: 2022
+  link: https://pycon.cl/2022/
+  cfp: '2022-11-12 23:59:00'
+  timezone: America/Santiago
+  place: Santiago, Chile
+  date: December 2 - 4, 2022
+  start: 2022-12-02
+  end: 2022-12-04
+  sub: PY
+  location:
+    latitude: -33.4377756
+    longitude: -70.6504502
+
 - conference: Python Web Conference
   year: 2023
   link: https://2023.pythonwebconf.com/
@@ -1966,6 +1980,18 @@
   twitter: PyConSE
   sub: PY
 
+- conference: PyCon Chile
+  year: 2021
+  link: https://pycon.cl/2021/
+  cfp: '2021-08-31 23:59:00'
+  cfp_ext: '2021-09-12 23:59:00'
+  timezone: America/Santiago
+  place: Online
+  date: November 5 - 7, 2021
+  start: 2021-11-05
+  end: 2021-11-07
+  sub: PY
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon APAC
   year: 2021
@@ -2073,6 +2099,17 @@
   location:
     latitude: 41.1494512
     longitude: -8.6107884
+
+- conference: Python for ML and AI Global Summit
+  year: 2021
+  link: https://web.archive.org/web/20220106000100/https://wp.geekle.us/python
+  cfp_link: https://forms.gle/ryKkiJtqBgs6zT119
+  cfp: '2021-03-30 23:59:00'
+  place: Online
+  date: April 8 - 9, 2021
+  start: 2021-04-08
+  end: 2021-04-09
+  sub: PY
 
 - conference: Python Nordeste
   year: 2021
@@ -2996,6 +3033,20 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2018
+  link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
+  cfp: '2018-01-07 23:59:00'
+  place: Florence, Italy
+  date: April 19 - 22, 2018
+  start: 2018-04-19
+  end: 2018-04-22
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
 - conference: PyCon US
   year: 2018
   link: https://web.archive.org/web/20180509145212/https://us.pycon.org/2018/
@@ -3241,6 +3292,20 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2017
+  link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
+  cfp: '2017-01-07 23:59:00'
+  place: Florence, Italy
+  date: April 6 - 9, 2017
+  start: 2017-04-06
+  end: 2017-04-09
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
 - conference: PyCon US
   year: 2017
   link: https://web.archive.org/web/20170608061733/https://us.pycon.org/2017/
@@ -3464,6 +3529,20 @@
     latitude: 59.3204755
     longitude: 18.0692448
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2016
+  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
+  cfp: '2016-01-10 23:59:00'
+  place: Florence, Italia
+  date: April 15 - 17, 2016
+  start: 2016-04-15
+  end: 2016-04-17
+  sub: PY
+  location:
+    latitude: 36.8309886
+    longitude: 11.9403287
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2015
@@ -3649,6 +3728,20 @@
     latitude: 59.3204755
     longitude: 18.0692448
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2015
+  link: https://web.archive.org/web/20141224170534/https://www.pycon.it/it/
+  cfp: '2015-01-18 23:59:00'
+  place: Florence, Italy
+  date: April 17 - 19, 2015
+  start: 2015-04-17
+  end: 2015-04-19
+  sub: PY
+  location:
+    latitude: 40.038064
+    longitude: 18.4633105
+
 - conference: PyCon US
   year: 2016
   link: https://web.archive.org/web/20160602041511/https://us.pycon.org/2016/
@@ -3816,6 +3909,20 @@
   location:
     latitude: 59.3251172
     longitude: 18.0710935
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2014
+  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
+  cfp: '2014-02-21 23:59:00'
+  place: Florence, Italy
+  date: May 23 - 26, 2014
+  start: 2014-05-23
+  end: 2014-05-26
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - conference: PyData London
   year: 2014
@@ -4349,6 +4456,22 @@
     latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2010
+  link: https://web.archive.org/web/20100222085004/http://www.pycon.it/
+  cfp_link: https://web.archive.org/web/20100216021335/http://www.pycon.it/pycon4/call-for-paper
+  cfp: '2010-03-10 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  date: May 7 - 9, 2010
+  start: 2010-05-07
+  end: 2010-05-09
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
 - conference: PyCon US
   year: 2009
   link: https://web.archive.org/web/20090221061927/http://us.pycon.org/2009/about/
@@ -4446,6 +4569,21 @@
     latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2009
+  link: http://pycon.it/
+  cfp: '2009-03-08 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  date: May 8 - 10, 2009
+  start: 2009-05-08
+  end: 2009-05-10
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
 - conference: PyCon US
   year: 2008
   link: https://web.archive.org/web/20080906013119/http://us.pycon.org/2008/about/
@@ -4515,6 +4653,21 @@
     latitude: 51.3406321
     longitude: 12.3747329
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2008
+  link: https://web.archive.org/web/20080414185759/https://www.pycon.it/
+  cfp: '2008-04-01 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  date: May 9 - 11, 2008
+  start: 2008-05-09
+  end: 2008-05-11
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2008
@@ -4555,6 +4708,21 @@
   location:
     latitude: 54.6870458
     longitude: 25.2829111
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2007
+  link: https://web.archive.org/web/20070520141412/https://www.pycon.it/
+  cfp: '2007-04-30 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  date: June 9 - 10, 2007
+  start: 2007-06-09
+  end: 2007-06-10
+  sub: PY
+  location:
+    latitude: 43.7698712
+    longitude: 11.2555757
 
 - conference: PyCon US
   alt_name: PyCon TX

@@ -24,25 +24,6 @@
     latitude: 44.9379672
     longitude: 7.5400398
 
-- conference: Women Who Code CONNECT Forward
-  year: 2021
-  link: https://connectforward.womenwhocode.dev/
-  cfp: TBA
-  place: Online
-  date: November 18 - 19, 2021
-  start: 2021-11-18
-  end: 2021-11-19
-
-- conference: PyCon Chile
-  year: 2021
-  link: https://pycon.cl/2021/
-  cfp: TBA
-  place: Online
-  date: November 5 - 7, 2021
-  start: 2021-11-05
-  end: 2021-11-07
-  sub: PY
-
 - conference: Plone Conference
   year: 2021
   link: https://2021.ploneconf.org/
@@ -121,19 +102,6 @@
   date: June 16 - 19, 2021
   start: 2021-06-16
   end: 2021-06-19
-
-- conference: Python for ML and AI Global Summit
-  year: 2021
-  link: https://link.geekle.us/python/offsite
-  cfp: TBA
-  place: Online
-  date: April 8 - 10, 2021
-  start: 2021-04-08
-  end: 2021-04-10
-  sub: PY
-  location:
-    latitude: 44.9379672
-    longitude: 7.5400398
 
 - conference: PyCon Cameroon
   year: 2021
@@ -217,7 +185,7 @@
   year: 2020
   link: https://pyday.cl/
   cfp: TBA
-  place: Online (Chile)
+  place: Online
   date: December 5 - 6, 2020
   start: 2020-12-05
   end: 2020-12-06
@@ -232,15 +200,6 @@
   start: 2020-12-05
   end: 2020-12-07
   sub: PY
-
-- conference: Women Who Code CONNECT Forward
-  year: 2020
-  link: https://web.archive.org/web/20210727144948/https://connectforward.womenwhocode.dev/
-  cfp: TBA
-  place: Online
-  date: December 2 - 4, 2020
-  start: 2020-12-02
-  end: 2020-12-04
 
 - conference: enterPy
   year: 2020
@@ -271,9 +230,9 @@
   link: http://pycon.it/
   cfp: TBA
   place: Florence, Italy
-  date: November 5 - 9, 2020
+  date: November 5 - 8, 2020
   start: 2020-11-05
-  end: 2020-11-09
+  end: 2020-11-08
   sub: PY
   location:
     latitude: 43.7698712
@@ -1793,20 +1752,6 @@
     latitude: 13.43141915
     longitude: -16.727503313553704
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2018
-  link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
-  cfp: TBA
-  place: Florence, Italy
-  date: April 19 - 23, 2018
-  start: 2018-04-19
-  end: 2018-04-23
-  sub: PY
-  location:
-    latitude: 43.7698712
-    longitude: 11.2555757
-
 - conference: PythonCamp
   year: 2018
   link: http://pythoncamp.de
@@ -2509,20 +2454,6 @@
     latitude: 48.2391664
     longitude: 16.3774409
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2017
-  link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
-  cfp: TBA
-  place: Florence, Italy
-  date: April 15 - 18, 2017
-  start: 2017-04-15
-  end: 2017-04-18
-  sub: PY
-  location:
-    latitude: 43.7698712
-    longitude: 11.2555757
-
 - conference: PythonCamp
   year: 2017
   link: https://web.archive.org/web/20130911193500/http://www.pythoncamp.de/
@@ -3207,20 +3138,6 @@
     latitude: 40.038064
     longitude: 18.4633105
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2016
-  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
-  cfp: TBA
-  place: Florence, Italia
-  date: April 15 - 18, 2016
-  start: 2016-04-15
-  end: 2016-04-18
-  sub: PY
-  location:
-    latitude: 36.8309886
-    longitude: 11.9403287
-
 - conference: PyData Madrid
   year: 2016
   link: https://web.archive.org/web/20160412080402/http://pydata.org/madrid2016/
@@ -3783,20 +3700,6 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2015
-  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
-  cfp: TBA
-  place: Grand Hotel Mediterraneo, Italy
-  date: April 17 - 20, 2015
-  start: 2015-04-17
-  end: 2015-04-20
-  sub: PY
-  location:
-    latitude: 40.038064
-    longitude: 18.4633105
-
 - conference: Being Pyooners
   year: 2015
   link: https://web.archive.org/web/20150408081613/http://www.meetup.com/gtupython/
@@ -4354,20 +4257,6 @@
   location:
     latitude: 56.839104
     longitude: 60.60825
-
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2014
-  link: https://web.archive.org/web/20140702054546/https://www.pycon.it/
-  cfp: TBA
-  place: Florence, Italy
-  date: May 23 - 26, 2014
-  start: 2014-05-23
-  end: 2014-05-26
-  sub: PY
-  location:
-    latitude: 43.7698712
-    longitude: 11.2555757
 
 - conference: PyCon Asia Pacific
   alt_name: PyCon APAC
