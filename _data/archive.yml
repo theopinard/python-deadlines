@@ -2141,6 +2141,17 @@
     latitude: 47.5581077
     longitude: 7.5878261
 
+- conference: PyCascades
+  year: 2021
+  link: https://2021.pycascades.com/
+  cfp_link: https://www.youtube.com/watch?v=p3AIkpkad6E
+  cfp: '2020-11-15 23:59:00'
+  place: Online
+  date: February 19 - 21, 2021
+  start: 2021-02-19
+  end: 2021-02-21
+  sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2020
@@ -2269,6 +2280,19 @@
   location:
     latitude: -30.0324999
     longitude: -51.2303767
+
+- conference: PyCascades
+  year: 2020
+  link: https://2020.pycascades.com/
+  cfp_link: https://2020.pycascades.com/news/2-pycascades-2020-dates-location-cfp/
+  cfp: '2019-10-01 23:59:00'
+  place: Portland, USA
+  date: February 8 - 9, 2020
+  start: 2020-02-08
+  end: 2020-02-09
+  location:
+    latitude: 45.5202471
+    longitude: -122.674194
 
 - conference: PyDay Mexico
   year: 2019
@@ -2973,6 +2997,20 @@
   location:
     latitude: 28.6273928
     longitude: 77.1716954
+
+- conference: PyCascades
+  year: 2018
+  link: https://web.archive.org/web/20200812235103/https://2018.pycascades.com/
+  cfp_link: https://www.papercall.io/pycascades-2018
+  cfp: '2017-08-29 12:00:00'
+  timezone: UTC
+  place: Vancouver, Canada
+  date: January 22 - 23, 2018
+  start: 2018-01-22
+  end: 2018-01-23
+  location:
+    latitude: 49.27213705
+    longitude: -123.13439461006233
 
 - conference: PyCon Ireland
   alt_name: PyCon IE

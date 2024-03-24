@@ -158,16 +158,6 @@
   end: 2021-03-14
   sub: PY
 
-- conference: PyCascades
-  year: 2021
-  link: https://2021.pycascades.com/
-  cfp: TBA
-  place: Online
-  date: February 19 - 22, 2021
-  start: 2021-02-19
-  end: 2021-02-22
-  sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
-
 - conference: PyCamp Leipzig
   year: 2021
   link: https://barcamps.eu/pycamp-leipzig-2021/
@@ -659,18 +649,6 @@
   location:
     latitude: -22.5776104
     longitude: 17.0772739
-
-- conference: PyCascades
-  year: 2020
-  link: https://2020.pycascades.com/
-  cfp: TBA
-  place: Portland, USA
-  date: February 8 - 10, 2020
-  start: 2020-02-08
-  end: 2020-02-10
-  location:
-    latitude: 45.5202471
-    longitude: -122.674194
 
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
@@ -2008,18 +1986,6 @@
   location:
     latitude: 4.010289
     longitude: 9.207058
-
-- conference: PyCascades
-  year: 2018
-  link: https://web.archive.org/web/20200812235103/https://2018.pycascades.com/
-  cfp: TBA
-  place: Granville Island Stage, Canada
-  date: January 22 - 24, 2018
-  start: 2018-01-22
-  end: 2018-01-24
-  location:
-    latitude: 49.27213705
-    longitude: -123.13439461006233
 
 - conference: PyCon Pakistan
   year: 2017
