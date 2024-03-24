@@ -1,6 +1,7 @@
 ---
 
 - conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
   year: 2024
   link: https://fosdem.org/2024/schedule/track/python-devroom/
   cfp: '2023-12-01 23:59:00'
@@ -431,6 +432,7 @@
     longitude: -38.4812772
 
 - conference: PyCon Hong Kong
+  alt_name: PyCon HK
   year: 2023
   link: https://pycon.hk/2023/
   cfp_link: https://pycon.hk/2023/pycon-hk-2023-cfp/
@@ -547,6 +549,7 @@
     longitude: -122.61369350203252
 
 - conference: Kiwi PyCon
+  alt_name: PyCon NZ
   year: 2023
   link: https://kiwipycon.nz/
   cfp_link: https://web.archive.org/web/20230314112258/https://kiwipycon.nz/call-for-proposals
@@ -633,7 +636,8 @@
     latitude: 47.5581077
     longitude: 7.5878261
 
-- conference: PyCon Korea
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
   year: 2023
   link: https://2023.pycon.kr/
   cfp_link: https://2023.pycon.kr/cfp/apply
@@ -887,6 +891,7 @@
     longitude: -0.1277653
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2023
   link: https://scipy2023.scipy.org
   cfp_link: https://scipy2023.scipy.org/present
@@ -958,6 +963,7 @@
     longitude: 17.0772739
 
 - conference: PyCon Italia
+  alt_name: PyCon Italy
   year: 2023
   link: https://pycon.it/en
   cfp_link: https://pycon.it/cfp
@@ -1078,6 +1084,7 @@
     longitude: 7.6378261
 
 - conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
   year: 2023
   link: https://fosdem.org/2023
   cfp_link: https://fosdem.org/submit
@@ -1330,7 +1337,8 @@
   end: 2022-10-29
   sub: PY
 
-- conference: PyCon Korea
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
   year: 2022
   link: https://2022.pycon.kr/
   cfp: '2022-07-14 23:59:00'
@@ -1553,7 +1561,8 @@
     latitude: 55.625578
     longitude: 37.6063916
 
-- conference: PyCon LT
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
   year: 2022
   link: https://pycon.lt/
   cfp: '2022-05-07 23:59:00'
@@ -1705,6 +1714,7 @@
     longitude: 7.5878261
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2022
   link: https://conference.scipy.org/
   cfp: '2022-02-22 23:59:00'
@@ -1732,6 +1742,7 @@
     longitude: 12.3747329
 
 - conference: PyCon Italia
+  alt_name: PyCon Italy
   year: 2022
   link: https://pycon.it/en
   cfp: '2022-01-16 23:59:59'
@@ -1796,6 +1807,7 @@
   sub: PY
 
 - conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
   year: 2022
   link: https://fosdem.org/2022/schedule/track/python/
   cfp: '2021-12-24 23:59:00'
@@ -1818,6 +1830,7 @@
     longitude: -111.886797
 
 - conference: Kiwi PyCon
+  alt_name: PyCon NZ
   year: 2022
   link: https://web.archive.org/web/20220311104918/http://python.nz/kiwipycon
   cfp: '2021-11-30 23:59:00'
@@ -2062,6 +2075,7 @@
   sub: PY
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2021
   link: https://www.scipy2021.scipy.org/
   cfp: '2021-02-22 23:59:00'
@@ -2203,6 +2217,7 @@
     longitude: 30.7322878
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2020
   link: https://www.scipy2020.scipy.org/
   cfp: '2020-01-31 23:59:00'
@@ -2347,6 +2362,7 @@
     longitude: 20.4568974
 
 - conference: Kiwi PyCon
+  alt_name: PyCon NZ
   year: 2019
   link: https://web.archive.org/web/20190616093942/https://python.nz/
   cfp: '2019-06-23 23:59:00'
@@ -2596,6 +2612,7 @@
     longitude: -0.1277653
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2019
   link: https://www.scipy2019.scipy.org/
   cfp: '2019-02-15 23:59:00'
@@ -2610,6 +2627,7 @@
     longitude: -97.7436995
 
 - conference: PyCon Italia
+  alt_name: PyCon Italy
   year: 2019
   link: https://pycon.it/en
   cfp_link: https://pycon.it/en/call-for-proposals
@@ -2898,6 +2916,7 @@
     longitude: -3.1791934
 
 - conference: PyCon Germany
+  alt_name: PyCon DE
   year: 2017
   link: https://web.archive.org/web/20171030134448/https://de.pycon.org/
   cfp_link: https://www.papercall.io/pyconde2017
@@ -2985,6 +3004,7 @@
     longitude: -44.3068265
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2017
   link: https://web.archive.org/web/20190502153803/https://scipy2017.scipy.org/
   cfp: '2017-03-27 23:59:00'
@@ -3631,6 +3651,7 @@
     longitude: 5.9108573
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2012
   link: https://web.archive.org/web/20120919110354/http://www.pycon.fr/2012/
   cfp: '2012-07-15 23:59:00'
@@ -3727,6 +3748,7 @@
     longitude: -121.6846349
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2011
   link: https://web.archive.org/web/20231209152547/https://www.pycon.fr/2011/category/conference.html
   cfp: '2011-08-01 23:59:00'
@@ -3839,6 +3861,7 @@
     longitude: -1.9026911
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2010
   link: https://www.pycon.fr/2010/category/conference.html
   cfp: '2010-07-15 23:59:00'
@@ -3978,6 +4001,7 @@
     longitude: 12.3747329
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2009
   link: https://web.archive.org/web/20090307100440/http://www.pycon.fr/sessions
   cfp: '2009-04-24 23:59:00'
@@ -4074,6 +4098,7 @@
     longitude: 12.3747329
 
 - conference: PyCon France
+  alt_name: PyCon FR
   year: 2008
   link: https://web.archive.org/web/20080513070424/http://fr.pycon.org/
   cfp: '2008-03-30 23:59:00'

@@ -3,6 +3,10 @@ import yaml
 
 
 def auto_add_sub(data):
+    """Automatically add a subfield to the data based on the conference name.
+
+    This function uses a list of keywords to match the conference name to a subfield.
+    """
     keywords = load_subs()
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         if "sub" not in q:

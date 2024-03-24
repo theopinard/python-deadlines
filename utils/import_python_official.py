@@ -14,6 +14,7 @@ from tidy_conf import load_conferences, fuzzy_match, merge_conferences
 
 
 def ics_to_dataframe():
+    """Parse an .ics file and return a DataFrame with the event data."""
     # Open the .ics file and parse it into a Calendar object
     with request.urlopen(
         "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
@@ -79,30 +80,37 @@ def ics_to_dataframe():
 
 
 def main(year=None, base=""):
+    """Import Python conferences from a Google Calendar .ics file."""
+    # If no year is provided, use the current year
     if year is None:
         year = datetime.now().year
 
     target_file = Path(base, "_data", "conferences.yml")
 
+    # Load the existing conference data
     df_yml = load_conferences()
     df_new = pd.DataFrame(columns=df_yml.columns)
 
-    # Use the function to parse your .ics file
+    # Parse your .ics file and only use future events in the current year
     df = ics_to_dataframe()
     df = df.loc[pd.to_datetime(df["start"]) > pd.Timestamp(datetime.now())]
     df = df.loc[df["year"] == year]
 
     print(df)
 
+    # Fuzzy match the new data with the existing data
     df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == year], df)
     df_merged["year"] = year
     df_merged = df_merged.drop(["conference"], axis=1)
     df_merged = merge_conferences(df_merged, df_remote)
 
+    # Concatenate the new data with the existing data
     df_new = pd.concat([df_new, df_merged], ignore_index=True)
 
+    # Fill in missing required fields
     df_new = fill_missing_required(df_new)
 
+    # Write the new data to the YAML file
     write_df_yaml(df_new, target_file)
 
 

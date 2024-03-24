@@ -101,6 +101,7 @@ def update_title_mappings(data, path="utils/tidy_conf/data/titles.yml"):
 
 
 def write_df_yaml(df, out_url):
+    """Write a conference DataFrame to a YAML file with the right types."""
     try:
         df = df.drop(["Country", "Venue"], axis=1)
     except KeyError:

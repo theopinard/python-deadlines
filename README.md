@@ -18,16 +18,32 @@ To add or update a deadline:
 - Optionally add a `note`
 - Send a [pull request](_data/conferences.yml)
 
-If that is not possible you can try and submit your conference through this [Google Form](https://forms.gle/UUqiprHjRfvGp6Fs6) but that may take a second.
+### Examples
 
-### Example
+#### Minimal Submission
 
 ```yaml
 - conference: BestConf                     # Title of conference
   year: 2022                               # Year
   link: link-to-website.com                # URL to conference
+  cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
+  place: Incheon, South Korea              # City, Country
+  date: September 18 - 22, 2022            # Nicely written dates of conference
+  start: YYYY-MM-DD                        # Start date of conference for calendar
+  end: YYYY-MM-DD                          # End date of conference for calendar
+  sub: PY                                  # Type of conference (see or add _data/types.yml)
+```
+
+#### Full Data
+
+```yaml
+- conference: BestConf                     # Title of conference
+  alt_name: Bestest Conf                   # Names change, keep track of Alternate names here
+  year: 2022                               # Year
+  link: link-to-website.com                # URL to conference
   cfp_link: link-to-cfp.com                # URL to call for proposals (Optional)
   cfp: 'YYYY-MM-DD HH:mm:ss'               # Deadline for Call for Participation / Proposals
+  cfp_ext: 'YYYY-MM-DD HH:mm:ss'           # Extension of Deadline for Call for Participation / Proposals
   workshop_deadline: 'YYYY-MM-DD HH:mm:ss' # Workshop deadline if different from cfp (Optional)
   tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
   timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)
@@ -51,6 +67,7 @@ If that is not possible you can try and submit your conference through this [Goo
 | `sub`       | Description                                        | Type    | Required |
 | ----------- | ------------------------------------------------- | ------- | -------- |
 | `conference`| Title of the conference                           | `str`   | ✔       |
+| `alt_name`  | Alternative Name of conference                    | `str`   |          |
 | `year`      | Year of this conference                           | `int`   | ✔       |
 | `link`      | URL to conference                                 | `str`   | ✔       |
 | `cfp_link`  | URL to call for proposals                         | `str`   |          |
@@ -76,13 +93,22 @@ If that is not possible you can try and submit your conference through this [Goo
 
 ### Conference types for `sub`
 
-| `sub`    | Category name     |
-| -------- | ----------------- |
-| `PY`     | General Python    |
-| `SCIPY`  | Scientific Python |                                              |
-| `PYDATA` | Python for Data   |
-| `WEB`    | Python for Web    |
+| `sub`    | Category name       |
+| -------- | ------------------- |
+| `PY`     | General Python      |
+| `SCIPY`  | Scientific Python   |
+| `PYDATA` | Python for Data     |
+| `WEB`    | Python for Web      |
+| `BIZ`    | Python for Business |
+| `GEO`    | Python for Earth    |
 
+### Utils
+
+I have created extensive scripts to import data from other sources and tidy up entries.
+
+Check out the utils folder for those.
+
+I mainly run the `main.py` and `sort_yaml.py` to get new entries and move old entries into the archive.
 
 ## Forks & other useful listings
 

@@ -6,6 +6,11 @@ tba_words = ["tba", "tbd", "cancelled"]
 
 
 def clean_dates(data):
+    """Clean dates in the data.
+
+    This function makes sure `start` and `end` dates are in the correct format.
+    Then we go through the deadlines and make sure they contain a time signature.
+    """
 
     # Clean Up Dates
     for dates in ["start", "end"]:
@@ -27,13 +32,15 @@ def clean_dates(data):
 
 
 def suffix(d):
+    """Date utility to add ordinal suffix to a number."""
     return "th" if 11 <= d <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(d % 10, "th")
 
 
 def create_nice_date(data):
-    # if "date" in data and data["date"]:
-    #     return data
+    """Create a nice date string for the conference.
 
+    This overwrites the written `date` field with a more human-readable preferred date.
+    """
     try:
         start = datetime.datetime.strptime(data["start"], dateformat.split(" ")[0])
         end = datetime.datetime.strptime(data["end"], dateformat.split(" ")[0])

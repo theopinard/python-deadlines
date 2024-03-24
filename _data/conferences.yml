@@ -61,6 +61,7 @@
     longitude: 77.5922389
 
 - conference: Kiwi PyCon
+  alt_name: Kiwi PyCon XIII
   year: 2024
   link: https://kiwipycon.nz/
   cfp_link: https://kiwipycon.nz/present/submitting-a-talk
@@ -352,6 +353,7 @@
     longitude: -8.720727
 
 - conference: SciPy US
+  alt_name: SciPy
   year: 2024
   link: https://scipy2024.scipy.org
   cfp_link: https://cfp.scipy.org/2024/cfp
@@ -449,6 +451,7 @@
     longitude: 25.2797
 
 - conference: PyCon Italia
+  alt_name: PyCon Italy
   year: 2024
   link: https://pycon.it/en
   cfp_link: https://2024.pycon.it/cfp
@@ -518,6 +521,7 @@
     longitude: 17.1093063
 
 - conference: Python Pizza Prague
+  alt_name: Prague Python Pizza
   year: 2024
   link: https://prague.python.pizza/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/closedform
@@ -697,6 +701,7 @@
     longitude: 4.877231604293446
 
 - conference: Python Sul
+  alt_name: Python Sul 2024 (Brazil)
   year: 2024
   link: https://sul.python.org.br/
   cfp: TBA
@@ -753,6 +758,7 @@
     longitude: 6.5693841
 
 - conference: Python Niger
+  alt_name: Launching Python Niger
   year: 2024
   link: https://fb.me/e/8alLCsc39
   cfp: TBA

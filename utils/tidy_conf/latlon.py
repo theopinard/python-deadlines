@@ -7,26 +7,35 @@ import urllib
 
 
 def add_latlon(data):
-    cache = {}
+    """Add latitude and longitude to the data."""
 
+    # Cache for locations
+    cache = {}
+    # Copy of data for unlocated conferences
     data_copy = []
 
-    # Build Cache
+    # Go through the data and check if the location is already in the cache
     for i, q in tqdm(enumerate(data), total=len(data)):
         if ("place" not in q) or ("online" in q["place"].lower()):
+            # Ignore online conferences
             continue
         elif "location" in q:
+            # If location is already present, add it to the cache
             cache[q["place"]] = q["location"]
             continue
         else:
+            # Add to the copy if location is not present for speed
             data_copy.append((i, q))
 
+    # Go through the copy and get the latitude and longitude
     for i, q in tqdm(data_copy):
+        # Get a shorter location
         try:
             q["place"] = q["place"].split(",")[0].strip() + ", " + q["place"].split(",")[-1].strip()
         except IndexError:
-            print(f"IndexError: {q['place']}")
+            tqdm.write(f"IndexError: {q['place']}")
 
+        # Check if the location is already in the cache
         if q["place"] in cache and cache[q["place"]] is not None:
             data[i]["location"] = {
                 "latitude": cache[q["place"]]["latitude"],
@@ -34,6 +43,7 @@ def add_latlon(data):
             }
 
         else:
+            # Get the location from Openstreetmaps
             url = "https://nominatim.openstreetmap.org/search" + "?format=json&q=" + urllib.parse.quote(q["place"])
             response = requests.get(url)
 
@@ -47,9 +57,9 @@ def add_latlon(data):
                     cache[q["place"]] = data[i]["location"]
                 except IndexError:
                     cache[q["place"]] = None
-                    print(f"No response from Openstreetmaps for {q['place']}")
+                    tqdm.write(f"No response from Openstreetmaps for {q['place']}")
                 time.sleep(2)
             else:
                 cache[q["place"]] = None
-                print(f"No response from Openstreetmaps for {q['place']}")
+                tqdm.write(f"No response from Openstreetmaps for {q['place']}")
     return data

@@ -59,6 +59,10 @@ def pretty_print(header, conf, tba=None, expired=None):
 
 
 def get_schema():
+    """Load the schema from the schema.yml file and return it as a DataFrame.
+
+    This is used to determine the order of and accepted keys in a conference item.
+    """
     with open("utils/schema.yml", "r") as file:
         data = yaml.load(file, Loader=yaml.FullLoader)
 

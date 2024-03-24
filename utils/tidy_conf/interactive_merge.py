@@ -9,6 +9,14 @@ from tidy_conf.utils import get_schema, query_yes_no
 
 
 def fuzzy_match(df_yml, df_remote):
+    """Fuzzy merge conferences from two pandas dataframes on title.
+
+    Loads known mappings from a YAML file and uses them to harmonise conference titles.
+    Updates those when we find a Fuzzy match.
+
+    Keeps temporary track of rejections to avoid asking the same question multiple times.
+    """
+
     # Load known title mappings
     _, known_mappings = load_title_mappings(reverse=True)
     _, known_rejections = load_title_mappings(reverse=True, path="utils/tidy_conf/data/.tmp/rejections.yml")
@@ -66,6 +74,8 @@ def fuzzy_match(df_yml, df_remote):
 
 
 def merge_conferences(df_yml, df_remote):
+    """Merge two dataframes on title and interactively resolve conflicts."""
+
     df_new = get_schema()
     columns = df_new.columns.tolist()
 
@@ -147,6 +157,7 @@ def merge_conferences(df_yml, df_remote):
                         else:
                             df_new.loc[i, column] = rx
                 elif column == "cfp_ext":
+                    # Skip cfp_ext
                     continue
                 elif column == "cfp" and rx != ry:
                     if "TBA" in rx:
@@ -154,13 +165,14 @@ def merge_conferences(df_yml, df_remote):
                     elif "TBA" in ry:
                         df_new.loc[i, column] = rx
                     else:
-                        # Special CFP stuff
+                        # Extract a time signature from the cfp
                         cfp_time_x = cfp_time_y = ""
                         if " " in rx and " " not in ry:
                             cfp_time_y = " " + rx.split(" ")[1]
                         elif " " not in rx and " " in ry:
                             cfp_time_x = " " + ry.split(" ")[1]
 
+                        # Check if the cfp_ext is the same and if so update the cfp
                         if rx + cfp_time_x == row["cfp_ext"]:
                             df_new.loc[i, "cfp"] = ry + cfp_time_y
                             df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
@@ -169,11 +181,13 @@ def merge_conferences(df_yml, df_remote):
                             df_new.loc[i, "cfp"] = rx + cfp_time_x
                             df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
                             continue
+                        # Give a choice
                         if query_yes_no(
                             f"For {i} in column '{column}' would you prefer '{ry+cfp_time_y}' or keep '{rx+ cfp_time_x}'?"
                         ):
                             df_new.loc[i, column] = ry + cfp_time_y
                         else:
+                            # Check if it's an extension of the deadline and update both
                             if query_yes_no("Is this an extension?"):
                                 rrx, rry = int(rx.replace("-", "").split(" ")[0]), int(
                                     ry.replace("-", "").split(" ")[0]
@@ -190,6 +204,8 @@ def merge_conferences(df_yml, df_remote):
                     # Special Place stuff
                     rxx = ", ".join((rx.split(",")[0].strip(), rx.split(",")[-1].strip())) if "," in rx else rx
                     ryy = ", ".join((ry.split(",")[0].strip(), ry.split(",")[-1].strip())) if "," in ry else ry
+
+                    # Chill on the TBA
                     if rxx == ryy:
                         df_new.loc[i, column] = ryy
                     elif rxx in ["TBD", "TBA", "None"]:
@@ -217,6 +233,7 @@ def merge_conferences(df_yml, df_remote):
                     else:
                         df_new.loc[i, column] = rx
             elif column in df_merge.columns:
+                # Sorry for this code, it's the new Pandas "non-empty merge" stuff...
                 df_new[column] = (
                     df_new[column].copy()
                     if df_merge[column].empty
@@ -227,5 +244,6 @@ def merge_conferences(df_yml, df_remote):
                     )
                 )
 
+    # Fill in missing CFPs with TBA
     df_new.loc[df_new.cfp.isna(), "cfp"] = "TBA"
     return df_new

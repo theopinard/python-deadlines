@@ -28,6 +28,7 @@ tba_words = ["tba", "tbd", "cancelled"]
 
 
 def sort_by_cfp(data):
+    """Sort by CFP date."""
     if "cfp" not in data:
         return "TBA"
     if data["cfp"] in ["TBA", "Cancelled"]:
@@ -47,17 +48,20 @@ def sort_by_cfp(data):
 
 
 def sort_by_date(data):
+    """Sort by starting date."""
     if "start" not in data:
         return "TBA"
     return str(data["start"])
 
 
 def sort_by_date_passed(data):
+    """Sort data by date passed."""
     right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
     return sort_by_cfp(data) < right_now
 
 
 def order_keywords(data):
+    """Order the keywords in the data."""
     schema = get_schema().columns.tolist()
     new_dict = {}
     for key in schema:
@@ -67,6 +71,7 @@ def order_keywords(data):
 
 
 def merge_duplicates(data):
+    """Merge duplicates in the data."""
     filtered = []
     filtered_reduced = []
     for q in tqdm(data):
@@ -86,6 +91,7 @@ def merge_duplicates(data):
 
 
 def tidy_dates(data):
+    """Clean dates in the data."""
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         data[i] = clean_dates(q)
         data[i] = create_nice_date(q)
@@ -93,6 +99,11 @@ def tidy_dates(data):
 
 
 def split_data(data):
+    """Split the data into conferences, tba, expired, and legacy.
+
+    The data is split based on the `cfp` field. If the `cfp` field is in the `tba_words` list, it is considered a TBA.
+    Legacy is considered anything old with the `cfp` still being TBA.
+    """
     conf, tba, expired, legacy = [], [], [], []
     for q in tqdm(data):
         if q.get("end", datetime.datetime.utcnow().replace(microsecond=0).date()) < datetime.datetime.utcnow().replace(
@@ -117,6 +128,7 @@ def split_data(data):
 
 
 def check_links(data):
+    """Check the links in the data iteratively."""
     for i, q in tqdm(enumerate(sorted(data, key=lambda x: x["year"], reverse=True)), total=len(data)):
         for key in ("link", "cfp_link", "sponsor", "finaid"):
             if key in q:
@@ -131,6 +143,9 @@ def check_links(data):
 
 # Sort:
 def sort_data(base="", prefix=""):
+    """Sort and clean the conference data."""
+
+    # Load different data files
     current = Path(base, "_data", "conferences.yml")
     out_current = Path(base, "_data", f"{prefix}conferences.yml")
     archive = Path(base, "_data", "archive.yml")

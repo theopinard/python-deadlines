@@ -25,6 +25,7 @@ def load_remote(year):
 
 
 def map_columns(df, reverse=False):
+    """Map columns to the schema."""
     cols = {
         "Subject": "conference",
         "Start Date": "start",
@@ -45,6 +46,7 @@ def map_columns(df, reverse=False):
 
 
 def write_csv(df, year, csv_location):
+    """Write the CSV files for the conferences."""
     df["cfp"] = df["cfp"].str.slice(stop=10).str.replace("TBA", "")
     df["tutorial_deadline"] = df["tutorial_deadline"].str.slice(stop=10).str.replace("TBA", "")
     df = map_columns(df, reverse=True)
@@ -69,16 +71,22 @@ def write_csv(df, year, csv_location):
 
 
 def main(year=None, base=""):
+    """Import Python conferences from a csv file Github."""
+
+    # Load current conferences
     target_file = Path(base, "_data", "conferences.yml")
     csv_location = Path(base, "utils", "conferences")
 
+    # If no year is provided, use the current year
     if year is None:
         year = datetime.now().year
 
+    # Load the existing conference data
     df_yml = load_conferences()
     df_new = pd.DataFrame(columns=df_yml.columns)
     df_csv = pd.DataFrame(columns=df_yml.columns)
 
+    # Parse your csv file and iterate through year by year
     for y in range(year, datetime.now().year + 10):
         try:
             df = load_remote(year=y)
@@ -98,9 +106,11 @@ def main(year=None, base=""):
             merged, _ = fuzzy_match(df, df_yml[df_yml["year"] == y])
             df_csv = pd.concat([df_csv, merged], ignore_index=True)
 
+    # Write the new data to the YAML file
     df_new = fill_missing_required(df_new)
     write_df_yaml(df_new, target_file)
 
+    # Write the new data to the CSV file
     df_csv.loc[:, "Location"] = df_csv.place
     write_csv(df_csv, year, csv_location)
 
