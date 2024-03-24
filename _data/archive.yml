@@ -2888,6 +2888,20 @@
     latitude: -7.23056
     longitude: -35.88111
 
+- conference: PyData Berlin
+  year: 2018
+  link: https://web.archive.org/web/20190112064656/https://pydata.org/berlin2018/
+  cfp: '2018-03-31 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: July 6 - 8, 2018
+  start: 2018-07-06
+  end: 2018-07-08
+  sub: PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
+
 - conference: PyCon US
   year: 2018
   link: https://web.archive.org/web/20180509145212/https://us.pycon.org/2018/
@@ -3552,6 +3566,20 @@
   location:
     latitude: 12.9767936
     longitude: 77.590082
+
+- conference: PyData Berlin
+  year: 2014
+  link: https://web.archive.org/web/20230328013334/https://pydata.org/berlin2014/
+  cfp: '2014-05-12 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  date: July 26 - 28, 2014
+  start: 2014-07-26
+  end: 2014-07-28
+  sub: PYDATA
+  location:
+    latitude: 52.5170365
+    longitude: 13.3888599
 
 - conference: Python Nordeste
   year: 2014
