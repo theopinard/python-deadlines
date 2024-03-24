@@ -1919,7 +1919,7 @@
 - conference: PyCon Indonesia
   alt_name: PyCon ID
   year: 2021
-  link: https://pycon.id/
+  link: https://web.archive.org/web/20210904043050/http://pycon.id/
   cfp: '2021-10-31 23:59:00'
   place: Online
   date: December 4 - 5, 2021
@@ -2152,6 +2152,17 @@
   end: 2021-02-21
   sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
 
+- conference: PyCon Indonesia
+  alt_name: PyCon ID
+  year: 2020
+  link: https://web.archive.org/web/20200918233203/https://pycon.id/
+  cfp: '2020-11-01 23:59:00'
+  place: Online
+  date: November 14 - 15, 2020
+  start: 2020-11-14
+  end: 2020-11-15
+  sub: PY
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2020
@@ -2266,6 +2277,21 @@
   location:
     latitude: 50.6215011
     longitude: 30.460508167757546
+
+- conference: PyCon Indonesia
+  alt_name: PyCon ID
+  year: 2019
+  link: https://web.archive.org/web/20190906181415/http://pycon.id/
+  cfp: '2019-10-31 23:10:00'
+  timezone: UTC
+  place: Surabaya, Indonesia
+  date: November 23rd, 2019
+  start: 2019-11-23
+  end: 2019-11-23
+  sub: PY
+  location:
+    latitude: -7.2459717
+    longitude: 112.7378266
 
 - conference: AfroPython Conf
   year: 2019
@@ -2753,6 +2779,20 @@
     latitude: 36.1622767
     longitude: -86.7742984
 
+- conference: PyCon Indonesia
+  alt_name: PyCon ID
+  year: 2018
+  link: https://web.archive.org/web/20181021125731/http://pycon.id/
+  cfp: '2018-11-01 23:59:00'
+  place: Jakarta, Indonesia
+  date: November 3 - 4, 2018
+  start: 2018-11-03
+  end: 2018-11-04
+  sub: PY
+  location:
+    latitude: -6.175247
+    longitude: 106.8270488
+
 - conference: PyCascades
   year: 2019
   link: https://web.archive.org/web/20190221030506/https://2019.pycascades.com/
@@ -2968,6 +3008,20 @@
   location:
     latitude: 41.4996574
     longitude: -81.6936772
+
+- conference: PyCon Indonesia
+  alt_name: PyCon ID
+  year: 2017
+  link: https://web.archive.org/web/20171021125731/http://pycon.id/
+  cfp: '2017-11-06 23:59:00'
+  place: Surabaya, Indonesia
+  date: December 9th, 2017
+  start: 2017-12-09
+  end: 2017-12-09
+  sub: PY
+  location:
+    latitude: -7.2459717
+    longitude: 112.7378266
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA

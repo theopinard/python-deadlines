@@ -250,6 +250,7 @@
   date: November 23 - 25, 2020
   start: 2020-11-23
   end: 2020-11-25
+  sub: BIZ
   location:
     latitude: 49.4093582
     longitude: 8.694724
@@ -263,17 +264,6 @@
   start: 2020-11-19
   end: 2020-11-20
   sub: WEB
-
-- conference: PyCon Indonesia
-  alt_name: PyCon ID
-  year: 2020
-  link: https://pycon.id/
-  cfp: TBA
-  place: Online
-  date: November 14 - 16, 2020
-  start: 2020-11-14
-  end: 2020-11-16
-  sub: PY
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
@@ -675,20 +665,6 @@
   location:
     latitude: -6.8160837
     longitude: 39.2803583
-
-- conference: PyCon Indonesia
-  alt_name: PyCon ID
-  year: 2019
-  link: https://pycon.id/
-  cfp: TBA
-  place: Surabaya, Indonesia
-  date: November 23 - 24, 2019
-  start: 2019-11-23
-  end: 2019-11-24
-  sub: PY
-  location:
-    latitude: -7.2459717
-    longitude: 112.7378266
 
 - conference: Piter Py
   alt_name: PiterPy
@@ -1999,20 +1975,6 @@
   location:
     latitude: 31.5656822
     longitude: 74.3141829
-
-- conference: PyCon Indonesia
-  alt_name: PyCon ID
-  year: 2017
-  link: https://pycon.id/
-  cfp: TBA
-  place: Surabaya, Indonesia
-  date: December 9 - 10, 2017
-  start: 2017-12-09
-  end: 2017-12-10
-  sub: PY
-  location:
-    latitude: -7.2459717
-    longitude: 112.7378266
 
 - conference: North Bay Python
   year: 2017
