@@ -1953,6 +1953,19 @@
   end: 2021-12-05
   sub: PY
 
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2021
+  link: https://www.pycon.se/2021/
+  cfp: '2021-09-05 23:59:00'
+  timezone: Europe/Stockholm
+  place: Online
+  date: October 21 - 22, 2021
+  start: 2021-10-21
+  end: 2021-10-22
+  twitter: PyConSE
+  sub: PY
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon APAC
   year: 2021
@@ -2715,6 +2728,21 @@
     latitude: 47.6038321
     longitude: -122.330062
 
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2018
+  link: https://www.pycon.se/
+  cfp: '2018-10-16 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: December 12th, 2018
+  start: 2018-12-12
+  end: 2018-12-12
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
+
 - conference: PyCon Ireland
   alt_name: PyCon IE
   year: 2018
@@ -2958,6 +2986,21 @@
   location:
     latitude: 35.6812665
     longitude: 139.757653
+
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2017
+  link: https://web.archive.org/web/20170510015840/http://www.pycon.se/
+  cfp: '2017-06-15 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: September 6th, 2017
+  start: 2017-09-06
+  end: 2017-09-06
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
 
 - conference: PyCon Poland
   alt_name: PyCon PL
@@ -3229,6 +3272,20 @@
     latitude: 43.3913468
     longitude: -3.7526930295
 
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2016
+  link: https://web.archive.org/web/20160223113301/http://www.pycon.se/
+  cfp: '2016-02-29 23:59:00'
+  place: Stockholm, Sweden
+  date: May 9 - 11, 2016
+  start: 2016-05-09
+  end: 2016-05-11
+  sub: PY
+  location:
+    latitude: 59.3204755
+    longitude: 18.0692448
+
 - conference: PyCon Ireland
   alt_name: PyCon IE
   year: 2015
@@ -3371,6 +3428,21 @@
     latitude: -5.7944777
     longitude: -35.2119324
 
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2015
+  link: https://web.archive.org/web/20150325001531/http://www.pycon.se/
+  cfp: '2015-02-16 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: May 12 - 13, 2015
+  start: 2015-05-12
+  end: 2015-05-13
+  sub: PY
+  location:
+    latitude: 59.3204755
+    longitude: 18.0692448
+
 - conference: PyCon US
   year: 2016
   link: https://web.archive.org/web/20160602041511/https://us.pycon.org/2016/
@@ -3495,6 +3567,21 @@
   location:
     latitude: -5.7944777
     longitude: -35.2119324
+
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2014
+  link: https://web.archive.org/web/20140508180555/http://2014.pycon.se/
+  cfp: '2014-03-16 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  date: May 20 - 21, 2014
+  start: 2014-05-20
+  end: 2014-05-21
+  sub: PY
+  location:
+    latitude: 59.3251172
+    longitude: 18.0710935
 
 - conference: PyData London
   year: 2014
