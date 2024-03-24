@@ -2317,6 +2317,21 @@
     latitude: 43.6534817
     longitude: -79.3839347
 
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2019
+  link: https://web.archive.org/web/20191008045812/https://za.pycon.org/
+  cfp_link: https://2019.za.pycon.org/archived/submit-talk/
+  cfp: '2019-08-30 23:59:00'
+  place: Johannesburg, South Africa
+  date: October 9 - 13, 2019
+  start: 2019-10-09
+  end: 2019-10-13
+  sub: PY
+  location:
+    latitude: -26.205
+    longitude: 28.049722
+
 - conference: North Bay Python
   year: 2019
   link: https://2019.northbaypython.org/
@@ -2743,6 +2758,21 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2018
+  link: https://web.archive.org/web/20180419141939/https://za.pycon.org/
+  cfp_link: https://2018.za.pycon.org/archived/submit-talk/
+  cfp: '2018-09-17 23:59:00'
+  place: Johannesburg, South Africa
+  date: October 10 - 14, 2018
+  start: 2018-10-10
+  end: 2018-10-14
+  sub: PY
+  location:
+    latitude: -26.205
+    longitude: 28.049722
+
 - conference: PyCon Ireland
   alt_name: PyCon IE
   year: 2018
@@ -2914,6 +2944,21 @@
   location:
     latitude: 41.4996574
     longitude: -81.6936772
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2017
+  link: https://web.archive.org/web/20170801125832/https://za.pycon.org/
+  cfp_link: https://2017.za.pycon.org/archived/submit-talk/
+  cfp: '2017-10-01 23:59:00'
+  place: Cape Town, South Africa
+  date: October 4 - 8, 2017
+  start: 2017-10-04
+  end: 2017-10-08
+  sub: PY
+  location:
+    latitude: -33.928992
+    longitude: 18.417396
 
 - conference: PyCon India
   year: 2017
@@ -3117,6 +3162,20 @@
     latitude: 45.5202471
     longitude: -122.674194
 
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2016
+  link: https://web.archive.org/web/20160422045615/https://za.pycon.org/
+  cfp: '2016-10-01 23:59:00'
+  place: Johannesburg, South Africa
+  date: October 6 - 9, 2016
+  start: 2016-10-06
+  end: 2016-10-09
+  sub: PY
+  location:
+    latitude: -26.205
+    longitude: 28.049722
+
 - conference: PyCon Germany
   alt_name: PyMunich
   year: 2016
@@ -3131,6 +3190,19 @@
   location:
     latitude: 48.18707745
     longitude: 11.54321322
+
+- conference: PyCon Canada
+  year: 2016
+  link: https://web.archive.org/web/20161026030925/https://2016.pycon.ca/en/
+  cfp: '2016-08-31 23:59:00'
+  place: Toronto, Canada
+  date: November 12 - 15, 2016
+  start: 2016-11-12
+  end: 2016-11-15
+  sub: PY
+  location:
+    latitude: 43.6534817
+    longitude: -79.3839347
 
 - conference: PyCon Ireland
   alt_name: PyCon IE
@@ -3299,6 +3371,34 @@
   location:
     latitude: 59.3204755
     longitude: 18.0692448
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2015
+  link: https://web.archive.org/web/20150924233205/https://za.pycon.org/
+  cfp: '2015-10-01 23:59:00'
+  place: Johannesburg, South Africa
+  date: October 1 - 4, 2015
+  start: 2015-10-01
+  end: 2015-10-04
+  sub: PY
+  location:
+    latitude: -26.205
+    longitude: 28.049722
+
+- conference: PyCon Canada
+  year: 2015
+  link: https://web.archive.org/web/20151124011908/https://2015.pycon.ca/en/
+  cfp: '2015-08-14 23:59:00'
+  timezone: America/Toronto
+  place: Toronto, Canada
+  date: November 7 - 9, 2015
+  start: 2015-11-07
+  end: 2015-11-09
+  sub: PY
+  location:
+    latitude: 43.6534817
+    longitude: -79.3839347
 
 - conference: PyCon Ireland
   alt_name: PyCon IE
@@ -3482,6 +3582,20 @@
   location:
     latitude: 45.5031824
     longitude: -73.5698065
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2014
+  link: https://web.archive.org/web/20140712234719/https://za.pycon.org/
+  cfp: '2014-09-01 23:59:00'
+  place: Johannesburg, South Africa
+  date: October 2 - 6, 2014
+  start: 2014-10-02
+  end: 2014-10-06
+  sub: PY
+  location:
+    latitude: -26.205
+    longitude: 28.049722
 
 - conference: PyCon UK
   year: 2014
@@ -3708,6 +3822,20 @@
     latitude: 12.9767936
     longitude: 77.590082
 
+- conference: PyCon Canada
+  year: 2013
+  link: https://web.archive.org/web/20130628192543/http://2013.pycon.ca/en/
+  cfp_link: https://web.archive.org/web/20140918105106/http://2013.pycon.ca/en/speak/
+  cfp: '2013-06-21 23:59:00'
+  place: Toronto, Canada
+  date: August 9 - 13, 2013
+  start: 2013-08-09
+  end: 2013-08-13
+  sub: PY
+  location:
+    latitude: 43.6534817
+    longitude: -79.3839347
+
 - conference: EuroSciPy
   year: 2013
   link: https://web.archive.org/web/20130523143818/https://www.euroscipy.org/
@@ -3748,6 +3876,20 @@
   location:
     latitude: -3.7304512
     longitude: -38.5217989
+
+- conference: PyCon Canada
+  year: 2012
+  link: https://web.archive.org/web/20121020132949/http://pycon.ca/
+  cfp: '2012-10-01 23:59:00'
+  timezone: America/Toronto
+  place: Toronto, Canada
+  date: November 9 - 11, 2012
+  start: 2012-11-09
+  end: 2012-11-11
+  sub: PY
+  location:
+    latitude: 43.6534817
+    longitude: -79.3839347
 
 - conference: PyCon US
   year: 2013
