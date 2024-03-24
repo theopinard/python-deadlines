@@ -6,7 +6,6 @@ from tidy_conf.yaml import load_title_mappings
 def tidy_titles(data):
     """Tidy up conference titles by replacing common misspellings and alternative names."""
     spellings, alt_names = load_title_mappings()
-
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         if "conference" in q:
             low_conf = q["conference"].lower().strip()
@@ -19,8 +18,12 @@ def tidy_titles(data):
 
             # Replace alternative names
             for key, values in alt_names.items():
+                if key.lower().strip() == low_conf:
+                    if "alt_name" not in q:
+                        q["alt_name"] = values[0].strip()
+                    continue
                 for value in values:
-                    if value.lower().strip() is low_conf:
+                    if value.lower().strip() == low_conf:
                         if "alt_name" not in q:
                             if q["conference"].strip() != key:
                                 q["alt_name"] = q["conference"].strip()
