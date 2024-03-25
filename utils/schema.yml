@@ -9,6 +9,7 @@
   tutorial_deadline: 'YYYY-MM-DD HH:mm:ss' # Tutorial deadline if different from cfp (Optional)
   timezone: Asia/Seoul                     # Standard IANA Timezones (Omit for AoE)
   place: Incheon, South Korea              # City, Country
+  extra_places: [Online]                   # Extra places for hybrid conferences
   date: September 18 - 22, 2022            # Nicely written dates of conference
   start: YYYY-MM-DD                        # Start date of conference for calendar
   end: YYYY-MM-DD                          # End date of conference for calendar

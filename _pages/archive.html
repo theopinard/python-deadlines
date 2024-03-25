@@ -118,6 +118,11 @@ title: Past Python Conferences
                     <a href="#">{{conf.place}}</a>
                     {% else %}
                     <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
+                    {% if conf.extra_places %}
+                      {% for place in conf.extra_places %}
+                        & <a href="http://maps.google.com/?q={{place}}">{{place}}</a>
+                      {% endfor %}
+                    {% endif %}
                     {% endif %}
                   </span>
                 </div>
