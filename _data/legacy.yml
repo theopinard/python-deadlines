@@ -2000,18 +2000,6 @@
   - latitude: 17.9712148
     longitude: -76.7928128
 
-- conference: PyHPC
-  year: 2017
-  link: https://web.archive.org/web/20171116191554/http://www.dlr.de/sc/desktopdefault.aspx/tabid-11992/21071_read-48990
-  cfp: TBA
-  place: Denver, USA
-  date: November 12 - 13, 2017
-  start: 2017-11-12
-  end: 2017-11-13
-  location:
-  - latitude: 39.7392364
-    longitude: -104.984862
-
 - conference: Piter Py
   alt_name: PiterPy
   year: 2017
@@ -2677,18 +2665,6 @@
   location:
   - latitude: 17.9712148
     longitude: -76.7928128
-
-- conference: PyHPC
-  year: 2016
-  link: https://web.archive.org/web/20161109035636/http://www.dlr.de/sc/desktopdefault.aspx/tabid-11229/19729_read-46082/
-  cfp: TBA
-  place: Salt Lake City, USA
-  date: November 14 - 15, 2016
-  start: 2016-11-14
-  end: 2016-11-15
-  location:
-  - latitude: 40.7596198
-    longitude: -111.886797
 
 - conference: PyCon Finland
   alt_name: PyCon FI
@@ -3814,18 +3790,6 @@
   - latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: PyHPC
-  year: 2014
-  link: https://web.archive.org/web/20141117032857/http://www.dlr.de/sc/desktopdefault.aspx/tabid-9506/16384_read-40102
-  cfp: TBA
-  place: New Orleans, USA
-  date: November 17 - 18, 2014
-  start: 2014-11-17
-  end: 2014-11-18
-  location:
-  - latitude: 29.9759983
-    longitude: -90.0782127
-
 - conference: Python Brasil
   year: 2014
   link: https://web.archive.org/web/20141207142807/http://2014.pythonbrasil.org.br/
@@ -4259,33 +4223,6 @@
   - latitude: 35.6892523
     longitude: 51.3896004
 
-- conference: PyCon Uruguay
-  year: 2013
-  link: https://web.archive.org/web/20130521223448/http://uy.pycon.org/
-  cfp: TBA
-  place: Montevideo, Uruguay
-  date: November 1 - 3, 2013
-  start: 2013-11-01
-  end: 2013-11-03
-  sub: PY
-  location:
-  - latitude: -34.9058916
-    longitude: -56.1913095
-
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2013
-  link: https://web.archive.org/web/20131027125621/http://www.pycon.fr/2013/
-  cfp: TBA
-  place: Strasbourg, France
-  date: October 26 - 30, 2013
-  start: 2013-10-26
-  end: 2013-10-30
-  sub: PY
-  location:
-  - latitude: 48.584614
-    longitude: 7.7507127
-
 - conference: PyCon Finland
   alt_name: PyCon FI
   year: 2013
@@ -4625,85 +4562,6 @@
   location:
   - latitude: 49.1922443
     longitude: 16.6113382
-
-- conference: PyHPC
-  year: 2012
-  link: https://web.archive.org/web/20121115022259/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8028/13765_read-34936/
-  cfp: TBA
-  place: Salt Lake City, USA
-  date: November 16th, 2012
-  start: 2012-11-16
-  end: 2012-11-16
-  location:
-  - latitude: 40.7596198
-    longitude: -111.886797
-
-- conference: PyCon Argentina
-  alt_name: PyCon AR
-  year: 2012
-  link: https://web.archive.org/web/20121029082134/http://ar.pycon.org/2012/default/index
-  cfp: TBA
-  place: Buenos Aires, Argentina
-  date: November 12 - 18, 2012
-  start: 2012-11-12
-  end: 2012-11-18
-  sub: PY
-  location:
-  - latitude: -34.6037181
-    longitude: -58.38153
-
-- conference: PyCon Uruguay
-  year: 2012
-  link: http://pycon.python.org.uy
-  cfp: TBA
-  place: Montevideo, Uruguay
-  date: November 10 - 12, 2012
-  start: 2012-11-10
-  end: 2012-11-12
-  sub: PY
-  location:
-  - latitude: -34.9058916
-    longitude: -56.1913095
-
-- conference: pyArkansas
-  year: 2012
-  link: https://web.archive.org/web/20121023120700/http://www.pyarkansas.org/
-  cfp: TBA
-  place: Conway, Arkansas
-  date: October 27 - 28, 2012
-  start: 2012-10-27
-  end: 2012-10-28
-  location:
-  - latitude: 35.2521996
-    longitude: -92.6888936
-
-- conference: PyCon Finland
-  alt_name: PyCon FI
-  year: 2012
-  link: https://web.archive.org/web/20121016221615/http://fi.pycon.org/2012/
-  cfp: TBA
-  place: Otaniemi, Finland
-  date: October 22 - 24, 2012
-  start: 2012-10-22
-  end: 2012-10-24
-  sub: PY
-  location:
-  - latitude: 60.1879383
-    longitude: 24.8318201
-
-- conference: PyCon Ukraine
-  alt_name: PyCon UA
-  year: 2012
-  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
-  cfp: TBA
-  place: Kiew, Ukraine
-  date: October 20 - 22, 2012
-  start: 2012-10-20
-  end: 2012-10-22
-  sub: PY
-  location:
-  - latitude: 50.4500336
-    longitude: 30.5241361
 
 - conference: PyCon UK
   year: 2011
