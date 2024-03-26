@@ -322,8 +322,10 @@ description: Summary of the conference and its instances throughout the years.
             var myCalendar = createCalendarFromObject({
               id: '{{conf.conference | slugify: "latin"}}-{{conf.year}}',
               title: '{{conf.conference}} {{conf.year}} deadline',
-              date: cfpDate.toJSDate(),
+              start_date: cfpDate.toJSDate(),
               duration: 60,
+              place: '{{conf.place}}',
+              link: '{{conf.link}}'
             });
             document.querySelector('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .calendar').appendChild(myCalendar);
           } catch (err) {

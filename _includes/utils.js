@@ -20,21 +20,31 @@ function update_filtering(data) {
 
 function createCalendarFromObject(data) {
   return createCalendar({
-    options: {
-      class: "calendar-obj",
+		options: {
+			class: 'calendar-obj',
 
-      // You can pass an ID. If you don't, one will be generated for you
-      id: data.id,
-    },
-    data: {
-      // Event title
-      title: data.conference,
+			// You can pass an ID. If you don't, one will be generated for you
+			id: data.id,
+		},
+		data: {
+			// Event title
+			title: data.title,
 
-      // Event start date
-      start: data.date,
+			// Event start date
+			start: data.start_date,
 
-      // Event duration
+      // Event duration (minutes)
       duration: 60,
-    },
+
+			// You can also choose to set an end time
+			// If an end time is set, this will take precedence over duration
+			end: data.end_date,
+
+			// Event Address
+			address: data.place,
+
+			// Event Description
+			description: '<a href='+data.link+'>'+data.title+'</a>',
+		},
   });
 }

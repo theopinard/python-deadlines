@@ -144,9 +144,13 @@ description: Countdown for the Call for Participation of this conference includi
         <div id="conf-deadlines" class="row">
           <div class="col-12 col-md-6">
           <div class="meta deadline">
-            Download Conference deadline:
+            Download Conference Deadline:
           </div>
           <div id="conference-deadline" class="calendar meta"></div>
+          <div class="meta deadline">
+            Download Conference Dates:
+          </div>
+          <div id="conference-calendar" class="calendar meta"></div>
           <div class="meta deadline">
             Deadline in timezone from conference website:
           </div>
@@ -249,13 +253,27 @@ description: Countdown for the Call for Participation of this conference includi
       }
 
       // add calendar
+
       var conferenceDeadlineCalendar = createCalendarFromObject({
-        id: '{{ page.conference | slugify: "latin" }}-{{ page.year }}',
-        title: '{{ page.title }}',
-        date: confDeadline.toJSDate(),
+        id: '{{page.conference | slugify: "latin"}}-{{page.year}}',
+        title: '{{page.conference}} {{page.year}} deadline',
+        start_date: confDeadline.toJSDate(),
         duration: 60,
+        place: '{{page.place}}',
+        link: '{{page.link}}',
       });
       document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
+
+
+      var conferenceCalendar = createCalendarFromObject({
+        id: '{{page.conference | slugify: "latin"}}-{{page.year}}',
+        title: '{{page.conference}} {{page.year}}',
+        start_date: DateTime.fromSQL("{{page.start}}").toJSDate(),
+        end_date: DateTime.fromSQL("{{page.end}}").toJSDate(),
+        place: '{{page.place}}',
+        link: '{{page.link}}',
+      });
+      document.querySelector('#conference-calendar').appendChild(conferenceCalendar);
 
       // render countdown timer
       $('#cfp-timer').countdown(confDeadline.toJSDate(), function (event) {
