@@ -2593,9 +2593,9 @@
   link: https://web.archive.org/web/20170609204820/http://www.pytennessee.org/
   cfp: TBA
   place: Nashville, USA
-  date: February 4 - 6, 2017
+  date: February 4 - 5, 2017
   start: 2017-02-04
-  end: 2017-02-06
+  end: 2017-02-05
   location:
   - latitude: 36.1622767
     longitude: -86.7742984
@@ -4512,19 +4512,6 @@
   location:
   - latitude: 56.839104
     longitude: 60.60825
-
-- conference: FOSDEM
-  alt_name: Python Devroom @ FOSDEM
-  year: 2013
-  link: https://web.archive.org/web/20130216000502/https://fosdem.org/2013/
-  cfp: TBA
-  place: Brussels, Belgium
-  date: February 2 - 4, 2013
-  start: 2013-02-02
-  end: 2013-02-04
-  location:
-  - latitude: 50.8465573
-    longitude: 4.351697
 
 - conference: RuPy - Brazil Edition
   year: 2012
