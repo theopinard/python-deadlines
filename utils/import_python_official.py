@@ -9,7 +9,7 @@ import sys
 
 sys.path.append(".")
 from tidy_conf.utils import fill_missing_required
-from tidy_conf.yaml import write_df_yaml
+from tidy_conf.yaml import write_df_yaml, load_title_mappings
 from tidy_conf import load_conferences, fuzzy_match, merge_conferences
 
 
@@ -89,23 +89,38 @@ def main(year=None, base=""):
 
     # Load the existing conference data
     df_yml = load_conferences()
+    df_yml = df_yml.loc[pd.to_datetime(df_yml["start"]) > pd.Timestamp(datetime.now())]
     df_new = pd.DataFrame(columns=df_yml.columns)
 
     # Parse your .ics file and only use future events in the current year
     df = ics_to_dataframe()
     df = df.loc[pd.to_datetime(df["start"]) > pd.Timestamp(datetime.now())]
-    df = df.loc[df["year"] == year]
+    # df = df.loc[df["year"] == year]
 
-    print(df)
+    _, reverse_titles = load_title_mappings(reverse=False)
 
     # Fuzzy match the new data with the existing data
-    df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == year], df)
-    df_merged["year"] = year
-    df_merged = df_merged.drop(["conference"], axis=1)
-    df_merged = merge_conferences(df_merged, df_remote)
+    for y in range(year, year + 10):
+        df_merged, df_remote = fuzzy_match(df_yml[df_yml["year"] == y], df.loc[df["year"] == y])
+        df_merged["year"] = year
+        diff_idx = df_merged.index.difference(df_remote.index)
+        print(df_merged.index, df_remote.index, diff_idx)
+        df_missing = df_merged.loc[diff_idx, :].sort_values("start")
+        df_merged = df_merged.drop(["conference"], axis=1)
+        df_merged = merge_conferences(df_merged, df_remote)
 
-    # Concatenate the new data with the existing data
-    df_new = pd.concat([df_new, df_merged], ignore_index=True)
+        # Concatenate the new data with the existing data
+        df_new = pd.concat([df_new, df_merged], ignore_index=True)
+        for index, row in df_missing.iterrows():
+            out = f""" * name of the event: {reverse_titles.get(row["conference"], [row["conference"]])[0]} {row["year"]}
+ * type of event: conference
+ * focus on Python: yes
+ * approximate number of attendees: Unknown
+ * location (incl. country): {row["place"]}
+ * dates/times/recurrence (incl. time zone): {row["date"]} ({row["timezone"] if isinstance(row["timezone"],str) else "UTC"})
+ * HTML link using the format <a href="http://url/">name of the event</a>: <a href="{row["link"]}">{row["conference"]}</a>"""
+            with open("missing_conferences.txt", "a") as f:
+                f.write(out + "\n\n")
 
     # Fill in missing required fields
     df_new = fill_missing_required(df_new)
