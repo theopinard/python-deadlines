@@ -112,7 +112,8 @@ def main(year=None, base=""):
         # Concatenate the new data with the existing data
         df_new = pd.concat([df_new, df_merged], ignore_index=True)
         for index, row in df_missing.iterrows():
-            out = f""" * name of the event: {reverse_titles.get(row["conference"], [row["conference"]])[0]} {row["year"]}
+            reverse_title = f"""{reverse_titles.get(row["conference"], [row["conference"]])[0]} {row["year"]}"""
+            out = f""" * name of the event: {reverse_title}
  * type of event: conference
  * focus on Python: yes
  * approximate number of attendees: Unknown
@@ -121,6 +122,19 @@ def main(year=None, base=""):
  * HTML link using the format <a href="http://url/">name of the event</a>: <a href="{row["link"]}">{row["conference"]}</a>"""
             with open("missing_conferences.txt", "a") as f:
                 f.write(out + "\n\n")
+            with open(f""".tmp/{reverse_title}.ics""".lower().replace(" ", "-"), "w") as f:
+                f.write(
+                    f"""BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:{reverse_title}
+DTSTART;VALUE=DATE:{row["start"].strftime("%Y%m%d")}
+DTEND;VALUE=DATE:{row["end"].strftime("%Y%m%d")}
+DESCRIPTION:<a href="{row.link}">{ reverse_title }</a>
+LOCATION:{ row.place }
+END:VEVENT
+END:VCALENDAR"""
+                )
 
     # Fill in missing required fields
     df_new = fill_missing_required(df_new)
