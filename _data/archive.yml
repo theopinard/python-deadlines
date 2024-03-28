@@ -230,7 +230,7 @@
   alt_name: PyCon ZA
   year: 2023
   link: https://za.pycon.org/
-  cfp_link: https://za.pycon.org/talks/how-to-submit-a-talk/
+  cfp_link: https://web.archive.org/web/20231004163314/https://za.pycon.org/talks/how-to-submit-a-talk/
   cfp: '2023-08-18 23:59:00'
   tutorial_deadline: '2023-08-18 23:59:00'
   timezone: Africa/Johannesburg
@@ -288,7 +288,7 @@
   date: September 29 - October 2, 2023
   start: 2023-09-29
   end: 2023-10-02
-  sponsor: https://docs.google.com/forms/d/13MVcj2XEF1DfTmV3fPjq9SN5qzY22k3R7cJVKlfbhZ4/viewform
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScKhnPeoB30F4PTA22fvXsNlF81Q7L_SIIPUtbty7YLlLvzmA/viewform
   twitter: PyConIndia
   sub: PY
   location:
@@ -759,7 +759,7 @@
   date: September 21 - 23, 2023
   start: 2023-09-21
   end: 2023-09-23
-  sponsor: https://ug.pycon.org/sponsors
+  sponsor: https://web.archive.org/web/20231129142123/https://ug.pycon.org/sponsors
   sub: PY
   location:
   - latitude: 0.3177137
@@ -768,7 +768,7 @@
 - conference: Moscow Python Conf++
   year: 2023
   link: https://conf.python.ru/moscow/2023
-  cfp_link: https://cfp.conf.python.ru/
+  cfp_link: https://web.archive.org/web/20230521035241/https://cfp.conf.python.ru/
   cfp: '2023-04-17 23:59:00'
   timezone: Europe/Moscow
   place: Moscow, Russia
@@ -2296,6 +2296,20 @@
   start: 2020-11-15
   end: 2020-11-16
 
+- conference: PyCon India
+  year: 2020
+  link: https://in.pycon.org/2020/
+  cfp: '2020-08-14 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, Bengaluru
+  date: October 2 - 5, 2020
+  start: 2020-10-02
+  end: 2020-10-05
+  sub: PY
+  location:
+  - latitude: 12.9767936
+    longitude: 77.590082
+
 - conference: PyHEP
   year: 2020
   link: https://indico.cern.ch/event/882824/
@@ -2579,6 +2593,20 @@
   location:
   - latitude: 44.8178131
     longitude: 20.4568974
+
+- conference: PyCon India
+  year: 2019
+  link: https://in.pycon.org/2019/
+  cfp: '2019-07-01 23:59:00'
+  timezone: Asia/Kolkata
+  place: Chennai, India
+  date: October 12 - 16, 2019
+  start: 2019-10-12
+  end: 2019-10-16
+  sub: PY
+  location:
+  - latitude: 13.0836939
+    longitude: 80.270186
 
 - conference: Kiwi PyCon
   alt_name: PyCon NZ
@@ -2951,7 +2979,7 @@
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2018
-  link: https://www.pycon.se/
+  link: https://web.archive.org/web/20181214135925/http://www.pycon.se/
   cfp: '2018-10-16 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
@@ -3036,7 +3064,7 @@
 
 - conference: PyHPC
   year: 2018
-  link: https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/
+  link: https://web.archive.org/web/20201023081255/https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/
   cfp: '2018-09-09 23:59:00'
   place: Dallas, USA
   date: November 12th, 2018
@@ -3250,7 +3278,7 @@
   alt_name: PyCon ZA
   year: 2017
   link: https://web.archive.org/web/20170801125832/https://za.pycon.org/
-  cfp_link: https://2017.za.pycon.org/archived/submit-talk/
+  cfp_link: https://web.archive.org/web/20210815075207/https://2017.za.pycon.org/archived/submit-talk/
   cfp: '2017-10-01 23:59:00'
   place: Cape Town, South Africa
   date: October 4 - 8, 2017
@@ -3290,7 +3318,7 @@
 - conference: PyCascades
   year: 2018
   link: https://web.archive.org/web/20200812235103/https://2018.pycascades.com/
-  cfp_link: https://www.papercall.io/pycascades-2018
+  cfp_link: https://web.archive.org/web/20170813050314/https://www.papercall.io/pycascades-2018
   cfp: '2017-08-29 12:00:00'
   timezone: UTC
   place: Vancouver, Canada
@@ -3333,7 +3361,7 @@
   alt_name: PyCon DE
   year: 2017
   link: https://web.archive.org/web/20171030134448/https://de.pycon.org/
-  cfp_link: https://www.papercall.io/pyconde2017
+  cfp_link: https://web.archive.org/web/20190329183841/https://www.papercall.io/pyconde2017
   cfp: '2017-08-06 23:59:00'
   timezone: Europe/Berlin
   place: Karlsruhe, Germany
@@ -3786,7 +3814,7 @@
 
 - conference: PyHPC
   year: 2015
-  link: https://www.dlr.de/sc/desktopdefault.aspx/tabid-10388/17849_read-42322/
+  link: https://web.archive.org/web/20150829112426/http://www.dlr.de/sc/desktopdefault.aspx/tabid-10388/17849_read-42322
   cfp: '2015-09-04 23:59:00'
   place: Austin, USA
   date: November 15th, 2015
@@ -4187,7 +4215,7 @@
   year: 2014
   link: https://web.archive.org/web/20140929035341/http://in.pycon.org/2014/
   cfp: '2014-05-30 23:59:00'
-  place: Bangalore, India
+  place: Bengaluru, India
   date: September 26 - 28, 2014
   start: 2014-09-26
   end: 2014-09-28
@@ -4269,7 +4297,7 @@
 
 - conference: PyCon China
   year: 2013
-  link: https://cn.pycon.org/2013/
+  link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
   cfp: '2013-11-01 23:59:00'
   place: Beijing, China
   date: December 14th, 2013
@@ -4282,7 +4310,7 @@
 
 - conference: PyCon China
   year: 2013
-  link: https://cn.pycon.org/2013/
+  link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
   cfp: '2013-11-01 23:59:00'
   place: Shanghai, China
   extra_places:
@@ -4302,7 +4330,7 @@
 
 - conference: PyHPC
   year: 2013
-  link: https://www.dlr.de/sc/desktopdefault.aspx/tabid-8685/14943_read-37157/
+  link: https://web.archive.org/web/20131118193245/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8685/14943_read-37157/
   cfp: '2013-09-20 23:59:00'
   place: Denver, USA
   date: November 18th, 2013
@@ -4414,7 +4442,7 @@
   link: https://web.archive.org/web/20130831132556/http://in.pycon.org/2013/
   cfp: '2013-07-15 23:59:00'
   timezone: Asia/Kolkata
-  place: Bangalore, India
+  place: Bengaluru, India
   date: August 31 - September 1, 2013
   start: 2013-08-31
   end: 2013-09-01
@@ -4608,7 +4636,7 @@
   link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
   cfp: '2012-08-25 23:59:00'
   timezone: Asia/Kolkata
-  place: Bangalore, India
+  place: Bengaluru, India
   date: September 28 - 30, 2012
   start: 2012-09-28
   end: 2012-09-30
@@ -4745,7 +4773,7 @@
 
 - conference: EuroPython
   year: 2012
-  link: https://ep2012.europython.eu/
+  link: https://web.archive.org/web/20120724122915/https://ep2012.europython.eu/
   cfp: '2012-03-18 23:59:59'
   cfp_ext: '2012-03-21 23:59:59'
   timezone: Europe/Rome
@@ -4786,7 +4814,7 @@
 
 - conference: PyHPC
   year: 2011
-  link: https://www.dlr.de/sc/desktopdefault.aspx/tabid-7632/12996_read-32676/
+  link: https://web.archive.org/web/20130923035222/http://www.dlr.de/sc/desktopdefault.aspx/tabid-7632/12996_read-32676/
   cfp: '2011-09-19 23:59:00'
   place: Seattle, USA
   date: November 18th, 2011
@@ -4853,6 +4881,20 @@
   - latitude: 50.85402845
     longitude: 20.60991568734511
 
+- conference: PyCon India
+  year: 2011
+  link: https://web.archive.org/web/20110516024058/http://in.pycon.org/2011/
+  cfp: '2011-06-30 23:59:00'
+  timezone: Asia/Kolkata
+  place: Pune, India
+  date: September 16 - 18, 2011
+  start: 2011-09-16
+  end: 2011-09-18
+  sub: PY
+  location:
+  - latitude: 18.521428
+    longitude: 73.8544541
+
 - conference: EuroSciPy
   year: 2011
   link: https://web.archive.org/web/20110523143818/https://www.euroscipy.org/
@@ -4868,7 +4910,7 @@
 
 - conference: EuroPython
   year: 2011
-  link: https://ep2011.europython.eu/
+  link: https://web.archive.org/web/20110626073356/http://ep2011.europython.eu/
   cfp: '2011-04-06 23:59:59'
   timezone: Europe/Rome
   place: Florence, Italy
@@ -4908,6 +4950,20 @@
   location:
   - latitude: 52.4796992
     longitude: -1.9026911
+
+- conference: PyCon India
+  year: 2010
+  link: https://web.archive.org/web/20100907191526/http://in.pycon.org/2010/
+  cfp: '2010-07-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  date: September 27 - 26, 2010
+  start: 2010-09-27
+  end: 2010-09-26
+  sub: PY
+  location:
+  - latitude: 12.9767936
+    longitude: 77.590082
 
 - conference: PyCon France
   alt_name: PyCon FR
@@ -4968,7 +5024,7 @@
 
 - conference: EuroPython
   year: 2010
-  link: https://ep2010.europython.eu
+  link: https://web.archive.org/web/20110414144119/http://ep2010.europython.eu/
   cfp: '2010-04-30 23:59:59'
   timezone: Europe/London
   place: Birmingham, UK
@@ -5038,6 +5094,20 @@
   - latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: PyCon India
+  year: 2009
+  link: https://web.archive.org/web/20090929193324/http://in.pycon.org/2009/
+  cfp: '2009-08-01 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  date: September 26 - 27, 2009
+  start: 2009-09-26
+  end: 2009-09-27
+  sub: PY
+  location:
+  - latitude: 12.9767936
+    longitude: 77.590082
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2009
@@ -5081,7 +5151,7 @@
 
 - conference: EuroPython
   year: 2009
-  link: https://ep2009.europython.eu/
+  link: https://web.archive.org/web/20100429204959/http://ep2009.europython.eu/
   cfp: '2009-04-05 23:59:59'
   timezone: Europe/London
   place: Birmingham, UK
@@ -5096,7 +5166,7 @@
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2009
-  link: http://pycon.it/
+  link: https://web.archive.org/web/20090508031546/http://www.pycon.it/
   cfp: '2009-03-08 23:59:00'
   timezone: Europe/Rome
   place: Florence, Italy
@@ -5152,7 +5222,7 @@
 
 - conference: EuroPython
   year: 2008
-  link: http://www.europython.org/
+  link: https://web.archive.org/web/20080706103533/http://www.europython.org/
   cfp: '2008-05-22 23:59:59'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
@@ -5166,7 +5236,7 @@
 
 - conference: EuroSciPy
   year: 2008
-  link: https://scipy.github.io/old-wiki/pages/EuroSciPy2008.html
+  link: https://web.archive.org/web/20190909080804/http://scipy.github.io/old-wiki/pages/EuroSciPy2008.html
   cfp: '2008-04-30 23:59:00'
   place: Leipzig, Germany
   date: July 26 - 27, 2008
@@ -5221,7 +5291,7 @@
 
 - conference: EuroPython
   year: 2007
-  link: http://www.europython.org/
+  link: https://web.archive.org/web/20070709123745/http://www.europython.org/
   cfp: '2007-05-18 23:59:59'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
@@ -5264,7 +5334,7 @@
 
 - conference: EuroPython
   year: 2006
-  link: http://www.europython.org/
+  link: https://web.archive.org/web/20060701045949/http://www.europython.org/
   cfp: '2006-06-02 23:59:59'
   timezone: Europe/Zurich
   place: Geneva, Switzerland

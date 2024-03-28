@@ -336,16 +336,6 @@
   start: 2020-10-02
   end: 2020-10-04
 
-- conference: PyCon India
-  year: 2020
-  link: https://in.pycon.org/2020/
-  cfp: TBA
-  place: Online
-  date: October 2 - 6, 2020
-  start: 2020-10-02
-  end: 2020-10-06
-  sub: PY
-
 - conference: PyCon Spain
   alt_name: PyCon ES
   year: 2020
@@ -705,19 +695,6 @@
   location:
   - latitude: 34.3917241
     longitude: 132.4517589
-
-- conference: PyCon India
-  year: 2019
-  link: https://in.pycon.org/2019/
-  cfp: TBA
-  place: Chennai, India
-  date: October 12 - 16, 2019
-  start: 2019-10-12
-  end: 2019-10-16
-  sub: PY
-  location:
-  - latitude: 13.0836939
-    longitude: 80.270186
 
 - conference: PyCon Pakistan
   year: 2019
@@ -1144,7 +1121,7 @@
 
 - conference: PyCon Namibia
   year: 2019
-  link: https://na.pycon.org/
+  link: https://web.archive.org/web/20181121113217/https://na.pycon.org/
   cfp: TBA
   place: Windhoek, Namibia
   date: February 19 - 22, 2019
@@ -1210,7 +1187,7 @@
 
 - conference: PyCon Pakistan
   year: 2018
-  link: https://pycon.pk/
+  link: https://web.archive.org/web/20181117100303/http://pycon.pk/
   cfp: TBA
   place: Lahore, Pakistan
   date: November 17 - 19, 2018
@@ -1275,7 +1252,7 @@
 - conference: Piter Py
   alt_name: PiterPy
   year: 2018
-  link: https://piterpy.com/en/
+  link: https://web.archive.org/web/20180628045535/https://piterpy.com/en
   cfp: TBA
   place: Saint Petersburg, Russia
   date: November 2 - 4, 2018
@@ -1364,10 +1341,11 @@
   year: 2018
   link: https://web.archive.org/web/20181022230453/https://in.pycon.org/2018/
   cfp: TBA
+  timezone: Asia/Kolkata
   place: Hyderabad, India
-  date: October 5 - 10, 2018
+  date: October 5 - 9, 2018
   start: 2018-10-05
-  end: 2018-10-10
+  end: 2018-10-09
   sub: PY
   location:
   - latitude: 17.360589
@@ -1376,7 +1354,7 @@
 - conference: PyCon Estonia
   alt_name: PyCon EE
   year: 2018
-  link: https://pycon.ee/
+  link: https://web.archive.org/web/20180905200626/https://pycon.ee/
   cfp: TBA
   place: Tallinn, Estonia
   date: October 4 - 5, 2018
@@ -1389,7 +1367,7 @@
 
 - conference: PyCode Conference
   year: 2018
-  link: https://pycode-conference.org/
+  link: https://web.archive.org/web/20180801205817/https://pycode-conference.org
   cfp: TBA
   place: Warsaw, Poland
   date: October 1 - 3, 2018
@@ -1505,7 +1483,7 @@
 
 - conference: PyCon Ghana
   year: 2018
-  link: https://gh.pycon.org/
+  link: https://web.archive.org/web/20180818105016/https://gh.pycon.org/
   cfp: TBA
   place: Accra, Ghana
   date: August 10 - 12, 2018
@@ -1558,7 +1536,7 @@
 
 - conference: PyCon Web
   year: 2018
-  link: https://pyconweb.com/
+  link: https://web.archive.org/web/20180817005719/https://pyconweb.com/
   cfp: Cancelled
   place: Munich, Germany
   date: June 30 - July 2, 2018
@@ -1716,7 +1694,7 @@
 
 - conference: PyDays Vienna
   year: 2018
-  link: https://www.pydays.at/
+  link: https://web.archive.org/web/20180430140857/https://www.pydays.at/
   cfp: TBA
   place: FH Technikum Wien, Austria
   date: May 4 - 6, 2018
@@ -1741,7 +1719,7 @@
 
 - conference: PythonCamp
   year: 2018
-  link: http://pythoncamp.de
+  link: https://web.archive.org/web/20130911193500/http://www.pythoncamp.de/
   cfp: TBA
   place: Cologne, Germany
   date: April 7 - 9, 2018
@@ -1807,7 +1785,7 @@
 
 - conference: Swiss Python Summit
   year: 2018
-  link: https://www.python-summit.ch/
+  link: https://web.archive.org/web/20180205001500/http://www.python-summit.ch/
   cfp: TBA
   place: Rapperswil, Switzerland
   date: February 16 - 17, 2018
@@ -1897,7 +1875,7 @@
 
 - conference: PyCon Pakistan
   year: 2017
-  link: https://pycon.pk/
+  link: https://web.archive.org/web/20171219132009/http://pycon.pk/
   cfp: TBA
   place: Lahore, Pakistan
   date: December 16 - 17, 2017
@@ -2223,7 +2201,7 @@
 - conference: PyCon Asia Pacific
   alt_name: PyCon APAC
   year: 2017
-  link: https://pycon.my/
+  link: https://web.archive.org/web/20170822040840/https://pycon.my/
   cfp: TBA
   place: Kuala Lumpur, Malaysia
   date: August 26 - 28, 2017
@@ -2352,7 +2330,7 @@
 - conference: PyCon Czechia
   alt_name: PyCon CZ
   year: 2017
-  link: https://cz.pycon.org/2023/
+  link: https://web.archive.org/web/20230502190107/https://cz.pycon.org/2023/
   cfp: TBA
   place: Prague, Czechia
   date: June 9 - 12, 2017
@@ -2379,7 +2357,7 @@
 
 - conference: PyConWEB
   year: 2017
-  link: https://pyconweb.com/
+  link: https://web.archive.org/web/20170621095045/https://pyconweb.com/
   cfp: TBA
   place: Munich, Germany
   date: May 27 - 29, 2017
@@ -2538,7 +2516,7 @@
 
 - conference: Swiss Python Summit
   year: 2017
-  link: https://www.python-summit.ch/
+  link: https://web.archive.org/web/20170214143104/http://www.python-summit.ch/
   cfp: TBA
   place: Rapperswil, Switzerland
   date: February 17 - 18, 2017
@@ -2829,7 +2807,7 @@
 - conference: PyCon Malaysia
   alt_name: PyCon MY
   year: 2016
-  link: https://pycon.my/
+  link: https://web.archive.org/web/20160722184438/https://pycon.my/
   cfp: TBA
   place: Kuala Lumpur, Malaysia
   date: August 26 - 29, 2016
@@ -3154,7 +3132,7 @@
 
 - conference: Swiss Python Summit
   year: 2016
-  link: https://www.python-summit.ch/
+  link: https://web.archive.org/web/20160316131658/http://www.python-summit.ch/
   cfp: TBA
   place: Rapperswil, Switzerland
   date: February 5 - 6, 2016
@@ -3180,7 +3158,7 @@
 
 - conference: PyCon Namibia
   year: 2016
-  link: https://na.pycon.org/
+  link: https://web.archive.org/web/20160104173747/http://na.pycon.org/
   cfp: TBA
   place: Windhoek, Namibia
   date: January 25 - 30, 2016
@@ -3221,7 +3199,7 @@
 - conference: PyCon Czechia
   alt_name: PyCon CZ
   year: 2015
-  link: https://cz.pycon.org/2023/
+  link: https://web.archive.org/web/20230502190107/https://cz.pycon.org/2023/
   cfp: TBA
   place: Brno, Czechia
   date: November 14 - 16, 2015
@@ -3587,7 +3565,7 @@
 
 - conference: PyConLT
   year: 2015
-  link: https://pycon.lt/
+  link: https://web.archive.org/web/20150419215436/http://pycon.lt/
   cfp: TBA
   place: Vilnius, Lithuania
   date: April 25 - 26, 2015

@@ -596,14 +596,14 @@
 - conference: PyData Tel Aviv
   year: 2023
   link: https://pydata.org/telaviv2024/
-  cfp_link: https://pydata.org/telaviv2023/cfp
+  cfp_link: https://pydata.org/telaviv2024/cfp
   cfp: '2023-07-14 23:59:00'
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
   date: November 4th, 2024
   start: 2024-11-04
   end: 2024-11-04
-  sponsor: https://pydata.org/telaviv2023/sponsor
+  sponsor: https://pydata.org/telaviv2024/sponsor
   twitter: PyDataTLV
   sub: PYDATA
   note: Postponed from 2023
