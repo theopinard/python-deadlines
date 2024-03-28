@@ -24,7 +24,7 @@ from tidy_conf.titles import tidy_titles
 from tidy_conf.utils import Loader, get_schema, query_yes_no
 
 dateformat = "%Y-%m-%d %H:%M:%S"
-tba_words = ["tba", "tbd", "cancelled"]
+tba_words = ["tba", "tbd", "cancelled", "none", "na", "n/a", "nan", "n.a."]
 
 
 def sort_by_cfp(data):

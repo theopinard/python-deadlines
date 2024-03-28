@@ -278,13 +278,9 @@ description: Summary of the conference and its instances throughout the years.
         {% for sub in subs %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
-        {% if cfp == "TBA" %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("TBA");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("TBA");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
-        {% elsif cfp == "Cancelled" %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("Cancelled");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("Cancelled");
+        {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("{{cfp}}");
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% else %}
 

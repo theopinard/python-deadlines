@@ -192,13 +192,9 @@ title: Past Python Conferences
         {% for sub in subs %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
         {% endfor %}
-        {% if cfp == "TBA" %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("TBA");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("TBA");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
-        {% elsif cfp == "Cancelled" %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("Cancelled");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("Cancelled");
+        {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("{{cfp}}");
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
         {% else %}
 
@@ -215,7 +211,7 @@ title: Past Python Conferences
           if (cfpDate.invalid || confDate.invalid) {
             var cfpDate = DateTime.fromSQL("{{cfp}}");
             var confDate = DateTime.fromSQL("{{conf.start}}");
-            console.log("Invalid timezone in {{conf.conference | slugify: "latin"}}-{{conf.year}}. Using system timezone instead.");
+            console.log("Invalid timezone in {{conf.conference | slugify: 'latin'}}-{{conf.year}}. Using system timezone instead.");
           }
 
           // deadline in local timezone

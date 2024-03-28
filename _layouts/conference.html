@@ -84,7 +84,7 @@ description: Countdown for the Call for Participation of this conference includi
     </div>
     <div id="page-content">
       <div id="conf-deadline-timer" class="row">
-        <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" %}TBA{% elsif cfp == "Cancelled" %}Cancelled{%endif%}
+        <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" or page.cfp == "Cancelled" or page.cfp == "None" %}{{page.cfp}}{%endif%}
         </div>
       </div>
       <div id="conf-key-facts" class="row">
@@ -229,14 +229,10 @@ description: Countdown for the Call for Participation of this conference includi
       $('.local-timezone').text(today.toFormat('z'));
 
       // other
-      {% if page.cfp == "TBA" %}
-      $('#cfp-timer').html("TBA");
-      $('.deadline-time').html("TBA");
-      $('.deadline-local-time').html("TBA");
-      {% elsif cfp == "Cancelled" %}
-      $('#cfp-timer').html("Cancelled");
-      $('.deadline-time').html("Cancelled");
-      $('.deadline-local-time').html("Cancelled");
+      {% if page.cfp == "TBA" or page.cfp == "Cancelled" or page.cfp == "None" %}
+      $('#cfp-timer').html("{{page.cfp}}");
+      $('.deadline-time').html("{{page.cfp}}");
+      $('.deadline-local-time').html("{{page.cfp}}");
       {% else %}
 
       // Use specified timezone for deadlines if available else use AoE timezone
