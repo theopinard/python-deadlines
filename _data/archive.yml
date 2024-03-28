@@ -1,5 +1,222 @@
 ---
 
+- conference: Python in finance
+  year: 2013
+  link: https://web.archive.org/web/20130815205435/http://python-in-finance.com/
+  cfp: None
+  place: New York, USA
+  date: April 5th, 2013
+  start: 2013-04-05
+  end: 2013-04-05
+  sub: PY
+  location:
+  - latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyGrunn
+  year: 2012
+  link: https://web.archive.org/web/20120608055024/http://www.pygrunn.org/
+  cfp: None
+  place: Groningen, Netherlands
+  date: May 11th, 2012
+  start: 2012-05-11
+  end: 2012-05-11
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2011
+  link: https://web.archive.org/web/20110608055024/http://www.pygrunn.org/
+  cfp_link: https://pygrunn-paylogic.blogspot.com/2011/04/call-for-speakers.html
+  cfp: None
+  place: Groningen, Netherlands
+  date: May 20th, 2011
+  start: 2011-05-20
+  end: 2011-05-20
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2010
+  link: https://web.archive.org/web/20100608055024/http://www.pygrunn.org/
+  cfp: None
+  place: Groningen, Netherlands
+  date: May 9th, 2010
+  start: 2010-05-09
+  end: 2010-05-09
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: Pyjamas Conf
+  year: 2023
+  link: https://pyjamas.live/
+  cfp: Cancelled
+  place: Online
+  date: December 5th, 2023
+  start: 2023-12-05
+  end: 2023-12-05
+  sub: PY
+
+- conference: PyCon Iran
+  year: 2022
+  link: https://ir.pycon.org/?lang=en
+  cfp: Cancelled
+  timezone: Asia/Tehran
+  place: Online
+  date: February 16 - 19, 2022
+  start: 2022-02-16
+  end: 2022-02-19
+  sub: PY
+  location:
+  - latitude: 44.9379672
+    longitude: 7.5400398
+
+- conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
+  year: 2021
+  link: https://2021.de.pycon.org/
+  cfp: Cancelled
+  place: Berlin, Germany
+  date: October 14 - 17, 2021
+  start: 2021-10-14
+  end: 2021-10-17
+  sub: PY
+  note: Cancelled due to Covid
+  location:
+  - latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: Python Brasil
+  year: 2020
+  link: https://2020.pythonbrasil.org.br/
+  cfp: Cancelled
+  place: Caxias do Sul, Brazil
+  date: November 2 - 9, 2020
+  start: 2020-11-02
+  end: 2020-11-09
+  sub: PY
+  note: Postponed to 2021 due to COVID-19 pandemic
+  location:
+  - latitude: -29.1685045
+    longitude: -51.1796385
+
+- conference: PyData London
+  year: 2020
+  link: https://web.archive.org/web/20201023053817/http://pydata.org/london2020/
+  cfp: Cancelled
+  place: London, UK
+  date: October 30 - November 2, 2020
+  start: 2020-10-30
+  end: 2020-11-02
+  sub: PYDATA
+  note: Cancelled due to Covid
+  location:
+  - latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
+  year: 2020
+  link: https://de.pycon.org/
+  cfp: Cancelled
+  cfp_ext: '2020-05-05 23:59:00'
+  place: Berlin, Germany
+  date: October 14 - 16, 2020
+  start: 2020-10-14
+  end: 2020-10-16
+  sub: PY
+  note: Cancelled due to Covid
+  location:
+  - latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyCon UK
+  year: 2020
+  link: https://2020.pyconuk.org/
+  cfp: Cancelled
+  timezone: Europe/London
+  place: Coventry, UK
+  date: October 10 - 14, 2020
+  start: 2020-10-10
+  end: 2020-10-14
+  sub: PY
+  note: Cancelled due to Covid-19
+  location:
+  - latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: EuroSciPy
+  year: 2020
+  link: https://www.euroscipy.org/
+  cfp: Cancelled
+  place: Bilbao, Spain
+  date: July 27 - 31, 2020
+  start: 2020-07-27
+  end: 2020-07-31
+  sub: SCIPY
+  note: Cancelled due to Covid
+  location:
+  - latitude: 43.2630018
+    longitude: -2.9350039
+
+- conference: Python Nordeste
+  year: 2020
+  link: https://2020.pythonnordeste.org/
+  cfp: Cancelled
+  place: Fortaleza, Brasil
+  date: July 17 - 18, 2020
+  start: 2020-07-17
+  end: 2020-07-18
+  sub: PY
+  note: Moved to 2021 due to Covid
+  location:
+  - latitude: -3.7304512
+    longitude: -38.5217989
+
+- conference: PyGrunn
+  year: 2020
+  link: https://web.archive.org/web/20200608055024/http://www.pygrunn.org/
+  cfp: Cancelled
+  place: Groningen, Netherlands
+  date: May 15th, 2020
+  start: 2020-05-15
+  end: 2020-05-15
+  note: Postponed due to COVID-19
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyCon Web
+  year: 2018
+  link: https://web.archive.org/web/20180817005719/https://pyconweb.com/
+  cfp: Cancelled
+  place: Munich, Germany
+  date: June 30 - July 2, 2018
+  start: 2018-06-30
+  end: 2018-07-02
+  sub: PY
+  location:
+  - latitude: 48.1371079
+    longitude: 11.5753822
+
+- conference: PyCon UK
+  year: 2011
+  link: https://web.archive.org/web/20110727192434/http://www.pyconuk.org/
+  cfp: Cancelled
+  timezone: Europe/London
+  place: Coventry, UK
+  date: September 24 - 25, 2011
+  start: 2011-09-24
+  end: 2011-09-25
+  sub: PY
+  note: Cancelled due to multiple issues
+  location:
+  - latitude: 52.4081812
+    longitude: -1.510477
+
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
   year: 2024
@@ -781,6 +998,18 @@
   location:
   - latitude: 55.625578
     longitude: 37.6063916
+
+- conference: PyGrunn
+  year: 2023
+  link: https://web.archive.org/web/20230608055024/http://www.pygrunn.org/
+  cfp: '2023-04-07 23:59:00'
+  place: Groningen, Netherlands
+  date: May 26th, 2023
+  start: 2023-05-26
+  end: 2023-05-26
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
 
 - conference: PyCon Israel
   year: 2023
@@ -2036,6 +2265,18 @@
   sub: PY
   note: Remote
 
+- conference: PyGrunn
+  year: 2021
+  link: https://web.archive.org/web/20211028110307/https://pygrunn.org/
+  cfp: '2021-10-01 23:59:00'
+  place: Groningen, Netherlands
+  date: November 12th, 2021
+  start: 2021-11-12
+  end: 2021-11-12
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
 - conference: Pyjamas Conf
   year: 2021
   link: https://pyjamas.live/
@@ -2914,6 +3155,18 @@
   - latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyGrunn
+  year: 2019
+  link: https://web.archive.org/web/20190608055024/http://www.pygrunn.org/
+  cfp: '2019-02-01 23:59:00'
+  place: Groningen, Netherlands
+  date: May 10th, 2019
+  start: 2019-05-10
+  end: 2019-05-10
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2019
@@ -3573,6 +3826,18 @@
   - latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: PyGrunn
+  year: 2017
+  link: https://web.archive.org/web/20170608055024/http://www.pygrunn.org/
+  cfp: '2017-02-01 23:59:00'
+  place: Groningen, Netherlands
+  date: May 19th, 2017
+  start: 2017-05-19
+  end: 2017-05-19
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2017
@@ -3812,6 +4077,18 @@
   location:
   - latitude: -2.5307316
     longitude: -44.3068265
+
+- conference: PyGrunn
+  year: 2016
+  link: https://web.archive.org/web/20160608055024/http://www.pygrunn.org/
+  cfp: '2016-03-15 23:59:00'
+  place: Groningen, Netherlands
+  date: May 13th, 2016
+  start: 2016-05-13
+  end: 2016-05-13
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
 
 - conference: PyData Berlin
   year: 2016
@@ -4131,6 +4408,18 @@
   - latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyGrunn
+  year: 2015
+  link: https://web.archive.org/web/20150608055024/http://www.pygrunn.org/
+  cfp: '2015-02-01 23:59:00'
+  place: Groningen, Netherlands
+  date: May 22nd, 2015
+  start: 2015-05-22
+  end: 2015-05-22
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2015
@@ -4351,6 +4640,18 @@
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
+
+- conference: PyGrunn
+  year: 2014
+  link: https://web.archive.org/web/20141221190438/http://www.pygrunn.org/
+  cfp: '2014-04-01 23:59:00'
+  place: Groningen, Netherlands
+  date: May 9 - 10, 2014
+  start: 2014-05-09
+  end: 2014-05-10
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
 
 - conference: Python Nordeste
   year: 2014
@@ -4608,6 +4909,19 @@
   - latitude: 50.8465573
     longitude: 4.351697
 
+- conference: PyGrunn
+  year: 2013
+  link: https://web.archive.org/web/20130814185329/http://www.pygrunn.org/
+  cfp: '2013-04-15 12:00:00'
+  timezone: Europe/Amsterdam
+  place: Groningen, Netherlands
+  date: May 10th, 2013
+  start: 2013-05-10
+  end: 2013-05-10
+  location:
+  - latitude: 53.2190652
+    longitude: 6.5680077
+
 - conference: EuroPython
   year: 2013
   link: https://web.archive.org/web/20130603032549/https://ep2013.europython.eu/
@@ -4634,6 +4948,19 @@
   location:
   - latitude: -3.7304512
     longitude: -38.5217989
+
+- conference: PyData Silicon Valley
+  year: 2013
+  link: https://web.archive.org/web/20130304203036/http://sv2013.pydata.org/
+  cfp: '2013-01-15 23:59:00'
+  place: Santa Clara, USA
+  date: March 18 - 20, 2013
+  start: 2013-03-18
+  end: 2013-03-20
+  sub: PYDATA
+  location:
+  - latitude: 37.4043966
+    longitude: -121.97505187753514
 
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
