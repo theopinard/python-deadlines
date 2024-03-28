@@ -506,20 +506,6 @@
   - latitude: 59.9606739
     longitude: 30.1586551
 
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2019
-  link: https://www.pycon.fr/2019/
-  cfp: TBA
-  place: Bordeaux, France
-  date: October 31 - November 3, 2019
-  start: 2019-10-31
-  end: 2019-11-03
-  sub: PY
-  location:
-  - latitude: 44.841225
-    longitude: -0.5800364
-
 - conference: PyDay Barcelona
   year: 2019
   link: https://web.archive.org/web/20200513113600/http://pybcn.org/pyday-bcn-2019/
@@ -1980,20 +1966,6 @@
   location:
   - latitude: 39.759172500000005
     longitude: -6.1379457147709005
-
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2017
-  link: https://web.archive.org/web/20201106161538/https://www.pycon.fr/2017/
-  cfp: TBA
-  place: Toulouse, France
-  date: September 21 - 25, 2017
-  start: 2017-09-21
-  end: 2017-09-25
-  sub: PY
-  location:
-  - latitude: 43.6044622
-    longitude: 1.4442469
 
 - conference: PyCon Nigeria
   year: 2017
@@ -3593,20 +3565,6 @@
   location:
   - latitude: 60.1674881
     longitude: 24.9427473
-
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2014
-  link: https://web.archive.org/web/20141025183354/http://www.pycon.fr/2014/
-  cfp: TBA
-  place: Villeurbanne, France
-  date: October 25 - 29, 2014
-  start: 2014-10-25
-  end: 2014-10-29
-  sub: PY
-  location:
-  - latitude: 45.7733573
-    longitude: 4.8868454
 
 - conference: SciPyCon Argentina
   year: 2014
