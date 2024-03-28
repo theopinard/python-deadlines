@@ -506,11 +506,12 @@
   - latitude: 52.4111289
     longitude: 4.877231604293446
 
-- conference: Python Brazil
+- conference: Python Brasil
   year: 2023
   link: https://2023.pythonBrazil.org.br/
   cfp_link: https://pretalx.com/python-Brazil-2023/cfp
   cfp: '2023-06-08 23:59:00'
+  cfp_ext: '2023-06-21 23:59:00'
   timezone: America/Sao_Paulo
   place: Caxias do Sul, Brazil
   date: October 30 - November 5, 2023
@@ -1430,6 +1431,21 @@
   - latitude: 37.5666791
     longitude: 126.9782914
 
+- conference: Python Brasil
+  year: 2022
+  link: https://web.archive.org/web/20211016000321/http://2022.pythonbrasil.org.br/
+  cfp_link: https://pretalx.com/python-brasil-2022/cfp
+  cfp: '2022-07-03 23:59:00'
+  cfp_ext: '2022-07-08 23:59:00'
+  place: Manaus, Brazil
+  date: October 17 - 23, 2022
+  start: 2022-10-17
+  end: 2022-10-23
+  sub: PY
+  location:
+  - latitude: -3.1316333
+    longitude: -59.9825041
+
 - conference: PyCon Brazil
   year: 2022
   link: https://2022.pythonBrazil.org.br/
@@ -2120,6 +2136,16 @@
   sponsor: https://web.archive.org/web/20211017042901/https://pydata.org/global2021/sponsor/
   sub: PYDATA
 
+- conference: Python Brasil
+  year: 2021
+  link: https://web.archive.org/web/20210723070931/http://2021.pythonbrasil.org.br/
+  cfp: '2021-08-12 23:59:00'
+  place: Online
+  date: October 11 - 17, 2021
+  start: 2021-10-11
+  end: 2021-10-17
+  sub: PY
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2021
@@ -2290,7 +2316,7 @@
   year: 2020
   link: https://www.pyhpc.io/
   cfp: '2020-09-11 23:59:00'
-  cfp_ext: '2020-09-11'
+  cfp_ext: '2020-09-11 23:59:00'
   place: Online
   date: November 15 - 16, 2020
   start: 2020-11-15
@@ -2565,6 +2591,21 @@
     longitude: 105.422
   - latitude: 22.8193063
     longitude: 108.3627211
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[15]
+  year: 2019
+  link: https://web.archive.org/web/20190615021525/https://2019.pythonbrasil.org.br/
+  cfp: '2019-08-05 23:59:00'
+  place: "Ribeir\xE3o Preto, Brazil"
+  date: October 23 - 28, 2019
+  start: 2019-10-23
+  end: 2019-10-28
+  sponsor: https://2019.pythonbrasil.org.br/assets/pdfs/sponsorship_plan.pdf
+  sub: PY
+  location:
+  - latitude: -21.1776315
+    longitude: -47.8100983
 
 - conference: Python Web Conference
   year: 2019
@@ -2991,6 +3032,20 @@
   - latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[14]
+  year: 2018
+  link: https://web.archive.org/web/20180816032212/https://2018.pythonbrasil.org.br/
+  cfp: '2018-10-14 23:59:00'
+  place: Natal, Brazil
+  date: October 17 - 22, 2018
+  start: 2018-10-17
+  end: 2018-10-22
+  sub: PY
+  location:
+  - latitude: -5.7944777
+    longitude: -35.2119324
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2018
@@ -3373,6 +3428,20 @@
   - latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[13]
+  year: 2017
+  link: https://web.archive.org/web/20170929071852/http://2017.pythonbrasil.org.br/
+  cfp: '2017-06-25 23:59:00'
+  place: Belo Horizonte, Brazil
+  date: October 6 - 11, 2017
+  start: 2017-10-06
+  end: 2017-10-11
+  sub: PY
+  location:
+  - latitude: -19.9227318
+    longitude: -43.9450948
+
 - conference: EuroSciPy
   year: 2017
   link: https://web.archive.org/web/20170828124453/https://www.euroscipy.org/2017/
@@ -3572,6 +3641,20 @@
   location:
   - latitude: 43.6534817
     longitude: -79.3839347
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[12]
+  year: 2016
+  link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
+  cfp: '2016-08-31 23:59:00'
+  place: "Florian\xF3polis, Brazil"
+  date: October 13 - 18, 2016
+  start: 2016-10-13
+  end: 2016-10-18
+  sub: PY
+  location:
+  - latitude: -27.5973002
+    longitude: -48.5496098
 
 - conference: PyCon Ireland
   alt_name: PyCon IE
@@ -3823,6 +3906,20 @@
   location:
   - latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[11]
+  year: 2015
+  link: https://web.archive.org/web/20150614065213/http://pythonbrasil.github.io/pythonbrasil11-site/
+  cfp: '2015-09-01 23:59:00'
+  place: Sao Jose dos Campos, Brazil
+  date: October 13 - 17, 2015
+  start: 2015-10-13
+  end: 2015-10-17
+  sub: PY
+  location:
+  - latitude: -23.1867782
+    longitude: -45.8854538
 
 - conference: PyCon Canada
   year: 2015
@@ -4104,7 +4201,7 @@
   year: 2016
   link: https://web.archive.org/web/20161109035636/http://www.dlr.de/sc/desktopdefault.aspx/tabid-11229/19729_read-46082/
   cfp: '2014-09-05 23:59:00'
-  cfp_ext: '2014-09-12'
+  cfp_ext: '2014-09-12 23:59:00'
   place: Salt Lake City, USA
   date: November 14th, 2016
   start: 2016-11-14
@@ -4117,7 +4214,7 @@
   year: 2014
   link: https://web.archive.org/web/20141117032857/http://www.dlr.de/sc/desktopdefault.aspx/tabid-9506/16384_read-40102
   cfp: '2014-09-05 23:59:00'
-  cfp_ext: '2014-09-12'
+  cfp_ext: '2014-09-12 23:59:00'
   place: New Orleans, USA
   date: November 17 - 18, 2014
   start: 2014-11-17
@@ -4153,6 +4250,23 @@
   location:
   - latitude: 52.4081812
     longitude: -1.510477
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[10]
+  year: 2014
+  link: https://web.archive.org/web/20141207142807/http://2014.pythonbrasil.org.br/
+  cfp: '2014-08-10 23:59:00'
+  cfp_ext: '2014-08-15 23:59:00'
+  place: Porto de Galinhas, Brazil
+  extra_places:
+  - Recife, Brazil
+  date: November 4 - 9, 2014
+  start: 2014-11-04
+  end: 2014-11-09
+  sub: PY
+  location:
+  - latitude: -8.5046818
+    longitude: -35.0049962
 
 - conference: PyCon Poland
   alt_name: PyCon PL
@@ -4409,6 +4523,21 @@
   - latitude: 52.4081812
     longitude: -1.510477
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[9]
+  year: 2013
+  link: https://web.archive.org/web/*/http://2013.pythonbrasil.org.br/
+  cfp: '2013-07-31 23:59:00'
+  place: Brasilia, Brazil
+  date: September 30 - October 6, 2013
+  start: 2013-09-30
+  end: 2013-10-06
+  sub: PY
+  note: The conference was held in conjunction with Plone Conference
+  location:
+  - latitude: -10.3333333
+    longitude: -53.2
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2013
@@ -4576,6 +4705,20 @@
   location:
   - latitude: 43.6534817
     longitude: -79.3839347
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[8]
+  year: 2012
+  link: https://web.archive.org/web/20121117085723/http://2012.pythonbrasil.org.br/
+  cfp: '2012-09-30 23:59:00'
+  place: Rio de Janeiro, Brazil
+  date: November 21 - 24, 2012
+  start: 2012-11-21
+  end: 2012-11-24
+  sub: PY
+  location:
+  - latitude: -22.9110137
+    longitude: -43.2093727
 
 - conference: PyCon US
   year: 2013
@@ -4824,6 +4967,20 @@
   - latitude: 47.6038321
     longitude: -122.330062
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[7]
+  year: 2011
+  link: https://web.archive.org/web/20120827060031/http://2011.pythonbrasil.org.br/
+  cfp: '2011-08-19 23:59:00'
+  place: Sao Paulo, Brazil
+  date: September 29 - October 1, 2011
+  start: 2011-09-29
+  end: 2011-10-01
+  sub: PY
+  location:
+  - latitude: -23.5506507
+    longitude: -46.6333824
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2011
@@ -4950,6 +5107,20 @@
   location:
   - latitude: 52.4796992
     longitude: -1.9026911
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[6]
+  year: 2010
+  link: https://web.archive.org/web/20100713080631/http://www.pythonbrasil.org.br/2010
+  cfp: '2010-08-08 23:59:00'
+  place: Curitiba, Brazil
+  date: October 21 - 23, 2010
+  start: 2010-10-21
+  end: 2010-10-23
+  sub: PY
+  location:
+  - latitude: -25.4295963
+    longitude: -49.2712724
 
 - conference: PyCon India
   year: 2010
@@ -5094,6 +5265,20 @@
   - latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[5]
+  year: 2009
+  link: https://web.archive.org/web/20090911141327/http://www.pythonbrasil.org.br/2009
+  cfp: '2009-08-03 23:59:00'
+  place: Caxias do Sul, Brazil
+  date: September 10 - 12, 2009
+  start: 2009-09-10
+  end: 2009-09-12
+  sub: PY
+  location:
+  - latitude: -29.1685045
+    longitude: -51.1796385
+
 - conference: PyCon India
   year: 2009
   link: https://web.archive.org/web/20090929193324/http://in.pycon.org/2009/
@@ -5191,6 +5376,20 @@
   - latitude: 41.8755616
     longitude: -87.6244212
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[4]
+  year: 2008
+  link: https://web.archive.org/web/20100407073701/https://pythonbrasil.org.br/2008
+  cfp: '2008-07-27 23:59:00'
+  place: Rio de Janeiro, Brazil
+  date: September 18 - 20, 2008
+  start: 2008-09-18
+  end: 2008-09-20
+  sub: PY
+  location:
+  - latitude: -22.9110137
+    longitude: -43.2093727
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2008
@@ -5276,6 +5475,20 @@
   - latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[3]
+  year: 2007
+  link: https://web.archive.org/web/20100124021234/http://www.pythonbrasil.org.br/2007
+  cfp: '2007-07-27 23:59:00'
+  place: Joinville, Brazil
+  date: August 30 - September 1, 2007
+  start: 2007-08-30
+  end: 2007-09-01
+  sub: PY
+  location:
+  - latitude: -26.3044898
+    longitude: -48.8486726
+
 - conference: PyCon UK
   year: 2007
   link: https://web.archive.org/web/20070630193740/http://www.pyconuk.org/
@@ -5346,6 +5559,20 @@
   - latitude: 46.2047169
     longitude: 6.1423106290939335
 
+- conference: Python Brasil
+  alt_name: PythonBrasil[2]
+  year: 2006
+  link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2006
+  cfp: '2006-05-05 23:59:00'
+  place: Brasilia, Brazil
+  date: June 1 - 2, 2006
+  start: 2006-06-01
+  end: 2006-06-02
+  sub: PY
+  location:
+  - latitude: -10.3333333
+    longitude: -53.2
+
 - conference: PyCon US
   alt_name: PyCon TX
   year: 2006
@@ -5373,6 +5600,20 @@
   location:
   - latitude: 57.7072326
     longitude: 11.9670171
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[1]
+  year: 2005
+  link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2005
+  cfp: '2005-03-03 23:59:00'
+  place: Campinas, Brazil
+  date: April 28 - 29, 2005
+  start: 2005-04-28
+  end: 2005-04-29
+  sub: PY
+  location:
+  - latitude: -22.9056391
+    longitude: -47.059564
 
 - conference: PyCon US
   alt_name: PyCon DC

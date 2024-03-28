@@ -241,12 +241,16 @@
 - conference: Python Brasil
   year: 2020
   link: https://2020.pythonbrasil.org.br/
-  cfp: TBA
-  place: Online
+  cfp: Cancelled
+  place: Caxias do Sul, Brazil
   date: November 2 - 9, 2020
   start: 2020-11-02
   end: 2020-11-09
   sub: PY
+  note: Postponed to 2021 due to COVID-19 pandemic
+  location:
+  - latitude: -29.1685045
+    longitude: -51.1796385
 
 - conference: SciPy Japan
   year: 2020
@@ -641,21 +645,6 @@
   location:
   - latitude: 44.841225
     longitude: -0.5800364
-
-- conference: Python Brasil
-  year: 2019
-  link: https://pythonbrasil.org.br/
-  cfp_link: https://2019.pythonbrasil.org.br/submissao-de-palestras
-  cfp: TBA
-  place: "Ribeir\xE3o Preto, Brazil"
-  date: October 23 - 28, 2019
-  start: 2019-10-23
-  end: 2019-10-28
-  sponsor: https://2019.pythonbrasil.org.br/assets/pdfs/sponsorship_plan.pdf
-  sub: PY
-  location:
-  - latitude: -21.1776315
-    longitude: -47.8100983
 
 - conference: PyDay Barcelona
   year: 2019
@@ -2079,19 +2068,6 @@
   - latitude: 43.3224219
     longitude: -1.9838889
 
-- conference: Python Brasil
-  year: 2017
-  link: https://web.archive.org/web/20170929071852/http://2017.pythonbrasil.org.br/
-  cfp: TBA
-  place: Belo Horizonte, Brazil
-  date: October 6 - 12, 2017
-  start: 2017-10-06
-  end: 2017-10-12
-  sub: PY
-  location:
-  - latitude: -19.9227318
-    longitude: -43.9450948
-
 - conference: PyGotham TV
   year: 2017
   link: https://web.archive.org/web/20171009205218/https://2017.pygotham.org
@@ -2698,19 +2674,6 @@
   location:
   - latitude: 42.3655767
     longitude: -71.1040018
-
-- conference: Python Brasil
-  year: 2016
-  link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
-  cfp: TBA
-  place: "Florian\xF3polis, Brazil"
-  date: October 13 - 18, 2016
-  start: 2016-10-13
-  end: 2016-10-18
-  sub: PY
-  location:
-  - latitude: -27.5973002
-    longitude: -48.5496098
 
 - conference: PyCon Spain
   alt_name: PyCon ES
@@ -3768,19 +3731,6 @@
   - latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: Python Brasil
-  year: 2014
-  link: https://web.archive.org/web/20141207142807/http://2014.pythonbrasil.org.br/
-  cfp: TBA
-  place: Porto de Galinhas, Brazil
-  date: November 9 - 10, 2014
-  start: 2014-11-09
-  end: 2014-11-10
-  sub: PY
-  location:
-  - latitude: -8.5046818
-    longitude: -35.0049962
-
 - conference: PyCon Finland
   alt_name: PyCon FI
   year: 2014
@@ -4502,19 +4452,6 @@
   location:
   - latitude: -1.2043218
     longitude: -47.1583944
-
-- conference: Python Brasil
-  year: 2012
-  link: https://web.archive.org/web/20121117085723/http://2012.pythonbrasil.org.br/
-  cfp: TBA
-  place: Rio de Janeiro, Brazil
-  date: November 21 - 25, 2012
-  start: 2012-11-21
-  end: 2012-11-25
-  sub: PY
-  location:
-  - latitude: -22.9110137
-    longitude: -43.2093727
 
 - conference: RuPy - Brno Edition
   year: 2012
