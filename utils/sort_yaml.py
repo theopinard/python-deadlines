@@ -31,7 +31,7 @@ def sort_by_cfp(data):
     """Sort by CFP date."""
     if "cfp" not in data:
         return "TBA"
-    if data["cfp"] in ["TBA", "Cancelled"]:
+    if data["cfp"].lower() in tba_words:
         return data["cfp"]
     if " " not in data["cfp"]:
         data["cfp"] += " 23:59:00"
@@ -113,7 +113,7 @@ def split_data(data):
         if q.get("end", datetime.datetime.utcnow().replace(microsecond=0).date()) < datetime.datetime.utcnow().replace(
             microsecond=0
         ).date() - datetime.timedelta(days=37):
-            if q["cfp"].lower() in tba_words:
+            if q["cfp"].lower() == "tba":
                 legacy.append(q)
             else:
                 expired.append(q)
