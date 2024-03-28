@@ -823,7 +823,7 @@
     longitude: -122.636465
 
 - conference: Kiwi PyCon
-  alt_name: PyCon NZ
+  alt_name: Kiwi PyCon XII
   year: 2023
   link: https://kiwipycon.nz/
   cfp_link: https://web.archive.org/web/20230314112258/https://kiwipycon.nz/call-for-proposals
@@ -2168,7 +2168,7 @@
     longitude: -111.886797
 
 - conference: Kiwi PyCon
-  alt_name: PyCon NZ
+  alt_name: Kiwi PyCon XI
   year: 2022
   link: https://web.archive.org/web/20220311104918/http://python.nz/kiwipycon
   cfp: '2021-11-30 23:59:00'
@@ -2921,7 +2921,7 @@
     longitude: 80.270186
 
 - conference: Kiwi PyCon
-  alt_name: PyCon NZ
+  alt_name: Kiwi PyCon X
   year: 2019
   link: https://web.archive.org/web/20190616093942/https://python.nz/
   cfp: '2019-06-23 23:59:00'
@@ -3427,6 +3427,20 @@
   - latitude: 53.3498006
     longitude: -6.2602964
 
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2016
+  link: https://web.archive.org/web/20150520215508/http://kiwi.pycon.org/
+  cfp: '2018-09-08 23:59:00'
+  place: Dunedin, New Zealand
+  date: September 9 - 11, 2016
+  start: 2016-09-09
+  end: 2016-09-11
+  sub: PY
+  location:
+  - latitude: -45.8740984
+    longitude: 170.5035755
+
 - conference: PyCon Colombia
   year: 2019
   link: https://web.archive.org/web/20190208183622/https://www.pycon.co/
@@ -3640,6 +3654,20 @@
   location:
   - latitude: -33.928992
     longitude: 18.417396
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2017
+  link: https://web.archive.org/web/20171212164132/https://python.nz/
+  cfp: '2017-09-08 23:59:00'
+  place: Auckland, New Zealand
+  date: December 2 - 3, 2017
+  start: 2017-12-02
+  end: 2017-12-03
+  sub: PY
+  location:
+  - latitude: -36.5412811
+    longitude: 174.5506104914412
 
 - conference: PyHPC
   year: 2017
@@ -4368,6 +4396,20 @@
   - latitude: 43.2957547
     longitude: -0.3685668
 
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2015
+  link: https://web.archive.org/web/20151212164132/https://python.nz/
+  cfp: '2015-06-22 23:59:00'
+  place: Christchurch, New Zealand
+  date: September 4 - 6, 2015
+  start: 2015-09-04
+  end: 2015-09-06
+  sub: PY
+  location:
+  - latitude: -43.530955
+    longitude: 172.6364343
+
 - conference: PyCon UK
   year: 2015
   link: https://web.archive.org/web/20150706194946/http://www.pyconuk.org/
@@ -4686,6 +4728,20 @@
   location:
   - latitude: 53.3498006
     longitude: -6.2602964
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2014
+  link: https://web.archive.org/web/20140802025405/http://kiwi.pycon.org/
+  cfp: '2014-06-30 23:59:00'
+  place: Wellington, New Zealand
+  date: September 12 - 14, 2014
+  start: 2014-09-12
+  end: 2014-09-14
+  sub: PY
+  location:
+  - latitude: -41.2887953
+    longitude: 174.7772114
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -5287,6 +5343,20 @@
   - latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2012
+  link: https://web.archive.org/web/20121212164132/https://nz.pycon.org/
+  cfp: '2012-07-02 23:59:00'
+  place: Dunedin, New Zealand
+  date: September 1 - 2, 2012
+  start: 2012-09-01
+  end: 2012-09-02
+  sub: PY
+  location:
+  - latitude: -45.8740984
+    longitude: 170.5035755
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2012
@@ -5314,6 +5384,20 @@
   location:
   - latitude: 51.3406321
     longitude: 12.3747329
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2013
+  link: https://web.archive.org/web/20130901133936/http://nz.pycon.org/
+  cfp: '2012-06-01 23:59:00'
+  place: Auckland, New Zealand
+  date: September 6 - 8, 2013
+  start: 2013-09-06
+  end: 2013-09-08
+  sub: PY
+  location:
+  - latitude: -36.5412811
+    longitude: 174.5506104914412
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -5480,6 +5564,20 @@
   - latitude: 18.521428
     longitude: 73.8544541
 
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2011
+  link: https://web.archive.org/web/20110312164132/https://nz.pycon.org/
+  cfp: '2011-05-09 23:59:00'
+  place: Wellington, New Zealand
+  date: August 27 - 28, 2011
+  start: 2011-08-27
+  end: 2011-08-28
+  sub: PY
+  location:
+  - latitude: -41.2887953
+    longitude: 174.7772114
+
 - conference: EuroSciPy
   year: 2011
   link: https://web.archive.org/web/20110523143818/https://www.euroscipy.org/
@@ -5549,6 +5647,20 @@
   location:
   - latitude: -25.4295963
     longitude: -49.2712724
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2010
+  link: https://web.archive.org/web/20101023122656/http://nz.pycon.org/
+  cfp: '2010-08-02 23:59:00'
+  place: Waitangi, New Zealand
+  date: November 20 - 21, 2010
+  start: 2010-11-20
+  end: 2010-11-21
+  sub: PY
+  location:
+  - latitude: -35.2704653
+    longitude: 174.0804593
 
 - conference: PyCon India
   year: 2010
@@ -5692,6 +5804,20 @@
   location:
   - latitude: 52.4796992
     longitude: -1.9026911
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2009
+  link: https://web.archive.org/web/20090312164132/https://nz.pycon.org/
+  cfp: '2009-08-12 23:59:00'
+  place: Christchurch, New Zealand
+  date: November 7 - 8, 2009
+  start: 2009-11-07
+  end: 2009-11-08
+  sub: PY
+  location:
+  - latitude: -43.530955
+    longitude: 172.6364343
 
 - conference: Python Brasil
   alt_name: PythonBrasil[5]
