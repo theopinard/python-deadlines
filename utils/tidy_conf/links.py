@@ -1,6 +1,7 @@
 import requests
 from urllib.parse import urlparse
 from datetime import date, timedelta
+from pathlib import Path
 from tqdm import tqdm
 
 
@@ -20,6 +21,25 @@ def check_link_availability(url, start):
     if url.startswith("https://web.archive.org") or url.startswith("http://web.archive.org"):
         return url
 
+    # Check if the URL is cached
+    cache_file = Path("utils", "tidy_conf", "data", ".tmp", "no_archive.txt")
+    cache_file_archived = Path("utils", "tidy_conf", "data", ".tmp", "archived_links.txt")
+
+    # Create the cache file if it doesn't exist
+    cache_file.touch()
+    cache_file_archived.touch()
+
+    # Read the cache file
+    with open(cache_file, "r") as f:
+        cache = f.read().split("\n")[:-1]
+    with open(cache_file_archived, "r") as f:
+        cache_archived = f.read().split("\n")[:-1]
+
+    # Check if the URL is in the cache
+    if url in cache and url not in cache_archived:
+        tqdm.write(f"URL {url} is cached as not found. Returning original URL.")
+        return url
+
     # If the URL is younger than 5 years, check if it's available
     if start > date.today() - timedelta(days=5 * 365):
         try:
@@ -31,13 +51,15 @@ def check_link_availability(url, start):
                 tqdm.write(f"URL {url} was redirected within the same domain to: {final_url}")
                 if "?" in final_url and not "?" in url:
                     tqdm.write("Warning: The final URL contains a query string, but the original URL does not.")
-                    return url
-                return final_url  # Use the final URL for the rest of the process
+                else:
+                    return final_url  # Use the final URL for the rest of the process
             elif response.status_code != 200:
                 tqdm.write(
                     f"Link {url} is not available (status code: {response.status_code}). Trying to find an archived version..."
                 )
             else:
+                if start > date.today():
+                    attempt_archive_url(url, cache_file_archived)
                 return url
         except requests.RequestException as e:
             tqdm.write(f"An error occurred: {e}. Trying to find an archived version...")
@@ -62,10 +84,38 @@ def check_link_availability(url, start):
                 return archived_url
             else:
                 tqdm.write("No archived version found.")
+                attempt_archive_url(url, cache_file_archived)
+                with open(cache_file, "a") as f:
+                    f.write(url + "\n")
                 return url
+
         else:
             tqdm.write("Failed to retrieve archived version.")
             return url
     except requests.RequestException as e:
         tqdm.write(f"An error occurred while retrieving the archived version: {e}")
         return url
+
+
+def attempt_archive_url(url, cache_file):
+    """Attempts to archive a URL using the Wayback Machine."""
+
+    # Read the cache file
+    with open(cache_file, "r") as f:
+        cache = f.read().split("\n")[:-1]
+
+    # Check if the URL is in the cache
+    if url in cache:
+        tqdm.write(f"URL {url} was already archived.")
+        return
+    else:
+        with open(cache_file, "a") as f:
+            f.write(url + "\n")
+
+    try:
+        tqdm.write(f"Attempting archive of {url}.")
+        archive_response = requests.get("https://web.archive.org/save/" + url)
+        if archive_response.status_code == 200:
+            tqdm.write(f"Successfully archived {url}.")
+    except requests.RequestException as e:
+        tqdm.write(f"An error occurred while attempting to archive: {e}")

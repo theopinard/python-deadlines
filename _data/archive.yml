@@ -50,6 +50,19 @@
   - latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: DjangoCon US
+  year: 2008
+  link: https://web.archive.org/web/20180325231945/https://2008.djangocon.us/
+  cfp: None
+  place: Mountain View, USA
+  date: September 6 - 7, 2008
+  start: 2008-09-06
+  end: 2008-09-07
+  sub: WEB
+  location:
+  - latitude: 37.3893889
+    longitude: -122.0832101
+
 - conference: SciPy US
   alt_name: SciPy Workshop
   year: 2003
@@ -188,6 +201,19 @@
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
+
+- conference: DjangoCon US
+  year: 2020
+  link: https://web.archive.org/web/20200508100008/https://2020.djangocon.us
+  cfp: Cancelled
+  place: San Diego, USA
+  date: October 11 - 16, 2020
+  start: 2020-10-11
+  end: 2020-10-16
+  sub: WEB
+  location:
+  - latitude: 32.7174202
+    longitude: -117.1627728
 
 - conference: PyCon UK
   year: 2020
@@ -441,7 +467,7 @@
 - conference: PyLadiesCon
   year: 2023
   link: https://conference.pyladies.com/
-  cfp_link: https://pretalx.com/pyladiescon-2023/cfp
+  cfp_link: https://web.archive.org/web/20231201030942/https://pretalx.com/pyladiescon-2023/cfp
   cfp: '2023-09-04 23:59:00'
   place: Online
   date: December 2 - 3, 2023
@@ -530,7 +556,7 @@
   date: December 14 - 16, 2023
   start: 2023-12-14
   end: 2023-12-16
-  sponsor: https://www.canva.com/design/DAFkARVxuLI/I-ufznB4xLhvsdJEl571NQ/view
+  sponsor: https://web.archive.org/web/20240329124030/https://www.canva.com/design/DAFkARVxuLI/I-ufznB4xLhvsdJEl571NQ/view
   sub: PY
   location:
   - latitude: 13.7524938
@@ -782,7 +808,7 @@
 - conference: Python Brasil
   alt_name: PythonBrasil
   year: 2023
-  link: https://2023.pythonBrazil.org.br/
+  link: https://2023.pythonbrasil.org.br/
   cfp_link: https://pretalx.com/python-Brazil-2023/cfp
   cfp: '2023-06-08 23:59:00'
   cfp_ext: '2023-06-21 23:59:00'
@@ -791,7 +817,7 @@
   date: October 30 - November 5, 2023
   start: 2023-10-30
   end: 2023-11-05
-  sponsor: https://2023.pythonBrazil.org.br/#patrocinadores
+  sponsor: https://2023.pythonbrasil.org.br/#patrocinadores
   twitter: PyConBrazil
   sub: PY
   location:
@@ -972,6 +998,7 @@
     longitude: 126.9782914
 
 - conference: DjangoCon Australia
+  alt_name: DjangoCon AU
   year: 2023
   link: https://2023.djangocon.com.au/
   cfp_link: https://2023.pycon.org.au/program/
@@ -1314,7 +1341,7 @@
 - conference: PyTexas
   year: 2023
   link: https://pytexas.org
-  cfp_link: https://pretalx.com/pytexas-2023/
+  cfp_link: https://web.archive.org/web/20230328105743/https://pretalx.com/pytexas-2023/
   cfp: '2023-01-15 23:59:00'
   place: Austin, USA
   date: April 1 - 2, 2023
@@ -1736,7 +1763,7 @@
 
 - conference: PyCon Brazil
   year: 2022
-  link: https://2022.pythonBrazil.org.br/
+  link: https://2022.pythonbrasil.org.br/
   cfp: '2022-07-03 23:59:00'
   timezone: America/Manaus
   place: Manaus, Brazil
@@ -2503,9 +2530,9 @@
   cfp: '2021-04-01 23:59:00'
   tutorial_deadline: '2021-04-01 23:59:00'
   place: Porto, Portugal
-  date: June 2 - 7, 2021
+  date: June 2 - 6, 2021
   start: 2021-06-02
-  end: 2021-06-07
+  end: 2021-06-06
   sponsor: https://2021.djangocon.eu/sponsors/sponsorships/
   sub: WEB
   location:
@@ -2659,6 +2686,18 @@
   end: 2020-09-06
   sub: PY
 
+- conference: DjangoCon Australia
+  alt_name: DjangoCon AU
+  year: 2020
+  link: https://web.archive.org/web/20200508100008/https://2020.djangocon.com.au/
+  cfp: '2020-07-12 23:59:00'
+  place: Online
+  date: September 4th, 2020
+  start: 2020-09-04
+  end: 2020-09-04
+  sub: WEB
+  note: Alongside PyCon Australia
+
 - conference: PyHEP
   year: 2020
   link: https://indico.cern.ch/event/882824/
@@ -2710,6 +2749,16 @@
   date: June 17 - 19, 2020
   start: 2020-06-17
   end: 2020-06-19
+  sub: WEB
+
+- conference: DjangoCon EU
+  year: 2020
+  link: https://2020.djangocon.eu/
+  cfp: '2020-03-01 11:59:00'
+  place: Online
+  date: September 18 - 20, 2020
+  start: 2020-09-18
+  end: 2020-09-20
   sub: WEB
 
 - conference: PyCon Odessa
@@ -3079,6 +3128,19 @@
   - latitude: 20.6407176
     longitude: -105.220306
 
+- conference: DjangoCon US
+  year: 2019
+  link: https://2019.djangocon.us/
+  cfp: '2019-05-20 23:59:00'
+  place: San Diego, USA
+  date: September 22 - 27, 2019
+  start: 2019-09-22
+  end: 2019-09-27
+  sub: WEB
+  location:
+  - latitude: 32.7174202
+    longitude: -117.1627728
+
 - conference: PyColorado
   year: 2019
   link: https://pycolorado.org/
@@ -3207,6 +3269,21 @@
   - latitude: -33.8698439
     longitude: 151.2082848
 
+- conference: DjangoCon Australia
+  alt_name: DjangoCon AU
+  year: 2019
+  link: https://2019.djangocon.com.au/
+  cfp: '2019-05-05 23:59:00'
+  place: Sydney, Australia
+  date: August 2nd, 2019
+  start: 2019-08-02
+  end: 2019-08-02
+  sub: WEB
+  note: Specialist track at PyCon Australia
+  location:
+  - latitude: -33.8698439
+    longitude: 151.2082848
+
 - conference: EuroSciPy
   year: 2019
   link: https://www.euroscipy.org/2019/
@@ -3263,6 +3340,19 @@
   location:
   - latitude: 53.2190652
     longitude: 6.5680077
+
+- conference: DjangoCon Europe
+  year: 2019
+  link: https://2019.djangocon.eu/
+  cfp: '2019-01-20 23:59:00'
+  place: Copenhagen, Denmark
+  date: April 10 - 14, 2019
+  start: 2019-04-10
+  end: 2019-04-14
+  sub: WEB
+  location:
+  - latitude: 55.6867243
+    longitude: 12.5700724
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
@@ -3592,6 +3682,19 @@
   - latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: DjangoCon US
+  year: 2018
+  link: https://web.archive.org/web/20180912163411/https://2018.djangocon.us/
+  cfp: '2018-06-03 23:59:00'
+  place: San Diego, USA
+  date: October 14 - 19, 2018
+  start: 2018-10-14
+  end: 2018-10-19
+  sub: WEB
+  location:
+  - latitude: 32.7174202
+    longitude: -117.1627728
+
 - conference: PyCon Germany
   alt_name: PyCon.DE
   year: 2018
@@ -3620,6 +3723,20 @@
   location:
   - latitude: 46.0664228
     longitude: 11.1257601
+
+- conference: DjangoCon Australia
+  alt_name: DjangoCon AU
+  year: 2018
+  link: https://web.archive.org/web/20180508100008/https://2018.djangocon.com.au/
+  cfp: '2018-05-28 23:59:00'
+  place: Sydney, Australia
+  date: August 24 - 28, 2018
+  start: 2018-08-24
+  end: 2018-08-28
+  sub: WEB
+  location:
+  - latitude: -33.8698439
+    longitude: 151.2082848
 
 - conference: EuroPython
   year: 2018
@@ -3693,6 +3810,19 @@
   location:
   - latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: DjangoCon Europe
+  year: 2018
+  link: https://web.archive.org/web/20180522135722/https://2018.djangocon.eu/
+  cfp: '2018-02-01 23:59:00'
+  place: Heidelberg, Germany
+  date: May 23 - 27, 2018
+  start: 2018-05-23
+  end: 2018-05-27
+  sub: WEB
+  location:
+  - latitude: 49.4093582
+    longitude: 8.694724
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
@@ -3933,6 +4063,20 @@
   - latitude: 51.8151645
     longitude: 20.3859912
 
+- conference: DjangoCon Australia
+  alt_name: DjangoCon AU
+  year: 2017
+  link: https://web.archive.org/web/20170508100008/https://2017.djangocon.com.au/
+  cfp: '2017-05-07 23:59:00'
+  place: Melbourne, Australia
+  date: August 4 - 8, 2017
+  start: 2017-08-04
+  end: 2017-08-08
+  sub: WEB
+  location:
+  - latitude: -37.8142454
+    longitude: 144.9631732
+
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2017
@@ -3974,6 +4118,19 @@
   location:
   - latitude: 43.946503899999996
     longitude: 12.631031715742981
+
+- conference: DjangoCon US
+  year: 2017
+  link: https://web.archive.org/web/20170723003650/https://2017.djangocon.us/
+  cfp: '2017-04-10 23:59:00'
+  place: Spokane, USA
+  date: August 13 - 18, 2017
+  start: 2017-08-13
+  end: 2017-08-18
+  sub: WEB
+  location:
+  - latitude: 47.6571934
+    longitude: -117.42351
 
 - conference: Python Nordeste
   year: 2017
@@ -4059,6 +4216,19 @@
   location:
   - latitude: 45.5202471
     longitude: -122.674194
+
+- conference: DjangoCon Europe
+  year: 2017
+  link: https://web.archive.org/web/20201108120856/https://2017.djangocon.eu/auth/login/
+  cfp: '2016-12-31 23:59:00'
+  place: Florence, Italy
+  date: April 3 - 7, 2017
+  start: 2017-04-03
+  end: 2017-04-07
+  sub: WEB
+  location:
+  - latitude: 40.038064
+    longitude: 18.4633105
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -4304,7 +4474,7 @@
 - conference: SciPy US
   alt_name: SciPy
   year: 2016
-  link: https://scipy2016.scipy.org/
+  link: https://web.archive.org/web/20190505024043/https://scipy2016.scipy.org/
   cfp: '2016-04-01 23:59:00'
   place: Austin, USA
   date: July 10 - 16, 2016
@@ -4587,6 +4757,19 @@
   - latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: DjangoCon US
+  year: 2015
+  link: https://web.archive.org/web/20150906032808/https://2015.djangocon.us/
+  cfp: '2015-05-15 23:59:00'
+  place: Austin, USA
+  date: September 6 - 11, 2015
+  start: 2015-09-06
+  end: 2015-09-11
+  sub: WEB
+  location:
+  - latitude: 30.2820301
+    longitude: -97.74064262732449
+
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2015
@@ -4686,6 +4869,19 @@
   location:
   - latitude: -5.7944777
     longitude: -35.2119324
+
+- conference: DjangoCon Europe
+  year: 2015
+  link: https://web.archive.org/web/20150621212217/http://2015.djangocon.eu/
+  cfp: '2015-03-18 23:59:00'
+  place: Cardiff, UK
+  date: May 31 - June 5, 2015
+  start: 2015-05-31
+  end: 2015-06-05
+  sub: WEB
+  location:
+  - latitude: 51.4816546
+    longitude: -3.1791934
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -4908,6 +5104,19 @@
   - latitude: -41.2887953
     longitude: 174.7772114
 
+- conference: DjangoCon US
+  year: 2014
+  link: https://web.archive.org/web/20140607062955/http://www.djangocon.us/
+  cfp: '2014-06-28 23:59:00'
+  place: Chicago, USA
+  date: August 30 - September 6, 2014
+  start: 2014-08-30
+  end: 2014-09-06
+  sub: WEB
+  location:
+  - latitude: 41.8755616
+    longitude: -87.6244212
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2014
@@ -5047,6 +5256,20 @@
   location:
   - latitude: 40.038064
     longitude: 18.4633105
+
+- conference: DjangoCon Europe
+  year: 2014
+  link: https://web.archive.org/web/20140523035244/http://2014.djangocon.eu/
+  cfp_link: https://web.archive.org/web/20140127011356/http://2014.djangocon.eu:80/call-for-papers
+  cfp: '2014-02-01 23:59:00'
+  place: Var, France
+  date: May 13 - 17, 2014
+  start: 2014-05-13
+  end: 2014-05-17
+  sub: WEB
+  location:
+  - latitude: 43.41736025
+    longitude: 6.266461588013931
 
 - conference: PyData London
   year: 2014
@@ -5246,6 +5469,19 @@
   - latitude: 43.6534817
     longitude: -79.3839347
 
+- conference: DjangoCon US
+  year: 2013
+  link: https://web.archive.org/web/20130608004141/http://www.djangocon.us/
+  cfp: '2013-06-18 23:59:00'
+  place: Chicago, USA
+  date: September 2 - 7, 2013
+  start: 2013-09-02
+  end: 2013-09-07
+  sub: WEB
+  location:
+  - latitude: 41.8755616
+    longitude: -87.6244212
+
 - conference: EuroSciPy
   year: 2013
   link: https://web.archive.org/web/20130523143818/https://www.euroscipy.org/
@@ -5340,6 +5576,19 @@
   location:
   - latitude: 37.4043966
     longitude: -121.97505187753514
+
+- conference: DjangoCon Europe
+  year: 2013
+  link: https://web.archive.org/web/20130508100008/http://2013.djangocon.eu/
+  cfp: '2013-01-08 23:59:00'
+  place: Warsaw, Poland
+  date: May 15 - 19, 2013
+  start: 2013-05-15
+  end: 2013-05-19
+  sub: WEB
+  location:
+  - latitude: 52.2319581
+    longitude: 21.0067249
 
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
@@ -5593,6 +5842,19 @@
   - latitude: 51.3388736
     longitude: 17.1275518
 
+- conference: DjangoCon US
+  year: 2012
+  link: https://web.archive.org/web/20120508100008/http://2012.djangocon.us/
+  cfp: '2012-06-16 23:59:00'
+  place: Washington, USA
+  date: August 3 - 8, 2012
+  start: 2012-08-03
+  end: 2012-08-08
+  sub: WEB
+  location:
+  - latitude: 47.0365017
+    longitude: -122.9047626
+
 - conference: PyCon Germany
   alt_name: PyCon DE
   year: 2012
@@ -5675,6 +5937,19 @@
   location:
   - latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: DjangoCon Europe
+  year: 2012
+  link: https://web.archive.org/web/20120508100008/http://2012.djangocon.eu/
+  cfp: '2012-04-15 23:59:00'
+  place: Zurich, Switzerland
+  date: June 4 - 8, 2012
+  start: 2012-06-04
+  end: 2012-06-08
+  sub: WEB
+  location:
+  - latitude: 47.3744489
+    longitude: 8.5410422
 
 - conference: EuroPython
   year: 2012
@@ -5786,6 +6061,19 @@
   - latitude: 51.3406321
     longitude: 12.3747329
 
+- conference: DjangoCon US
+  year: 2011
+  link: https://web.archive.org/web/20110508100008/http://2011.djangocon.us/
+  cfp: '2011-07-05 23:59:00'
+  place: Portland, USA
+  date: September 6 - 10, 2011
+  start: 2011-09-06
+  end: 2011-09-10
+  sub: WEB
+  location:
+  - latitude: 45.5202471
+    longitude: -122.674194
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2011
@@ -5868,6 +6156,19 @@
   location:
   - latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: DjangoCon Europe
+  year: 2011
+  link: https://web.archive.org/web/20110508100008/http://2011.djangocon.eu/
+  cfp: '2011-04-15 23:59:00'
+  place: Amsterdam, Netherlands
+  date: June 6 - 10, 2011
+  start: 2011-06-06
+  end: 2011-06-10
+  sub: WEB
+  location:
+  - latitude: 52.4111289
+    longitude: 4.877231604293446
 
 - conference: EuroPython
   year: 2011
@@ -5968,6 +6269,19 @@
   - latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: DjangoCon US
+  year: 2010
+  link: https://web.archive.org/web/20240329123130/https://2010.djangocon.us/
+  cfp: '2010-07-10 23:59:00'
+  place: Portland, USA
+  date: September 7 - 9, 2010
+  start: 2010-09-07
+  end: 2010-09-09
+  sub: WEB
+  location:
+  - latitude: 45.5202471
+    longitude: -122.674194
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2010
@@ -6038,6 +6352,19 @@
   location:
   - latitude: -33.8751704
     longitude: 151.19974848099355
+
+- conference: DjangoCon Europe
+  year: 2010
+  link: https://web.archive.org/web/20110530024806/http://2010.djangocon.eu/
+  cfp: '2010-04-15 23:59:00'
+  place: Berlin, Germany
+  date: May 4 - 8, 2010
+  start: 2010-05-04
+  end: 2010-05-08
+  sub: WEB
+  location:
+  - latitude: 52.5170365
+    longitude: 13.3888599
 
 - conference: SciPy US
   alt_name: SciPy
@@ -6124,6 +6451,19 @@
   location:
   - latitude: -43.530955
     longitude: 172.6364343
+
+- conference: DjangoCon US
+  year: 2009
+  link: https://web.archive.org/web/20240329123101/https://2009.djangocon.us/
+  cfp: '2009-08-07 23:59:00'
+  place: Portland, USA
+  date: September 8 - 12, 2009
+  start: 2009-09-08
+  end: 2009-09-12
+  sub: WEB
+  location:
+  - latitude: 45.5202471
+    longitude: -122.674194
 
 - conference: Python Brasil
   alt_name: PythonBrasil[5]
