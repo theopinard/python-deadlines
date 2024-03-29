@@ -21,17 +21,6 @@
   end: 2021-10-03
   sub: PY
 
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2021
-  link: https://2021.pycon.org.au/
-  cfp: TBA
-  place: Online
-  date: September 10 - 13, 2021
-  start: 2021-09-10
-  end: 2021-09-13
-  sub: PY
-
 - conference: PyHEP
   year: 2021
   link: https://indico.cern.ch/event/1019958/
@@ -1263,20 +1252,6 @@
   location:
   - latitude: 10.9094334
     longitude: 78.3665347
-
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2018
-  link: https://web.archive.org/web/20180817031926/https://2018.pycon-au.org/
-  cfp: TBA
-  place: ICC, Australia
-  date: August 24 - 29, 2018
-  start: 2018-08-24
-  end: 2018-08-29
-  sub: PY
-  location:
-  - latitude: -33.8751704
-    longitude: 151.19974848099355
 
 - conference: Flask Con
   year: 2018
@@ -2611,20 +2586,6 @@
   - latitude: 37.5666791
     longitude: 126.9782914
 
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2016
-  link: https://web.archive.org/web/20160723033326/https://2016.pycon-au.org/
-  cfp: TBA
-  place: Melbourne, Australia
-  date: August 12 - 17, 2016
-  start: 2016-08-12
-  end: 2016-08-17
-  sub: PY
-  location:
-  - latitude: -37.8142454
-    longitude: 144.9631732
-
 - conference: PyOhio
   year: 2016
   link: https://web.archive.org/web/20160727174037/http://www.pyohio.org/
@@ -3173,20 +3134,6 @@
   - latitude: 39.9622601
     longitude: -83.0007065
 
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2015
-  link: https://web.archive.org/web/20150804162534/http://2015.pycon-au.org/
-  cfp: TBA
-  place: Brisbane, Australia
-  date: July 31 - August 5, 2015
-  start: 2015-07-31
-  end: 2015-08-05
-  sub: PY
-  location:
-  - latitude: -27.4689682
-    longitude: 153.0234991
-
 - conference: PyCon Philippines
   alt_name: PyCon PH
   year: 2015
@@ -3612,41 +3559,15 @@
   - latitude: 60.1674881
     longitude: 24.9427473
 
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2014
-  link: https://web.archive.org/web/20140729115454/http://2014.pycon-au.org/
-  cfp: TBA
-  place: Brisbane, Australia
-  date: August 1 - 6, 2014
-  start: 2014-08-01
-  end: 2014-08-06
-  sub: PY
-  location:
-  - latitude: -27.4689682
-    longitude: 153.0234991
-
 - conference: PyOhio
   alt_name: PyOhio PyCamp
-  year: 2014
-  link: https://www.pyohio.org/2024/
-  cfp: TBA
-  place: Columbus, OH USA
-  date: July 26 - 28, 2014
-  start: 2014-07-26
-  end: 2014-07-28
-  location:
-  - latitude: 39.9622601
-    longitude: -83.0007065
-
-- conference: PyOhio
   year: 2014
   link: https://web.archive.org/web/20140704014624/http://tripython.org/pyohio14
   cfp: TBA
   place: Columbus, USA
-  date: July 21 - 26, 2014
-  start: 2014-07-21
-  end: 2014-07-26
+  date: July 26 - 28, 2014
+  start: 2014-07-26
+  end: 2014-07-28
   sub: PY
   location:
   - latitude: 39.9622601
@@ -3678,7 +3599,7 @@
   - latitude: 1.2899175
     longitude: 103.8519072
 
-- conference: conference website
+- conference: Django Village
   year: 2014
   link: https://web.archive.org/web/20160112020839/http://djangovillage.it/
   cfp: TBA
@@ -3992,20 +3913,6 @@
   location:
   - latitude: 39.9622601
     longitude: -83.0007065
-
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2013
-  link: https://web.archive.org/web/20110211105009/http://pycon-au.org/
-  cfp: TBA
-  place: Hobart, Australia
-  date: July 5 - 8, 2013
-  start: 2013-07-05
-  end: 2013-07-08
-  sub: PY
-  location:
-  - latitude: -42.8825088
-    longitude: 147.3281233
 
 - conference: PyCon Singapore
   year: 2013
