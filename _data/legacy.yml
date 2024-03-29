@@ -1356,20 +1356,6 @@
   - latitude: 54.0357892
     longitude: 33.882641
 
-- conference: SciPy US
-  alt_name: SciPy
-  year: 2018
-  link: https://web.archive.org/web/20190625030722/https://scipy2018.scipy.org/
-  cfp: TBA
-  place: Austin, USA
-  date: July 9 - 16, 2018
-  start: 2018-07-09
-  end: 2018-07-16
-  sub: SCIPY
-  location:
-  - latitude: 30.2711286
-    longitude: -97.7436995
-
 - conference: PyHEP
   year: 2018
   link: https://web.archive.org/web/20180818114457/https://indico.cern.ch/event/694818/
@@ -3201,20 +3187,6 @@
   - latitude: -27.4689682
     longitude: 153.0234991
 
-- conference: SciPy US
-  alt_name: SciPy
-  year: 2015
-  link: https://web.archive.org/web/20190625031421/https://scipy2015.scipy.org/
-  cfp: TBA
-  place: Austin, USA
-  date: July 6 - 13, 2015
-  start: 2015-07-06
-  end: 2015-07-13
-  sub: SCIPY
-  location:
-  - latitude: 30.2711286
-    longitude: -97.7436995
-
 - conference: PyCon Philippines
   alt_name: PyCon PH
   year: 2015
@@ -3680,20 +3652,6 @@
   - latitude: 39.9622601
     longitude: -83.0007065
 
-- conference: SciPy US
-  alt_name: SciPy
-  year: 2014
-  link: https://web.archive.org/web/20140625194831/https://conference.scipy.org/scipy2014/
-  cfp: TBA
-  place: Austin, USA
-  date: July 6 - 13, 2014
-  start: 2014-07-06
-  end: 2014-07-13
-  sub: SCIPY
-  location:
-  - latitude: 30.2711286
-    longitude: -97.7436995
-
 - conference: PyCon Dhaka
   year: 2014
   link: https://web.archive.org/web/20140618061134/http://dhaka.pycon.org/
@@ -4061,20 +4019,6 @@
   location:
   - latitude: -42.8825088
     longitude: 147.3281233
-
-- conference: SciPy US
-  alt_name: SciPy
-  year: 2013
-  link: https://web.archive.org/web/20130621023952/http://conference.scipy.org/scipy2013/
-  cfp: TBA
-  place: Austin, USA
-  date: June 24 - 30, 2013
-  start: 2013-06-24
-  end: 2013-06-30
-  sub: SCIPY
-  location:
-  - latitude: 30.2711286
-    longitude: -97.7436995
 
 - conference: PyCon Singapore
   year: 2013

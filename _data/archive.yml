@@ -50,6 +50,34 @@
   - latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: SciPy US
+  alt_name: SciPy Workshop
+  year: 2003
+  link: https://web.archive.org/web/20031207151811/http://www.scipy.org/site_content/scipy03/
+  cfp: None
+  place: Pasadena, USA
+  date: September 11 - 12, 2003
+  start: 2003-09-11
+  end: 2003-09-12
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy Workshop
+  year: 2002
+  link: https://web.archive.org/web/20021030003450/http://www.scipy.org/site_content/scipy02/
+  cfp: None
+  place: Pasadena, USA
+  date: September 5 - 6, 2002
+  start: 2002-09-05
+  end: 2002-09-06
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
 - conference: Pyjamas Conf
   year: 2023
   link: https://pyjamas.live/
@@ -773,6 +801,7 @@
     longitude: 139.73118058112317
 
 - conference: PyCon MEA
+  alt_name: PyCon MEA @ Global DevSlam
   year: 2023
   link: https://globaldevslam.com/
   cfp: '2023-05-31 23:59:00'
@@ -3599,6 +3628,20 @@
   - latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2018
+  link: https://web.archive.org/web/20190625030722/https://scipy2018.scipy.org/
+  cfp: '2018-02-15 23:59:00'
+  place: Austin, USA
+  date: July 9 - 15, 2018
+  start: 2018-07-09
+  end: 2018-07-15
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2018
@@ -4178,6 +4221,20 @@
   - latitude: -2.5307316
     longitude: -44.3068265
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2016
+  link: https://scipy2016.scipy.org/
+  cfp: '2016-04-01 23:59:00'
+  place: Austin, USA
+  date: July 10 - 16, 2016
+  start: 2016-07-10
+  end: 2016-07-16
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyGrunn
   year: 2016
   link: https://web.archive.org/web/20160608055024/http://www.pygrunn.org/
@@ -4506,6 +4563,20 @@
   - latitude: -27.4035083
     longitude: -55.949711812781445
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2015
+  link: https://web.archive.org/web/20190625031421/https://scipy2015.scipy.org/
+  cfp: '2015-04-10 23:59:00'
+  place: Austin, USA
+  date: July 6 - 12, 2015
+  start: 2015-07-06
+  end: 2015-07-12
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: Python Nordeste
   year: 2015
   link: https://web.archive.org/web/20150428210556/http://2015.pythonnordeste.org/
@@ -4798,6 +4869,20 @@
   - latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2014
+  link: https://web.archive.org/web/20140625194831/https://conference.scipy.org/scipy2014/
+  cfp: '2014-04-01 23:59:00'
+  place: Austin, USA
+  date: July 6 - 12, 2014
+  start: 2014-07-06
+  end: 2014-07-12
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyGrunn
   year: 2014
   link: https://web.archive.org/web/20141221190438/http://www.pygrunn.org/
@@ -5078,6 +5163,20 @@
   location:
   - latitude: 53.2190652
     longitude: 6.5680077
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2013
+  link: https://web.archive.org/web/20130621023952/http://conference.scipy.org/scipy2013/
+  cfp: '2013-03-20 23:59:00'
+  place: Austin, USA
+  date: June 24 - 29, 2013
+  start: 2013-06-24
+  end: 2013-06-29
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
 
 - conference: EuroPython
   year: 2013
@@ -5426,6 +5525,20 @@
   - latitude: 50.8465573
     longitude: 4.351697
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2012
+  link: https://web.archive.org/web/20120621023952/http://conference.scipy.org/scipy2012/
+  cfp: '2012-04-30 23:59:00'
+  place: Austin, USA
+  date: July 16 - 21, 2012
+  start: 2012-07-16
+  end: 2012-07-21
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: EuroPython
   year: 2012
   link: https://web.archive.org/web/20120724122915/https://ep2012.europython.eu/
@@ -5591,6 +5704,20 @@
   - latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2011
+  link: https://web.archive.org/web/20110621023952/http://conference.scipy.org/scipy2011/
+  cfp: '2011-04-24 23:59:00'
+  place: Austin, USA
+  date: July 11 - 16, 2011
+  start: 2011-07-11
+  end: 2011-07-16
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: EuroPython
   year: 2011
   link: https://web.archive.org/web/20110626073356/http://ep2011.europython.eu/
@@ -5747,6 +5874,20 @@
   - latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2010
+  link: https://web.archive.org/web/20100621023952/http://conference.scipy.org/scipy2010/
+  cfp: '2010-04-11 23:59:00'
+  place: Austin, USA
+  date: June 28 - July 3, 2010
+  start: 2010-06-28
+  end: 2010-07-03
+  sub: SCIPY
+  location:
+  - latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2010
@@ -5846,6 +5987,20 @@
   location:
   - latitude: 12.9767936
     longitude: 77.590082
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2009
+  link: https://web.archive.org/web/20090621023952/http://conference.scipy.org/scipy2009/
+  cfp: '2009-07-03 23:59:00'
+  place: Pasadena, USA
+  date: August 18 - 23, 2009
+  start: 2009-08-18
+  end: 2009-08-23
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
 
 - conference: PyCon Poland
   alt_name: PyCon PL
@@ -5973,6 +6128,20 @@
   - latitude: 52.4796992
     longitude: -1.9026911
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2008
+  link: https://web.archive.org/web/20080621023952/http://conference.scipy.org/scipy2008/
+  cfp: '2008-06-30 23:59:00'
+  place: Pasadena, USA
+  date: August 19 - 24, 2008
+  start: 2008-08-19
+  end: 2008-08-24
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
 - conference: EuroPython
   year: 2008
   link: https://web.archive.org/web/20080706103533/http://www.europython.org/
@@ -6043,6 +6212,20 @@
   - latitude: -26.3044898
     longitude: -48.8486726
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2007
+  link: https://web.archive.org/web/20070426090312/http://www.scipy.org/SciPy2007
+  cfp: '2007-07-27 23:59:00'
+  place: Pasadena, USA
+  date: August 14 - 18, 2007
+  start: 2007-08-14
+  end: 2007-08-18
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
 - conference: PyCon UK
   year: 2007
   link: https://web.archive.org/web/20070630193740/http://www.pyconuk.org/
@@ -6099,6 +6282,20 @@
   - latitude: 32.7762719
     longitude: -96.7968559
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2006
+  link: https://web.archive.org/web/20060805100237/http://www.scipy.org/SciPy2006/
+  cfp: '2006-07-07 23:59:00'
+  place: Pasadena, USA
+  date: August 17 - 18, 2006
+  start: 2006-08-17
+  end: 2006-08-18
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
 - conference: EuroPython
   year: 2006
   link: https://web.archive.org/web/20060701045949/http://www.europython.org/
@@ -6141,6 +6338,20 @@
   - latitude: 41.931696
     longitude: -87.9889556
 
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2005
+  link: https://web.archive.org/web/20111021085638/http://scipy.org/Developer_Zone/Conferences/SciPy2005
+  cfp: '2005-07-29 23:59:00'
+  place: Pasadena, USA
+  date: September 22 - 23, 2005
+  start: 2005-09-22
+  end: 2005-09-23
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
+
 - conference: EuroPython
   year: 2005
   link: https://web.archive.org/web/20050829082959/http://www.europython.org/
@@ -6182,6 +6393,20 @@
   location:
   - latitude: 38.8950368
     longitude: -77.0365427
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2004
+  link: https://web.archive.org/web/20041210084850/http://www.scipy.org/wikis/scipy04
+  cfp: '2004-07-23 23:59:00'
+  place: Pasadena, USA
+  date: September 2 - 3, 2004
+  start: 2004-09-02
+  end: 2004-09-03
+  sub: SCIPY
+  location:
+  - latitude: 34.1476507
+    longitude: -118.144155
 
 - conference: EuroPython
   year: 2004
