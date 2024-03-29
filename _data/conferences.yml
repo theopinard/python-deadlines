@@ -111,7 +111,8 @@
 - conference: PyData Eindhoven
   alt_name: PyData EHV
   year: 2024
-  link: https://pydata.org/eindhoven2024/call-for-proposals
+  link: https://pydata.org/eindhoven2024/
+  cfp_link: https://pydata.org/eindhoven2024/call-for-proposals
   cfp: '2024-05-13 23:59:00'
   timezone: Europe/Amsterdam
   place: Eindhoven, Netherlands
@@ -119,7 +120,7 @@
   start: 2024-07-11
   end: 2024-07-11
   sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunites
-  sub: PY
+  sub: PYDATA
   location:
   - latitude: 51.4383999131
     longitude: 5.46712979814
@@ -171,7 +172,6 @@
   date: September 5 - 6, 2024
   start: 2024-09-05
   end: 2024-09-06
-  sponsor: https://pydata.org/paris2024/sponsorship-opportunites
   twitter: PyConEstonia
   sub: PY
   location:
@@ -219,6 +219,7 @@
   date: September 25 - 26, 2024
   start: 2024-09-25
   end: 2024-09-26
+  sponsor: https://pydata.org/paris2024/sponsorship-opportunites
   twitter: PyDataParis
   sub: PYDATA
   location:
