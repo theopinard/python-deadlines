@@ -44,6 +44,21 @@
   - latitude: 59.9606739
     longitude: 30.1586551
 
+- conference: PyCon MEA
+  year: 2024
+  link: https://globaldevslam.com/
+  cfp: '2024-05-31 23:59:00'
+  timezone: Asia/Dubai
+  place: Dubai, UAE
+  date: October 14 - 18, 2024
+  start: 2024-10-14
+  end: 2024-10-18
+  twitter: GlobalDevSlam
+  sub: PY
+  location:
+  - latitude: 25.074282349999997
+    longitude: 55.18853865430702
+
 - conference: PyCon India
   year: 2024
   link: https://in.pycon.org/2024/
