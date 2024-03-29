@@ -3902,19 +3902,6 @@
   - latitude: -33.928992
     longitude: 18.417396
 
-- conference: PythonBrasil
-  year: 2013
-  link: https://web.archive.org/web/20150225155412/http://pythonbrasil.org.br/
-  cfp: TBA
-  place: Brasilia, Brazil
-  date: September 30 - October 12, 2013
-  start: 2013-09-30
-  end: 2013-10-12
-  sub: PY
-  location:
-  - latitude: -10.3333333
-    longitude: -53.2
-
 - conference: Plone Conference
   year: 2013
   link: https://web.archive.org/web/20130208160717/http://www.ploneconf.org/

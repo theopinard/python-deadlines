@@ -118,6 +118,7 @@
     longitude: 13.3888599
 
 - conference: Python Brasil
+  alt_name: PythonBrasil
   year: 2020
   link: https://2020.pythonbrasil.org.br/
   cfp: Cancelled
@@ -767,6 +768,7 @@
     longitude: 4.877231604293446
 
 - conference: Python Brasil
+  alt_name: PythonBrasil
   year: 2023
   link: https://2023.pythonBrazil.org.br/
   cfp_link: https://pretalx.com/python-Brazil-2023/cfp
@@ -1705,6 +1707,7 @@
     longitude: 126.9782914
 
 - conference: Python Brasil
+  alt_name: PythonBrasil
   year: 2022
   link: https://web.archive.org/web/20211016000321/http://2022.pythonbrasil.org.br/
   cfp_link: https://pretalx.com/python-brasil-2022/cfp
@@ -2422,6 +2425,7 @@
   sub: PYDATA
 
 - conference: Python Brasil
+  alt_name: PythonBrasil
   year: 2021
   link: https://web.archive.org/web/20210723070931/http://2021.pythonbrasil.org.br/
   cfp: '2021-08-12 23:59:00'
@@ -5069,7 +5073,7 @@
 - conference: Python Brasil
   alt_name: PythonBrasil[9]
   year: 2013
-  link: https://web.archive.org/web/*/http://2013.pythonbrasil.org.br/
+  link: https://web.archive.org/web/20130530100705/http://2013.pythonbrasil.org.br/
   cfp: '2013-07-31 23:59:00'
   place: Brasilia, Brazil
   date: September 30 - October 6, 2013
