@@ -6,7 +6,7 @@ description: Countdown for the Call for Participation of this conference includi
 <head>
   {% include head.html %}
   {% if page.mastodon %}
-  <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl_root }}">
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       fetch("{{page.mastodon}}.rss")
@@ -58,7 +58,7 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="/conference/{{page.conference | slugify: "latin"}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
+            <span id="conf-title-href" href="{{site.baseurl_root}}/conference/{{page.conference | slugify: "latin"}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
           </h1>
           {% if page.alt_name %}
           <h3 id="conf-subtitle">a.k.a. {{page.alt_name}} {{page.year}}</h3>
@@ -106,25 +106,25 @@ description: Countdown for the Call for Participation of this conference includi
           <div>
             <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for CfP link" width="16"
               height="16" />
-            <a id="conf-cfp_link" target="_blank" href="{{page.cfp_link}}">Call for Participation</a>
+            <a id="conf-cfp_link" target="_blank" href="{{page.cfp_link}}">{% t global.cfp %}</a>
           </div>
           {% endif %}
           <div>
             <img src="/static/img/002-home2.svg" class="badge-link" alt="Conference Series" width="16" height="16" />
-            <a id="conf-series" href="/series/{{page.conference | slugify: "latin"}}">All {{page.conference}} conferences</a>
+            <a id="conf-series" href="{{site.baseurl}}/series/{{page.conference | slugify: "latin"}}">{% t conference.all %} {{ page.conference }}</a>
           </div>
           {% if page.finaid %}
           <div>
             <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16"
               height="16" />
-            <a id="conf-finaid" target="_blank" href="{{page.finaid}}">Financial Aid</a>
+            <a id="conf-finaid" target="_blank" href="{{page.finaid}}">{% t conference.finaid %}</a>
           </div>
           {% endif %}
           {% if page.sponsor %}
           <div>
             <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship"
               width="16" height="16" />
-            <a id="conf-sponsor" target="_blank" href="{{page.sponsor}}">Sponsorship Opportunity</a>
+            <a id="conf-sponsor" target="_blank" href="{{page.sponsor}}">{% t conference.sponsor %}</a>
           </div>
           {% endif %}
           {% if page.twitter %}
@@ -144,21 +144,21 @@ description: Countdown for the Call for Participation of this conference includi
         <div id="conf-deadlines" class="row">
           <div class="col-12 col-md-6">
           <div class="meta deadline">
-            Download Conference Deadline:
+            {% t conference.download_dl %}:
           </div>
           <div id="conference-deadline" class="calendar meta"></div>
           <div class="meta deadline">
-            Download Conference Dates:
+            {% t conference.download_date %}:
           </div>
           <div id="conference-calendar" class="calendar meta"></div>
           <div class="meta deadline">
-            Deadline in timezone from conference website:
+            {% t conference.deadline_tz_theirs %}:
           </div>
           <div class="meta">
             <span class="deadline-time">{{conf.cfp | date: "%A, %e %B %Y"}}</span>
           </div>
           <div class="meta">
-            Deadline in your local <span class="local-timezone"></span> timezone:
+            {% t conference.deadline_tz_local %}:
           </div>
           <div class="local-timezone-hide meta">
             <span class="deadline-local-time"></span>
@@ -184,23 +184,23 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-12">
               <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&via=jesperdramsch&text=I%20found%20this%20Python%20conference:%20{{ page.conference }}%20{{page.year}}"
                 data-toggle="tooltip" title="Tweet on Twitter!">
-                Tweet Conference
+                {% t social.twitter %}
               </a> |
               <a href="https://www.linkedin.com/sharing/share-offsite/?url={{site.url}}{{page.url}}" data-toggle="tooltip"
                 title="Share on Linkedin!">
-                Link Conference on LinkedIn
+                {% t social.linkedin %}
               </a> |
               <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&t={{ page.conference }}%20{{page.year}}"
                 data-toggle="tooltip" title="Share of Facebook!">
-                Share Conference on FB
+                {% t social.facebook %}
               </a> |
               <a href="https://api.whatsapp.com/send?text=I%20found%20this%20Python%20conference:%20{{ page.conference }}%20{{page.year}}%20{{site.url}}{{page.url}}"
                 data-action="share/whatsapp/share" data-toggle="tooltip" title="Text on Whatsapp!">
-                Text Conference on WhatsApp
+                {% t social.whatsapp %}
               </a> |
               <a href="mailto:?subject=Do%20you%20want%20to%20speak%20at%20{{ page.conference }}%20{{page.year}}&body=Hey,%20the%20CfP%20deadline%20for%20{{ page.conference }}%20{{page.year}}%20is%20approaching!%20%20{{site.url}}{{page.url}}"
                 data-toggle="tooltip" title="Email to a Friend!">
-                Mail Conference
+                {% t social.email %}
               </a>
         </div>
         </div>
@@ -220,6 +220,7 @@ description: Countdown for the Call for Participation of this conference includi
       var url = new URL(window.location);
       var conf = url.searchParams.get('id');
 
+      luxon.Settings.defaultLocale = "{{ site.lang }}";
       var DateTime = luxon.DateTime;
       var today = DateTime.now();
 
@@ -273,7 +274,7 @@ description: Countdown for the Call for Participation of this conference includi
 
       // render countdown timer
       $('#cfp-timer').countdown(confDeadline.toJSDate(), function (event) {
-        $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+        $(this).html(event.strftime('%D {% t times.normal.days %} %H{% t times.short.hours %} %M{% t times.short.minutes %} %S{% t times.short.seconds %}'));
       });
 
       // render deadline conference time

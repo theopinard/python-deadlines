@@ -166,6 +166,7 @@ function update_filtering(data) {
 
   // rerender calendar
   calendar_data['dataSource'] = conf_list;  // need to update only this
+  calendar_data['language'] = "{{site.lang}}";
   calendar = new Calendar("#calendar-page", calendar_data);
 
   if (data.subs.length === 0 || data.subs.length == data.all_subs.length) {

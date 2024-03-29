@@ -20,26 +20,47 @@
     <div class="collapse navbar-collapse" id="navbar-toggler">
       <ul class="navbar-nav mr-auto">
         <li>
-          <a href="{{site.baseurl}}/" class="nav-link" style="border-bottom: none">Countdowns</a>
+          <a href="{{site.baseurl}}/" class="nav-link" style="border-bottom: none">{% t header.countdown %}</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/calendar" class="nav-link" style="border-bottom: none;">Calendar</a>
+          <a href="{% tl calendar %}" class="nav-link" style="border-bottom: none;">{% t header.calendar %}</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/map" class="nav-link" style="border-bottom: none;">Map</a>
+          <a href="{% tl maps %}" class="nav-link" style="border-bottom: none;">{% t header.maps %}</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/series" class="nav-link" style="border-bottom: none;">Series</a>
+          <a href="{% tl series %}" class="nav-link" style="border-bottom: none;">{% t header.series %}</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/resources" class="nav-link" style="border-bottom: none;">Resources</a>
+          <a href="{% tl resources %}" class="nav-link" style="border-bottom: none;">{% t header.resources %}</a>
         </li>
       </ul>
-      <div class="twitter-github-icons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true"
-          frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        {% t global.current %}
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+        <h6 class="dropdown-header">{% t global.choose %}</h6>
+        {% if page.permalink %}
+        <a class="dropdown-item{% if site.lang == 'en' %} active{%endif%}" href="{{ site.baseurl_root }}{{ page.permalink }}">English</a>
+        {% else %}
+        <a class="dropdown-item{% if site.lang == 'en' %} active{%endif%}" href="{{ site.baseurl_root }}{{ page.url }}">English</a>
+        {% endif %}
+        {% if page.permalink_es %}
+        <a class="dropdown-item{% if site.lang == 'es' %} active{%endif%}" href="{{ site.baseurl_root }}/es{{ page.permalink_es }}">Español</a>
+        {% else %}
+        <a class="dropdown-item{% if site.lang == 'es' %} active{%endif%}" href="{{ site.baseurl_root }}/es{{ page.url }}">Español</a>
+        {% endif %}
+        {% if page.permalink_de %}
+        <a class="dropdown-item{% if site.lang == 'de' %} active{%endif%}" href="{{ site.baseurl_root }}/de{{ page.permalink_de }}">Deutsch</a>
+        {% else %}
+        <a class="dropdown-item{% if site.lang == 'de' %} active{%endif%}" href="{{ site.baseurl_root }}/de{{ page.url }}">Deutsch</a>
+        {% endif %}
       </div>
+    </li>
+    </ul>
     </div>
   </div>
 </nav>

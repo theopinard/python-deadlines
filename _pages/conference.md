@@ -1,13 +1,13 @@
 ---
 layout: post
-title: What is a Python conference?
+title: 'What is a Python conference?'
 author: Jesper Dramsch
-tags: ["Python", "CfP"]
+tags: ['Python', 'CfP']
 permalink: /conference/index.html
 redirect_to: /index.html
 ---
 
-Python is an incredibly popular programming language, with millions of developers building all sorts of software applications. 
+Python is an incredibly popular programming language, with millions of developers building all sorts of software applications.
 
 As a result, there are many Python conferences around the world, where people gather to share their knowledge, learn from each other, and explore the latest trends in the Python ecosystem.
 
@@ -21,8 +21,8 @@ There are many benefits to presenting at a Python conference. First and foremost
 
 Another benefit of presenting at a conference is that it can be a great way to get feedback on your work. Whether you're introducing a new library you've built or sharing some best practices you've developed, the feedback you receive from other attendees can be precious in helping you refine your ideas and improve your work.
 
-In conclusion, attending a Python conference can be a fantastic experience for developers, but presenting at one can take that experience to the next level. With resources like PythonDeadlines to help you keep track of CFPs, there's never been a better time to consider submitting a proposal for your next Python conference. 
+In conclusion, attending a Python conference can be a fantastic experience for developers, but presenting at one can take that experience to the next level. With resources like PythonDeadlines to help you keep track of CFPs, there's never been a better time to consider submitting a proposal for your next Python conference.
 
-So why not give it a try? 
+So why not give it a try?
 
 You might just find that it's one of the most rewarding experiences of your career.

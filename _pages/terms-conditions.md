@@ -1,7 +1,10 @@
 ---
-title: Terms & Conditions
+title: titles.impressum
 author: Jesper Dramsch
+namespace: impressum
 permalink: /legal/terms-conditions/
+permalink_es: /legal/condiciones/
+permalink_de: /legal/impressum/
 layout: post
 ---
 
@@ -13,17 +16,17 @@ By accessing this website we assume you accept these terms and conditions. Do no
 
 The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same. Our Terms and Conditions were created with the help of the [Terms & Conditions Generator](https://www.privacypolicyonline.com/terms-conditions-generator/).
 
-
 ## Legal Notice (Impressum)
 
 ### **Responsible for the content** (Verantwortlich für den Inhalt):
-- Jesper Dramsch
-- c/o easy-shop
-- K. Mothes
-- Schloßstraße 20
-- 06869 Coswig (Anhalt)
 
-- <a href="javascript:location='mailto:\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074';void 0"><script type="text/javascript">document.write('\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074')</script></a>
+-   Jesper Dramsch
+-   c/o easy-shop
+-   K. Mothes
+-   Schloßstraße 20
+-   06869 Coswig (Anhalt)
+
+-   <a href="javascript:location='mailto:\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074';void 0"><script type="text/javascript">document.write('\u006a\u0065\u0073\u0070\u0065\u0072\u0040\u0064\u0072\u0061\u006d\u0073\u0063\u0068\u002e\u006e\u0065\u0074')</script></a>
 
 ## **Dispute resolution** (Streitschlichtung):
 
@@ -45,10 +48,10 @@ Unless otherwise stated, pythondeadlin.es and/or its licensors own the intellect
 
 You must not:
 
-*   Republish material from pythondeadlin.es
-*   Sell, rent or sub-license material from pythondeadlin.es
-*   Reproduce, duplicate or copy material from pythondeadlin.es
-*   Redistribute content from pythondeadlin.es
+-   Republish material from pythondeadlin.es
+-   Sell, rent or sub-license material from pythondeadlin.es
+-   Reproduce, duplicate or copy material from pythondeadlin.es
+-   Redistribute content from pythondeadlin.es
 
 This Agreement shall begin on the date hereof.
 
@@ -58,10 +61,10 @@ pythondeadlin.es reserves the right to monitor all Comments and to remove any Co
 
 You warrant and represent that:
 
-*   You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
-*   The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;
-*   The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy
-*   The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
+-   You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
+-   The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;
+-   The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy
+-   The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
 
 You hereby grant pythondeadlin.es a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
 
@@ -87,10 +90,10 @@ We do not ensure that the information on this website is correct, we do not warr
 
 To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:
 
-*   limit or exclude our or your liability for death or personal injury;
-*   limit or exclude our or your liability for fraud or fraudulent misrepresentation;
-*   limit any of our or your liabilities in any way that is not permitted under applicable law; or
-*   exclude any of our or your liabilities that may not be excluded under applicable law.
+-   limit or exclude our or your liability for death or personal injury;
+-   limit or exclude our or your liability for fraud or fraudulent misrepresentation;
+-   limit any of our or your liabilities in any way that is not permitted under applicable law; or
+-   exclude any of our or your liabilities that may not be excluded under applicable law.
 
 The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
 

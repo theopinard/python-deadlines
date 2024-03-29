@@ -1,6 +1,9 @@
 ---
+namespace: series
 permalink: /series/
-title: Python Event Series List
+permalink_es: /serias/
+permalink_de: /serien/
+title: titles.series
 ---
 
 <html>
@@ -15,11 +18,11 @@ title: Python Event Series List
                 <div class="col-12 col-sm-12">
                   {% include breadcrumbs.html %}
                   <h1>
-                    {{ page.title }}
+                    {{ title }}
                   </h1>
                 </div>
                 <div class="meta col-12">
-                  All Python Event Series.
+                  {% tf series/description.md %}
                 </div>
             </div>
         </div>
@@ -33,10 +36,10 @@ title: Python Event Series List
             <div class="row conf-row">
                 <div class="col-12">
                   <span class="conf-title">
-                      <a title="Deadline Details" href="/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
+                      <a title="Deadline Details" href="{{site.baseurl}}/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
                   </span>
                   <span class="conf-title-small">
-                      <a title="Deadline Details" href="/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
+                      <a title="Deadline Details" href="{{site.baseurl}}/series/{{conf.name | slugify: "latin"}}/">{{conf.name}}</a>
                   </span>
                   <span class="conf-title-icon">
                     <a title="Conference Website" href="{{conf.items[0].link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
@@ -56,20 +59,16 @@ title: Python Event Series List
                 </div>
             </div>
             <div class="row">
-              {% assign conf_time = conf.items[0].start | date: "%s" %}
-              {% if this_time < conf_time %}
-                {% assign last_next = "Next" %}
-              {% else %}
-                {% assign last_next = "Last" %}
-              {% endif %}
+              {% capture lastnext_place %}{% assign conf_time = conf.items[0].start | date: "%s" %}{% if this_time < conf_time %}{% t series.place.next %}{% else %}{% t series.place.last %}{% endif %}{% endcapture %}
+              {% capture lastnext_year %}{% assign conf_time = conf.items[0].start | date: "%s" %}{% if this_time < conf_time %}{% t series.year.next %}{% else %}{% t series.year.last %}{% endif %}{% endcapture %}
               <div class="col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-place">
                     {% assign last_place = conf.items[0].place %}
                     {% if last_place == conf.items[2].place and last_place == conf.items[1].place %}
-                      Always held in:
+                      {% t series.always %}:&nbsp;
                     {% else %}
-                      {{ last_next }} held in:
+                      {{ lastnext_place }}:&nbsp;
                     {% endif %}
                     {% assign idx = 0 %}
                     {% if last_place == "TBD" %}
@@ -88,7 +87,7 @@ title: Python Event Series List
               <div class="col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-time">
-                    {{ last_next }} conference in {{ conf.items[0].year }}.
+                    {{ lastnext_year }} {{ conf.items[0].year }}.
                   </span>
                 </div>
               </div>

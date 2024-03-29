@@ -10,3 +10,5 @@ group :jekyll_plugins do
     gem 'jekyll-datapage-generator'
     gem 'jekyll-maps'
 end
+
+gem "jekyll-multiple-languages-plugin", "~> 1.8"

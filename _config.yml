@@ -4,6 +4,7 @@ tagline: Countdowns to your favourite Python conferences
 
 url: 'https://pythondeadlin.es'
 domain: 'pythondeadlin.es'
+baseurl: ''
 
 twitter_username: jesperdramsch
 twitter_hashtag: python
@@ -26,6 +27,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-datapage-generator
     - jekyll-maps
+    - jekyll-multiple-languages-plugin
 
 author:
     name: Jesper Dramsch
@@ -39,6 +41,14 @@ social:
         - https://www.dramsch.net/linkedin
         - https://www.dramsch.net/mastodon
         - https://www.dramsch.net/github
+
+languages:
+    - en
+    - es
+    - de
+
+exclude_from_localizations:
+    - 'static'
 
 twitter:
     username: jesperdramsch

@@ -1,6 +1,9 @@
 ---
+namespace: calendar
 permalink: /calendar/
-title: Calendar Overview of Python Conference Deadlines and Dates
+permalink_es: /calendario/
+permalink_de: /kalender/
+title: titles.calendar
 ---
 <html>
   <head>
@@ -13,16 +16,10 @@ title: Calendar Overview of Python Conference Deadlines and Dates
     <div class="container">
       <br>
       {% include breadcrumbs.html %}
-      <h1>{{page.title}}</h1>
+      <h1>{{title}}</h1>
       <div class="row">
         <div class="meta col-sm-12">
-          <p>Overview of deadlines and conference dates in a calendar.</p>
-          <p>You can optionally export all deadlines to
-            <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{ site.github_repo }}.ics">Google Calendar</a> or
-            <a href="{{ site.baseurl }}/{{ site.github_repo }}.ics">iCal</a>
-          And subscribe to upcoming Python events on your
-            <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/python-conferences.ics">Google Calendar</a> or
-            <a href="{{ site.baseurl }}/python-conferences.ics">iCal</a>
+          {% tf calendar/description.md %}
           </p>
         </div>
         <br>

@@ -1,6 +1,9 @@
 ---
+namespace: archive
 permalink: /archive/
-title: Past Python Conferences
+permalink_es: /archivo/
+permalink_de: /archiv/
+title: titles.archive
 ---
 
 <html>
@@ -15,17 +18,17 @@ title: Past Python Conferences
                 <div class="col-12 col-sm-12">
                   {% include breadcrumbs.html %}
                   <h1>
-                    {{ site.title }}
+                    {{ title }}
                   </h1>
                 </div>
                 <div class="meta col-12">
-                  Python deadlines curates your favourite Python conferences.
+                  {% tf frontpage/hook.md %}
                 </div>
             </div>
             <br>
             <div class="row">
               <div class="meta col-8">
-                Is your favourite conference missing? Add / edit a conference by <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">sending in a pull request</a>.<br>
+                {% tf frontpage/description.md %}
               </div>
               <div class="meta col-4">
                 <form class="container">
@@ -65,10 +68,10 @@ title: Past Python Conferences
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
-                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
+                      <a title="Deadline Details" href="{{site.baseurl_root}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
                   </span>
                   <span class="conf-title-small">
-                      <a title="Deadline Details" href="/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
+                      <a title="Deadline Details" href="{{site.baseurl_root}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
                   </span>
                   <span class="conf-title-icon">
                     <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
@@ -165,7 +168,7 @@ title: Past Python Conferences
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
-
+      luxon.Settings.defaultLocale = "{{ site.lang }}";
       var DateTime = luxon.DateTime;
       var today = DateTime.now();
 

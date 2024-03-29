@@ -7,7 +7,7 @@ description: Summary of the conference and its instances throughout the years.
 <head>
   {% include head.html %}
   {% if page.mastodon %}
-  <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/mastodon.css" | prepend:site.baseurl_root }}">
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       fetch("{{page.mastodon}}.rss")
@@ -60,11 +60,11 @@ description: Summary of the conference and its instances throughout the years.
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="/summary/{{page.conference | slugify: "latin"}}/">{{page.title}}</span>
+            <span id="conf-title-href" href="{{site.baseurl_root}}/summary/{{page.conference | slugify: "latin"}}/">{{title}}</span>
             <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
                 data-text="Conference instances for the #{{ page.conference }} conference!" data-show-count="false"
                 style="font-size:13px;">Tweet</a>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </span>
           </h1>
         </div>

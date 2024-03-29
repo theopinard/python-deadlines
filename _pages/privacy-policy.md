@@ -1,7 +1,10 @@
 ---
-title: Privacy Policy
+title: titles.privacy
 author: Jesper Dramsch
+namespace: privacy-policy
 permalink: /legal/privacy-policy/
+permalink_es: /legal/privacidad
+permalink_de: /legal/datenschutz
 layout: post
 ---
 

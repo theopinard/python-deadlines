@@ -1,0 +1,74 @@
+global:
+    current: 'en'
+    choose: 'Choose Language'
+    en: 'English'
+    es: 'Espanol'
+    de: 'Deutsch'
+    cfp: 'Call for Participation'
+titles:
+    default: 'Python Conference Deadlines'
+    archive: 'Past Python Conferences'
+    calendar: 'Calendar Overview of Python Conference Deadlines and Dates'
+    map: 'Map Overview of Python Conferences'
+    a404: 'Page Not Found'
+    privacy: 'Privacy Policy'
+    resources: 'Resources for Writing top-notch CfPs'
+    series: 'Python Event Series List'
+    impressum: 'Terms & Conditions'
+description:
+    summary: 'Summary of the conference and its instances throughout the years.'
+header:
+    countdown: 'Countdowns'
+    calendar: 'Calendar'
+    maps: 'Map'
+    series: 'Series'
+    resources: 'Resources'
+conference:
+    title: 'Conference Deadlines'
+    finaid: 'Financial Aid'
+    sponsor: 'Sponsorship Opportunity'
+    all: 'All conferences for'
+    download_dl: 'Download Conference Deadline'
+    download_date: 'Download Conference Dates'
+    deadline_tz_theirs: 'Deadline in timezone from conference website'
+    deadline_tz_local: "Deadline in your local <span class='local-timezone'></span> timezone"
+summary:
+    title: 'Conference Summary'
+series:
+    always: 'Always held in'
+    place:
+        last: 'Last conference in'
+        next: 'Next conference in'
+    year:
+        last: 'Last year held in'
+        next: 'Next year held in'
+times:
+    normal:
+        days: 'days'
+        hours: 'hours'
+        minutes: 'minutes'
+        seconds: 'seconds'
+    short:
+        days: 'd'
+        hours: 'h'
+        minutes: 'm'
+        seconds: 's'
+    months:
+        jan: 'January'
+        feb: 'February'
+        mar: 'March'
+        apr: 'April'
+        may: 'May'
+        jun: 'June'
+        jul: 'July'
+        aug: 'August'
+        sep: 'September'
+        oct: 'October'
+        nov: 'November'
+        dec: 'December'
+social:
+    twitter: 'Tweet Conference'
+    facebook: 'Share Conference on FB'
+    linkedin: 'Link Conference on LinkedIn'
+    whatsapp: 'Text Conference on WhatsApp'
+    email: 'Email Conference'

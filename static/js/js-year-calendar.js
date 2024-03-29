@@ -87,7 +87,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('clickDay', function(e) {
      *   console.log("Click on day: " + e.date + " (" + e.events.length + " events)");
      * })
@@ -99,7 +99,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('clickDay', function(e) {
      *   console.log("Right click on day: " + e.date + " (" + e.events.length + " events)");
      * })
@@ -111,7 +111,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('mouseOnDay', function(e) {
      *   console.log("Mouse enter in a day: " + e.date + " (" + e.events.length + " events)");
      * })
@@ -123,7 +123,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('mouseOutDay', function(e) {
      *   console.log("Mouse leave a day: " + e.date + " (" + e.events.length + " events)");
      * })
@@ -135,7 +135,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('renderEnd', function(e) {
      *   console.log("Render end for year: " + e.currentYear);
      * })
@@ -144,12 +144,12 @@
 
     /**
      * Fired when a date range is selected.
-     * 
+     *
      * Don't forget to enable the `enableRangeSelection` option to be able to use the range selection functionality.
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('selectRange', function(e) {
      *   console.log("Select the range: " + e.startDate + " - " + e.endDate);
      * })
@@ -162,7 +162,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('yearChanged', function(e) {
      *   console.log("New year selected: " + e.currentYear);
      * })
@@ -174,7 +174,7 @@
      * @event
      * @example
      * ```
-     * 
+     *
      * document.querySelector('.calendar').addEventListener('periodChanged', function(e) {
      *   console.log(`New period selected: ${e.startDate} ${e.endDate}`);
      * })
@@ -1362,7 +1362,7 @@
           *
           * @param date The specified day.
           * @param after Whether to check for a free slot on the first part (if `false`) or the last part (if `true`) of the day. If `null`, this will check on the whole day.
-       * 
+       *
        * Usefull only if using the `alwaysHalfDay` option of the calendar, or the `startHalfDay` or `endHalfDay` option of the datasource.
           */
 
@@ -1505,7 +1505,7 @@
       }
       /**
           * Sets the number of months displayed that should be displayed by the calendar.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param numberMonthsDisplayed Number of months that should be displayed by the calendar.
@@ -1537,7 +1537,7 @@
       }
       /**
           * Sets the minimum date of the calendar.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param minDate The minimum date to set.
@@ -1567,8 +1567,8 @@
         return this.options.maxDate;
       }
       /**
-          * Sets the maximum date of the calendar. 
-       * 
+          * Sets the maximum date of the calendar.
+       *
        * This method causes a refresh of the calendar.
           *
           * @param maxDate The maximum date to set.
@@ -1598,8 +1598,8 @@
         return this.options.style;
       }
       /**
-          * Sets the style to use for displaying data source. 
-       * 
+          * Sets the style to use for displaying data source.
+       *
        * This method causes a refresh of the calendar.
           *
           * @param style The style to use for displaying data source ("background", "border" or "custom").
@@ -1647,7 +1647,7 @@
       }
       /**
           * Sets a value indicating whether the weeks number are displayed.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param  displayWeekNumber Indicates whether the weeks number are displayed.
@@ -1675,7 +1675,7 @@
       }
       /**
           * Sets a value indicating whether the calendar header is displayed.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param displayHeader Indicates whether the calendar header is displayed.
@@ -1703,7 +1703,7 @@
       }
       /**
           * Sets a value indicating whether the data source must be rendered on disabled days.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param displayDisabledDataSource Indicates whether the data source must be rendered on disabled days.
@@ -1731,7 +1731,7 @@
       }
       /**
           * Sets a value indicating whether the beginning and the end of each range should be displayed as half selected day.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param alwaysHalfDay Indicates whether the beginning and the end of each range should be displayed as half selected day.
@@ -1759,7 +1759,7 @@
       }
       /**
           * Sets a value indicating whether the user can make range selection.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param enableRangeSelection Indicates whether the user can make range selection.
@@ -1787,7 +1787,7 @@
       }
       /**
           * Sets the disabled days.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param disableDays The disabled days to set.
@@ -1815,7 +1815,7 @@
       }
       /**
           * Sets the disabled days of the week.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param disabledWeekDays The disabled days of the week to set.
@@ -1843,7 +1843,7 @@
       }
       /**
           * Sets the hidden days of the week.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param hiddenWeekDays The hidden days of the week to set.
@@ -1871,10 +1871,10 @@
       }
       /**
           * Sets a value indicating whether the beginning and the end of each range should be displayed as rounded cells.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
-          * @param roundRangeLimits Indicates whether the beginning and the end of each range should be displayed as rounded cells. 
+          * @param roundRangeLimits Indicates whether the beginning and the end of each range should be displayed as rounded cells.
        * @param preventRedering Indicates whether the rendering should be prevented after the property update.
           */
 
@@ -1898,10 +1898,10 @@
         return this.options.enableContextMenu;
       }
       /**
-          * Sets a value indicating whether the default context menu must be displayed when right clicking on a day. 
-          * 
+          * Sets a value indicating whether the default context menu must be displayed when right clicking on a day.
+          *
        * This method causes a refresh of the calendar.
-          * 
+          *
           * @param enableContextMenu Indicates whether the default context menu must be displayed when right clicking on a day.
        * @param preventRedering Indicates whether the rendering should be prevented after the property update.
           */
@@ -1927,7 +1927,7 @@
       }
       /**
           * Sets new context menu items.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param contextMenuItems The new context menu items.
@@ -1955,7 +1955,7 @@
       }
       /**
           * Sets the custom day renderer.
-       * 
+       *
        * This method causes a refresh of the calendar.
        *
        * @param handler The function used to render the days. This function is called during render for each day.
@@ -1983,7 +1983,7 @@
       }
       /**
           * Sets the custom data source renderer. Works only with the style set to "custom".
-       * 
+       *
        * This method causes a refresh of the calendar.
        *
        * @param handler The function used to render the data source. This function is called during render for each day containing at least one event.
@@ -2011,7 +2011,7 @@
       }
       /**
           * Sets the language used for calendar rendering.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param language The language to use for calendar redering.
@@ -2042,7 +2042,7 @@
       }
       /**
           * Sets a new data source.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param dataSource The new data source.
@@ -2088,7 +2088,7 @@
       }
       /**
           * Sets the starting day of the week.
-       * 
+       *
        * This method causes a refresh of the calendar.
           *
           * @param weekStart The starting day of the week. This option overrides the parameter define in the language file.
@@ -2126,11 +2126,11 @@
         this.options.loadingTemplate = typeof loadingTemplate === "string" || loadingTemplate instanceof HTMLElement ? loadingTemplate : null;
       }
       /**
-       * 
+       *
           * Add a new element to the data source.
-       * 
+       *
        * This method causes a refresh of the calendar.
-          * 
+          *
           * @param element The element to add.
        * @param preventRendering Indicates whether the calendar shouldn't be refreshed once the event added.
           */
@@ -2153,15 +2153,61 @@
 
   _exports["default"] = Calendar;
 
-  _defineProperty(Calendar, "locales", {
-    en: {
-      days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-      daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
-      months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-      monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  _defineProperty(Calendar, 'locales', {
+		en: {
+			days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+			daysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+			daysMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+			months: [
+				'January',
+				'February',
+				'March',
+				'April',
+				'May',
+				'June',
+				'July',
+				'August',
+				'September',
+				'October',
+				'November',
+				'December',
+			],
+			monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+			weekShort: 'W',
+			weekStart: 0,
+		},
+		es: {
+			days: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+			daysShort: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
+			daysMin: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
+      months: [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre",
+      ],
+      monthsShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+      weekShort: 'S',
+      weekStart: 1,
+		},
+    de: {
+      days: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+      daysShort: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
+      daysMin: ["S", "M", "D", "M", "D", "F", "S"],
+      months: [
+        "Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"
+      ],
+      monthsShort: ["Jan", "Feb", "März", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
       weekShort: 'W',
-      weekStart: 0
+      weekStart: 1,
     }
   });
 

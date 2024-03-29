@@ -1,0 +1,74 @@
+global:
+    current: 'es'
+    choose: 'Elija Idioma'
+    en: 'English'
+    es: 'Espanol'
+    de: 'Deutsch'
+    cfp: 'Llamada por participación'
+titles:
+    default: 'Fechas Limites de Conferencias de Python '
+    archive: 'Conferencias anteriores de Python'
+    calendar: 'Calendario de conferencias de Python'
+    map: 'Mapa de conferencias de Python'
+    a404: 'Página No Encontrada'
+    privacy: 'Privacidad'
+    resources: 'Recursos para submeter CfP'
+    series: 'Lista de Series de Eventos de Python'
+    impressum: 'Condiciones'
+description:
+    summary: 'Resumen de la conferencia y sus instancias a lo largo de los años.'
+header:
+    countdown: 'Fechas'
+    calendar: 'Calendario'
+    maps: 'Mapa'
+    series: 'Serie'
+    resources: 'Recursos'
+conference:
+    title: 'Fechas de Conferencias'
+    finaid: 'Ayuda financiera'
+    sponsor: 'Oportunidad de patrocinio'
+    all: 'Todas conferencias de '
+    download_dl: 'Descargar fecha límite de la conferencia'
+    download_date: 'Descargar datos de la conferencia'
+    deadline_tz_theirs: 'Fecha límite en la zona horaria de la conferencia'
+    deadline_tz_local: "Fecha límite en sua zona horaria <span class='local-timezone'></span>"
+summary:
+    title: 'Resumen de la Conferencia'
+series:
+    always: 'Todos los años en'
+    place:
+        last: 'Última conferencia en'
+        next: 'Próxima conferencia en'
+    year:
+        last: 'Ùltimo año en'
+        next: 'Próximo año en'
+times:
+    normal:
+        days: 'dias'
+        hours: 'horas'
+        minutes: 'minutos'
+        seconds: 'segundas'
+    short:
+        days: 'd'
+        hours: 'h'
+        minutes: 'm'
+        seconds: 's'
+    months:
+        jan: 'Enero'
+        feb: 'Febrero'
+        mar: 'Marzo'
+        apr: 'Abril'
+        may: 'Mayo'
+        jun: 'Junio'
+        jul: 'Julio'
+        aug: 'Agosto'
+        sep: 'Septiembre'
+        oct: 'Octubre'
+        nov: 'Noviembre'
+        dec: 'Diciembre'
+social:
+    twitter: 'Tweet Conferencia'
+    facebook: 'Compartir Conferencia en FB'
+    linkedin: 'Enlace Conferencia en LinkedIn'
+    whatsapp: 'Texto Conferencia en WhatsApp'
+    email: 'Email Conferencia'
