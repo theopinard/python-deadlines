@@ -53,19 +53,6 @@
   start: 2021-06-16
   end: 2021-06-19
 
-- conference: PyCon Cameroon
-  year: 2021
-  link: https://web.archive.org/web/20200806193219/http://pythoncm.org/pycon.html
-  cfp: TBA
-  place: Douala, Cameroon
-  date: March 18 - 21, 2021
-  start: 2021-03-18
-  end: 2021-03-21
-  sub: PY
-  location:
-  - latitude: 4.0429408
-    longitude: 9.706203
-
 - conference: PyCon Belarus
   year: 2021
   link: https://web.archive.org/web/20190223084649/https://by.pycon.org/
@@ -92,7 +79,7 @@
 
 - conference: BelPy
   year: 2021
-  link: http://belpy.in/
+  link: https://belpy.in/
   cfp: TBA
   place: Online
   date: January 30 - February 1, 2021
@@ -889,7 +876,7 @@
   date: February 23 - 24, 2019
   start: 2019-02-23
   end: 2019-02-24
-  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSfZ7g2QxEpA13QvvHUXvLHcQ0KAiJBEidDMY5UpRRPs_bb4gA/viewform
+  sponsor: https://web.archive.org/web/20240329155454/https://docs.google.com/forms/d/e/1FAIpQLSfZ7g2QxEpA13QvvHUXvLHcQ0KAiJBEidDMY5UpRRPs_bb4gA/viewform
   sub: PY
   location:
   - latitude: 14.63989835
@@ -1582,19 +1569,6 @@
   - latitude: 50.8465573
     longitude: 4.351697
 
-- conference: PyCon Cameroon
-  year: 2018
-  link: https://web.archive.org/web/20180201160312/http://pythoncm.org/pycon.html
-  cfp: TBA
-  place: Limbe, Cameroon
-  date: January 24 - 29, 2018
-  start: 2018-01-24
-  end: 2018-01-29
-  sub: PY
-  location:
-  - latitude: 4.010289
-    longitude: 9.207058
-
 - conference: PyCon Pakistan
   year: 2017
   link: https://web.archive.org/web/20171219132009/http://pycon.pk/
@@ -2245,19 +2219,6 @@
   location:
   - latitude: 50.8465573
     longitude: 4.351697
-
-- conference: PyCon Cameroon
-  year: 2017
-  link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
-  cfp: TBA
-  place: Molyko Buea, Cameroon
-  date: January 20 - 23, 2017
-  start: 2017-01-20
-  end: 2017-01-23
-  sub: PY
-  location:
-  - latitude: 4.1591154
-    longitude: 9.2805172
 
 - conference: PyData Cologne
   year: 2016

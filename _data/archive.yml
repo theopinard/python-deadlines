@@ -1,5 +1,18 @@
 ---
 
+- conference: PyCon Cameroon
+  year: 2017
+  link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
+  cfp: None
+  place: Molyko Buea, Cameroon
+  date: January 20 - 22, 2017
+  start: 2017-01-20
+  end: 2017-01-22
+  sub: PY
+  location:
+  - latitude: 4.1591154
+    longitude: 9.2805172
+
 - conference: Python in finance
   year: 2013
   link: https://web.archive.org/web/20130815205435/http://python-in-finance.com/
@@ -3850,6 +3863,20 @@
   location:
   - latitude: 41.4996574
     longitude: -81.6936772
+
+- conference: PyCon Cameroon
+  year: 2018
+  link: https://web.archive.org/web/20180201160312/http://pythoncm.org/pycon.html
+  cfp: '2017-12-03 23:59:59'
+  timezone: Africa/Douala
+  place: Limbe, Cameroon
+  date: February 23 - 24, 2018
+  start: 2018-02-23
+  end: 2018-02-24
+  sub: PY
+  location:
+  - latitude: 4.010289
+    longitude: 9.207058
 
 - conference: PyCon Indonesia
   alt_name: PyCon ID
