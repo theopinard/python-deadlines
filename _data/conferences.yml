@@ -95,6 +95,21 @@
   - latitude: -41.2887953
     longitude: 174.7772114
 
+- conference: PyOhio
+  year: 2024
+  link: https://pyohio.org/2024/
+  cfp_link: https://www.pyohio.org/2024/speaking/cfp/
+  cfp: '2024-05-20 23:59:00'
+  place: Columbus, USA
+  date: July 27 - 28, 2024
+  start: 2024-07-27
+  end: 2024-07-28
+  sponsor: https://www.pyohio.org/2024/sponsors/prospectus/
+  sub: PY
+  location:
+  - latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: PyCon Russia
   year: 2024
   link: https://www.pycon.ru/
@@ -635,6 +650,7 @@
   date: November 25 - December 1, 2024
   start: 2024-11-25
   end: 2024-12-01
+  sponsor: https://2024.ploneconf.org/en/sponsors
   twitter: ploneconf
   mastodon: https://plone.social/@ploneconf
   sub: WEB
@@ -700,6 +716,7 @@
   date: October 16 - 21, 2024
   start: 2024-10-16
   end: 2024-10-21
+  sponsor: https://2024.pythonbrasil.org.br/theme/media_kits/sponsorship-proposal-pybr-2024.pdf
   sub: PY
   location:
   - latitude: -22.9110137
@@ -748,19 +765,6 @@
   - latitude: -27.5973002
     longitude: -48.5496098
 
-- conference: PyOhio
-  year: 2024
-  link: https://pyohio.org/2024/
-  cfp: TBA
-  place: Columbus, USA
-  date: July 27 - 28, 2024
-  start: 2024-07-27
-  end: 2024-07-28
-  sub: PY
-  location:
-  - latitude: 39.9622601
-    longitude: -83.0007065
-
 - conference: Flask Con
   year: 2024
   link: https://flaskcon.com/2024/coming-soon
@@ -795,7 +799,7 @@
   alt_name: Launching Python Niger
   year: 2024
   link: https://fb.me/e/8alLCsc39
-  cfp: TBA
+  cfp: None
   place: Maradi, Niger Republic
   date: April 28th, 2024
   start: 2024-04-28
