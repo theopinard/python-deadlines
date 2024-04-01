@@ -2,23 +2,20 @@
 # coding: utf-8
 
 # Sort and Clean conference data.
-# It writes to `"prefix"data.yml`, copy those to the conference.yml after screening.
 
 import datetime
 import sys
 import time
 from pathlib import Path
 
-
 import pytz
 import yaml
 from tqdm import tqdm
 
-
 sys.path.append(".")
 from tidy_conf import auto_add_sub, write_conference_yaml
-from tidy_conf.latlon import add_latlon
 from tidy_conf.date import clean_dates, create_nice_date
+from tidy_conf.latlon import add_latlon
 from tidy_conf.links import check_link_availability
 from tidy_conf.titles import tidy_titles
 from tidy_conf.utils import Loader, get_schema, query_yes_no
@@ -58,6 +55,11 @@ def sort_by_date_passed(data):
     """Sort data by date passed."""
     right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
     return sort_by_cfp(data) < right_now
+
+
+def sort_by_name(data):
+    """Sort by name."""
+    return f'{data["conference"]} {str(data["year"])}'.lower()
 
 
 def order_keywords(data):
@@ -215,7 +217,7 @@ def sort_data(base="", prefix=""):
     # pretty_print("New archive:", data)
     write_conference_yaml(expired, out_archive)
 
-    legacy.sort(key=sort_by_date, reverse=True)
+    legacy.sort(key=sort_by_name, reverse=True)
 
     # pretty_print("New legacy:", data)
     write_conference_yaml(legacy, out_legacy)
