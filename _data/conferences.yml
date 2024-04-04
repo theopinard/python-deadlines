@@ -272,7 +272,7 @@
   - latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: "PyCamp Espa\xF1a"
+- conference: "PyCamp España"
   year: 2024
   link: https://pycamp.es/
   cfp_link: https://docs.google.com/forms/d/1PpI3MstjIBH2e9J21UQaTHQLKTTEuR13od3iQkfJ8Zo/viewform?edit_requested=true
@@ -306,7 +306,7 @@
   cfp_link: https://2024.pycon.co/en/call-for-proposals
   cfp: '2024-03-11 23:59:59'
   timezone: America/Bogota
-  place: "Medell\xEDn, Colombia"
+  place: "Medellín, Colombia"
   date: June 7 - 9, 2024
   start: 2024-06-07
   end: 2024-06-09
@@ -737,7 +737,7 @@
   year: 2024
   link: https://sul.python.org.br/
   cfp: TBA
-  place: "Florian\xF3polis - SC, Brazil"
+  place: "Florianópolis - SC, Brazil"
   date: September 13 - 15, 2024
   start: 2024-09-13
   end: 2024-09-15

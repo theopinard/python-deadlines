@@ -122,7 +122,7 @@
   year: 2016
   link: https://web.archive.org/web/20160518213755/http://conf.scipyla.org/scipyla2016/
   cfp: TBA
-  place: "Florian\xF3polis, Brazil"
+  place: "Florianópolis, Brazil"
   date: May 16 - 21, 2016
   start: 2016-05-16
   end: 2016-05-21
@@ -258,7 +258,7 @@
   year: 2012
   link: https://web.archive.org/web/20121205070033/http://rupy.com.br/
   cfp: TBA
-  place: "S\xE3o Paulo, Brazil"
+  place: "São Paulo, Brazil"
   date: December 8 - 10, 2012
   start: 2012-12-08
   end: 2012-12-10
@@ -408,7 +408,7 @@
   year: 2014
   link: https://web.archive.org/web/20141018180902/http://conference.ropython.org/
   cfp: TBA
-  place: "Ia\u0219i, Romania"
+  place: "Iași, Romania"
   date: October 18 - 20, 2014
   start: 2014-10-18
   end: 2014-10-20
@@ -474,7 +474,7 @@
   year: 2019
   link: https://web.archive.org/web/20190428171204/https://2019.pythonsudeste.org/
   cfp: TBA
-  place: "Vit\xF3ria - ES, Brasil"
+  place: "Vitória - ES, Brasil"
   date: April 26 - 29, 2019
   start: 2019-04-26
   end: 2019-04-29
@@ -1115,11 +1115,11 @@
   - latitude: 41.3828939
     longitude: 2.1774322
 
-- conference: "PyDay Asunci\xF3n"
+- conference: "PyDay Asunción"
   year: 2015
   link: https://web.archive.org/web/20150326072907/http://pyday.pythonpy.org/
   cfp: TBA
-  place: "Asunci\xF3n, Paraguay"
+  place: "Asunción, Paraguay"
   date: March 28 - 29, 2015
   start: 2015-03-28
   end: 2015-03-29
@@ -1236,7 +1236,7 @@
   year: 2016
   link: https://web.archive.org/web/20161205091341/http://pydata.org/cologne2016/
   cfp: TBA
-  place: "Deutsches Zentrum f\xFCr Luft- und Raumfahrt (DLR), Germany"
+  place: "Deutsches Zentrum für Luft- und Raumfahrt (DLR), Germany"
   date: November 28 - December 1, 2016
   start: 2016-11-28
   end: 2016-12-01
@@ -2865,7 +2865,7 @@
   year: 2017
   link: https://web.archive.org/web/20171115211033/http://ar.pycon.org/
   cfp: TBA
-  place: "C\xF3rdoba, Argentina"
+  place: "Córdoba, Argentina"
   date: November 17 - 20, 2017
   start: 2017-11-17
   end: 2017-11-20
@@ -2902,7 +2902,7 @@
   - latitude: -34.787093049999996
     longitude: -68.43818677312292
 
-- conference: "PyCon Amaz\xF4nia"
+- conference: "PyCon Amazônia"
   year: 2017
   link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
   cfp: TBA
@@ -2990,7 +2990,7 @@
   year: 2015
   link: https://web.archive.org/web/20150905085007/http://python.org.ar/wiki/PyCamp/2015/
   cfp: TBA
-  place: "C\xF3rdoba, Argentina"
+  place: "Córdoba, Argentina"
   date: August 14 - 18, 2015
   start: 2015-08-14
   end: 2015-08-18
@@ -3426,7 +3426,7 @@
   year: 2016
   link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
   cfp: TBA
-  place: "Del\xE9mont, Switzerland"
+  place: "Delémont, Switzerland"
   date: June 22 - 25, 2016
   start: 2016-06-22
   end: 2016-06-25
@@ -3556,7 +3556,7 @@
   year: 2018
   link: https://web.archive.org/web/20221130002312/https://flask.python.org.br/
   cfp: TBA
-  place: "S\xE3o Paulo, Brazil"
+  place: "São Paulo, Brazil"
   date: August 24 - 26, 2018
   start: 2018-08-24
   end: 2018-08-26
@@ -3656,7 +3656,7 @@
   year: 2019
   link: http://caipyra.python.org.br/
   cfp: TBA
-  place: "S\xE3o Carlos, Brazil"
+  place: "São Carlos, Brazil"
   date: July 7 - 11, 2019
   start: 2019-07-07
   end: 2019-07-11

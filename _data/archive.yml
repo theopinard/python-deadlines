@@ -946,7 +946,7 @@
   cfp_link: https://web.archive.org/web/20230314112258/https://kiwipycon.nz/call-for-proposals
   cfp: '2023-05-19 23:59:00'
   timezone: Pacific/Auckland
-  place: "Waih\u014Dpai (Invercargill), New Zealand"
+  place: "Waihōpai (Invercargill), New Zealand"
   date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
@@ -2128,7 +2128,7 @@
   - latitude: 59.4372155
     longitude: 24.7453688
 
-- conference: "PyCamp Espa\xF1a"
+- conference: "PyCamp España"
   year: 2022
   link: https://pycamp.es/
   cfp: '2022-03-15 23:59:00'
@@ -3032,7 +3032,7 @@
   year: 2019
   link: https://web.archive.org/web/20190615021525/https://2019.pythonbrasil.org.br/
   cfp: '2019-08-05 23:59:00'
-  place: "Ribeir\xE3o Preto, Brazil"
+  place: "Ribeirão Preto, Brazil"
   date: October 23 - 28, 2019
   start: 2019-10-23
   end: 2019-10-28
@@ -3679,7 +3679,7 @@
   link: https://2019.flask.python.org.br/
   cfp_link: https://web.archive.org/web/20210515223939/https://speakerfight.com/events/flaskconf-2018/
   cfp: '2018-08-01 23:55:00'
-  place: "Florian\xF3polis, Brazil"
+  place: "Florianópolis, Brazil"
   date: September 6 - 8, 2019
   start: 2019-09-06
   end: 2019-09-08
@@ -3985,7 +3985,7 @@
   year: 2017
   link: https://web.archive.org/web/20170909095524/http://pyss17.pyss.org/
   cfp: '2017-09-01 23:59:00'
-  place: "San Sebasti\xE1n, Spain"
+  place: "San Sebastián, Spain"
   date: October 6 - 8, 2017
   start: 2017-10-06
   end: 2017-10-08
@@ -4239,7 +4239,7 @@
   cfp_link: https://web.archive.org/web/20170429161113/http://speakerfight.com/events/palestras-python-nordeste-2017-sao-luis-ma/
   cfp: '2017-04-10 23:55:00'
   timezone: America/Recife
-  place: "S\xE3o Lu\xEDs, Brazil"
+  place: "São Luís, Brazil"
   date: June 8 - 10, 2017
   start: 2017-06-08
   end: 2017-06-10
@@ -4378,7 +4378,7 @@
   year: 2016
   link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
   cfp: '2016-08-31 23:59:00'
-  place: "Florian\xF3polis, Brazil"
+  place: "Florianópolis, Brazil"
   date: October 13 - 18, 2016
   start: 2016-10-13
   end: 2016-10-18
@@ -4562,7 +4562,7 @@
   cfp_link: https://web.archive.org/web/20160612043438/http://speakerfight.com/events/python-nordeste-2016/
   cfp: '2016-05-07 23:55:00'
   timezone: America/Recife
-  place: "S\xE3o Lu\xEDs, Brazil"
+  place: "São Luís, Brazil"
   date: June 9 - 11, 2016
   start: 2016-06-09
   end: 2016-06-11
@@ -5973,7 +5973,7 @@
   year: 2012
   link: https://web.archive.org/web/20120918233237/http://pl.pycon.org/2012/
   cfp: '2012-06-24 23:59:59'
-  place: "Mas\u0142\xF3w, Poland"
+  place: "Masłów, Poland"
   date: September 13 - 16, 2012
   start: 2012-09-13
   end: 2012-09-16
