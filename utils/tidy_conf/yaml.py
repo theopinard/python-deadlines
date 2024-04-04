@@ -1,13 +1,16 @@
-import yaml
-
 import sys
 
+import yaml
+
 sys.path.append(".")
-from tidy_conf.utils import get_schema
-from .utils import ordered_dump
-import pandas as pd
-from typing import Union
 from pathlib import Path
+from typing import Union
+
+import pandas as pd
+
+from tidy_conf.utils import get_schema
+
+from .utils import ordered_dump
 
 
 def write_conference_yaml(data: Union[list[dict], pd.DataFrame], url: str) -> None:

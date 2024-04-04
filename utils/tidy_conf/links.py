@@ -1,7 +1,8 @@
-import requests
-from urllib.parse import urlparse
 from datetime import date, timedelta
 from pathlib import Path
+from urllib.parse import urlparse
+
+import requests
 from tqdm import tqdm
 
 
@@ -49,7 +50,7 @@ def check_link_availability(url, start):
             if urlparse(url).netloc == urlparse(final_url).netloc and final_url != url:
                 # Don't cache the redirect if it suddenly has a query string
                 tqdm.write(f"URL {url} was redirected within the same domain to: {final_url}")
-                if "?" in final_url and not "?" in url:
+                if "?" in final_url and "?" not in url:
                     tqdm.write("Warning: The final URL contains a query string, but the original URL does not.")
                 else:
                     return final_url  # Use the final URL for the rest of the process

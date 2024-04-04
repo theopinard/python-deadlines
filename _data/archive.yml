@@ -312,6 +312,41 @@
   - latitude: 52.4081812
     longitude: -1.510477
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2024
+  link: https://pycon-2024.python.ph/
+  cfp: '2023-12-31 23:59:00'
+  timezone: Asia/Manila
+  place: Manila, Philippines
+  date: February 25 - 26, 2024
+  start: 2024-02-25
+  end: 2024-02-26
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSfFUgrENuMWS-Ef4DQdDucTYAwVcV-_kPjnTxpiIXVl7fx-_g/closedform
+  twitter: PyConPH
+  sub: PY
+  location:
+  - latitude: 14.63989835
+    longitude: 121.07819518938447
+
+- conference: Python Pizza Prague
+  alt_name: Prague Python Pizza
+  year: 2024
+  link: https://prague.python.pizza/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfaDox_HZ2il0KOoohtYQJxVbhuTlwMFpmbz8bp-WOoLVQlNQ/closedform
+  cfp: '2023-12-31 23:59:00'
+  timezone: Europe/Prague
+  place: Prague, Czechia
+  date: February 24th, 2024
+  start: 2024-02-24
+  end: 2024-02-24
+  twitter: PythonPizzaConf
+  mastodon: https://fosstodon.org/@pythonpizza/
+  sub: PY
+  location:
+  - latitude: 50.0874654
+    longitude: 14.4212535
+
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
   year: 2024
@@ -3514,6 +3549,19 @@
   - latitude: -26.205
     longitude: 28.049722
 
+- conference: Python San Sebastian
+  year: 2018
+  link: https://web.archive.org/web/20181008223234/http://pyss18.pyss.org/
+  cfp: '2018-09-15 23:59:00'
+  place: Kursaal, Spain
+  date: October 12 - 15, 2018
+  start: 2018-10-12
+  end: 2018-10-15
+  sub: PY
+  location:
+  - latitude: 43.3222716
+    longitude: -1.9856145
+
 - conference: PyCon China
   year: 2018
   link: https://web.archive.org/web/20180927124755/http://cn.pycon.org/2018/city_hangzhou
@@ -3932,6 +3980,32 @@
   location:
   - latitude: 39.7392364
     longitude: -104.984862
+
+- conference: Python San Sebastian
+  year: 2017
+  link: https://web.archive.org/web/20170909095524/http://pyss17.pyss.org/
+  cfp: '2017-09-01 23:59:00'
+  place: "San Sebasti\xE1n, Spain"
+  date: October 6 - 8, 2017
+  start: 2017-10-06
+  end: 2017-10-08
+  sub: PY
+  location:
+  - latitude: 43.3224219
+    longitude: -1.9838889
+
+- conference: Python San Sebastian
+  year: 2016
+  link: http://pyss16.pyss.org/
+  cfp: '2017-08-31 23:59:00'
+  place: San Sebastian, Spain
+  date: September 30 - October 3, 2016
+  start: 2016-09-30
+  end: 2016-10-03
+  sub: PY
+  location:
+  - latitude: 43.3224219
+    longitude: -1.9838889
 
 - conference: PyCon India
   year: 2017
@@ -4606,6 +4680,19 @@
   - latitude: -26.205
     longitude: 28.049722
 
+- conference: Python San Sebastian
+  year: 2015
+  link: https://web.archive.org/web/20150805095718/http://pyss15.pyss.org/en/
+  cfp: '2015-09-25 23:59:00'
+  place: San Sebastian, Spain
+  date: October 24 - 25, 2015
+  start: 2015-10-24
+  end: 2015-10-25
+  sub: PY
+  location:
+  - latitude: 43.3224219
+    longitude: -1.9838889
+
 - conference: PyHPC
   year: 2015
   link: https://web.archive.org/web/20150829112426/http://www.dlr.de/sc/desktopdefault.aspx/tabid-10388/17849_read-42322
@@ -4964,6 +5051,19 @@
   - latitude: 45.5202471
     longitude: -122.674194
 
+- conference: Python Namibia
+  year: 2015
+  link: https://web.archive.org/web/20150201083907/http://python-namibia.org/
+  cfp: '2014-12-15 23:59:00'
+  place: Windhoek, Namibia
+  date: February 2 - 5, 2015
+  start: 2015-02-02
+  end: 2015-02-05
+  sub: PY
+  location:
+  - latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: PyCon China
   year: 2014
   link: https://web.archive.org/web/20141118174321/http://cn.pycon.org/en/
@@ -5056,6 +5156,19 @@
   location:
   - latitude: -26.205
     longitude: 28.049722
+
+- conference: Python San Sebastian
+  year: 2014
+  link: https://web.archive.org/web/20150109142404/http://www.pyss.org/
+  cfp: '2014-08-31 23:59:00'
+  place: San Sebastian, Spain
+  date: September 26 - 29, 2014
+  start: 2014-09-26
+  end: 2014-09-29
+  sub: PY
+  location:
+  - latitude: 43.3224219
+    longitude: -1.9838889
 
 - conference: PyCon UK
   year: 2014
