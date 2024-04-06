@@ -140,6 +140,22 @@
   - latitude: 51.4383999131
     longitude: 5.46712979814
 
+- conference: PyCon Portugal
+  year: 2024
+  link: https://2024.pycon.pt/
+  cfp_link: https://pretalx.evolutio.pt/pycon-portugal-2024/cfp
+  cfp: '2024-04-29 00:00:00'
+  timezone: Europe/Lisbon
+  place: Braga, Portugal
+  date: October 17 - 19, 2024
+  start: 2024-10-17
+  end: 2024-10-19
+  sponsor: https://2024.pycon.pt/sponsors/sponsorship/
+  sub: PY
+  location:
+  - latitude: 41.5510583
+    longitude: -8.4280045
+
 - conference: DjangoCon US
   year: 2024
   link: https://2024.djangocon.us/
@@ -717,6 +733,21 @@
   - latitude: 42.240599
     longitude: -8.720727
 
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2024
+  link: https://2024.pycon.jp/
+  cfp: TBA
+  place: Tokyo, Japan
+  date: September 27 - 29, 2024
+  start: 2024-09-27
+  end: 2024-09-29
+  twitter: pyconjapan
+  sub: PY
+  location:
+  - latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
 - conference: PyData Amsterdam
   year: 2024
   link: https://amsterdam.pydata.org/
@@ -745,6 +776,22 @@
   location:
   - latitude: -27.5973002
     longitude: -48.5496098
+
+- conference: PyCon Malaysia
+  alt_name: PyCon MY
+  year: 2024
+  link: https://pycon.my/
+  cfp: TBA
+  timezone: Asia/Kuala_Lumpur
+  place: Petaling Jaya, Malaysia
+  date: August 24 - 25, 2024
+  start: 2024-08-24
+  end: 2024-08-25
+  twitter: pyconmy
+  sub: PY
+  location:
+  - latitude: 3.0988792
+    longitude: 101.6454202
 
 - conference: Flask Con
   year: 2024
