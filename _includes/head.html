@@ -10,6 +10,21 @@
 {% seo title=false %}
 
 <link rel="alternate" type="application/rss+xml" title="RSS Feed for Pythondeadlin.es" href="/feed.xml" />
+{% if page.permalink %}
+<link rel="alternate" hreflang="en" href="{{ site.baseurl_root }}{{ page.permalink }}" title="">
+{% else %}
+<link rel="alternate" hreflang="en" href="{{ site.baseurl_root }}{{ page.url }}" title="">
+{% endif %}
+{% if page.permalink_es %}
+<link rel="alternate"  title="{{title}} in Spanish" hreflang="es" href="{{ site.baseurl_root }}/es{{ page.permalink_es }}">
+{% else %}
+<link rel="alternate"  title="{{title}} in Spanish" hreflang="es" href="{{ site.baseurl_root }}/es{{ page.url }}">
+{% endif %}
+{% if page.permalink_de %}
+<link rel="alternate"  title="{{title}} in German" hreflang="de" href="{{ site.baseurl_root }}/de{{ page.permalink_de }}">
+{% else %}
+<link rel="alternate"  title="{{title}} in German" hreflang="de" href="{{ site.baseurl_root }}/de{{ page.url }}">
+{% endif %}
 
 <link rel="stylesheet" type="text/css" href="{{ "/static/css/js-year-calendar.min.css" | prepend:site.baseurl_root }}?t={{site.time | date: '%s' }}" media="screen,projection">
 
