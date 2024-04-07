@@ -228,6 +228,21 @@
   - latitude: 48.584614
     longitude: 7.7507127
 
+- conference: Swiss Python Summit
+  year: 2020
+  link: https://web.archive.org/web/20200813000724/https://www.python-summit.ch/
+  cfp: Cancelled
+  cfp_ext: '2019-10-31 23:59:00'
+  place: Rapperswil, Switzerland
+  date: October 23rd, 2020
+  start: 2020-10-23
+  end: 2020-10-23
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - latitude: 47.2266532
+    longitude: 8.8164042
+
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
   year: 2020
@@ -2723,7 +2738,7 @@
 - conference: BelPy
   year: 2021
   link: https://belpy.in/
-  cfp_link: https://www.papercall.io/belpy
+  cfp_link: https://web.archive.org/web/20210301200242/https://www.papercall.io/belpy
   cfp: '2020-12-07 11:59:00'
   timezone: UTC
   place: Online
@@ -4109,6 +4124,19 @@
   - latitude: -7.2459717
     longitude: 112.7378266
 
+- conference: Swiss Python Summit
+  year: 2018
+  link: https://web.archive.org/web/20180205001500/http://www.python-summit.ch/
+  cfp: '2017-10-31 23:59:00'
+  place: Rapperswil, Switzerland
+  date: February 16th, 2018
+  start: 2018-02-16
+  end: 2018-02-16
+  sub: PY
+  location:
+  - latitude: 47.2266532
+    longitude: 8.8164042
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2017
@@ -4513,6 +4541,19 @@
   - latitude: 18.9733536
     longitude: 72.82810491917377
 
+- conference: Swiss Python Summit
+  year: 2017
+  link: https://web.archive.org/web/20170214143104/http://www.python-summit.ch/
+  cfp: '2016-10-31 23:59:00'
+  place: Rapperswil, Switzerland
+  date: February 17th, 2017
+  start: 2017-02-17
+  end: 2017-02-17
+  sub: PY
+  location:
+  - latitude: 47.2266532
+    longitude: 8.8164042
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2016
@@ -4861,6 +4902,19 @@
   location:
   - latitude: 36.8309886
     longitude: 11.9403287
+
+- conference: Swiss Python Summit
+  year: 2016
+  link: https://web.archive.org/web/20160316131658/http://www.python-summit.ch/
+  cfp: '2015-10-31 23:59:00'
+  place: Rapperswil, Switzerland
+  date: February 5 - 6, 2016
+  start: 2016-02-05
+  end: 2016-02-06
+  sub: PY
+  location:
+  - latitude: 47.2266532
+    longitude: 8.8164042
 
 - conference: SciPy India
   year: 2015

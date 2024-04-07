@@ -134,7 +134,7 @@
   date: July 11th, 2024
   start: 2024-07-11
   end: 2024-07-11
-  sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunites
+  sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunities
   sub: PYDATA
   location:
   - latitude: 51.4383999131
@@ -584,7 +584,7 @@
 - conference: PyCon Slovakia
   alt_name: PyCon SK
   year: 2024
-  link: https://2024.pycon.sk/
+  link: https://web.archive.org/web/20231215123341/https://2024.pycon.sk/
   cfp_link: https://2024.pycon.sk/en/cfp
   cfp: '2023-12-31 23:59:59'
   timezone: Europe/Bratislava
@@ -810,7 +810,7 @@
 
 - conference: Flask Con
   year: 2024
-  link: https://flaskcon.com/2024/coming-soon
+  link: https://flaskcon.com/2024/
   cfp: TBA
   place: Pittsburgh, USA
   date: May 17th, 2024
