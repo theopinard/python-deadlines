@@ -7,7 +7,6 @@
   cfp: '2024-08-13 23:59:00'
   timezone: Europe/Warsaw
   place: Gliwice, Poland
-  date: August 29 - September 1, 2024
   start: 2024-08-29
   end: 2024-09-01
   sponsor: https://pl.pycon.org/2024/en/sponsorzy/
@@ -22,7 +21,6 @@
   cfp: '2024-06-25 05:59:00'
   timezone: Europe/Brussels
   place: Aachen, Germany
-  date: August 26 - 30, 2024
   start: 2024-08-26
   end: 2024-08-30
   sub: SCIPY
@@ -36,7 +34,6 @@
   link: https://piterpy.com/en/
   cfp: '2024-06-01 23:59:00'
   place: Saint Petersburg, Russia
-  date: September 26 - 27, 2024
   start: 2024-09-26
   end: 2024-09-27
   sub: PY
@@ -51,7 +48,6 @@
   cfp: '2024-05-31 23:59:00'
   timezone: Asia/Dubai
   place: Dubai, UAE
-  date: October 14 - 18, 2024
   start: 2024-10-14
   end: 2024-10-18
   twitter: GlobalDevSlam
@@ -68,7 +64,6 @@
   tutorial_deadline: '2024-05-31 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: September 20 - 23, 2024
   start: 2024-09-20
   end: 2024-09-23
   twitter: PyConIndia
@@ -85,7 +80,6 @@
   cfp: '2024-05-23 23:59:00'
   timezone: Pacific/Auckland
   place: Te Whanganui-a-Tara Wellington, New Zealand
-  date: August 23 - 25, 2024
   start: 2024-08-23
   end: 2024-08-25
   finaid: https://kiwipycon.nz/attend/financial-aid
@@ -102,7 +96,6 @@
   cfp_link: https://www.pyohio.org/2024/speaking/cfp/
   cfp: '2024-05-20 23:59:00'
   place: Cleveland, USA
-  date: July 27 - 28, 2024
   start: 2024-07-27
   end: 2024-07-28
   sponsor: https://www.pyohio.org/2024/sponsors/prospectus/
@@ -116,7 +109,6 @@
   link: https://www.pycon.ru/
   cfp: '2024-05-15 23:59:00'
   place: Moscow, Russia
-  date: July 26 - 27, 2024
   start: 2024-07-26
   end: 2024-07-27
   sub: PY
@@ -132,11 +124,10 @@
   cfp: '2024-05-13 23:59:00'
   timezone: Europe/Amsterdam
   place: Eindhoven, Netherlands
-  date: July 11th, 2024
   start: 2024-07-11
   end: 2024-07-11
   sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunities
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.4383999131
     longitude: 5.46712979814
@@ -148,7 +139,6 @@
   cfp: '2024-04-29 00:00:00'
   timezone: Europe/Lisbon
   place: Braga, Portugal
-  date: October 17 - 19, 2024
   start: 2024-10-17
   end: 2024-10-19
   sponsor: https://2024.pycon.pt/sponsors/sponsorship/
@@ -164,7 +154,6 @@
   cfp: '2024-04-24 12:00:00'
   timezone: America/New_York
   place: Durham, USA
-  date: September 22 - 27, 2024
   start: 2024-09-22
   end: 2024-09-27
   finaid: https://2024.djangocon.us/opportunity-grants/
@@ -182,7 +171,6 @@
   cfp: '2024-04-22 23:59:00'
   timezone: America/New_York
   place: Philadelphia, USA
-  date: June 20 - 22, 2024
   start: 2024-06-20
   end: 2024-06-22
   sponsor: https://us.wagtail.space/#sponsors
@@ -201,7 +189,6 @@
   cfp: '2024-04-15 23:59:00'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
-  date: September 5 - 6, 2024
   start: 2024-09-05
   end: 2024-09-06
   twitter: PyConEstonia
@@ -217,7 +204,6 @@
   cfp: '2024-04-14 19:18:00'
   timezone: UTC
   place: Belagavi, India
-  date: June 6 - 8, 2024
   start: 2024-06-06
   end: 2024-06-08
   twitter: Belpy2021
@@ -231,7 +217,6 @@
   link: https://2024.northbaypython.org/
   cfp: '2024-04-12 23:59:00'
   place: Petaluma, USA
-  date: June 29 - 30, 2024
   start: 2024-06-29
   end: 2024-06-30
   twitter: northbaypython
@@ -249,7 +234,6 @@
   cfp: '2024-04-08 23:59:00'
   tutorial_deadline: '2024-04-08 23:59:00'
   place: Taipei, Taiwan
-  date: September 21 - 22, 2024
   start: 2024-09-21
   end: 2024-09-22
   sponsor: https://tw.pycon.org/2024/en-us/sponsor
@@ -264,12 +248,11 @@
   cfp_link: https://pydata.org/paris2024/cfp/
   cfp: '2024-04-08 23:59:00'
   place: Paris, France
-  date: September 25 - 26, 2024
   start: 2024-09-25
   end: 2024-09-26
   sponsor: https://pydata.org/paris2024/sponsorship-opportunites
   twitter: PyDataParis
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 48.8588897
     longitude: 2.3200410217200766
@@ -280,7 +263,6 @@
   cfp_link: https://forms.gle/AXzpAA9KyFaR9VHx8
   cfp: '2024-04-07 23:59:00'
   place: Groningen, Netherlands
-  date: May 17th, 2024
   start: 2024-05-17
   end: 2024-05-17
   sponsor: https://pygrunn.org/#sponsoring
@@ -297,7 +279,6 @@
   cfp: '2024-03-31 23:59:00'
   timezone: Europe/Zurich
   place: Brighton, UK
-  date: September 4 - 5, 2024
   start: 2024-09-04
   end: 2024-09-05
   sub: BIZ
@@ -308,10 +289,9 @@
 - conference: PyCamp España
   year: 2024
   link: https://pycamp.es/
-  cfp_link: https://docs.google.com/forms/d/1PpI3MstjIBH2e9J21UQaTHQLKTTEuR13od3iQkfJ8Zo/viewform?edit_requested=true
+  cfp_link: https://docs.google.com/forms/d/1PpI3MstjIBH2e9J21UQaTHQLKTTEuR13od3iQkfJ8Zo/viewform
   cfp: '2024-03-27 23:59:00'
   place: Lleida, Spain
-  date: March 29 - April 1, 2024
   start: 2024-03-29
   end: 2024-04-01
   sub: PY
@@ -325,7 +305,6 @@
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/closedform
   cfp: '2024-03-20 23:59:00'
   place: Kyiv, Ukraine
-  date: April 20th, 2024
   start: 2024-04-20
   end: 2024-04-20
   sub: PY
@@ -340,7 +319,6 @@
   cfp: '2024-03-11 23:59:59'
   timezone: America/Bogota
   place: Medellín, Colombia
-  date: June 7 - 9, 2024
   start: 2024-06-07
   end: 2024-06-09
   twitter: PyConColombia
@@ -354,7 +332,6 @@
   link: https://ng.pycon.org/
   cfp: '2024-03-10 23:59:00'
   place: Lagos, Nigeria
-  date: July 10 - 13, 2024
   start: 2024-07-10
   end: 2024-07-13
   sub: PY
@@ -369,7 +346,6 @@
   cfp: '2024-03-08 23:59:00'
   timezone: Europe/Amsterdam
   place: Arnhem, Netherlands
-  date: June 12 - 14, 2024
   start: 2024-06-12
   end: 2024-06-14
   sponsor: https://nl.wagtail.space/sponsors
@@ -386,7 +362,6 @@
   cfp_link: https://ep2024.europython.eu/cfp/
   cfp: '2024-03-06 23:59:00'
   place: Prague, Czechia
-  date: July 8 - 14, 2024
   start: 2024-07-08
   end: 2024-07-14
   finaid: https://ep2024.europython.eu/finaid/
@@ -403,7 +378,6 @@
   cfp_link: https://even3.com.br/python-nordeste-2024/
   cfp: '2024-03-04 23:59:00'
   place: Natal, Brazil
-  date: August 9 - 11, 2024
   start: 2024-08-09
   end: 2024-08-11
   sponsor: https://drive.google.com/file/d/1WvfelX-Sfp79YcUbf8Hs6e-MtPabVSmO/view
@@ -420,12 +394,11 @@
   cfp: '2024-03-04 23:59:00'
   timezone: Europe/London
   place: London, UK
-  date: June 14 - 16, 2024
   start: 2024-06-14
   end: 2024-06-16
   sponsor: https://pydata.org/london2024/sponsor
   twitter: PyDataLondon
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -437,7 +410,6 @@
   cfp: '2024-02-29 23:59:00'
   timezone: Europe/Madrid
   place: Vigo, Spain
-  date: June 5 - 9, 2024
   start: 2024-06-05
   end: 2024-06-09
   sponsor: https://2024.djangocon.eu/sponsors/sponsorship/
@@ -457,7 +429,6 @@
   cfp: '2024-02-27 23:59:00'
   timezone: America/Los_Angeles
   place: Tacoma, USA
-  date: July 8 - 14, 2024
   start: 2024-07-08
   end: 2024-07-14
   twitter: SciPyConf
@@ -473,7 +444,6 @@
   cfp: '2024-01-23 00:59:00'
   timezone: Europe/Zurich
   place: Basel, Switzerland
-  date: May 27 - 29, 2024
   start: 2024-05-27
   end: 2024-05-29
   sub: GEO
@@ -488,7 +458,6 @@
   cfp: '2024-01-21 23:59:00'
   timezone: Africa/Windhoek
   place: Windhoek, Namibia
-  date: March 4 - 7, 2024
   start: 2024-03-04
   end: 2024-03-07
   sponsor: https://na.pycon.org/sponsorship/
@@ -504,7 +473,6 @@
   cfp: '2024-01-15 23:59:00'
   timezone: Asia/Karachi
   place: Lahore, Pakistan
-  date: March 9 - 10, 2024
   start: 2024-03-09
   end: 2024-03-10
   twitter: PyConPK
@@ -520,7 +488,6 @@
   cfp: '2024-01-14 23:59:00'
   timezone: America/Chicago
   place: Austin, USA
-  date: April 19 - 21, 2024
   start: 2024-04-19
   end: 2024-04-21
   sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
@@ -538,7 +505,6 @@
   cfp: '2024-01-10 23:59:00'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
-  date: April 2 - 6, 2024
   start: 2024-04-02
   end: 2024-04-06
   sponsor: https://pycon.lt/2024/partnership
@@ -555,7 +521,6 @@
   cfp: '2024-01-06 23:59:00'
   cfp_ext: '2024-01-15 23:59:00'
   place: Florence, Italy
-  date: May 22 - 25, 2024
   start: 2024-05-22
   end: 2024-05-25
   sponsor: https://2024.pycon.it/en/sponsor
@@ -572,7 +537,6 @@
   cfp_link: https://pretalx.com/pycascades-2024/cfp
   cfp: '2024-01-04 23:59:00'
   place: Seattle, USA
-  date: April 5 - 8, 2024
   start: 2024-04-05
   end: 2024-04-08
   sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor/
@@ -590,7 +554,6 @@
   cfp_link: https://2024.pycon.sk/en/cfp
   cfp: '2023-12-31 23:59:00'
   place: Bratislava, Slovakia
-  date: March 15 - 17, 2024
   start: 2024-03-15
   end: 2024-03-17
   twitter: pyconsk
@@ -608,13 +571,12 @@
   cfp_ext: '2024-01-07 23:59:59'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: April 22 - 24, 2024
   start: 2024-04-22
   end: 2024-04-24
   sponsor: https://2024.pycon.de/sponsors/
   finaid: https://2024.pycon.de/financial-aid/
   twitter: PyConDE
-  sub: PY,PYDATA
+  sub: PY,DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -626,7 +588,6 @@
   cfp: '2023-12-18 23:59:00'
   timezone: America/New_York
   place: Pittsburgh, USA
-  date: May 15 - 23, 2024
   start: 2024-05-15
   end: 2024-05-23
   sponsor: https://us.pycon.org/2024/sponsorship/why-sponsor/
@@ -644,12 +605,11 @@
   cfp: '2023-07-14 23:59:00'
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
-  date: November 4th, 2024
   start: 2024-11-04
   end: 2024-11-04
   sponsor: https://pydata.org/telaviv2024/sponsor
   twitter: PyDataTLV
-  sub: PYDATA
+  sub: DATA
   note: Postponed from 2023
   location:
   - latitude: 32.0852997
@@ -660,7 +620,6 @@
   link: https://2024.ploneconf.org/en
   cfp: TBA
   place: Brasilia, Brazil
-  date: November 25 - December 1, 2024
   start: 2024-11-25
   end: 2024-12-01
   sponsor: https://2024.ploneconf.org/en/sponsors
@@ -679,7 +638,6 @@
   cfp: TBA
   timezone: Europe/Paris
   place: Strasbourg, France
-  date: October 31 - November 3, 2024
   start: 2024-10-31
   end: 2024-11-03
   sponsor: https://pycon.fr/2024/fr/sponsors.html
@@ -696,7 +654,6 @@
   link: https://pycon.id/
   cfp: TBA
   place: Yogyakarta, Indonesia
-  date: October 25 - 27, 2024
   start: 2024-10-25
   end: 2024-10-27
   sub: PY
@@ -711,7 +668,6 @@
   cfp: TBA
   timezone: Europe/Zurich
   place: Rapperswil, Switzerland
-  date: October 17 - 18, 2024
   start: 2024-10-17
   end: 2024-10-18
   twitter: pythonsummit
@@ -726,7 +682,6 @@
   link: https://2024.pythonbrasil.org.br/
   cfp: TBA
   place: Rio de Janeiro, Brazil
-  date: October 16 - 21, 2024
   start: 2024-10-16
   end: 2024-10-21
   sponsor: https://2024.pythonbrasil.org.br/theme/media_kits/sponsorship-proposal-pybr-2024.pdf
@@ -741,7 +696,6 @@
   link: https://2024.es.pycon.org/
   cfp: TBA
   place: Vigo, Spain
-  date: October 4 - 6, 2024
   start: 2024-10-04
   end: 2024-10-06
   sub: PY
@@ -755,7 +709,6 @@
   link: https://2024.pycon.jp/
   cfp: TBA
   place: Tokyo, Japan
-  date: September 27 - 29, 2024
   start: 2024-09-27
   end: 2024-09-29
   twitter: pyconjapan
@@ -770,11 +723,10 @@
   cfp: TBA
   timezone: Europe/Amsterdam
   place: Amsterdam, Netherlands
-  date: September 18 - 20, 2024
   start: 2024-09-18
   end: 2024-09-20
   sponsor: https://amsterdam.pydata.org/sponsor/
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.4111289
     longitude: 4.877231604293446
@@ -785,7 +737,6 @@
   link: https://sul.python.org.br/
   cfp: TBA
   place: Florianópolis, Brazil
-  date: September 13 - 15, 2024
   start: 2024-09-13
   end: 2024-09-15
   sub: PY
@@ -800,7 +751,6 @@
   cfp: TBA
   timezone: Asia/Kuala_Lumpur
   place: Petaling Jaya, Malaysia
-  date: August 24 - 25, 2024
   start: 2024-08-24
   end: 2024-08-25
   twitter: pyconmy
@@ -814,7 +764,6 @@
   link: https://flaskcon.com/2024/
   cfp: TBA
   place: Pittsburgh, USA
-  date: May 17th, 2024
   start: 2024-05-17
   end: 2024-05-17
   sub: WEB
@@ -829,7 +778,6 @@
   link: https://fb.me/e/8alLCsc39
   cfp: None
   place: Maradi, Niger Republic
-  date: April 28th, 2024
   start: 2024-04-28
   end: 2024-04-28
   sub: PY

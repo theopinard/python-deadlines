@@ -4,7 +4,7 @@
         clickDay: function (e) {
           if (e.events.length > 0) {
             for (var i in e.events) {
-              window.open("{{site.baseurl}}/conference?id=" + e.events[i].abbreviation, "_self")
+              window.open("{{site.baseurl}}/conference/" + e.events[i].abbreviation, "_self")
             }
           }
         },
@@ -36,9 +36,9 @@
               } else {
               }
               content +=
-                '<div class="event-tooltip-content">' +
+                '<div class="event-tooltip-content position-relative">' +
                 '<div class="event-name ' + headline_color + '">' +
-                '<b>' + e.events[i].name + '</b>' +
+                '<b><a href="{{site.baseurl}}/conference/' + e.events[i].abbreviation + '" class="stretched-link">' + e.events[i].name + '</a></b>' +
                 '</div>' +
                 '<div class="event-location">' +
                 location_html +
@@ -59,12 +59,14 @@
             });
 
             $(e.element).popover("show");
+            timeoutPopover(e);
           }
         },
-        mouseOutDay: function (e) {
-          if (e.events.length > 0) {
-            $(e.element).popover("hide");
-          }
+        focusoutDay: function (e) {
+          // if (e.events.length > 0) {
+          //   $(e.element).popover("hide");
+          // }
+          timeoutPopover(e);
         },
         customDayRenderer: function (cellContent, currentDate) {
           var today = new Date();
@@ -74,10 +76,45 @@
           }
         },
         dayContextMenu: function (e) {
-          $(e.element).popover("hide");
+          // $(e.element).popover("hide");
+          timeoutPopover(e);
         },
         dataSource: conf_list_all
-      }
+}
+
+// Function to show the popover
+function timeoutPopover(e) {
+  // Ensure e has a property to store the timeout if it doesn't already exist
+  if (!e.hidePopoverTimeout) {
+    e.hidePopoverTimeout = null;
+  }
+
+  // Mouse enter event for the calendar item to show the popover
+  $(e.element).mouseover(function() {
+    clearTimeout(e.hidePopoverTimeout); // Cancel any pending hide operation
+    $(e.element).popover('show');
+  });
+
+  // Mouse leave event for the calendar item to hide the popover
+  $(e.element).mouseout(function() {
+    // Start a timeout when leaving the element, gives a buffer time to move to the popover
+    e.hidePopoverTimeout = setTimeout(function() {
+      $(e.element).popover('hide');
+    }, 300); // Adjust delay as needed
+  });
+
+    // Prevent popover from hiding when mouse is over the popover
+  $("body").on('mouseover', '.popover', function() {
+    clearTimeout(e.hidePopoverTimeout);
+  }).on('mouseout', '.popover', function() {
+    // Hide the popover when leaving it after a delay, allows returning to the calendar item
+    e.hidePopoverTimeout = setTimeout(function() {
+      $(e.element).popover('hide');
+    }, 300); // Adjust delay as needed
+  });
+}
+
+
 function load_conference_list() {
   // Gather data
   var conf_list_all = [];
@@ -88,6 +125,7 @@ function load_conference_list() {
 		{% else %}
 			{% assign cfp = conf.cfp %}
 		{% endif %}
+    {% capture conf_date %}{% translate_file dates/pretty_dates.html %}{% endcapture %}
     // add deadlines in red
     conf_list_all.push({
       id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-deadline",
@@ -95,7 +133,7 @@ function load_conference_list() {
       name: "{{conf.conference}} {{conf.year}} CfP {{extended}}",
       color: "red",
       location: "{{conf.place}}",
-      date: "{{conf.date}}",
+      date: "{{conf_date}}",
       subject: "{{conf.sub}}",
       startDate: Date.parse("{{cfp}}"),
       endDate: Date.parse("{{cfp}}"),
@@ -107,7 +145,7 @@ function load_conference_list() {
       name: "{{conf.conference}} {{conf.year}} Workshop Deadline",
       color: "red",
       location: "{{conf.place}}",
-      date: "{{conf.date}}",
+      date: "{{ conf_date | strip }}",
       subject: "{{conf.sub}}",
       startDate: Date.parse("{{conf.workshop_deadline}}"),
       endDate: Date.parse("{{conf.workshop_deadline}}"),
@@ -120,7 +158,7 @@ function load_conference_list() {
       name: "{{conf.conference}} {{conf.year}} Tutorial Deadline",
       color: "red",
       location: "{{conf.place}}",
-      date: "{{conf.date}}",
+      date: "{{ conf_date | strip }}",
       subject: "{{conf.sub}}",
       startDate: Date.parse("{{cfp}}"),
       endDate: Date.parse("{{cfp}}"),
@@ -142,7 +180,7 @@ function load_conference_list() {
         name: "{{conf.conference}} {{conf.year}}",
         color: color,
         location: "{{conf.place}}",
-        date: "{{conf.date}}",
+        date: "{{ conf_date | strip }}",
         subject: "{{conf.sub}}",
         startDate: Date.parse("{{conf.start}}"),
         endDate: Date.parse("{{conf.end}}"),

@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="col-6">
+		{% for sub in subs %}
+		<span
+			title="Click to only show {{sub | strip}} conferences"
+			data-sub="{{sub | strip}}"
+			class="badge badge-light conf-sub {{sub | strip}}-tag"
+		></span>
+		{% endfor %}
+	</div>
+	<div class="col-6">
+		<div class="calendar"></div>
+	</div>
+</div>

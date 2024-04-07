@@ -7,233 +7,145 @@ title: titles.archive
 ---
 
 <html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                  {% include breadcrumbs.html %}
-                  <h1>
-                    {{ title }}
-                  </h1>
-                </div>
-                <div class="meta col-12">
-                  {% tf frontpage/hook.md %}
-                </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="meta col-8">
-                {% tf frontpage/description.md %}
-              </div>
-              <div class="meta col-4">
-                <form class="container">
-                  <div class="row justify-content-center">
-                    <div class="row align-items-md-center col-12 col-10-md">
-                      <div class="col-12 col-md-5 filter-label">
-                        <label for="subject-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
-                          Subject Filter:
-                        </label>
-                      </div>
-                      <div class="col-12 col-md-6">
-                        <select
-                          id="subject-select"
-                          name="subject-select"
-                          multiple="multiple"
-                          style="display: none"
-                        >
-                          {% for type in site.data.types %}
-                          <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-                            {{type.name}} ({{type.sub}})
-                          </option>
-                          {% endfor %}
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-        </div>
-        <div id="confs">
-        <div id="past_confs">
-          <h1 id="past-events-title">Past Events</h1>
-          {% for conf in site.data.archive %}
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		{% include header.html %}
+		<div class="container">
+			<div class="page-header">
+				<div class="row">
+					<div class="col-12 col-sm-12">
+						{% include breadcrumbs.html %}
+						<h1>{{ title }}</h1>
+					</div>
+					<div class="meta col-12">{% tf frontpage/hook.md %}</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="meta col-8">{% tf frontpage/description.md %}</div>
+					<div class="meta col-4">
+						<form class="container">
+							<div class="row justify-content-center">
+								<div class="row align-items-md-center col-12 col-10-md">
+									<div class="col-12 col-md-5 filter-label">
+										<label
+											for="subject-select"
+											class="align-center"
+											style="margin-bottom: 0px; line-height: 1.5"
+										>
+											{% t global.sub_filter %}
+										</label>
+									</div>
+									<div class="col-12 col-md-6">
+										<select
+											id="subject-select"
+											name="subject-select"
+											multiple="multiple"
+											style="display: none"
+										>
+											{% for type in site.data.types %}
+											<option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+												{{type.name}} ({{type.sub}})
+											</option>
+											{% endfor %}
+										</select>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="confs">
+				<div id="past_confs">
+					<h1 id="past-events-title">{% t titles.past_events %}</h1>
+					{% assign confs = site.data.archive | sort: "start" | reverse %} 
+          {% for conf in confs %} 
           {% assign subs = conf.sub | split: "," %}
-          <div id="{{conf.conference | slugify: "latin"}}-{{conf.year}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
-            <div class="row conf-row">
-                <div class="col-6">
-                  <span class="conf-title">
-                      <a title="Deadline Details" href="{{site.baseurl_root}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
-                  </span>
-                  <span class="conf-title-small">
-                      <a title="Deadline Details" href="{{site.baseurl_root}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
-                  </span>
-                  <span class="conf-title-icon">
-                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% if conf.cfp_link %}
-                  <span class="conf-title-icon">
-                    <a title="Call for Participation" href="{{conf.cfp_link}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                  {% if page.finaid %}
-                  <div class="col-12">
-                    <img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Life Buoy for Financial Aid" width="16" height="16" />
-                    <a id="conf-finaid" target="_blank" href="{{page.finaid}}">Financial Aid</a>
-                  </div>
-                  {% endif %}
-                  {% if page.sponsor %}
-                  <div class="col-12">
-                    <img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Coin Dollar Icon for Sponsorship" width="16" height="16" />
-                    <a id="conf-sponsor" target="_blank" href="{{page.sponsor}}">Sponsorship Opportunity</a>
-                  </div>
-                  {% endif %}
-                  {% if conf.mastodon %}
-                  <span class="conf-title-icon">
-                    <a title="Mastodon for Conference" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% elsif conf.twitter %}
-                  <span class="conf-title-icon">
-                    <a title="Twitter for Conference" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                </div>
-                <div class="col-6">
-                  <span class="timer"></span>
-                  <span class="timer-small"></span>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
-                  <span class="conf-place">
-                    {% if conf.place == "Online" %}
-                    <a href="#">{{conf.place}}</a>
-                    {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-                    {% if conf.extra_places %}
-                      {% for place in conf.extra_places %}
-                        & <a href="http://maps.google.com/?q={{place}}">{{place}}</a>
-                      {% endfor %}
-                    {% endif %}
-                    {% endif %}
-                  </span>
-                </div>
-                {% if conf.note %}
-                  <div class="note">
-                      <b>Note: </b>{{conf.note}}
-                  </div>
-                {% endif %}
+					<div
+						id="{{conf.conference | slugify: 'latin'}}-{{conf.year}}"
+						class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}"
+					>
+						{% include index_conf_title_row.html %}
+						{% include index_conf_date_place.html %}
+						{% include index_conf_subs.html %}
+						<hr />
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<footer>{% include footer.html %}</footer>
+			<br /><br />
+		</div>
+		<script type="text/javascript" charset="utf-8">
+			$(function() {
+			  luxon.Settings.defaultLocale = "{{ site.lang }}";
+			  var DateTime = luxon.DateTime;
+			  var today = DateTime.now();
 
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="deadline">
-                  <div>Deadline:
-                    <span class="deadline-time">{{conf.cfp | date: "%A, %e %B %Y"}}</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                {% assign subs = conf.sub | split: "," %}
-                {% for sub in subs %}
-                <span title="Click to only show {{sub | strip}} conferences" data-sub="{{sub | strip}}" class="badge badge-light conf-sub {{sub | strip}}-tag"></span>
-                {% endfor %}
-              </div>
-              <div class="col-6">
-                <div class="calendar"></div>
-              </div>
-            </div>
-            <hr>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      <footer>
-            {% include footer.html %}
-      </footer>
-      <br><br>
-    </div>
-    <script type="text/javascript" charset="utf-8">
-    $(function() {
-      luxon.Settings.defaultLocale = "{{ site.lang }}";
-      var DateTime = luxon.DateTime;
-      var today = DateTime.now();
-
-      // Make sure this is >= no. of subs
-      // Currently not used
-      var colors = ['#341f97', '#ee5253', '#2e86de',
-                    '#ff9f43', '#10ac84', '#222f3e']
+			  // Make sure this is >= no. of subs
+			  // Currently not used
+			  var colors = ['#341f97', '#ee5253', '#2e86de',
+			                '#ff9f43', '#10ac84', '#222f3e']
 
 
-      {% include load_data.js %}
-      {% include utils.js %}
-      {% include multiselect_handler.js %}
+			  {% include load_data.js %}
+			  {% include utils.js %}
+			  {% include multiselect_handler.js %}
 
-      // Set time zone to local timezone on web copy
-      $('.local-timezone').text(today.toFormat('z'));
+			  // Set time zone to local timezone on web copy
+			  $('.local-timezone').text(today.toFormat('z'));
 
-      {% for conf in site.data.archive %}
-        {% if conf.cfp_ext %}
-          {% assign cfp = conf.cfp_ext %}
-        {% else %}
-          {% assign cfp = conf.cfp %}
-        {% endif %}
-        {% assign subs = conf.sub | split: "," %}
-        {% for sub in subs %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
-        {% endfor %}
-        {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("{{cfp}}");
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
-        {% else %}
+			  {% for conf in site.data.archive %}
+			    {% if conf.cfp_ext %}
+			      {% assign cfp = conf.cfp_ext %}
+			    {% else %}
+			      {% assign cfp = conf.cfp %}
+			    {% endif %}
+			    {% assign subs = conf.sub | split: "," %}
+			    {% for sub in subs %}
+			      $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html("{% t 'subs.{{sub | strip}}' %}".toLocaleLowerCase("{{ site.lang }}"));
+			    {% endfor %}
+			    {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
+			      $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");
+			      $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("{{cfp}}");
+			      $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
+			    {% else %}
 
-          // Use specified timezone for deadlines if available else use AoE timezone
-          {% if conf.timezone %}
-            var cfpDate = DateTime.fromSQL("{{cfp}}", {zone: "{{conf.timezone}}"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
-          {% else %}
-            var cfpDate = DateTime.fromSQL("{{cfp}}", {zone: "UTC-12"});
-            var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
-          {% endif %}
+			      // Use specified timezone for deadlines if available else use AoE timezone
+			      {% if conf.timezone %}
+			        var cfpDate = DateTime.fromSQL("{{cfp}}", {zone: "{{conf.timezone}}"});
+			        var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "{{conf.timezone}}"});
+			      {% else %}
+			        var cfpDate = DateTime.fromSQL("{{cfp}}", {zone: "UTC-12"});
+			        var confDate = DateTime.fromSQL("{{conf.start}}", {zone: "UTC-12"});
+			      {% endif %}
 
-          // check if timezone is valid otherwise replace by system timezone
-          if (cfpDate.invalid || confDate.invalid) {
-            var cfpDate = DateTime.fromSQL("{{cfp}}");
-            var confDate = DateTime.fromSQL("{{conf.start}}");
-            console.log("Invalid timezone in {{conf.conference | slugify: 'latin'}}-{{conf.year}}. Using system timezone instead.");
-          }
+			      // check if timezone is valid otherwise replace by system timezone
+			      if (cfpDate.invalid || confDate.invalid) {
+			        var cfpDate = DateTime.fromSQL("{{cfp}}");
+			        var confDate = DateTime.fromSQL("{{conf.start}}");
+			        console.log("Invalid timezone in {{conf.conference | slugify: 'latin'}}-{{conf.year}}. Using system timezone instead.");
+			      }
 
-          // deadline in local timezone
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
-        {% endif %}
-      {% endfor %}
+			      // deadline in local timezone
+			      $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html(cfpDate.setZone('system').toLocaleString(DateTime.DATE_HUGE));
+			    {% endif %}
+			  {% endfor %}
 
-      {% include handle_url_retrieval.js %}
+			  {% include handle_url_retrieval.js %}
 
-      // Event handler on sub badge click
-      $('.conf-sub').click(function (e) {
-          var csub = $(this).data('sub');
-          subs = [csub];
-          $("#subject-select").multiselect('deselect', all_subs);
-          $("#subject-select").multiselect('select', subs);
-          update_filtering({ subs: subs, all_subs: all_subs});
-      });
+			  // Event handler on sub badge click
+			  $('.conf-sub').click(function (e) {
+			      var csub = $(this).data('sub');
+			      subs = [csub];
+			      $("#subject-select").multiselect('deselect', all_subs);
+			      $("#subject-select").multiselect('select', subs);
+			      update_filtering({ subs: subs, all_subs: all_subs});
+			  });
 
-    });
-    </script>
-  </body>
+			});
+		</script>
+	</body>
 </html>

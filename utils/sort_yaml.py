@@ -96,7 +96,7 @@ def tidy_dates(data):
     """Clean dates in the data."""
     for i, q in tqdm(enumerate(data.copy()), total=len(data)):
         data[i] = clean_dates(q)
-        data[i] = create_nice_date(q)
+        # data[i] = create_nice_date(q)
     return data
 
 

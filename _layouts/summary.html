@@ -192,7 +192,8 @@ description: Summary of the conference and its instances throughout the years.
             <div class="row">
               <div class="col-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
+
+                  <span class="conf-date">{% translate_file dates/pretty_dates.html %}.</span>
                   <span class="conf-place">
                     {% if conf.place == "Online" %}
                       <a href="#">{{conf.place}}</a>
@@ -276,7 +277,7 @@ description: Summary of the conference and its instances throughout the years.
         {% endif %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html("{% t 'subs.{{sub | strip}}' %}".toLocaleLowerCase("{{ site.lang }}"));
         {% endfor %}
         {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");

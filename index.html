@@ -31,7 +31,7 @@
                     <div class="row align-items-md-center col-12 col-10-md">
                       <div class="col-12 col-md-5 filter-label">
                         <label for="subject-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
-                          Subject Filter:
+                          {% t global.sub_filter %}
                         </label>
                       </div>
                       <div class="col-12 col-md-6">
@@ -56,112 +56,25 @@
         </div>
         <div id="confs">
         <div id="coming_confs">
-          {% for conf in site.data.conferences %}
+          {% assign confs = site.data.conferences | sort: "cfp" | reverse %}
+          {% for conf in confs %}
           {% assign subs = conf.sub | split: "," %}
           <div id="{{conf.conference | slugify: "latin"}}-{{conf.year}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
-            <div class="row conf-row">
-                <div class="col-6">
-                  <span class="conf-title">
-                      <a title="Deadline Details" href="{{site.baseurl}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} {{conf.year}}</a>
-                  </span>
-                  <span class="conf-title-small">
-                      <a title="Deadline Details" href="{{site.baseurl}}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/">{{conf.conference}} '{{conf.year | slice: -2, 3}}</a>
-                  </span>
-                  <span class="conf-title-icon">
-                    <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% if cfp_link %}
-                  <span class="conf-title-icon">
-                    <a title="Call for Participation for {{conf.conference}}" href="{{cfp_link}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation for {{conf.conference}}" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                  {% if conf.finaid %}
-                  <span class="conf-title-icon">
-                    <a title="Financial Aid from {{conf.conference}}" href="{{conf.finaid}}" target="_blank"><img src="/static/img/066-lifebuoy.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.conference}}" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                  {% if conf.sponsor %}
-                  <span class="conf-title-icon">
-                    <a title="Sponsorship Opportunity for {{conf.conference}}" href="{{conf.sponsor}}" target="_blank"><img src="/static/img/060-coin-dollar.svg" class="badge-link" alt="Link to Sponsorship page of {{conf.conference}}" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                  {% if conf.mastodon %}
-                  <span class="conf-title-icon">
-                    <a title="Mastodon for {{conf.conference}}" href="{{conf.mastodon}}" target="_blank"><img src="/static/img/407-mastodon.svg" class="badge-link" alt="Link to Conference Mastodon" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% elsif conf.twitter %}
-                  <span class="conf-title-icon">
-                    <a title="Twitter for {{conf.conference}}" href="https://twitter.com/{{conf.twitter}}" target="_blank"><img src="/static/img/407-twitter.svg" class="badge-link" alt="Link to Conference Twitter" width="16" height="16" /></a>
-                    &ZeroWidthSpace;
-                  </span>
-                  {% endif %}
-                </div>
-                <div class="col-6">
-                  <span class="timer"></span>
-                  <span class="timer-small"></span>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
-                  <span class="conf-place">
-                    {% if conf.place == "Online" %}
-                    <a href="#">{{conf.place}}</a>
-                    {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-                    {% if conf.extra_places %}
-                      {% for place in conf.extra_places %}
-                        & <a href="http://maps.google.com/?q={{place}}">{{place}}</a>
-                      {% endfor %}
-                    {% endif %}
-                    {% endif %}
-                  </span>
-                </div>
-                {% if conf.note %}
-                  <div class="note">
-                      <b>Note: </b>{{conf.note}}
-                  </div>
-                {% endif %}
-
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="deadline">
-                  <div>Deadline:
-                    <span class="deadline-time">{{conf.cfp | date: "%A, %e %B %Y"}}</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                {% assign subs = conf.sub | split: "," %}
-                {% for sub in subs %}
-                <span title="Click to only show {{sub | strip}} conferences" data-sub="{{sub | strip}}" class="badge badge-light conf-sub {{sub | strip}}-tag"></span>
-                {% endfor %}
-              </div>
-              <div class="col-6">
-                <div class="calendar"></div>
-              </div>
-            </div>
-            <hr>
+            {% include index_conf_title_row.html %}
+            {% include index_conf_date_place.html %}
+            {% include index_conf_subs.html %}
+            <hr />
           </div>
           {% endfor %}
         </div>
         <div id="past_cfps">
-          <h1 id="past-cfps-title">Past Calls for Participation</h1>
+          <h1 id="past-cfps-title">{% t titles.past_cfps %}</h1>
         </div>
         <div id="past_confs">
-          <h1 id="past-events-title">Past Events</h1>
+          <h1 id="past-events-title">{% t titles.past_events %}</h1>
         </div>
         <div id="conf_archive">
-          <h1 id="archive-link">Visit the <a href="/archive/">Archive</a></h1>
+          <h1 id="archive-link"><a href="{% tl archive %}">{% t titles.visit_archive %}</a></h1>
         </div>
       </div>
       <footer>
@@ -196,7 +109,7 @@
         {% endif %}
         {% assign subs = conf.sub | split: "," %}
         {% for sub in subs %}
-          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html(sub2name["{{sub | strip}}"].toLocaleLowerCase());
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .{{sub | strip}}-tag').html("{% t 'subs.{{sub | strip}}' %}".toLocaleLowerCase("{{ site.lang }}"));
         {% endfor %}
         {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");

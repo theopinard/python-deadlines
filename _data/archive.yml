@@ -5,7 +5,6 @@
   link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
   cfp: None
   place: Molyko Buea, Cameroon
-  date: January 20 - 22, 2017
   start: 2017-01-20
   end: 2017-01-22
   sub: PY
@@ -19,7 +18,6 @@
   link: https://web.archive.org/web/20141016082426/http://scipycon.com.ar/
   cfp: None
   place: Bahía Blanca, Argentina
-  date: October 20 - 24, 2014
   start: 2014-10-20
   end: 2014-10-24
   sub: SCIPY
@@ -33,7 +31,6 @@
   link: https://web.archive.org/web/20210307212917/https://www.scipy.lat/conf/2013/
   cfp: None
   place: Puerto Madryn, Argentina
-  date: May 16 - 18, 2013
   start: 2013-05-16
   end: 2013-05-18
   sub: SCIPY
@@ -46,7 +43,6 @@
   link: https://web.archive.org/web/20130815205435/http://python-in-finance.com/
   cfp: None
   place: New York, USA
-  date: April 5th, 2013
   start: 2013-04-05
   end: 2013-04-05
   sub: PY
@@ -59,7 +55,6 @@
   link: https://web.archive.org/web/20120608055024/http://www.pygrunn.org/
   cfp: None
   place: Groningen, Netherlands
-  date: May 11th, 2012
   start: 2012-05-11
   end: 2012-05-11
   location:
@@ -72,7 +67,6 @@
   cfp_link: https://pygrunn-paylogic.blogspot.com/2011/04/call-for-speakers.html
   cfp: None
   place: Groningen, Netherlands
-  date: May 20th, 2011
   start: 2011-05-20
   end: 2011-05-20
   location:
@@ -84,7 +78,6 @@
   link: https://web.archive.org/web/20100608055024/http://www.pygrunn.org/
   cfp: None
   place: Groningen, Netherlands
-  date: May 9th, 2010
   start: 2010-05-09
   end: 2010-05-09
   location:
@@ -96,7 +89,6 @@
   link: https://web.archive.org/web/20180325231945/https://2008.djangocon.us/
   cfp: None
   place: Mountain View, USA
-  date: September 6 - 7, 2008
   start: 2008-09-06
   end: 2008-09-07
   sub: WEB
@@ -110,7 +102,6 @@
   link: https://web.archive.org/web/20031207151811/http://www.scipy.org/site_content/scipy03/
   cfp: None
   place: Pasadena, USA
-  date: September 11 - 12, 2003
   start: 2003-09-11
   end: 2003-09-12
   sub: SCIPY
@@ -124,7 +115,6 @@
   link: https://web.archive.org/web/20021030003450/http://www.scipy.org/site_content/scipy02/
   cfp: None
   place: Pasadena, USA
-  date: September 5 - 6, 2002
   start: 2002-09-05
   end: 2002-09-06
   sub: SCIPY
@@ -137,7 +127,6 @@
   link: https://pyjamas.live/
   cfp: Cancelled
   place: Online
-  date: December 5th, 2023
   start: 2023-12-05
   end: 2023-12-05
   sub: PY
@@ -148,7 +137,6 @@
   link: https://2022.pycon.org.au/
   cfp: Cancelled
   place: Online
-  date: August 19 - 21, 2022
   start: 2022-08-19
   end: 2022-08-21
   sub: PY
@@ -161,7 +149,6 @@
   cfp: Cancelled
   timezone: Asia/Tehran
   place: Online
-  date: February 16 - 19, 2022
   start: 2022-02-16
   end: 2022-02-19
   sub: PY
@@ -175,7 +162,6 @@
   link: https://2021.de.pycon.org/
   cfp: Cancelled
   place: Berlin, Germany
-  date: October 14 - 17, 2021
   start: 2021-10-14
   end: 2021-10-17
   sub: PY
@@ -190,7 +176,6 @@
   link: https://2020.pythonbrasil.org.br/
   cfp: Cancelled
   place: Caxias do Sul, Brazil
-  date: November 2 - 9, 2020
   start: 2020-11-02
   end: 2020-11-09
   sub: PY
@@ -204,10 +189,9 @@
   link: https://web.archive.org/web/20201023053817/http://pydata.org/london2020/
   cfp: Cancelled
   place: London, UK
-  date: October 30 - November 2, 2020
   start: 2020-10-30
   end: 2020-11-02
-  sub: PYDATA
+  sub: DATA
   note: Cancelled due to Covid
   location:
   - latitude: 51.5074456
@@ -219,7 +203,6 @@
   link: https://web.archive.org/web/20201025183354/http://www.pycon.fr/2020/
   cfp: Cancelled
   place: Strasbourg, France
-  date: October 29 - November 1, 2020
   start: 2020-10-29
   end: 2020-11-01
   sub: PY
@@ -234,7 +217,6 @@
   cfp: Cancelled
   cfp_ext: '2019-10-31 23:59:00'
   place: Rapperswil, Switzerland
-  date: October 23rd, 2020
   start: 2020-10-23
   end: 2020-10-23
   sub: PY
@@ -250,7 +232,6 @@
   cfp: Cancelled
   cfp_ext: '2020-05-05 23:59:00'
   place: Berlin, Germany
-  date: October 14 - 16, 2020
   start: 2020-10-14
   end: 2020-10-16
   sub: PY
@@ -264,7 +245,6 @@
   link: https://web.archive.org/web/20200508100008/https://2020.djangocon.us
   cfp: Cancelled
   place: San Diego, USA
-  date: October 11 - 16, 2020
   start: 2020-10-11
   end: 2020-10-16
   sub: WEB
@@ -278,7 +258,6 @@
   cfp: Cancelled
   timezone: Europe/London
   place: Coventry, UK
-  date: October 10 - 14, 2020
   start: 2020-10-10
   end: 2020-10-14
   sub: PY
@@ -292,7 +271,6 @@
   link: https://www.euroscipy.org/
   cfp: Cancelled
   place: Bilbao, Spain
-  date: July 27 - 31, 2020
   start: 2020-07-27
   end: 2020-07-31
   sub: SCIPY
@@ -306,7 +284,6 @@
   link: https://2020.pythonnordeste.org/
   cfp: Cancelled
   place: Fortaleza, Brasil
-  date: July 17 - 18, 2020
   start: 2020-07-17
   end: 2020-07-18
   sub: PY
@@ -320,7 +297,6 @@
   link: https://web.archive.org/web/20200608055024/http://www.pygrunn.org/
   cfp: Cancelled
   place: Groningen, Netherlands
-  date: May 15th, 2020
   start: 2020-05-15
   end: 2020-05-15
   note: Postponed due to COVID-19
@@ -333,7 +309,6 @@
   link: https://web.archive.org/web/20180817005719/https://pyconweb.com/
   cfp: Cancelled
   place: Munich, Germany
-  date: June 30 - July 2, 2018
   start: 2018-06-30
   end: 2018-07-02
   sub: PY
@@ -347,7 +322,6 @@
   cfp: Cancelled
   timezone: Europe/London
   place: Coventry, UK
-  date: September 24 - 25, 2011
   start: 2011-09-24
   end: 2011-09-25
   sub: PY
@@ -363,7 +337,6 @@
   cfp: '2023-12-31 23:59:00'
   timezone: Asia/Manila
   place: Manila, Philippines
-  date: February 25 - 26, 2024
   start: 2024-02-25
   end: 2024-02-26
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLSfFUgrENuMWS-Ef4DQdDucTYAwVcV-_kPjnTxpiIXVl7fx-_g/closedform
@@ -381,7 +354,6 @@
   cfp: '2023-12-31 23:59:00'
   timezone: Europe/Prague
   place: Prague, Czechia
-  date: February 24th, 2024
   start: 2024-02-24
   end: 2024-02-24
   twitter: PythonPizzaConf
@@ -397,7 +369,6 @@
   link: https://fosdem.org/2024/schedule/track/python-devroom/
   cfp: '2023-12-01 23:59:00'
   place: Brussels, Belgium
-  date: February 4th, 2024
   start: 2024-02-04
   end: 2024-02-04
   sub: PY
@@ -410,7 +381,6 @@
   link: https://web.archive.org/web/20230927124755/http://cn.pycon.org/2023/
   cfp: '2023-11-30 23:59:00'
   place: Guangzhou, China
-  date: December 23rd, 2023
   start: 2023-12-23
   end: 2023-12-23
   sub: PY
@@ -423,7 +393,6 @@
   link: https://web.archive.org/web/20230927124755/http://cn.pycon.org/2023/
   cfp: '2023-11-30 23:59:00'
   place: Chengdu, China
-  date: December 17th, 2023
   start: 2023-12-17
   end: 2023-12-17
   sub: PY
@@ -436,7 +405,6 @@
   link: https://web.archive.org/web/20230927124755/http://cn.pycon.org/2023/
   cfp: '2023-11-30 23:59:00'
   place: Beijing, China
-  date: December 2nd, 2023
   start: 2023-12-02
   end: 2023-12-02
   sub: PY
@@ -450,7 +418,6 @@
   cfp_link: https://forms.gle/7dv6iqToggY8Gshs5
   cfp: '2023-11-01 23:59:00'
   place: Online
-  date: December 5th, 2023
   start: 2023-12-05
   end: 2023-12-05
   sponsor: https://xtremepython.dev/2023/sponsors/
@@ -461,7 +428,6 @@
   link: https://flaskcon.com/2023/
   cfp: '2023-10-31 23:59:00'
   place: Online
-  date: December 16 - 17, 2023
   start: 2023-12-16
   end: 2023-12-17
   sponsor: https://flaskcon.com/2023/become-sponsor
@@ -474,7 +440,6 @@
   cfp: '2023-10-23 08:00:00'
   timezone: America/New_York
   place: Ohio, USA
-  date: December 16th, 2023
   start: 2023-12-16
   end: 2023-12-16
   location:
@@ -487,7 +452,6 @@
   cfp_link: https://bit.ly/ConferencistaEdupyOctubre2023
   cfp: '2023-10-14 23:59:00'
   place: Cali, Colombia
-  date: October 21st, 2023
   start: 2023-10-21
   end: 2023-10-21
   sponsor: https://slec.net/edupy/posts/callforsponsors/
@@ -502,11 +466,10 @@
   cfp_link: https://pydata.org/global2023/cfp
   cfp: '2023-10-01 23:59:00'
   place: Online
-  date: December 6 - 8, 2023
   start: 2023-12-06
   end: 2023-12-08
   sponsor: https://pydata.org/global2023/sponsor
-  sub: PYDATA
+  sub: DATA
 
 - conference: Python Pizza Hamburg
   year: 2023
@@ -515,7 +478,6 @@
   cfp: '2023-09-30 23:59:00'
   timezone: Europe/Zurich
   place: Hamburg, Germany
-  date: November 17th, 2023
   start: 2023-11-17
   end: 2023-11-17
   sponsor: https://hamburg.python.pizza/#sponsors
@@ -533,7 +495,6 @@
   place: Valparaiso, Chile
   extra_places:
   - Online
-  date: November 24 - 26, 2023
   start: 2023-11-24
   end: 2023-11-26
   twitter: PythonChileDev
@@ -550,7 +511,6 @@
   cfp: '2023-09-06 23:59:00'
   timezone: Europe/Zurich
   place: Online
-  date: October 9 - 12, 2023
   start: 2023-10-09
   end: 2023-10-12
   twitter: PyHEPConf
@@ -562,7 +522,6 @@
   cfp_link: https://web.archive.org/web/20231201030942/https://pretalx.com/pyladiescon-2023/cfp
   cfp: '2023-09-04 23:59:00'
   place: Online
-  date: December 2 - 3, 2023
   start: 2023-12-02
   end: 2023-12-03
   sub: PY
@@ -575,7 +534,6 @@
   cfp: '2023-09-01 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: November 9 - 10, 2023
   start: 2023-11-09
   end: 2023-11-10
   sponsor: https://pycon.se/#sponsorship
@@ -592,7 +550,6 @@
   cfp: '2023-08-31 23:59:59'
   timezone: Europe/Copenhagen
   place: Copenhagen, Denmark
-  date: October 6th, 2023
   start: 2023-10-06
   end: 2023-10-06
   sub: WEB
@@ -607,7 +564,6 @@
   cfp: '2023-08-31 23:59:59'
   timezone: Europe/Copenhagen
   place: Copenhagen, Denmark
-  date: October 6th, 2023
   start: 2023-10-06
   end: 2023-10-06
   twitter: djangodenmark
@@ -626,7 +582,6 @@
   tutorial_deadline: '2023-08-18 23:59:00'
   timezone: Africa/Johannesburg
   place: Durban, South Africa
-  date: October 5 - 6, 2023
   start: 2023-10-05
   end: 2023-10-06
   twitter: PyConZA
@@ -645,7 +600,6 @@
   tutorial_deadline: '2023-08-16 23:59:00'
   timezone: UTC
   place: Bangkok, Thailand
-  date: December 14 - 16, 2023
   start: 2023-12-14
   end: 2023-12-16
   sponsor: https://web.archive.org/web/20240329124030/https://www.canva.com/design/DAFkARVxuLI/I-ufznB4xLhvsdJEl571NQ/view
@@ -660,7 +614,6 @@
   cfp_link: https://cfp.packaging-con.org/2023/cfp
   cfp: '2023-08-06 23:59:59'
   place: Berlin, Germany
-  date: October 26 - 28, 2023
   start: 2023-10-26
   end: 2023-10-28
   sponsor: https://packaging-con.org/s/sponsorship_prospectus_packagingcon_2023.pdf
@@ -676,7 +629,6 @@
   cfp: '2023-08-05 23:59:00'
   timezone: Asia/Kolkata
   place: Hyderabad, India
-  date: September 29 - October 2, 2023
   start: 2023-09-29
   end: 2023-10-02
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLScKhnPeoB30F4PTA22fvXsNlF81Q7L_SIIPUtbty7YLlLvzmA/viewform
@@ -693,7 +645,6 @@
   cfp: '2023-07-16 23:59:00'
   timezone: UTC
   place: Dublin, Ireland
-  date: November 11 - 12, 2023
   start: 2023-11-11
   end: 2023-11-12
   sub: PY
@@ -708,7 +659,6 @@
   cfp_link: https://papercall.io/pyconid2023
   cfp: '2023-07-15 16:59:59'
   place: Badung City, Indonesia
-  date: November 18 - 19, 2023
   start: 2023-11-18
   end: 2023-11-19
   sponsor: https://pycon.id/sponsor
@@ -724,7 +674,6 @@
   cfp_link: https://web.archive.org/web/20231002014735/https://cfp-2023.djangocon.africa/
   cfp: '2023-07-12 23:59:00'
   place: Zanzibar, Tanzania
-  date: November 6 - 11, 2023
   start: 2023-11-06
   end: 2023-11-11
   sponsor: https://2023.djangocon.africa/sponsor-us/
@@ -742,7 +691,6 @@
   cfp: '2023-07-01 23:59:00'
   timezone: Europe/Zurich
   place: Rapperswil, Switzerland
-  date: September 21st, 2023
   start: 2023-09-21
   end: 2023-09-21
   sponsor: https://python-summit.ch/helpus
@@ -760,7 +708,6 @@
   tutorial_deadline: '2023-06-30 23:59:00'
   timezone: UTC
   place: Coimbra, Portugal
-  date: September 7 - 9, 2023
   start: 2023-09-07
   end: 2023-09-09
   sponsor: https://2023.pycon.pt/sponsors/sponsorship/
@@ -778,7 +725,6 @@
   cfp: '2023-06-30 16:59:00'
   timezone: Europe/London
   place: Cardiff, UK
-  date: September 22 - 25, 2023
   start: 2023-09-22
   end: 2023-09-25
   sponsor: https://2023.pyconuk.org/sponsorship/
@@ -797,7 +743,6 @@
   cfp: '2023-06-25 23:59:00'
   timezone: America/Recife
   place: Salvador, Brazil
-  date: September 22 - 24, 2023
   start: 2023-09-22
   end: 2023-09-24
   twitter: pythonnordeste
@@ -816,7 +761,6 @@
   tutorial_deadline: '2023-06-25 23:59:00'
   timezone: Europe/Prague
   place: Prague, Czechia
-  date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
   sponsor: https://web.archive.org/web/20230516214745/https://cz.pycon.org/2023/pycon-cz-sponsorship-prospectus-2023.pdf
@@ -835,7 +779,6 @@
   cfp: '2023-06-23 23:59:00'
   timezone: Europe/London
   place: Tenerife, Spain
-  date: October 6 - 8, 2023
   start: 2023-10-06
   end: 2023-10-08
   sponsor: https://2023.es.pycon.org/patrocinios/
@@ -853,7 +796,6 @@
   cfp: '2023-06-19 23:59:00'
   timezone: America/Bahia
   place: Salvador, Brazil
-  date: July 22nd, 2023
   start: 2023-07-22
   end: 2023-07-22
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLSclMmFsjw5qcJaFwCC-z7zhN0Uaf8t4zF74qL_KKsBjh-y-aA/viewform
@@ -871,7 +813,6 @@
   cfp: '2023-06-18 23:59:00'
   timezone: Asia/Hong_Kong
   place: Hong Kong, Hong Kong
-  date: November 10 - 11, 2023
   start: 2023-11-10
   end: 2023-11-11
   twitter: pyconhk
@@ -888,11 +829,10 @@
   tutorial_deadline: '2023-06-11 23:59:00'
   timezone: Europe/Amsterdam
   place: Amsterdam, Netherlands
-  date: September 14 - 16, 2023
   start: 2023-09-14
   end: 2023-09-16
   sponsor: https://amsterdam.pydata.org/sponsor/
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.4111289
     longitude: 4.877231604293446
@@ -906,7 +846,6 @@
   cfp_ext: '2023-06-21 23:59:00'
   timezone: America/Sao_Paulo
   place: Caxias do Sul, Brazil
-  date: October 30 - November 5, 2023
   start: 2023-10-30
   end: 2023-11-05
   sponsor: https://2023.pythonbrasil.org.br/#patrocinadores
@@ -923,7 +862,6 @@
   cfp_link: https://pretalx.com/pyconapac2023/cfp
   cfp: '2023-05-31 23:59:59'
   place: Tokyo, Japan
-  date: October 27 - 29, 2023
   start: 2023-10-27
   end: 2023-10-29
   sponsor: https://pyconjp.blogspot.com/2023/05/pyconapac2023-call-for-sponsors-en.html
@@ -939,7 +877,6 @@
   cfp: '2023-05-31 23:59:00'
   timezone: Asia/Dubai
   place: Dubai, UAE
-  date: October 16 - 20, 2023
   start: 2023-10-16
   end: 2023-10-20
   twitter: GlobalDevSlam
@@ -956,7 +893,6 @@
   cfp: '2023-05-31 23:59:00'
   timezone: Asia/Kuala_Lumpur
   place: Kuala Lumpur, Malaysia
-  date: August 26th, 2023
   start: 2023-08-26
   end: 2023-08-26
   twitter: pyconmy
@@ -972,7 +908,6 @@
   cfp: '2023-05-19 23:59:00'
   timezone: America/Los_Angeles
   place: Petaluma, USA
-  date: July 29 - 30, 2023
   start: 2023-07-29
   end: 2023-07-30
   sponsor: https://2023.northbaypython.org/assets/pdf/sponsor-prospectus.pdf
@@ -991,7 +926,6 @@
   cfp: '2023-05-19 23:59:00'
   timezone: Pacific/Auckland
   place: Waihōpai (Invercargill), New Zealand
-  date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
   sponsor: https://kiwipycon.nz/s/Kiwi-Pycon-XII-Sponsorship-Prospectus.pdf
@@ -1008,7 +942,6 @@
   cfp_link: https://cfp.pygotham.tv/
   cfp: '2023-05-15 23:59:00'
   place: Online
-  date: October 6 - 7, 2023
   start: 2023-10-06
   end: 2023-10-07
   sponsor: https://2023.pygotham.tv/sponsors/prospectus/
@@ -1023,7 +956,6 @@
   tutorial_deadline: '2023-05-15 23:59:00'
   timezone: America/New_York
   place: North Carolina, USA
-  date: October 16 - 20, 2023
   start: 2023-10-16
   end: 2023-10-20
   sponsor: https://2023.djangocon.us/sponsors/information/
@@ -1042,7 +974,6 @@
   cfp: '2023-05-15 23:59:00'
   timezone: Australia/Adelaide
   place: Tarndanya (Adelaide), Australia
-  date: August 18 - 22, 2023
   start: 2023-08-18
   end: 2023-08-22
   sponsor: https://2023.pycon.org.au/sponsor/#opportunities
@@ -1060,7 +991,6 @@
   cfp: '2023-05-14 23:59:59'
   timezone: Europe/Berlin
   place: Basel, Switzerland
-  date: August 14 - 18, 2023
   start: 2023-08-14
   end: 2023-08-18
   sponsor: https://euroscipy.org/2023/sponsoring.html
@@ -1079,7 +1009,6 @@
   cfp: '2023-05-14 23:59:00'
   timezone: Asia/Seoul
   place: Seoul, South Korea
-  date: August 11 - 13, 2023
   start: 2023-08-11
   end: 2023-08-13
   sponsor: https://2023.pycon.kr/sponsor/information
@@ -1097,7 +1026,6 @@
   cfp: '2023-05-14 23:59:00'
   timezone: Australia/Adelaide
   place: Tarndanya (Adelaide), Australia
-  date: August 18th, 2023
   start: 2023-08-18
   end: 2023-08-18
   sponsor: https://2023.pycon.org.au/sponsor/
@@ -1117,7 +1045,6 @@
   tutorial_deadline: '2023-05-09 23:59:00'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
-  date: September 7 - 8, 2023
   start: 2023-09-07
   end: 2023-09-08
   twitter: PyConEstonia
@@ -1134,7 +1061,6 @@
   cfp: '2023-05-07 23:59:00'
   timezone: UTC
   place: Monterrey, Mexico
-  date: August 24 - 26, 2023
   start: 2023-08-24
   end: 2023-08-26
   sponsor: https://pylatam.org/patrocinios/informacion/
@@ -1151,7 +1077,6 @@
   cfp: '2023-05-05 23:59:00'
   timezone: Africa/Kampala
   place: Kampala, Uganda
-  date: September 21 - 23, 2023
   start: 2023-09-21
   end: 2023-09-23
   sponsor: https://web.archive.org/web/20231129142123/https://ug.pycon.org/sponsors
@@ -1168,7 +1093,6 @@
   cfp: '2023-04-17 23:59:00'
   timezone: Europe/Moscow
   place: Moscow, Russia
-  date: May 19 - 20, 2023
   start: 2023-05-19
   end: 2023-05-20
   twitter: moscowpython
@@ -1182,7 +1106,6 @@
   link: https://web.archive.org/web/20230608055024/http://www.pygrunn.org/
   cfp: '2023-04-07 23:59:00'
   place: Groningen, Netherlands
-  date: May 26th, 2023
   start: 2023-05-26
   end: 2023-05-26
   location:
@@ -1196,7 +1119,6 @@
   cfp: '2023-04-02 22:59:00'
   timezone: Africa/Cairo
   place: Israel, Israel
-  date: July 4 - 5, 2023
   start: 2023-07-04
   end: 2023-07-05
   sponsor: https://2023.pycon.org.il/#sponsorship
@@ -1212,7 +1134,6 @@
   link: https://tw.pycon.org/2023/
   cfp: '2023-03-31 23:59:59'
   place: Taipei, Taiwan
-  date: September 2 - 3, 2023
   start: 2023-09-02
   end: 2023-09-03
   sponsor: https://tw.pycon.org/2023/en-us/sponsor/
@@ -1230,7 +1151,6 @@
   cfp: '2023-03-30 23:59:59'
   timezone: America/Bogota
   place: Online
-  date: June 9 - 11, 2023
   start: 2023-06-09
   end: 2023-06-11
   finaid: https://2023.pycon.co/scholarship/
@@ -1243,7 +1163,6 @@
   cfp: '2023-03-30 23:59:00'
   timezone: America/La_Paz
   place: La Paz, Bolivia
-  date: June 3rd, 2023
   start: 2023-06-03
   end: 2023-06-03
   sponsor: https://forms.gle/7SoVfzBgwYfv1Qw59
@@ -1260,7 +1179,6 @@
   cfp: '2023-03-27 23:59:00'
   timezone: Europe/Warsaw
   place: Gliwice, Poland
-  date: June 29 - July 2, 2023
   start: 2023-06-29
   end: 2023-07-02
   sponsor: https://pl.pycon.org/2023/sponsorship.pdf
@@ -1277,7 +1195,6 @@
   cfp_link: https://ep2023.europython.eu/cfp/
   cfp: '2023-03-26 23:59:00'
   place: Prague, Czechia
-  date: July 17 - 23, 2023
   start: 2023-07-17
   end: 2023-07-23
   sponsor: https://drive.google.com/file/d/15f6HGVUjgx2OKaLoCaIa6uNG3W0xLOm6/view
@@ -1295,7 +1212,6 @@
   cfp: '2023-03-18 00:00:00'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
-  date: May 17 - 20, 2023
   start: 2023-05-17
   end: 2023-05-20
   sponsor: https://drive.google.com/file/d/1wznoPlxfrdHd_jI7ZqP3vRKMHSaRJatm/view?usp=sharing
@@ -1313,7 +1229,6 @@
   cfp: '2023-03-15 23:59:00'
   timezone: Europe/Moscow
   place: Moscow, Russia
-  date: July 28 - 29, 2023
   start: 2023-07-28
   end: 2023-07-29
   sponsor: https://web.archive.org/web/20240203212600/https://pycon.ru/partneram
@@ -1329,12 +1244,11 @@
   cfp: '2023-03-13 23:59:00'
   timezone: Europe/London
   place: London, UK
-  date: June 2 - 4, 2023
   start: 2023-06-02
   end: 2023-06-04
   sponsor: https://web.archive.org/web/20230602014516/https://pydata.org/wp-content/uploads/2023/01/PyData-2023-Sponsorship-Prospectus.pdf
   twitter: PyDataLondon
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -1347,7 +1261,6 @@
   cfp: '2023-03-01 23:59:00'
   timezone: America/Chicago
   place: Austin, USA
-  date: July 10 - 16, 2023
   start: 2023-07-10
   end: 2023-07-16
   sponsor: https://web.archive.org/web/20230602014437/https://pydata.org/wp-content/uploads/2023/02/SciPy-2023-Prospectus.pdf
@@ -1365,7 +1278,6 @@
   cfp: '2023-02-27 23:59:59'
   tutorial_deadline: '2023-02-27 23:59:00'
   place: Edinburgh, UK
-  date: May 29 - June 2, 2023
   start: 2023-05-29
   end: 2023-06-02
   sponsor: https://2023.djangocon.eu/sponsors/information/
@@ -1382,13 +1294,12 @@
   cfp: '2023-02-06 23:59:00'
   timezone: America/Los_Angeles
   place: Seattle, USA
-  date: April 26 - 28, 2023
   start: 2023-04-26
   end: 2023-04-28
   sponsor: https://web.archive.org/web/20230327071537/https://pydata.org/seattle2023/wp-content/uploads/2022/12/PyData-2023-Sponsorship-Prospectus.pdf
   finaid: https://web.archive.org/web/20240121140723/https://pydata.org/seattle2023/
   twitter: PyDataSeattle
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 47.6038321
     longitude: -122.330062
@@ -1401,7 +1312,6 @@
   tutorial_deadline: '2023-01-22 23:59:00'
   timezone: Africa/Windhoek
   place: Windhoek, Namibia
-  date: February 21 - 23, 2023
   start: 2023-02-21
   end: 2023-02-23
   sponsor: https://na.pycon.org/sponsorship/
@@ -1419,7 +1329,6 @@
   cfp: '2023-01-16 13:59:00'
   tutorial_deadline: '2023-01-15 23:59:00'
   place: Florence, Italy
-  date: May 25 - 28, 2023
   start: 2023-05-25
   end: 2023-05-28
   sponsor: https://pycon.it/en/sponsor
@@ -1437,7 +1346,6 @@
   cfp_link: https://web.archive.org/web/20230328105743/https://pretalx.com/pytexas-2023/
   cfp: '2023-01-15 23:59:00'
   place: Austin, USA
-  date: April 1 - 2, 2023
   start: 2023-04-01
   end: 2023-04-02
   sponsor: https://web.archive.org/web/20230601022143/https://www.pytexas.org/sponsors/prospectus
@@ -1454,7 +1362,6 @@
   cfp: '2023-01-07 23:59:59'
   timezone: Europe/Paris
   place: Bordeaux, France
-  date: February 16 - 19, 2023
   start: 2023-02-16
   end: 2023-02-19
   sponsor: https://pycon.fr/2023/fr/support.html
@@ -1474,13 +1381,12 @@
   tutorial_deadline: '2023-01-05 23:59:00'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: April 17 - 19, 2023
   start: 2023-04-17
   end: 2023-04-19
   sponsor: https://drive.google.com/file/d/1_8zqb6ORNTRfNJWaXBmKA03ow06IN4_l/view?usp=sharing
   finaid: https://2023.pycon.de/financial-aid/
   twitter: PyConDE
-  sub: PY,PYDATA
+  sub: PY,DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -1492,7 +1398,6 @@
   cfp: '2022-12-23 23:59:00'
   timezone: Asia/Manila
   place: Manila, Philippines
-  date: February 25 - 26, 2023
   start: 2023-02-25
   end: 2023-02-26
   twitter: PyConPH
@@ -1506,13 +1411,12 @@
   link: https://web.archive.org/web/20230507170740/http://www.jupytercon.com/
   cfp: '2022-12-20 23:59:00'
   place: Paris, France
-  date: May 10 - 12, 2023
   start: 2023-05-10
   end: 2023-05-12
   sponsor: https://jupytercon.com/s/JupyterCon-2023-Prospectus-v3.pdf
   finaid: https://www.jupytercon.com/scholarships/
   twitter: jupyterCon
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 48.8588897
     longitude: 2.3200410217200766
@@ -1523,7 +1427,6 @@
   cfp_link: https://submit.geopython.net/geopython-2023/cfp
   cfp: '2022-12-16 12:00:00'
   place: Basel, Switzerland
-  date: March 6 - 8, 2023
   start: 2023-03-06
   end: 2023-03-08
   twitter: GeoPythonConf
@@ -1539,7 +1442,6 @@
   cfp_link: https://fosdem.org/submit
   cfp: '2022-12-15 23:59:00'
   place: Brussels, Belgium
-  date: February 4 - 5, 2023
   start: 2023-02-04
   end: 2023-02-05
   sponsor: https://fosdem.org/2023/about/sponsors
@@ -1555,7 +1457,6 @@
   cfp: '2022-12-11 23:59:59'
   tutorial_deadline: '2022-12-11 23:59:00'
   place: Salt Lake City, USA
-  date: April 19 - 27, 2023
   start: 2023-04-19
   end: 2023-04-27
   sponsor: https://us.pycon.org/2023/sponsorship/why-sponsor
@@ -1571,7 +1472,6 @@
   link: https://xtremepython.dev/2022/
   cfp: '2022-12-01 23:59:00'
   place: Online
-  date: December 27th, 2022
   start: 2022-12-27
   end: 2022-12-27
   sub: PY
@@ -1586,7 +1486,6 @@
   - Hangzhou, China
   - Beijing, China
   - Shanghai, China
-  date: December 17th, 2022
   start: 2022-12-17
   end: 2022-12-17
   sub: PY
@@ -1606,7 +1505,6 @@
   cfp: '2022-11-16 23:59:59'
   timezone: America/Vancouver
   place: Vancouver, Canada
-  date: March 18 - 19, 2023
   start: 2023-03-18
   end: 2023-03-19
   sponsor: https://2023.pycascades.com/sponsors/become-a-sponsor/
@@ -1623,7 +1521,6 @@
   cfp: '2022-11-12 23:59:00'
   timezone: America/Santiago
   place: Santiago, Chile
-  date: December 2 - 4, 2022
   start: 2022-12-02
   end: 2022-12-04
   sub: PY
@@ -1637,7 +1534,6 @@
   cfp: '2022-10-01 23:00:00'
   timezone: UTC+0
   place: Online
-  date: March 13 - 17, 2023
   start: 2023-03-13
   end: 2023-03-17
   twitter: PythonWebConf
@@ -1648,7 +1544,6 @@
   link: https://pyjamas.live/
   cfp: '2022-09-19 23:59:00'
   place: Online
-  date: November 26 - 27, 2022
   start: 2022-11-26
   end: 2022-11-27
   sub: PY
@@ -1660,11 +1555,10 @@
   cfp: '2022-09-12 23:59:00'
   timezone: UTC
   place: Online
-  date: December 1 - 3, 2022
   start: 2022-12-01
   end: 2022-12-03
   sponsor: https://web.archive.org/web/20221203190547/https://pydata.org/global2022/sponsors/
-  sub: PYDATA
+  sub: DATA
 
 - conference: PyData Tel Aviv
   year: 2022
@@ -1672,10 +1566,9 @@
   cfp: '2022-09-12 23:59:00'
   timezone: Asia/Jerusalem
   place: Tel Aviv, Israel
-  date: December 13th, 2022
   start: 2022-12-13
   end: 2022-12-13
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 32.0852997
     longitude: 34.7818064
@@ -1687,7 +1580,6 @@
   cfp: '2022-09-11 23:59:59'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: November 3 - 4, 2022
   start: 2022-11-03
   end: 2022-11-04
   sponsor: https://pycon.se/#sponsorship
@@ -1703,7 +1595,6 @@
   cfp: '2022-08-31 23:59:00'
   timezone: America/Argentina/Buenos_Aires
   place: Salta, Argentina
-  date: September 26 - 28, 2022
   start: 2022-09-26
   end: 2022-09-28
   sponsor: https://web.archive.org/web/20220901114721/https://pythoncientifico.ar/sponsors
@@ -1720,7 +1611,6 @@
   cfp: '2022-08-29 23:59:00'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: November 12 - 13, 2022
   start: 2022-11-12
   end: 2022-11-13
   sub: PY
@@ -1734,11 +1624,10 @@
   cfp: '2022-08-24 23:59:00'
   timezone: America/New_York
   place: New York, USA
-  date: November 9 - 11, 2022
   start: 2022-11-09
   end: 2022-11-11
   sponsor: https://web.archive.org/web/20220907192705/https://pydata.org/nyc2022/sponsors/
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 40.7127281
     longitude: -74.0060152
@@ -1749,7 +1638,6 @@
   link: https://za.pycon.org/
   cfp: '2022-08-19 23:59:00'
   place: Durban, South Africa
-  date: October 13 - 14, 2022
   start: 2022-10-13
   end: 2022-10-14
   sub: PY
@@ -1762,7 +1650,6 @@
   link: https://indico.cern.ch/event/1150631/
   cfp: '2022-08-17 23:59:00'
   place: Online
-  date: September 12 - 16, 2022
   start: 2022-09-12
   end: 2022-09-16
   sub: SCIPY
@@ -1774,7 +1661,6 @@
   cfp: '2022-08-13 23:59:00'
   timezone: Europe/Warsaw
   place: Gliwice, Poland
-  date: November 3 - 6, 2022
   start: 2022-11-03
   end: 2022-11-06
   sub: PY
@@ -1788,10 +1674,9 @@
   cfp: '2022-08-08 23:59:00'
   timezone: America/New_York
   place: Miami, USA
-  date: September 22nd, 2022
   start: 2022-09-22
   end: 2022-09-22
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 25.7741728
     longitude: -80.19362
@@ -1803,7 +1688,6 @@
   cfp: '2022-08-08 23:59:00'
   timezone: Africa/Accra
   place: Accra, Ghana
-  date: October 13 - 15, 2022
   start: 2022-10-13
   end: 2022-10-15
   sponsor: https://gh.pycon.org/support-us/
@@ -1818,7 +1702,6 @@
   cfp: '2022-08-01 23:59:59'
   timezone: America/Chicago
   place: Texas, USA and Online
-  date: October 27 - 29, 2022
   start: 2022-10-27
   end: 2022-10-29
   sub: PY
@@ -1830,7 +1713,6 @@
   cfp: '2022-07-14 23:59:00'
   timezone: Asia/Seoul
   place: Seoul, South Korea
-  date: October 1 - 2, 2022
   start: 2022-10-01
   end: 2022-10-02
   sub: PY
@@ -1846,7 +1728,6 @@
   cfp: '2022-07-03 23:59:00'
   cfp_ext: '2022-07-08 23:59:00'
   place: Manaus, Brazil
-  date: October 17 - 23, 2022
   start: 2022-10-17
   end: 2022-10-23
   sub: PY
@@ -1860,7 +1741,6 @@
   cfp: '2022-07-03 23:59:00'
   timezone: America/Manaus
   place: Manaus, Brazil
-  date: October 17 - 23, 2022
   start: 2022-10-17
   end: 2022-10-23
   sub: PY
@@ -1875,7 +1755,6 @@
   cfp: '2022-07-02 17:00:00'
   timezone: Europe/London
   place: Cardiff, UK
-  date: September 16 - 18, 2022
   start: 2022-09-16
   end: 2022-09-18
   sponsor: https://2022.pyconuk.org/sponsors/
@@ -1893,7 +1772,6 @@
   tutorial_deadline: '2022-06-30 23:59:00'
   timezone: Europe/Lisbon
   place: Porto, Portugal
-  date: September 24 - 25, 2022
   start: 2022-09-24
   end: 2022-09-25
   sponsor: https://2022.pycon.pt/sponsors/sponsorship/
@@ -1909,7 +1787,6 @@
   cfp: '2022-06-30 23:59:59'
   timezone: Europe/Bratislava
   place: Bratislava, Slovakia
-  date: September 9 - 11, 2022
   start: 2022-09-09
   end: 2022-09-11
   sub: PY
@@ -1923,10 +1800,9 @@
   cfp: '2022-06-30 23:59:00'
   timezone: Asia/Yerevan
   place: Yerevan, Armenia
-  date: August 12 - 13, 2022
   start: 2022-08-12
   end: 2022-08-13
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 40.1777112
     longitude: 44.5126233
@@ -1937,7 +1813,6 @@
   cfp: '2022-06-29 23:59:00'
   timezone: America/Los_Angeles
   place: San Francisco, USA
-  date: September 10 - 11, 2022
   start: 2022-09-10
   end: 2022-09-11
   sponsor: https://web.archive.org/web/20221002151717/https://pybay.com/sponsors-prospectus/
@@ -1954,7 +1829,6 @@
   tutorial_deadline: '2022-05-30 23:59:00'
   timezone: Europe/Zurich
   place: Basel, Switzerland
-  date: August 29 - September 2, 2022
   start: 2022-08-29
   end: 2022-09-02
   sponsor: https://www.euroscipy.org/2022/sponsoring.html
@@ -1970,7 +1844,6 @@
   link: https://2022.pycon.jp/
   cfp: '2022-06-12 23:59:59'
   place: Tokyo, Japan
-  date: October 14 - 16, 2022
   start: 2022-10-14
   end: 2022-10-16
   sub: PY
@@ -1984,7 +1857,6 @@
   cfp: '2022-06-11 07:31:00'
   timezone: America/Los_Angeles
   place: San Diego, USA
-  date: October 16 - 21, 2022
   start: 2022-10-16
   end: 2022-10-21
   sub: WEB
@@ -1997,7 +1869,6 @@
   link: https://2022.pythonnordeste.org/
   cfp: '2022-06-04 23:59:00'
   place: Aracaju, Brazil
-  date: August 26 - 28, 2022
   start: 2022-08-26
   end: 2022-08-28
   twitter: PythonNordeste
@@ -2012,7 +1883,6 @@
   cfp: '2022-05-31 23:59:00'
   timezone: Europe/Lisbon
   place: Porto, Portugal
-  date: September 21 - 25, 2022
   start: 2022-09-21
   end: 2022-09-25
   sub: WEB
@@ -2027,7 +1897,6 @@
   cfp: '2022-05-31 23:59:59'
   timezone: Europe/Madrid
   place: Granada, Spain
-  date: September 30 - October 3, 2022
   start: 2022-09-30
   end: 2022-10-03
   sub: PY
@@ -2041,7 +1910,6 @@
   cfp_link: https://pyohio.org/2022/speaking/call-for-proposals
   cfp: '2022-05-15 23:59:00'
   place: Columbus, USA
-  date: July 30th, 2022
   start: 2022-07-30
   end: 2022-07-30
   location:
@@ -2054,7 +1922,6 @@
   cfp_link: https://web.archive.org/web/20220330120305/http://www.pycon.ru/cfp
   cfp: '2022-05-10 23:59:00'
   place: Moscow, Russia
-  date: July 30 - 31, 2022
   start: 2022-07-30
   end: 2022-07-31
   sponsor: https://web.archive.org/web/20220330120305/https://pycon.ru/partneram
@@ -2070,7 +1937,6 @@
   cfp: '2022-05-07 23:59:00'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
-  date: May 26 - 28, 2022
   start: 2022-05-26
   end: 2022-05-28
   sub: PY
@@ -2084,7 +1950,6 @@
   cfp: '2022-04-30 23:59:59'
   timezone: America/Bogota
   place: Online
-  date: July 9 - 10, 2022
   start: 2022-07-09
   end: 2022-07-10
   sub: PY
@@ -2095,7 +1960,6 @@
   cfp: '2022-04-30 23:59:59'
   timezone: Asia/Jerusalem
   place: Ramat-Gan, Israel
-  date: June 28 - 29, 2022
   start: 2022-06-28
   end: 2022-06-29
   sub: PY
@@ -2108,11 +1972,10 @@
   link: https://web.archive.org/web/20220606165926/https://pydata.org/london2022/
   cfp: '2022-04-25 23:59:00'
   place: London, UK
-  date: June 17 - 19, 2022
   start: 2022-06-17
   end: 2022-06-19
   sponsor: https://web.archive.org/web/20220526121203/https://pydata.org/london2022/sponsors/
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -2123,7 +1986,6 @@
   link: https://tw.pycon.org/2022/en-us/
   cfp: '2022-04-15 23:59:59'
   place: Online, Taiwan
-  date: September 3 - 4, 2022
   start: 2022-09-03
   end: 2022-09-04
   sub: PY
@@ -2137,7 +1999,6 @@
   cfp: '2022-04-15 23:59:59'
   timezone: Africa/Nairobi
   place: Nairobi, Kenia
-  date: May 6 - 8, 2022
   start: 2022-05-06
   end: 2022-05-08
   sub: PY
@@ -2150,7 +2011,6 @@
   link: https://ep2022.europython.eu/
   cfp: '2022-04-03 23:59:59'
   place: Dublin, Ireland
-  date: July 11 - 17, 2022
   start: 2022-07-11
   end: 2022-07-17
   sub: PY
@@ -2165,7 +2025,6 @@
   cfp: '2022-04-01 23:59:59'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
-  date: August 25th, 2022
   start: 2022-08-25
   end: 2022-08-25
   sub: PY
@@ -2178,7 +2037,6 @@
   link: https://pycamp.es/
   cfp: '2022-03-15 23:59:00'
   place: Girona, Spain
-  date: April 15 - 19, 2022
   start: 2022-04-15
   end: 2022-04-19
   sub: PY
@@ -2192,7 +2050,6 @@
   cfp: '2022-03-01 23:59:59'
   timezone: Europe/Copenhagen
   place: Copenhagen, Denmark
-  date: April 8 - 9, 2022
   start: 2022-04-08
   end: 2022-04-09
   sub: WEB
@@ -2209,7 +2066,6 @@
   tutorial_deadline: '2022-02-15 23:59:00'
   timezone: Europe/Zurich
   place: Basel, Switzerland
-  date: June 20 - 22, 2022
   start: 2022-06-20
   end: 2022-06-22
   sub: GEO
@@ -2224,7 +2080,6 @@
   cfp: '2022-02-22 23:59:00'
   timezone: America/Chicago
   place: Austin, USA
-  date: July 11 - 17, 2022
   start: 2022-07-11
   end: 2022-07-17
   sub: SCIPY
@@ -2237,7 +2092,6 @@
   link: https://barcamps.eu/pycamp-leipzig-2022/
   cfp: '2022-01-28 23:59:00'
   place: Leipzig, Germany
-  date: January 29 - 30, 2022
   start: 2022-01-29
   end: 2022-01-30
   sub: PY
@@ -2251,7 +2105,6 @@
   link: https://pycon.it/en
   cfp: '2022-01-16 23:59:59'
   place: Florence, Italy
-  date: June 2 - 6, 2022
   start: 2022-06-02
   end: 2022-06-06
   sub: PY
@@ -2268,11 +2121,10 @@
   tutorial_deadline: '2022-01-16 23:59:00'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: April 11 - 14, 2022
   start: 2022-04-11
   end: 2022-04-14
   sponsor: https://2022.pycon.de/blog/pyconde-pydata-berlin-call-for-sponsors/
-  sub: PY,PYDATA
+  sub: PY,DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -2282,7 +2134,6 @@
   link: https://web.archive.org/web/20220131171842/https://www.pytexas.org/
   cfp: '2022-01-13 23:59:00'
   place: Austin, USA
-  date: March 26 - 27, 2022
   start: 2022-03-26
   end: 2022-03-27
   location:
@@ -2295,7 +2146,6 @@
   cfp: '2022-01-07 23:59:00'
   timezone: Asia/Kolkata
   place: Online
-  date: January 21 - 22, 2022
   start: 2022-01-21
   end: 2022-01-22
   sub: SCIPY
@@ -2305,7 +2155,6 @@
   link: https://web.archive.org/web/20220220183035/http://pycon.lk/
   cfp: '2021-12-31 23:59:00'
   place: Online
-  date: February 22nd, 2022
   start: 2022-02-22
   end: 2022-02-22
   sub: PY
@@ -2316,7 +2165,6 @@
   link: https://fosdem.org/2022/schedule/track/python/
   cfp: '2021-12-24 23:59:00'
   place: Online
-  date: February 5 - 6, 2022
   start: 2022-02-05
   end: 2022-02-06
 
@@ -2325,7 +2173,6 @@
   link: https://us.pycon.org/2022/
   cfp: '2021-12-20 23:59:00'
   place: Salt Lake City, USA
-  date: April 27 - May 6, 2022
   start: 2022-04-27
   end: 2022-05-06
   sub: PY
@@ -2340,7 +2187,6 @@
   cfp: '2021-11-30 23:59:00'
   timezone: Pacific/Auckland
   place: Otautahi Christchurch, New Zealand
-  date: August 19 - 21, 2022
   start: 2022-08-19
   end: 2022-08-21
   sub: PY
@@ -2354,7 +2200,6 @@
   cfp: '2021-11-21 14:59:00'
   timezone: UTC
   place: Kumamoto, Japan
-  date: January 22nd, 2022
   start: 2022-01-22
   end: 2022-01-22
   sub: PY
@@ -2367,7 +2212,6 @@
   link: https://pycon.or.tz/2021/
   cfp: '2021-11-15 23:59:00'
   place: Dare E Salaam, Tanzania
-  date: December 1 - 4, 2021
   start: 2021-12-01
   end: 2021-12-04
   sub: PY
@@ -2382,7 +2226,6 @@
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdXpPK5sWqpz_MWTkxPiXQVH4-XdS4gmqPRFO3NCv6_1Bo84g/viewform?usp=send_form
   cfp: '2021-11-12 23:59:00'
   place: Online
-  date: December 11 - 12, 2021
   start: 2021-12-11
   end: 2021-12-12
   sub: SCIPY
@@ -2392,7 +2235,6 @@
   link: https://pycode-conference.org/
   cfp: '2021-11-04 23:59:00'
   place: Online
-  date: December 2 - 3, 2021
   start: 2021-12-02
   end: 2021-12-03
 
@@ -2402,7 +2244,6 @@
   cfp: '2021-11-04 00:00:00'
   timezone: GMT
   place: Online
-  date: December 1 - 4, 2021
   start: 2021-12-01
   end: 2021-12-04
   sub: WEB
@@ -2415,7 +2256,6 @@
   link: https://xtremepython.dev/2021/
   cfp: '2021-11-01 23:59:00'
   place: Online
-  date: November 25th, 2021
   start: 2021-11-25
   end: 2021-11-25
   sub: PY
@@ -2427,7 +2267,6 @@
   cfp: '2021-11-01 23:59:59'
   timezone: UTC+0
   place: Online
-  date: March 21 - 26, 2022
   start: 2022-03-21
   end: 2022-03-26
   sub: WEB
@@ -2438,7 +2277,6 @@
   link: https://web.archive.org/web/20210904043050/http://pycon.id/
   cfp: '2021-10-31 23:59:00'
   place: Online
-  date: December 4 - 5, 2021
   start: 2021-12-04
   end: 2021-12-05
   sponsor: https://web.archive.org/web/20210904043050/http://pycon.id/sponsorship/
@@ -2452,7 +2290,6 @@
   link: https://2022.pycascades.com/
   cfp: '2021-10-24 23:59:59'
   place: Online
-  date: February 5 - 7, 2022
   start: 2022-02-05
   end: 2022-02-07
   sub: PY
@@ -2463,7 +2300,6 @@
   link: https://web.archive.org/web/20211028110307/https://pygrunn.org/
   cfp: '2021-10-01 23:59:00'
   place: Groningen, Netherlands
-  date: November 12th, 2021
   start: 2021-11-12
   end: 2021-11-12
   location:
@@ -2476,7 +2312,6 @@
   cfp: '2021-09-05 23:59:00'
   cfp_ext: '2021-09-19 23:59:00'
   place: Online
-  date: December 5th, 2021
   start: 2021-12-05
   end: 2021-12-05
   sub: PY
@@ -2488,7 +2323,6 @@
   cfp: '2021-09-05 23:59:00'
   timezone: Europe/Stockholm
   place: Online
-  date: October 21 - 22, 2021
   start: 2021-10-21
   end: 2021-10-22
   twitter: PyConSE
@@ -2499,7 +2333,6 @@
   link: https://web.archive.org/web/20210927124755/http://cn.pycon.org/2021/
   cfp: '2021-09-01 23:59:00'
   place: Online
-  date: October 16 - 17, 2021
   start: 2021-10-16
   end: 2021-10-17
   sub: PY
@@ -2511,7 +2344,6 @@
   cfp_ext: '2021-09-12 23:59:00'
   timezone: America/Santiago
   place: Online
-  date: November 5 - 7, 2021
   start: 2021-11-05
   end: 2021-11-07
   sub: PY
@@ -2524,7 +2356,6 @@
   cfp: '2021-08-21 23:30:00'
   timezone: UTC
   place: Bangkok, Thailand
-  date: November 20 - 21, 2021
   start: 2021-11-20
   end: 2021-11-21
   sub: PY
@@ -2538,7 +2369,6 @@
   cfp: '2021-08-20 00:00:00'
   timezone: UTC
   place: Odessa, Ukraine
-  date: September 11 - 12, 2021
   start: 2021-09-11
   end: 2021-09-12
   sub: PY
@@ -2552,7 +2382,6 @@
   link: https://2021.za.pycon.org/
   cfp: '2021-08-16 23:59:00'
   place: Online
-  date: October 7 - 8, 2021
   start: 2021-10-07
   end: 2021-10-08
   sub: PY
@@ -2564,11 +2393,10 @@
   cfp: '2021-08-15 23:59:00'
   tutorial_deadline: '2021-08-15 23:59:00'
   place: Online
-  date: October 28 - 31, 2021
   start: 2021-10-28
   end: 2021-10-31
   sponsor: https://web.archive.org/web/20211017042901/https://pydata.org/global2021/sponsor/
-  sub: PYDATA
+  sub: DATA
 
 - conference: Python Brasil
   alt_name: PythonBrasil
@@ -2576,7 +2404,6 @@
   link: https://web.archive.org/web/20210723070931/http://2021.pythonbrasil.org.br/
   cfp: '2021-08-12 23:59:00'
   place: Online
-  date: October 11 - 17, 2021
   start: 2021-10-11
   end: 2021-10-17
   sub: PY
@@ -2587,7 +2414,6 @@
   link: https://2021.pycon.org.au/
   cfp: '2021-07-11 23:59:00'
   place: Online
-  date: September 10 - 12, 2021
   start: 2021-09-10
   end: 2021-09-12
   sub: PY
@@ -2598,7 +2424,6 @@
   link: https://2021.pycon.jp/
   cfp: '2021-07-10 23:59:00'
   place: Tokyo, Japan
-  date: October 15 - 16, 2021
   start: 2021-10-15
   end: 2021-10-16
   sub: PY
@@ -2612,7 +2437,6 @@
   cfp: '2021-05-07 23:59:00'
   timezone: Asia/Kolkata
   place: Online
-  date: September 17 - 21, 2021
   start: 2021-09-17
   end: 2021-09-21
   sub: PY
@@ -2623,7 +2447,6 @@
   cfp_link: https://pyohio.org/cfp
   cfp: '2021-05-02 23:59:00'
   place: Columbus, USA
-  date: July 31 - August 1, 2021
   start: 2021-07-31
   end: 2021-08-01
   location:
@@ -2637,7 +2460,6 @@
   cfp: '2021-04-01 23:59:00'
   tutorial_deadline: '2021-04-01 23:59:00'
   place: Porto, Portugal
-  date: June 2 - 6, 2021
   start: 2021-06-02
   end: 2021-06-06
   sponsor: https://2021.djangocon.eu/sponsors/sponsorships/
@@ -2652,7 +2474,6 @@
   cfp_link: https://forms.gle/ryKkiJtqBgs6zT119
   cfp: '2021-03-30 23:59:00'
   place: Online
-  date: April 8 - 9, 2021
   start: 2021-04-08
   end: 2021-04-09
   sub: PY
@@ -2664,7 +2485,6 @@
   cfp: '2021-03-10 23:59:00'
   timezone: America/Recife
   place: Online
-  date: July 16 - 18, 2021
   start: 2021-07-16
   end: 2021-07-18
   twitter: pythonnordeste
@@ -2677,7 +2497,6 @@
   cfp: '2021-02-22 23:59:00'
   timezone: America/Chicago
   place: Austin, US
-  date: July 12 - 19, 2021
   start: 2021-07-12
   end: 2021-07-19
   sub: SCIPY
@@ -2692,7 +2511,6 @@
   cfp: '2021-02-12 23:59:00'
   tutorial_deadline: '2021-02-12 23:59:00'
   place: Online
-  date: May 12 - 21, 2021
   start: 2021-05-12
   end: 2021-05-21
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
@@ -2704,7 +2522,6 @@
   cfp: '2021-01-29 15:03:00'
   timezone: UTC
   place: Online
-  date: March 22 - 26, 2021
   start: 2021-03-22
   end: 2021-03-26
   sub: WEB
@@ -2716,7 +2533,6 @@
   cfp: '2021-01-25 23:59:00'
   tutorial_deadline: '2021-01-31 23:59:00'
   place: Basel, Switzerland
-  date: April 22 - 23, 2021
   start: 2021-04-22
   end: 2021-04-23
   sub: GEO
@@ -2729,7 +2545,6 @@
   link: https://web.archive.org/web/20201005212148/http://scipy.in/2020
   cfp: '2020-12-11 23:59:00'
   place: Mumbai, India
-  date: December 19 - 20, 2020
   start: 2020-12-19
   end: 2020-12-20
   sub: SCIPY
@@ -2744,7 +2559,6 @@
   cfp: '2020-12-07 11:59:00'
   timezone: UTC
   place: Online
-  date: January 30 - 31, 2021
   start: 2021-01-30
   end: 2021-01-31
 
@@ -2754,7 +2568,6 @@
   cfp_link: https://www.youtube.com/watch?v=p3AIkpkad6E
   cfp: '2020-11-15 23:59:00'
   place: Online
-  date: February 19 - 21, 2021
   start: 2021-02-19
   end: 2021-02-21
   sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
@@ -2765,7 +2578,6 @@
   link: https://web.archive.org/web/20200918233203/https://pycon.id/
   cfp: '2020-11-01 23:59:00'
   place: Online
-  date: November 14 - 15, 2020
   start: 2020-11-14
   end: 2020-11-15
   sub: PY
@@ -2777,7 +2589,6 @@
   cfp: '2020-10-01 00:00:00'
   timezone: Europe/Stockholm
   place: Online
-  date: November 12 - 13, 2020
   start: 2020-11-12
   end: 2020-11-13
   sub: PY
@@ -2788,7 +2599,6 @@
   cfp: '2020-09-11 23:59:00'
   cfp_ext: '2020-09-11 23:59:00'
   place: Online
-  date: November 15 - 16, 2020
   start: 2020-11-15
   end: 2020-11-16
 
@@ -2798,7 +2608,6 @@
   cfp: '2020-08-14 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, Bengaluru
-  date: October 2 - 5, 2020
   start: 2020-10-02
   end: 2020-10-05
   sub: PY
@@ -2812,7 +2621,6 @@
   link: https://2020.pycon.org.au/
   cfp: '2020-07-12 23:59:00'
   place: Online
-  date: September 4 - 6, 2020
   start: 2020-09-04
   end: 2020-09-06
   sub: PY
@@ -2823,7 +2631,6 @@
   link: https://web.archive.org/web/20200508100008/https://2020.djangocon.com.au/
   cfp: '2020-07-12 23:59:00'
   place: Online
-  date: September 4th, 2020
   start: 2020-09-04
   end: 2020-09-04
   sub: WEB
@@ -2835,7 +2642,6 @@
   cfp_link: https://easychair.org/cfp/scipyjapan2020
   cfp: '2020-07-08 23:59:00'
   place: Online
-  date: October 30 - 31, 2020
   start: 2020-10-30
   end: 2020-10-31
   sub: SCIPY
@@ -2845,7 +2651,6 @@
   link: https://indico.cern.ch/event/882824/
   cfp: '2020-06-22 16:59:00'
   place: Online
-  date: July 13 - 17, 2020
   start: 2020-07-13
   end: 2020-07-17
   sub: SCIPY
@@ -2856,7 +2661,6 @@
   link: https://web.archive.org/web/20200611021621/https://flaskcon.com/
   cfp: '2020-06-14 23:59:00'
   place: Online
-  date: July 4 - 5, 2020
   start: 2020-07-04
   end: 2020-07-05
   sub: WEB
@@ -2867,7 +2671,6 @@
   link: https://pycon.jp/2020/
   cfp: '2020-05-31 23:59:00'
   place: Online
-  date: August 28 - 29, 2020
   start: 2020-08-28
   end: 2020-08-29
   sub: PY
@@ -2877,7 +2680,6 @@
   link: https://ep2020.europython.eu/
   cfp: '2020-05-24 23:59:59'
   place: Online
-  date: July 23 - 26, 2020
   start: 2020-07-23
   end: 2020-07-26
   sub: PY
@@ -2888,7 +2690,6 @@
   cfp: '2020-04-18 04:00:00'
   timezone: UTC
   place: Online
-  date: June 17 - 19, 2020
   start: 2020-06-17
   end: 2020-06-19
   sub: WEB
@@ -2898,7 +2699,6 @@
   link: https://remote.python.pizza/
   cfp: '2020-04-05 23:59:00'
   place: Online
-  date: April 25th, 2020
   start: 2020-04-25
   end: 2020-04-25
   sub: PY
@@ -2908,7 +2708,6 @@
   link: http://2020.geopython.net/
   cfp: '2020-03-15 23:59:00'
   place: Online
-  date: September 21 - 22, 2020
   start: 2020-09-21
   end: 2020-09-22
   sub: GEO
@@ -2918,7 +2717,6 @@
   link: https://2020.djangocon.eu/
   cfp: '2020-03-01 11:59:00'
   place: Online
-  date: September 18 - 20, 2020
   start: 2020-09-18
   end: 2020-09-20
   sub: WEB
@@ -2929,7 +2727,6 @@
   cfp: '2020-02-29 00:00:00'
   timezone: UTC
   place: Odessa, Ukraine
-  date: June 13 - 15, 2020
   start: 2020-06-13
   end: 2020-06-15
   sub: PY
@@ -2945,7 +2742,6 @@
   cfp_ext: '2020-02-15 23:59:00'
   timezone: America/Chicago
   place: Online
-  date: July 6 - 12, 2020
   start: 2020-07-06
   end: 2020-07-12
   sub: SCIPY
@@ -2956,7 +2752,6 @@
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSde6NvTplJa_S8AwDYbXPHqCrUDlEGvaq_78xD2VyPgV6Cz6g/viewform
   cfp: '2019-11-28 23:59:00'
   place: Kyiv, Ukraine
-  date: December 14th, 2019
   start: 2019-12-14
   end: 2019-12-14
   sub: PY
@@ -2970,7 +2765,6 @@
   link: https://fosdem.org/2020/schedule/track/python/
   cfp: '2019-11-24 23:59:00'
   place: Brussels, Belgium
-  date: February 1st, 2020
   start: 2020-02-01
   end: 2020-02-01
   location:
@@ -2984,7 +2778,6 @@
   cfp: '2019-10-31 23:10:00'
   timezone: UTC
   place: Surabaya, Indonesia
-  date: November 23rd, 2019
   start: 2019-11-23
   end: 2019-11-23
   sub: PY
@@ -2997,7 +2790,6 @@
   link: https://web.archive.org/web/20191005212148/http://scipy.in/2019
   cfp: '2019-10-25 23:59:00'
   place: Mumbai, India
-  date: November 29 - 30, 2019
   start: 2019-11-29
   end: 2019-11-30
   sub: SCIPY
@@ -3011,7 +2803,6 @@
   cfp_link: https://forms.gle/Ew1T24SEMQcXivfb7
   cfp: '2019-10-15 23:59:59'
   place: Porto Alegre, Brazil
-  date: November 23 - 24, 2019
   start: 2019-11-23
   end: 2019-11-24
   sub: PY
@@ -3025,7 +2816,6 @@
   cfp_link: https://2020.pycascades.com/news/2-pycascades-2020-dates-location-cfp/
   cfp: '2019-10-01 23:59:00'
   place: Portland, USA
-  date: February 8 - 9, 2020
   start: 2020-02-08
   end: 2020-02-09
   location:
@@ -3039,7 +2829,6 @@
   cfp_link: https://web.archive.org/web/20190925024501/https://cfp-2019.pycon.fr/
   cfp: '2019-09-30 23:59:00'
   place: Bordeaux, France
-  date: October 31 - November 3, 2019
   start: 2019-10-31
   end: 2019-11-03
   sub: PY
@@ -3054,7 +2843,6 @@
   cfp: '2019-09-27 23:59:00'
   tutorial_deadline: '2019-09-27 23:59:00'
   place: Mexico City, Mexico
-  date: October 18 - 19, 2019
   start: 2019-10-18
   end: 2019-10-19
   sub: PY
@@ -3070,7 +2858,6 @@
   cfp: '2019-09-13 23:59:00'
   tutorial_deadline: '2019-09-13 23:59:00'
   place: Stockholm, Sweden
-  date: October 31 - November 2, 2019
   start: 2019-10-31
   end: 2019-11-02
   sponsor: https://web.archive.org/web/20191025124100/http://www.pycon.se/sponsorship.html
@@ -3086,7 +2873,6 @@
   cfp: '2019-08-31 23:59:00'
   tutorial_deadline: '2019-08-31 23:59:00'
   place: Toronto, Canada
-  date: November 16 - 20, 2019
   start: 2019-11-16
   end: 2019-11-20
   sub: PY
@@ -3101,7 +2887,6 @@
   cfp_link: https://2019.za.pycon.org/archived/submit-talk/
   cfp: '2019-08-30 23:59:00'
   place: Johannesburg, South Africa
-  date: October 9 - 13, 2019
   start: 2019-10-09
   end: 2019-10-13
   sub: PY
@@ -3115,7 +2900,6 @@
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSd9HVivE4bJKMqfi1jAD8SPBn-ra8kECMNpngBo1mziXtV-Nw/viewform
   cfp: '2019-08-30 23:59:00'
   place: Bogota, Colombia
-  date: October 8 - 10, 2019
   start: 2019-10-08
   end: 2019-10-10
   sub: SCIPY
@@ -3128,7 +2912,6 @@
   link: https://2019.northbaypython.org/
   cfp: '2019-08-16 23:59:00'
   place: Petaluma, USA
-  date: November 2 - 3, 2019
   start: 2019-11-02
   end: 2019-11-03
   sub: PY
@@ -3144,7 +2927,6 @@
   cfp: '2019-08-11 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 12 - 13, 2019
   start: 2019-10-12
   end: 2019-10-13
   sub: PY
@@ -3163,7 +2945,6 @@
   - Shenzhen, China
   - Chengou, China
   - Nanning, China
-  date: September 21 - 22, 2019
   start: 2019-09-21
   end: 2019-09-22
   sub: PY
@@ -3187,7 +2968,6 @@
   link: https://web.archive.org/web/20190615021525/https://2019.pythonbrasil.org.br/
   cfp: '2019-08-05 23:59:00'
   place: Ribeirão Preto, Brazil
-  date: October 23 - 28, 2019
   start: 2019-10-23
   end: 2019-10-28
   sponsor: https://2019.pythonbrasil.org.br/assets/pdfs/sponsorship_plan.pdf
@@ -3203,7 +2983,6 @@
   cfp: '2019-07-19 05:07:00'
   timezone: UTC
   place: Online
-  date: August 23rd, 2019
   start: 2019-08-23
   end: 2019-08-23
   sub: WEB
@@ -3215,7 +2994,6 @@
   cfp: '2019-07-15 23:59:00'
   tutorial_deadline: '2019-07-15 23:59:00'
   place: Belgrade, Serbia
-  date: October 3 - 6, 2019
   start: 2019-10-03
   end: 2019-10-06
   sponsor: https://pyconbalkan.com/faq
@@ -3230,7 +3008,6 @@
   cfp: '2019-07-01 23:59:00'
   timezone: Asia/Kolkata
   place: Chennai, India
-  date: October 12 - 16, 2019
   start: 2019-10-12
   end: 2019-10-16
   sub: PY
@@ -3244,7 +3021,6 @@
   link: https://web.archive.org/web/20190616093942/https://python.nz/
   cfp: '2019-06-23 23:59:00'
   place: Wellington, New Zealand
-  date: August 23 - 25, 2019
   start: 2019-08-23
   end: 2019-08-25
   sub: PY
@@ -3259,11 +3035,10 @@
   cfp_link: https://2019.pycon.de/call-for-proposals/
   cfp: '2019-06-09 23:59:00'
   place: Berlin, Germany
-  date: October 9 - 13, 2019
   start: 2019-10-09
   end: 2019-10-13
   sponsor: https://de.pycon.org/sponsors
-  sub: PY,PYDATA
+  sub: PY,DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -3275,7 +3050,6 @@
   cfp: '2019-06-07 17:00:00'
   timezone: Europe/London
   place: Cardiff, UK
-  date: September 13 - 17, 2019
   start: 2019-09-13
   end: 2019-09-17
   sub: PY
@@ -3290,7 +3064,6 @@
   cfp_link: https://papercall.io/pyconjp2019
   cfp: '2019-06-02 23:59:00'
   place: Tokyo, Japan
-  date: September 16 - 17, 2019
   start: 2019-09-16
   end: 2019-09-17
   sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/closedform
@@ -3306,7 +3079,6 @@
   cfp: '2019-06-01 23:59:00'
   tutorial_deadline: '2019-06-01 23:59:00'
   place: Accra, Ghana
-  date: August 6 - 10, 2019
   start: 2019-08-06
   end: 2019-08-10
   sponsor: https://africa.pycon.org/sponsor/
@@ -3322,7 +3094,6 @@
   cfp_link: https://papercall.io/pyconlatam
   cfp: '2019-05-31 23:59:00'
   place: Puerto Vallarta, Mexico
-  date: August 29 - 31, 2019
   start: 2019-08-29
   end: 2019-08-31
   sub: PY
@@ -3335,7 +3106,6 @@
   link: https://2019.djangocon.us/
   cfp: '2019-05-20 23:59:00'
   place: San Diego, USA
-  date: September 22 - 27, 2019
   start: 2019-09-22
   end: 2019-09-27
   sub: WEB
@@ -3350,7 +3120,6 @@
   cfp: '2019-05-17 12:05:00'
   timezone: UTC
   place: Denver, USA
-  date: September 7 - 8, 2019
   start: 2019-09-07
   end: 2019-09-08
   location:
@@ -3363,7 +3132,6 @@
   cfp_link: https://cfp.pygotham.org
   cfp: '2019-05-12 23:59:00'
   place: New York, USA
-  date: October 4 - 5, 2019
   start: 2019-10-04
   end: 2019-10-05
   sponsor: https://2019.pygotham.org/sponsors/prospectus/
@@ -3378,7 +3146,6 @@
   cfp: '2019-05-12 23:59:00'
   tutorial_deadline: '2019-05-12 23:59:00'
   place: San Francisco, USA
-  date: August 15 - 19, 2019
   start: 2019-08-15
   end: 2019-08-19
   location:
@@ -3392,7 +3159,6 @@
   cfp: '2019-05-12 23:59:00'
   tutorial_deadline: '2019-05-12 23:59:00'
   place: Columbus, USA
-  date: July 27 - 28, 2019
   start: 2019-07-27
   end: 2019-07-28
   sponsor: https://pyohio.org/2019/sponsorship
@@ -3406,7 +3172,6 @@
   cfp: '2019-05-12 23:59:59'
   timezone: Europe/Zurich
   place: Online
-  date: July 26 - August 2, 2021
   start: 2021-07-26
   end: 2021-08-02
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
@@ -3418,7 +3183,6 @@
   cfp: '2019-05-12 23:59:59'
   timezone: Europe/Zurich
   place: Basel, Switzerland
-  date: July 8 - 14, 2019
   start: 2019-07-08
   end: 2019-07-14
   sub: PY
@@ -3433,7 +3197,6 @@
   cfp_link: https://easychair.org/cfp/pycones2019
   cfp: '2019-05-10 23:59:00'
   place: Alicante, Spain
-  date: October 4 - 6, 2019
   start: 2019-10-04
   end: 2019-10-06
   sub: PY
@@ -3447,7 +3210,6 @@
   cfp: '2019-05-07 23:00:00'
   timezone: America/Recife
   place: Recife, Brazil
-  date: July 19 - 21, 2019
   start: 2019-07-19
   end: 2019-07-21
   twitter: pythonnordeste
@@ -3462,7 +3224,6 @@
   link: https://2019.pycon-au.org/
   cfp: '2019-05-05 23:59:00'
   place: Sydney, Australia
-  date: August 2 - 6, 2019
   start: 2019-08-02
   end: 2019-08-06
   sponsor: https://2019.pycon-au.org/sponsor/
@@ -3477,7 +3238,6 @@
   link: https://2019.djangocon.com.au/
   cfp: '2019-05-05 23:59:00'
   place: Sydney, Australia
-  date: August 2nd, 2019
   start: 2019-08-02
   end: 2019-08-02
   sub: WEB
@@ -3494,7 +3254,6 @@
   tutorial_deadline: '2019-05-12 23:59:00'
   timezone: Europe/Madrid
   place: Bilbao, Spain
-  date: September 2 - 7, 2019
   start: 2019-09-02
   end: 2019-09-07
   sponsor: https://euroscipy.org/2019/sponsors.html
@@ -3508,10 +3267,9 @@
   link: https://web.archive.org/web/20190405192005/http://pydata.org/london2019/
   cfp: '2019-04-19 23:59:00'
   place: London, UK
-  date: July 12 - 15, 2019
   start: 2019-07-12
   end: 2019-07-15
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -3521,7 +3279,6 @@
   link: https://web.archive.org/web/20190111155256/https://2019.geopython.net/
   cfp: '2019-02-28 23:59:00'
   place: Basel, Switzerland
-  date: June 24 - 26, 2019
   start: 2019-06-24
   end: 2019-06-26
   sponsor: http://2019.geopython.net/GeoPython_Sponsoring_2019_lowres.pdf
@@ -3536,7 +3293,6 @@
   cfp_link: https://easychair.org/cfp/SciPyJapan2019
   cfp: '2019-02-22 23:59:00'
   place: Tokyo, Japan
-  date: April 23 - 24, 2019
   start: 2019-04-23
   end: 2019-04-24
   sub: SCIPY
@@ -3551,7 +3307,6 @@
   cfp: '2019-02-15 23:59:00'
   timezone: America/Chicago
   place: Austin, US
-  date: July 8 - 14, 2019
   start: 2019-07-08
   end: 2019-07-14
   sub: SCIPY
@@ -3564,7 +3319,6 @@
   link: https://web.archive.org/web/20190608055024/http://www.pygrunn.org/
   cfp: '2019-02-01 23:59:00'
   place: Groningen, Netherlands
-  date: May 10th, 2019
   start: 2019-05-10
   end: 2019-05-10
   location:
@@ -3576,7 +3330,6 @@
   link: https://2019.djangocon.eu/
   cfp: '2019-01-20 23:59:00'
   place: Copenhagen, Denmark
-  date: April 10 - 14, 2019
   start: 2019-04-10
   end: 2019-04-14
   sub: WEB
@@ -3591,7 +3344,6 @@
   cfp_link: https://pycon.it/en/call-for-proposals
   cfp: '2019-01-06 23:59:00'
   place: Florence, Italy
-  date: May 2 - 5, 2019
   start: 2019-05-02
   end: 2019-05-05
   sponsor: https://pycon.it/en/sponsor
@@ -3607,7 +3359,6 @@
   cfp: '2019-01-03 23:59:00'
   tutorial_deadline: '2018-11-26 23:59:00'
   place: Cleveland, USA
-  date: May 1 - 10, 2019
   start: 2019-05-01
   end: 2019-05-10
   sponsor: https://us.pycon.org/2019/sponsors/prospectus
@@ -3622,7 +3373,6 @@
   cfp_link: https://papercall.io/pyconby
   cfp: '2018-12-24 23:59:00'
   place: Minsk, Belarus
-  date: February 15 - 17, 2019
   start: 2019-02-15
   end: 2019-02-17
   sponsor: https://drive.google.com/file/d/1DEY7aYs7byXUwZLozHhoHs8uuLHq_la1/view
@@ -3636,7 +3386,6 @@
   link: https://web.archive.org/web/20190424124043/https://scipy.in/2018
   cfp: '2018-12-03 23:59:00'
   place: Mumbai, India
-  date: December 21 - 22, 2018
   start: 2018-12-21
   end: 2018-12-22
   sub: SCIPY
@@ -3650,7 +3399,6 @@
   link: https://fosdem.org/2019/schedule/track/python/
   cfp: '2018-12-01 23:59:00'
   place: Brussels, Belgium
-  date: February 3rd, 2019
   start: 2019-02-03
   end: 2019-02-03
   location:
@@ -3663,7 +3411,6 @@
   cfp_link: https://web.archive.org/web/20210125195809/https://www.papercall.io/pycaribbean-2019
   cfp: '2018-11-15 23:59:00'
   place: Santo Domingo, Dominican Republic
-  date: February 16 - 17, 2019
   start: 2019-02-16
   end: 2019-02-17
   location:
@@ -3676,7 +3423,6 @@
   link: https://web.archive.org/web/20180203132931/https://fosdem.org/2018/schedule/track/python/
   cfp: '2018-11-03 23:59:00'
   place: Brussels, Belgium
-  date: February 3rd, 2018
   start: 2018-02-03
   end: 2018-02-03
   location:
@@ -3690,7 +3436,6 @@
   cfp: '2018-11-01 23:59:00'
   tutorial_deadline: '2018-11-01 23:59:00'
   place: Nashville, USA
-  date: February 9 - 11, 2019
   start: 2019-02-09
   end: 2019-02-11
   sponsor: https://pytennessee.org/prospectus
@@ -3704,7 +3449,6 @@
   link: https://web.archive.org/web/20181021125731/http://pycon.id/
   cfp: '2018-11-01 23:59:00'
   place: Jakarta, Indonesia
-  date: November 3 - 4, 2018
   start: 2018-11-03
   end: 2018-11-04
   sub: PY
@@ -3718,7 +3462,6 @@
   cfp_link: https://web.archive.org/web/20180822003701/https://www.papercall.io/pycascades-2019
   cfp: '2018-10-21 23:59:00'
   place: Seattle, USA
-  date: February 23 - 25, 2019
   start: 2019-02-23
   end: 2019-02-25
   sponsor: https://web.archive.org/web/20210622113958/https://2019.pycascades.com/become-a-sponsor/
@@ -3733,7 +3476,6 @@
   cfp: '2018-10-16 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: December 12th, 2018
   start: 2018-12-12
   end: 2018-12-12
   sub: PY
@@ -3747,7 +3489,6 @@
   link: https://web.archive.org/web/20180816032212/https://2018.pythonbrasil.org.br/
   cfp: '2018-10-14 23:59:00'
   place: Natal, Brazil
-  date: October 17 - 22, 2018
   start: 2018-10-17
   end: 2018-10-22
   sub: PY
@@ -3762,7 +3503,6 @@
   cfp_link: https://2018.za.pycon.org/archived/submit-talk/
   cfp: '2018-09-17 23:59:00'
   place: Johannesburg, South Africa
-  date: October 10 - 14, 2018
   start: 2018-10-10
   end: 2018-10-14
   sub: PY
@@ -3775,7 +3515,6 @@
   link: https://web.archive.org/web/20181008223234/http://pyss18.pyss.org/
   cfp: '2018-09-15 23:59:00'
   place: Kursaal, Spain
-  date: October 12 - 15, 2018
   start: 2018-10-12
   end: 2018-10-15
   sub: PY
@@ -3788,7 +3527,6 @@
   link: https://web.archive.org/web/20180927124755/http://cn.pycon.org/2018/city_hangzhou
   cfp: '2018-09-12 23:59:00'
   place: Hangzhou, China
-  date: November 4th, 2018
   start: 2018-11-04
   end: 2018-11-04
   sub: PY
@@ -3803,7 +3541,6 @@
   place: Shenzhen, China
   extra_places:
   - Chengdu, China
-  date: October 27th, 2018
   start: 2018-10-27
   end: 2018-10-27
   sub: PY
@@ -3818,7 +3555,6 @@
   link: https://web.archive.org/web/20180927124755/http://cn.pycon.org/2018/city_shanghai
   cfp: '2018-09-12 23:59:00'
   place: Shanghai, China
-  date: October 21st, 2018
   start: 2018-10-21
   end: 2018-10-21
   sub: PY
@@ -3831,7 +3567,6 @@
   link: https://web.archive.org/web/20180927124755/http://cn.pycon.org/2018/city_beijing
   cfp: '2018-09-12 23:59:00'
   place: Beijing, China
-  date: October 14th, 2018
   start: 2018-10-14
   end: 2018-10-14
   sub: PY
@@ -3844,7 +3579,6 @@
   link: https://web.archive.org/web/20201023081255/https://www.dlr.de/sc/desktopdefault.aspx/tabid-12954/22625_read-52397/
   cfp: '2018-09-09 23:59:00'
   place: Dallas, USA
-  date: November 12th, 2018
   start: 2018-11-12
   end: 2018-11-12
   location:
@@ -3858,7 +3592,6 @@
   cfp: '2018-09-09 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: November 10 - 11, 2018
   start: 2018-11-10
   end: 2018-11-11
   sub: PY
@@ -3872,7 +3605,6 @@
   link: https://web.archive.org/web/20150520215508/http://kiwi.pycon.org/
   cfp: '2018-09-08 23:59:00'
   place: Dunedin, New Zealand
-  date: September 9 - 11, 2016
   start: 2016-09-09
   end: 2016-09-11
   sub: PY
@@ -3887,7 +3619,6 @@
   cfp: '2018-09-01 23:59:00'
   tutorial_deadline: '2018-09-01 23:59:00'
   place: Medellin, Colombia
-  date: February 8 - 10, 2019
   start: 2019-02-08
   end: 2019-02-10
   sub: PY
@@ -3901,7 +3632,6 @@
   cfp_link: https://web.archive.org/web/20210515223939/https://speakerfight.com/events/flaskconf-2018/
   cfp: '2018-08-01 23:55:00'
   place: Florianópolis, Brazil
-  date: September 6 - 8, 2019
   start: 2019-09-06
   end: 2019-09-08
   sub: WEB
@@ -3916,7 +3646,6 @@
   cfp: '2018-07-22 00:07:00'
   timezone: UTC
   place: Curitiba, Brazil
-  date: August 29 - September 1, 2018
   start: 2018-08-29
   end: 2018-09-01
   sub: SCIPY
@@ -3929,7 +3658,6 @@
   link: https://web.archive.org/web/20180818105016/https://gh.pycon.org/
   cfp: '2018-07-10 23:59:00'
   place: Accra, Ghana
-  date: August 10 - 11, 2018
   start: 2018-08-10
   end: 2018-08-11
   sub: PY
@@ -3943,7 +3671,6 @@
   link: https://web.archive.org/web/20181025183354/http://www.pycon.fr/2018/
   cfp: '2018-06-30 23:59:00'
   place: Lille, France
-  date: October 4 - 7, 2018
   start: 2018-10-04
   end: 2018-10-07
   sub: PY
@@ -3957,7 +3684,6 @@
   link: https://web.archive.org/web/20180817031926/https://2018.pycon-au.org/
   cfp: '2018-06-17 23:59:00'
   place: Sydney, Australia
-  date: August 24 - 28, 2018
   start: 2018-08-24
   end: 2018-08-28
   sub: PY
@@ -3971,7 +3697,6 @@
   link: https://web.archive.org/web/20180914150246/https://pycon.jp/2018/
   cfp: '2018-06-15 23:59:00'
   place: Tokyo, Japan
-  date: September 15 - 18, 2018
   start: 2018-09-15
   end: 2018-09-18
   sub: PY
@@ -3984,7 +3709,6 @@
   link: https://web.archive.org/web/20180612191355/https://2018.pyconuk.org/
   cfp: '2018-06-15 23:59:00'
   place: Cardiff, UK
-  date: September 15 - 19, 2018
   start: 2018-09-15
   end: 2018-09-19
   sub: PY
@@ -3997,7 +3721,6 @@
   link: https://web.archive.org/web/20180912163411/https://2018.djangocon.us/
   cfp: '2018-06-03 23:59:00'
   place: San Diego, USA
-  date: October 14 - 19, 2018
   start: 2018-10-14
   end: 2018-10-19
   sub: WEB
@@ -4012,7 +3735,6 @@
   cfp: '2018-06-03 23:59:59'
   timezone: Europe/Berlin
   place: Karlsruhe, Germany
-  date: October 24 - 26, 2018
   start: 2018-10-24
   end: 2018-10-26
   sub: PY
@@ -4026,7 +3748,6 @@
   cfp: '2018-05-31 23:59:00'
   timezone: Europe/Rome
   place: Trento, Italy
-  date: August 28 - September 1, 2018
   start: 2018-08-28
   end: 2018-09-01
   sub: SCIPY
@@ -4040,7 +3761,6 @@
   link: https://web.archive.org/web/20180508100008/https://2018.djangocon.com.au/
   cfp: '2018-05-28 23:59:00'
   place: Sydney, Australia
-  date: August 24 - 28, 2018
   start: 2018-08-24
   end: 2018-08-28
   sub: WEB
@@ -4054,7 +3774,6 @@
   cfp: '2018-05-20 23:59:00'
   timezone: Europe/London
   place: Edinburgh, UK
-  date: July 23 - 29, 2018
   start: 2018-07-23
   end: 2018-07-29
   sub: PY
@@ -4068,7 +3787,6 @@
   link: https://web.archive.org/web/20180628105952/https://pl.pycon.org/2018/
   cfp: '2018-05-13 23:00:00'
   place: Ossa, Poland
-  date: August 23 - 26, 2018
   start: 2018-08-23
   end: 2018-08-26
   sub: PY
@@ -4084,7 +3802,6 @@
   cfp_ext: '2018-04-27 23:55:00'
   timezone: America/Recife
   place: Campina Grande, Brazil
-  date: May 24 - 26, 2018
   start: 2018-05-24
   end: 2018-05-26
   twitter: pythonnordeste
@@ -4099,10 +3816,9 @@
   cfp: '2018-03-31 23:59:59'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: July 6 - 8, 2018
   start: 2018-07-06
   end: 2018-07-08
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -4113,7 +3829,6 @@
   link: https://web.archive.org/web/20190625030722/https://scipy2018.scipy.org/
   cfp: '2018-02-15 23:59:00'
   place: Austin, USA
-  date: July 9 - 15, 2018
   start: 2018-07-09
   end: 2018-07-15
   sub: SCIPY
@@ -4126,7 +3841,6 @@
   link: https://web.archive.org/web/20180522135722/https://2018.djangocon.eu/
   cfp: '2018-02-01 23:59:00'
   place: Heidelberg, Germany
-  date: May 23 - 27, 2018
   start: 2018-05-23
   end: 2018-05-27
   sub: WEB
@@ -4139,7 +3853,6 @@
   link: https://web.archive.org/web/20180512191459/http://2018.geopython.net/
   cfp: '2018-01-31 23:59:00'
   place: Basel, Switzerland
-  date: May 7 - 9, 2018
   start: 2018-05-07
   end: 2018-05-09
   sub: GEO
@@ -4153,7 +3866,6 @@
   link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
   cfp: '2018-01-07 23:59:00'
   place: Florence, Italy
-  date: April 19 - 22, 2018
   start: 2018-04-19
   end: 2018-04-22
   sub: PY
@@ -4166,7 +3878,6 @@
   link: https://web.archive.org/web/20180509145212/https://us.pycon.org/2018/
   cfp: '2018-01-03 23:59:00'
   place: Cleveland, USA
-  date: May 9 - 17, 2018
   start: 2018-05-09
   end: 2018-05-17
   sub: PY
@@ -4180,7 +3891,6 @@
   cfp: '2017-12-03 23:59:59'
   timezone: Africa/Douala
   place: Limbe, Cameroon
-  date: February 23 - 24, 2018
   start: 2018-02-23
   end: 2018-02-24
   sub: PY
@@ -4193,7 +3903,6 @@
   link: https://web.archive.org/web/20171005212148/http://scipy.in/2017
   cfp: '2017-11-10 23:59:00'
   place: Mumbai, India
-  date: November 29 - 30, 2017
   start: 2017-11-29
   end: 2017-11-30
   sub: SCIPY
@@ -4207,7 +3916,6 @@
   link: https://web.archive.org/web/20171021125731/http://pycon.id/
   cfp: '2017-11-06 23:59:00'
   place: Surabaya, Indonesia
-  date: December 9th, 2017
   start: 2017-12-09
   end: 2017-12-09
   sub: PY
@@ -4220,7 +3928,6 @@
   link: https://web.archive.org/web/20180205001500/http://www.python-summit.ch/
   cfp: '2017-10-31 23:59:00'
   place: Rapperswil, Switzerland
-  date: February 16th, 2018
   start: 2018-02-16
   end: 2018-02-16
   sub: PY
@@ -4235,7 +3942,6 @@
   cfp_link: https://web.archive.org/web/20210815075207/https://2017.za.pycon.org/archived/submit-talk/
   cfp: '2017-10-01 23:59:00'
   place: Cape Town, South Africa
-  date: October 4 - 8, 2017
   start: 2017-10-04
   end: 2017-10-08
   sub: PY
@@ -4249,7 +3955,6 @@
   link: https://web.archive.org/web/20171212164132/https://python.nz/
   cfp: '2017-09-08 23:59:00'
   place: Auckland, New Zealand
-  date: December 2 - 3, 2017
   start: 2017-12-02
   end: 2017-12-03
   sub: PY
@@ -4262,7 +3967,6 @@
   link: https://web.archive.org/web/20171116191554/http://www.dlr.de/sc/desktopdefault.aspx/tabid-11992/21071_read-48990
   cfp: '2017-09-01 23:59:00'
   place: Denver, USA
-  date: November 12 - 13, 2017
   start: 2017-11-12
   end: 2017-11-13
   location:
@@ -4274,7 +3978,6 @@
   link: https://web.archive.org/web/20170909095524/http://pyss17.pyss.org/
   cfp: '2017-09-01 23:59:00'
   place: San Sebastián, Spain
-  date: October 6 - 8, 2017
   start: 2017-10-06
   end: 2017-10-08
   sub: PY
@@ -4287,7 +3990,6 @@
   link: http://pyss16.pyss.org/
   cfp: '2017-08-31 23:59:00'
   place: San Sebastian, Spain
-  date: September 30 - October 3, 2016
   start: 2016-09-30
   end: 2016-10-03
   sub: PY
@@ -4301,7 +4003,6 @@
   cfp: '2017-08-31 23:59:00'
   timezone: Asia/Kolkata
   place: Delhi, India
-  date: November 2 - 5, 2017
   start: 2017-11-02
   end: 2017-11-05
   sub: PY
@@ -4316,7 +4017,6 @@
   cfp: '2017-08-29 12:00:00'
   timezone: UTC
   place: Vancouver, Canada
-  date: January 22 - 23, 2018
   start: 2018-01-22
   end: 2018-01-23
   location:
@@ -4330,7 +4030,6 @@
   cfp: '2017-08-15 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 21 - 22, 2017
   start: 2017-10-21
   end: 2017-10-22
   sub: PY
@@ -4343,7 +4042,6 @@
   link: https://web.archive.org/web/20171023090724/http://2017.pyconuk.org/
   cfp: '2017-08-10 23:59:00'
   place: Cardiff, UK
-  date: October 26 - 30, 2017
   start: 2017-10-26
   end: 2017-10-30
   sub: PY
@@ -4359,7 +4057,6 @@
   cfp: '2017-08-06 23:59:00'
   timezone: Europe/Berlin
   place: Karlsruhe, Germany
-  date: October 25 - 27, 2017
   start: 2017-10-25
   end: 2017-10-27
   sub: PY
@@ -4373,7 +4070,6 @@
   link: https://web.archive.org/web/20201106161538/https://www.pycon.fr/2017/
   cfp: '2017-07-31 23:59:00'
   place: Toulouse, France
-  date: September 21 - 24, 2017
   start: 2017-09-21
   end: 2017-09-24
   sub: PY
@@ -4387,7 +4083,6 @@
   link: https://web.archive.org/web/20170929071852/http://2017.pythonbrasil.org.br/
   cfp: '2017-06-25 23:59:00'
   place: Belo Horizonte, Brazil
-  date: October 6 - 11, 2017
   start: 2017-10-06
   end: 2017-10-11
   sub: PY
@@ -4401,7 +4096,6 @@
   cfp: '2017-06-24 00:00:00'
   cfp_ext: '2017-07-02 00:00:00'
   place: Erlangen, Germany
-  date: August 28 - September 1, 2017
   start: 2017-08-28
   end: 2017-09-01
   sub: SCIPY
@@ -4415,7 +4109,6 @@
   link: https://web.archive.org/web/20171017043010/https://pycon.jp/2017/en/
   cfp: '2017-06-19 23:59:00'
   place: Tokyo, Japan
-  date: September 7 - 10, 2017
   start: 2017-09-07
   end: 2017-09-10
   sub: PY
@@ -4430,7 +4123,6 @@
   cfp: '2017-06-15 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: September 6th, 2017
   start: 2017-09-06
   end: 2017-09-06
   sub: PY
@@ -4444,7 +4136,6 @@
   link: https://web.archive.org/web/20170701211408/https://pl.pycon.org/2017/index_en.html
   cfp: '2017-05-31 23:59:59'
   place: Ossa, Poland
-  date: August 17 - 20, 2017
   start: 2017-08-17
   end: 2017-08-20
   sub: PY
@@ -4458,7 +4149,6 @@
   link: https://web.archive.org/web/20170508100008/https://2017.djangocon.com.au/
   cfp: '2017-05-07 23:59:00'
   place: Melbourne, Australia
-  date: August 4 - 8, 2017
   start: 2017-08-04
   end: 2017-08-08
   sub: WEB
@@ -4472,7 +4162,6 @@
   link: https://web.archive.org/web/20171031152126/https://2017.pycon-au.org/
   cfp: '2017-05-07 23:59:00'
   place: Melbourne, Australia
-  date: August 3 - 8, 2017
   start: 2017-08-03
   end: 2017-08-08
   sub: PY
@@ -4486,10 +4175,9 @@
   cfp: '2017-04-23 23:59:59'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: June 30 - July 2, 2017
   start: 2017-06-30
   end: 2017-07-02
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -4500,7 +4188,6 @@
   cfp: '2017-04-16 23:59:00'
   cfp_ext: '2017-04-23 23:59:00'
   place: Rimini, Italy
-  date: July 9 - 16, 2017
   start: 2017-07-09
   end: 2017-07-16
   sub: PY
@@ -4513,7 +4200,6 @@
   link: https://web.archive.org/web/20170723003650/https://2017.djangocon.us/
   cfp: '2017-04-10 23:59:00'
   place: Spokane, USA
-  date: August 13 - 18, 2017
   start: 2017-08-13
   end: 2017-08-18
   sub: WEB
@@ -4528,7 +4214,6 @@
   cfp: '2017-04-10 23:55:00'
   timezone: America/Recife
   place: São Luís, Brazil
-  date: June 8 - 10, 2017
   start: 2017-06-08
   end: 2017-06-10
   twitter: pythonnordeste
@@ -4544,7 +4229,6 @@
   cfp: '2017-03-27 23:59:00'
   timezone: America/Chicago
   place: Austin, USA
-  date: July 10 - 16, 2017
   start: 2017-07-10
   end: 2017-07-16
   sub: SCIPY
@@ -4559,10 +4243,9 @@
   cfp: '2017-02-24 23:59:00'
   timezone: Europe/London
   place: London, UK
-  date: May 5 - 7, 2017
   start: 2017-05-05
   end: 2017-05-07
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -4572,7 +4255,6 @@
   link: https://web.archive.org/web/20170521201837/http://2017.geopython.net/
   cfp: '2017-02-15 23:59:00'
   place: Basel, Switzerland
-  date: May 8 - 10, 2017
   start: 2017-05-08
   end: 2017-05-10
   sub: GEO
@@ -4585,7 +4267,6 @@
   link: https://web.archive.org/web/20170608055024/http://www.pygrunn.org/
   cfp: '2017-02-01 23:59:00'
   place: Groningen, Netherlands
-  date: May 19th, 2017
   start: 2017-05-19
   end: 2017-05-19
   location:
@@ -4598,7 +4279,6 @@
   link: https://web.archive.org/web/20180407235829/https://www.pycon.it/en/
   cfp: '2017-01-07 23:59:00'
   place: Florence, Italy
-  date: April 6 - 9, 2017
   start: 2017-04-06
   end: 2017-04-09
   sub: PY
@@ -4611,7 +4291,6 @@
   link: https://web.archive.org/web/20170608061733/https://us.pycon.org/2017/
   cfp: '2017-01-03 23:59:59'
   place: Portland, USA
-  date: May 17 - 25, 2017
   start: 2017-05-17
   end: 2017-05-25
   sub: PY
@@ -4624,7 +4303,6 @@
   link: https://web.archive.org/web/20201108120856/https://2017.djangocon.eu/auth/login/
   cfp: '2016-12-31 23:59:00'
   place: Florence, Italy
-  date: April 3 - 7, 2017
   start: 2017-04-03
   end: 2017-04-07
   sub: WEB
@@ -4638,7 +4316,6 @@
   link: https://web.archive.org/web/20170204031111/https://fosdem.org/2017/schedule/track/python/
   cfp: '2016-12-02 23:59:00'
   place: Brussels, Belgium
-  date: February 4 - 5, 2017
   start: 2017-02-04
   end: 2017-02-05
   location:
@@ -4650,7 +4327,6 @@
   link: https://web.archive.org/web/20170629091110/http://scipy.in/2016
   cfp: '2016-11-28 23:59:00'
   place: Mumbai, India
-  date: December 10 - 11, 2016
   start: 2016-12-10
   end: 2016-12-11
   sub: SCIPY
@@ -4663,7 +4339,6 @@
   link: https://web.archive.org/web/20170214143104/http://www.python-summit.ch/
   cfp: '2016-10-31 23:59:00'
   place: Rapperswil, Switzerland
-  date: February 17th, 2017
   start: 2017-02-17
   end: 2017-02-17
   sub: PY
@@ -4677,7 +4352,6 @@
   link: https://web.archive.org/web/20160422045615/https://za.pycon.org/
   cfp: '2016-10-01 23:59:00'
   place: Johannesburg, South Africa
-  date: October 6 - 9, 2016
   start: 2016-10-06
   end: 2016-10-09
   sub: PY
@@ -4692,7 +4366,6 @@
   cfp: '2016-09-12 00:00:00'
   timezone: Europe/Berlin
   place: Munich, Germany
-  date: October 28 - 30, 2016
   start: 2016-10-28
   end: 2016-10-30
   sub: PY
@@ -4705,7 +4378,6 @@
   link: https://web.archive.org/web/20161026030925/https://2016.pycon.ca/en/
   cfp: '2016-08-31 23:59:00'
   place: Toronto, Canada
-  date: November 12 - 15, 2016
   start: 2016-11-12
   end: 2016-11-15
   sub: PY
@@ -4719,7 +4391,6 @@
   link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
   cfp: '2016-08-31 23:59:00'
   place: Florianópolis, Brazil
-  date: October 13 - 18, 2016
   start: 2016-10-13
   end: 2016-10-18
   sub: PY
@@ -4734,7 +4405,6 @@
   cfp: '2016-08-15 23:59:00'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: November 5 - 6, 2016
   start: 2016-11-05
   end: 2016-11-06
   sub: PY
@@ -4748,7 +4418,6 @@
   link: https://web.archive.org/web/20161025183354/http://www.pycon.fr/2016/
   cfp: '2016-08-03 23:59:00'
   place: Rennes, France
-  date: October 13 - 16, 2016
   start: 2016-10-13
   end: 2016-10-16
   sub: PY
@@ -4763,7 +4432,6 @@
   place: Beijing, China
   extra_places:
   - Hangzhou, China
-  date: October 15th, 2016
   start: 2016-10-15
   end: 2016-10-15
   sub: PY
@@ -4778,7 +4446,6 @@
   link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/shenzhen.html
   cfp: '2016-08-01 23:59:00'
   place: Shenzhen, China
-  date: September 25th, 2016
   start: 2016-09-25
   end: 2016-09-25
   sub: PY
@@ -4791,7 +4458,6 @@
   link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/shanghai.html
   cfp: '2016-08-01 23:59:00'
   place: Shanhai, China
-  date: September 10th, 2016
   start: 2016-09-10
   end: 2016-09-10
   sub: PY
@@ -4805,10 +4471,9 @@
   cfp: '2016-08-01 23:59:00'
   timezone: America/New_York
   place: McLean, USA
-  date: October 7 - 9, 2016
   start: 2016-10-07
   end: 2016-10-09
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 40.4631789
     longitude: -88.8196613
@@ -4819,7 +4484,6 @@
   cfp: '2016-06-30 23:59:00'
   timezone: Asia/Kolkata
   place: New Delhi, India
-  date: September 23 - 25, 2016
   start: 2016-09-23
   end: 2016-09-25
   sub: PY
@@ -4833,7 +4497,6 @@
   cfp: '2016-06-24 23:59:00'
   timezone: Europe/Berlin
   place: Erlangen, Germany
-  date: August 23 - 27, 2016
   start: 2016-08-23
   end: 2016-08-27
   sub: SCIPY
@@ -4847,7 +4510,6 @@
   link: https://web.archive.org/web/20161017222234/https://pycon.jp/2016/en/
   cfp: '2016-06-13 23:59:00'
   place: Tokyo, Japan
-  date: September 20 - 24, 2016
   start: 2016-09-20
   end: 2016-09-24
   sub: PY
@@ -4861,7 +4523,6 @@
   link: https://web.archive.org/web/20160605192843/http://pl.pycon.org/2016/
   cfp: '2016-06-10 23:59:00'
   place: Ossa, Poland
-  date: October 13 - 16, 2016
   start: 2016-10-13
   end: 2016-10-16
   sub: PY
@@ -4874,7 +4535,6 @@
   link: https://web.archive.org/web/20160915163722/http://2016.pyconuk.org/
   cfp: '2016-06-08 23:59:00'
   place: Cardiff, UK
-  date: September 15 - 19, 2016
   start: 2016-09-15
   end: 2016-09-19
   sub: PY
@@ -4888,7 +4548,6 @@
   link: https://web.archive.org/web/20160723033326/https://2016.pycon-au.org/
   cfp: '2016-05-08 23:59:00'
   place: Melbourne, Australia
-  date: August 12 - 16, 2016
   start: 2016-08-12
   end: 2016-08-16
   sub: PY
@@ -4903,7 +4562,6 @@
   cfp: '2016-05-07 23:55:00'
   timezone: America/Recife
   place: São Luís, Brazil
-  date: June 9 - 11, 2016
   start: 2016-06-09
   end: 2016-06-11
   twitter: pythonnordeste
@@ -4918,7 +4576,6 @@
   link: https://web.archive.org/web/20160518213755/http://conf.scipyla.org/scipyla2016/
   cfp: '2016-04-08 23:59:00'
   place: Florianópolis, Brazil
-  date: May 16 - 20, 2016
   start: 2016-05-16
   end: 2016-05-20
   sub: SCIPY
@@ -4932,7 +4589,6 @@
   link: https://web.archive.org/web/20190505024043/https://scipy2016.scipy.org/
   cfp: '2016-04-01 23:59:00'
   place: Austin, USA
-  date: July 10 - 16, 2016
   start: 2016-07-10
   end: 2016-07-16
   sub: SCIPY
@@ -4945,7 +4601,6 @@
   link: https://web.archive.org/web/20160608055024/http://www.pygrunn.org/
   cfp: '2016-03-15 23:59:00'
   place: Groningen, Netherlands
-  date: May 13th, 2016
   start: 2016-05-13
   end: 2016-05-13
   location:
@@ -4957,10 +4612,9 @@
   link: https://web.archive.org/web/20160521214556/http://pydata.org/berlin2016/
   cfp: '2016-03-08 23:59:00'
   place: Berlin, Germany
-  date: May 20 - 21, 2016
   start: 2016-05-20
   end: 2016-05-21
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -4970,10 +4624,9 @@
   link: https://web.archive.org/web/20160515034159/http://pydata.org/london2016/
   cfp: '2016-03-07 23:59:00'
   place: London, UK
-  date: May 6 - 8, 2016
   start: 2016-05-06
   end: 2016-05-08
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -4984,7 +4637,6 @@
   cfp: '2016-03-06 23:59:59'
   timezone: Europe/Madrid
   place: ECC, Spain
-  date: July 17 - 24, 2016
   start: 2016-07-17
   end: 2016-07-24
   sub: PY
@@ -4998,7 +4650,6 @@
   link: https://web.archive.org/web/20160223113301/http://www.pycon.se/
   cfp: '2016-02-29 23:59:00'
   place: Stockholm, Sweden
-  date: May 9 - 11, 2016
   start: 2016-05-09
   end: 2016-05-11
   sub: PY
@@ -5011,7 +4662,6 @@
   link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
   cfp: '2016-02-15 23:59:00'
   place: Basel, Switzerland
-  date: June 22 - 24, 2016
   start: 2016-06-22
   end: 2016-06-24
   sub: GEO
@@ -5025,7 +4675,6 @@
   link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
   cfp: '2016-01-10 23:59:00'
   place: Florence, Italia
-  date: April 15 - 17, 2016
   start: 2016-04-15
   end: 2016-04-17
   sub: PY
@@ -5040,7 +4689,6 @@
   cfp: '2015-12-11 23:59:00'
   cfp_ext: '2015-12-20 23:59:00'
   place: Brussels, Belgium
-  date: January 30th, 2016
   start: 2016-01-30
   end: 2016-01-30
   location:
@@ -5052,7 +4700,6 @@
   link: https://web.archive.org/web/20160316131658/http://www.python-summit.ch/
   cfp: '2015-10-31 23:59:00'
   place: Rapperswil, Switzerland
-  date: February 5 - 6, 2016
   start: 2016-02-05
   end: 2016-02-06
   sub: PY
@@ -5065,7 +4712,6 @@
   link: https://web.archive.org/web/20151222204316/http://scipy.in/2015
   cfp: '2015-10-15 23:59:00'
   place: Mumbai, India
-  date: December 14 - 16, 2015
   start: 2015-12-14
   end: 2015-12-16
   sub: SCIPY
@@ -5079,7 +4725,6 @@
   link: https://web.archive.org/web/20150924233205/https://za.pycon.org/
   cfp: '2015-10-01 23:59:00'
   place: Johannesburg, South Africa
-  date: October 1 - 4, 2015
   start: 2015-10-01
   end: 2015-10-04
   sub: PY
@@ -5092,7 +4737,6 @@
   link: https://web.archive.org/web/20150805095718/http://pyss15.pyss.org/en/
   cfp: '2015-09-25 23:59:00'
   place: San Sebastian, Spain
-  date: October 24 - 25, 2015
   start: 2015-10-24
   end: 2015-10-25
   sub: PY
@@ -5105,7 +4749,6 @@
   link: https://web.archive.org/web/20150829112426/http://www.dlr.de/sc/desktopdefault.aspx/tabid-10388/17849_read-42322
   cfp: '2015-09-04 23:59:00'
   place: Austin, USA
-  date: November 15th, 2015
   start: 2015-11-15
   end: 2015-11-15
   location:
@@ -5118,7 +4761,6 @@
   link: https://web.archive.org/web/20150614065213/http://pythonbrasil.github.io/pythonbrasil11-site/
   cfp: '2015-09-01 23:59:00'
   place: Sao Jose dos Campos, Brazil
-  date: October 13 - 17, 2015
   start: 2015-10-13
   end: 2015-10-17
   sub: PY
@@ -5132,7 +4774,6 @@
   cfp: '2015-08-14 23:59:00'
   timezone: America/Toronto
   place: Toronto, Canada
-  date: November 7 - 9, 2015
   start: 2015-11-07
   end: 2015-11-09
   sub: PY
@@ -5145,7 +4786,6 @@
   link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
   cfp: '2015-08-12 23:59:00'
   place: Beijing, China
-  date: September 19th, 2015
   start: 2015-09-19
   end: 2015-09-19
   sub: PY
@@ -5158,7 +4798,6 @@
   link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
   cfp: '2015-08-12 23:59:00'
   place: Guangzhou, China
-  date: September 13th, 2015
   start: 2015-09-13
   end: 2015-09-13
   sub: PY
@@ -5171,7 +4810,6 @@
   link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
   cfp: '2015-08-12 23:59:00'
   place: Shanghai, China
-  date: September 12th, 2015
   start: 2015-09-12
   end: 2015-09-12
   sub: PY
@@ -5187,7 +4825,6 @@
   cfp: '2015-07-31 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 24 - 25, 2015
   start: 2015-10-24
   end: 2015-10-25
   sub: PY
@@ -5201,7 +4838,6 @@
   link: https://web.archive.org/web/20160807221928/https://pycon.jp/2015/en/
   cfp: '2015-07-20 23:59:00'
   place: Tokyo, Japan
-  date: October 9 - 12, 2015
   start: 2015-10-09
   end: 2015-10-12
   sub: PY
@@ -5216,7 +4852,6 @@
   cfp: '2015-07-15 23:59:00'
   cfp_ext: '2015-08-09 23:59:00'
   place: Pau, France
-  date: October 17 - 20, 2015
   start: 2015-10-17
   end: 2015-10-20
   sub: PY
@@ -5230,7 +4865,6 @@
   link: https://web.archive.org/web/20151212164132/https://python.nz/
   cfp: '2015-06-22 23:59:00'
   place: Christchurch, New Zealand
-  date: September 4 - 6, 2015
   start: 2015-09-04
   end: 2015-09-06
   sub: PY
@@ -5243,7 +4877,6 @@
   link: https://web.archive.org/web/20150706194946/http://www.pyconuk.org/
   cfp: '2015-06-19 23:59:00'
   place: Coventry, UK
-  date: September 18 - 21, 2015
   start: 2015-09-18
   end: 2015-09-21
   sub: PY
@@ -5257,7 +4890,6 @@
   cfp: '2015-05-31 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: October 2 - 4, 2015
   start: 2015-10-02
   end: 2015-10-04
   sub: PY
@@ -5270,10 +4902,9 @@
   link: https://web.archive.org/web/20160222211712/http://pydata.org/london2015/
   cfp: '2015-05-18 23:59:00'
   place: London, UK
-  date: June 19 - 21, 2015
   start: 2015-06-19
   end: 2015-06-21
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -5283,7 +4914,6 @@
   link: https://web.archive.org/web/20150906032808/https://2015.djangocon.us/
   cfp: '2015-05-15 23:59:00'
   place: Austin, USA
-  date: September 6 - 11, 2015
   start: 2015-09-06
   end: 2015-09-11
   sub: WEB
@@ -5297,7 +4927,6 @@
   link: https://web.archive.org/web/20150502175722/http://2015.pycon-au.org/
   cfp: '2015-05-08 23:59:00'
   place: Brisbane, Australia
-  date: July 31 - August 4, 2015
   start: 2015-07-31
   end: 2015-08-04
   sub: PY
@@ -5311,7 +4940,6 @@
   cfp: '2015-04-30 23:59:00'
   cfp_ext: '2015-05-15 23:59:00'
   place: Cambridge, UK
-  date: August 26 - 30, 2015
   start: 2015-08-26
   end: 2015-08-30
   sub: SCIPY
@@ -5325,10 +4953,9 @@
   cfp: '2015-04-30 23:59:59'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: May 29 - 30, 2015
   start: 2015-05-29
   end: 2015-05-30
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -5340,7 +4967,6 @@
   cfp: '2015-04-28 23:59:59'
   timezone: Europe/Madrid
   place: Bilbao, Spain
-  date: July 20 - 27, 2015
   start: 2015-07-20
   end: 2015-07-27
   sub: PY
@@ -5353,7 +4979,6 @@
   link: https://web.archive.org/web/20150508131405/http://conf.scipyla.org/
   cfp: '2015-04-13 23:59:00'
   place: Posadas, Argentina
-  date: May 20 - 22, 2015
   start: 2015-05-20
   end: 2015-05-22
   sub: SCIPY
@@ -5367,7 +4992,6 @@
   link: https://web.archive.org/web/20190625031421/https://scipy2015.scipy.org/
   cfp: '2015-04-10 23:59:00'
   place: Austin, USA
-  date: July 6 - 12, 2015
   start: 2015-07-06
   end: 2015-07-12
   sub: SCIPY
@@ -5382,7 +5006,6 @@
   cfp: '2015-03-27 12:00:00'
   timezone: America/Recife
   place: Natal, Brazil
-  date: May 15 - June 16, 2015
   start: 2015-05-15
   end: 2015-06-16
   twitter: pythonnordeste
@@ -5396,7 +5019,6 @@
   link: https://web.archive.org/web/20150621212217/http://2015.djangocon.eu/
   cfp: '2015-03-18 23:59:00'
   place: Cardiff, UK
-  date: May 31 - June 5, 2015
   start: 2015-05-31
   end: 2015-06-05
   sub: WEB
@@ -5411,7 +5033,6 @@
   cfp: '2015-02-16 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: May 12 - 13, 2015
   start: 2015-05-12
   end: 2015-05-13
   sub: PY
@@ -5424,7 +5045,6 @@
   link: https://web.archive.org/web/20150608055024/http://www.pygrunn.org/
   cfp: '2015-02-01 23:59:00'
   place: Groningen, Netherlands
-  date: May 22nd, 2015
   start: 2015-05-22
   end: 2015-05-22
   location:
@@ -5437,7 +5057,6 @@
   link: https://web.archive.org/web/20141224170534/https://www.pycon.it/it/
   cfp: '2015-01-18 23:59:00'
   place: Florence, Italy
-  date: April 17 - 19, 2015
   start: 2015-04-17
   end: 2015-04-19
   sub: PY
@@ -5450,7 +5069,6 @@
   link: https://web.archive.org/web/20160602041511/https://us.pycon.org/2016/
   cfp: '2015-01-03 23:59:00'
   place: Portland, USA
-  date: May 28 - June 5, 2016
   start: 2016-05-28
   end: 2016-06-05
   sub: PY
@@ -5463,7 +5081,6 @@
   link: https://web.archive.org/web/20150201083907/http://python-namibia.org/
   cfp: '2014-12-15 23:59:00'
   place: Windhoek, Namibia
-  date: February 2 - 5, 2015
   start: 2015-02-02
   end: 2015-02-05
   sub: PY
@@ -5477,7 +5094,6 @@
   link: https://web.archive.org/web/20150326165206/https://fosdem.org/2015/schedule/track/python/
   cfp: '2014-12-01 23:59:00'
   place: Brussels, Belgium
-  date: January 31st, 2015
   start: 2015-01-31
   end: 2015-01-31
   location:
@@ -5489,7 +5105,6 @@
   link: https://web.archive.org/web/20141222103930/http://scipy.in/2014
   cfp: '2014-10-15 23:59:00'
   place: Mumbai, India
-  date: December 5 - 7, 2014
   start: 2014-12-05
   end: 2014-12-07
   sub: SCIPY
@@ -5507,7 +5122,6 @@
   - Zhuhai, China
   - Hangzhou, China
   - Suzhou, China
-  date: November 15th, 2014
   start: 2014-11-15
   end: 2014-11-15
   sub: PY
@@ -5528,7 +5142,6 @@
   link: https://web.archive.org/web/20150404081943/https://us.pycon.org/2015/
   cfp: '2014-09-15 23:59:00'
   place: Montreal, Canada
-  date: April 8 - 16, 2015
   start: 2015-04-08
   end: 2015-04-16
   sub: PY
@@ -5542,7 +5155,6 @@
   link: https://web.archive.org/web/20141025183354/http://www.pycon.fr/2014/
   cfp: '2014-09-15 23:59:00'
   place: Villeurbanne, France
-  date: October 25 - 28, 2014
   start: 2014-10-25
   end: 2014-10-28
   sub: PY
@@ -5556,7 +5168,6 @@
   cfp: '2014-09-05 23:59:00'
   cfp_ext: '2014-09-12 23:59:00'
   place: Salt Lake City, USA
-  date: November 14th, 2016
   start: 2016-11-14
   end: 2016-11-14
   location:
@@ -5569,7 +5180,6 @@
   cfp: '2014-09-05 23:59:00'
   cfp_ext: '2014-09-12 23:59:00'
   place: New Orleans, USA
-  date: November 17 - 18, 2014
   start: 2014-11-17
   end: 2014-11-18
   location:
@@ -5582,7 +5192,6 @@
   link: https://web.archive.org/web/20140712234719/https://za.pycon.org/
   cfp: '2014-09-01 23:59:00'
   place: Johannesburg, South Africa
-  date: October 2 - 6, 2014
   start: 2014-10-02
   end: 2014-10-06
   sub: PY
@@ -5595,7 +5204,6 @@
   link: https://web.archive.org/web/20150109142404/http://www.pyss.org/
   cfp: '2014-08-31 23:59:00'
   place: San Sebastian, Spain
-  date: September 26 - 29, 2014
   start: 2014-09-26
   end: 2014-09-29
   sub: PY
@@ -5609,7 +5217,6 @@
   cfp: '2014-08-19 00:00:00'
   timezone: Europe/London
   place: Coventry, UK
-  date: September 19 - 22, 2014
   start: 2014-09-19
   end: 2014-09-22
   sub: PY
@@ -5626,7 +5233,6 @@
   place: Porto de Galinhas, Brazil
   extra_places:
   - Recife, Brazil
-  date: November 4 - 9, 2014
   start: 2014-11-04
   end: 2014-11-09
   sub: PY
@@ -5640,7 +5246,6 @@
   link: https://web.archive.org/web/20141026131600/http://pl.pycon.org/2014/en
   cfp: '2014-07-14 23:59:00'
   place: Szczyrk, Poland
-  date: October 16 - 19, 2014
   start: 2014-10-16
   end: 2014-10-19
   sub: PY
@@ -5655,7 +5260,6 @@
   cfp: '2014-07-14 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 11 - 14, 2014
   start: 2014-10-11
   end: 2014-10-14
   sub: PY
@@ -5669,7 +5273,6 @@
   link: https://web.archive.org/web/20140802025405/http://kiwi.pycon.org/
   cfp: '2014-06-30 23:59:00'
   place: Wellington, New Zealand
-  date: September 12 - 14, 2014
   start: 2014-09-12
   end: 2014-09-14
   sub: PY
@@ -5682,7 +5285,6 @@
   link: https://web.archive.org/web/20140607062955/http://www.djangocon.us/
   cfp: '2014-06-28 23:59:00'
   place: Chicago, USA
-  date: August 30 - September 6, 2014
   start: 2014-08-30
   end: 2014-09-06
   sub: WEB
@@ -5696,7 +5298,6 @@
   link: https://web.archive.org/web/20140907073857/https://pycon.jp/2014/
   cfp: '2014-06-20 23:59:59'
   place: Tokyo, Japan
-  date: September 12 - 15, 2014
   start: 2014-09-12
   end: 2014-09-15
   sub: PY
@@ -5710,7 +5311,6 @@
   cfp: '2014-06-14 23:59:00'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: July 21 - 27, 2014
   start: 2014-07-21
   end: 2014-07-27
   sub: PY
@@ -5723,7 +5323,6 @@
   link: https://web.archive.org/web/20140929035341/http://in.pycon.org/2014/
   cfp: '2014-05-30 23:59:00'
   place: Bengaluru, India
-  date: September 26 - 28, 2014
   start: 2014-09-26
   end: 2014-09-28
   sub: PY
@@ -5737,10 +5336,9 @@
   cfp: '2014-05-12 23:59:59'
   timezone: Europe/Berlin
   place: Berlin, Germany
-  date: July 26 - 28, 2014
   start: 2014-07-26
   end: 2014-07-28
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 52.5170365
     longitude: 13.3888599
@@ -5751,7 +5349,6 @@
   link: https://web.archive.org/web/20140729115454/http://2014.pycon-au.org/
   cfp: '2014-04-25 23:59:00'
   place: Brisbane, Australia
-  date: August 1 - 5, 2014
   start: 2014-08-01
   end: 2014-08-05
   finaid: https://web.archive.org/web/20140628120626/http://2014.pycon-au.org/grants
@@ -5766,7 +5363,6 @@
   link: https://web.archive.org/web/20140625194831/https://conference.scipy.org/scipy2014/
   cfp: '2014-04-01 23:59:00'
   place: Austin, USA
-  date: July 6 - 12, 2014
   start: 2014-07-06
   end: 2014-07-12
   sub: SCIPY
@@ -5779,7 +5375,6 @@
   link: https://web.archive.org/web/20141221190438/http://www.pygrunn.org/
   cfp: '2014-04-01 23:59:00'
   place: Groningen, Netherlands
-  date: May 9 - 10, 2014
   start: 2014-05-09
   end: 2014-05-10
   location:
@@ -5792,7 +5387,6 @@
   cfp: '2014-03-31 23:55:00'
   timezone: America/Recife
   place: Salvador, Brazil
-  date: May 1 - 3, 2014
   start: 2014-05-01
   end: 2014-05-03
   twitter: pythonnordeste
@@ -5808,7 +5402,6 @@
   cfp: '2014-03-16 23:59:00'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
-  date: May 20 - 21, 2014
   start: 2014-05-20
   end: 2014-05-21
   sub: PY
@@ -5822,7 +5415,6 @@
   link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
   cfp: '2014-02-21 23:59:00'
   place: Florence, Italy
-  date: May 23 - 26, 2014
   start: 2014-05-23
   end: 2014-05-26
   sub: PY
@@ -5836,7 +5428,6 @@
   cfp_link: https://web.archive.org/web/20140127011356/http://2014.djangocon.eu:80/call-for-papers
   cfp: '2014-02-01 23:59:00'
   place: Var, France
-  date: May 13 - 17, 2014
   start: 2014-05-13
   end: 2014-05-17
   sub: WEB
@@ -5849,10 +5440,9 @@
   link: https://web.archive.org/web/20140214193445/http://pydata.org/ldn2014
   cfp: '2014-01-30 23:59:00'
   place: London, UK
-  date: February 21 - 23, 2014
   start: 2014-02-21
   end: 2014-02-23
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
@@ -5863,7 +5453,6 @@
   link: https://web.archive.org/web/20140208210710/http://python-fosdem.org/schedule
   cfp: '2013-12-31 23:59:00'
   place: Brussels, Belgium
-  date: February 2nd, 2014
   start: 2014-02-02
   end: 2014-02-02
   location:
@@ -5875,7 +5464,6 @@
   link: https://web.archive.org/web/20131023113605/http://scipy.in/2013
   cfp: '2013-12-02 23:59:00'
   place: Mumbai, India
-  date: December 13 - 15, 2013
   start: 2013-12-13
   end: 2013-12-15
   sub: SCIPY
@@ -5888,7 +5476,6 @@
   link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
   cfp: '2013-11-01 23:59:00'
   place: Beijing, China
-  date: December 14th, 2013
   start: 2013-12-14
   end: 2013-12-14
   sub: PY
@@ -5904,7 +5491,6 @@
   extra_places:
   - Zhuhai, China
   - Hangzhou, China
-  date: December 8th, 2013
   start: 2013-12-08
   end: 2013-12-08
   sub: PY
@@ -5921,7 +5507,6 @@
   link: https://web.archive.org/web/20131118193245/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8685/14943_read-37157/
   cfp: '2013-09-20 23:59:00'
   place: Denver, USA
-  date: November 18th, 2013
   start: 2013-11-18
   end: 2013-11-18
   location:
@@ -5933,7 +5518,6 @@
   link: https://web.archive.org/web/20130208161148/http://uy.pycon.org/
   cfp: '2013-09-20 23:59:00'
   place: Montevideo, Uruguay
-  date: November 1 - 2, 2013
   start: 2013-11-01
   end: 2013-11-02
   sub: PY
@@ -5946,7 +5530,6 @@
   link: https://web.archive.org/web/20140409001111/https://us.pycon.org/2014/
   cfp: '2013-09-15 23:59:00'
   place: Montreal, Canada
-  date: April 9 - 17, 2014
   start: 2014-04-09
   end: 2014-04-17
   sub: PY
@@ -5960,7 +5543,6 @@
   link: https://web.archive.org/web/20131027125621/http://www.pycon.fr/2013/
   cfp: '2013-09-15 23:59:00'
   place: Strasbourg, France
-  date: October 26 - 30, 2013
   start: 2013-10-26
   end: 2013-10-30
   sub: PY
@@ -5975,7 +5557,6 @@
   cfp: '2013-08-31 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 12 - 15, 2012
   start: 2012-10-12
   end: 2012-10-15
   sub: PY
@@ -5989,7 +5570,6 @@
   cfp: '2013-08-19 00:00:00'
   timezone: Europe/London
   place: Coventry, UK
-  date: September 20 - 23, 2013
   start: 2013-09-20
   end: 2013-09-23
   sub: PY
@@ -6003,7 +5583,6 @@
   link: https://web.archive.org/web/20130820170135/http://13.rupy.eu/
   cfp: '2013-07-31 23:59:00'
   place: Budapest, Hungary
-  date: October 11 - 13, 2013
   start: 2013-10-11
   end: 2013-10-13
   location:
@@ -6016,7 +5595,6 @@
   link: https://web.archive.org/web/20130530100705/http://2013.pythonbrasil.org.br/
   cfp: '2013-07-31 23:59:00'
   place: Brasilia, Brazil
-  date: September 30 - October 6, 2013
   start: 2013-09-30
   end: 2013-10-06
   sub: PY
@@ -6031,7 +5609,6 @@
   link: https://web.archive.org/web/20131015143206/http://pl.pycon.org/2013/
   cfp: '2013-07-28 23:59:00'
   place: Szczyrk, Poland
-  date: October 17 - 20, 2013
   start: 2013-10-17
   end: 2013-10-20
   sub: PY
@@ -6045,7 +5622,6 @@
   link: https://web.archive.org/web/20131028065946/http://2013.de.pycon.org/
   cfp: '2013-07-15 23:59:00'
   place: Cologne, Germany
-  date: October 14 - 19, 2013
   start: 2013-10-14
   end: 2013-10-19
   sub: PY
@@ -6059,7 +5635,6 @@
   cfp: '2013-07-15 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: August 31 - September 1, 2013
   start: 2013-08-31
   end: 2013-09-01
   sub: PY
@@ -6073,7 +5648,6 @@
   cfp_link: https://web.archive.org/web/20140918105106/http://2013.pycon.ca/en/speak/
   cfp: '2013-06-21 23:59:00'
   place: Toronto, Canada
-  date: August 9 - 13, 2013
   start: 2013-08-09
   end: 2013-08-13
   sub: PY
@@ -6086,7 +5660,6 @@
   link: https://web.archive.org/web/20130608004141/http://www.djangocon.us/
   cfp: '2013-06-18 23:59:00'
   place: Chicago, USA
-  date: September 2 - 7, 2013
   start: 2013-09-02
   end: 2013-09-07
   sub: WEB
@@ -6100,7 +5673,6 @@
   cfp: '2013-04-28 00:00:00'
   cfp_ext: '2013-05-05 23:59:59'
   place: Brussels, Belgium
-  date: August 21 - 24, 2013
   start: 2013-08-21
   end: 2013-08-24
   sub: SCIPY
@@ -6114,7 +5686,6 @@
   cfp: '2013-04-15 12:00:00'
   timezone: Europe/Amsterdam
   place: Groningen, Netherlands
-  date: May 10th, 2013
   start: 2013-05-10
   end: 2013-05-10
   location:
@@ -6127,7 +5698,6 @@
   link: https://web.archive.org/web/20110211105009/http://2013.pycon-au.org/
   cfp: '2013-04-05 23:59:00'
   place: Hobart, Australia
-  date: July 5 - 7, 2013
   start: 2013-07-05
   end: 2013-07-07
   sub: PY
@@ -6141,7 +5711,6 @@
   link: https://web.archive.org/web/20130621023952/http://conference.scipy.org/scipy2013/
   cfp: '2013-03-20 23:59:00'
   place: Austin, USA
-  date: June 24 - 29, 2013
   start: 2013-06-24
   end: 2013-06-29
   sub: SCIPY
@@ -6155,7 +5724,6 @@
   cfp: '2013-03-05 23:59:59'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: July 1 - 7, 2013
   start: 2013-07-01
   end: 2013-07-07
   sub: PY
@@ -6168,7 +5736,6 @@
   link: https://web.archive.org/web/20160708210325/http://2013.pythonnordeste.org/
   cfp: '2013-03-01 00:00:00'
   place: Fortaleza, Brazil
-  date: May 24 - 25, 2013
   start: 2013-05-24
   end: 2013-05-25
   sub: PY
@@ -6181,10 +5748,9 @@
   link: https://web.archive.org/web/20130304203036/http://sv2013.pydata.org/
   cfp: '2013-01-15 23:59:00'
   place: Santa Clara, USA
-  date: March 18 - 20, 2013
   start: 2013-03-18
   end: 2013-03-20
-  sub: PYDATA
+  sub: DATA
   location:
   - latitude: 37.4043966
     longitude: -121.97505187753514
@@ -6194,7 +5760,6 @@
   link: https://web.archive.org/web/20130508100008/http://2013.djangocon.eu/
   cfp: '2013-01-08 23:59:00'
   place: Warsaw, Poland
-  date: May 15 - 19, 2013
   start: 2013-05-15
   end: 2013-05-19
   sub: WEB
@@ -6208,7 +5773,6 @@
   link: https://web.archive.org/web/20130216000502/https://fosdem.org/2013/
   cfp: '2012-12-21 23:59:00'
   place: Brussels, Belgium
-  date: February 3rd, 2013
   start: 2013-02-03
   end: 2013-02-03
   location:
@@ -6220,7 +5784,6 @@
   link: https://web.archive.org/web/20140108235207/http://scipy.in/2012
   cfp: '2012-11-01 23:59:00'
   place: Mumbai, India
-  date: December 27 - 29, 2012
   start: 2012-12-27
   end: 2012-12-29
   sub: SCIPY
@@ -6233,7 +5796,6 @@
   link: https://web.archive.org/web/20121001005855/http://uy.pycon.org/
   cfp: '2012-10-01 23:59:00'
   place: Montevideo, Uruguay
-  date: November 10 - 11, 2012
   start: 2012-11-10
   end: 2012-11-11
   sub: PY
@@ -6247,7 +5809,6 @@
   link: https://web.archive.org/web/20121016221615/http://fi.pycon.org/2012/
   cfp: '2012-10-01 23:59:00'
   place: Otaniemi, Finland
-  date: October 22 - 24, 2012
   start: 2012-10-22
   end: 2012-10-24
   sub: PY
@@ -6262,7 +5823,6 @@
   place: Beijing, China
   extra_places:
   - Shanghai, China
-  date: October 20th, 2012
   start: 2012-10-20
   end: 2012-10-20
   sub: PY
@@ -6278,7 +5838,6 @@
   cfp: '2012-10-01 23:59:00'
   timezone: America/Toronto
   place: Toronto, Canada
-  date: November 9 - 11, 2012
   start: 2012-11-09
   end: 2012-11-11
   sub: PY
@@ -6292,7 +5851,6 @@
   link: https://web.archive.org/web/20121117085723/http://2012.pythonbrasil.org.br/
   cfp: '2012-09-30 23:59:00'
   place: Rio de Janeiro, Brazil
-  date: November 21 - 24, 2012
   start: 2012-11-21
   end: 2012-11-24
   sub: PY
@@ -6305,7 +5863,6 @@
   link: https://web.archive.org/web/20130327104545/https://us.pycon.org/2013/
   cfp: '2012-09-28 23:59:00'
   place: Santa Clara, USA
-  date: March 13 - 21, 2013
   start: 2013-03-13
   end: 2013-03-21
   sub: PY
@@ -6319,7 +5876,6 @@
   link: https://web.archive.org/web/20120419232557/http://ua.pycon.org/
   cfp: '2012-09-20 23:59:00'
   place: Kiew, Ukraine
-  date: October 20 - 22, 2012
   start: 2012-10-20
   end: 2012-10-22
   sub: PY
@@ -6334,7 +5890,6 @@
   cfp: '2012-09-15 23:59:00'
   timezone: Africa/Johannesburg
   place: Cape Town, South Africa
-  date: October 4 - 5, 2012
   start: 2012-10-04
   end: 2012-10-05
   sub: PY
@@ -6347,7 +5902,6 @@
   link: https://web.archive.org/web/20121115022259/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8028/13765_read-34936/
   cfp: '2012-09-14 23:59:00'
   place: Salt Lake City, USA
-  date: November 16th, 2012
   start: 2012-11-16
   end: 2012-11-16
   location:
@@ -6360,7 +5914,6 @@
   cfp: '2012-08-25 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: September 28 - 30, 2012
   start: 2012-09-28
   end: 2012-09-30
   sub: PY
@@ -6375,7 +5928,6 @@
   cfp: '2012-08-19 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 13 - 14, 2012
   start: 2012-10-13
   end: 2012-10-14
   sub: PY
@@ -6389,7 +5941,6 @@
   cfp: '2012-08-19 00:00:00'
   timezone: Europe/London
   place: Coventry, UK
-  date: September 28 - October 1, 2012
   start: 2012-09-28
   end: 2012-10-01
   sub: PY
@@ -6403,7 +5954,6 @@
   cfp: '2012-08-15 23:59:00'
   cfp_ext: '2012-08-19 23:59:00'
   place: Arnhem, Netherlands
-  date: October 8 - 14, 2012
   start: 2012-10-08
   end: 2012-10-14
   sub: WEB
@@ -6417,7 +5967,6 @@
   link: https://web.archive.org/web/20121205070033/http://rupy.com.br/
   cfp: '2012-07-31 23:59:00'
   place: São Paulo, Brazil
-  date: December 8 - 9, 2012
   start: 2012-12-08
   end: 2012-12-09
   location:
@@ -6430,7 +5979,6 @@
   link: https://web.archive.org/web/20121207203445/http://12.rupy.eu/
   cfp: '2012-07-31 23:59:00'
   place: Brno, Czechia
-  date: November 16 - 18, 2012
   start: 2012-11-16
   end: 2012-11-18
   location:
@@ -6443,7 +5991,6 @@
   link: https://web.archive.org/web/20121029082134/http://ar.pycon.org/2012/default/index
   cfp: '2012-07-15 23:59:00'
   place: Buenos Aires, Argentina
-  date: November 12 - 17, 2012
   start: 2012-11-12
   end: 2012-11-17
   sub: PY
@@ -6457,7 +6004,6 @@
   link: https://web.archive.org/web/20120919110354/http://www.pycon.fr/2012/
   cfp: '2012-07-15 23:59:00'
   place: Paris, France
-  date: September 13 - 16, 2012
   start: 2012-09-13
   end: 2012-09-16
   sub: PY
@@ -6471,7 +6017,6 @@
   link: https://web.archive.org/web/20121212164132/https://nz.pycon.org/
   cfp: '2012-07-02 23:59:00'
   place: Dunedin, New Zealand
-  date: September 1 - 2, 2012
   start: 2012-09-01
   end: 2012-09-02
   sub: PY
@@ -6485,7 +6030,6 @@
   link: https://web.archive.org/web/20120918233237/http://pl.pycon.org/2012/
   cfp: '2012-06-24 23:59:59'
   place: Masłów, Poland
-  date: September 13 - 16, 2012
   start: 2012-09-13
   end: 2012-09-16
   sub: PY
@@ -6498,7 +6042,6 @@
   link: https://web.archive.org/web/20120508100008/http://2012.djangocon.us/
   cfp: '2012-06-16 23:59:00'
   place: Washington, USA
-  date: August 3 - 8, 2012
   start: 2012-08-03
   end: 2012-08-08
   sub: WEB
@@ -6512,7 +6055,6 @@
   link: https://web.archive.org/web/20121028040216/http://2012.de.pycon.org/
   cfp: '2012-06-15 23:59:00'
   place: Leipzig, Germany
-  date: October 29 - November 3, 2012
   start: 2012-10-29
   end: 2012-11-03
   sub: PY
@@ -6526,7 +6068,6 @@
   link: https://web.archive.org/web/20130901133936/http://nz.pycon.org/
   cfp: '2012-06-01 23:59:00'
   place: Auckland, New Zealand
-  date: September 6 - 8, 2013
   start: 2013-09-06
   end: 2013-09-08
   sub: PY
@@ -6540,7 +6081,6 @@
   link: https://web.archive.org/web/20120916084616/http://2012.pycon.jp/en/index.html
   cfp: '2012-05-31 23:59:00'
   place: Tokyo, Japan
-  date: September 15 - 17, 2012
   start: 2012-09-15
   end: 2012-09-17
   sub: PY
@@ -6553,7 +6093,6 @@
   link: https://web.archive.org/web/20120523143818/https://www.euroscipy.org/
   cfp: '2012-05-06 00:00:00'
   place: Brussels, Belgium
-  date: August 23 - 27, 2012
   start: 2012-08-23
   end: 2012-08-27
   sub: SCIPY
@@ -6567,7 +6106,6 @@
   link: https://web.archive.org/web/20121016073113/http://2012.pycon-au.org/
   cfp: '2012-05-04 23:59:00'
   place: Hobart, Australia
-  date: August 18 - 19, 2012
   start: 2012-08-18
   end: 2012-08-19
   sub: PY
@@ -6581,7 +6119,6 @@
   link: https://web.archive.org/web/20120621023952/http://conference.scipy.org/scipy2012/
   cfp: '2012-04-30 23:59:00'
   place: Austin, USA
-  date: July 16 - 21, 2012
   start: 2012-07-16
   end: 2012-07-21
   sub: SCIPY
@@ -6594,7 +6131,6 @@
   link: https://web.archive.org/web/20120508100008/http://2012.djangocon.eu/
   cfp: '2012-04-15 23:59:00'
   place: Zurich, Switzerland
-  date: June 4 - 8, 2012
   start: 2012-06-04
   end: 2012-06-08
   sub: WEB
@@ -6609,7 +6145,6 @@
   cfp_ext: '2012-03-21 23:59:59'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: July 2 - 8, 2012
   start: 2012-07-02
   end: 2012-07-08
   sub: PY
@@ -6622,7 +6157,6 @@
   link: https://web.archive.org/web/20120319021157/https://us.pycon.org/2012/
   cfp: '2011-10-12 23:59:00'
   place: Santa Clara, USA
-  date: March 7 - 15, 2012
   start: 2012-03-07
   end: 2012-03-15
   sub: PY
@@ -6635,7 +6169,6 @@
   link: https://web.archive.org/web/20110927124755/http://cn.pycon.org/2011/
   cfp: '2011-10-01 23:59:00'
   place: Shanghai, China
-  date: December 3 - 4, 2011
   start: 2011-12-03
   end: 2011-12-04
   sub: PY
@@ -6648,7 +6181,6 @@
   link: https://web.archive.org/web/20130923035222/http://www.dlr.de/sc/desktopdefault.aspx/tabid-7632/12996_read-32676/
   cfp: '2011-09-19 23:59:00'
   place: Seattle, USA
-  date: November 18th, 2011
   start: 2011-11-18
   end: 2011-11-18
   location:
@@ -6661,7 +6193,6 @@
   link: https://web.archive.org/web/20120827060031/http://2011.pythonbrasil.org.br/
   cfp: '2011-08-19 23:59:00'
   place: Sao Paulo, Brazil
-  date: September 29 - October 1, 2011
   start: 2011-09-29
   end: 2011-10-01
   sub: PY
@@ -6675,7 +6206,6 @@
   link: https://web.archive.org/web/20231209152547/https://www.pycon.fr/2011/category/conference.html
   cfp: '2011-08-01 23:59:00'
   place: Paris, France
-  date: September 17 - 18, 2011
   start: 2011-09-17
   end: 2011-09-18
   sub: PY
@@ -6690,7 +6220,6 @@
   cfp: '2011-07-31 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: October 8 - 9, 2011
   start: 2011-10-08
   end: 2011-10-09
   sub: PY
@@ -6704,7 +6233,6 @@
   link: https://web.archive.org/web/20120728002815/http://2011.de.pycon.org/2011/home/
   cfp: '2011-07-15 23:59:00'
   place: Leipzig, Germany
-  date: October 4 - 9, 2011
   start: 2011-10-04
   end: 2011-10-09
   sub: PY
@@ -6717,7 +6245,6 @@
   link: https://web.archive.org/web/20110508100008/http://2011.djangocon.us/
   cfp: '2011-07-05 23:59:00'
   place: Portland, USA
-  date: September 6 - 10, 2011
   start: 2011-09-06
   end: 2011-09-10
   sub: WEB
@@ -6731,7 +6258,6 @@
   link: https://web.archive.org/web/20110924185632/http://pl.pycon.org/2011/
   cfp: '2011-07-02 23:59:00'
   place: Kielce, Poland
-  date: September 22 - 25, 2011
   start: 2011-09-22
   end: 2011-09-25
   sub: PY
@@ -6745,7 +6271,6 @@
   cfp: '2011-06-30 23:59:00'
   timezone: Asia/Kolkata
   place: Pune, India
-  date: September 16 - 18, 2011
   start: 2011-09-16
   end: 2011-09-18
   sub: PY
@@ -6759,7 +6284,6 @@
   link: https://web.archive.org/web/20110312164132/https://nz.pycon.org/
   cfp: '2011-05-09 23:59:00'
   place: Wellington, New Zealand
-  date: August 27 - 28, 2011
   start: 2011-08-27
   end: 2011-08-28
   sub: PY
@@ -6772,7 +6296,6 @@
   link: https://web.archive.org/web/20110523143818/https://www.euroscipy.org/
   cfp: '2011-05-08 00:00:00'
   place: Paris, France
-  date: August 25 - 28, 2011
   start: 2011-08-25
   end: 2011-08-28
   sub: SCIPY
@@ -6786,7 +6309,6 @@
   link: https://web.archive.org/web/20111106005504/http://pycon-au.org/2011/about/
   cfp: '2011-05-02 23:59:00'
   place: Sydney, Australia
-  date: August 20 - 21, 2011
   start: 2011-08-20
   end: 2011-08-21
   sub: PY
@@ -6800,7 +6322,6 @@
   link: https://web.archive.org/web/20110621023952/http://conference.scipy.org/scipy2011/
   cfp: '2011-04-24 23:59:00'
   place: Austin, USA
-  date: July 11 - 16, 2011
   start: 2011-07-11
   end: 2011-07-16
   sub: SCIPY
@@ -6813,7 +6334,6 @@
   link: https://web.archive.org/web/20110508100008/http://2011.djangocon.eu/
   cfp: '2011-04-15 23:59:00'
   place: Amsterdam, Netherlands
-  date: June 6 - 10, 2011
   start: 2011-06-06
   end: 2011-06-10
   sub: WEB
@@ -6827,7 +6347,6 @@
   cfp: '2011-04-06 23:59:59'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: June 20 - 26, 2011
   start: 2011-06-20
   end: 2011-06-26
   sub: PY
@@ -6840,7 +6359,6 @@
   link: https://web.archive.org/web/20101126050309/http://us.pycon.org/2011/about/
   cfp: '2010-11-01 23:59:00'
   place: Atlanta, USA
-  date: March 9 - 17, 2011
   start: 2011-03-09
   end: 2011-03-17
   sub: PY
@@ -6855,7 +6373,6 @@
   cfp: '2010-10-15 23:59:00'
   timezone: Europe/London
   place: Birmingham, UK
-  date: October 16th, 2010
   start: 2010-10-16
   end: 2010-10-16
   sub: PY
@@ -6870,7 +6387,6 @@
   link: https://web.archive.org/web/20100713080631/http://www.pythonbrasil.org.br/2010
   cfp: '2010-08-08 23:59:00'
   place: Curitiba, Brazil
-  date: October 21 - 23, 2010
   start: 2010-10-21
   end: 2010-10-23
   sub: PY
@@ -6884,7 +6400,6 @@
   link: https://web.archive.org/web/20101023122656/http://nz.pycon.org/
   cfp: '2010-08-02 23:59:00'
   place: Waitangi, New Zealand
-  date: November 20 - 21, 2010
   start: 2010-11-20
   end: 2010-11-21
   sub: PY
@@ -6898,7 +6413,6 @@
   cfp: '2010-07-31 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: September 27 - 26, 2010
   start: 2010-09-27
   end: 2010-09-26
   sub: PY
@@ -6912,7 +6426,6 @@
   link: https://www.pycon.fr/2010/category/conference.html
   cfp: '2010-07-15 23:59:00'
   place: Paris, France
-  date: August 28 - 29, 2010
   start: 2010-08-28
   end: 2010-08-29
   sub: PY
@@ -6925,7 +6438,6 @@
   link: https://web.archive.org/web/20240329123130/https://2010.djangocon.us/
   cfp: '2010-07-10 23:59:00'
   place: Portland, USA
-  date: September 7 - 9, 2010
   start: 2010-09-07
   end: 2010-09-09
   sub: WEB
@@ -6940,7 +6452,6 @@
   cfp: '2010-07-07 23:59:00'
   cfp_ext: '2010-07-16 23:59:00'
   place: Ustron, Poland
-  date: October 8 - 10, 2010
   start: 2010-10-08
   end: 2010-10-10
   sub: PY
@@ -6955,7 +6466,6 @@
   cfp: '2010-05-31 23:59:59'
   timezone: Europe/Dublin
   place: Dublin, Ireland
-  date: July 17 - 18, 2010
   start: 2010-07-17
   end: 2010-07-18
   sub: PY
@@ -6968,7 +6478,6 @@
   link: https://web.archive.org/web/20100523143818/https://www.euroscipy.org/
   cfp: '2010-05-09 00:00:00'
   place: Paris, France
-  date: July 8 - 11, 2010
   start: 2010-07-08
   end: 2010-07-11
   sub: SCIPY
@@ -6982,7 +6491,6 @@
   cfp: '2010-04-30 23:59:59'
   timezone: Europe/London
   place: Birmingham, UK
-  date: July 17 - 22, 2010
   start: 2010-07-17
   end: 2010-07-22
   sub: PY
@@ -6996,7 +6504,6 @@
   link: https://web.archive.org/web/20100706022121/http://pycon-au.org:80/2010/about/
   cfp: '2010-04-29 23:59:00'
   place: Sydney, Australia
-  date: June 26 - 27, 2010
   start: 2010-06-26
   end: 2010-06-27
   sub: PY
@@ -7009,7 +6516,6 @@
   link: https://web.archive.org/web/20110530024806/http://2010.djangocon.eu/
   cfp: '2010-04-15 23:59:00'
   place: Berlin, Germany
-  date: May 4 - 8, 2010
   start: 2010-05-04
   end: 2010-05-08
   sub: WEB
@@ -7023,7 +6529,6 @@
   link: https://web.archive.org/web/20100621023952/http://conference.scipy.org/scipy2010/
   cfp: '2010-04-11 23:59:00'
   place: Austin, USA
-  date: June 28 - July 3, 2010
   start: 2010-06-28
   end: 2010-07-03
   sub: SCIPY
@@ -7039,7 +6544,6 @@
   cfp: '2010-03-10 23:59:00'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: May 7 - 9, 2010
   start: 2010-05-07
   end: 2010-05-09
   sub: PY
@@ -7052,7 +6556,6 @@
   link: https://web.archive.org/web/20090221061927/http://us.pycon.org/2009/about/
   cfp: '2009-11-03 23:59:00'
   place: Chicago, USA
-  date: March 25 - April 2, 2009
   start: 2009-03-25
   end: 2009-04-02
   sub: PY
@@ -7065,7 +6568,6 @@
   link: https://web.archive.org/web/20090813153340/http://us.pycon.org/2010/about/
   cfp: '2009-10-01 23:59:00'
   place: Atlanta, USA
-  date: February 17 - 25, 2010
   start: 2010-02-17
   end: 2010-02-25
   sub: PY
@@ -7080,7 +6582,6 @@
   cfp: '2009-09-04 23:59:00'
   timezone: Europe/London
   place: Birmingham, UK
-  date: September 5th, 2009
   start: 2009-09-05
   end: 2009-09-05
   sub: PY
@@ -7095,7 +6596,6 @@
   link: https://web.archive.org/web/20090312164132/https://nz.pycon.org/
   cfp: '2009-08-12 23:59:00'
   place: Christchurch, New Zealand
-  date: November 7 - 8, 2009
   start: 2009-11-07
   end: 2009-11-08
   sub: PY
@@ -7108,7 +6608,6 @@
   link: https://web.archive.org/web/20240329123101/https://2009.djangocon.us/
   cfp: '2009-08-07 23:59:00'
   place: Portland, USA
-  date: September 8 - 12, 2009
   start: 2009-09-08
   end: 2009-09-12
   sub: WEB
@@ -7122,7 +6621,6 @@
   link: https://web.archive.org/web/20090911141327/http://www.pythonbrasil.org.br/2009
   cfp: '2009-08-03 23:59:00'
   place: Caxias do Sul, Brazil
-  date: September 10 - 12, 2009
   start: 2009-09-10
   end: 2009-09-12
   sub: PY
@@ -7136,7 +6634,6 @@
   cfp: '2009-08-01 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  date: September 26 - 27, 2009
   start: 2009-09-26
   end: 2009-09-27
   sub: PY
@@ -7150,7 +6647,6 @@
   link: https://web.archive.org/web/20090621023952/http://conference.scipy.org/scipy2009/
   cfp: '2009-07-03 23:59:00'
   place: Pasadena, USA
-  date: August 18 - 23, 2009
   start: 2009-08-18
   end: 2009-08-23
   sub: SCIPY
@@ -7164,7 +6660,6 @@
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2009/
   cfp: '2009-06-26 23:59:00'
   place: Ustron, Poland
-  date: October 16 - 18, 2009
   start: 2009-10-16
   end: 2009-10-18
   sub: PY
@@ -7177,7 +6672,6 @@
   link: https://web.archive.org/web/20090523143818/https://www.euroscipy.org/
   cfp: '2009-04-30 00:00:00'
   place: Leipzig, Germany
-  date: July 25 - 26, 2009
   start: 2009-07-25
   end: 2009-07-26
   sub: SCIPY
@@ -7191,7 +6685,6 @@
   link: https://web.archive.org/web/20090307100440/http://www.pycon.fr/sessions
   cfp: '2009-04-24 23:59:00'
   place: Paris, France
-  date: May 30 - 31, 2009
   start: 2009-05-30
   end: 2009-05-31
   sub: PY
@@ -7205,7 +6698,6 @@
   cfp: '2009-04-05 23:59:59'
   timezone: Europe/London
   place: Birmingham, UK
-  date: June 29 - July 4, 2009
   start: 2009-06-29
   end: 2009-07-04
   sub: PY
@@ -7220,7 +6712,6 @@
   cfp: '2009-03-08 23:59:00'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: May 8 - 10, 2009
   start: 2009-05-08
   end: 2009-05-10
   sub: PY
@@ -7233,7 +6724,6 @@
   link: https://web.archive.org/web/20080906013119/http://us.pycon.org/2008/about/
   cfp: '2008-11-16 23:59:00'
   place: Chicago, USA
-  date: March 13 - 20, 2008
   start: 2008-03-13
   end: 2008-03-20
   sub: PY
@@ -7247,7 +6737,6 @@
   link: https://web.archive.org/web/20100407073701/https://pythonbrasil.org.br/2008
   cfp: '2008-07-27 23:59:00'
   place: Rio de Janeiro, Brazil
-  date: September 18 - 20, 2008
   start: 2008-09-18
   end: 2008-09-20
   sub: PY
@@ -7261,7 +6750,6 @@
   link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2008/
   cfp: '2008-07-02 23:59:00'
   place: Rybnik, Poland
-  date: October 18 - 19, 2008
   start: 2008-10-18
   end: 2008-10-19
   sub: PY
@@ -7276,7 +6764,6 @@
   cfp: '2008-07-01 23:59:00'
   timezone: Europe/London
   place: Birmingham, UK
-  date: September 12 - 14, 2008
   start: 2008-09-12
   end: 2008-09-14
   sub: PY
@@ -7290,7 +6777,6 @@
   link: https://web.archive.org/web/20080621023952/http://conference.scipy.org/scipy2008/
   cfp: '2008-06-30 23:59:00'
   place: Pasadena, USA
-  date: August 19 - 24, 2008
   start: 2008-08-19
   end: 2008-08-24
   sub: SCIPY
@@ -7304,7 +6790,6 @@
   cfp: '2008-05-22 23:59:59'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
-  date: July 7 - 12, 2008
   start: 2008-07-07
   end: 2008-07-12
   sub: PY
@@ -7317,7 +6802,6 @@
   link: https://web.archive.org/web/20190909080804/http://scipy.github.io/old-wiki/pages/EuroSciPy2008.html
   cfp: '2008-04-30 23:59:00'
   place: Leipzig, Germany
-  date: July 26 - 27, 2008
   start: 2008-07-26
   end: 2008-07-27
   sub: SCIPY
@@ -7332,7 +6816,6 @@
   cfp: '2008-04-01 23:59:00'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: May 9 - 11, 2008
   start: 2008-05-09
   end: 2008-05-11
   sub: PY
@@ -7346,7 +6829,6 @@
   link: https://web.archive.org/web/20080513070424/http://fr.pycon.org/
   cfp: '2008-03-30 23:59:00'
   place: Paris, France
-  date: May 17 - 18, 2008
   start: 2008-05-17
   end: 2008-05-18
   sub: PY
@@ -7360,7 +6842,6 @@
   link: https://web.archive.org/web/20100124021234/http://www.pythonbrasil.org.br/2007
   cfp: '2007-07-27 23:59:00'
   place: Joinville, Brazil
-  date: August 30 - September 1, 2007
   start: 2007-08-30
   end: 2007-09-01
   sub: PY
@@ -7374,7 +6855,6 @@
   link: https://web.archive.org/web/20070426090312/http://www.scipy.org/SciPy2007
   cfp: '2007-07-27 23:59:00'
   place: Pasadena, USA
-  date: August 14 - 18, 2007
   start: 2007-08-14
   end: 2007-08-18
   sub: SCIPY
@@ -7387,7 +6867,6 @@
   link: https://web.archive.org/web/20070630193740/http://www.pyconuk.org/
   cfp: '2007-07-14 23:59:00'
   place: Birmingham, UK
-  date: September 8 - 9, 2007
   start: 2007-09-08
   end: 2007-09-09
   sub: PY
@@ -7401,7 +6880,6 @@
   cfp: '2007-05-18 23:59:59'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
-  date: July 9 - 14, 2007
   start: 2007-07-09
   end: 2007-07-14
   sub: PY
@@ -7416,7 +6894,6 @@
   cfp: '2007-04-30 23:59:00'
   timezone: Europe/Rome
   place: Florence, Italy
-  date: June 9 - 10, 2007
   start: 2007-06-09
   end: 2007-06-10
   sub: PY
@@ -7430,7 +6907,6 @@
   link: https://web.archive.org/web/20060908054034/http://us.pycon.org/TX2007/HomePage
   cfp: '2006-10-31 23:59:00'
   place: Dallas, USA
-  date: February 22 - March 1, 2007
   start: 2007-02-22
   end: 2007-03-01
   sub: PY
@@ -7444,7 +6920,6 @@
   link: https://web.archive.org/web/20060805100237/http://www.scipy.org/SciPy2006/
   cfp: '2006-07-07 23:59:00'
   place: Pasadena, USA
-  date: August 17 - 18, 2006
   start: 2006-08-17
   end: 2006-08-18
   sub: SCIPY
@@ -7458,7 +6933,6 @@
   cfp: '2006-06-02 23:59:59'
   timezone: Europe/Zurich
   place: Geneva, Switzerland
-  date: July 3 - 5, 2006
   start: 2006-07-03
   end: 2006-07-05
   sub: PY
@@ -7472,7 +6946,6 @@
   link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2006
   cfp: '2006-05-05 23:59:00'
   place: Brasilia, Brazil
-  date: June 1 - 2, 2006
   start: 2006-06-01
   end: 2006-06-02
   sub: PY
@@ -7486,7 +6959,6 @@
   link: https://web.archive.org/web/20060209040004/http://us.pycon.org/TX2006/HomePage
   cfp: '2005-10-31 23:59:00'
   place: Addison, USA
-  date: February 23 - March 2, 2006
   start: 2006-02-23
   end: 2006-03-02
   sub: PY
@@ -7500,7 +6972,6 @@
   link: https://web.archive.org/web/20111021085638/http://scipy.org/Developer_Zone/Conferences/SciPy2005
   cfp: '2005-07-29 23:59:00'
   place: Pasadena, USA
-  date: September 22 - 23, 2005
   start: 2005-09-22
   end: 2005-09-23
   sub: SCIPY
@@ -7514,7 +6985,6 @@
   cfp: '2005-05-01 23:59:59'
   timezone: Europe/Stockholm
   place: Gothenburg, Sweden
-  date: June 27 - July 3, 2005
   start: 2005-06-27
   end: 2005-07-03
   sub: PY
@@ -7528,7 +6998,6 @@
   link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2005
   cfp: '2005-03-03 23:59:00'
   place: Campinas, Brazil
-  date: April 28 - 29, 2005
   start: 2005-04-28
   end: 2005-04-29
   sub: PY
@@ -7542,7 +7011,6 @@
   link: https://web.archive.org/web/20050421013434/http://www.pycon.org/dc2005
   cfp: '2004-12-31 23:59:00'
   place: Washington DC, USA
-  date: March 19 - 25, 2005
   start: 2005-03-19
   end: 2005-03-25
   sub: PY
@@ -7556,7 +7024,6 @@
   link: https://web.archive.org/web/20041210084850/http://www.scipy.org/wikis/scipy04
   cfp: '2004-07-23 23:59:00'
   place: Pasadena, USA
-  date: September 2 - 3, 2004
   start: 2004-09-02
   end: 2004-09-03
   sub: SCIPY
@@ -7570,7 +7037,6 @@
   cfp: '2004-04-15 23:59:59'
   timezone: Europe/Stockholm
   place: Gothenburg, Sweden
-  date: July 7 - 11, 2004
   start: 2004-07-07
   end: 2004-07-11
   sub: PY
@@ -7584,7 +7050,6 @@
   link: https://web.archive.org/web/20040401171437/http://pycon.org/dc2004/
   cfp: '2004-01-15 23:59:00'
   place: Washington DC, USA
-  date: March 20 - 26, 2004
   start: 2004-03-20
   end: 2004-03-26
   sub: PY
@@ -7598,7 +7063,6 @@
   cfp: '2003-04-21 23:59:59'
   timezone: Europe/Brussels
   place: Charleroi, Belgium
-  date: June 25 - 27, 2003
   start: 2003-06-25
   end: 2003-06-27
   sub: PY
@@ -7613,7 +7077,6 @@
   cfp: '2002-12-15 23:59:00'
   cfp_ext: '2003-01-15 23:59:00'
   place: Washington DC, USA
-  date: March 26 - 28, 2003
   start: 2003-03-26
   end: 2003-03-28
   sub: PY
@@ -7627,7 +7090,6 @@
   cfp: '2002-04-11 23:59:59'
   timezone: Europe/Brussels
   place: Charleroi, Belgium
-  date: June 26 - 28, 2002
   start: 2002-06-26
   end: 2002-06-28
   sub: PY

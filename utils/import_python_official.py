@@ -1,16 +1,17 @@
+import re
+import sys
+from datetime import datetime, timedelta
 from pathlib import Path
+from urllib import request
+
 import pandas as pd
 from icalendar import Calendar
-from urllib import request
-import re
-
-from datetime import datetime, timedelta
-import sys
 
 sys.path.append(".")
+from tidy_conf import fuzzy_match, load_conferences, merge_conferences
+from tidy_conf.date import create_nice_date
 from tidy_conf.utils import fill_missing_required
-from tidy_conf.yaml import write_df_yaml, load_title_mappings
-from tidy_conf import load_conferences, fuzzy_match, merge_conferences
+from tidy_conf.yaml import load_title_mappings, write_df_yaml
 
 
 def ics_to_dataframe():
@@ -118,7 +119,7 @@ def main(year=None, base=""):
  * focus on Python: yes
  * approximate number of attendees: Unknown
  * location (incl. country): {row["place"]}
- * dates/times/recurrence (incl. time zone): {row["date"]} ({row["timezone"] if isinstance(row["timezone"],str) else "UTC"})
+ * dates/times/recurrence (incl. time zone): {create_nice_date(row)["date"]} ({row["timezone"] if isinstance(row["timezone"],str) else "UTC"})
  * HTML link using the format <a href="http://url/">name of the event</a>: <a href="{row["link"]}">{row["conference"]}</a>"""
             with open("missing_conferences.txt", "a") as f:
                 f.write(out + "\n\n")

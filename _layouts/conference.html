@@ -91,7 +91,7 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-12 col-md-6">
           <div>
             <img src="/static/img/084-calendar.svg" class="badge-link" alt="Calendar icon" width="16" height="16" />
-            <span id="conf-date">{{page.date}}</span>
+            <span id="conf-date">{% assign conf = page %}{% translate_file dates/pretty_dates.html %}</span>
           </div>
           <div>
             <img src="/static/img/072-location.svg" class="badge-link" alt="Location icon" width="16" height="16" />
