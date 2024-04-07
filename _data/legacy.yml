@@ -2070,19 +2070,6 @@
   - latitude: 22.2793278
     longitude: 114.1628131
 
-- conference: PyCon Ghana
-  year: 2018
-  link: https://web.archive.org/web/20180818105016/https://gh.pycon.org/
-  cfp: TBA
-  place: Accra, Ghana
-  date: August 10 - 12, 2018
-  start: 2018-08-10
-  end: 2018-08-12
-  sub: PY
-  location:
-  - latitude: 5.5571096
-    longitude: -0.2012376
-
 - conference: PyCon Finland
   alt_name: PyCon FI
   year: 2016
