@@ -2203,14 +2203,16 @@
 - conference: GeoPython
   year: 2022
   link: https://2022.geopython.net/
-  cfp_link: https://2022.geopython.net/
+  cfp_link: https://web.archive.org/web/20220301062005/https://submit.geopython.net/geopython-2022/cfp
   cfp: '2022-02-28 12:00:00'
+  cfp_ext: "2022-03-15 23:59:00"
   tutorial_deadline: '2022-02-15 23:59:00'
   place: Basel, Switzerland
   date: June 20 - 23, 2022
   start: 2022-06-20
-  end: 2022-06-23
+  end: 2022-06-22
   sub: GEO
+  timezone: Europe/Zurich
   location:
   - latitude: 47.5581077
     longitude: 7.5878261
@@ -2901,6 +2903,16 @@
   end: 2020-04-25
   sub: PY
 
+- conference: GeoPython
+  year: 2020
+  link: http://2020.geopython.net/
+  cfp: '2020-03-15 23:59:00'
+  place: Online
+  date: September 21 - 23, 2020
+  start: 2020-09-21
+  end: 2020-09-22
+  sub: GEO
+
 - conference: DjangoCon EU
   year: 2020
   link: https://2020.djangocon.eu/
@@ -3491,6 +3503,20 @@
   - latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: GeoPython
+  year: 2019
+  link: https://web.archive.org/web/20190111155256/https://2019.geopython.net/
+  cfp: '2019-02-28 23:59:00'
+  place: Basel, Switzerland
+  date: June 24 - 26, 2019
+  start: 2019-06-24
+  end: 2019-06-26
+  sponsor: http://2019.geopython.net/GeoPython_Sponsoring_2019_lowres.pdf
+  sub: GEO
+  location:
+  - latitude: 47.5581077
+    longitude: 7.5878261
+
 - conference: SciPy Japan
   year: 2019
   link: https://web.archive.org/web/20190427005257/http://www.scipyjapan2019.scipy.org/
@@ -4056,6 +4082,19 @@
   - latitude: 49.4093582
     longitude: 8.694724
 
+- conference: GeoPython
+  year: 2018
+  link: https://web.archive.org/web/20180512191459/http://2018.geopython.net/
+  cfp: '2018-01-31 23:59:00'
+  place: Basel, Switzerland
+  date: May 7 - 9, 2018
+  start: 2018-05-07
+  end: 2018-05-09
+  sub: GEO
+  location:
+  - latitude: 47.5581077
+    longitude: 7.5878261
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2018
@@ -4476,6 +4515,19 @@
   - latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: GeoPython
+  year: 2017
+  link: https://web.archive.org/web/20170521201837/http://2017.geopython.net/
+  cfp: '2017-02-15 23:59:00'
+  place: Basel, Switzerland
+  date: May 8 - 10, 2017
+  start: 2017-05-08
+  end: 2017-05-10
+  sub: GEO
+  location:
+  - latitude: 47.5581077
+    longitude: 7.5878261
+
 - conference: PyGrunn
   year: 2017
   link: https://web.archive.org/web/20170608055024/http://www.pygrunn.org/
@@ -4888,6 +4940,19 @@
   location:
   - latitude: 59.3251172
     longitude: 18.0710935
+
+- conference: GeoPython
+  year: 2016
+  link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
+  cfp: '2016-02-15 23:59:00'
+  place: Basel, Switzerland
+  date: June 22 - 24, 2016
+  start: 2016-06-22
+  end: 2016-06-24
+  sub: GEO
+  location:
+  - latitude: 47.3615882
+    longitude: 7.354445
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
