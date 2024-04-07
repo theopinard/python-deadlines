@@ -60,6 +60,8 @@ alt_name:
   - PyCon LatAm
   PyCon Lithuania:
   - PyCon LT
+  PyCon MEA:
+  - PyCon MEA & Data Science
   PyCon Philippines:
   - PyCon PH
   PyCon Poland:
@@ -73,7 +75,7 @@ alt_name:
   - PyCon Korea
   PyCon Spain:
   - PyCon ES
-  - "PyCon España"
+  - PyCon España
   PyCon Sweden:
   - PyCon SE
   PyCon Taiwan:
@@ -90,8 +92,9 @@ alt_name:
   Python Sul:
   - Python Sul (Brazil)
   - Python Sul 2024 (Brazil)
-  Scipy US:
-  - SciPy
+  SciPy US:
+  - Scipy
+  - Scipy US
 spelling:
 - DjangoCon
 - EuroPython

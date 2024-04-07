@@ -45,6 +45,7 @@
     longitude: 30.1586551
 
 - conference: PyCon MEA
+  alt_name: PyCon MEA & Data Science
   year: 2024
   link: https://globaldevslam.com/
   cfp: '2024-05-31 23:59:00'
@@ -100,7 +101,7 @@
   link: https://pyohio.org/2024/
   cfp_link: https://www.pyohio.org/2024/speaking/cfp/
   cfp: '2024-05-20 23:59:00'
-  place: Columbus, USA
+  place: Cleveland, USA
   date: July 27 - 28, 2024
   start: 2024-07-27
   end: 2024-07-28
@@ -220,6 +221,7 @@
   start: 2024-06-06
   end: 2024-06-08
   twitter: Belpy2021
+  sub: PY
   location:
   - latitude: 15.8572666
     longitude: 74.5069343
@@ -366,7 +368,7 @@
   cfp_link: https://nl.wagtail.space/call-for-participation
   cfp: '2024-03-08 23:59:00'
   timezone: Europe/Amsterdam
-  place: Arnhem, The Netherlands
+  place: Arnhem, Netherlands
   date: June 12 - 14, 2024
   start: 2024-06-12
   end: 2024-06-14
@@ -533,7 +535,7 @@
   year: 2024
   link: https://pycon.lt/2024
   cfp_link: https://pycon.lt/2024/call-for-proposals
-  cfp: '2024-01-10 23:59:59'
+  cfp: '2024-01-10 23:59:00'
   timezone: Europe/Vilnius
   place: Vilnius, Lithuania
   date: April 2 - 6, 2024
@@ -568,7 +570,7 @@
   year: 2024
   link: https://2024.pycascades.com/
   cfp_link: https://pretalx.com/pycascades-2024/cfp
-  cfp: '2024-01-04 23:59:59'
+  cfp: '2024-01-04 23:59:00'
   place: Seattle, USA
   date: April 5 - 8, 2024
   start: 2024-04-05
@@ -584,10 +586,9 @@
 - conference: PyCon Slovakia
   alt_name: PyCon SK
   year: 2024
-  link: https://web.archive.org/web/20231215123341/https://2024.pycon.sk/
+  link: https://2024.pycon.sk/
   cfp_link: https://2024.pycon.sk/en/cfp
-  cfp: '2023-12-31 23:59:59'
-  timezone: Europe/Bratislava
+  cfp: '2023-12-31 23:59:00'
   place: Bratislava, Slovakia
   date: March 15 - 17, 2024
   start: 2024-03-15
@@ -783,7 +784,7 @@
   year: 2024
   link: https://sul.python.org.br/
   cfp: TBA
-  place: Florianópolis - SC, Brazil
+  place: Florianópolis, Brazil
   date: September 13 - 15, 2024
   start: 2024-09-13
   end: 2024-09-15
