@@ -1,31 +1,5 @@
 ---
 
-- conference: Wisconsin PyCamp
-  year: 2014
-  link: http://tripython.org/wiscpy14
-  cfp: TBA
-  place: Oshkosh, USA
-  date: June 13 - 18, 2014
-  start: 2014-06-13
-  end: 2014-06-18
-  sub: PY
-  location:
-  - latitude: 44.0206919
-    longitude: -88.5408574
-
-- conference: Toronto PyCamp
-  year: 2013
-  link: https://web.archive.org/web/20130912102736/http://trizpug.org/boot-camp/torpy13
-  cfp: TBA
-  place: Toronto, Canada
-  date: August 12 - 17, 2013
-  start: 2013-08-12
-  end: 2013-08-17
-  sub: PY
-  location:
-  - latitude: 43.6534817
-    longitude: -79.3839347
-
 - conference: Swiss Python Summit
   year: 2020
   link: https://www.python-summit.ch/
@@ -78,19 +52,6 @@
   - latitude: 47.2266532
     longitude: 8.8164042
 
-- conference: Seattle PyCamp
-  year: 2013
-  link: https://web.archive.org/web/20131210195919/http://trizpug.org/boot-camp/seapy13
-  cfp: TBA
-  place: Seattle, USA
-  date: September 9 - 14, 2013
-  start: 2013-09-09
-  end: 2013-09-14
-  sub: PY
-  location:
-  - latitude: 47.6038321
-    longitude: -122.330062
-
 - conference: Rencontres django
   year: 2017
   link: https://web.archive.org/web/20170722083141/http://rencontres.django-fr.org/2017/
@@ -120,7 +81,7 @@
   year: 2014
   link: https://web.archive.org/web/20141018180902/http://conference.ropython.org/
   cfp: TBA
-  place: "Iași, Romania"
+  place: Iași, Romania
   date: October 18 - 20, 2014
   start: 2014-10-18
   end: 2014-10-20
@@ -186,7 +147,7 @@
   year: 2019
   link: https://web.archive.org/web/20190428171204/https://2019.pythonsudeste.org/
   cfp: TBA
-  place: "Vitória - ES, Brasil"
+  place: Vitória, Brasil
   date: April 26 - 29, 2019
   start: 2019-04-26
   end: 2019-04-29
@@ -207,6 +168,20 @@
   location:
   - latitude: 45.2551338
     longitude: 19.8451756
+
+- conference: Python Pizza Berlin
+  alt_name: Berlin Python Pizza
+  year: 2019
+  link: https://web.archive.org/web/20190228024911/https://berlin.python.pizza/
+  cfp: TBA
+  place: Berlin, Germany
+  date: February 23 - 24, 2019
+  start: 2019-02-23
+  end: 2019-02-24
+  sub: PY
+  location:
+  - latitude: 52.5170365
+    longitude: 13.3888599
 
 - conference: Python fwdays
   year: 2020
@@ -425,7 +400,6 @@
     longitude: -83.0007065
 
 - conference: PyOhio
-  alt_name: PyOhio PyCamp
   year: 2014
   link: https://web.archive.org/web/20140704014624/http://tripython.org/pyohio14
   cfp: TBA
@@ -449,20 +423,6 @@
   location:
   - latitude: 39.997660499999995
     longitude: -83.00853211561488
-
-- conference: PyOhio
-  alt_name: PyOhio PyCamp
-  year: 2013
-  link: https://web.archive.org/web/20130812030622/http://trizpug.org/boot-camp/pyohio13
-  cfp: TBA
-  place: Columbus, USA
-  date: July 22 - 27, 2013
-  start: 2013-07-22
-  end: 2013-07-27
-  sub: PY
-  location:
-  - latitude: 39.9622601
-    longitude: -83.0007065
 
 - conference: PyMunich CodeRetreat
   year: 2015
@@ -827,11 +787,11 @@
   - latitude: 41.3828939
     longitude: 2.1774322
 
-- conference: "PyDay Asunción"
+- conference: PyDay Asunción
   year: 2015
   link: https://web.archive.org/web/20150326072907/http://pyday.pythonpy.org/
   cfp: TBA
-  place: "Asunción, Paraguay"
+  place: Asunción, Paraguay
   date: March 28 - 29, 2015
   start: 2015-03-28
   end: 2015-03-29
@@ -948,7 +908,7 @@
   year: 2016
   link: https://web.archive.org/web/20161205091341/http://pydata.org/cologne2016/
   cfp: TBA
-  place: "Deutsches Zentrum für Luft- und Raumfahrt (DLR), Germany"
+  place: Deutsches Zentrum für Luft- und Raumfahrt (DLR), Germany
   date: November 28 - December 1, 2016
   start: 2016-11-28
   end: 2016-12-01
@@ -2075,6 +2035,35 @@
     longitude: 34.826677554304695
 
 - conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2018
+  link: https://web.archive.org/web/20180217031411/http://pycon.ir/
+  cfp: TBA
+  place: Tehran, Iran
+  date: February 14 - 16, 2018
+  start: 2018-02-14
+  end: 2018-02-16
+  sub: PY
+  location:
+  - latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2017
+  link: https://web.archive.org/web/20161208170707/http://www.pycon.ir/
+  cfp: TBA
+  place: Tehran, Iran
+  date: February 17 - 18, 2017
+  start: 2017-02-17
+  end: 2017-02-18
+  sub: PY
+  location:
+  - latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
   year: 2016
   link: https://web.archive.org/web/20160509203844/http://pycon.ir/
   cfp: TBA
@@ -2088,6 +2077,21 @@
     longitude: 51.3896004
 
 - conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2015
+  link: https://web.archive.org/web/20150504003149/http://pycon.ir/
+  cfp: TBA
+  place: Tehran, Iran
+  date: May 1 - 2, 2015
+  start: 2015-05-01
+  end: 2015-05-02
+  sub: PY
+  location:
+  - latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
   year: 2013
   link: https://web.archive.org/web/20131021094358/http://2013.pycon.ir/
   cfp: TBA
@@ -2577,7 +2581,7 @@
   year: 2017
   link: https://web.archive.org/web/20171115211033/http://ar.pycon.org/
   cfp: TBA
-  place: "Córdoba, Argentina"
+  place: Córdoba, Argentina
   date: November 17 - 20, 2017
   start: 2017-11-17
   end: 2017-11-20
@@ -2614,7 +2618,7 @@
   - latitude: -34.787093049999996
     longitude: -68.43818677312292
 
-- conference: "PyCon Amazônia"
+- conference: PyCon Amazônia
   year: 2017
   link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
   cfp: TBA
@@ -2684,33 +2688,6 @@
   - latitude: 18.4801972
     longitude: -69.942111
 
-- conference: PyCamp Leipzig
-  year: 2021
-  link: https://barcamps.eu/pycamp-leipzig-2021/
-  cfp: TBA
-  place: Leipzig, Germany
-  date: January 30th, 2021
-  start: 2021-01-30
-  end: 2021-01-30
-  sponsor: https://barcamps.eu/pycamp-leipzig-2021/
-  sub: PY
-  location:
-  - latitude: 51.3406321
-    longitude: 12.3747329
-
-- conference: PyCamp Argentina
-  year: 2015
-  link: https://web.archive.org/web/20150905085007/http://python.org.ar/wiki/PyCamp/2015/
-  cfp: TBA
-  place: "Córdoba, Argentina"
-  date: August 14 - 18, 2015
-  start: 2015-08-14
-  end: 2015-08-18
-  sub: PY
-  location:
-  - latitude: -31.4166867
-    longitude: -64.1834193
-
 - conference: PyBITS
   year: 2017
   link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
@@ -2772,19 +2749,6 @@
   - latitude: 35.718741949999995
     longitude: 139.73118058112317
 
-- conference: Plone Conference Bucharest
-  year: 2015
-  link: https://web.archive.org/web/20151013153542/https://2015.ploneconf.org/
-  cfp: TBA
-  place: Bucharest, Romania
-  date: October 12 - 19, 2015
-  start: 2015-10-12
-  end: 2015-10-19
-  sub: WEB
-  location:
-  - latitude: 44.4361414
-    longitude: 26.1027202
-
 - conference: Plone Conference
   year: 2021
   link: https://2021.ploneconf.org/
@@ -2820,6 +2784,19 @@
   location:
   - latitude: 42.3655767
     longitude: -71.1040018
+
+- conference: Plone Conference
+  year: 2015
+  link: https://web.archive.org/web/20151013153542/https://2015.ploneconf.org/
+  cfp: TBA
+  place: Bucharest, Romania
+  date: October 12 - 19, 2015
+  start: 2015-10-12
+  end: 2015-10-19
+  sub: WEB
+  location:
+  - latitude: 44.4361414
+    longitude: 26.1027202
 
 - conference: Plone Conference
   year: 2013
@@ -2886,40 +2863,6 @@
   - latitude: 59.9606739
     longitude: 30.1586551
 
-- conference: Open Source Festival
-  year: 2020
-  link: https://festival.oscafrica.org/
-  cfp: TBA
-  place: Lagos, Nigeria
-  date: February 20 - 23, 2020
-  start: 2020-02-20
-  end: 2020-02-23
-  location:
-  - latitude: 6.4550575
-    longitude: 3.3941795
-
-- conference: Open Data Science Conference
-  year: 2015
-  link: https://web.archive.org/web/20150601102534/http://opendatascicon.com/
-  cfp: TBA
-  place: Boston Convention Center, USA
-  date: May 30 - June 1, 2015
-  start: 2015-05-30
-  end: 2015-06-01
-  location:
-  - latitude: 42.34559165
-    longitude: -71.04632748228212
-
-- conference: Online Python Web Global Summit
-  year: 2020
-  link: https://web.archive.org/web/20201113155033/http://python.geekle.us/
-  cfp: TBA
-  place: Online
-  date: November 19 - 20, 2020
-  start: 2020-11-19
-  end: 2020-11-20
-  sub: WEB
-
 - conference: North Bay Python
   year: 2018
   link: https://web.archive.org/web/20170812223449/http://www.northbaypython.org/
@@ -2958,7 +2901,8 @@
   - latitude: 13.347776849999999
     longitude: 74.79299358008947
 
-- conference: MoscowPythonConf++
+- conference: Moscow Python Conf++
+  alt_name: MoscowPythonConf++
   year: 2020
   link: https://conf.python.ru/en/2020
   cfp: TBA
@@ -2972,6 +2916,7 @@
     longitude: 37.6063916
 
 - conference: Moscow Python Conf++
+  alt_name: MoscowPythonConf++
   year: 2019
   link: https://web.archive.org/web/20190404034605/http://mpc2019.tilda.ws/
   cfp: TBA
@@ -2984,57 +2929,6 @@
   - latitude: 55.625578
     longitude: 37.6063916
 
-- conference: Makeathon Gujarat
-  year: 2014
-  link: https://web.archive.org/web/20230124062642/https://www.facebook.com/events/705676506178575/
-  cfp: TBA
-  place: Ahmadabad, India
-  date: October 18 - 20, 2014
-  start: 2014-10-18
-  end: 2014-10-20
-  location:
-  - latitude: 23.0216238
-    longitude: 72.5797068
-
-- conference: Iran PyCon
-  year: 2018
-  link: https://web.archive.org/web/20180217031411/http://pycon.ir/
-  cfp: TBA
-  place: Tehran, Iran
-  date: February 14 - 16, 2018
-  start: 2018-02-14
-  end: 2018-02-16
-  sub: PY
-  location:
-  - latitude: 35.6892523
-    longitude: 51.3896004
-
-- conference: Iran PyCon
-  year: 2017
-  link: https://web.archive.org/web/20161208170707/http://www.pycon.ir/
-  cfp: TBA
-  place: Tehran, Iran
-  date: February 17 - 18, 2017
-  start: 2017-02-17
-  end: 2017-02-18
-  sub: PY
-  location:
-  - latitude: 35.6892523
-    longitude: 51.3896004
-
-- conference: Iran PyCon
-  year: 2015
-  link: https://web.archive.org/web/20150504003149/http://pycon.ir/
-  cfp: TBA
-  place: Tehran, Iran
-  date: May 1 - 2, 2015
-  start: 2015-05-01
-  end: 2015-05-02
-  sub: PY
-  location:
-  - latitude: 35.6892523
-    longitude: 51.3896004
-
 - conference: IndyPy Automate Conf
   year: 2019
   link: https://web.archive.org/web/20210227152420/https://2019.indypy.org/automate/
@@ -3046,43 +2940,6 @@
   location:
   - latitude: 40.3270127
     longitude: -86.1746933
-
-- conference: Howard Community College PyNight
-  year: 2015
-  link: http://youtu.be/-kZQS2zTj6s/
-  cfp: TBA
-  place: Columbia, USA
-  date: November 13 - 14, 2015
-  start: 2015-11-13
-  end: 2015-11-14
-  location:
-  - latitude: 34.0003117
-    longitude: -81.0331309
-
-- conference: Helsinki Python Stqdm.write
-  year: 2014
-  link: https://doodle.com/poll/vbd2ku4u6kxiw9nz
-  cfp: TBA
-  place: Helsinki, Finland
-  date: August 2 - 4, 2014
-  start: 2014-08-02
-  end: 2014-08-04
-  sub: PY
-  location:
-  - latitude: 60.1674881
-    longitude: 24.9427473
-
-- conference: HackWeakEnd Technology Event
-  year: 2018
-  link: https://web.archive.org/web/20180425072003/http://www.hacktheweakend.com/
-  cfp: TBA
-  place: Bijilo, The Gambia
-  date: April 27 - 29, 2018
-  start: 2018-04-27
-  end: 2018-04-29
-  location:
-  - latitude: 13.43141915
-    longitude: -16.727503313553704
 
 - conference: GeoPython
   year: 2020
@@ -3138,7 +2995,7 @@
   year: 2016
   link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
   cfp: TBA
-  place: "Delémont, Switzerland"
+  place: Delémont, Switzerland
   date: June 22 - 25, 2016
   start: 2016-06-22
   end: 2016-06-25
@@ -3251,24 +3108,11 @@
   - latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: Florida PyCon
-  year: 2017
-  link: https://web.archive.org/web/20171008155951/http://flpy.org/
-  cfp: TBA
-  place: Orlando, USA
-  date: October 7 - 8, 2017
-  start: 2017-10-07
-  end: 2017-10-08
-  sub: PY
-  location:
-  - latitude: 28.5421109
-    longitude: -81.3790304
-
 - conference: Flask Con
   year: 2018
   link: https://web.archive.org/web/20221130002312/https://flask.python.org.br/
   cfp: TBA
-  place: "São Paulo, Brazil"
+  place: São Paulo, Brazil
   date: August 24 - 26, 2018
   start: 2018-08-24
   end: 2018-08-26
@@ -3302,58 +3146,6 @@
   - latitude: 46.0500268
     longitude: 14.5069289
 
-- conference: Djangothon
-  year: 2015
-  link: https://www.hackerearth.com/de/challenges/hackathon/djangothon/
-  cfp: TBA
-  place: Online
-  date: August 22 - 24, 2015
-  start: 2015-08-22
-  end: 2015-08-24
-  sub: WEB
-  location:
-  - latitude: 12.9341395
-    longitude: 77.612945
-
-- conference: DjangoCamp Hyderabad
-  year: 2017
-  link: https://cbitosc.github.io/djangocamp
-  cfp: TBA
-  place: CBIT College, India
-  date: October 6 - 7, 2017
-  start: 2017-10-06
-  end: 2017-10-07
-  sub: WEB
-  location:
-  - latitude: 14.72642755
-    longitude: 78.64471797598779
-
-- conference: Django Weekend Cardiff
-  year: 2014
-  link: https://web.archive.org/web/20140212095822/https://djangoweekend.org/
-  cfp: TBA
-  place: Cardiff, UK
-  date: February 7 - 10, 2014
-  start: 2014-02-07
-  end: 2014-02-10
-  sub: WEB
-  location:
-  - latitude: 51.4816546
-    longitude: -3.1791934
-
-- conference: Django Village
-  year: 2014
-  link: https://web.archive.org/web/20160112020839/http://djangovillage.it/
-  cfp: TBA
-  place: Orvieto, Italy
-  date: June 13 - 16, 2014
-  start: 2014-06-13
-  end: 2014-06-16
-  sub: WEB
-  location:
-  - latitude: 42.7186152
-    longitude: 12.1087907
-
 - conference: Django Day Copenhagen
   year: 2020
   link: https://djangoday.dk/
@@ -3368,57 +3160,10 @@
   year: 2019
   link: http://caipyra.python.org.br/
   cfp: TBA
-  place: "São Carlos, Brazil"
+  place: São Carlos, Brazil
   date: July 7 - 11, 2019
   start: 2019-07-07
   end: 2019-07-11
   location:
   - latitude: -22.0180395
     longitude: -47.891154
-
-- conference: Building Better Python Tools Hackathon
-  year: 2015
-  link: https://www.eventbrite.co.uk/e/building-better-python-tools-hackathon-tickets-14957023861
-  cfp: TBA
-  place: London, United Kingdom
-  date: February 7 - 8, 2015
-  start: 2015-02-07
-  end: 2015-02-08
-  sub: PY
-  location:
-  - latitude: 51.4893335
-    longitude: -0.14405508452768728
-
-- conference: Berlin Python Pizza
-  year: 2019
-  link: https://web.archive.org/web/20190228024911/https://berlin.python.pizza/
-  cfp: TBA
-  place: Berlin, Germany
-  date: February 23 - 24, 2019
-  start: 2019-02-23
-  end: 2019-02-24
-  sub: PY
-  location:
-  - latitude: 52.5170365
-    longitude: 13.3888599
-
-- conference: BelPy
-  year: 2021
-  link: https://belpy.in/
-  cfp: TBA
-  place: Online
-  date: January 30 - February 1, 2021
-  start: 2021-01-30
-  end: 2021-02-01
-
-- conference: Being Pyooners
-  year: 2015
-  link: https://web.archive.org/web/20150408081613/http://www.meetup.com/gtupython/
-  cfp: TBA
-  place: Building 6, Gujarat. India
-  date: April 11 - 13, 2015
-  start: 2015-04-11
-  end: 2015-04-13
-  location:
-  - latitude: 23.16290525
-    longitude: 72.68869496501037

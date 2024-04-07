@@ -18,7 +18,7 @@
   year: 2014
   link: https://web.archive.org/web/20141016082426/http://scipycon.com.ar/
   cfp: None
-  place: "Bahía Blanca, Argentina"
+  place: Bahía Blanca, Argentina
   date: October 20 - 24, 2014
   start: 2014-10-20
   end: 2014-10-24
@@ -155,6 +155,7 @@
   note: Cancelled due to COVID-19 and Burnout
 
 - conference: PyCon Iran
+  alt_name: Iran PyCon
   year: 2022
   link: https://ir.pycon.org/?lang=en
   cfp: Cancelled
@@ -974,7 +975,7 @@
   cfp_link: https://web.archive.org/web/20230314112258/https://kiwipycon.nz/call-for-proposals
   cfp: '2023-05-19 23:59:00'
   timezone: Pacific/Auckland
-  place: "Waihōpai (Invercargill), New Zealand"
+  place: Waihōpai (Invercargill), New Zealand
   date: September 15 - 17, 2023
   start: 2023-09-15
   end: 2023-09-17
@@ -1145,6 +1146,7 @@
     longitude: 32.5813539
 
 - conference: Moscow Python Conf++
+  alt_name: MoscowPythonConf++
   year: 2023
   link: https://conf.python.ru/moscow/2023
   cfp_link: https://web.archive.org/web/20230521035241/https://cfp.conf.python.ru/
@@ -2156,7 +2158,7 @@
   - latitude: 59.4372155
     longitude: 24.7453688
 
-- conference: "PyCamp España"
+- conference: PyCamp España
   year: 2022
   link: https://pycamp.es/
   cfp: '2022-03-15 23:59:00'
@@ -2718,6 +2720,17 @@
   - latitude: 18.9733536
     longitude: 72.82810491917377
 
+- conference: BelPy
+  year: 2021
+  link: https://belpy.in/
+  cfp_link: https://www.papercall.io/belpy
+  cfp: '2020-12-07 11:59:00'
+  timezone: UTC
+  place: Online
+  date: January 30 - 31, 2021
+  start: 2021-01-30
+  end: 2021-01-31
+
 - conference: PyCascades
   year: 2021
   link: https://2021.pycascades.com/
@@ -3133,7 +3146,7 @@
   year: 2019
   link: https://web.archive.org/web/20190615021525/https://2019.pythonbrasil.org.br/
   cfp: '2019-08-05 23:59:00'
-  place: "Ribeirão Preto, Brazil"
+  place: Ribeirão Preto, Brazil
   date: October 23 - 28, 2019
   start: 2019-10-23
   end: 2019-10-28
@@ -3807,7 +3820,7 @@
   link: https://2019.flask.python.org.br/
   cfp_link: https://web.archive.org/web/20210515223939/https://speakerfight.com/events/flaskconf-2018/
   cfp: '2018-08-01 23:55:00'
-  place: "Florianópolis, Brazil"
+  place: Florianópolis, Brazil
   date: September 6 - 8, 2019
   start: 2019-09-06
   end: 2019-09-08
@@ -4141,7 +4154,7 @@
   year: 2017
   link: https://web.archive.org/web/20170909095524/http://pyss17.pyss.org/
   cfp: '2017-09-01 23:59:00'
-  place: "San Sebastián, Spain"
+  place: San Sebastián, Spain
   date: October 6 - 8, 2017
   start: 2017-10-06
   end: 2017-10-08
@@ -4395,7 +4408,7 @@
   cfp_link: https://web.archive.org/web/20170429161113/http://speakerfight.com/events/palestras-python-nordeste-2017-sao-luis-ma/
   cfp: '2017-04-10 23:55:00'
   timezone: America/Recife
-  place: "São Luís, Brazil"
+  place: São Luís, Brazil
   date: June 8 - 10, 2017
   start: 2017-06-08
   end: 2017-06-10
@@ -4547,7 +4560,7 @@
   year: 2016
   link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
   cfp: '2016-08-31 23:59:00'
-  place: "Florianópolis, Brazil"
+  place: Florianópolis, Brazil
   date: October 13 - 18, 2016
   start: 2016-10-13
   end: 2016-10-18
@@ -4731,7 +4744,7 @@
   cfp_link: https://web.archive.org/web/20160612043438/http://speakerfight.com/events/python-nordeste-2016/
   cfp: '2016-05-07 23:55:00'
   timezone: America/Recife
-  place: "São Luís, Brazil"
+  place: São Luís, Brazil
   date: June 9 - 11, 2016
   start: 2016-06-09
   end: 2016-06-11
@@ -4746,7 +4759,7 @@
   year: 2016
   link: https://web.archive.org/web/20160518213755/http://conf.scipyla.org/scipyla2016/
   cfp: '2016-04-08 23:59:00'
-  place: "Florianópolis, Brazil"
+  place: Florianópolis, Brazil
   date: May 16 - 20, 2016
   start: 2016-05-16
   end: 2016-05-20
@@ -6179,7 +6192,7 @@
   year: 2012
   link: https://web.archive.org/web/20121205070033/http://rupy.com.br/
   cfp: '2012-07-31 23:59:00'
-  place: "São Paulo, Brazil"
+  place: São Paulo, Brazil
   date: December 8 - 9, 2012
   start: 2012-12-08
   end: 2012-12-09
@@ -6247,7 +6260,7 @@
   year: 2012
   link: https://web.archive.org/web/20120918233237/http://pl.pycon.org/2012/
   cfp: '2012-06-24 23:59:59'
-  place: "Masłów, Poland"
+  place: Masłów, Poland
   date: September 13 - 16, 2012
   start: 2012-09-13
   end: 2012-09-16
