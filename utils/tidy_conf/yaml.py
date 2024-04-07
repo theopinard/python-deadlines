@@ -25,12 +25,13 @@ def write_conference_yaml(data: Union[list[dict], pd.DataFrame], url: str) -> No
     """
     if isinstance(data, pd.DataFrame):
         data = [{k: v for k, v in record.items() if pd.notnull(v)} for record in data.to_dict(orient="records")]
-    with open(url, "w") as outfile:
+    with open(url, "w", encoding="utf-8") as outfile:
         for line in ordered_dump(
             data,
             Dumper=yaml.SafeDumper,
             default_flow_style=False,
             explicit_start=True,
+            allow_unicode=True,
         ).splitlines():
             outfile.write(line.replace("- conference:", "\n- conference:"))
             outfile.write("\n")
@@ -48,11 +49,11 @@ def load_conferences() -> pd.DataFrame:
     schema = get_schema()
 
     # Load the YAML file
-    with open("_data/conferences.yml", "r") as file:
+    with open("_data/conferences.yml", "r", encoding="utf-8") as file:
         data = yaml.load(file, Loader=yaml.FullLoader)
-    with open("_data/archive.yml", "r") as file:
+    with open("_data/archive.yml", "r", encoding="utf-8") as file:
         archive = yaml.load(file, Loader=yaml.FullLoader)
-    with open("_data/legacy.yml", "r") as file:
+    with open("_data/legacy.yml", "r", encoding="utf-8") as file:
         legacy = yaml.load(file, Loader=yaml.FullLoader)
 
     # Convert the YAML data to a Pandas DataFrame
@@ -71,11 +72,11 @@ def load_title_mappings(reverse=False, path="utils/tidy_conf/data/titles.yml"):
 
         # Check if the file exists, and create it if it doesn't
         if not path.is_file():
-            with open(path, "w") as file:
-                yaml.dump({"spelling": [], "alt_name": {}}, file, default_flow_style=False)
+            with open(path, "w", encoding="utf-8") as file:
+                yaml.dump({"spelling": [], "alt_name": {}}, file, default_flow_style=False, allow_unicode=True)
         return [], {}
 
-    with open(path, "r") as file:
+    with open(path, "r", encoding="utf-8") as file:
         data = yaml.load(file, Loader=yaml.FullLoader)
     spellings = data["spelling"]
 
@@ -93,14 +94,14 @@ def update_title_mappings(data, path="utils/tidy_conf/data/titles.yml"):
     path = Path(path)
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
-        with open(path, "w") as file:
-            yaml.dump({"spelling": [], "alt_name": data}, file, default_flow_style=False)
+        with open(path, "w", encoding="utf-8") as file:
+            yaml.dump({"spelling": [], "alt_name": data}, file, default_flow_style=False, allow_unicode=True)
     else:
-        with open(path, "r") as file:
+        with open(path, "r", encoding="utf-8") as file:
             title_data = yaml.load(file, Loader=yaml.FullLoader)
         title_data["alt_name"].update(data)
-        with open(path, "w") as file:
-            yaml.dump(title_data, file, default_flow_style=False)
+        with open(path, "w", encoding="utf-8") as file:
+            yaml.dump(title_data, file, default_flow_style=False, allow_unicode=True)
 
 
 def write_df_yaml(df, out_url):
