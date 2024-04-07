@@ -1,6 +1,5 @@
 import datetime
 
-
 dateformat = "%Y-%m-%d %H:%M:%S"
 tba_words = ["tba", "tbd", "cancelled"]
 
@@ -19,7 +18,16 @@ def clean_dates(data):
 
     # Make deadlines
     for datetimes in ["cfp", "workshop_deadline", "tutorial_deadline"]:
-        if datetimes in data and data[datetimes].lower() not in tba_words:
+        if datetimes not in data:
+            # Check if we have this key
+            continue
+        if isinstance(data[datetimes], datetime.datetime):
+            # If it's a datetime make it a string, because of timezones
+            data[datetimes] = data[datetimes].strftime(dateformat)
+        elif isinstance(data[datetimes], datetime.date):
+            # If it's a date make it a string, because of timezones
+            data[datetimes] = data[datetimes].strftime(dateformat.split(" ")[0])
+        if data[datetimes].lower() not in tba_words:
             try:
                 tmp_time = datetime.datetime.strptime(data[datetimes], dateformat.split(" ")[0])
                 if tmp_time.hour == 0 and tmp_time.minute == 0:
