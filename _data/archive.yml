@@ -2205,14 +2205,14 @@
   link: https://2022.geopython.net/
   cfp_link: https://web.archive.org/web/20220301062005/https://submit.geopython.net/geopython-2022/cfp
   cfp: '2022-02-28 12:00:00'
-  cfp_ext: "2022-03-15 23:59:00"
+  cfp_ext: '2022-03-15 23:59:00'
   tutorial_deadline: '2022-02-15 23:59:00'
+  timezone: Europe/Zurich
   place: Basel, Switzerland
-  date: June 20 - 23, 2022
+  date: June 20 - 22, 2022
   start: 2022-06-20
   end: 2022-06-22
   sub: GEO
-  timezone: Europe/Zurich
   location:
   - latitude: 47.5581077
     longitude: 7.5878261
@@ -2908,7 +2908,7 @@
   link: http://2020.geopython.net/
   cfp: '2020-03-15 23:59:00'
   place: Online
-  date: September 21 - 23, 2020
+  date: September 21 - 22, 2020
   start: 2020-09-21
   end: 2020-09-22
   sub: GEO
@@ -2963,6 +2963,19 @@
   location:
   - latitude: 50.6215011
     longitude: 30.460508167757546
+
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2020
+  link: https://fosdem.org/2020/schedule/track/python/
+  cfp: '2019-11-24 23:59:00'
+  place: Brussels, Belgium
+  date: February 1st, 2020
+  start: 2020-02-01
+  end: 2020-02-01
+  location:
+  - latitude: 50.8550018
+    longitude: 4.3512333761166175
 
 - conference: PyCon Indonesia
   alt_name: PyCon ID
@@ -3631,6 +3644,19 @@
   - latitude: 18.9733536
     longitude: 72.82810491917377
 
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2019
+  link: https://fosdem.org/2019/schedule/track/python/
+  cfp: '2018-12-01 23:59:00'
+  place: Brussels, Belgium
+  date: February 3rd, 2019
+  start: 2019-02-03
+  end: 2019-02-03
+  location:
+  - latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: PyCaribbean
   year: 2019
   link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
@@ -3643,6 +3669,19 @@
   location:
   - latitude: 18.4801972
     longitude: -69.942111
+
+- conference: FOSDEM
+  alt_name: Python Main Track @ FOSDEM
+  year: 2018
+  link: https://web.archive.org/web/20180203132931/https://fosdem.org/2018/schedule/track/python/
+  cfp: '2018-11-03 23:59:00'
+  place: Brussels, Belgium
+  date: February 3rd, 2018
+  start: 2018-02-03
+  end: 2018-02-03
+  location:
+  - latitude: 50.8465573
+    longitude: 4.351697
 
 - conference: PyTennessee
   year: 2019
@@ -4580,6 +4619,19 @@
   - latitude: 40.038064
     longitude: 18.4633105
 
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2017
+  link: https://web.archive.org/web/20170204031111/https://fosdem.org/2017/schedule/track/python/
+  cfp: '2016-12-02 23:59:00'
+  place: Brussels, Belgium
+  date: February 4 - 5, 2017
+  start: 2017-02-04
+  end: 2017-02-05
+  location:
+  - latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: SciPy India
   year: 2016
   link: https://web.archive.org/web/20170629091110/http://scipy.in/2016
@@ -4967,6 +5019,20 @@
   location:
   - latitude: 36.8309886
     longitude: 11.9403287
+
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2016
+  link: https://web.archive.org/web/20160329031714/https://fosdem.org/2016/schedule/track/python/
+  cfp: '2015-12-11 23:59:00'
+  cfp_ext: '2015-12-20 23:59:00'
+  place: Brussels, Belgium
+  date: January 30th, 2016
+  start: 2016-01-30
+  end: 2016-01-30
+  location:
+  - latitude: 50.8465573
+    longitude: 4.351697
 
 - conference: Swiss Python Summit
   year: 2016
@@ -5392,6 +5458,19 @@
   - latitude: -22.611456150000002
     longitude: 17.05860104184979
 
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2015
+  link: https://web.archive.org/web/20150326165206/https://fosdem.org/2015/schedule/track/python/
+  cfp: '2014-12-01 23:59:00'
+  place: Brussels, Belgium
+  date: January 31st, 2015
+  start: 2015-01-31
+  end: 2015-01-31
+  location:
+  - latitude: 50.8140554
+    longitude: 4.3841294
+
 - conference: SciPy India
   year: 2014
   link: https://web.archive.org/web/20141222103930/http://scipy.in/2014
@@ -5764,6 +5843,19 @@
   location:
   - latitude: 51.5074456
     longitude: -0.1277653
+
+- conference: FOSDEM
+  alt_name: Python @ FOSDEM
+  year: 2014
+  link: https://web.archive.org/web/20140208210710/http://python-fosdem.org/schedule
+  cfp: '2013-12-31 23:59:00'
+  place: Brussels, Belgium
+  date: February 2nd, 2014
+  start: 2014-02-02
+  end: 2014-02-02
+  location:
+  - latitude: 50.8465573
+    longitude: 4.351697
 
 - conference: SciPy India
   year: 2013
