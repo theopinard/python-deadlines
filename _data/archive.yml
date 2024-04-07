@@ -2665,6 +2665,19 @@
   - latitude: 47.5581077
     longitude: 7.5878261
 
+- conference: SciPy India
+  year: 2020
+  link: https://web.archive.org/web/20201005212148/http://scipy.in/2020
+  cfp: '2020-12-11 23:59:00'
+  place: Mumbai, India
+  date: December 19 - 20, 2020
+  start: 2020-12-19
+  end: 2020-12-20
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCascades
   year: 2021
   link: https://2021.pycascades.com/
@@ -2799,6 +2812,16 @@
   end: 2020-06-19
   sub: WEB
 
+- conference: Python Pizza Remote
+  year: 2020
+  link: https://remote.python.pizza/
+  cfp: '2020-04-05 23:59:00'
+  place: Online
+  date: April 25th, 2020
+  start: 2020-04-25
+  end: 2020-04-25
+  sub: PY
+
 - conference: DjangoCon EU
   year: 2020
   link: https://2020.djangocon.eu/
@@ -2864,6 +2887,19 @@
   location:
   - latitude: -7.2459717
     longitude: 112.7378266
+
+- conference: SciPy India
+  year: 2019
+  link: https://web.archive.org/web/20191005212148/http://scipy.in/2019
+  cfp: '2019-10-25 23:59:00'
+  place: Mumbai, India
+  date: November 29 - 30, 2019
+  start: 2019-11-29
+  end: 2019-11-30
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
 
 - conference: AfroPython Conf
   year: 2019
@@ -3449,6 +3485,19 @@
   - latitude: 53.9024716
     longitude: 27.5618225
 
+- conference: SciPy India
+  year: 2018
+  link: https://web.archive.org/web/20190424124043/https://scipy.in/2018
+  cfp: '2018-12-03 23:59:00'
+  place: Mumbai, India
+  date: December 21 - 22, 2018
+  start: 2018-12-21
+  end: 2018-12-22
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCaribbean
   year: 2019
   link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
@@ -3926,6 +3975,19 @@
   - latitude: 4.010289
     longitude: 9.207058
 
+- conference: SciPy India
+  year: 2017
+  link: https://web.archive.org/web/20171005212148/http://scipy.in/2017
+  cfp: '2017-11-10 23:59:00'
+  place: Mumbai, India
+  date: November 29 - 30, 2017
+  start: 2017-11-29
+  end: 2017-11-30
+  sub: SCIPY
+  location:
+  - latitude: 23.5270255
+    longitude: 72.3559964
+
 - conference: PyCon Indonesia
   alt_name: PyCon ID
   year: 2017
@@ -4331,6 +4393,19 @@
   - latitude: 40.038064
     longitude: 18.4633105
 
+- conference: SciPy India
+  year: 2016
+  link: https://web.archive.org/web/20170629091110/http://scipy.in/2016
+  cfp: '2016-11-28 23:59:00'
+  place: Mumbai, India
+  date: December 10 - 11, 2016
+  start: 2016-12-10
+  end: 2016-12-11
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2016
@@ -4665,6 +4740,19 @@
   location:
   - latitude: 36.8309886
     longitude: 11.9403287
+
+- conference: SciPy India
+  year: 2015
+  link: https://web.archive.org/web/20151222204316/http://scipy.in/2015
+  cfp: '2015-10-15 23:59:00'
+  place: Mumbai, India
+  date: December 14 - 16, 2015
+  start: 2015-12-14
+  end: 2015-12-16
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
 
 - conference: PyCon South Africa
   alt_name: PyCon ZA
@@ -5064,6 +5152,19 @@
   - latitude: -22.611456150000002
     longitude: 17.05860104184979
 
+- conference: SciPy India
+  year: 2014
+  link: https://web.archive.org/web/20141222103930/http://scipy.in/2014
+  cfp: '2014-10-15 23:59:00'
+  place: Mumbai, India
+  date: December 5 - 7, 2014
+  start: 2014-12-05
+  end: 2014-12-07
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCon China
   year: 2014
   link: https://web.archive.org/web/20141118174321/http://cn.pycon.org/en/
@@ -5424,6 +5525,19 @@
   - latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: SciPy India
+  year: 2013
+  link: https://web.archive.org/web/20131023113605/http://scipy.in/2013
+  cfp: '2013-12-02 23:59:00'
+  place: Mumbai, India
+  date: December 13 - 15, 2013
+  start: 2013-12-13
+  end: 2013-12-15
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCon China
   year: 2013
   link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
@@ -5537,6 +5651,19 @@
   location:
   - latitude: 52.4081812
     longitude: -1.510477
+
+- conference: RuPy
+  alt_name: RuPy - Budapest Edition
+  year: 2013
+  link: https://web.archive.org/web/20130820170135/http://13.rupy.eu/
+  cfp: '2013-07-31 23:59:00'
+  place: Budapest, Hungary
+  date: October 11 - 13, 2013
+  start: 2013-10-11
+  end: 2013-10-13
+  location:
+  - latitude: 47.48138955
+    longitude: 19.14609412691246
 
 - conference: Python Brasil
   alt_name: PythonBrasil[9]
@@ -5743,6 +5870,19 @@
   - latitude: 50.8465573
     longitude: 4.351697
 
+- conference: SciPy India
+  year: 2012
+  link: https://web.archive.org/web/20140108235207/http://scipy.in/2012
+  cfp: '2012-11-01 23:59:00'
+  place: Mumbai, India
+  date: December 27 - 29, 2012
+  start: 2012-12-27
+  end: 2012-12-29
+  sub: SCIPY
+  location:
+  - latitude: 18.9733536
+    longitude: 72.82810491917377
+
 - conference: PyCon Uruguay
   year: 2012
   link: https://web.archive.org/web/20121001005855/http://uy.pycon.org/
@@ -5925,6 +6065,32 @@
   location:
   - latitude: 51.984257
     longitude: 5.9108573
+
+- conference: RuPy
+  alt_name: RuPy - Brazil Edition
+  year: 2012
+  link: https://web.archive.org/web/20121205070033/http://rupy.com.br/
+  cfp: '2012-07-31 23:59:00'
+  place: "São Paulo, Brazil"
+  date: December 8 - 9, 2012
+  start: 2012-12-08
+  end: 2012-12-09
+  location:
+  - latitude: -1.2043218
+    longitude: -47.1583944
+
+- conference: RuPy
+  alt_name: RuPy - Brno Edition
+  year: 2012
+  link: https://web.archive.org/web/20121207203445/http://12.rupy.eu/
+  cfp: '2012-07-31 23:59:00'
+  place: Brno, Czechia
+  date: November 16 - 18, 2012
+  start: 2012-11-16
+  end: 2012-11-18
+  location:
+  - latitude: 49.1922443
+    longitude: 16.6113382
 
 - conference: PyCon Argentina
   alt_name: PyCon AR
