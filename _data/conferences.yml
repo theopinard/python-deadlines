@@ -665,7 +665,8 @@
 - conference: Swiss Python Summit
   year: 2024
   link: https://python-summit.ch
-  cfp: TBA
+  cfp_link: https://www.python-summit.ch/cfp/
+  cfp: "2024-06-30"
   timezone: Europe/Zurich
   place: Rapperswil, Switzerland
   start: 2024-10-17
