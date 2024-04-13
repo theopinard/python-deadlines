@@ -15,6 +15,21 @@
   - latitude: 50.294113
     longitude: 18.6657306
 
+- conference: Swiss Python Summit
+  year: 2024
+  link: https://python-summit.ch
+  cfp_link: https://www.python-summit.ch/cfp/
+  cfp: '2024-06-30 23:59:00'
+  timezone: Europe/Zurich
+  place: Rapperswil, Switzerland
+  start: 2024-10-17
+  end: 2024-10-18
+  twitter: pythonsummit
+  sub: PY
+  location:
+  - latitude: 47.2266532
+    longitude: 8.8164042
+
 - conference: PyHEP
   year: 2024
   link: https://indico.cern.ch/event/1375573/
@@ -104,6 +119,20 @@
   - latitude: 39.9622601
     longitude: -83.0007065
 
+- conference: PyData Amsterdam
+  year: 2024
+  link: https://amsterdam.pydata.org/
+  cfp: '2024-05-19 23:59:00'
+  timezone: Europe/Amsterdam
+  place: Amsterdam, Netherlands
+  start: 2024-09-18
+  end: 2024-09-20
+  sponsor: https://amsterdam.pydata.org/sponsor/
+  sub: DATA
+  location:
+  - latitude: 52.4111289
+    longitude: 4.877231604293446
+
 - conference: PyCon Russia
   year: 2024
   link: https://www.pycon.ru/
@@ -132,6 +161,22 @@
   - latitude: 51.4383999131
     longitude: 5.46712979814
 
+- conference: Python Sul
+  alt_name: Python Sul (Brazil)
+  year: 2024
+  link: https://sul.python.org.br/
+  cfp_link: https://talks.python.org.br/pythonsul-2024/cfp
+  cfp: '2024-05-12 23:59:00'
+  timezone: America/Sao_Paulo
+  place: Florianópolis, Brazil
+  start: 2024-09-13
+  end: 2024-09-15
+  sponsor: https://bit.ly/sponsorship-pysul24
+  sub: PY
+  location:
+  - latitude: -27.5973002
+    longitude: -48.5496098
+
 - conference: PyCon Portugal
   year: 2024
   link: https://2024.pycon.pt/
@@ -146,6 +191,20 @@
   location:
   - latitude: 41.5510583
     longitude: -8.4280045
+
+- conference: PyData Vermont
+  year: 2024
+  link: https://pydata.org/vermont2024/
+  cfp: '2024-04-26 23:59:00'
+  timezone: America/New_York
+  place: Burlington, Canada
+  start: 2024-07-29
+  end: 2024-07-30
+  sponsor: https://pydata.org/vermont2024/sponsorship-opportunities
+  sub: DATA
+  location:
+  - latitude: 43.3248924
+    longitude: -79.7966835
 
 - conference: DjangoCon US
   year: 2024
@@ -180,6 +239,19 @@
   location:
   - latitude: 39.9533
     longitude: -75.198
+
+- conference: Flask Con
+  year: 2024
+  link: https://flaskcon.com/2024/
+  cfp: '2024-04-17 23:59:00'
+  place: Pittsburgh, USA
+  start: 2024-05-17
+  end: 2024-05-17
+  sub: WEB
+  note: Alongside PyCon US 2024
+  location:
+  - latitude: 40.4416941
+    longitude: -79.9900861
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -662,21 +734,6 @@
   - latitude: -7.9778383999999996
     longitude: 110.36722565020244
 
-- conference: Swiss Python Summit
-  year: 2024
-  link: https://python-summit.ch
-  cfp_link: https://www.python-summit.ch/cfp/
-  cfp: "2024-06-30"
-  timezone: Europe/Zurich
-  place: Rapperswil, Switzerland
-  start: 2024-10-17
-  end: 2024-10-18
-  twitter: pythonsummit
-  sub: PY
-  location:
-  - latitude: 47.2266532
-    longitude: 8.8164042
-
 - conference: Python Brasil
   alt_name: PythonBrasil
   year: 2024
@@ -686,6 +743,7 @@
   start: 2024-10-16
   end: 2024-10-21
   sponsor: https://2024.pythonbrasil.org.br/theme/media_kits/sponsorship-proposal-pybr-2024.pdf
+  twitter: PythonBrasil
   sub: PY
   location:
   - latitude: -22.9110137
@@ -718,32 +776,18 @@
   - latitude: 35.718741949999995
     longitude: 139.73118058112317
 
-- conference: PyData Amsterdam
+- conference: PyCon Israel
   year: 2024
-  link: https://amsterdam.pydata.org/
-  cfp: "2024-05-19"
-  timezone: Europe/Amsterdam
-  place: Amsterdam, Netherlands
-  start: 2024-09-18
-  end: 2024-09-20
-  sponsor: https://amsterdam.pydata.org/sponsor/
-  sub: DATA
-  location:
-  - latitude: 52.4111289
-    longitude: 4.877231604293446
-
-- conference: Python Sul
-  alt_name: Python Sul (Brazil)
-  year: 2024
-  link: https://sul.python.org.br/
+  link: https://pycon.org.il/2024/
   cfp: TBA
-  place: Florianópolis, Brazil
-  start: 2024-09-13
-  end: 2024-09-15
+  place: Gelilot, Israel
+  start: 2024-09-16
+  end: 2024-09-16
+  twitter: PyConIL
   sub: PY
   location:
-  - latitude: -27.5973002
-    longitude: -48.5496098
+  - latitude: 32.13655705
+    longitude: 34.80366518770497
 
 - conference: PyCon Malaysia
   alt_name: PyCon MY
@@ -759,19 +803,6 @@
   location:
   - latitude: 3.0988792
     longitude: 101.6454202
-
-- conference: Flask Con
-  year: 2024
-  link: https://flaskcon.com/2024/
-  cfp: TBA
-  place: Pittsburgh, USA
-  start: 2024-05-17
-  end: 2024-05-17
-  sub: WEB
-  note: Alongside PyCon US 2024
-  location:
-  - latitude: 40.4416941
-    longitude: -79.9900861
 
 - conference: Python Niger
   alt_name: Launching Python Niger
