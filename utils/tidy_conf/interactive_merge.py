@@ -1,11 +1,12 @@
-import pandas as pd
 import sys
-from thefuzz import process
 from collections import defaultdict
 
+import pandas as pd
+from thefuzz import process
+
 sys.path.append(".")
-from tidy_conf.yaml import load_title_mappings, update_title_mappings
 from tidy_conf.utils import get_schema, query_yes_no
+from tidy_conf.yaml import load_title_mappings, update_title_mappings
 
 
 def fuzzy_match(df_yml, df_remote):
@@ -92,7 +93,6 @@ def merge_conferences(df_yml, df_remote):
         "United States of America": "USA",
         "United Kingdom": "UK",
         "Czech Republic": "Czechia",
-        "www.": "",
     }
 
     df_merge = pd.merge(left=df_yml, right=df_remote, how="outer", on="title_match", validate="one_to_one")
