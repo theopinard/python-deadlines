@@ -15,6 +15,22 @@
   - latitude: 50.294113
     longitude: 18.6657306
 
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2024
+  link: https://pycon.hk/2024/
+  cfp_link: https://pretalx.com/pyconhk2024/cfp
+  cfp: '2024-07-01 23:59:00'
+  timezone: Asia/Hong_Kong
+  place: Hong Kong, Hong Kong
+  start: 2024-11-16
+  end: 2024-11-16
+  twitter: pyconhk
+  sub: PY
+  location:
+  - latitude: 22.2793278
+    longitude: 114.1628131
+
 - conference: Swiss Python Summit
   year: 2024
   link: https://python-summit.ch
@@ -361,7 +377,7 @@
 - conference: PyCamp España
   year: 2024
   link: https://pycamp.es/
-  cfp_link: https://docs.google.com/forms/d/1PpI3MstjIBH2e9J21UQaTHQLKTTEuR13od3iQkfJ8Zo/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfLVbA5F-d6xzdLz08eD8_pUcngUommwqfgAMsEz1MWv-rnQw/viewform
   cfp: '2024-03-27 23:59:00'
   place: Lleida, Spain
   start: 2024-03-29
@@ -522,22 +538,6 @@
   location:
   - latitude: 47.5581077
     longitude: 7.5878261
-
-- conference: PyCon Namibia
-  year: 2024
-  link: https://na.pycon.org/
-  cfp_link: https://na.pycon.org/call-proposals/
-  cfp: '2024-01-21 23:59:00'
-  timezone: Africa/Windhoek
-  place: Windhoek, Namibia
-  start: 2024-03-04
-  end: 2024-03-07
-  sponsor: https://na.pycon.org/sponsorship/
-  twitter: PyConNA
-  sub: PY
-  location:
-  - latitude: -22.611456150000002
-    longitude: 17.05860104184979
 
 - conference: PyCon Pakistan
   year: 2024
