@@ -160,7 +160,7 @@ def sort_data(base="", prefix=""):
     data = []
 
     for url in (current, archive, legacy):
-        with open(url, "r") as stream:
+        with open(url, "r", encoding="utf-8") as stream:
             try:
                 data += yaml.load(stream, Loader=Loader)
             except yaml.YAMLError as exc:

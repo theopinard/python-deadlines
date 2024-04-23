@@ -1,9 +1,8 @@
-import requests
-from tqdm import tqdm
-
-
 import time
 import urllib
+
+import requests
+from tqdm import tqdm
 
 
 def add_latlon(data):
@@ -23,6 +22,7 @@ def add_latlon(data):
             # If location is already present, add it to the cache
             cache[q["place"]] = q["location"][0]
             # continue
+            data_copy.append((i, q))
         else:
             # Add to the copy if location is not present for speed
             data_copy.append((i, q))
@@ -46,6 +46,7 @@ def add_latlon(data):
             if place in cache and cache[place] is not None:
                 new_location += [
                     {
+                        "title": f'{q["conference"]} {q["year"]}',
                         "latitude": cache[place]["latitude"],
                         "longitude": cache[place]["longitude"],
                     }
@@ -61,6 +62,7 @@ def add_latlon(data):
                         response = response.json()
                         new_location += [
                             {
+                                "title": f'{q["conference"]} {q["year"]}',
                                 "latitude": float(response[0]["lat"]),
                                 "longitude": float(response[0]["lon"]),
                             }
