@@ -67,6 +67,22 @@
     latitude: 47.2266532
     longitude: 8.8164042
 
+- conference: PyCon Malaysia
+  alt_name: PyCon MY
+  year: 2024
+  link: https://pycon.my/
+  cfp: '2024-06-30 23:59:00'
+  timezone: Asia/Kuala_Lumpur
+  place: Petaling Jaya, Malaysia
+  start: 2024-08-24
+  end: 2024-08-25
+  twitter: pyconmy
+  sub: PY
+  location:
+  - title: PyCon Malaysia 2024
+    latitude: 3.0988792
+    longitude: 101.6454202
+
 - conference: PyHEP
   year: 2024
   link: https://indico.cern.ch/event/1375573/
@@ -94,6 +110,22 @@
   - title: Piter Py 2024
     latitude: 59.9606739
     longitude: 30.1586551
+
+- conference: PyCon Spain
+  alt_name: PyCon ES
+  year: 2024
+  link: https://2024.es.pycon.org/
+  cfp_link: https://2024.es.pycon.org/c4p/
+  cfp: '2024-05-31 21:00:00'
+  timezone: Europe/Madrid
+  place: Vigo, Spain
+  start: 2024-10-04
+  end: 2024-10-06
+  sub: PY
+  location:
+  - title: PyCon Spain 2024
+    latitude: 42.240599
+    longitude: -8.720727
 
 - conference: PyCon MEA
   alt_name: PyCon MEA & Data Science
@@ -327,7 +359,7 @@
   alt_name: PyCon EE
   year: 2024
   link: https://pycon.ee/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ/closedform
   cfp: '2024-04-15 23:59:00'
   timezone: Europe/Tallinn
   place: Tallinn, Estonia
@@ -681,22 +713,6 @@
     latitude: 47.6038321
     longitude: -122.330062
 
-- conference: PyCon Slovakia
-  alt_name: PyCon SK
-  year: 2024
-  link: https://2024.pycon.sk/
-  cfp_link: https://2024.pycon.sk/en/cfp
-  cfp: '2023-12-31 23:59:00'
-  place: Bratislava, Slovakia
-  start: 2024-03-15
-  end: 2024-03-17
-  twitter: pyconsk
-  sub: PY
-  location:
-  - title: PyCon Slovakia 2024
-    latitude: 48.1516988
-    longitude: 17.1093063
-
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
   year: 2024
@@ -769,11 +785,24 @@
     latitude: -10.3333333
     longitude: -53.2
 
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2024
+  link: https://2024.pycon-au.org/
+  cfp: TBA
+  place: Melbourne, Australia
+  start: 2024-11-22
+  end: 2024-11-26
+  sub: PY
+  location:
+  - title: PyCon Australia 2024
+    latitude: -37.8142454
+    longitude: 144.9631732
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2024
   link: https://pycon.fr/2024/
-  cfp_link: https://cfp-2024.pycon.fr/cfp/
   cfp: TBA
   timezone: Europe/Paris
   place: Strasbourg, France
@@ -819,20 +848,6 @@
     latitude: -22.9110137
     longitude: -43.2093727
 
-- conference: PyCon Spain
-  alt_name: PyCon ES
-  year: 2024
-  link: https://2024.es.pycon.org/
-  cfp: TBA
-  place: Vigo, Spain
-  start: 2024-10-04
-  end: 2024-10-06
-  sub: PY
-  location:
-  - title: PyCon Spain 2024
-    latitude: 42.240599
-    longitude: -8.720727
-
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2024
@@ -861,22 +876,6 @@
   - title: PyCon Israel 2024
     latitude: 32.13655705
     longitude: 34.80366518770497
-
-- conference: PyCon Malaysia
-  alt_name: PyCon MY
-  year: 2024
-  link: https://pycon.my/
-  cfp: TBA
-  timezone: Asia/Kuala_Lumpur
-  place: Petaling Jaya, Malaysia
-  start: 2024-08-24
-  end: 2024-08-25
-  twitter: pyconmy
-  sub: PY
-  location:
-  - title: PyCon Malaysia 2024
-    latitude: 3.0988792
-    longitude: 101.6454202
 
 - conference: Python Niger
   alt_name: Launching Python Niger

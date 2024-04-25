@@ -402,6 +402,22 @@
     latitude: 14.63989835
     longitude: 121.07819518938447
 
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2024
+  link: https://2024.pycon.sk/
+  cfp_link: https://2024.pycon.sk/en/cfp
+  cfp: '2023-12-31 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2024-03-15
+  end: 2024-03-17
+  twitter: pyconsk
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2024
+    latitude: 48.1516988
+    longitude: 17.1093063
+
 - conference: Python Pizza Prague
   alt_name: Prague Python Pizza
   year: 2024
