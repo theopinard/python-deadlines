@@ -27,9 +27,9 @@ def tidy_titles(data):
                         if "alt_name" not in q:
                             if q["conference"].strip() != key:
                                 q["alt_name"] = q["conference"].strip()
-                            else:
-                                # Use the first entry as "canonical" alt_name
-                                q["alt_name"] = values[0]
+                            # else:
+                            #     # Use the first entry as "canonical" alt_name
+                            #     q["alt_name"] = values[0]
                         q["conference"] = key.strip()
             data[i] = q
     return data

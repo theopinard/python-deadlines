@@ -53,14 +53,14 @@ description: Summary of the conference and its instances throughout the years.
 
 <body>
   {% include header.html %}
-  {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy | where_exp:"item","page.conference contains item.conference or item.conference contains page.conference" | sort: "year" | reverse %}
+  {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy | where_exp:"item","page.conference contains item.conference or item.conference contains page.conference or page.alt_name == item.alt_name or page.conference == item.alt_name or item.conference == page.alt_name" | sort: "year" | reverse %}
   <div class="container">
     <div class="page-header" id="conf-title">
       <div class="row">
         <div class="col-sm-12">
           {% include breadcrumbs.html %}
           <h1>
-            <span id="conf-title-href" href="{{site.baseurl_root}}/summary/{{page.conference | slugify: "latin"}}/">{{title}}</span>
+            <span id="conf-title-href" href="{{site.baseurl_root}}/summary/{{page.conference | slugify: 'latin'}}/">{{title}}</span>
             <span id="twitter-box"><a href="https://twitter.com/share" class="twitter-share-button"
                 data-text="Conference instances for the #{{ page.conference }} conference!" data-show-count="false"
                 style="font-size:13px;">Tweet</a>
