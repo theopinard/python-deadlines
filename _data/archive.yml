@@ -1,5 +1,18 @@
 ---
 
+- conference: PyCon Somalia
+  year: 2023
+  link: https://pycon.org.so/
+  cfp: None
+  place: Mogadishu, Somalia
+  start: 2023-12-26
+  end: 2023-12-27
+  sub: PY
+  location:
+  - title: PyCon Somalia 2023
+    latitude: 2.0349312
+    longitude: 45.3419183
+
 - conference: PyCon Cameroon
   year: 2017
   link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
