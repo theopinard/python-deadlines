@@ -284,6 +284,22 @@
     latitude: 52.4081812
     longitude: -1.510477
 
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2020
+  link: https://2020.pycon.sk/en/
+  cfp: Cancelled
+  cfp_ext: '2020-01-31 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2020-09-11
+  end: 2020-09-13
+  sub: PY
+  note: Cancelled due to Covid-19
+  location:
+  - title: PyCon Slovakia 2020
+    latitude: 48.1516988
+    longitude: 17.1093063
+
 - conference: EuroSciPy
   year: 2020
   link: https://www.euroscipy.org/
@@ -3571,6 +3587,20 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2019
+  link: https://web.archive.org/web/20200807013346/https://2019.pycon.sk/
+  cfp: '2019-02-14 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2019-03-22
+  end: 2019-03-24
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2019
+    latitude: 48.1516988
+    longitude: 17.1093063
+
 - conference: PyGrunn
   year: 2019
   link: https://web.archive.org/web/20190608055024/http://www.pygrunn.org/
@@ -4173,6 +4203,20 @@
     latitude: 47.3615882
     longitude: 7.354445
 
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2018
+  link: https://web.archive.org/web/20180310093230/https://2018.pycon.sk/en/
+  cfp: '2018-01-21 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2018-03-09
+  end: 2018-03-11
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2018
+    latitude: 48.1516988
+    longitude: 17.1093063
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2018
@@ -4605,6 +4649,21 @@
   - title: GeoPython 2017
     latitude: 47.3615882
     longitude: 7.354445
+
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2017
+  link: https://web.archive.org/web/20170306082548/http://www.pycon.sk/2017/
+  cfp_link: https://2017.pycon.sk/cfp/
+  cfp: '2017-02-14 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2017-03-10
+  end: 2017-03-12
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2017
+    latitude: 48.1516988
+    longitude: 17.1093063
 
 - conference: PyGrunn
   year: 2017
@@ -5058,6 +5117,21 @@
   - title: GeoPython 2016
     latitude: 47.3615882
     longitude: 7.354445
+
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2016
+  link: https://web.archive.org/web/20160307164154/http://pycon.sk/en/
+  cfp_link: https://2016.pycon.sk/en/speaking.html
+  cfp: '2016-01-24 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2016-03-11
+  end: 2016-03-13
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2016
+    latitude: 48.1516988
+    longitude: 17.1093063
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
@@ -6042,6 +6116,21 @@
   - title: PyCon France 2013
     latitude: 48.584614
     longitude: 7.7507127
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2013
+  link: https://web.archive.org/web/20130925120247/http://za.pycon.org/
+  cfp: '2013-09-01 23:59:00'
+  cfp_ext: '2013-09-15 23:59:00'
+  place: Cape Town, South Africa
+  start: 2013-10-03
+  end: 2013-10-04
+  sub: PY
+  location:
+  - title: PyCon South Africa 2013
+    latitude: -33.928992
+    longitude: 18.417396
 
 - conference: PyCon Ireland
   alt_name: PyCon IE
