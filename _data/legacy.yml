@@ -1368,58 +1368,6 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
-- conference: PyCon Singapore
-  year: 2016
-  link: https://web.archive.org/web/20180425194853/https://pycon.sg/
-  cfp: TBA
-  place: Singapore, Singapore
-  start: 2016-06-23
-  end: 2016-06-26
-  sub: PY
-  location:
-  - title: PyCon Singapore 2016
-    latitude: 1.2899175
-    longitude: 103.8519072
-
-- conference: PyCon Singapore
-  year: 2015
-  link: https://web.archive.org/web/20180425194853/https://pycon.sg/
-  cfp: TBA
-  place: Singapore Polytechnic, Singapore 139651
-  start: 2015-06-17
-  end: 2015-06-20
-  sub: PY
-  location:
-  - title: PyCon Singapore 2015
-    latitude: 1.30913695
-    longitude: 103.77814365807117
-
-- conference: PyCon Singapore
-  year: 2014
-  link: https://web.archive.org/web/20180425194853/https://pycon.sg/
-  cfp: TBA
-  place: Singapore, Singapore
-  start: 2014-06-18
-  end: 2014-06-21
-  sub: PY
-  location:
-  - title: PyCon Singapore 2014
-    latitude: 1.2899175
-    longitude: 103.8519072
-
-- conference: PyCon Singapore
-  year: 2013
-  link: https://web.archive.org/web/20180425194853/https://pycon.sg/
-  cfp: TBA
-  place: Singapore, Singapore
-  start: 2013-06-13
-  end: 2013-06-16
-  sub: PY
-  location:
-  - title: PyCon Singapore 2013
-    latitude: 1.2899175
-    longitude: 103.8519072
-
 - conference: PyCon Siberia
   year: 2016
   link: https://web.archive.org/web/20161001171831/http://dev2dev.ru/
@@ -1899,7 +1847,7 @@
 
 - conference: PyCon Israel
   year: 2019
-  link: https://il.pycon.org/2019
+  link: https://web.archive.org/web/20190120010757/https://il.pycon.org/2019/
   cfp: TBA
   place: Ramat Gan, Israel
   start: 2019-06-02
