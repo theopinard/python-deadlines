@@ -41,7 +41,7 @@
     longitude: -62.2654871
 
 - conference: SciPy Latin America
-  alt_name: ScipyCon Argentina
+  alt_name: SciPyCon Argentina
   year: 2013
   link: https://web.archive.org/web/20210307212917/https://www.scipy.lat/conf/2013/
   cfp: None
@@ -4783,8 +4783,8 @@
     latitude: -26.205
     longitude: 28.049722
 
-- conference: PyCon Germany
-  alt_name: PyMunich
+- conference: PyMunich
+  alt_name: PyCon Germany
   year: 2016
   link: https://web.archive.org/web/20161015212639/http://www.pymunich.com/
   cfp: '2016-09-12 00:00:00'
