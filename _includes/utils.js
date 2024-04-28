@@ -1,6 +1,6 @@
 function update_filtering(data) {
 	var page_url = window.location.pathname;
-	store.set('{{site.domain}}-subs', data.subs);
+	store.set('{{site.domain}}-subs', { subs: data.subs, timestamp: new Date().getTime() });
 
 	$('.confItem').hide();
 
@@ -10,16 +10,25 @@ function update_filtering(data) {
 		$('.' + s + '-conf').show();
 	}
 
-  if (data.subs.length === 0 || data.subs.length == data.all_subs.length) {
+	if (data.subs.length === 0 || data.subs.length == data.all_subs.length) {
 		window.history.pushState('', '', page_url);
-  } else {
+	} else {
 		// Join the selected values into a query parameter
 		window.history.pushState('', '', page_url + '?sub=' + data.subs.join());
-  }
+	}
+}
+
+function isDataExpired(data) {
+	const EXPIRATION_PERIOD = 1 * 17 * 60 * 60 * 1000; // 1 day in milliseconds
+	const now = new Date().getTime();
+	if (data.timestamp && now - data.timestamp > EXPIRATION_PERIOD) {
+		return true;
+	}
+	return false;
 }
 
 function createCalendarFromObject(data) {
-  return createCalendar({
+	return createCalendar({
 		options: {
 			class: 'calendar-obj',
 
@@ -33,8 +42,8 @@ function createCalendarFromObject(data) {
 			// Event start date
 			start: data.start_date,
 
-      // Event duration (minutes)
-      duration: 60,
+			// Event duration (minutes)
+			duration: 60,
 
 			// You can also choose to set an end time
 			// If an end time is set, this will take precedence over duration
@@ -44,7 +53,7 @@ function createCalendarFromObject(data) {
 			address: data.place,
 
 			// Event Description
-			description: '<a href='+data.link+'>'+data.title+'</a>',
+			description: '<a href=' + data.link + '>' + data.title + '</a>',
 		},
-  });
+	});
 }

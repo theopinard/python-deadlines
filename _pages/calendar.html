@@ -139,9 +139,6 @@ title: titles.calendar
 			{% include utils.js %}
 			{% include load_data.js %}
 			{% include multiselect_handler.js %}
-			{% include calendar.js %}  // overwrites update_filtering
-
-
 			$(function () {
 			  // Get data from URL/Cache
 			  {% include handle_url_retrieval.js %}
@@ -152,6 +149,7 @@ title: titles.calendar
 			  // Render calendar
 			  update_filtering({ subs: subs, all_subs: all_subs });
 			});
+			{% include calendar.js %}  // overwrites update_filtering
 		</script>
 	</body>
 </html>

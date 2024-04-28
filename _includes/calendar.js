@@ -192,7 +192,7 @@ function load_conference_list() {
 }
 
 function update_filtering(data) {
-  store.set('{{site.domain}}-subs', data.subs);
+  store.set('{{site.domain}}-subs', {subs: data.subs, timestamp: new Date().getTime()});
 
   conf_list = conf_list_all.filter(v => {
     var commonValues = data.subs.filter(function (value) {
