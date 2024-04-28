@@ -20,6 +20,10 @@ titles:
   impressum: 'Condiciones'
   past_events: 'Eventos Pasados'
   past_cfps: 'Llamadas pasadas'
+buttons:
+  ical: Obtener el iCal
+  google: Añadir al Calendario de Google
+  github: Enviar una Conferencia en GitHub
 description:
   summary: 'Resumen de la conferencia y sus instancias a lo largo de los años.'
 header:

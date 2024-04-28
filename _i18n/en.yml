@@ -37,6 +37,10 @@ conference:
   download_date: 'Download Conference Dates'
   deadline_tz_theirs: 'Deadline in timezone from conference website'
   deadline_tz_local: "Deadline in your local <span class='local-timezone'></span> timezone"
+buttons:
+  ical: Get the iCal
+  google: Add to Google Calendar
+  github: Submit a Conference on GitHub
 summary:
   title: 'Conference Summary'
 subs:

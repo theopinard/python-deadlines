@@ -10,50 +10,58 @@
     {% include header.html %}
     <div class="container">
         <div class="page-header">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                  <h1>
+        <div class="container">
+        <div class="row align-items-end">
+            <div class="col-md-8">
+                <h1 class="display-4">
                     {% t titles.default %}
-                  </h1>
-                </div>
-                <div class="meta col-12">
-                  {% tf frontpage/hook.md %}
-                </div>
+                </h1>
+                <p class="lead">
+                    {% tf frontpage/hook.md %}
+                </p>
+                <p class="text-muted">
+                    {% tf frontpage/description.md %}
+                </p>
             </div>
-            <br>
-            <div class="row">
-              <div class="meta col-8">
-                {% tf frontpage/description.md %}
-              </div>
-              <div class="meta col-4">
-                <form class="container">
-                  <div class="row justify-content-center">
-                    <div class="row align-items-md-center col-12 col-10-md">
-                      <div class="col-12 col-md-5 filter-label">
-                        <label for="subject-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
-                          {% t global.sub_filter %}
+            <div class="col-md-4">
+                <div class="d-flex justify-content-center">
+                    <a href="{{ site.baseurl }}/{{ site.github_repo }}.ics" class="btn btn-outline-primary mx-1">
+                        <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> {% t buttons.ical %}
+                    </a>
+                    <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{ site.github_repo }}.ics" class="btn btn-outline-danger mx-1">
+                        <i class="fa fa-google" aria-hidden="true"></i> {% t buttons.google %}
+                    </a>
+                    <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/" class="btn btn-outline-dark mx-1">
+                        <i class="fa fa-github" aria-hidden="true"></i> {% t buttons.github %}
+                    </a>
+                </div>
+                <hr class="my-3">
+                <form>
+                    <div class="form-group">
+                        <label for="subject-select" class="mb-2 align-center">
+                            {% t global.sub_filter %}
                         </label>
-                      </div>
-                      <div class="col-12 col-md-6">
                         <select
-                          id="subject-select"
-                          name="subject-select"
-                          multiple="multiple"
-                          style="display: none"
+                            id="subject-select"
+                            name="subject-select"
+                            multiple="multiple"
+                            class="form-control"
+                            style="display: none"
                         >
-                          {% for type in site.data.types %}
-                          <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-                            {{type.name}} ({{type.sub}})
-                          </option>
-                          {% endfor %}
+                            {% for type in site.data.types %}
+                            <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+                                {{type.name}} ({{type.sub}})
+                            </option>
+                            {% endfor %}
                         </select>
-                      </div>
                     </div>
-                  </div>
                 </form>
-              </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container">
         <div id="confs">
         <div id="coming_confs">
           {% assign confs = site.data.conferences | sort: "cfp" | reverse %}
@@ -77,6 +85,7 @@
           <h1 id="archive-link"><a href="{% tl archive %}">{% t titles.visit_archive %}</a></h1>
         </div>
       </div>
+    </div>
       <footer>
             {% include footer.html %}
       </footer>

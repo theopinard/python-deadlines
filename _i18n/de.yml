@@ -20,6 +20,10 @@ titles:
   impressum: 'Impressum'
   past_events: 'Vergangene Konferenzen'
   past_cfps: 'Vergangene CfPs'
+buttons:
+  ical: Lade iCal runter
+  google: Zu Google Kalender hinzufügen
+  github: Konferenz auf GitHub einreichen
 description:
   summary: 'Python Konferenz und ihre Instanzen im Laufe der Jahre.'
 header:
