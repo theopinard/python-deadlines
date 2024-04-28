@@ -216,6 +216,7 @@
   year: 2024
   link: https://amsterdam.pydata.org/
   cfp: '2024-05-19 23:59:00'
+  cfp_ext: '2024-06-02 23:59:00'
   timezone: Europe/Amsterdam
   place: Amsterdam, Netherlands
   start: 2024-09-18
@@ -263,6 +264,7 @@
   link: https://sul.python.org.br/
   cfp_link: https://talks.python.org.br/pythonsul-2024/cfp
   cfp: '2024-05-12 23:59:00'
+  cfp_ext: '2024-05-31 23:59:00'
   timezone: America/Sao_Paulo
   place: Florianópolis, Brazil
   start: 2024-09-13
@@ -279,6 +281,7 @@
   link: https://2024.pycon.pt/
   cfp_link: https://pretalx.evolutio.pt/pycon-portugal-2024/cfp
   cfp: '2024-04-29 00:00:00'
+  cfp_ext: '2024-05-15 00:00:00'
   timezone: Europe/Lisbon
   place: Braga, Portugal
   start: 2024-10-17
