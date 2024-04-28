@@ -22,7 +22,6 @@ def add_latlon(data):
             # If location is already present, add it to the cache
             cache[q["place"]] = q["location"][0]
             # continue
-            data_copy.append((i, q))
         else:
             # Add to the copy if location is not present for speed
             data_copy.append((i, q))

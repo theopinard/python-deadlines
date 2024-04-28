@@ -20,5 +20,6 @@
   sub: PY # Type of conference (see or add _data/types.yml)
   note: Important # In case there are extra notes about the conference (Optional)
   location: # Geolocation for inclusion in map
+  - title: BestConf 2022
     latitude: 0.00
     longitude: 0.00

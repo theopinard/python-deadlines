@@ -10,9 +10,9 @@
         <a title="Conference Website" href="{{conf.link}}" target="_blank"><img src="/static/img/203-earth.svg" class="badge-link" alt="Link to Conference Website" width="16" height="16" /></a>
         &ZeroWidthSpace;
         </span>
-        {% if cfp_link %}
+        {% if conf.cfp_link %}
         <span class="conf-title-icon">
-        <a title="Call for Participation for {{conf.conference}}" href="{{cfp_link}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation for {{conf.conference}}" width="16" height="16" /></a>
+        <a title="Call for Participation for {{conf.conference}}" href="{{conf.cfp_link}}" target="_blank"><img src="/static/img/035-file-text.svg" class="badge-link" alt="Link to Call for Participation for {{conf.conference}}" width="16" height="16" /></a>
         &ZeroWidthSpace;
         </span>
         {% endif %}
