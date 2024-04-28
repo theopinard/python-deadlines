@@ -4798,6 +4798,19 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: PyCon Siberia
+  year: 2016
+  link: https://web.archive.org/web/20161001171831/http://dev2dev.ru/
+  cfp: '2016-09-01 23:59:00'
+  place: Aerovokzalnaya, Russia
+  start: 2016-10-01
+  end: 2016-10-02
+  sub: PY
+  location:
+  - title: PyCon Siberia 2016
+    latitude: 43.4458896
+    longitude: 39.9326404
+
 - conference: PyCon Canada
   year: 2016
   link: https://web.archive.org/web/20161026030925/https://2016.pycon.ca/en/
