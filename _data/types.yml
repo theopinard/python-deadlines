@@ -17,3 +17,6 @@
 - name: Python for Earth
   sub: GEO
   color: "#310c0c"
+- name: Python Camps
+  sub: CAMP
+  color: "#303030"

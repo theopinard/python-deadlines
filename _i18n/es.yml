@@ -24,6 +24,8 @@ buttons:
   ical: Obtener el iCal
   google: Añadir al Calendario de Google
   github: Enviar una Conferencia en GitHub
+  all_selected: Todas las Conferencias
+  none_selected: Ninguna Seleccionada
 description:
   summary: 'Resumen de la conferencia y sus instancias a lo largo de los años.'
 header:

@@ -94,7 +94,7 @@ To add or update a deadline:
 | -------- | ------------------- |
 | `PY`     | General Python      |
 | `SCIPY`  | Scientific Python   |
-| `PYDATA` | Python for Data     |
+| `DATA`   | Python for Data     |
 | `WEB`    | Python for Web      |
 | `BIZ`    | Python for Business |
 | `GEO`    | Python for Earth    |

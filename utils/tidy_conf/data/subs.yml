@@ -1,22 +1,27 @@
+---
 # Description: Substitutions for the tidy_conf module
 PY:
-    - pycon
-    - pyladies
-    - pyday
-    - pycamp
-    - pyjamas
+- pycon
+- pyladies
+- pyday
+- pycamp
+- pyjamas
 WEB:
-    - django
-    - flask
-    - plone
-    - wagtail
-    - web
-PYDATA:
-    - pydata
-    - jupyter
+- django
+- flask
+- plone
+- wagtail
+- web
+DATA:
+- pydata
+- jupyter
 SCIPY:
-    - scipy
+- scipy
 BIZ:
-    - business
+- business
 GEO:
-    - geopython
+- geopython
+CAMP:
+- pycamp
+- barcamp
+

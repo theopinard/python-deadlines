@@ -24,6 +24,8 @@ buttons:
   ical: Lade iCal runter
   google: Zu Google Kalender hinzufügen
   github: Konferenz auf GitHub einreichen
+  all_selected: Alle Konferenzen ausgewählt
+  none_selected: Keine Konferenz ausgewählt
 description:
   summary: 'Python Konferenz und ihre Instanzen im Laufe der Jahre.'
 header:

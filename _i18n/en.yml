@@ -41,6 +41,8 @@ buttons:
   ical: Get the iCal
   google: Add to Google Calendar
   github: Submit a Conference on GitHub
+  all_selected: All Conferences Selected
+  none_selected: No Conference Selected
 summary:
   title: 'Conference Summary'
 subs:

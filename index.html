@@ -16,12 +16,12 @@
                 <h1 class="display-4">
                     {% t titles.default %}
                 </h1>
-                <p class="lead">
+                <span class="lead">
                     {% tf frontpage/hook.md %}
-                </p>
-                <p class="text-muted">
+                </span>
+                <span class="text-muted">
                     {% tf frontpage/description.md %}
-                </p>
+                </span>
             </div>
             <div class="col-md-4">
                 <div class="d-flex justify-content-center">
@@ -38,9 +38,10 @@
                 <hr class="my-3">
                 <form>
                     <div class="form-group">
-                        <label for="subject-select" class="mb-2 align-center">
+                        <label for="subject-select" class="mb-2 align-center control-label">
                             {% t global.sub_filter %}
                         </label>
+                        <br/>
                         <select
                             id="subject-select"
                             name="subject-select"
@@ -59,10 +60,9 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="container">
-        <div id="confs">
+        </div>
+    <div class="container">
+      <div id="confs">
         <div id="coming_confs">
           {% assign confs = site.data.conferences | sort: "cfp" | reverse %}
           {% for conf in confs %}
