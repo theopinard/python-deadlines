@@ -838,19 +838,6 @@
     latitude: 17.4454957
     longitude: 78.34854697544472
 
-- conference: PyCon Zimbabwe
-  year: 2017
-  link: https://web.archive.org/web/20170825103507/http://zw.pycon.org/
-  cfp: TBA
-  place: Harare, Zimbabwe
-  start: 2017-08-23
-  end: 2017-08-27
-  sub: PY
-  location:
-  - title: PyCon Zimbabwe 2017
-    latitude: -17.8567035
-    longitude: 31.0601584
-
 - conference: PyCon Ukraine
   alt_name: PyCon UA
   year: 2017
