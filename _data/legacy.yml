@@ -403,28 +403,6 @@
   end: 2020-12-07
   sub: PY
 
-- conference: PyHEP
-  year: 2021
-  link: https://indico.cern.ch/event/1019958/
-  cfp: TBA
-  place: Online
-  start: 2021-07-05
-  end: 2021-07-10
-  sub: SCIPY
-
-- conference: PyHEP
-  year: 2018
-  link: https://web.archive.org/web/20180818114457/https://indico.cern.ch/event/694818/
-  cfp: TBA
-  place: Sofia, Bulgaria
-  start: 2018-07-07
-  end: 2018-07-09
-  sub: SCIPY
-  location:
-  - title: PyHEP 2018
-    latitude: 42.6977028
-    longitude: 23.3217359
-
 - conference: PyGotham TV
   year: 2020
   link: https://2020.pygotham.tv/
