@@ -394,15 +394,6 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
-- conference: Pyjamas Conf
-  year: 2020
-  link: https://pyjamas.live/
-  cfp: TBA
-  place: Online
-  start: 2020-12-05
-  end: 2020-12-07
-  sub: PY
-
 - conference: PyFest
   year: 2021
   link: https://pyfest.Online/

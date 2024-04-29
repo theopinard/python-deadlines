@@ -2872,6 +2872,15 @@
   start: 2020-11-15
   end: 2020-11-16
 
+- conference: Pyjamas Conf
+  year: 2020
+  link: https://web.archive.org/web/20201124170628/https://pyjamas.live/
+  cfp: '2020-09-05 23:59:00'
+  place: Online
+  start: 2020-12-05
+  end: 2020-12-05
+  sub: PY
+
 - conference: PyCon India
   year: 2020
   link: https://in.pycon.org/2020/
