@@ -3000,6 +3000,16 @@
   end: 2020-09-22
   sub: GEO
 
+- conference: PyData Amsterdam
+  alt_name: PyDataFest Amsterdam
+  year: 2020
+  link: https://web.archive.org/web/20201030121307/https://amsterdam.pydata.org/
+  cfp: '2020-03-01 23:59:00'
+  place: Online
+  start: 2020-06-15
+  end: 2020-06-20
+  sub: PYDATA
+
 - conference: DjangoCon EU
   year: 2020
   link: https://2020.djangocon.eu/
@@ -3616,6 +3626,19 @@
   - title: PyData London 2019
     latitude: 51.5074456
     longitude: -0.1277653
+
+- conference: PyData Amsterdam
+  year: 2019
+  link: https://web.archive.org/web/20210724114427/http://pydata.org/amsterdam2019/
+  cfp: '2019-03-03 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2019-05-10
+  end: 2019-05-12
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2019
+    latitude: 52.4111289
+    longitude: 4.877231604293446
 
 - conference: GeoPython
   year: 2019
@@ -4249,6 +4272,19 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: PyData Amsterdam
+  year: 2018
+  link: https://web.archive.org/web/20210805170103/https://pydata.org/amsterdam2018/
+  cfp: '2018-03-04 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2018-05-25
+  end: 2018-05-27
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2018
+    latitude: 52.4111289
+    longitude: 4.877231604293446
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2018
@@ -4720,6 +4756,19 @@
   - title: SciPy US 2017
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: PyData Amsterdam
+  year: 2017
+  link: https://web.archive.org/web/20170120092836/http://pydata.org/amsterdam2017/
+  cfp: '2017-03-05 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2017-04-08
+  end: 2017-04-09
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2017
+    latitude: 52.4111289
+    longitude: 4.877231604293446
 
 - conference: PyData London
   year: 2017
@@ -5242,6 +5291,20 @@
   - title: GeoPython 2016
     latitude: 47.3615882
     longitude: 7.354445
+
+- conference: PyData Amsterdam
+  year: 2016
+  link: https://web.archive.org/web/20160313045857/http://pydata.org/amsterdam2016/
+  cfp_link: https://web.archive.org/web/20160316230926/http://pydata.org/amsterdam2016/cfp/
+  cfp: '2016-02-14 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2016-03-12
+  end: 2016-03-13
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2016
+    latitude: 52.4111289
+    longitude: 4.877231604293446
 
 - conference: PyCon Slovakia
   alt_name: PyCon SK

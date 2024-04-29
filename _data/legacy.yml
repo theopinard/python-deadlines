@@ -786,45 +786,6 @@
     latitude: 41.3828939
     longitude: 2.1774322
 
-- conference: PyData Amsterdam
-  year: 2019
-  link: https://web.archive.org/web/20210724114427/http://pydata.org/amsterdam2019/
-  cfp: TBA
-  place: Amsterdam, Netherlands
-  start: 2019-05-10
-  end: 2019-05-12
-  sub: DATA
-  location:
-  - title: PyData Amsterdam 2019
-    latitude: 52.4111289
-    longitude: 4.877231604293446
-
-- conference: PyData Amsterdam
-  year: 2017
-  link: https://web.archive.org/web/20170120092836/http://pydata.org/amsterdam2017/
-  cfp: TBA
-  place: Amsterdam, Netherlands
-  start: 2017-04-07
-  end: 2017-04-10
-  sub: DATA
-  location:
-  - title: PyData Amsterdam 2017
-    latitude: 52.4111289
-    longitude: 4.877231604293446
-
-- conference: PyData Amsterdam
-  year: 2016
-  link: https://web.archive.org/web/20160313045857/http://pydata.org/amsterdam2016/
-  cfp: TBA
-  place: Amsterdam, Netherlands
-  start: 2016-03-12
-  end: 2016-03-14
-  sub: DATA
-  location:
-  - title: PyData Amsterdam 2016
-    latitude: 52.4111289
-    longitude: 4.877231604293446
-
 - conference: PyConWeb
   year: 2020
   link: https://pyconweb.com/
