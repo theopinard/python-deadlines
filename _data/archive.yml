@@ -2688,6 +2688,14 @@
   end: 2021-07-09
   sub: SCIPY
 
+- conference: PyGotham TV
+  year: 2021
+  link: https://2021.pygotham.tv/
+  cfp: '2021-05-21 23:59:00'
+  place: Online
+  start: 2021-10-01
+  end: 2021-10-02
+
 - conference: PyCon India
   year: 2021
   link: https://in.pycon.org/2021/
@@ -2908,6 +2916,14 @@
   start: 2020-10-30
   end: 2020-10-31
   sub: SCIPY
+
+- conference: PyGotham TV
+  year: 2020
+  link: https://2020.pygotham.tv/
+  cfp: '2020-07-05 23:59:00'
+  place: Online
+  start: 2020-10-02
+  end: 2020-10-03
 
 - conference: PyHEP
   year: 2020
@@ -4139,6 +4155,19 @@
     latitude: -33.8751704
     longitude: 151.19974848099355
 
+- conference: PyGotham TV
+  year: 2018
+  link: https://2018.pygotham.org/
+  cfp_link: https://www.papercall.io/pygotham-2018
+  cfp: '2018-05-21 23:59:00'
+  place: New York, USA
+  start: 2018-10-05
+  end: 2018-10-06
+  location:
+  - title: PyGotham TV 2018
+    latitude: 40.7127281
+    longitude: -74.0060152
+
 - conference: EuroPython
   year: 2018
   link: https://web.archive.org/web/20180728144400/https://ep2018.europython.eu/en/
@@ -4498,6 +4527,19 @@
   - title: PyCon France 2017
     latitude: 43.6044622
     longitude: 1.4442469
+
+- conference: PyGotham TV
+  year: 2017
+  link: https://web.archive.org/web/20171009205218/https://2017.pygotham.org
+  cfp_link: https://www.papercall.io/pygotham-2017
+  cfp: '2017-07-18 16:00:00'
+  place: New York, USA
+  start: 2017-10-06
+  end: 2017-10-08
+  location:
+  - title: PyGotham TV 2017
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - conference: Python Brasil
   alt_name: PythonBrasil[13]
@@ -5029,6 +5071,19 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: PyGotham TV
+  year: 2016
+  link: https://web.archive.org/web/20160910192756/https://2016.pygotham.org/
+  cfp_link: https://web.archive.org/web/20180922124549/https://2016.pygotham.org/talks/call-for-proposals/
+  cfp: '2016-05-16 00:00:00'
+  place: New York, USA
+  start: 2016-07-16
+  end: 2016-07-17
+  location:
+  - title: PyGotham TV 2016
+    latitude: 40.7127281
+    longitude: -74.0060152
+
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2016
@@ -5412,6 +5467,19 @@
   - title: Kiwi PyCon 2015
     latitude: -43.530955
     longitude: 172.6364343
+
+- conference: PyGotham TV
+  year: 2015
+  link: https://web.archive.org/web/20150817161836/http://pygotham.org/2015/
+  cfp_link: https://web.archive.org/web/20150817162010/https://pygotham.org/2015/talks/call-for-proposals/
+  cfp: '2015-06-21 00:00:00'
+  place: New York, USA
+  start: 2015-08-15
+  end: 2015-08-16
+  location:
+  - title: PyGotham TV 2015
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - conference: PyCon UK
   year: 2015
@@ -5884,6 +5952,19 @@
   - title: DjangoCon US 2014
     latitude: 41.8755616
     longitude: -87.6244212
+
+- conference: PyGotham TV
+  year: 2014
+  link: https://web.archive.org/web/20140814202802/http://pygotham.org/
+  cfp_link: https://web.archive.org/web/20150206035307/http://pygotham.org/talks/call-for-proposals/
+  cfp: '2014-06-27 00:00:00'
+  place: New York, USA
+  start: 2014-08-16
+  end: 2014-08-17
+  location:
+  - title: PyGotham TV 2014
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -6842,6 +6923,19 @@
     latitude: 47.3744489
     longitude: 8.5410422
 
+- conference: PyGotham TV
+  alt_name: PyGotham II
+  year: 2012
+  link: https://web.archive.org/web/20120620005159/https://pygotham.org//
+  cfp: '2012-03-31 23:59:00'
+  place: New York, USA
+  start: 2012-06-08
+  end: 2012-06-09
+  location:
+  - title: PyGotham TV 2012
+    latitude: 40.7127281
+    longitude: -74.0060152
+
 - conference: EuroPython
   year: 2012
   link: https://web.archive.org/web/20120724122915/https://ep2012.europython.eu/
@@ -6992,6 +7086,18 @@
   - title: PyCon India 2011
     latitude: 18.52930005
     longitude: 73.85682537025511
+
+- conference: PyGotham TV
+  year: 2011
+  link: https://web.archive.org/web/20111024041916/http://pygotham.org/
+  cfp: '2011-05-15 23:59:00'
+  place: New York, USA
+  start: 2011-09-16
+  end: 2011-09-17
+  location:
+  - title: PyGotham TV 2011
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - conference: Kiwi PyCon
   alt_name: PyCon NZ
