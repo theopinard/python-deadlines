@@ -4,16 +4,11 @@ VERSION:2.0
 PRODID:-//{{ site.url }}//{{ site.github_repo }}//EN
 X-PUBLISHED-TTL:PT1H
 {%- for conf in site.data.conferences -%}
-{% if conf.cfp_ext %}
-    {% assign cfp = conf.cfp_ext %}
-    {% assign extended = "(extended)" %}
-{% else %}
-    {% assign cfp = conf.cfp %}
-{% endif %}
+{% if conf.cfp_ext %}{% assign cfp = conf.cfp_ext %}{% assign extended = "(extended)" %}{% else %}{% assign cfp = conf.cfp %}{% endif %}
 {% if conf.workshop_deadline and conf.workshop_deadline != "TBA" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Workshop Deadline
-UID:{{ conf.id }}-workshop {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-workshop {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 ORGANIZER:pythondeadlin.es
 DESCRIPTION:<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
@@ -27,7 +22,7 @@ DTSTART;TZID={{ conf.timezone }}:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%
 {% if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Tutorial Deadline
-UID:{{ conf.id }}-tutorial {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-tutorial {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 ORGANIZER:pythondeadlin.es
 DESCRIPTION:<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
@@ -40,7 +35,7 @@ DTSTART;TZID={{ conf.timezone }}:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%
 {% endif %}END:VEVENT{% endif %}
 {% if cfp != "TBA" %}BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Deadline {{ extended }}
-UID:{{ conf.id }} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
+UID:{{conf.conference | slugify: "latin"}}-{{conf.year}} {% if conf.timezone contains "UTC" %} {% assign tz = conf.timezone | split: "UTC" %} {% if tz[1] contains "-" %} {% assign tz = tz[1] | replace: "-", "+" %} {% else if tz[1] contains "+" %} {% assign tz = tz[1] | replace: "+", "-" %} {% else assign tz = tz[1] %} {% endif %}
 ORGANIZER:pythondeadlin.es
 DESCRIPTION:<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
