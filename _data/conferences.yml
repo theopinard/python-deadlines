@@ -111,6 +111,22 @@
     latitude: 59.9606739
     longitude: 30.1586551
 
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2024
+  link: https://2024.pycon.jp/
+  cfp_link: https://pretalx.com/pyconjp2024/cfp
+  cfp: '2024-05-31 23:59:00'
+  place: Tokyo, Japan
+  start: 2024-09-27
+  end: 2024-09-29
+  twitter: pyconjapan
+  sub: PY
+  location:
+  - title: PyCon Japan 2024
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
 - conference: PyCon Spain
   alt_name: PyCon ES
   year: 2024
@@ -851,22 +867,6 @@
   - title: Python Brasil 2024
     latitude: -22.9110137
     longitude: -43.2093727
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2024
-  link: https://2024.pycon.jp/
-  cfp_link:  https://pretalx.com/pyconjp2024/cfp
-  cfp: '2024-05-31 23:59:00'
-  place: Tokyo, Japan
-  start: 2024-09-27
-  end: 2024-09-29
-  twitter: pyconjapan
-  sub: PY
-  location:
-  - title: PyCon Japan 2024
-    latitude: 35.718741949999995
-    longitude: 139.73118058112317
 
 - conference: PyCon Israel
   year: 2024
