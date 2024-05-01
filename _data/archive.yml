@@ -52,6 +52,45 @@
     latitude: 4.1591154
     longitude: 9.2805172
 
+- conference: Python Unconference
+  year: 2016
+  link: https://web.archive.org/web/20160923012718/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2016-09-09
+  end: 2016-09-12
+  sub: PY
+  location:
+  - title: Python Unconference 2016
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
+- conference: Python Unconference
+  year: 2015
+  link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2015-09-04
+  end: 2015-09-07
+  sub: PY
+  location:
+  - title: Python Unconference 2015
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
+- conference: Python Unconference
+  year: 2014
+  link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2014-11-29
+  end: 2014-12-01
+  sub: PY
+  location:
+  - title: Python Unconference 2014
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
 - conference: SciPy Latin America
   alt_name: SciPyCon Argentina
   year: 2014
