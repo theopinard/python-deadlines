@@ -1,5 +1,15 @@
 ---
 
+- conference: Xtreme Python
+  year: 2024
+  link: https://xtremepython.dev/2024/
+  cfp: '2024-08-30 23:59:00'
+  place: Online
+  start: 2024-11-19
+  end: 2024-11-19
+  sponsor: https://xtremepython.dev/2024/sponsors/
+  sub: PY
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2024
@@ -33,6 +43,41 @@
   - title: PyCon Poland 2024
     latitude: 50.294113
     longitude: 18.6657306
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon APAC
+  year: 2024
+  link: https://pycon.id/
+  cfp: '2024-08-01 23:59:00'
+  place: Yogyakarta, Indonesia
+  start: 2024-10-25
+  end: 2024-10-27
+  sub: PY
+  note: Held at PyCon Indonesia
+  location:
+  - title: PyCon Asia Pacific 2024
+    latitude: -7.9778383999999996
+    longitude: 110.36722565020244
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2024
+  link: https://pycon.fr/2024/
+  cfp_link: https://cfp.pycon.fr/pyconfr-2024/cfp
+  cfp: '2024-07-21 23:59:00'
+  timezone: Europe/Paris
+  place: Strasbourg, France
+  start: 2024-10-31
+  end: 2024-11-03
+  sponsor: https://pycon.fr/2024/fr/sponsors.html
+  finaid: https://www.pycon.fr/2024/fr/financial.html
+  twitter: PyConFR
+  mastodon: https://mamot.fr/@AFPy
+  sub: PY
+  location:
+  - title: PyCon France 2024
+    latitude: 48.584614
+    longitude: 7.7507127
 
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
@@ -110,6 +155,21 @@
   - title: Piter Py 2024
     latitude: 59.9606739
     longitude: 30.1586551
+
+- conference: PyCon Israel
+  year: 2024
+  link: https://pycon.org.il/2024/
+  cfp: '2024-06-01 23:59:00'
+  timezone: Asia/Jerusalem
+  place: Gelilot, Israel
+  start: 2024-09-16
+  end: 2024-09-16
+  twitter: PyConIL
+  sub: PY
+  location:
+  - title: PyCon Israel 2024
+    latitude: 32.13655705
+    longitude: 34.80366518770497
 
 - conference: PyCon Japan
   alt_name: PyCon JP
@@ -819,39 +879,6 @@
     latitude: -37.8142454
     longitude: 144.9631732
 
-- conference: PyCon France
-  alt_name: PyCon FR
-  year: 2024
-  link: https://pycon.fr/2024/
-  cfp: TBA
-  timezone: Europe/Paris
-  place: Strasbourg, France
-  start: 2024-10-31
-  end: 2024-11-03
-  sponsor: https://pycon.fr/2024/fr/sponsors.html
-  twitter: PyConFR
-  mastodon: https://mamot.fr/@AFPy
-  sub: PY
-  location:
-  - title: PyCon France 2024
-    latitude: 48.584614
-    longitude: 7.7507127
-
-- conference: PyCon Asia Pacific
-  alt_name: PyCon APAC
-  year: 2024
-  link: https://pycon.id/
-  cfp: TBA
-  place: Yogyakarta, Indonesia
-  start: 2024-10-25
-  end: 2024-10-27
-  sub: PY
-  note: Held at PyCon Indonesia
-  location:
-  - title: PyCon Asia Pacific 2024
-    latitude: -7.9778383999999996
-    longitude: 110.36722565020244
-
 - conference: Python Brasil
   alt_name: PythonBrasil
   year: 2024
@@ -867,20 +894,6 @@
   - title: Python Brasil 2024
     latitude: -22.9110137
     longitude: -43.2093727
-
-- conference: PyCon Israel
-  year: 2024
-  link: https://pycon.org.il/2024/
-  cfp: TBA
-  place: Gelilot, Israel
-  start: 2024-09-16
-  end: 2024-09-16
-  twitter: PyConIL
-  sub: PY
-  location:
-  - title: PyCon Israel 2024
-    latitude: 32.13655705
-    longitude: 34.80366518770497
 
 - conference: Python Niger
   alt_name: Launching Python Niger
