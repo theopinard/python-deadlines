@@ -564,20 +564,6 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: PyCamp España
-  year: 2024
-  link: https://pycamp.es/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfLVbA5F-d6xzdLz08eD8_pUcngUommwqfgAMsEz1MWv-rnQw/viewform
-  cfp: '2024-03-27 23:59:00'
-  place: Lleida, Spain
-  start: 2024-03-29
-  end: 2024-04-01
-  sub: PY
-  location:
-  - title: PyCamp España 2024
-    latitude: 41.6147605
-    longitude: 0.6267842
-
 - conference: Python fwdays
   year: 2024
   link: https://fwdays.com/en/event/python-ds-fwdays-2024
