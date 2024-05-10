@@ -747,45 +747,6 @@
     latitude: 41.3828939
     longitude: 2.1774322
 
-- conference: PyConWeb
-  year: 2020
-  link: https://pyconweb.com/
-  cfp: TBA
-  place: Munich, Germany
-  start: 2020-05-09
-  end: 2020-05-11
-  sub: PY
-  location:
-  - title: PyConWeb 2020
-    latitude: 48.1371079
-    longitude: 11.5753822
-
-- conference: PyConWeb
-  year: 2019
-  link: https://pyconweb.com/
-  cfp: TBA
-  place: Microsoft Deutschland GmbH, Germany
-  start: 2019-05-25
-  end: 2019-05-27
-  sub: PY
-  location:
-  - title: PyConWeb 2019
-    latitude: 48.178076450000006
-    longitude: 11.593880853284434
-
-- conference: PyConWeb
-  year: 2017
-  link: https://web.archive.org/web/20170621095045/https://pyconweb.com/
-  cfp: TBA
-  place: Munich, Germany
-  start: 2017-05-27
-  end: 2017-05-29
-  sub: PY
-  location:
-  - title: PyConWeb 2017
-    latitude: 48.1371079
-    longitude: 11.5753822
-
 - conference: PyConf Hyderabad
   year: 2017
   link: https://web.archive.org/web/20171008124816/http://pyconf.hydpy.org/

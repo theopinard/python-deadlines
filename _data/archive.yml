@@ -420,6 +420,22 @@
     longitude: 6.5680077
 
 - conference: PyCon Web
+  year: 2020
+  link: https://web.archive.org/web/20200318031117/https://pyconweb.com/
+  cfp_link: https://www.papercall.io/pyconweb20
+  cfp: Cancelled
+  cfp_ext: '2020-03-07 22:59:00'
+  timezone: UTC
+  place: Munich, Germany
+  start: 2020-05-09
+  end: 2020-05-10
+  sub: WEB
+  location:
+  - title: PyConWeb 2020
+    latitude: 48.1371079
+    longitude: 11.5753822
+
+- conference: PyCon Web
   year: 2018
   link: https://web.archive.org/web/20180817005719/https://pyconweb.com/
   cfp: Cancelled
@@ -3689,6 +3705,19 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: PyCon Web
+  year: 2019
+  link: https://pyconweb.com/
+  cfp: '2019-03-15 00:00:00'
+  place: Munich, Germany
+  start: 2019-05-25
+  end: 2019-05-26
+  sub: WEB
+  location:
+  - title: PyCon Web 2019
+    latitude: 48.1371079
+    longitude: 11.5753822
+
 - conference: PyData Amsterdam
   year: 2019
   link: https://web.archive.org/web/20210724114427/http://pydata.org/amsterdam2019/
@@ -4846,6 +4875,19 @@
   - title: SciPy US 2017
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: PyCon Web
+  year: 2017
+  link: https://web.archive.org/web/20170621095045/https://pyconweb.com/
+  cfp: '2017-03-15 00:00:00'
+  place: Munich, Germany
+  start: 2017-05-27
+  end: 2017-05-28
+  sub: WEB
+  location:
+  - title: PyConWeb 2017
+    latitude: 48.1371079
+    longitude: 11.5753822
 
 - conference: PyData Amsterdam
   year: 2017
