@@ -4900,6 +4900,23 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: PyCon Ukraine
+  alt_name: PyCon UA
+  year: 2017
+  link: https://web.archive.org/web/20170607211814/https://ua.pycon.org/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe9bXTjHlxV6pMcJZikeJPM7E5c2hVJvSORMKJJx1raoxchow/closedform
+  cfp: '2017-03-10 00:00:00'
+  timezone: Europe/Kiev
+  place: Lviv City, Ukraine
+  start: 2017-04-08
+  end: 2017-04-09
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSeCcOQ9XBtd9-Y1_lt-KeQyDeR9OxryB4Ak0UJpwQLAF_n3KQ/viewform
+  sub: PY
+  location:
+  - title: PyCon Ukraine 2017
+    latitude: 49.84823555
+    longitude: 24.010960304611388
+
 - conference: PyData Amsterdam
   year: 2017
   link: https://web.archive.org/web/20170120092836/http://pydata.org/amsterdam2017/
@@ -5355,6 +5372,21 @@
   - title: SciPy US 2016
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: PyCon Ukraine
+  alt_name: PyCon UA
+  year: 2016
+  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
+  cfp_link: http://goo.gl/forms/MDMtGniWVB
+  cfp: '2016-03-31 23:59:00'
+  place: Lviv, Ukraine
+  start: 2016-04-23
+  end: 2016-04-24
+  sub: PY
+  location:
+  - title: PyCon Ukraine 2016
+    latitude: 49.841952
+    longitude: 24.0315921
 
 - conference: PyGrunn
   year: 2016

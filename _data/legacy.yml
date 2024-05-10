@@ -760,34 +760,6 @@
     latitude: 17.4454957
     longitude: 78.34854697544472
 
-- conference: PyCon Ukraine
-  alt_name: PyCon UA
-  year: 2017
-  link: https://web.archive.org/web/20170607211814/https://ua.pycon.org/
-  cfp: TBA
-  place: Lviv City, Ukraine
-  start: 2017-04-08
-  end: 2017-04-10
-  sub: PY
-  location:
-  - title: PyCon Ukraine 2017
-    latitude: 49.84823555
-    longitude: 24.010960304611388
-
-- conference: PyCon Ukraine
-  alt_name: PyCon UA
-  year: 2016
-  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
-  cfp: TBA
-  place: Lviv, Ukraine
-  start: 2016-04-23
-  end: 2016-04-25
-  sub: PY
-  location:
-  - title: PyCon Ukraine 2016
-    latitude: 49.841952
-    longitude: 24.0315921
-
 - conference: PyCon Thailand
   year: 2019
   link: https://web.archive.org/web/20190602072052/http://th.pycon.org/en/
