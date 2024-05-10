@@ -788,15 +788,6 @@
     latitude: 49.841952
     longitude: 24.0315921
 
-- conference: PyCon Turkey
-  year: 2020
-  link: https://tr.pycon.org/
-  cfp: TBA
-  place: Online
-  start: 2020-09-26
-  end: 2020-09-27
-  sub: PY
-
 - conference: PyCon Thailand
   year: 2019
   link: https://web.archive.org/web/20190602072052/http://th.pycon.org/en/
