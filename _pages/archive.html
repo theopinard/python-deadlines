@@ -60,16 +60,14 @@ title: titles.archive
 			<div id="confs">
 				<div id="past_confs">
 					<h1 id="past-events-title">{% t titles.past_events %}</h1>
-					{% assign confs = site.data.archive | sort: "start" | reverse %} 
-          {% for conf in confs %} 
-          {% assign subs = conf.sub | split: "," %}
+					{% assign confs = site.data.archive | sort: "start" | reverse %} {% for conf in confs %} {% assign
+					subs = conf.sub | split: "," %}
 					<div
 						id="{{conf.conference | slugify: 'latin'}}-{{conf.year}}"
 						class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}"
 					>
-						{% include index_conf_title_row.html %}
-						{% include index_conf_date_place.html %}
-						{% include index_conf_subs.html %}
+						{% include index_conf_title_row.html %} {% include index_conf_date_place.html %} {% include
+						index_conf_subs.html %}
 						<hr />
 					</div>
 					{% endfor %}
@@ -82,7 +80,7 @@ title: titles.archive
 			$(function() {
 			  luxon.Settings.defaultLocale = "{{ site.lang }}";
 			  var DateTime = luxon.DateTime;
-			  var today = DateTime.now();
+			  var today = datetime.now(tz=timezone.utc);
 
 			  // Make sure this is >= no. of subs
 			  // Currently not used

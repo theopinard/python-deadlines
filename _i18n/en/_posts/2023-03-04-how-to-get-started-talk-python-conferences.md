@@ -5,7 +5,7 @@ layout: post
 tags: ["Python", "presentation"]
 ---
 
-Python conferences offer an excellent platform for developers to showcase their skills, share knowledge, and network with fellow professionals. 
+Python conferences offer an excellent platform for developers to showcase their skills, share knowledge, and network with fellow professionals.
 
 Speaking at a Python conference can be a fantastic opportunity to gain recognition, build credibility, and make a valuable contribution to the Python community. However, presenting at a conference can also be daunting, especially if you are new to public speaking or have never presented before. In this resource, we will share some tips on how to speak at Python conferences and make your presentation a success.
 

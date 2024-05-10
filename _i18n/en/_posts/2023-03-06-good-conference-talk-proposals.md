@@ -13,24 +13,24 @@ The first component of a good conference proposal is a clear and compelling desc
 ## The audience that will benefit from attending this talk/tutorial
 Identifying your [target audience](/resources/find-target-audience/) is crucial in creating a successful conference proposal.
 
-Be specific about who will benefit from your talk or tutorial and what they will learn. 
+Be specific about who will benefit from your talk or tutorial and what they will learn.
 
 Understanding your audience will help you tailor your content and ensure that you're providing valuable insights and takeaways.
 
-## The takeaway for the audience 
-What can attendees expect to gain from your talk or tutorial? Be clear about the key takeaways you hope to provide. 
+## The takeaway for the audience
+What can attendees expect to gain from your talk or tutorial? Be clear about the key takeaways you hope to provide.
 
-This will help attendees evaluate whether your presentation aligns with their interests and needs. 
+This will help attendees evaluate whether your presentation aligns with their interests and needs.
 
 It will also help you structure your talk and stay on track to deliver the promised value.
 
-## Any background knowledge needed to understand the talk/tutorial 
-When crafting your proposal, it's important to consider what background knowledge your audience will need to understand and engage with your content. 
+## Any background knowledge needed to understand the talk/tutorial
+When crafting your proposal, it's important to consider what background knowledge your audience will need to understand and engage with your content.
 
 Be clear about any prerequisites, and provide links or resources that attendees can use to brush up on their knowledge before attending.
 
 ## Approximate time breakdowns of how the material will be covered
-A detailed breakdown of how you plan to cover your material is vital to help attendees understand what they can expect from your talk or tutorial. 
+A detailed breakdown of how you plan to cover your material is vital to help attendees understand what they can expect from your talk or tutorial.
 
 By outlining a clear structure and timeline for your presentation, you will help attendees stay engaged and focused on your content. It will also help you stay on track and cover all the key points you want to make.
 

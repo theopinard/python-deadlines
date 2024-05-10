@@ -10,4 +10,3 @@ for (var i = 0; i < conf_type_data.length; i++) {
     name2sub[conf_type_data[i]['name']] = conf_type_data[i]['sub'];
 }
 const all_subs = _all_subs;
-

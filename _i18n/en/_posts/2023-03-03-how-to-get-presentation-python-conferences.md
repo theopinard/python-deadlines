@@ -25,20 +25,20 @@ Here are a few [tips for submitting a successful proposal](/resources/good-confe
 - Include any supporting materials, such as code samples or slides, to give organizers a better sense of your presentation style and content.
 
 ## Build Your Speaking Skills
-If you're new to public speaking, it's a good idea to start small by speaking at local meetups or events. 
+If you're new to public speaking, it's a good idea to start small by speaking at local meetups or events.
 
 This will help you build your confidence and refine your presentation skills. As you gain more experience, you can branch out and speak at larger events, such as regional or national conferences.
 
 Ask for feedback from attendees and organizers after each talk, and use that feedback to improve your speaking skills.
 
 ## Network with Other Speakers and Attendees
-Finally, networking is vital to getting to speak at Python conferences. 
+Finally, networking is vital to getting to speak at Python conferences.
 
 Attend as many conferences and meetups as possible, and try to connect with other speakers and attendees.
 
 By building relationships with other members of the Python community, you'll increase your visibility and credibility, which can lead to more speaking opportunities in the future.
 
 ## Conclusion
-In conclusion, getting to speak at Python conferences requires a combination of expertise, preparation, and networking. 
+In conclusion, getting to speak at Python conferences requires a combination of expertise, preparation, and networking.
 
 By following these tips, you can increase your chances of being invited to speak or successfully submitting a proposal to a CfP and ultimately sharing your knowledge with the broader Python community.
