@@ -2279,11 +2279,11 @@
     longitude: -0.1277653
 
 - conference: PyCon Asia Pacific
-  alt_name: PyCon APAC
+  alt_name: PyCon Taiwan
   year: 2022
   link: https://tw.pycon.org/2022/en-us/
   cfp: '2022-04-15 23:59:59'
-  place: Online, Taiwan
+  place: Online
   start: 2022-09-03
   end: 2022-09-04
   sub: PY
@@ -2788,6 +2788,16 @@
     latitude: 39.9622601
     longitude: -83.0007065
 
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2021
+  link: https://web.archive.org/web/20211003092837/https://tw.pycon.org/2021/en-us
+  cfp: '2021-04-26 23:59:59'
+  place: Online
+  start: 2021-10-02
+  end: 2021-10-03
+  sub: PY
+
 - conference: DjangoCon Europe
   year: 2021
   link: https://2021.djangocon.eu/
@@ -3049,6 +3059,20 @@
   start: 2020-07-23
   end: 2020-07-26
   sub: PY
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2020
+  link: http://pycon.tw/
+  cfp: '2020-04-26 23:59:00'
+  place: Taipei, Taiwan
+  start: 2020-09-05
+  end: 2020-09-06
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2020
+    latitude: 25.0560586
+    longitude: 121.4437641
 
 - conference: Python Web Conference
   year: 2020
@@ -3715,6 +3739,22 @@
   - title: PyData London 2019
     latitude: 51.5074456
     longitude: -0.1277653
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2019
+  link: https://tw.pycon.org/2019/en-us/
+  cfp_link: https://tw.pycon.org/2019/en-us/events/talks/
+  cfp: '2019-04-14 23:59:00'
+  place: Taipei, Taiwan
+  start: 2019-09-20
+  end: 2019-09-22
+  sponsor: https://tw.pycon.org/2019/en-us/sponsor/sponsor/
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2019
+    latitude: 25.0375198
+    longitude: 121.5636796
 
 - conference: PyCon Web
   year: 2019
@@ -4389,6 +4429,20 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2018
+  link: https://web.archive.org/web/20181111081053/https://tw.pycon.org/2018/en-us/
+  cfp: '2018-03-11 23:59:00'
+  place: Taipei, Taiwan
+  start: 2018-06-01
+  end: 2018-06-02
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2018
+    latitude: 25.0375198
+    longitude: 121.5636796
+
 - conference: PyData Amsterdam
   year: 2018
   link: https://web.archive.org/web/20210805170103/https://pydata.org/amsterdam2018/
@@ -4900,6 +4954,20 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2017
+  link: https://web.archive.org/web/20170222053338/https://tw.pycon.org/2017/en-us/
+  cfp: '2017-03-12 23:59:00'
+  place: Taipei, Taiwan
+  start: 2017-06-09
+  end: 2017-06-12
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2017
+    latitude: 25.0375198
+    longitude: 121.5636796
+
 - conference: PyCon Ukraine
   alt_name: PyCon UA
   year: 2017
@@ -5400,6 +5468,20 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2016
+  link: https://web.archive.org/web/20160612014248/https://tw.pycon.org/2016/en-us/
+  cfp: '2016-03-08 23:59:00'
+  place: Taipei, Taiwan
+  start: 2016-06-03
+  end: 2016-06-05
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2016
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
 - conference: PyData Berlin
   year: 2016
   link: https://web.archive.org/web/20160521214556/http://pydata.org/berlin2016/
@@ -5878,6 +5960,20 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Taiwan
+  year: 2015
+  link: https://web.archive.org/web/20150623171348/http://tw.pycon.org/2015apac/en/
+  cfp: '2015-03-31 23:59:00'
+  place: Taipei, Taiwan
+  start: 2015-06-05
+  end: 2015-06-08
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2015
+    latitude: 25.0407021
+    longitude: 121.61144927190821
+
 - conference: Python Nordeste
   year: 2015
   link: https://web.archive.org/web/20150428210556/http://2015.pythonnordeste.org/
@@ -6352,6 +6448,20 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Taiwan
+  year: 2014
+  link: https://web.archive.org/web/20140803024911/https://tw.pycon.org/2014apac/en/
+  cfp: '2014-03-10 23:59:00'
+  place: Taipei, Taiwan
+  start: 2014-05-17
+  end: 2014-05-18
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2014
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2014
@@ -6715,6 +6825,20 @@
   - title: SciPy US 2013
     latitude: 30.2711286
     longitude: -97.7436995
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2013
+  link: https://web.archive.org/web/20130118053814/http://tw.pycon.org/en/2013/
+  cfp: '2013-03-10 23:59:00'
+  place: Taipei, Taiwan
+  start: 2013-05-25
+  end: 2013-05-26
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2013
+    latitude: 25.0420743
+    longitude: 121.61404600926753
 
 - conference: EuroPython
   year: 2013
@@ -7169,6 +7293,20 @@
   - title: DjangoCon Europe 2012
     latitude: 47.3744489
     longitude: 8.5410422
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2012
+  link: https://web.archive.org/web/20120118053814/http://tw.pycon.org/en/
+  cfp: '2012-04-02 23:59:00'
+  place: Taipei, Taiwan
+  start: 2012-06-09
+  end: 2012-06-10
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2012
+    latitude: 25.0420743
+    longitude: 121.61404600926753
 
 - conference: PyGotham TV
   alt_name: PyGotham II
