@@ -52,6 +52,7 @@ subs:
   WEB: 'Python für Web'
   BIZ: 'Python für Unternehmer'
   GEO: 'Python für Geodaten'
+  CAMP: 'Python Camps'
 series:
   always: 'Jede Konferenz in'
   place:
