@@ -912,6 +912,21 @@
     latitude: -22.9110137
     longitude: -43.2093727
 
+- conference: PyCon Africa
+  year: 2024
+  link: https://africa.pycon.org/
+  cfp: TBA
+  place: Accra, Ghana
+  start: 2024-09-24
+  end: 2024-09-28
+  twitter: pyconafrica
+  mastodon: https://mastodon.social/@pyconafrica
+  sub: PY
+  location:
+  - title: PyCon Africa 2024
+    latitude: 5.5571096
+    longitude: -0.2012376
+
 - conference: Python Niger
   alt_name: Launching Python Niger
   year: 2024

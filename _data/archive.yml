@@ -3006,6 +3006,15 @@
   end: 2020-07-05
   sub: WEB
 
+- conference: PyCon Africa
+  year: 2020
+  link: https://africa.pycon.org/
+  cfp: '2020-06-01 23:59:00'
+  place: Online
+  start: 2020-08-04
+  end: 2020-08-08
+  sub: PY
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2020
