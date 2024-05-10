@@ -218,4 +218,4 @@ def sort_data(base="", prefix="", skip_links=False):
 
 
 if __name__ == "__main__":
-    sort_data()
+    sort_data(skip_links=True)
