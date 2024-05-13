@@ -760,32 +760,6 @@
     latitude: 17.4454957
     longitude: 78.34854697544472
 
-- conference: PyCon Thailand
-  year: 2019
-  link: https://web.archive.org/web/20190602072052/http://th.pycon.org/en/
-  cfp: TBA
-  place: Bangkok, Thailand
-  start: 2019-06-15
-  end: 2019-06-17
-  sub: PY
-  location:
-  - title: PyCon Thailand 2019
-    latitude: 13.7524938
-    longitude: 100.4935089
-
-- conference: PyCon Thailand
-  year: 2018
-  link: https://web.archive.org/web/20180805015539/https://th.pycon.org/en/
-  cfp: TBA
-  place: Thon Buri, Thailand
-  start: 2018-06-16
-  end: 2018-06-18
-  sub: PY
-  location:
-  - title: PyCon Thailand 2018
-    latitude: 13.7263574
-    longitude: 100.4891324
-
 - conference: PyCon Tanzania
   year: 2020
   link: https://pycon.or.tz/

@@ -3565,6 +3565,19 @@
     latitude: 20.6407176
     longitude: -105.220306
 
+- conference: PyCon Thailand
+  year: 2019
+  link: https://web.archive.org/web/20190602072052/http://th.pycon.org/en/
+  cfp: '2019-05-31 23:59:00'
+  place: Bangkok, Thailand
+  start: 2019-06-16
+  end: 2019-06-17
+  sub: PY
+  location:
+  - title: PyCon Thailand 2019
+    latitude: 13.7524938
+    longitude: 100.4935089
+
 - conference: DjangoCon US
   year: 2019
   link: https://2019.djangocon.us/
@@ -4454,6 +4467,19 @@
   - title: Python Nordeste 2018
     latitude: -7.23056
     longitude: -35.88111
+
+- conference: PyCon Thailand
+  year: 2018
+  link: https://web.archive.org/web/20180805015539/https://th.pycon.org/en/
+  cfp: '2018-04-17 23:59:00'
+  place: Thon Buri, Thailand
+  start: 2018-06-16
+  end: 2018-06-18
+  sub: PY
+  location:
+  - title: PyCon Thailand 2018
+    latitude: 13.7263574
+    longitude: 100.4891324
 
 - conference: PyData Berlin
   year: 2018
