@@ -509,6 +509,23 @@
     latitude: 31.5656822
     longitude: 74.3141829
 
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
+  year: 2024
+  link: https://pycon.lt/2024
+  cfp_link: https://pycon.lt/2024/call-for-proposals
+  cfp: '2024-01-10 23:59:00'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  start: 2024-04-02
+  end: 2024-04-06
+  sponsor: https://pycon.lt/2024/partnership
+  sub: PY
+  location:
+  - title: PyCon Lithuania 2024
+    latitude: 54.6870458
+    longitude: 25.2829111
+
 - conference: PyCon Philippines
   alt_name: PyCon PH
   year: 2024
