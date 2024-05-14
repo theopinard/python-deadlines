@@ -2,7 +2,7 @@
 
 - conference: PyCon Somalia
   year: 2023
-  link: https://pycon.org.so/
+  link: https://web.archive.org/web/20231227000601/https://pycon.org.so/
   cfp: None
   place: Mogadishu, Somalia
   start: 2023-12-26
@@ -643,7 +643,7 @@
 
 - conference: Flask Con
   year: 2023
-  link: https://flaskcon.com/2023/
+  link: https://flaskcon.com/2024/
   cfp: '2023-10-31 23:59:00'
   place: Online
   start: 2023-12-16
@@ -1329,7 +1329,7 @@
 
 - conference: PyCon Uganda
   year: 2023
-  link: https://ug.pycon.org/2023/
+  link: https://ug.pycon.org/2023
   cfp_link: https://web.archive.org/web/20230929225843/https://ug.pycon.org/speakers
   cfp: '2023-05-05 23:59:00'
   timezone: Africa/Kampala
@@ -2538,7 +2538,7 @@
 
 - conference: PyCon Tanzania
   year: 2021
-  link: https://pycon.or.tz/2021/
+  link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2021/
   cfp: '2021-11-15 23:59:00'
   place: Dare E Salaam, Tanzania
   start: 2021-12-01
@@ -3935,13 +3935,13 @@
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2019
-  link: https://pycon.it/en
-  cfp_link: https://pycon.it/en/call-for-proposals
+  link: https://web.archive.org/web/20190415234356/https://www.pycon.it/en/
+  cfp_link: https://web.archive.org/web/20190603095459/https://www.pycon.it/en/call-for-proposals/
   cfp: '2019-01-06 23:59:00'
   place: Florence, Italy
   start: 2019-05-02
   end: 2019-05-05
-  sponsor: https://pycon.it/en/sponsor
+  sponsor: https://web.archive.org/web/20220126093606/https://pycon.it/en/sponsor
   sub: PY
   location:
   - title: PyCon Italia 2019
@@ -3950,14 +3950,14 @@
 
 - conference: PyCon US
   year: 2019
-  link: https://us.pycon.org/2019/
-  cfp_link: https://us.pycon.org/2019/speaking
+  link: https://web.archive.org/web/20190503063302/https://us.pycon.org/2019/
+  cfp_link: https://web.archive.org/web/20190331042834/https://us.pycon.org/2019/speaking/
   cfp: '2019-01-03 23:59:00'
   tutorial_deadline: '2018-11-26 23:59:00'
   place: Cleveland, USA
   start: 2019-05-01
   end: 2019-05-10
-  sponsor: https://us.pycon.org/2019/sponsors/prospectus
+  sponsor: https://web.archive.org/web/20190330221944/https://us.pycon.org/2019/sponsors/prospectus/
   sub: PY
   location:
   - title: PyCon US 2019
@@ -4122,7 +4122,7 @@
 - conference: PyCon Zimbabwe
   year: 2018
   link: https://web.archive.org/web/20180825103507/http://zw.pycon.org/
-  cfp_link: https://www.papercall.io/pyconzim2018
+  cfp_link: https://web.archive.org/web/20201029122759/https://www.papercall.io/pyconzim2018
   cfp: '2018-09-19 16:09:00'
   timezone: Africa/Harare
   place: Harare, Zimbabwe
@@ -4430,8 +4430,8 @@
 
 - conference: PyGotham TV
   year: 2018
-  link: https://2018.pygotham.org/
-  cfp_link: https://www.papercall.io/pygotham-2018
+  link: https://web.archive.org/web/20181002121351/https://2018.pygotham.org/
+  cfp_link: https://web.archive.org/web/20181003091856/https://www.papercall.io/pygotham-2018
   cfp: '2018-05-21 23:59:00'
   place: New York, USA
   start: 2018-10-05
@@ -4871,7 +4871,7 @@
 - conference: PyGotham TV
   year: 2017
   link: https://web.archive.org/web/20171009205218/https://2017.pygotham.org
-  cfp_link: https://www.papercall.io/pygotham-2017
+  cfp_link: https://web.archive.org/web/20170718060725/https://www.papercall.io/pygotham-2017
   cfp: '2017-07-18 16:00:00'
   place: New York, USA
   start: 2017-10-06
@@ -5141,7 +5141,7 @@
   alt_name: PyCon SK
   year: 2017
   link: https://web.archive.org/web/20170306082548/http://www.pycon.sk/2017/
-  cfp_link: https://2017.pycon.sk/cfp/
+  cfp_link: https://web.archive.org/web/20220124234710/https://2017.pycon.sk/cfp/
   cfp: '2017-02-14 23:59:00'
   place: Bratislava, Slovakia
   start: 2017-03-10
@@ -5706,7 +5706,7 @@
   alt_name: PyCon SK
   year: 2016
   link: https://web.archive.org/web/20160307164154/http://pycon.sk/en/
-  cfp_link: https://2016.pycon.sk/en/speaking.html
+  cfp_link: https://web.archive.org/web/20170315013539/https://2016.pycon.sk/en/speaking.html
   cfp: '2016-01-24 23:59:00'
   place: Bratislava, Slovakia
   start: 2016-03-11
@@ -6873,7 +6873,7 @@
   alt_name: PyCon Japan
   year: 2013
   link: https://2013-apac.pycon.jp/
-  cfp_link: https://pretalx.com/pyconapac2023/cfp
+  cfp_link: https://web.archive.org/web/20230423225145/https://pretalx.com/pyconapac2023/cfp
   cfp: '2013-06-30 23:59:59'
   place: Tokyo, Japan
   start: 2013-09-13
@@ -7737,7 +7737,7 @@
 - conference: PyCon Asia Pacific
   alt_name: PyCon Singapore
   year: 2011
-  link: https://apac.pycon.org/
+  link: https://web.archive.org/web/20110704080351/http://apac.pycon.org/
   cfp: '2011-04-01 23:59:59'
   place: Singapore, Singapore
   start: 2011-06-09
