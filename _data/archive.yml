@@ -132,6 +132,20 @@
     latitude: 40.7127281
     longitude: -74.0060152
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2012
+  link: https://web.archive.org/web/20120625004953/http://ph.pycon.org/
+  cfp: None
+  place: Manila, Philippines
+  start: 2012-06-30
+  end: 2012-07-01
+  sub: PY
+  location:
+  - title: PyCon Philippines 2012
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
 - conference: PyGrunn
   year: 2012
   link: https://web.archive.org/web/20120608055024/http://www.pygrunn.org/
@@ -4008,6 +4022,21 @@
     latitude: 14.63989835
     longitude: 121.07819518938447
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2019
+  link: https://web.archive.org/web/20190219060618/https://pycon.python.ph/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebxOMYx9ohAJFVMjBzKhcrzUfKSJxdnRrQbePcYLYNWg1EPg/closedform
+  cfp: '2018-12-23 23:59:00'
+  place: Manila, Philippines
+  start: 2019-02-23
+  end: 2019-02-24
+  sub: PY
+  location:
+  - title: PyCon Philippines 2019
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
 - conference: SciPy India
   year: 2018
   link: https://web.archive.org/web/20190424124043/https://scipy.in/2018
@@ -4661,6 +4690,20 @@
     latitude: 41.4996574
     longitude: -81.6936772
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2018
+  link: https://web.archive.org/web/20180219060618/https://pycon.python.ph/
+  cfp: '2017-12-26 23:59:00'
+  place: Manila, Philippines
+  start: 2018-02-24
+  end: 2018-02-26
+  sub: PY
+  location:
+  - title: PyCon Philippines 2018
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
 - conference: PyCon Cameroon
   year: 2018
   link: https://web.archive.org/web/20180201160312/http://pythoncm.org/pycon.html
@@ -5243,6 +5286,20 @@
     latitude: 50.8465573
     longitude: 4.351697
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2017
+  link: https://web.archive.org/web/20171019052320/https://pycon.python.ph/
+  cfp: '2016-11-30 23:59:00'
+  place: Cagayan de Oro City, Philippines
+  start: 2017-02-25
+  end: 2017-02-26
+  sub: PY
+  location:
+  - title: PyCon Philippines 2017
+    latitude: 8.4756417
+    longitude: 124.6421532
+
 - conference: SciPy India
   year: 2016
   link: https://web.archive.org/web/20170629091110/http://scipy.in/2016
@@ -5771,6 +5828,20 @@
     latitude: 50.8465573
     longitude: 4.351697
 
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2016
+  link: https://web.archive.org/web/20160625004953/http://ph.pycon.org/
+  cfp: '2015-11-30 23:59:00'
+  place: Manila, Philippines
+  start: 2016-02-27
+  end: 2016-02-28
+  sub: PY
+  location:
+  - title: PyCon Philippines 2016
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
 - conference: Swiss Python Summit
   year: 2016
   link: https://web.archive.org/web/20160316131658/http://www.python-summit.ch/
@@ -6001,6 +6072,21 @@
   - title: PyCon India 2015
     latitude: 12.9767936
     longitude: 77.590082
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2015
+  link: https://web.archive.org/web/20150625004953/http://ph.pycon.org/
+  cfp: '2015-05-27 23:59:00'
+  cfp_ext: '2015-05-29 23:59:00'
+  place: Manila, Philippines
+  start: 2015-07-04
+  end: 2015-07-05
+  sub: PY
+  location:
+  - title: PyCon Philippines 2015
+    latitude: 14.63989835
+    longitude: 121.07819518938447
 
 - conference: PyData London
   year: 2015
@@ -6667,6 +6753,21 @@
   - title: PyData London 2014
     latitude: 51.5074456
     longitude: -0.1277653
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2014
+  link: https://web.archive.org/web/20140625004953/http://ph.pycon.org/
+  cfp_link: https://docs.google.com/forms/d/1zGVk_GR1RpdI9eiOndsNnbsPYPSf1E3titgRVxF9BbA/closedform
+  cfp: '2014-01-10 23:59:00'
+  place: Manila, Philippines
+  start: 2014-02-22
+  end: 2014-02-23
+  sub: PY
+  location:
+  - title: PyCon Philippines 2014
+    latitude: 14.63989835
+    longitude: 121.07819518938447
 
 - conference: FOSDEM
   alt_name: Python @ FOSDEM

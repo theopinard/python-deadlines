@@ -960,48 +960,6 @@
     latitude: 56.839104
     longitude: 60.60825
 
-- conference: PyCon Philippines
-  alt_name: PyCon PH
-  year: 2018
-  link: https://web.archive.org/web/20180219060618/https://pycon.python.ph/
-  cfp: TBA
-  place: Manila, Philippines
-  start: 2018-02-24
-  end: 2018-02-26
-  sub: PY
-  location:
-  - title: PyCon Philippines 2018
-    latitude: 14.63989835
-    longitude: 121.07819518938447
-
-- conference: PyCon Philippines
-  alt_name: PyCon PH
-  year: 2017
-  link: https://web.archive.org/web/20171019052320/https://pycon.python.ph/
-  cfp: TBA
-  place: Cagayan de Oro City, Philippines
-  start: 2017-02-25
-  end: 2017-02-27
-  sub: PY
-  location:
-  - title: PyCon Philippines 2017
-    latitude: 8.4756417
-    longitude: 124.6421532
-
-- conference: PyCon Philippines
-  alt_name: PyCon PH
-  year: 2015
-  link: https://web.archive.org/web/20150625004953/http://ph.pycon.org/
-  cfp: TBA
-  place: Manila, Philippines
-  start: 2015-07-04
-  end: 2015-07-06
-  sub: PY
-  location:
-  - title: PyCon Philippines 2015
-    latitude: 14.63989835
-    longitude: 121.07819518938447
-
 - conference: PyCon Pakistan
   year: 2019
   link: https://pycon.pk/
