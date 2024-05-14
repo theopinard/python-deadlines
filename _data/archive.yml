@@ -2948,6 +2948,20 @@
   end: 2020-11-15
   sub: PY
 
+- conference: PyCon Tanzania
+  year: 2020
+  link: https://web.archive.org/web/20201101054537/https://pycon.or.tz/
+  cfp_link: https://web.archive.org/web/20201101062346/http://www.pycon.or.tz/speak/index.html
+  cfp: '2020-10-24 23:59:00'
+  place: Dar es Salaam, Tanzania
+  start: 2020-12-14
+  end: 2020-12-16
+  sub: PY
+  location:
+  - title: PyCon Tanzania 2020
+    latitude: -6.8160837
+    longitude: 39.2803583
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2020
@@ -3211,6 +3225,20 @@
   - title: FOSDEM 2020
     latitude: 50.8465573
     longitude: 4.351697
+
+- conference: PyCon Tanzania
+  year: 2019
+  link: https://web.archive.org/web/20211206213536/https://pycon.or.tz/2019/
+  cfp_link: https://web.archive.org/web/20211206194319/https://pycon.or.tz/2019/speak/
+  cfp: '2019-11-06 23:59:00'
+  place: Dar Es Salaam, Tanzania
+  start: 2019-12-10
+  end: 2019-12-11
+  sub: PY
+  location:
+  - title: PyCon Tanzania 2019
+    latitude: -6.8160837
+    longitude: 39.2803583
 
 - conference: PyCon Indonesia
   alt_name: PyCon ID
