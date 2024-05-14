@@ -448,6 +448,19 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: PyCon Pune
+  year: 2018
+  link: https://web.archive.org/web/20180121010626/http://pune.pycon.org/2018/
+  cfp: Cancelled
+  place: Pune, India
+  start: 2018-02-08
+  end: 2018-02-11
+  sub: PY
+  location:
+  - title: PyCon Pune 2018
+    latitude: 18.52930005
+    longitude: 73.85682537025511
+
 - conference: PyCon UK
   year: 2011
   link: https://web.archive.org/web/20110727192434/http://www.pyconuk.org/
@@ -4661,6 +4674,19 @@
   - title: PyCon Cameroon 2018
     latitude: 4.010289
     longitude: 9.207058
+
+- conference: PyCon Pune
+  year: 2017
+  link: https://web.archive.org/web/20170207210807/http://pune.pycon.org/
+  cfp: '2017-11-30 23:59:00'
+  place: Pune, India
+  start: 2017-02-16
+  end: 2017-02-19
+  sub: PY
+  location:
+  - title: PyCon Pune 2017
+    latitude: 18.52930005
+    longitude: 73.85682537025511
 
 - conference: SciPy India
   year: 2017

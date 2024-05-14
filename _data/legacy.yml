@@ -960,32 +960,6 @@
     latitude: 56.839104
     longitude: 60.60825
 
-- conference: PyCon Pune
-  year: 2018
-  link: https://web.archive.org/web/20180121010626/http://pune.pycon.org/2018/
-  cfp: TBA
-  place: Pune, India
-  start: 2018-02-08
-  end: 2018-02-12
-  sub: PY
-  location:
-  - title: PyCon Pune 2018
-    latitude: 18.52930005
-    longitude: 73.85682537025511
-
-- conference: PyCon Pune
-  year: 2017
-  link: https://web.archive.org/web/20170207210807/http://pune.pycon.org/
-  cfp: TBA
-  place: Pune, India
-  start: 2017-02-16
-  end: 2017-02-20
-  sub: PY
-  location:
-  - title: PyCon Pune 2017
-    latitude: 18.52930005
-    longitude: 73.85682537025511
-
 - conference: PyCon Philippines
   alt_name: PyCon PH
   year: 2018
