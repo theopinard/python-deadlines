@@ -504,6 +504,20 @@
     latitude: 41.6147605
     longitude: 0.6267842
 
+- conference: Python fwdays
+  year: 2024
+  link: https://fwdays.com/en/event/python-ds-fwdays-2024
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/closedform
+  cfp: '2024-03-20 23:59:00'
+  place: Kyiv, Ukraine
+  start: 2024-04-20
+  end: 2024-04-20
+  sub: PY
+  location:
+  - title: Python fwdays 2024
+    latitude: 50.6215011
+    longitude: 30.460508167757546
+
 - conference: PyCon Namibia
   year: 2024
   link: https://na.pycon.org/
@@ -552,6 +566,23 @@
   - title: PyCon Lithuania 2024
     latitude: 54.6870458
     longitude: 25.2829111
+
+- conference: PyCascades
+  year: 2024
+  link: https://2024.pycascades.com/
+  cfp_link: https://pretalx.com/pycascades-2024/cfp
+  cfp: '2024-01-04 23:59:00'
+  place: Seattle, USA
+  start: 2024-04-05
+  end: 2024-04-08
+  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor/
+  twitter: pyCascades
+  mastodon: https://fosstodon.org/@pycascades
+  sub: PY
+  location:
+  - title: PyCascades 2024
+    latitude: 47.6038321
+    longitude: -122.330062
 
 - conference: PyCon Philippines
   alt_name: PyCon PH
