@@ -90,6 +90,21 @@
     latitude: 38.676839
     longitude: -90.2497213
 
+- conference: PyCon Niger
+  year: 2024
+  link: https://ne.pycon.org/
+  cfp_link: https://ne.pycon.org/speaking
+  cfp: '2024-07-30 23:59:00'
+  place: Niamey, Niger
+  start: 2024-09-28
+  end: 2024-09-29
+  twitter: pythonniger
+  sub: PY
+  location:
+  - title: PyCon Niger 2024
+    latitude: 13.515
+    longitude: 2.1175
+
 - conference: PyCon Zimbabwe
   year: 2024
   link: https://zw.pycon.org/
@@ -846,23 +861,6 @@
     latitude: 47.3615882
     longitude: 7.354445
 
-- conference: PyTexas
-  year: 2024
-  link: https://pytexas.org/2024/
-  cfp_link: https://pretalx.com/pytexas-2024/
-  cfp: '2024-01-14 23:59:00'
-  timezone: America/Chicago
-  place: Austin, USA
-  start: 2024-04-19
-  end: 2024-04-21
-  sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
-  finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
-  sub: PY
-  location:
-  - title: PyTexas 2024
-    latitude: 30.2711286
-    longitude: -97.7436995
-
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2024
@@ -1039,12 +1037,26 @@
     latitude: -22.9110137
     longitude: -43.2093727
 
+- conference: PyCon Netherlands
+  alt_name: PyCon NL
+  year: 2024
+  link: https://nl.pycon.org/
+  cfp: TBA
+  place: Utrecht, Netherlands
+  start: 2024-10-10
+  end: 2024-10-10
+  sub: PY
+  location:
+  - title: PyCon Netherlands 2024
+    latitude: 52.090833
+    longitude: 5.121667
+
 - conference: Python Niger
   alt_name: Launching Python Niger
   year: 2024
   link: https://web.archive.org/web/20240420231013/https://fb.me/e/8alLCsc39
   cfp: None
-  place: Maradi, Niger Republic
+  place: Maradi, Niger
   start: 2024-04-28
   end: 2024-04-28
   sub: PY

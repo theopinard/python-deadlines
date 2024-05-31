@@ -550,6 +550,23 @@
     latitude: 31.5656822
     longitude: 74.3141829
 
+- conference: PyTexas
+  year: 2024
+  link: https://pytexas.org/2024/
+  cfp_link: https://pretalx.com/pytexas-2024/
+  cfp: '2024-01-14 23:59:00'
+  timezone: America/Chicago
+  place: Austin, USA
+  start: 2024-04-19
+  end: 2024-04-21
+  sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
+  finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
+  sub: PY
+  location:
+  - title: PyTexas 2024
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2024
