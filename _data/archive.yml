@@ -615,7 +615,7 @@
 - conference: PyCascades
   year: 2024
   link: https://2024.pycascades.com/
-  cfp_link: https://pretalx.com/pycascades-2024/cfp
+  cfp_link: https://web.archive.org/web/20240329145604/https://pretalx.com/pycascades-2024/cfp
   cfp: '2024-01-04 23:59:00'
   place: Seattle, USA
   start: 2024-04-05
@@ -996,7 +996,7 @@
 - conference: PyCon Ireland
   alt_name: PyCon IE
   year: 2023
-  link: https://python.ie/pycon-2023/
+  link: http://python.ie/previous-pycons/pycon-2023/
   cfp: '2023-07-16 23:59:00'
   timezone: UTC
   place: Dublin, Ireland
@@ -3272,7 +3272,7 @@
 
 - conference: GeoPython
   year: 2020
-  link: http://2020.geopython.net/
+  link: https://web.archive.org/web/20200921164832/http://2020.geopython.net/
   cfp: '2020-03-15 23:59:00'
   place: Online
   start: 2020-09-21
@@ -3537,7 +3537,7 @@
 
 - conference: North Bay Python
   year: 2019
-  link: https://2019.northbaypython.org/
+  link: https://web.archive.org/web/20190918022448/https://2019.northbaypython.org/
   cfp: '2019-08-16 23:59:00'
   place: Petaluma, USA
   start: 2019-11-02
@@ -3633,7 +3633,7 @@
   place: Belgrade, Serbia
   start: 2019-10-03
   end: 2019-10-06
-  sponsor: https://pyconbalkan.com/faq
+  sponsor: https://web.archive.org/web/20191011102949/https://www.pyconbalkan.com/faq
   sub: PY
   location:
   - title: PyCon Balkan 2019
@@ -3962,7 +3962,7 @@
 
 - conference: PyCon Web
   year: 2019
-  link: https://pyconweb.com/
+  link: https://web.archive.org/web/20190814160022/https://pyconweb.com/
   cfp: '2019-03-15 00:00:00'
   place: Munich, Germany
   start: 2019-05-25
@@ -4119,7 +4119,7 @@
   alt_name: PyCon Philippines
   year: 2019
   link: https://web.archive.org/web/20190424124008/https://pycon.python.ph/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebxOMYx9ohAJFVMjBzKhcrzUfKSJxdnRrQbePcYLYNWg1EPg/closedform
+  cfp_link: https://web.archive.org/web/20240514194127/https://docs.google.com/forms/d/e/1FAIpQLSebxOMYx9ohAJFVMjBzKhcrzUfKSJxdnRrQbePcYLYNWg1EPg/closedform
   cfp: '2018-12-23 23:59:00'
   place: Manila, Philippines
   start: 2019-02-23
@@ -4135,7 +4135,7 @@
   alt_name: PyCon PH
   year: 2019
   link: https://web.archive.org/web/20190219060618/https://pycon.python.ph/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebxOMYx9ohAJFVMjBzKhcrzUfKSJxdnRrQbePcYLYNWg1EPg/closedform
+  cfp_link: https://web.archive.org/web/20240514194127/https://docs.google.com/forms/d/e/1FAIpQLSebxOMYx9ohAJFVMjBzKhcrzUfKSJxdnRrQbePcYLYNWg1EPg/closedform
   cfp: '2018-12-23 23:59:00'
   place: Manila, Philippines
   start: 2019-02-23
@@ -5261,13 +5261,13 @@
   alt_name: PyCon UA
   year: 2017
   link: https://web.archive.org/web/20170607211814/https://ua.pycon.org/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe9bXTjHlxV6pMcJZikeJPM7E5c2hVJvSORMKJJx1raoxchow/closedform
+  cfp_link: https://web.archive.org/web/20240514194249/https://docs.google.com/forms/d/e/1FAIpQLSe9bXTjHlxV6pMcJZikeJPM7E5c2hVJvSORMKJJx1raoxchow/closedform
   cfp: '2017-03-10 00:00:00'
   timezone: Europe/Kiev
   place: Lviv City, Ukraine
   start: 2017-04-08
   end: 2017-04-09
-  finaid: https://docs.google.com/forms/d/e/1FAIpQLSeCcOQ9XBtd9-Y1_lt-KeQyDeR9OxryB4Ak0UJpwQLAF_n3KQ/viewform
+  finaid: https://web.archive.org/web/20240514194243/https://docs.google.com/forms/d/e/1FAIpQLSeCcOQ9XBtd9-Y1_lt-KeQyDeR9OxryB4Ak0UJpwQLAF_n3KQ/viewform
   sub: PY
   location:
   - title: PyCon Ukraine 2017
