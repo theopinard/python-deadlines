@@ -90,6 +90,21 @@
     latitude: 38.676839
     longitude: -90.2497213
 
+- conference: PyCon Netherlands
+  alt_name: PyCon NL
+  year: 2024
+  link: https://nl.pycon.org/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe6ZmARu1Vfj-th4nIHYiIqzzwLio3wY7e8nM3GQ-52d2kDrQ/viewform
+  cfp: '2024-07-31 23:59:00'
+  place: Utrecht, Netherlands
+  start: 2024-10-10
+  end: 2024-10-10
+  sub: PY
+  location:
+  - title: PyCon Netherlands 2024
+    latitude: 52.090833
+    longitude: 5.121667
+
 - conference: PyCon Niger
   year: 2024
   link: https://ne.pycon.org/
@@ -120,6 +135,22 @@
   - title: PyCon Zimbabwe 2024
     latitude: -17.8567035
     longitude: 31.0601584
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2024
+  link: https://2024.pycon.org.au/
+  cfp_link: https://pretalx.com/pycon-au-2024/cfp
+  cfp: '2024-07-22 22:00:00'
+  timezone: Australia/Melbourne
+  place: Melbourne, Australia
+  start: 2024-11-22
+  end: 2024-11-26
+  sub: PY
+  location:
+  - title: PyCon Australia 2024
+    latitude: -37.8142454
+    longitude: 144.9631732
 
 - conference: PyCon France
   alt_name: PyCon FR
@@ -981,20 +1012,6 @@
     latitude: -10.3333333
     longitude: -53.2
 
-- conference: PyCon Australia
-  alt_name: PyCon AU
-  year: 2024
-  link: https://2024.pycon.org.au/
-  cfp: TBA
-  place: Melbourne, Australia
-  start: 2024-11-22
-  end: 2024-11-26
-  sub: PY
-  location:
-  - title: PyCon Australia 2024
-    latitude: -37.8142454
-    longitude: 144.9631732
-
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2024
@@ -1025,17 +1042,3 @@
   - title: Python Brasil 2024
     latitude: -22.9110137
     longitude: -43.2093727
-
-- conference: PyCon Netherlands
-  alt_name: PyCon NL
-  year: 2024
-  link: https://nl.pycon.org/
-  cfp: TBA
-  place: Utrecht, Netherlands
-  start: 2024-10-10
-  end: 2024-10-10
-  sub: PY
-  location:
-  - title: PyCon Netherlands 2024
-    latitude: 52.090833
-    longitude: 5.121667
