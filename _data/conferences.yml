@@ -128,7 +128,8 @@
     latitude: 3.0988792
     longitude: 101.6454202
 
-- conference: PyHEP
+- conference: PyHEP.dev
+  alt_name: PyHEP
   year: 2024
   link: https://indico.cern.ch/event/1375573/
   cfp: '2024-06-25 05:59:00'
@@ -138,9 +139,17 @@
   end: 2024-08-30
   sub: SCIPY
   location:
-  - title: PyHEP 2024
+  - title: PyHEP.dev 2024
     latitude: 50.776351
     longitude: 6.083862
+
+- conference: PyHEP
+  year: 2024
+  link: https://indico.cern.ch/event/1384010/
+  cfp: '2024-06-05 21:29:00'
+  place: Online
+  start: 2024-07-01
+  end: 2024-07-04
 
 - conference: Piter Py
   alt_name: PiterPy
@@ -565,20 +574,6 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: Python fwdays
-  year: 2024
-  link: https://fwdays.com/en/event/python-ds-fwdays-2024
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScnUVAZxseEr8a3p7jUj7D6q-U3LoiFA3Z1I4mAqR0ovUW1-g/closedform
-  cfp: '2024-03-20 23:59:00'
-  place: Kyiv, Ukraine
-  start: 2024-04-20
-  end: 2024-04-20
-  sub: PY
-  location:
-  - title: Python fwdays 2024
-    latitude: 50.6215011
-    longitude: 30.460508167757546
-
 - conference: PyCon Colombia
   year: 2024
   link: https://2024.pycon.co/en
@@ -727,23 +722,6 @@
     latitude: 47.3615882
     longitude: 7.354445
 
-- conference: PyTexas
-  year: 2024
-  link: https://pytexas.org/2024/
-  cfp_link: https://pretalx.com/pytexas-2024/
-  cfp: '2024-01-14 23:59:00'
-  timezone: America/Chicago
-  place: Austin, USA
-  start: 2024-04-19
-  end: 2024-04-21
-  sponsor: https://pytexas.org/2024/sponsors/sponsor-us/
-  finaid: https://forms.gle/rTWhsoayZ7JRU2hR9
-  sub: PY
-  location:
-  - title: PyTexas 2024
-    latitude: 30.2711286
-    longitude: -97.7436995
-
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2024
@@ -762,43 +740,6 @@
   - title: PyCon Italia 2024
     latitude: 40.038064
     longitude: 18.4633105
-
-- conference: PyCascades
-  year: 2024
-  link: https://2024.pycascades.com/
-  cfp_link: https://pretalx.com/pycascades-2024/cfp
-  cfp: '2024-01-04 23:59:00'
-  place: Seattle, USA
-  start: 2024-04-05
-  end: 2024-04-08
-  sponsor: https://2024.pycascades.com/sponsors/become-a-sponsor/
-  twitter: pyCascades
-  mastodon: https://fosstodon.org/@pycascades
-  sub: PY
-  location:
-  - title: PyCascades 2024
-    latitude: 47.6038321
-    longitude: -122.330062
-
-- conference: PyCon Germany & PyData Berlin
-  alt_name: PyCon DE & PyData Berlin
-  year: 2024
-  link: https://pycon.de/
-  cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
-  cfp: '2023-12-22 23:59:59'
-  cfp_ext: '2024-01-07 23:59:59'
-  timezone: Europe/Berlin
-  place: Berlin, Germany
-  start: 2024-04-22
-  end: 2024-04-24
-  sponsor: https://2024.pycon.de/sponsors/
-  finaid: https://2024.pycon.de/financial-aid/
-  twitter: PyConDE
-  sub: PY,DATA
-  location:
-  - title: PyCon Germany & PyData Berlin 2024
-    latitude: 52.5170365
-    longitude: 13.3888599
 
 - conference: PyCon US
   year: 2024
@@ -910,17 +851,3 @@
   - title: PyCon Africa 2024
     latitude: 5.5571096
     longitude: -0.2012376
-
-- conference: Python Niger
-  alt_name: Launching Python Niger
-  year: 2024
-  link: https://web.archive.org/web/20240420231013/https://fb.me/e/8alLCsc39
-  cfp: None
-  place: Maradi, Niger Republic
-  start: 2024-04-28
-  end: 2024-04-28
-  sub: PY
-  location:
-  - title: Python Niger 2024
-    latitude: 13.1277068
-    longitude: 7.2601319
