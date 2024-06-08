@@ -1,5 +1,19 @@
 ---
 
+- conference: PyTexas
+  year: 2025
+  link: https://www.pytexas.org/2025/
+  cfp: '2025-01-14 23:59:00'
+  tutorial_deadline: '2025-01-14 23:59:00'
+  place: Austin, USA
+  start: 2025-04-11
+  end: 2025-04-13
+  sponsor: https://www.pytexas.org/2025/sponsors/sponsor-us/
+  location:
+  - title: PyTexas 2025
+    latitude: 30.2711286
+    longitude: -97.7436995
+
 - conference: Xtreme Python
   year: 2024
   link: https://xtremepython.dev/2024/
@@ -32,7 +46,9 @@
   alt_name: PyCon PL
   year: 2024
   link: https://pl.pycon.org/2024/
+  cfp_link: https://pl.pycon.org/2024/call-for-proposals/
   cfp: '2024-08-13 23:59:00'
+  cfp_ext: '2024-08-20 23:59:00'
   timezone: Europe/Warsaw
   place: Gliwice, Poland
   start: 2024-08-29
@@ -52,12 +68,58 @@
   place: Yogyakarta, Indonesia
   start: 2024-10-25
   end: 2024-10-27
+  sponsor: https://2024-apac.pycon.id/sponsorship/
   sub: PY
   note: Held at PyCon Indonesia
   location:
   - title: PyCon Asia Pacific 2024
     latitude: -7.9778383999999996
     longitude: 110.36722565020244
+
+- conference: PyBay
+  year: 2024
+  link: https://pybay.org/
+  cfp_link: https://pybay.org/speaking/
+  cfp: '2024-07-31 23:59:00'
+  place: San Franciso, USA
+  start: 2024-09-21
+  end: 2024-09-21
+  sponsor: https://pybay.org/sponsors/sponsor-us/
+  location:
+  - title: PyBay 2024
+    latitude: 38.676839
+    longitude: -90.2497213
+
+- conference: PyCon Niger
+  year: 2024
+  link: https://ne.pycon.org/
+  cfp_link: https://ne.pycon.org/speaking
+  cfp: '2024-07-30 23:59:00'
+  place: Niamey, Niger
+  start: 2024-09-28
+  end: 2024-09-29
+  twitter: pythonniger
+  sub: PY
+  location:
+  - title: PyCon Niger 2024
+    latitude: 13.515
+    longitude: 2.1175
+
+- conference: PyCon Zimbabwe
+  year: 2024
+  link: https://zw.pycon.org/
+  cfp_link: https://www.papercall.io/pyconzim2024
+  cfp: '2024-07-31 00:00:00'
+  timezone: UTC
+  place: Harare, Zimbabwe
+  start: 2024-10-31
+  end: 2024-11-02
+  sponsor: https://zw.pycon.org/#sponsor
+  sub: PY
+  location:
+  - title: PyCon Zimbabwe 2024
+    latitude: -17.8567035
+    longitude: 31.0601584
 
 - conference: PyCon France
   alt_name: PyCon FR
@@ -79,14 +141,32 @@
     latitude: 48.584614
     longitude: 7.7507127
 
+- conference: PyCon Africa
+  year: 2024
+  link: https://africa.pycon.org/2024/
+  cfp_link: https://africa.pycon.org/2024/talks/speaking/
+  cfp: '2024-07-08 23:59:00'
+  tutorial_deadline: '2024-07-08 23:59:00'
+  place: Accra, Ghana
+  start: 2024-09-24
+  end: 2024-09-28
+  sponsor: https://africa.pycon.org/2024/sponsor-us/
+  twitter: pyconafrica
+  mastodon: https://mastodon.social/@pyconafrica
+  sub: PY
+  location:
+  - title: PyCon Africa 2024
+    latitude: 5.5571096
+    longitude: -0.2012376
+
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2024
-  link: https://web.archive.org/web/20240415181502/https://pycon.hk/2024/
+  link: https://pycon.hk/2024
   cfp_link: https://pretalx.com/pyconhk2024/cfp
   cfp: '2024-07-01 23:59:00'
   timezone: Asia/Hong_Kong
-  place: Hong Kong, Hong Kong
+  place: Hong Kong, China
   start: 2024-11-16
   end: 2024-11-16
   twitter: pyconhk
@@ -142,6 +222,38 @@
   - title: PyHEP.dev 2024
     latitude: 50.776351
     longitude: 6.083862
+
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2024
+  link: https://2024.pycon.kr/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdXXxakv9IZa_Se9DQzG3Kf8qc_ADIlyyTS5h7r20ENSfD6MA/viewform
+  cfp: '2024-06-22 23:59:00'
+  place: Suwon, South Korea
+  start: 2024-10-25
+  end: 2024-10-27
+  sub: PY
+  location:
+  - title: PyCon South Korea 2024
+    latitude: 37.2633325
+    longitude: 127.0287472
+
+- conference: PyCon Latin America
+  alt_name: PyCon Latam
+  year: 2024
+  link: https://www.pylatam.org/
+  cfp_link: https://www.papercall.io/pyconlatam24
+  cfp: '2024-06-10 23:59:00'
+  tutorial_deadline: '2024-06-10 23:59:00'
+  place: Mazatlan, Mexico
+  start: 2024-09-19
+  end: 2024-09-21
+  sponsor: https://docs.google.com/presentation/d/12_iPvHdtR5islMlL-76Xja2GK0IMccL8/edit#slide=id.p1
+  sub: PY
+  location:
+  - title: PyCon Latin America 2024
+    latitude: 23.2035785
+    longitude: -106.4208391
 
 - conference: PyHEP
   year: 2024
@@ -202,10 +314,12 @@
   link: https://2024.es.pycon.org/
   cfp_link: https://2024.es.pycon.org/c4p/
   cfp: '2024-05-31 21:00:00'
+  tutorial_deadline: '2024-05-31 23:59:00'
   timezone: Europe/Madrid
   place: Vigo, Spain
   start: 2024-10-04
   end: 2024-10-06
+  sponsor: https://2024.es.pycon.org/patrocinios/
   sub: PY
   location:
   - title: PyCon Spain 2024
@@ -218,7 +332,7 @@
   link: https://globaldevslam.com/
   cfp: '2024-05-31 23:59:00'
   timezone: Asia/Dubai
-  place: Dubai, UAE
+  place: Dubai, United Arab Emirates
   start: 2024-10-14
   end: 2024-10-18
   twitter: GlobalDevSlam
@@ -238,6 +352,7 @@
   place: Bengaluru, India
   start: 2024-09-20
   end: 2024-09-23
+  sponsor: https://in.pycon.org/2024/prospectus.pdf
   twitter: PyConIndia
   sub: PY
   location:
@@ -250,6 +365,8 @@
   link: https://euroscipy.org/2024/
   cfp_link: https://euroscipy.org/2024/program.html
   cfp: '2024-05-26 23:59:59'
+  cfp_ext: '2024-06-02 23:59:59'
+  tutorial_deadline: '2024-06-02 23:59:00'
   timezone: Europe/Warsaw
   place: Szczecin, Poland
   start: 2024-08-26
@@ -263,6 +380,34 @@
     latitude: 53.42968095
     longitude: 14.592912670292268
 
+- conference: PyDay Copiapó
+  year: 2024
+  link: https://www.pyday.cl/copiapo.html
+  cfp_link: https://sessionize.com/pyday-2024/
+  cfp: '2024-05-24 23:59:00'
+  place: Copiapó, Chile
+  start: 2024-06-12
+  end: 2024-06-12
+  sub: PY
+  location:
+  - title: PyDay Copiapó 2024
+    latitude: -27.5406034
+    longitude: -70.4441348
+
+- conference: PyDay Valparaiso
+  year: 2024
+  link: https://www.pyday.cl/copiapo.html
+  cfp_link: https://sessionize.com/pyday-2024/
+  cfp: '2024-05-24 23:59:00'
+  place: Valparaiso, Chile
+  start: 2024-06-14
+  end: 2024-06-14
+  sub: PY
+  location:
+  - title: PyDay Valparaiso 2024
+    latitude: -33.0458456
+    longitude: -71.6196749
+
 - conference: Kiwi PyCon
   alt_name: Kiwi PyCon XIII
   year: 2024
@@ -273,6 +418,7 @@
   place: Te Whanganui-a-Tara Wellington, New Zealand
   start: 2024-08-23
   end: 2024-08-25
+  sponsor: https://kiwipycon.nz/sponsors/become-a-sponsor
   finaid: https://kiwipycon.nz/attend/financial-aid
   twitter: kiwipycon
   mastodon: https://mastodon.social/@kiwipycon
@@ -287,6 +433,7 @@
   link: https://pyohio.org/2024/
   cfp_link: https://www.pyohio.org/2024/speaking/cfp/
   cfp: '2024-05-20 23:59:00'
+  cfp_ext: '2024-05-27 23:59:00'
   place: Cleveland, USA
   start: 2024-07-27
   end: 2024-07-28
@@ -629,6 +776,7 @@
   place: Prague, Czechia
   start: 2024-07-08
   end: 2024-07-14
+  sponsor: https://ep2024.europython.eu/sponsor
   finaid: https://ep2024.europython.eu/finaid/
   twitter: EuroPython
   mastodon: https://fosstodon.org/@europython
@@ -741,6 +889,26 @@
     latitude: 40.038064
     longitude: 18.4633105
 
+- conference: PyCon Germany & PyData Berlin
+  alt_name: PyCon DE & PyData Berlin
+  year: 2024
+  link: https://pycon.de/
+  cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
+  cfp: '2023-12-22 23:59:59'
+  cfp_ext: '2024-01-07 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  start: 2024-04-22
+  end: 2024-04-24
+  sponsor: https://2024.pycon.de/sponsors/
+  finaid: https://2024.pycon.de/financial-aid/
+  twitter: PyConDE
+  sub: PY,DATA
+  location:
+  - title: PyCon Germany & PyData Berlin 2024
+    latitude: 52.5170365
+    longitude: 13.3888599
+
 - conference: PyCon US
   year: 2024
   link: https://us.pycon.org/2024/
@@ -777,6 +945,46 @@
     latitude: 32.0852997
     longitude: 34.7818064
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2025
+  link: https://2025.pycon.it/
+  cfp: TBA
+  place: Bologna, Italy
+  start: 2025-05-28
+  end: 2025-05-31
+  sub: PY
+  location:
+  - title: PyCon Italia 2025
+    latitude: 44.4938203
+    longitude: 11.3426327
+
+- conference: PyCon US
+  year: 2025
+  link: https://us.pycon.org/
+  cfp: TBA
+  place: Pittsburgh, USA
+  start: 2025-05-14
+  end: 2025-05-21
+  sub: PY
+  location:
+  - title: PyCon US 2025
+    latitude: 40.4416941
+    longitude: -79.9900861
+
+- conference: PyCascades
+  year: 2025
+  link: https://2025.pycascades.com/
+  cfp_link: https://2025.pycascades.com/program/cfp/
+  cfp: TBA
+  place: Portland, USA
+  start: 2025-02-08
+  end: 2025-02-09
+  location:
+  - title: PyCascades 2025
+    latitude: 45.5202471
+    longitude: -122.674194
+
 - conference: Plone Conference
   year: 2024
   link: https://2024.ploneconf.org/en
@@ -807,19 +1015,20 @@
     latitude: -37.8142454
     longitude: 144.9631732
 
-- conference: PyCon South Korea
-  alt_name: PyCon KR
+- conference: PyCon Sweden
+  alt_name: PyCon SE
   year: 2024
-  link: https://2024.pycon.kr/
+  link: https://www.pycon.se/
   cfp: TBA
-  place: Suwon, South Korea
-  start: 2024-10-25
-  end: 2024-10-27
+  place: Stockholm, Sweden
+  start: 2024-11-14
+  end: 2024-11-15
+  sponsor: https://www.pycon.se/#sponsorship
   sub: PY
   location:
-  - title: PyCon South Korea 2024
-    latitude: 37.2633325
-    longitude: 127.0287472
+  - title: PyCon Sweden 2024
+    latitude: 59.3251172
+    longitude: 18.0710935
 
 - conference: Python Brasil
   alt_name: PythonBrasil
@@ -837,17 +1046,30 @@
     latitude: -22.9110137
     longitude: -43.2093727
 
-- conference: PyCon Africa
+- conference: PyCon Netherlands
+  alt_name: PyCon NL
   year: 2024
-  link: https://africa.pycon.org/
+  link: https://nl.pycon.org/
   cfp: TBA
-  place: Accra, Ghana
-  start: 2024-09-24
-  end: 2024-09-28
-  twitter: pyconafrica
-  mastodon: https://mastodon.social/@pyconafrica
+  place: Utrecht, Netherlands
+  start: 2024-10-10
+  end: 2024-10-10
   sub: PY
   location:
-  - title: PyCon Africa 2024
-    latitude: 5.5571096
-    longitude: -0.2012376
+  - title: PyCon Netherlands 2024
+    latitude: 52.090833
+    longitude: 5.121667
+
+- conference: Python Niger
+  alt_name: Launching Python Niger
+  year: 2024
+  link: https://web.archive.org/web/20240420231013/https://fb.me/e/8alLCsc39
+  cfp: None
+  place: Maradi, Niger
+  start: 2024-04-28
+  end: 2024-04-28
+  sub: PY
+  location:
+  - title: Python Niger 2024
+    latitude: 13.1277068
+    longitude: 7.2601319
