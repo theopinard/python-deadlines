@@ -889,26 +889,6 @@
     latitude: 40.038064
     longitude: 18.4633105
 
-- conference: PyCon Germany & PyData Berlin
-  alt_name: PyCon DE & PyData Berlin
-  year: 2024
-  link: https://pycon.de/
-  cfp_link: https://pretalx.com/pyconde-pydata-2024/cfp
-  cfp: '2023-12-22 23:59:59'
-  cfp_ext: '2024-01-07 23:59:59'
-  timezone: Europe/Berlin
-  place: Berlin, Germany
-  start: 2024-04-22
-  end: 2024-04-24
-  sponsor: https://2024.pycon.de/sponsors/
-  finaid: https://2024.pycon.de/financial-aid/
-  twitter: PyConDE
-  sub: PY,DATA
-  location:
-  - title: PyCon Germany & PyData Berlin 2024
-    latitude: 52.5170365
-    longitude: 13.3888599
-
 - conference: PyCon US
   year: 2024
   link: https://us.pycon.org/2024/
@@ -1059,17 +1039,3 @@
   - title: PyCon Netherlands 2024
     latitude: 52.090833
     longitude: 5.121667
-
-- conference: Python Niger
-  alt_name: Launching Python Niger
-  year: 2024
-  link: https://web.archive.org/web/20240420231013/https://fb.me/e/8alLCsc39
-  cfp: None
-  place: Maradi, Niger
-  start: 2024-04-28
-  end: 2024-04-28
-  sub: PY
-  location:
-  - title: Python Niger 2024
-    latitude: 13.1277068
-    longitude: 7.2601319
