@@ -211,7 +211,7 @@
 
 - conference: Swiss Python Summit
   year: 2024
-  link: https://python-summit.ch
+  link: https://python-summit.ch/
   cfp_link: https://www.python-summit.ch/cfp/
   cfp: '2024-06-30 23:59:00'
   timezone: Europe/Zurich
@@ -875,7 +875,7 @@
 - conference: SciPy US
   alt_name: SciPy
   year: 2024
-  link: https://scipy2024.scipy.org
+  link: https://scipy2024.scipy.org/
   cfp_link: https://cfp.scipy.org/2024/cfp
   cfp: '2024-02-27 23:59:00'
   timezone: America/Los_Angeles

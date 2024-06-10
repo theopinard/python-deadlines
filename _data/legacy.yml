@@ -20,6 +20,7 @@
   place: Warsaw, Poland
   start: 2015-05-25
   end: 2015-05-27
+  sub: PY
   location:
   - title: PyWaw Summit 2015
     latitude: 52.2319581
@@ -108,6 +109,7 @@
   place: Austin, USA
   start: 2019-04-13
   end: 2019-04-15
+  sub: PY
   location:
   - title: PyTexas 2019
     latitude: 30.2711286
@@ -120,6 +122,7 @@
   place: 119 Nueces St, USA
   start: 2017-11-18
   end: 2017-11-19
+  sub: PY
   location:
   - title: PyTexas 2017
     latitude: 28.326414326564826
@@ -132,6 +135,7 @@
   place: College Station, USA
   start: 2015-09-25
   end: 2015-09-28
+  sub: PY
   location:
   - title: PyTexas 2015
     latitude: 30.6183939
@@ -144,6 +148,7 @@
   place: Austin, USA
   start: 2014-10-03
   end: 2014-10-06
+  sub: PY
   location:
   - title: PyTexas 2014
     latitude: 30.2711286
@@ -156,6 +161,7 @@
   place: Nashville, USA
   start: 2018-02-10
   end: 2018-02-12
+  sub: PY
   location:
   - title: PyTennessee 2018
     latitude: 36.1622767
@@ -168,6 +174,7 @@
   place: Nashville, USA
   start: 2017-02-04
   end: 2017-02-05
+  sub: PY
   location:
   - title: PyTennessee 2017
     latitude: 36.1622767
@@ -180,6 +187,7 @@
   place: Nashville, USA
   start: 2015-02-06
   end: 2015-02-09
+  sub: PY
   location:
   - title: PyTennessee 2015
     latitude: 36.1622767
@@ -192,6 +200,7 @@
   place: Nashville, USA
   start: 2014-02-22
   end: 2014-02-24
+  sub: PY
   location:
   - title: PyTennessee 2014
     latitude: 36.1622767
@@ -204,6 +213,7 @@
   place: Tamil Nadu, India
   start: 2018-09-07
   end: 2018-09-09
+  sub: PY
   location:
   - title: PySangamam 2018
     latitude: 10.9094334
@@ -229,6 +239,7 @@
   place: Paris, France
   start: 2018-11-14
   end: 2018-11-16
+  sub: PY
   location:
   - title: PyParis 2018
     latitude: 48.8588897
@@ -241,6 +252,7 @@
   place: Paris, France
   start: 2017-06-12
   end: 2017-06-14
+  sub: PY
   location:
   - title: PyParis 2017
     latitude: 48.8588897
@@ -253,6 +265,7 @@
   place: Columbus, USA
   start: 2017-07-29
   end: 2017-07-31
+  sub: PY
   location:
   - title: PyOhio 2017
     latitude: 39.9622601
@@ -265,6 +278,7 @@
   place: Columbus, USA
   start: 2016-07-29
   end: 2016-08-01
+  sub: PY
   location:
   - title: PyOhio 2016
     latitude: 39.9622601
@@ -277,6 +291,7 @@
   place: Columbus, OH
   start: 2015-08-01
   end: 2015-08-03
+  sub: PY
   location:
   - title: PyOhio 2015
     latitude: 39.9622601
@@ -302,6 +317,7 @@
   place: Ohio Union, OH
   start: 2013-07-27
   end: 2013-07-29
+  sub: PY
   location:
   - title: PyOhio 2013
     latitude: 39.997660499999995
@@ -314,6 +330,7 @@
   place: Munich, Germany
   start: 2015-08-15
   end: 2015-08-16
+  sub: PY
   location:
   - title: PyMunich CodeRetreat 2015
     latitude: 48.1371079
@@ -326,6 +343,7 @@
   place: London, UK
   start: 2020-06-05
   end: 2020-06-08
+  sub: PY
   location:
   - title: PyLondinium 2020
     latitude: 51.5074456
@@ -338,6 +356,7 @@
   place: London, UK
   start: 2019-06-14
   end: 2019-06-16
+  sub: PY
   location:
   - title: PyLondinium 2019
     latitude: 51.5074456
@@ -350,6 +369,7 @@
   place: London, UK
   start: 2018-06-08
   end: 2018-06-11
+  sub: PY
   location:
   - title: PyLondinium 2018
     latitude: 51.5074456
@@ -357,23 +377,12 @@
 
 - conference: PyFest
   year: 2021
-  link: https://pyfest.Online/
+  link: https://pyfest.online/
   cfp: TBA
   place: Online
   start: 2021-06-16
   end: 2021-06-19
-
-- conference: PyDX
-  year: 2016
-  link: https://web.archive.org/web/20161007215509/http://pydx.org/
-  cfp: TBA
-  place: Portland, USA
-  start: 2016-10-01
-  end: 2016-10-03
-  location:
-  - title: PyDX 2016
-    latitude: 45.5202471
-    longitude: -122.674194
+  sub: PY
 
 - conference: PyDelhi
   year: 2016
@@ -382,6 +391,7 @@
   place: New Delhi, India
   start: 2016-03-05
   end: 2016-03-06
+  sub: PY
   location:
   - title: PyDelhi 2016
     latitude: 28.6138954
@@ -1797,6 +1807,7 @@
   place: Online
   start: 2020-12-11
   end: 2020-12-13
+  sub: PY
 
 - conference: PyCode Conference
   year: 2019
@@ -1805,6 +1816,7 @@
   place: Gdansk, Poland
   start: 2019-10-14
   end: 2019-10-17
+  sub: PY
   location:
   - title: PyCode Conference 2019
     latitude: 54.3706858
@@ -1817,6 +1829,7 @@
   place: Warsaw, Poland
   start: 2018-10-01
   end: 2018-10-03
+  sub: PY
   location:
   - title: PyCode Conference 2018
     latitude: 52.2319581
@@ -1829,6 +1842,7 @@
   place: Santo Domingo, Dominican Republic
   start: 2018-02-17
   end: 2018-02-19
+  sub: PY
   location:
   - title: PyCaribbean 2018
     latitude: 18.4801972
@@ -1841,6 +1855,7 @@
   place: Santo Domingo, Dominican Republic
   start: 2016-02-20
   end: 2016-02-22
+  sub: PY
   location:
   - title: PyCaribbean 2016
     latitude: 18.4801972
@@ -1853,6 +1868,7 @@
   place: Hyderabad, India
   start: 2017-10-27
   end: 2017-10-30
+  sub: PY
   location:
   - title: PyBITS 2017
     latitude: 17.360589
@@ -1865,6 +1881,7 @@
   place: Gogte Institute of Technology, India
   start: 2015-02-28
   end: 2015-03-02
+  sub: PY
   location:
   - title: PyBelgaum 2015
     latitude: 15.81527075
@@ -1877,6 +1894,7 @@
   place: San Francisco, USA
   start: 2018-08-16
   end: 2018-08-20
+  sub: PY
   location:
   - title: PyBay 2018
     latitude: 37.7681571
@@ -1889,6 +1907,7 @@
   place: San Francisco, USA
   start: 2016-08-19
   end: 2016-08-22
+  sub: PY
   location:
   - title: PyBay 2016
     latitude: 37.7681571
@@ -1976,6 +1995,7 @@
   place: Saint Petersburg, Russia
   start: 2019-11-01
   end: 2019-11-02
+  sub: PY
   location:
   - title: Piter Py 2019
     latitude: 59.9606739
@@ -1989,6 +2009,7 @@
   place: Saint Petersburg, Russia
   start: 2018-11-02
   end: 2018-11-04
+  sub: PY
   location:
   - title: Piter Py 2018
     latitude: 59.9606739
@@ -2002,6 +2023,7 @@
   place: Crowne Plaza St. Petersburg Airport, 196210
   start: 2017-11-03
   end: 2017-11-05
+  sub: PY
   location:
   - title: Piter Py 2017
     latitude: 59.8060977
@@ -2015,6 +2037,7 @@
   place: St. Petersburg, Russia
   start: 2016-04-22
   end: 2016-04-24
+  sub: PY
   location:
   - title: Piter Py 2016
     latitude: 59.9606739
@@ -2053,6 +2076,7 @@
   place: Manipal Institute of Technology, India
   start: 2017-10-21
   end: 2017-10-23
+  sub: PY
   location:
   - title: MUPy 2017
     latitude: 13.347776849999999
@@ -2093,6 +2117,7 @@
   place: Indiana, USA
   start: 2019-03-22
   end: 2019-03-23
+  sub: PY
   location:
   - title: IndyPy Automate Conf 2019
     latitude: 40.3270127
@@ -2137,18 +2162,6 @@
     latitude: 49.4093582
     longitude: 8.694724
 
-- conference: DragonPy
-  year: 2020
-  link: https://dragonpy.com/
-  cfp: TBA
-  place: Ljubljana, Slovenia
-  start: 2020-09-19
-  end: 2020-09-21
-  location:
-  - title: DragonPy 2020
-    latitude: 46.0500268
-    longitude: 14.5069289
-
 - conference: Django Day Copenhagen
   year: 2020
   link: https://djangoday.dk/
@@ -2157,15 +2170,3 @@
   start: 2020-09-25
   end: 2020-09-26
   sub: WEB
-
-- conference: Caipyra
-  year: 2019
-  link: http://caipyra.python.org.br/
-  cfp: TBA
-  place: São Carlos, Brazil
-  start: 2019-07-07
-  end: 2019-07-11
-  location:
-  - title: Caipyra 2019
-    latitude: -22.0180395
-    longitude: -47.891154

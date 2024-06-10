@@ -167,6 +167,7 @@
   place: Groningen, Netherlands
   start: 2012-05-11
   end: 2012-05-11
+  sub: PY
   location:
   - title: PyGrunn 2012
     latitude: 53.2190652
@@ -180,6 +181,7 @@
   place: Groningen, Netherlands
   start: 2011-05-20
   end: 2011-05-20
+  sub: PY
   location:
   - title: PyGrunn 2011
     latitude: 53.2190652
@@ -192,6 +194,7 @@
   place: Groningen, Netherlands
   start: 2010-05-09
   end: 2010-05-09
+  sub: PY
   location:
   - title: PyGrunn 2010
     latitude: 53.2190652
@@ -269,7 +272,8 @@
   end: 2022-02-19
   sub: PY
   location:
-  - latitude: 44.9379672
+  - title: PyCon Iran 2022
+    latitude: 44.9379672
     longitude: 7.5400398
 
 - conference: PyCon Germany & PyData Berlin
@@ -441,6 +445,7 @@
   place: Groningen, Netherlands
   start: 2020-05-15
   end: 2020-05-15
+  sub: PY
   note: Postponed due to COVID-19
   location:
   - title: PyGrunn 2020
@@ -769,6 +774,7 @@
   place: Ohio, USA
   start: 2023-12-16
   end: 2023-12-16
+  sub: PY
   location:
   - title: PyOhio 2023
     latitude: 40.2253569
@@ -863,7 +869,7 @@
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2023
-  link: https://pycon.se
+  link: https://pycon.se/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSebISd6uvGN6QB9MMdfib6UpHyleNcvXOvyZf9Jfkt0YrTtuA/closedform
   cfp: '2023-09-01 23:59:00'
   timezone: Europe/Stockholm
@@ -1030,7 +1036,7 @@
 
 - conference: Swiss Python Summit
   year: 2023
-  link: https://python-summit.ch
+  link: https://python-summit.ch/
   cfp_link: https://web.archive.org/web/20230602211338/https://www.python-summit.ch/cfp/
   cfp: '2023-07-01 23:59:00'
   timezone: Europe/Zurich
@@ -1421,7 +1427,7 @@
 - conference: PyCon Latin America
   alt_name: PyCon LatAm
   year: 2023
-  link: https://pylatam.org
+  link: https://pylatam.org/
   cfp_link: https://papercall.io/pyconlatam23
   cfp: '2023-05-07 23:59:00'
   timezone: UTC
@@ -1476,6 +1482,7 @@
   place: Groningen, Netherlands
   start: 2023-05-26
   end: 2023-05-26
+  sub: PY
   location:
   - title: PyGrunn 2023
     latitude: 53.2190652
@@ -1633,7 +1640,7 @@
 - conference: SciPy US
   alt_name: SciPy
   year: 2023
-  link: https://scipy2023.scipy.org
+  link: https://scipy2023.scipy.org/
   cfp_link: https://scipy2023.scipy.org/present
   cfp: '2023-03-01 23:59:00'
   timezone: America/Chicago
@@ -1724,7 +1731,7 @@
 
 - conference: PyTexas
   year: 2023
-  link: https://pytexas.org
+  link: https://pytexas.org/
   cfp_link: https://web.archive.org/web/20230328105743/https://pretalx.com/pytexas-2023/
   cfp: '2023-01-15 23:59:00'
   place: Austin, USA
@@ -1973,7 +1980,7 @@
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2022
-  link: http://pycon.se
+  link: http://pycon.se/
   cfp: '2022-09-11 23:59:59'
   timezone: Europe/Stockholm
   place: Stockholm, Sweden
@@ -2106,10 +2113,14 @@
   link: https://pythonatscale.com/
   cfp: '2022-08-01 23:59:59'
   timezone: America/Chicago
-  place: Texas, USA and Online
+  place: Austin, USA
   start: 2022-10-27
   end: 2022-10-29
   sub: PY
+  location:
+  - title: Python at Scale 2022
+    latitude: 30.2711286
+    longitude: -97.7436995
 
 - conference: PyCon South Korea
   alt_name: PyCon Korea
@@ -2331,6 +2342,7 @@
   place: Columbus, USA
   start: 2022-07-30
   end: 2022-07-30
+  sub: PY
   location:
   - title: PyOhio 2022
     latitude: 39.9622601
@@ -2413,9 +2425,6 @@
   start: 2022-09-03
   end: 2022-09-04
   sub: PY
-  location:
-  - latitude: 23.9739374
-    longitude: 120.9820179
 
 - conference: PyCon Kenya
   year: 2022
@@ -2570,6 +2579,7 @@
   place: Austin, USA
   start: 2022-03-26
   end: 2022-03-27
+  sub: PY
   location:
   - title: PyTexas 2022
     latitude: 30.2711286
@@ -2602,6 +2612,7 @@
   place: Online
   start: 2022-02-05
   end: 2022-02-06
+  sub: PY
 
 - conference: PyCon US
   year: 2022
@@ -2676,6 +2687,7 @@
   place: Online
   start: 2021-12-02
   end: 2021-12-03
+  sub: PY
 
 - conference: Flask Con
   year: 2021
@@ -2741,6 +2753,7 @@
   place: Groningen, Netherlands
   start: 2021-11-12
   end: 2021-11-12
+  sub: PY
   location:
   - title: PyGrunn 2021
     latitude: 53.2190652
@@ -2890,6 +2903,7 @@
   place: Online
   start: 2021-10-01
   end: 2021-10-02
+  sub: PY
 
 - conference: PyCon India
   year: 2021
@@ -2909,6 +2923,7 @@
   place: Columbus, USA
   start: 2021-07-31
   end: 2021-08-01
+  sub: PY
   location:
   - title: PyOhio 2021
     latitude: 39.9622601
@@ -3004,7 +3019,7 @@
 
 - conference: Python Web Conference
   year: 2021
-  link: https://pythonwebconference.com
+  link: https://pythonwebconference.com/
   cfp: '2021-01-29 15:03:00'
   timezone: UTC
   place: Online
@@ -3049,6 +3064,7 @@
   place: Online
   start: 2021-01-30
   end: 2021-01-31
+  sub: PY
 
 - conference: PyCascades
   year: 2021
@@ -3059,6 +3075,7 @@
   start: 2021-02-19
   end: 2021-02-21
   sponsor: https://2021.pycascades.com/sponsors/become-a-sponsor/
+  sub: PY
 
 - conference: PyCon Indonesia
   alt_name: PyCon ID
@@ -3103,6 +3120,7 @@
   place: Online
   start: 2020-11-15
   end: 2020-11-16
+  sub: SCIPY
 
 - conference: Pyjamas Conf
   year: 2020
@@ -3165,6 +3183,7 @@
   place: Online
   start: 2020-10-02
   end: 2020-10-03
+  sub: PY
 
 - conference: PyHEP
   year: 2020
@@ -3343,6 +3362,7 @@
   place: Brussels, Belgium
   start: 2020-02-01
   end: 2020-02-01
+  sub: PY
   location:
   - title: FOSDEM 2020
     latitude: 50.8465573
@@ -3412,6 +3432,7 @@
   place: Portland, USA
   start: 2020-02-08
   end: 2020-02-09
+  sub: PY
   location:
   - title: PyCascades 2020
     latitude: 45.5202471
@@ -3720,7 +3741,7 @@
 - conference: PyCon Latin America
   alt_name: PyCon LatAm
   year: 2019
-  link: https://pylatam.org
+  link: https://pylatam.org/
   cfp_link: https://papercall.io/pyconlatam
   cfp: '2019-05-31 23:59:00'
   place: Puerto Vallarta, Mexico
@@ -3767,6 +3788,7 @@
   place: Denver, USA
   start: 2019-09-07
   end: 2019-09-08
+  sub: PY
   location:
   - title: PyColorado 2019
     latitude: 39.7392364
@@ -3775,12 +3797,13 @@
 - conference: PyGotham TV
   year: 2019
   link: https://2019.pygotham.org/
-  cfp_link: https://cfp.pygotham.org
+  cfp_link: https://cfp.pygotham.org/
   cfp: '2019-05-12 23:59:00'
   place: New York, USA
   start: 2019-10-04
   end: 2019-10-05
   sponsor: https://2019.pygotham.org/sponsors/prospectus/
+  sub: PY
   location:
   - title: PyGotham TV 2019
     latitude: 40.7127281
@@ -3789,12 +3812,13 @@
 - conference: PyBay
   year: 2019
   link: https://web.archive.org/web/20190815015012/http://pybay.com/
-  cfp_link: https://pybay2019cfp.hubb.me
+  cfp_link: https://pybay2019cfp.hubb.me/
   cfp: '2019-05-12 23:59:00'
   tutorial_deadline: '2019-05-12 23:59:00'
   place: San Francisco, USA
   start: 2019-08-15
   end: 2019-08-19
+  sub: PY
   location:
   - title: PyBay 2019
     latitude: 37.7681571
@@ -3810,6 +3834,7 @@
   start: 2019-07-27
   end: 2019-07-28
   sponsor: https://pyohio.org/2019/sponsorship
+  sub: PY
   location:
   - title: PyOhio 2019
     latitude: 39.9622601
@@ -4036,6 +4061,7 @@
   place: Groningen, Netherlands
   start: 2019-05-10
   end: 2019-05-10
+  sub: PY
   location:
   - title: PyGrunn 2019
     latitude: 53.2190652
@@ -4153,6 +4179,7 @@
   place: Brussels, Belgium
   start: 2019-02-03
   end: 2019-02-03
+  sub: PY
   location:
   - title: FOSDEM 2019
     latitude: 50.8465573
@@ -4166,6 +4193,7 @@
   place: Santo Domingo, Dominican Republic
   start: 2019-02-16
   end: 2019-02-17
+  sub: PY
   location:
   - title: PyCaribbean 2019
     latitude: 18.4801972
@@ -4179,6 +4207,7 @@
   place: Brussels, Belgium
   start: 2018-02-03
   end: 2018-02-03
+  sub: PY
   location:
   - title: FOSDEM 2018
     latitude: 50.8465573
@@ -4194,6 +4223,7 @@
   start: 2019-02-09
   end: 2019-02-11
   sponsor: https://pytennessee.org/prospectus
+  sub: PY
   location:
   - title: PyTennessee 2019
     latitude: 36.1622767
@@ -4222,6 +4252,7 @@
   start: 2019-02-23
   end: 2019-02-25
   sponsor: https://web.archive.org/web/20210622113958/https://2019.pycascades.com/become-a-sponsor/
+  sub: PY
   location:
   - title: PyCascades 2019
     latitude: 47.6038321
@@ -4363,6 +4394,7 @@
   place: Dallas, USA
   start: 2018-11-12
   end: 2018-11-12
+  sub: SCIPY
   location:
   - title: PyHPC 2018
     latitude: 32.7762719
@@ -4573,6 +4605,7 @@
   place: New York, USA
   start: 2018-10-05
   end: 2018-10-06
+  sub: PY
   location:
   - title: PyGotham TV 2018
     latitude: 40.7127281
@@ -4902,6 +4935,7 @@
   place: Denver, USA
   start: 2017-11-12
   end: 2017-11-13
+  sub: SCIPY
   location:
   - title: PyHPC 2017
     latitude: 39.7392364
@@ -4956,6 +4990,7 @@
   place: Vancouver, Canada
   start: 2018-01-22
   end: 2018-01-23
+  sub: PY
   location:
   - title: PyCascades 2018
     latitude: 49.27213705
@@ -5040,6 +5075,7 @@
   place: New York, USA
   start: 2017-10-06
   end: 2017-10-08
+  sub: PY
   location:
   - title: PyGotham TV 2017
     latitude: 40.7127281
@@ -5323,6 +5359,7 @@
   place: Groningen, Netherlands
   start: 2017-05-19
   end: 2017-05-19
+  sub: PY
   location:
   - title: PyGrunn 2017
     latitude: 53.2190652
@@ -5376,6 +5413,7 @@
   place: Brussels, Belgium
   start: 2017-02-04
   end: 2017-02-05
+  sub: PY
   location:
   - title: FOSDEM 2017
     latitude: 50.8465573
@@ -5682,6 +5720,7 @@
   place: New York, USA
   start: 2016-07-16
   end: 2016-07-17
+  sub: PY
   location:
   - title: PyGotham TV 2016
     latitude: 40.7127281
@@ -5780,6 +5819,7 @@
   place: Groningen, Netherlands
   start: 2016-05-13
   end: 2016-05-13
+  sub: PY
   location:
   - title: PyGrunn 2016
     latitude: 53.2190652
@@ -5931,6 +5971,7 @@
   place: Brussels, Belgium
   start: 2016-01-30
   end: 2016-01-30
+  sub: PY
   location:
   - title: FOSDEM 2016
     latitude: 50.8465573
@@ -6010,6 +6051,7 @@
   place: Austin, USA
   start: 2015-11-15
   end: 2015-11-15
+  sub: SCIPY
   location:
   - title: PyHPC 2015
     latitude: 30.2711286
@@ -6149,6 +6191,7 @@
   place: New York, USA
   start: 2015-08-15
   end: 2015-08-16
+  sub: PY
   location:
   - title: PyGotham TV 2015
     latitude: 40.7127281
@@ -6384,6 +6427,7 @@
   place: Groningen, Netherlands
   start: 2015-05-22
   end: 2015-05-22
+  sub: PY
   location:
   - title: PyGrunn 2015
     latitude: 53.2190652
@@ -6437,6 +6481,7 @@
   place: Brussels, Belgium
   start: 2015-01-31
   end: 2015-01-31
+  sub: PY
   location:
   - title: FOSDEM 2015
     latitude: 50.8465573
@@ -6520,6 +6565,7 @@
   place: Salt Lake City, USA
   start: 2016-11-14
   end: 2016-11-14
+  sub: SCIPY
   location:
   - title: PyHPC 2016
     latitude: 40.7596198
@@ -6533,6 +6579,7 @@
   place: New Orleans, USA
   start: 2014-11-17
   end: 2014-11-18
+  sub: SCIPY
   location:
   - title: PyHPC 2014
     latitude: 29.9759983
@@ -6663,6 +6710,7 @@
   place: New York, USA
   start: 2014-08-16
   end: 2014-08-17
+  sub: PY
   location:
   - title: PyGotham TV 2014
     latitude: 40.7127281
@@ -6772,6 +6820,7 @@
   place: Groningen, Netherlands
   start: 2014-05-09
   end: 2014-05-10
+  sub: PY
   location:
   - title: PyGrunn 2014
     latitude: 53.2190652
@@ -6885,6 +6934,7 @@
   place: Brussels, Belgium
   start: 2014-02-02
   end: 2014-02-02
+  sub: PY
   location:
   - title: FOSDEM 2014
     latitude: 50.8465573
@@ -6945,6 +6995,7 @@
   place: Denver, USA
   start: 2013-11-18
   end: 2013-11-18
+  sub: SCIPY
   location:
   - title: PyHPC 2013
     latitude: 39.7392364
@@ -7042,6 +7093,7 @@
   place: Budapest, Hungary
   start: 2013-10-11
   end: 2013-10-13
+  sub: PY
   location:
   - title: RuPy 2013
     latitude: 47.48138955
@@ -7168,6 +7220,7 @@
   place: Groningen, Netherlands
   start: 2013-05-10
   end: 2013-05-10
+  sub: PY
   location:
   - title: PyGrunn 2013
     latitude: 53.2190652
@@ -7290,6 +7343,7 @@
   place: Brussels, Belgium
   start: 2013-02-03
   end: 2013-02-03
+  sub: PY
   location:
   - title: FOSDEM 2013
     latitude: 50.8465573
@@ -7430,6 +7484,7 @@
   place: Salt Lake City, USA
   start: 2012-11-16
   end: 2012-11-16
+  sub: SCIPY
   location:
   - title: PyHPC 2012
     latitude: 40.7596198
@@ -7500,6 +7555,7 @@
   place: São Paulo, Brazil
   start: 2012-12-08
   end: 2012-12-09
+  sub: PY
   location:
   - title: RuPy 2012
     latitude: -1.2043218
@@ -7513,6 +7569,7 @@
   place: Brno, Czechia
   start: 2012-11-16
   end: 2012-11-18
+  sub: PY
   location:
   - title: RuPy 2012
     latitude: 49.1922443
@@ -7719,6 +7776,7 @@
   place: New York, USA
   start: 2012-06-08
   end: 2012-06-09
+  sub: PY
   location:
   - title: PyGotham TV 2012
     latitude: 40.7127281
@@ -7772,6 +7830,7 @@
   place: Seattle, USA
   start: 2011-11-18
   end: 2011-11-18
+  sub: SCIPY
   location:
   - title: PyHPC 2011
     latitude: 47.6038321
@@ -7882,6 +7941,7 @@
   place: New York, USA
   start: 2011-09-16
   end: 2011-09-17
+  sub: PY
   location:
   - title: PyGotham TV 2011
     latitude: 40.7127281
@@ -8046,8 +8106,8 @@
   cfp: '2010-07-31 23:59:00'
   timezone: Asia/Kolkata
   place: Bengaluru, India
-  start: 2010-09-27
-  end: 2010-09-26
+  start: 2010-09-26
+  end: 2010-09-27
   sub: PY
   location:
   - title: PyCon India 2010
@@ -8796,3 +8856,31 @@
   - title: EuroPython 2002
     latitude: 50.4116233
     longitude: 4.444528
+
+- conference: DragonPy
+  year: 2020
+  link: https://dragonpy.com/
+  cfp: Cancelled
+  place: Ljubljana, Slovenia
+  start: 2020-09-19
+  end: 2020-09-21
+  sub: WEB,DATA
+  note: Cancelled due to COVID-19
+  location:
+  - title: DragonPy 2020
+    latitude: 46.0500268
+    longitude: 14.5069289
+
+- conference: Caipyra
+  year: 2019
+  link: http://caipyra.python.org.br/
+  cfp: Cancelled
+  place: São Carlos, Brazil
+  start: 2019-07-07
+  end: 2019-07-11
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - title: Caipyra 2019
+    latitude: -22.0180395
+    longitude: -47.891154
