@@ -13,6 +13,7 @@ from tidy_conf import fuzzy_match
 from tidy_conf import load_conferences
 from tidy_conf import merge_conferences
 from tidy_conf.deduplicate import deduplicate
+from tidy_conf.schema import get_schema
 from tidy_conf.utils import fill_missing_required
 from tidy_conf.yaml import load_title_mappings
 from tidy_conf.yaml import write_df_yaml
@@ -94,8 +95,9 @@ def main(year=None, base=""):
 
     # Load the existing conference data
     df_yml = load_conferences()
-    df_new = pd.DataFrame(columns=df_yml.columns)
-    df_csv = pd.DataFrame(columns=df_yml.columns)
+    df_schema = get_schema()
+    df_new = pd.DataFrame(columns=df_schema.columns)
+    df_csv = pd.DataFrame(columns=df_schema.columns)
 
     # Parse your csv file and iterate through year by year
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):

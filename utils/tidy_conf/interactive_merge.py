@@ -179,11 +179,19 @@ def merge_conferences(df_yml, df_remote):
                             cfp_time_x = " " + ry.split(" ")[1]
 
                         # Check if the cfp_ext is the same and if so update the cfp
-                        if rx + cfp_time_x == row["cfp_ext"]:
+                        if rx + cfp_time_x == row["cfp_ext_x"]:
                             df_new.loc[i, "cfp"] = ry + cfp_time_y
                             df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
                             continue
-                        if ry + cfp_time_y == row["cfp_ext"]:
+                        if ry + cfp_time_y == row["cfp_ext_y"]:
+                            df_new.loc[i, "cfp"] = rx + cfp_time_x
+                            df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
+                            continue
+                        if rx + cfp_time_x == row["cfp_ext_y"]:
+                            df_new.loc[i, "cfp"] = ry + cfp_time_y
+                            df_new.loc[i, "cfp_ext"] = rx + cfp_time_x
+                            continue
+                        if ry + cfp_time_y == row["cfp_ext_x"]:
                             df_new.loc[i, "cfp"] = rx + cfp_time_x
                             df_new.loc[i, "cfp_ext"] = ry + cfp_time_y
                             continue
