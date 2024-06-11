@@ -1049,6 +1049,7 @@
     longitude: 3.3941795
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2020
   link: https://na.pycon.org/
   cfp: TBA
@@ -1062,6 +1063,7 @@
     longitude: 17.05860104184979
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2019
   link: https://web.archive.org/web/20181121113217/https://na.pycon.org/
   cfp: TBA

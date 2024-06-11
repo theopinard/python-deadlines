@@ -394,6 +394,20 @@
     latitude: 52.4081812
     longitude: -1.510477
 
+- conference: DragonPy
+  year: 2020
+  link: https://dragonpy.com/
+  cfp: Cancelled
+  place: Ljubljana, Slovenia
+  start: 2020-09-19
+  end: 2020-09-21
+  sub: WEB,DATA
+  note: Cancelled due to COVID-19
+  location:
+  - title: DragonPy 2020
+    latitude: 46.0500268
+    longitude: 14.5069289
+
 - conference: PyCon Slovakia
   alt_name: PyCon SK
   year: 2020
@@ -468,6 +482,20 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: Caipyra
+  year: 2019
+  link: http://caipyra.python.org.br/
+  cfp: Cancelled
+  place: São Carlos, Brazil
+  start: 2019-07-07
+  end: 2019-07-11
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - title: Caipyra 2019
+    latitude: -22.0180395
+    longitude: -47.891154
+
 - conference: PyCon Web
   year: 2018
   link: https://web.archive.org/web/20180817005719/https://pyconweb.com/
@@ -538,6 +566,7 @@
     longitude: 30.460508167757546
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2024
   link: https://na.pycon.org/
   cfp_link: https://na.pycon.org/call-proposals/
@@ -1692,6 +1721,7 @@
     longitude: -122.330062
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2023
   link: https://na.pycon.org/
   cfp_link: https://pretalx.com/pycon-namibia-2022/cfp
@@ -2940,6 +2970,7 @@
   sub: PY
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2021
   link: https://na.pycon.org/2021/
   cfp: '2021-04-11 23:59:00'
@@ -5950,6 +5981,7 @@
     longitude: 11.9403287
 
 - conference: PyCon Namibia
+  alt_name: PyCon NA
   year: 2016
   link: https://web.archive.org/web/20160104173747/http://na.pycon.org/
   cfp: '2015-12-15 23:59:00'
@@ -8856,31 +8888,3 @@
   - title: EuroPython 2002
     latitude: 50.4116233
     longitude: 4.444528
-
-- conference: DragonPy
-  year: 2020
-  link: https://dragonpy.com/
-  cfp: Cancelled
-  place: Ljubljana, Slovenia
-  start: 2020-09-19
-  end: 2020-09-21
-  sub: WEB,DATA
-  note: Cancelled due to COVID-19
-  location:
-  - title: DragonPy 2020
-    latitude: 46.0500268
-    longitude: 14.5069289
-
-- conference: Caipyra
-  year: 2019
-  link: http://caipyra.python.org.br/
-  cfp: Cancelled
-  place: São Carlos, Brazil
-  start: 2019-07-07
-  end: 2019-07-11
-  sub: PY
-  note: Cancelled due to COVID-19
-  location:
-  - title: Caipyra 2019
-    latitude: -22.0180395
-    longitude: -47.891154
