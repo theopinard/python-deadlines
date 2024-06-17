@@ -62,6 +62,24 @@
     latitude: 50.294113
     longitude: 18.6657306
 
+- conference: Python Brasil
+  alt_name: PythonBrasil
+  year: 2024
+  link: https://2024.pythonbrasil.org.br/
+  cfp_link: https://talks.python.org.br/pythonbrasil-2024/cfp
+  cfp: '2024-08-10 23:59:00'
+  timezone: America/Sao_Paulo
+  place: Rio de Janeiro, Brazil
+  start: 2024-10-16
+  end: 2024-10-21
+  sponsor: https://2024.pythonbrasil.org.br/theme/media_kits/sponsorship-proposal-pybr-2024.pdf
+  twitter: PythonBrasil
+  sub: PY
+  location:
+  - title: Python Brasil 2024
+    latitude: -22.9110137
+    longitude: -43.2093727
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon Indonesia
   year: 2024
@@ -1062,19 +1080,3 @@
   - title: PyCon Sweden 2024
     latitude: 59.3251172
     longitude: 18.0710935
-
-- conference: Python Brasil
-  alt_name: PythonBrasil
-  year: 2024
-  link: https://2024.pythonbrasil.org.br/
-  cfp: TBA
-  place: Rio de Janeiro, Brazil
-  start: 2024-10-16
-  end: 2024-10-21
-  sponsor: https://2024.pythonbrasil.org.br/theme/media_kits/sponsorship-proposal-pybr-2024.pdf
-  twitter: PythonBrasil
-  sub: PY
-  location:
-  - title: Python Brasil 2024
-    latitude: -22.9110137
-    longitude: -43.2093727
