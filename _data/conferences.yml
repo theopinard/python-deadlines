@@ -157,6 +157,19 @@
     latitude: -17.8567035
     longitude: 31.0601584
 
+- conference: PyCon Somalia
+  year: 2024
+  link: https://pycon.org.so/
+  cfp: '2024-07-25 23:59:00'
+  place: Mogadishu, Somalia
+  start: 2024-08-21
+  end: 2024-08-22
+  sub: PY
+  location:
+  - title: PyCon Somalia 2024
+    latitude: 2.0349312
+    longitude: 45.3419183
+
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2024
