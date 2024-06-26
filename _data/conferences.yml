@@ -659,20 +659,6 @@
     latitude: 39.9533
     longitude: -75.198
 
-- conference: Flask Con
-  year: 2024
-  link: https://flaskcon.com/2024/
-  cfp: '2024-04-17 23:59:00'
-  place: Pittsburgh, USA
-  start: 2024-05-17
-  end: 2024-05-17
-  sub: WEB
-  note: Alongside PyCon US 2024
-  location:
-  - title: Flask Con 2024
-    latitude: 40.4416941
-    longitude: -79.9900861
-
 - conference: PyCon Estonia
   alt_name: PyCon EE
   year: 2024
@@ -755,22 +741,6 @@
   - title: PyData Paris 2024
     latitude: 48.8588897
     longitude: 2.3200410217200766
-
-- conference: PyGrunn
-  year: 2024
-  link: https://pygrunn.org/
-  cfp_link: https://forms.gle/AXzpAA9KyFaR9VHx8
-  cfp: '2024-04-07 23:59:00'
-  place: Groningen, Netherlands
-  start: 2024-05-17
-  end: 2024-05-17
-  sponsor: https://pygrunn.org/#sponsoring
-  twitter: pygrunn
-  sub: PY
-  location:
-  - title: PyGrunn 2024
-    latitude: 53.2190652
-    longitude: 6.5680077
 
 - conference: EARL
   year: 2024
