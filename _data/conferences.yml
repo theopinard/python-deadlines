@@ -336,6 +336,23 @@
     latitude: 23.2035785
     longitude: -106.4208391
 
+- conference: PyTorch Conference
+  year: 2024
+  link: https://events.linuxfoundation.org/pytorch-conference/
+  cfp_link: https://sessionize.com/pytorch2024/
+  cfp: '2024-06-09 23:59:00'
+  timezone: America/Los_Angeles
+  place: San Francisco, USA
+  start: 2024-09-18
+  end: 2024-09-19
+  sponsor: https://events.linuxfoundation.org/pytorch-conference/sponsor/
+  finaid: https://events.linuxfoundation.org/pytorch-conference/attend/scholarships-travel-funding/
+  sub: DATA
+  location:
+  - title: PyTorch Conference 2024
+    latitude: 37.7681571
+    longitude: -122.392929
+
 - conference: PyHEP
   year: 2024
   link: https://indico.cern.ch/event/1384010/
