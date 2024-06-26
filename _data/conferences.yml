@@ -993,6 +993,22 @@
     latitude: 55.6867243
     longitude: 12.5700724
 
+- conference: PyTorch Conference
+  year: 2023
+  link: https://events.linuxfoundation.org/pytorch-conference/
+  cfp: '2023-07-21 23:59:00'
+  timezone: America/Los_Angeles
+  place: San Francisco, USA
+  start: 2023-10-16
+  end: 2024-10-17
+  sponsor: https://events.linuxfoundation.org/pytorch-conference/sponsor/
+  finaid: https://events.linuxfoundation.org/pytorch-conference/attend/scholarships-travel-funding/
+  sub: DATA
+  location:
+  - title: PyTorch Conference 2023
+    latitude: 37.7681571
+    longitude: -122.392929
+
 - conference: PyData Tel Aviv
   year: 2024
   link: https://pydata.org/telaviv2024/
