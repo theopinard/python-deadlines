@@ -1098,3 +1098,18 @@
   - title: PyCon Sweden 2024
     latitude: 59.3251172
     longitude: 18.0710935
+
+- conference: Python Ho
+  year: 2024
+  link: https://2024.pythonho.com/
+  cfp: TBA
+  place: Ho, Ghana
+  start: 2024-10-26
+  end: 2024-10-27
+  sponsor: https://2024.pythonho.com/sponsors/sponsor-us/
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSfjtg89elA0zgKHYn85kPFXcQJsliB0jhcqdQZR442kts21pQ/viewform
+  sub: PY
+  location:
+  - title: Python Ho 2024
+    latitude: 6.6126598
+    longitude: 0.4688932
