@@ -663,6 +663,25 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2024
+  link: https://pycon.it/en
+  cfp_link: https://2024.pycon.it/cfp
+  cfp: '2024-01-06 23:59:00'
+  cfp_ext: '2024-01-15 23:59:00'
+  place: Florence, Italy
+  start: 2024-05-22
+  end: 2024-05-25
+  sponsor: https://2024.pycon.it/en/sponsor
+  twitter: PyConIT
+  mastodon: https://social.python.it/@pycon
+  sub: PY
+  location:
+  - title: PyCon Italia 2024
+    latitude: 40.038064
+    longitude: 18.4633105
+
 - conference: PyCascades
   year: 2024
   link: https://2024.pycascades.com/
@@ -750,6 +769,24 @@
   - title: PyCon Germany & PyData Berlin 2024
     latitude: 52.5170365
     longitude: 13.3888599
+
+- conference: PyCon US
+  year: 2024
+  link: https://us.pycon.org/2024/
+  cfp_link: https://us.pycon.org/2024/speaking/guidelines/
+  cfp: '2023-12-18 23:59:00'
+  timezone: America/New_York
+  place: Pittsburgh, USA
+  start: 2024-05-15
+  end: 2024-05-23
+  sponsor: https://us.pycon.org/2024/sponsorship/why-sponsor/
+  twitter: pycon
+  mastodon: https://fosstodon.org/@pycon
+  sub: PY
+  location:
+  - title: PyCon US 2024
+    latitude: 40.4416941
+    longitude: -79.9900861
 
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
