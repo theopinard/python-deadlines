@@ -595,6 +595,21 @@
     latitude: 50.6215011
     longitude: 30.460508167757546
 
+- conference: GeoPython
+  year: 2024
+  link: https://2024.geopython.net/
+  cfp_link: https://submit.geopython.net/geopython-2024/cfp
+  cfp: '2024-01-23 00:59:00'
+  timezone: Europe/Zurich
+  place: Basel, Switzerland
+  start: 2024-05-27
+  end: 2024-05-29
+  sub: GEO
+  location:
+  - title: GeoPython 2024
+    latitude: 47.3615882
+    longitude: 7.354445
+
 - conference: PyCon Namibia
   alt_name: PyCon NA
   year: 2024
