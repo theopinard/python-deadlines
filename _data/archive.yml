@@ -484,7 +484,7 @@
 
 - conference: Caipyra
   year: 2019
-  link: http://caipyra.python.org.br/
+  link: https://web.archive.org/web/20190717090447/http://caipyra.python.org.br/
   cfp: Cancelled
   place: São Carlos, Brazil
   start: 2019-07-07
@@ -1140,7 +1140,7 @@
   place: Rapperswil, Switzerland
   start: 2023-09-21
   end: 2023-09-21
-  sponsor: https://python-summit.ch/helpus
+  sponsor: https://web.archive.org/web/20230923151344/https://www.python-summit.ch/helpus/
   twitter: pythonsummit
   sub: PY
   location:
@@ -1531,7 +1531,7 @@
   place: Monterrey, Mexico
   start: 2023-08-24
   end: 2023-08-26
-  sponsor: https://pylatam.org/patrocinios/informacion/
+  sponsor: https://web.archive.org/web/20230927211825/https://www.pylatam.org/patrocinios/informacion/
   twitter: PyLatam
   sub: PY
   location:
@@ -2017,7 +2017,7 @@
 
 - conference: PyCon Chile
   year: 2022
-  link: https://pycon.cl/2022/
+  link: https://web.archive.org/web/20230925093306/https://pycon.cl/2022/
   cfp: '2022-11-12 23:59:00'
   timezone: America/Santiago
   place: Santiago, Chile
@@ -2223,7 +2223,7 @@
 - conference: PyCon South Korea
   alt_name: PyCon Korea
   year: 2022
-  link: https://2022.pycon.kr/
+  link: https://web.archive.org/web/20221001033348/https://2022.pycon.kr/
   cfp: '2022-07-14 23:59:00'
   timezone: Asia/Seoul
   place: Seoul, South Korea
@@ -2890,7 +2890,7 @@
 
 - conference: PyCon Chile
   year: 2021
-  link: https://pycon.cl/2021/
+  link: https://web.archive.org/web/20220925074609/https://pycon.cl/2021/
   cfp: '2021-08-31 23:59:00'
   cfp_ext: '2021-09-12 23:59:00'
   timezone: America/Santiago
@@ -3952,7 +3952,7 @@
 
 - conference: EuroPython
   year: 2019
-  link: https://ep2019.europython.eu/
+  link: https://web.archive.org/web/20190711015008/https://ep2019.europython.eu/
   cfp: '2019-05-12 23:59:59'
   timezone: Europe/Zurich
   place: Basel, Switzerland
@@ -4127,7 +4127,7 @@
 - conference: SciPy US
   alt_name: SciPy
   year: 2019
-  link: https://www.scipy2019.scipy.org/
+  link: https://web.archive.org/web/20190710161403/https://www.scipy2019.scipy.org/
   cfp: '2019-02-15 23:59:00'
   timezone: America/Chicago
   place: Austin, US

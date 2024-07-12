@@ -243,7 +243,7 @@
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2024
-  link: https://pycon.hk/2024
+  link: https://pycon.hk/2024/
   cfp_link: https://pretalx.com/pyconhk2024/cfp
   cfp: '2024-07-01 23:59:00'
   timezone: Asia/Hong_Kong
@@ -260,7 +260,7 @@
 - conference: Swiss Python Summit
   year: 2024
   link: https://python-summit.ch/
-  cfp_link: https://www.python-summit.ch/cfp/
+  cfp_link: https://web.archive.org/web/20240415190539/https://www.python-summit.ch/cfp/
   cfp: '2024-06-30 23:59:00'
   timezone: Europe/Zurich
   place: Rapperswil, Switzerland
@@ -308,7 +308,7 @@
   alt_name: PyCon KR
   year: 2024
   link: https://2024.pycon.kr/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdXXxakv9IZa_Se9DQzG3Kf8qc_ADIlyyTS5h7r20ENSfD6MA/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdXXxakv9IZa_Se9DQzG3Kf8qc_ADIlyyTS5h7r20ENSfD6MA/closedform
   cfp: '2024-06-22 23:59:00'
   place: Suwon, South Korea
   start: 2024-10-25
@@ -323,13 +323,13 @@
   alt_name: PyCon Latam
   year: 2024
   link: https://www.pylatam.org/
-  cfp_link: https://www.papercall.io/pyconlatam24
+  cfp_link: https://web.archive.org/web/20240524062206/https://www.papercall.io/pyconlatam24
   cfp: '2024-06-10 23:59:00'
   tutorial_deadline: '2024-06-10 23:59:00'
   place: Mazatlan, Mexico
   start: 2024-09-19
   end: 2024-09-21
-  sponsor: https://docs.google.com/presentation/d/12_iPvHdtR5islMlL-76Xja2GK0IMccL8/edit#slide=id.p1
+  sponsor: https://web.archive.org/web/20240607024356/https://docs.google.com/presentation/d/12_iPvHdtR5islMlL-76Xja2GK0IMccL8/edit
   sub: PY
   location:
   - title: PyCon Latin America 2024
@@ -993,7 +993,7 @@
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2025
-  link: https://2025.pycon.it/
+  link: https://2025.pycon.it/en
   cfp: TBA
   place: Bologna, Italy
   start: 2025-05-28
