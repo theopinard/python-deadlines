@@ -15,6 +15,23 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: Python Ho
+  year: 2024
+  link: https://2024.pythonho.com/
+  cfp_link: https://www.papercall.io/2024-pythonho-conference
+  cfp: '2024-09-24 11:22:33'
+  timezone: UTC
+  place: Ho, Ghana
+  start: 2024-10-25
+  end: 2024-10-26
+  sponsor: https://2024.pythonho.com/sponsors/sponsor-us/
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSfjtg89elA0zgKHYn85kPFXcQJsliB0jhcqdQZR442kts21pQ/viewform
+  sub: PY
+  location:
+  - title: Python Ho 2024
+    latitude: 6.6126598
+    longitude: 0.4688932
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2024
@@ -1048,18 +1065,3 @@
   - title: Plone Conference 2024
     latitude: -10.3333333
     longitude: -53.2
-
-- conference: Python Ho
-  year: 2024
-  link: https://2024.pythonho.com/
-  cfp: TBA
-  place: Ho, Ghana
-  start: 2024-10-26
-  end: 2024-10-27
-  sponsor: https://2024.pythonho.com/sponsors/sponsor-us/
-  finaid: https://docs.google.com/forms/d/e/1FAIpQLSfjtg89elA0zgKHYn85kPFXcQJsliB0jhcqdQZR442kts21pQ/viewform
-  sub: PY
-  location:
-  - title: Python Ho 2024
-    latitude: 6.6126598
-    longitude: 0.4688932
