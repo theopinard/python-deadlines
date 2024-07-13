@@ -32,6 +32,21 @@
     latitude: 6.6126598
     longitude: 0.4688932
 
+- conference: Python in Education Day
+  year: 2024
+  link: https://scienceoxford.com/python-in-education-day/
+  cfp_link: https://www.surveymonkey.com/r/PythonInEducationDay
+  cfp: '2024-08-31 23:59:00'
+  place: Oxford, UK
+  start: 2024-10-14
+  end: 2024-10-14
+  twitter: ScienceOxford
+  sub: DAY
+  location:
+  - title: Python in Education Day 2024
+    latitude: 51.7520131
+    longitude: -1.2578499
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2024
