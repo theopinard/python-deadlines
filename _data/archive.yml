@@ -1000,20 +1000,6 @@
 - conference: Django Day Copenhagen
   year: 2023
   link: https://2023.djangoday.dk/
-  cfp: '2023-08-31 23:59:59'
-  timezone: Europe/Copenhagen
-  place: Copenhagen, Denmark
-  start: 2023-10-06
-  end: 2023-10-06
-  sub: WEB
-  location:
-  - title: Django Day Copenhagen 2023
-    latitude: 55.6867243
-    longitude: 12.5700724
-
-- conference: DjangoDay Copenhagen
-  year: 2023
-  link: https://2023.djangoday.dk/
   cfp_link: https://2023.djangoday.dk/cfp/
   cfp: '2023-08-31 23:59:59'
   timezone: Europe/Copenhagen
@@ -1022,9 +1008,9 @@
   end: 2023-10-06
   twitter: djangodenmark
   mastodon: https://fosstodon.org/@djangodenmark
-  sub: WEB
+  sub: WEB,DAY
   location:
-  - title: DjangoDay Copenhagen 2023
+  - title: Django Day Copenhagen 2023
     latitude: 55.6867243
     longitude: 12.5700724
 
@@ -1657,7 +1643,7 @@
   end: 2023-06-03
   sponsor: https://forms.gle/7SoVfzBgwYfv1Qw59
   twitter: PyDayLaPaz
-  sub: PY
+  sub: DAY
   location:
   - title: PyDay La Paz 2023
     latitude: -16.4955455
@@ -2602,7 +2588,7 @@
   place: Copenhagen, Denmark
   start: 2022-04-08
   end: 2022-04-09
-  sub: WEB
+  sub: WEB,DAY
   location:
   - title: Django Day Copenhagen 2022
     latitude: 55.6867243

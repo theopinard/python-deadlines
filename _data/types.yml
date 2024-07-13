@@ -20,3 +20,6 @@
 - name: Python Camps
   sub: CAMP
   color: "#303030"
+- name: Python Day
+  sub: DAY
+  color: "#3C1670"

@@ -67,7 +67,7 @@ class Conference(BaseModel):
     @classmethod
     def validate_sub(cls, v):
         for x in v.split(","):
-            if x not in ("PY", "DATA", "WEB", "BIZ", "GEO", "CAMP", "SCIPY"):
+            if x not in ("PY", "DATA", "WEB", "BIZ", "GEO", "CAMP", "SCIPY", "DAY"):
                 raise ValueError("Invalid submission type")
         return v
 

@@ -538,7 +538,7 @@
   place: Copiapó, Chile
   start: 2024-06-12
   end: 2024-06-12
-  sub: PY
+  sub: DAY
   location:
   - title: PyDay Copiapó 2024
     latitude: -27.5406034
@@ -552,7 +552,7 @@
   place: Valparaiso, Chile
   start: 2024-06-14
   end: 2024-06-14
-  sub: PY
+  sub: DAY
   location:
   - title: PyDay Valparaiso 2024
     latitude: -33.0458456
@@ -986,7 +986,7 @@
   end: 2024-10-04
   twitter: djangodenmark
   mastodon: https://fosstodon.org/@djangodenmark
-  sub: WEB
+  sub: WEB,DAY
   location:
   - title: Django Day Copenhagen 2024
     latitude: 55.6867243
