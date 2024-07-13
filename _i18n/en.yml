@@ -53,6 +53,7 @@ subs:
   BIZ: 'Python for Business'
   GEO: 'Python for Earth'
   CAMP: 'Python Camps'
+  DAY: 'Python Day'
 series:
   always: 'Always held in'
   place:
