@@ -3375,6 +3375,15 @@
   end: 2020-04-25
   sub: PY
 
+- conference: Python fwdays
+  year: 2020
+  link: https://web.archive.org/web/20200527064935/https://fwdays.com/en/event/python-fwdays-conference
+  cfp: '2020-04-01 23:59:59'
+  place: Online
+  start: 2020-05-16
+  end: 2020-05-16
+  sub: WEB
+
 - conference: GeoPython
   year: 2020
   link: https://web.archive.org/web/20200921164832/http://2020.geopython.net/
@@ -4083,6 +4092,20 @@
   - title: PyCon Web 2019
     latitude: 48.1371079
     longitude: 11.5753822
+
+- conference: Python Sudeste
+  year: 2019
+  link: https://web.archive.org/web/20190428171204/https://2019.pythonsudeste.org/
+  cfp_link: https://speakerfight.com/events/python-sudeste-2019-palestras/
+  cfp: '2019-03-15 00:00:00'
+  place: Vitória, Brasil
+  start: 2019-04-26
+  end: 2019-04-28
+  sub: PY
+  location:
+  - title: Python Sudeste 2019
+    latitude: -20.3200917
+    longitude: -40.3376682
 
 - conference: PyData Amsterdam
   year: 2019
@@ -5336,6 +5359,21 @@
   - title: Python Nordeste 2017
     latitude: -2.5307316
     longitude: -44.3068265
+
+- conference: Python Sul
+  alt_name: Python Sul (Brazil)
+  year: 2017
+  link: https://web.archive.org/web/20170902194604/http://pythonsul.org/
+  cfp_link: http://speakerfight.com/events/python-sul-2017-palestras/
+  cfp: '2017-03-30 00:00:00'
+  place: Caxias do Sul, Brazil
+  start: 2017-09-08
+  end: 2017-09-10
+  sub: PY
+  location:
+  - title: Python Sul 2017
+    latitude: -29.1685045
+    longitude: -51.1796385
 
 - conference: SciPy US
   alt_name: SciPy

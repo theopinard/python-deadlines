@@ -39,33 +39,6 @@
     latitude: 47.1615416
     longitude: 27.5837224
 
-- conference: Python Sul
-  alt_name: Python Sul (Brazil)
-  year: 2017
-  link: https://web.archive.org/web/20170902194604/http://pythonsul.org/
-  cfp: TBA
-  place: Caxias do Sul, Brazil
-  start: 2017-09-08
-  end: 2017-09-11
-  sub: PY
-  location:
-  - title: Python Sul 2017
-    latitude: -29.1685045
-    longitude: -51.1796385
-
-- conference: Python Sudeste
-  year: 2019
-  link: https://web.archive.org/web/20190428171204/https://2019.pythonsudeste.org/
-  cfp: TBA
-  place: Vitória, Brasil
-  start: 2019-04-26
-  end: 2019-04-29
-  sub: PY
-  location:
-  - title: Python Sudeste 2019
-    latitude: -20.3200917
-    longitude: -40.3376682
-
 - conference: Python Serbia
   year: 2018
   link: https://web.archive.org/web/20180326165724/https://pyser.org
@@ -92,15 +65,6 @@
   - title: Python Pizza Berlin 2019
     latitude: 52.5170365
     longitude: 13.3888599
-
-- conference: Python fwdays
-  year: 2020
-  link: https://fwdays.com/en/event/python-fwdays-conference
-  cfp: TBA
-  place: Online
-  start: 2020-05-16
-  end: 2020-05-16
-  sub: WEB
 
 - conference: PyTexas
   year: 2019
