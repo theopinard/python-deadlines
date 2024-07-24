@@ -545,34 +545,6 @@
     latitude: 53.42968095
     longitude: 14.592912670292268
 
-- conference: PyDay Copiapó
-  year: 2024
-  link: https://www.pyday.cl/copiapo.html
-  cfp_link: https://sessionize.com/pyday-2024/
-  cfp: '2024-05-24 23:59:00'
-  place: Copiapó, Chile
-  start: 2024-06-12
-  end: 2024-06-12
-  sub: DAY
-  location:
-  - title: PyDay Copiapó 2024
-    latitude: -27.5406034
-    longitude: -70.4441348
-
-- conference: PyDay Valparaiso
-  year: 2024
-  link: https://www.pyday.cl/valparaiso.html
-  cfp_link: https://sessionize.com/pyday-2024/
-  cfp: '2024-05-24 23:59:00'
-  place: Valparaiso, Chile
-  start: 2024-06-14
-  end: 2024-06-14
-  sub: DAY
-  location:
-  - title: PyDay Valparaiso 2024
-    latitude: -33.0458456
-    longitude: -71.6196749
-
 - conference: Kiwi PyCon
   alt_name: Kiwi PyCon XIII
   year: 2024
@@ -776,22 +748,6 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
-- conference: BelPy
-  year: 2024
-  link: https://belpy.in/
-  cfp_link: https://web.archive.org/web/20240407222727/https://www.papercall.io/belpy2024
-  cfp: '2024-04-14 19:18:00'
-  timezone: UTC
-  place: Belagavi, India
-  start: 2024-06-06
-  end: 2024-06-08
-  twitter: Belpy2021
-  sub: PY
-  location:
-  - title: BelPy 2024
-    latitude: 15.8572666
-    longitude: 74.5069343
-
 - conference: North Bay Python
   year: 2024
   link: https://2024.northbaypython.org/
@@ -856,22 +812,6 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: PyCon Colombia
-  year: 2024
-  link: https://2024.pycon.co/en
-  cfp_link: https://2024.pycon.co/en/call-for-proposals
-  cfp: '2024-03-11 23:59:59'
-  timezone: America/Bogota
-  place: Medellín, Colombia
-  start: 2024-06-07
-  end: 2024-06-09
-  twitter: PyConColombia
-  sub: PY
-  location:
-  - title: PyCon Colombia 2024
-    latitude: 6.2443382
-    longitude: -75.573553
-
 - conference: PyCon Nigeria
   year: 2024
   link: https://ng.pycon.org/
@@ -884,24 +824,6 @@
   - title: PyCon Nigeria 2024
     latitude: 6.4550575
     longitude: 3.3941795
-
-- conference: Wagtail Space NL
-  year: 2024
-  link: https://nl.wagtail.space/
-  cfp_link: https://nl.wagtail.space/call-for-participation
-  cfp: '2024-03-08 23:59:00'
-  timezone: Europe/Amsterdam
-  place: Arnhem, Netherlands
-  start: 2024-06-12
-  end: 2024-06-14
-  sponsor: https://nl.wagtail.space/sponsors
-  twitter: WagtailCMS
-  mastodon: https://fosstodon.org/@wagtail
-  sub: WEB
-  location:
-  - title: Wagtail Space NL 2024
-    latitude: 51.984257
-    longitude: 5.9108573
 
 - conference: EuroPython
   year: 2024
@@ -936,42 +858,6 @@
   - title: Python Nordeste 2024
     latitude: -5.7944777
     longitude: -35.2119324
-
-- conference: PyData London
-  year: 2024
-  link: https://pydata.org/london2024/
-  cfp_link: https://pydata.org/london2024/cfp#submit
-  cfp: '2024-03-04 23:59:00'
-  timezone: Europe/London
-  place: London, UK
-  start: 2024-06-14
-  end: 2024-06-16
-  sponsor: https://pydata.org/london2024/sponsor
-  twitter: PyDataLondon
-  sub: DATA
-  location:
-  - title: PyData London 2024
-    latitude: 51.5074456
-    longitude: -0.1277653
-
-- conference: DjangoCon Europe
-  year: 2024
-  link: https://2024.djangocon.eu/
-  cfp_link: https://2024.djangocon.eu/talks/cfp/
-  cfp: '2024-02-29 23:59:00'
-  timezone: Europe/Madrid
-  place: Vigo, Spain
-  start: 2024-06-05
-  end: 2024-06-09
-  sponsor: https://2024.djangocon.eu/sponsors/sponsorship/
-  finaid: https://2024.djangocon.eu/information/grants/
-  twitter: DjangoConEurope
-  mastodon: https://fosstodon.org/@djangoconeurope
-  sub: WEB
-  location:
-  - title: DjangoCon Europe 2024
-    latitude: 42.240599
-    longitude: -8.720727
 
 - conference: SciPy US
   alt_name: SciPy
