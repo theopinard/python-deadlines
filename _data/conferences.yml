@@ -786,7 +786,7 @@
   cfp_link: https://tw.pycon.org/2024/en-us/speaking/cfp
   cfp: '2024-04-08 23:59:00'
   tutorial_deadline: '2024-04-08 23:59:00'
-  place: Taipei, Taiwan
+  place: Kaohsiung, Taiwan
   start: 2024-09-21
   end: 2024-09-22
   sponsor: https://tw.pycon.org/2024/en-us/sponsor
@@ -794,8 +794,8 @@
   sub: PY
   location:
   - title: PyCon Taiwan 2024
-    latitude: 25.0375198
-    longitude: 121.5636796
+    latitude: 22.6203348
+    longitude: 120.3120375
 
 - conference: PyData Paris
   year: 2024
