@@ -14,7 +14,7 @@ github_repo: python-deadlines
 
 markdown: kramdown
 ga_id:
-adsense_id: ca-pub-2158291969836277
+adsense_id:
 
 include: ['_pages']
 
