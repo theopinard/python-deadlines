@@ -983,3 +983,16 @@
   - title: PyCascades 2025
     latitude: 45.5202471
     longitude: -122.674194
+
+- conference: Python Norte
+  year: 2024
+  link: https://2024.pythonnorte.org/
+  cfp: None
+  place: Itacoatiara, Brazil
+  start: 2024-09-27
+  end: 2024-09-28
+  sub: PY
+  location:
+  - title: Python Norte 2024
+    latitude: -3.1477898
+    longitude: -58.4461041
