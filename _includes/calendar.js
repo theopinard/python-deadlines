@@ -133,7 +133,7 @@ function load_conference_list() {
       name: "{{conf.conference}} {{conf.year}} CfP {{extended}}",
       color: "red",
       location: "{{conf.place}}",
-      date: "{{conf_date}}",
+      date: "{{conf_date | strip}}",
       subject: "{{conf.sub}}",
       startDate: Date.parse("{{cfp}}"),
       endDate: Date.parse("{{cfp}}"),
