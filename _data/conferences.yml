@@ -32,6 +32,7 @@
     longitude: 17.0325
 
 - conference: Python Ho
+  alt_name: PythonHo Conference
   year: 2024
   link: https://2024.pythonho.com/
   cfp_link: https://www.papercall.io/2024-pythonho-conference
@@ -712,10 +713,11 @@
 - conference: PyData Vermont
   year: 2024
   link: https://pydata.org/vermont2024/
+  cfp_link: https://pydata.org/vermont2024/call-for-proposals
   cfp: '2024-04-26 23:59:00'
   cfp_ext: '2024-05-03 23:59:00'
   timezone: America/New_York
-  place: Burlington, Canada
+  place: Burlington, United States of America
   start: 2024-07-29
   end: 2024-07-30
   sponsor: https://pydata.org/vermont2024/sponsorship-opportunities
