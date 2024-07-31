@@ -728,24 +728,6 @@
     latitude: 42.240599
     longitude: -8.720727
 
-- conference: Wagtail Space US
-  year: 2024
-  link: https://us.wagtail.space/
-  cfp_link: https://us.wagtail.space/#speak
-  cfp: '2024-04-22 23:59:00'
-  timezone: America/New_York
-  place: Philadelphia, USA
-  start: 2024-06-20
-  end: 2024-06-22
-  sponsor: https://us.wagtail.space/#sponsors
-  twitter: WagtailCMS
-  mastodon: https://fosstodon.org/@wagtail
-  sub: WEB
-  location:
-  - title: Wagtail Space US 2024
-    latitude: 39.9533
-    longitude: -75.198
-
 - conference: PyCon Estonia
   alt_name: PyCon EE
   year: 2024
