@@ -451,15 +451,6 @@
     latitude: 37.7681571
     longitude: -122.392929
 
-- conference: PyHEP
-  year: 2024
-  link: https://indico.cern.ch/event/1384010/
-  cfp: '2024-06-05 21:29:00'
-  place: Online
-  start: 2024-07-01
-  end: 2024-07-04
-  sub: PY
-
 - conference: Piter Py
   alt_name: PiterPy
   year: 2024
@@ -762,21 +753,6 @@
   - title: PyCon Estonia 2024
     latitude: 59.4372155
     longitude: 24.7453688
-
-- conference: North Bay Python
-  year: 2024
-  link: https://2024.northbaypython.org/
-  cfp: '2024-04-12 23:59:00'
-  place: Petaluma, USA
-  start: 2024-06-29
-  end: 2024-06-30
-  twitter: northbaypython
-  mastodon: https://social.northbaypython.org/@NorthBayPython
-  sub: PY
-  location:
-  - title: North Bay Python 2024
-    latitude: 38.2325829
-    longitude: -122.636465
 
 - conference: PyCon Taiwan
   alt_name: PyCon TW
