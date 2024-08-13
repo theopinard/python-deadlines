@@ -49,6 +49,21 @@
     latitude: 6.6126598
     longitude: 0.4688932
 
+- conference: PyCascades
+  year: 2025
+  link: https://2025.pycascades.com/
+  cfp_link: https://pretalx.com/pycascades-2025/cfp/
+  cfp: '2024-09-15 23:59:00'
+  place: Portland, USA
+  start: 2025-02-08
+  end: 2025-02-09
+  mastodon: https://fosstodon.org/@pycascades
+  sub: PY
+  location:
+  - title: PyCascades 2025
+    latitude: 45.5202471
+    longitude: -122.674194
+
 - conference: PyCon Chile
   year: 2024
   link: https://pycon.cl/
@@ -944,20 +959,6 @@
   - title: PyCon US 2025
     latitude: 40.4416941
     longitude: -79.9900861
-
-- conference: PyCascades
-  year: 2025
-  link: https://2025.pycascades.com/
-  cfp_link: https://2025.pycascades.com/program/cfp/
-  cfp: TBA
-  place: Portland, USA
-  start: 2025-02-08
-  end: 2025-02-09
-  sub: PY
-  location:
-  - title: PyCascades 2025
-    latitude: 45.5202471
-    longitude: -122.674194
 
 - conference: Python Norte
   year: 2024
