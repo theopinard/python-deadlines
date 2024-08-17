@@ -79,6 +79,22 @@
     latitude: -33.4377756
     longitude: -70.6504502
 
+- conference: PyData NYC
+  year: 2024
+  link: https://pydata.org/nyc2024/
+  cfp: '2024-09-03 23:59:00'
+  timezone: America/New_York
+  place: New York, USA
+  start: 2024-11-06
+  end: 2024-11-08
+  sponsor: https://pydata.org/nyc2024/sponsorship-opportunites
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSdv0gkemT9Q-4O6D0b9By6VWSz_ZFvzSfH0jBphiIyXjwNX2g/viewform?usp=send_form
+  sub: DATA
+  location:
+  - title: PyData NYC 2024
+    latitude: 40.7127281
+    longitude: -74.0060152
+
 - conference: Python in Education Day
   year: 2024
   link: https://scienceoxford.com/python-in-education-day/
