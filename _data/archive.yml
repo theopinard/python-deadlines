@@ -522,6 +522,20 @@
     latitude: 18.52930005
     longitude: 73.85682537025511
 
+- conference: PyData Cologne
+  year: 2016
+  link: https://web.archive.org/web/20161205091341/http://pydata.org/cologne2016/
+  cfp: Cancelled
+  place: Cologne, Germany
+  start: 2016-11-28
+  end: 2016-11-30
+  sub: DATA
+  note: The conference was cancelled due to a fire in the convention center.
+  location:
+  - title: PyData Cologne 2016
+    latitude: 53.328784
+    longitude: 13.072966153528762
+
 - conference: PyCon UK
   year: 2011
   link: https://web.archive.org/web/20110727192434/http://www.pyconuk.org/
@@ -5588,6 +5602,19 @@
     latitude: -2.5307316
     longitude: -44.3068265
 
+- conference: PyData BCN
+  year: 2017
+  link: https://web.archive.org/web/20170313045143/http://pydata.org/barcelona2017/
+  cfp: '2017-04-09 23:59:00'
+  place: Barcelona, Spain
+  start: 2017-05-19
+  end: 2017-05-22
+  sub: DATA
+  location:
+  - title: PyData BCN 2017
+    latitude: 41.3828939
+    longitude: 2.1774322
+
 - conference: Python Sul
   alt_name: Python Sul (Brazil)
   year: 2017
@@ -5980,6 +6007,19 @@
   - title: PyData DC 2016
     latitude: 40.4631789
     longitude: -88.8196613
+
+- conference: PyData Carolinas
+  year: 2016
+  link: https://web.archive.org/web/20160909163256/http://pydata.org/carolinas2016/
+  cfp: '2016-07-17 23:59:00'
+  place: Research Triangle Park, USA
+  start: 2016-09-14
+  end: 2016-09-16
+  sub: DATA
+  location:
+  - title: PyData Carolinas 2016
+    latitude: 35.8923773
+    longitude: -78.86588989367681
 
 - conference: PyCon India
   year: 2016
@@ -7616,6 +7656,19 @@
   - title: DjangoCon US 2013
     latitude: 41.8755616
     longitude: -87.6244212
+
+- conference: PyData Boston
+  year: 2013
+  link: https://web.archive.org/web/20130720075327/http://pydata.org/bos2013/
+  cfp: '2013-06-03 23:59:00'
+  place: Cambridge, USA
+  start: 2013-07-27
+  end: 2013-07-28
+  sub: DATA
+  location:
+  - title: PyData Boston 2013
+    latitude: 42.3655767
+    longitude: -71.1040018
 
 - conference: EuroSciPy
   year: 2013
