@@ -574,6 +574,23 @@
     latitude: -27.5406034
     longitude: -70.4441348
 
+- conference: PyData Eindhoven
+  alt_name: PyData EHV
+  year: 2024
+  link: https://pydata.org/eindhoven2024/call-for-proposals
+  cfp_link: https://pydata.org/eindhoven2024/call-for-proposals
+  cfp: '2024-05-13 23:59:00'
+  timezone: Europe/Amsterdam
+  place: Eindhoven, Netherlands
+  start: 2024-07-11
+  end: 2024-07-11
+  sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunities
+  sub: DATA
+  location:
+  - title: PyData Eindhoven 2024
+    latitude: 51.4383999131
+    longitude: 5.46712979814
+
 - conference: Wagtail Space US
   year: 2024
   link: https://us.wagtail.space/
@@ -4779,6 +4796,20 @@
     latitude: 50.6365654
     longitude: 3.0635282
 
+- conference: PyData Delhi
+  year: 2018
+  link: https://web.archive.org/web/20180818153520/http://pydata.org/delhi2018/
+  cfp_link: https://web.archive.org/web/20180714122043/http://delhi.pydata.org/blog/announcing-pydd18/
+  cfp: '2018-06-20 23:59:00'
+  place: New Delhi, India
+  start: 2018-08-11
+  end: 2018-08-12
+  sub: DATA
+  location:
+  - title: PyData Delhi 2018
+    latitude: 28.6138954
+    longitude: 77.2090057
+
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2018
@@ -5332,6 +5363,33 @@
     latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: PyData Delhi
+  year: 2017
+  link: https://web.archive.org/web/20210416150353/http://pydata.org/delhi2017/
+  cfp: '2017-08-05 23:59:00'
+  place: New Delhi, India
+  start: 2017-09-02
+  end: 2017-09-03
+  sub: DATA
+  location:
+  - title: PyData Delhi 2017
+    latitude: 28.6138954
+    longitude: 77.2090057
+
+- conference: PyData Warsaw
+  year: 2017
+  link: https://web.archive.org/web/20170312132232/http://pydata.org/warsaw2017/
+  cfp_link: https://web.archive.org/web/20170312131955/http://pydata.org/warsaw2017/cfp/
+  cfp: '2017-07-31 23:59:00'
+  place: Warsaw, Poland
+  start: 2017-10-19
+  end: 2017-10-20
+  sub: DATA
+  location:
+  - title: PyData Warsaw 2017
+    latitude: 52.2319581
+    longitude: 21.0067249
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2017
@@ -5458,6 +5516,20 @@
   - title: PyCon Australia 2017
     latitude: -37.8142454
     longitude: 144.9631732
+
+- conference: PyData Seattle
+  year: 2017
+  link: https://web.archive.org/web/20170606194443/http://pydata.org/seattle2017/
+  cfp_link: https://pydata.org/seattle2017/cfp/
+  cfp: '2017-05-01 23:59:00'
+  place: Redmond, USA
+  start: 2017-07-05
+  end: 2017-07-07
+  sub: DATA
+  location:
+  - title: PyData Seattle 2017
+    latitude: 47.6694141
+    longitude: -122.1238767
 
 - conference: PyData Berlin
   year: 2017
@@ -6187,6 +6259,19 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyData Madrid
+  year: 2016
+  link: https://web.archive.org/web/20160412080402/http://pydata.org/madrid2016/
+  cfp: '2016-02-21 23:59:00'
+  place: Madrid, Spain
+  start: 2016-04-08
+  end: 2016-04-10
+  sub: DATA
+  location:
+  - title: PyData Madrid 2016
+    latitude: 40.4167047
+    longitude: -3.7035825
+
 - conference: GeoPython
   year: 2016
   link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
@@ -6213,6 +6298,19 @@
   - title: PyData Amsterdam 2016
     latitude: 52.4111289
     longitude: 4.877231604293446
+
+- conference: PyData Florence
+  year: 2016
+  link: https://web.archive.org/web/20160405012143/http://pydata.it/
+  cfp: '2016-02-09 23:59:00'
+  place: Florence, Italy
+  start: 2016-04-15
+  end: 2016-04-17
+  sub: DATA
+  location:
+  - title: PyData Florence 2016
+    latitude: 40.038064
+    longitude: 18.4633105
 
 - conference: PyCon Slovakia
   alt_name: PyCon SK
@@ -6699,6 +6797,19 @@
   - title: DjangoCon Europe 2015
     latitude: 51.4816546
     longitude: -3.1791934
+
+- conference: PyData Paris
+  year: 2015
+  link: https://web.archive.org/web/20150405053552/http://pydataparis.joinux.org/
+  cfp: '2015-03-03 23:59:00'
+  place: Paris, France
+  start: 2015-04-03
+  end: 2015-04-03
+  sub: DATA
+  location:
+  - title: PyData Paris 2015
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -7308,6 +7419,19 @@
   - title: PyCon Uruguay 2013
     latitude: -34.9058916
     longitude: -56.1913095
+
+- conference: PyData NYC
+  year: 2013
+  link: https://web.archive.org/web/20131111203506/http://pydata.org/nyc2013/
+  cfp: '2013-09-16 23:59:00'
+  place: New York, USA
+  start: 2013-11-08
+  end: 2013-11-11
+  sub: DATA
+  location:
+  - title: PyData NYC 2013
+    latitude: 40.7127281
+    longitude: -74.0060152
 
 - conference: PyCon US
   year: 2014

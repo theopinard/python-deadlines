@@ -675,23 +675,6 @@
     latitude: 55.625578
     longitude: 37.6063916
 
-- conference: PyData Eindhoven
-  alt_name: PyData EHV
-  year: 2024
-  link: https://pydata.org/eindhoven2024/call-for-proposals
-  cfp_link: https://pydata.org/eindhoven2024/call-for-proposals
-  cfp: '2024-05-13 23:59:00'
-  timezone: Europe/Amsterdam
-  place: Eindhoven, Netherlands
-  start: 2024-07-11
-  end: 2024-07-11
-  sponsor: https://pydata.org/eindhoven2024/sponsorship-opportunities
-  sub: DATA
-  location:
-  - title: PyData Eindhoven 2024
-    latitude: 51.4383999131
-    longitude: 5.46712979814
-
 - conference: Python Sul
   alt_name: Python Sul (Brazil)
   year: 2024
