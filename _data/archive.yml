@@ -5556,6 +5556,20 @@
     latitude: 51.8151645
     longitude: 20.3859912
 
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
+  year: 2017
+  link: http://web.archive.org/web/20170304011806/https://www.pycon.kr/2017/
+  cfp: '2017-05-27 23:59:00'
+  place: Seoul, South Korea
+  start: 2017-08-12
+  end: 2017-08-15
+  sub: PY
+  location:
+  - title: PyCon South Korea 2017
+    latitude: 37.5666791
+    longitude: 126.9782914
+
 - conference: DjangoCon Australia
   alt_name: DjangoCon AU
   year: 2017
@@ -6877,6 +6891,20 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2015
+  link: https://web.archive.org/web/20150826062755/http://www.pycon.kr/2015/
+  cfp: '2015-04-07 23:59:00'
+  place: Seoul, South Korea
+  start: 2015-08-29
+  end: 2015-08-30
+  sub: PY
+  location:
+  - title: PyCon South Korea 2015
+    latitude: 37.5666791
+    longitude: 126.9782914
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon Taiwan
   year: 2015
@@ -7216,6 +7244,20 @@
   - title: PyCon Ireland 2014
     latitude: 53.3498006
     longitude: -6.2602964
+
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2014
+  link: https://web.archive.org/web/20140716074223/http://www.pycon.kr/
+  cfp: '2014-07-06 23:59:00'
+  place: Seoul, Korea
+  start: 2014-08-30
+  end: 2014-08-30
+  sub: PY
+  location:
+  - title: PyCon South Korea 2014
+    latitude: 37.5666791
+    longitude: 126.9782914
 
 - conference: Kiwi PyCon
   alt_name: PyCon NZ
