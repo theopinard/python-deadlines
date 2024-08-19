@@ -578,34 +578,6 @@
     latitude: 17.4454957
     longitude: 78.34854697544472
 
-- conference: PyCon South Korea
-  alt_name: PyCon Korea
-  year: 2019
-  link: http://web.archive.org/web/20190403222443/https://www.pycon.kr/2019/
-  cfp: TBA
-  place: Seoul, Seoul
-  start: 2019-08-15
-  end: 2019-08-18
-  sub: PY
-  location:
-  - title: PyCon South Korea 2019
-    latitude: 37.5534363
-    longitude: 126.9697994
-
-- conference: PyCon South Korea
-  alt_name: PyCon Korea
-  year: 2018
-  link: http://web.archive.org/web/20180304011806/https://www.pycon.kr/2018/
-  cfp: TBA
-  place: Seoul, South Korea
-  start: 2018-08-15
-  end: 2018-08-20
-  sub: PY
-  location:
-  - title: PyCon South Korea 2018
-    latitude: 37.5666791
-    longitude: 126.9782914
-
 - conference: PyCon Russia
   year: 2019
   link: https://web.archive.org/web/20230715073901/https://pycon.ru/

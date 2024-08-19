@@ -3173,6 +3173,16 @@
     latitude: 35.718741949999995
     longitude: 139.73118058112317
 
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
+  year: 2021
+  link: https://www.pycon.kr/2021/
+  cfp: '2021-06-30 23:59:00'
+  place: Online
+  start: 2021-10-02
+  end: 2021-10-03
+  sub: PY
+
 - conference: PyHEP
   year: 2021
   link: https://indico.cern.ch/event/1019958/
@@ -3454,6 +3464,16 @@
   - title: PyCon India 2020
     latitude: 12.9767936
     longitude: 77.590082
+
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
+  year: 2020
+  link: https://www.pycon.kr/2020/
+  cfp: '2020-07-14 23:59:00'
+  place: Online
+  start: 2020-09-26
+  end: 2020-09-27
+  sub: PY
 
 - conference: PyCon Australia
   alt_name: PyCon AU
@@ -4261,6 +4281,21 @@
     latitude: 43.2630018
     longitude: -2.9350039
 
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
+  year: 2019
+  link: http://web.archive.org/web/20190403222443/https://www.pycon.kr/2019/
+  cfp: '2019-04-19 23:59:00'
+  cfp_ext: '2019-04-26 23:59:00'
+  place: Seoul, South Korea
+  start: 2019-08-15
+  end: 2019-08-18
+  sub: PY
+  location:
+  - title: PyCon South Korea 2019
+    latitude: 37.5534363
+    longitude: 126.9697994
+
 - conference: PyData London
   year: 2019
   link: https://web.archive.org/web/20190405192005/http://pydata.org/london2019/
@@ -4986,6 +5021,20 @@
   - title: EuroPython 2018
     latitude: 55.9533456
     longitude: -3.1883749
+
+- conference: PyCon South Korea
+  alt_name: PyCon Korea
+  year: 2018
+  link: http://web.archive.org/web/20180304011806/https://www.pycon.kr/2018/
+  cfp: '2018-05-13 23:59:00'
+  place: Seoul, South Korea
+  start: 2018-08-15
+  end: 2018-08-20
+  sub: PY
+  location:
+  - title: PyCon South Korea 2018
+    latitude: 37.5666791
+    longitude: 126.9782914
 
 - conference: PyCon Poland
   alt_name: PyCon PL
