@@ -452,6 +452,21 @@
     latitude: -3.7304512
     longitude: -38.5217989
 
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2020
+  link: https://cz.pycon.org/2020/
+  cfp: Cancelled
+  place: Ostrava, Czechia
+  start: 2020-06-05
+  end: 2020-06-08
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - title: PyCon Czechia 2020
+    latitude: 49.8349139
+    longitude: 18.2820084
+
 - conference: PyGrunn
   year: 2020
   link: https://web.archive.org/web/20200608055024/http://www.pygrunn.org/
@@ -4406,6 +4421,23 @@
     latitude: 35.718741949999995
     longitude: 139.73118058112317
 
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2019
+  link: https://web.archive.org/web/20190130011628/https://cz.pycon.org/2019/
+  cfp_link: https://web.archive.org/web/20210518170623/https://cz.pycon.org/2019/proposals/
+  cfp: '2019-02-17 23:59:00'
+  cfp_ext: '2019-03-07'
+  place: Ostrava, Czechia
+  start: 2019-06-14
+  end: 2019-06-16
+  sponsor: https://cz.pycon.org/2019/static/pyconcz-2019-sponsorship-prospectus.pdf
+  sub: PY
+  location:
+  - title: PyCon Czechia 2019
+    latitude: 49.8349139
+    longitude: 18.2820084
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2019
@@ -5174,6 +5206,22 @@
     latitude: 52.4111289
     longitude: 4.877231604293446
 
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2018
+  link: https://web.archive.org/web/20180202200818/https://cz.pycon.org/2018/
+  cfp_link: https://web.archive.org/web/20180203120450/https://cz.pycon.org/2018/proposals/
+  cfp: '2018-02-28 23:59:00'
+  cfp_ext: '2018-03-10'
+  place: Prague, Czechia
+  start: 2018-06-01
+  end: 2018-06-03
+  sub: PY
+  location:
+  - title: PyCon Czechia 2018
+    latitude: 50.0874654
+    longitude: 14.4212535
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2018
@@ -5714,6 +5762,20 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2017
+  link: https://web.archive.org/web/20170502190107/https://cz.pycon.org/2017/
+  cfp: '2017-04-17 23:59:00'
+  place: Prague, Czechia
+  start: 2017-06-08
+  end: 2017-06-10
+  sub: PY
+  location:
+  - title: PyCon Czechia 2017
+    latitude: 50.0874654
+    longitude: 14.4212535
+
 - conference: EuroPython
   year: 2017
   link: https://web.archive.org/web/20170316094425/http://ep2017.europython.eu/
@@ -6020,6 +6082,20 @@
   - title: PyCon South Africa 2016
     latitude: -26.205
     longitude: 28.049722
+
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2016
+  link: https://web.archive.org/web/20161227174355/https://cz.pycon.org/2016/
+  cfp: '2016-09-15 23:59:00'
+  place: Brno, Czechia
+  start: 2016-10-28
+  end: 2016-10-30
+  sub: PY
+  location:
+  - title: PyCon Czechia 2016
+    latitude: 49.1922443
+    longitude: 16.6113382
 
 - conference: PyMunich
   alt_name: PyCon Germany
@@ -6633,6 +6709,20 @@
   - title: PyCon South Africa 2015
     latitude: -26.205
     longitude: 28.049722
+
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2015
+  link: http://web.archive.org/web/20150905053606/https://cz.pycon.org/
+  cfp: '2015-09-28 23:59:00'
+  place: Brno, Czechia
+  start: 2015-11-14
+  end: 2015-11-15
+  sub: PY
+  location:
+  - title: PyCon Czechia 2015
+    latitude: 49.1922443
+    longitude: 16.6113382
 
 - conference: Python San Sebastian
   year: 2015
