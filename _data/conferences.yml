@@ -244,7 +244,7 @@
   place: Yogyakarta, Indonesia
   start: 2024-10-25
   end: 2024-10-27
-  sponsor: https://2024-apac.pycon.id/sponsorship/
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSckkgXMyjHHUUuq8QdwPUEcwfoUuYrZEmAzErs2xo5YzbiufQ/viewform
   sub: PY
   note: Held at PyCon Indonesia
   location:
@@ -271,7 +271,7 @@
   alt_name: PyCon NL
   year: 2024
   link: https://nl.pycon.org/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe6ZmARu1Vfj-th4nIHYiIqzzwLio3wY7e8nM3GQ-52d2kDrQ/viewform
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe6ZmARu1Vfj-th4nIHYiIqzzwLio3wY7e8nM3GQ-52d2kDrQ/closedform
   cfp: '2024-07-31 23:59:00'
   place: Utrecht, Netherlands
   start: 2024-10-10
@@ -416,7 +416,7 @@
 - conference: PyCon Malaysia
   alt_name: PyCon MY
   year: 2024
-  link: https://pycon.my/
+  link: https://web.archive.org/web/20240815232138/https://www.pycon.my/
   cfp: '2024-06-30 23:59:00'
   timezone: Asia/Kuala_Lumpur
   place: Petaling Jaya, Malaysia
@@ -525,7 +525,7 @@
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2024
-  link: https://2024.pycon.jp/
+  link: https://2024.pycon.jp/ja
   cfp_link: https://pretalx.com/pyconjp2024/cfp
   cfp: '2024-05-31 23:59:00'
   place: Tokyo, Japan
@@ -828,37 +828,6 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: PyCon Nigeria
-  year: 2024
-  link: https://ng.pycon.org/
-  cfp: '2024-03-10 23:59:00'
-  place: Lagos, Nigeria
-  start: 2024-07-10
-  end: 2024-07-13
-  sub: PY
-  location:
-  - title: PyCon Nigeria 2024
-    latitude: 6.4550575
-    longitude: 3.3941795
-
-- conference: EuroPython
-  year: 2024
-  link: https://ep2024.europython.eu/
-  cfp_link: https://ep2024.europython.eu/cfp/
-  cfp: '2024-03-06 23:59:00'
-  place: Prague, Czechia
-  start: 2024-07-08
-  end: 2024-07-14
-  sponsor: https://ep2024.europython.eu/sponsor
-  finaid: https://ep2024.europython.eu/finaid/
-  twitter: EuroPython
-  mastodon: https://fosstodon.org/@europython
-  sub: PY
-  location:
-  - title: EuroPython 2024
-    latitude: 50.0874654
-    longitude: 14.4212535
-
 - conference: Python Nordeste
   year: 2024
   link: https://2024.pythonnordeste.org/
@@ -874,23 +843,6 @@
   - title: Python Nordeste 2024
     latitude: -5.7944777
     longitude: -35.2119324
-
-- conference: SciPy US
-  alt_name: SciPy
-  year: 2024
-  link: https://scipy2024.scipy.org/
-  cfp_link: https://cfp.scipy.org/2024/cfp
-  cfp: '2024-02-27 23:59:00'
-  timezone: America/Los_Angeles
-  place: Tacoma, USA
-  start: 2024-07-08
-  end: 2024-07-14
-  twitter: SciPyConf
-  sub: SCIPY
-  location:
-  - title: SciPy US 2024
-    latitude: 47.2455013
-    longitude: -122.438329
 
 - conference: Django Day Copenhagen
   year: 2024

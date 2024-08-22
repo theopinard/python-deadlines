@@ -743,6 +743,19 @@
     latitude: 6.2443382
     longitude: -75.573553
 
+- conference: PyCon Nigeria
+  year: 2024
+  link: https://ng.pycon.org/
+  cfp: '2024-03-10 23:59:00'
+  place: Lagos, Nigeria
+  start: 2024-07-10
+  end: 2024-07-13
+  sub: PY
+  location:
+  - title: PyCon Nigeria 2024
+    latitude: 6.4550575
+    longitude: 3.3941795
+
 - conference: Wagtail Space NL
   year: 2024
   link: https://nl.wagtail.space/
@@ -760,6 +773,24 @@
   - title: Wagtail Space NL 2024
     latitude: 51.984257
     longitude: 5.9108573
+
+- conference: EuroPython
+  year: 2024
+  link: https://ep2024.europython.eu/
+  cfp_link: https://ep2024.europython.eu/cfp/
+  cfp: '2024-03-06 23:59:00'
+  place: Prague, Czechia
+  start: 2024-07-08
+  end: 2024-07-14
+  sponsor: https://ep2024.europython.eu/sponsor
+  finaid: https://ep2024.europython.eu/finaid/
+  twitter: EuroPython
+  mastodon: https://fosstodon.org/@europython
+  sub: PY
+  location:
+  - title: EuroPython 2024
+    latitude: 50.0874654
+    longitude: 14.4212535
 
 - conference: PyData London
   year: 2024
@@ -796,6 +827,23 @@
   - title: DjangoCon Europe 2024
     latitude: 42.240599
     longitude: -8.720727
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2024
+  link: https://web.archive.org/web/20240705165737/https://www.scipy2024.scipy.org/
+  cfp_link: https://cfp.scipy.org/2024/cfp
+  cfp: '2024-02-27 23:59:00'
+  timezone: America/Los_Angeles
+  place: Tacoma, USA
+  start: 2024-07-08
+  end: 2024-07-14
+  twitter: SciPyConf
+  sub: SCIPY
+  location:
+  - title: SciPy US 2024
+    latitude: 47.2455013
+    longitude: -122.438329
 
 - conference: GeoPython
   year: 2024
@@ -1111,7 +1159,7 @@
 
 - conference: PyData Global
   year: 2023
-  link: https://pydata.org/global2023/
+  link: https://web.archive.org/web/20240303060445/https://pydata.org/global2023
   cfp_link: https://pydata.org/global2023/cfp
   cfp: '2023-10-01 23:59:00'
   place: Online
@@ -1309,7 +1357,7 @@
   place: Badung City, Indonesia
   start: 2023-11-18
   end: 2023-11-19
-  sponsor: https://pycon.id/sponsor
+  sponsor: https://web.archive.org/web/20231203101832/https://pycon.id/sponsor
   twitter: id_pycon
   sub: PY
   location:
@@ -1550,7 +1598,7 @@
 - conference: PyCon Malaysia
   alt_name: PyCon MY
   year: 2023
-  link: https://pycon.my/
+  link: https://web.archive.org/web/20230809230514/https://pycon.my/
   cfp_link: https://papercall.io/pycon-my-2023
   cfp: '2023-05-31 23:59:00'
   timezone: Asia/Kuala_Lumpur
@@ -4091,14 +4139,14 @@
 
 - conference: PyCon Africa
   year: 2019
-  link: https://africa.pycon.org/
+  link: https://web.archive.org/web/20190905014317/https://africa.pycon.org/
   cfp_link: https://web.archive.org/web/20190528155625/https://africa.pycon.org/speaking/
   cfp: '2019-06-01 23:59:00'
   tutorial_deadline: '2019-06-01 23:59:00'
   place: Accra, Ghana
   start: 2019-08-06
   end: 2019-08-10
-  sponsor: https://africa.pycon.org/sponsor/
+  sponsor: https://web.archive.org/web/20200408054059/https://africa.pycon.org/sponsor/
   sub: PY
   location:
   - title: PyCon Africa 2019
@@ -4270,7 +4318,7 @@
   place: Sydney, Australia
   start: 2019-08-02
   end: 2019-08-06
-  sponsor: https://2019.pycon-au.org/sponsor/
+  sponsor: https://web.archive.org/web/20190426053748/https://2019.pycon-au.org/sponsor/
   sub: PY
   location:
   - title: PyCon Australia 2019
@@ -4280,7 +4328,7 @@
 - conference: DjangoCon Australia
   alt_name: DjangoCon AU
   year: 2019
-  link: https://2019.djangocon.com.au/
+  link: https://web.archive.org/web/20190801103059/https://2019.djangocon.com.au/
   cfp: '2019-05-05 23:59:00'
   place: Sydney, Australia
   start: 2019-08-02
@@ -4302,7 +4350,7 @@
   place: Bilbao, Spain
   start: 2019-09-02
   end: 2019-09-07
-  sponsor: https://euroscipy.org/2019/sponsors.html
+  sponsor: https://web.archive.org/web/20191112144705/https://www.euroscipy.org/2019/sponsors.html
   sub: SCIPY
   location:
   - title: EuroSciPy 2019
@@ -4400,7 +4448,7 @@
   place: Basel, Switzerland
   start: 2019-06-24
   end: 2019-06-26
-  sponsor: http://2019.geopython.net/GeoPython_Sponsoring_2019_lowres.pdf
+  sponsor: https://web.archive.org/web/20240812061744/http://2019.geopython.net/GeoPython_Sponsoring_2019_lowres.pdf
   sub: GEO
   location:
   - title: GeoPython 2019
@@ -5737,7 +5785,7 @@
 - conference: PyData Seattle
   year: 2017
   link: https://web.archive.org/web/20170606194443/http://pydata.org/seattle2017/
-  cfp_link: https://pydata.org/seattle2017/cfp/
+  cfp_link: https://web.archive.org/web/20170707164717/https://pydata.org/seattle2017/cfp/
   cfp: '2017-05-01 23:59:00'
   place: Redmond, USA
   start: 2017-07-05
