@@ -4786,6 +4786,21 @@
     latitude: -5.7944777
     longitude: -35.2119324
 
+- conference: PyCon Canada
+  year: 2018
+  link: https://web.archive.org/web/20181115030106/https://2018.pycon.ca/
+  cfp_link: https://www.papercall.io/pyconca2018
+  cfp: '2018-09-24 04:09:00'
+  timezone: UTC
+  place: Toronto, Canada
+  start: 2017-11-09
+  end: 2017-11-13
+  sub: PY
+  location:
+  - title: PyCon Canada 2018
+    latitude: 43.6534817
+    longitude: -79.3839347
+
 - conference: PyCon Zimbabwe
   year: 2018
   link: https://web.archive.org/web/20180825103507/http://zw.pycon.org/
@@ -5497,6 +5512,21 @@
   - title: PyCon South Africa 2017
     latitude: -33.928992
     longitude: 18.417396
+
+- conference: PyCon Canada
+  year: 2017
+  link: https://web.archive.org/web/20171020132949/http://pycon.ca/
+  cfp_link: https://web.archive.org/web/20170727045809/https://www.papercall.io/pyconca2017
+  cfp: '2017-09-10 01:00:00'
+  timezone: America/Toronto
+  place: Montreal, Canada
+  start: 2017-11-18
+  end: 2017-11-21
+  sub: PY
+  location:
+  - title: PyCon Canada 2017
+    latitude: 45.5031824
+    longitude: -73.5698065
 
 - conference: Kiwi PyCon
   alt_name: PyCon NZ
