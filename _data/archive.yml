@@ -5362,6 +5362,19 @@
     latitude: 48.1516988
     longitude: 17.1093063
 
+- conference: PyCon Colombia
+  year: 2018
+  link: https://web.archive.org/web/20180106003834/https://www.pycon.co/
+  cfp: '2018-01-09 23:59:00'
+  place: Medellin, Colombia
+  start: 2018-02-09
+  end: 2018-02-11
+  sub: PY
+  location:
+  - title: PyCon Colombia 2018
+    latitude: 6.2697018
+    longitude: -75.60252574475943
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2018
@@ -6100,6 +6113,19 @@
   - title: DjangoCon Europe 2017
     latitude: 40.038064
     longitude: 18.4633105
+
+- conference: PyCon Colombia
+  year: 2017
+  link: https://web.archive.org/web/20200115024420/https://2017.pycon.co/
+  cfp: '2016-12-16 23:59:00'
+  place: Bogota, Colombia
+  start: 2017-02-10
+  end: 2017-02-11
+  sub: PY
+  location:
+  - title: PyCon Colombia 2017
+    latitude: 4.6529539
+    longitude: -74.0835643
 
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
