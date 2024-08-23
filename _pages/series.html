@@ -25,19 +25,6 @@ title: titles.series
 
     {% include masthead.html title=series_title hook=series_hook description=series_description %}
     <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                  {% include breadcrumbs.html %}
-                  <h1>
-                    {{ title }}
-                  </h1>
-                </div>
-                <div class="meta col-12">
-                  {% tf series/description.md %}
-                </div>
-            </div>
-        </div>
         <div id="confs">
         <div id="past_confs">
           {% assign confs = site.data.conferences | concat: site.data.archive | concat: site.data.legacy | sort: "year" | reverse | group_by: "conference" | sort: "name" %}
