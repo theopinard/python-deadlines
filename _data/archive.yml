@@ -40,6 +40,20 @@
     latitude: 51.6714842
     longitude: -1.2779715
 
+- conference: PyCon Estonia
+  alt_name: PyCon EE
+  year: 2018
+  link: https://web.archive.org/web/20180905200626/https://pycon.ee/
+  cfp: None
+  place: Tallinn, Estonia
+  start: 2018-10-04
+  end: 2018-10-04
+  sub: PY
+  location:
+  - title: PyCon Estonia 2018
+    latitude: 59.4372155
+    longitude: 24.7453688
+
 - conference: PyHEP
   year: 2018
   link: https://web.archive.org/web/20180818114457/https://indico.cern.ch/event/694818/
@@ -3659,6 +3673,16 @@
   end: 2020-06-19
   sub: WEB
 
+- conference: PyCon Estonia
+  alt_name: PyCon EE
+  year: 2020
+  link: https://web.archive.org/web/20200926040819/https://pycon.ee/
+  cfp: '2020-04-15 23:59:00'
+  place: Online
+  start: 2020-10-08
+  end: 2020-10-08
+  sub: PY
+
 - conference: Python Pizza Remote
   year: 2020
   link: https://remote.python.pizza/
@@ -4400,6 +4424,20 @@
   - title: PyCon Taiwan 2019
     latitude: 25.0375198
     longitude: 121.5636796
+
+- conference: PyCon Estonia
+  alt_name: PyCon EE
+  year: 2019
+  link: https://web.archive.org/web/20190724094325/https://pycon.ee/
+  cfp: '2019-04-01 23:59:00'
+  place: Tallinn, Estonia
+  start: 2019-10-03
+  end: 2019-10-03
+  sub: PY
+  location:
+  - title: PyCon Estonia 2019
+    latitude: 59.4372155
+    longitude: 24.7453688
 
 - conference: PyCon Web
   year: 2019
