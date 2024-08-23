@@ -11,19 +11,9 @@ title: titles.archive
 		{% include head.html %}
 	</head>
 	<body>
-    {% include header.html %}
-
-    {% capture arch_title %}
-      {% t titles.archive %}
-    {% endcapture %}
-    {% capture arch_hook %}
-      {% tf frontpage/hook.md %}
-    {% endcapture %}
-    {% capture arch_description %}
-      {% tf frontpage/description.md %}
-    {% endcapture %}
-
-    {% include masthead.html title=arch_title hook=arch_hook description=arch_description %}
+		{% include header.html %} {% capture arch_title %} {% t titles.archive %} {% endcapture %} {% capture arch_hook
+		%} {% tf frontpage/hook.md %} {% endcapture %} {% capture arch_description %} {% tf frontpage/description.md %}
+		{% endcapture %} {% include masthead.html title=arch_title hook=arch_hook description=arch_description %}
 
 		<div class="container">
 			<div id="confs">
@@ -40,7 +30,7 @@ title: titles.archive
 			$(function() {
 			  luxon.Settings.defaultLocale = "{{ site.lang }}";
 			  var DateTime = luxon.DateTime;
-			  var today = datetime.now(tz=timezone.utc);
+			  var today = DateTime.now();
 
 			  // Make sure this is >= no. of subs
 			  // Currently not used
