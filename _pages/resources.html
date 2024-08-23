@@ -12,26 +12,19 @@ title: titles.resources
   </head>
   <body>
     {% include header.html %}
+
+    {% capture ress_title %}
+      {% t titles.resources %}
+    {% endcapture %}
+    {% capture ress_hook %}
+      {% tf frontpage/hook.md %}
+    {% endcapture %}
+    {% capture ress_description %}
+      {% tf resources/description.md %}
+    {% endcapture %}
+
+    {% include masthead.html title=ress_title hook=ress_hook description=ress_description %}
     <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                  {% include breadcrumbs.html %}
-                  <h1>
-                    {{ title}}
-                  </h1>
-                </div>
-                <div class="meta col-12">
-                  Python deadlines curates your favourite Python conferences. Here are some resources that might make your CfP more successful!
-                </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="meta col-12">
-                Is your favourite conference missing? Add / edit a conference by <a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}">sending in a pull request</a>.<br>
-              </div>
-            </div>
-        </div>
         <div id="confs">
         <div id="past_confs">
           {% for post in site.posts %}

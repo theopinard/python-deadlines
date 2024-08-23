@@ -5,37 +5,23 @@ permalink_es: /mapa/
 permalink_de: /karte/
 title: titles.map
 ---
+
 <html>
+	<head>
+		{% include head.html %}
+	</head>
 
-  <head>
-    {% include head.html %}
-  </head>
+	<body>
+		{% include header.html %} {% capture map_title %} {% t titles.map %} {% endcapture %} {% capture map_hook %} {%
+		tf frontpage/hook.md %} {% endcapture %} {% capture map_description %} {% tf frontpage/description.md %} {%
+		endcapture %} {% include masthead.html title=map_title hook=map_hook description=map_description %}
 
-  <body>
-
-    {% include header.html %}
-    <div class="container">
-      {% include breadcrumbs.html %}
-      <h1>{{ title }}</h1>
-      <div class="row">
-        <div class="meta col-sm-12">
-          {% tf maps/description.md %}
-        </div>
-        <br>
-      </div>
-
-      <br>
-
-      <!-- Filter Form -->
-      <div class="row">
-        {% google_map width="100%" zoom="2" id="places" src="_data/conferences.yml" no_cluster %}
-      </div>
-      <footer>
-        {% include footer.html %}
-      </footer>
-
-    </div>
-
-
-  </body>
+		<div class="container">
+			<!-- Filter Form -->
+			<div class="row">
+				{% google_map width="100%" zoom="2" id="places" src="_data/conferences.yml" no_cluster %}
+			</div>
+			<footer>{% include footer.html %}</footer>
+		</div>
+	</body>
 </html>

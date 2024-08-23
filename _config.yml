@@ -24,6 +24,7 @@ collections:
     permalink: /resources/:title/index:output_ext
   years:
     output: true
+    permalink: /archive/:title/index:output_ext
 
 plugins:
 - jekyll-sitemap

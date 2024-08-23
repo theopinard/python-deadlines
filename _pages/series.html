@@ -12,6 +12,18 @@ title: titles.series
   </head>
   <body>
     {% include header.html %}
+
+    {% capture series_title %}
+      {% t titles.series %}
+    {% endcapture %}
+    {% capture series_hook %}
+      {% tf frontpage/hook.md %}
+    {% endcapture %}
+    {% capture series_description %}
+      {% tf series/description.md %}
+    {% endcapture %}
+
+    {% include masthead.html title=series_title hook=series_hook description=series_description %}
     <div class="container">
         <div class="page-header">
             <div class="row">

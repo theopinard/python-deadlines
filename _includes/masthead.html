@@ -1,0 +1,53 @@
+<div class="page-header">
+	<div class="container">
+		<div class="row align-items-end">
+			<div class="col-md-8">
+				{% include breadcrumbs.html %}
+				<h1 class="display-4">{{ include.title}}</h1>
+				<span class="lead"> {{ include.hook}} </span>
+				<span class="text-muted"> {{ include.description}} </span>
+			</div>
+			<div class="col-md-4">
+				<div class="d-flex justify-content-center">
+					<a href="{{ site.baseurl }}/{{ site.github_repo }}.ics" class="btn btn-outline-primary mx-1">
+						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> {% t buttons.ical %}
+					</a>
+					<a
+						href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{ site.github_repo }}.ics"
+						class="btn btn-outline-danger mx-1"
+					>
+						<i class="fa fa-google" aria-hidden="true"></i> {% t buttons.google %}
+					</a>
+					<a
+						href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/"
+						class="btn btn-outline-dark mx-1"
+					>
+						<i class="fa fa-github" aria-hidden="true"></i> {% t buttons.github %}
+					</a>
+				</div>
+				<hr class="my-3" />
+				<form>
+					<div class="form-group">
+						<label for="subject-select" class="mb-2 align-center control-label">
+							{% t global.sub_filter %}
+						</label>
+						<br />
+						<select
+							id="subject-select"
+							name="subject-select"
+							multiple="multiple"
+							class="form-control"
+							style="display: none"
+						>
+							{% for type in site.data.types %}
+							<option value="{{type.sub}}" id="{{type.sub}}-checkbox">
+								{{type.name}} ({{type.sub}})
+							</option>
+							{% endfor %}
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

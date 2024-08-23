@@ -12,52 +12,11 @@ title: titles.calendar
 	</head>
 
 	<body>
-		{% include header.html %}
+		{% include header.html %} {% capture cal_title %} {% t titles.calendar %} {% endcapture %} {% capture cal_hook
+		%} {% tf frontpage/hook.md %} {% endcapture %} {% capture cal_description %} {% tf calendar/description.md %} {%
+		endcapture %} {% include masthead.html title=cal_title description=cal_description %}
+
 		<div class="container">
-			<br />
-			{% include breadcrumbs.html %}
-			<h1>{{title}}</h1>
-			<div class="row">
-				<div class="meta col-sm-12">{% tf calendar/description.md %}</div>
-				<br />
-			</div>
-
-			<br />
-
-			<!-- Filter Form -->
-			<div class="row">
-				<form class="container">
-					<div class="row justify-content-center">
-						<div class="row align-items-md-center col-12 col-10-md">
-							<div class="col-12 col-md-5 filter-label">
-								<label
-									for="subject-select"
-									class="align-center"
-									style="margin-bottom: 0px; line-height: 1.5"
-								>
-									{% t global.sub_filter %}
-								</label>
-							</div>
-							<div class="col-12 col-md-6">
-								<select
-									id="subject-select"
-									name="subject-select"
-									multiple="multiple"
-									style="display: none"
-								>
-									{% for type in site.data.types %}
-									<option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-										{{type.name}} ({{type.sub}})
-									</option>
-									{% endfor %}
-								</select>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-
-			<br />
 			<div id="calendar-page" class="calendar-page"></div>
 
 			<div class="modal fade" id="event-modal">
