@@ -15,7 +15,7 @@
 		{% for conf in site.data.conferences limit:23 %}
 			<item>
 				<title>{{ conf.conference | xml_escape }} {{ conf.year }} Conference Deadline</title>
-				<description><![CDATA[* name of the event: {{conf.conference | xml_escape}} {{ conf.year }}<br/>* type of event: Conference <br/>* focus on Python: Yes<br/>* approximate number of attendees: Unknown<br/>* location (incl. country): {{conf.place | xml_escape }}<br/>* dates/times/recurrence (incl. time zone): {% translate_file dates/pretty_dates.html %}<br/>* HTML link : <a href="{{ conf.link | xml_escape }}">{{ conf.conference | xml_escape }} {{ conf.year }}</a>]]></description>
+				<description><![CDATA[* name of the event: {{conf.conference | xml_escape}} {{ conf.year }}<br/>* type of event: Conference <br/>* focus on Python: Yes<br/>* approximate number of attendees: Unknown<br/>* location (incl. country): {{conf.place | xml_escape }}<br/>* dates/times/recurrence (incl. time zone): {%- translate_file dates/pretty_dates.html -%}<br/>* HTML link : <a href="{{ conf.link | xml_escape }}">{{ conf.conference | xml_escape }} {{ conf.year }}</a>]]></description>
 				<pubDate>{{ conf.start | date_to_rfc822 }}</pubDate>
 				<link>https://{{ site.domain }}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/</link>
 				<guid isPermaLink="false">{{conf.conference | slugify: "latin"}}-{{conf.year}}</guid>

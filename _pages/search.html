@@ -27,7 +27,7 @@ title: titles.search
 	        "{{ conf.conference | slugify: 'latin' }}-{{ conf.year }}": {
 	            "title": "{{ conf.conference | xml_escape }} {{ conf.year | xml_escape }}",
 	            "content": "{{ conf.conference | xml_escape }} {{ conf.year | xml_escape }}",
-	            "date": "{% translate_file dates/pretty_dates.html %}",
+	            "date": "{%- translate_file dates/pretty_dates.html -%}",
 	            "url": "{{site.baseurl}}/{% tl conference %}/{{ conf.conference | slugify: 'latin' }}-{{ conf.year }}",
 	            "place": "{{ conf.place | xml_escape }}",
 	            "subs": "{{ conf.sub }}",
