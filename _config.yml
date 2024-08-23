@@ -22,6 +22,8 @@ collections:
   posts:
     output: true
     permalink: /resources/:title/index:output_ext
+  years:
+    output: true
 
 plugins:
 - jekyll-sitemap
@@ -35,12 +37,13 @@ author:
   url: https://dramsch.net
   twitter: jesperdramsch
 
+
 social:
   name: Jesper Dramsch
   links:
-  - https://twitter.com/JesperDramsch
   - https://www.dramsch.net/linkedin
   - https://www.dramsch.net/mastodon
+  - https://www.dramsch.net/threads
   - https://www.dramsch.net/github
 
 languages:

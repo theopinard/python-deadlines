@@ -28,4 +28,4 @@
   {% assign start_year = start_date | date: "%Y" %}
   {% assign end_year = end_date | date: "%Y" %}
   {% capture pretty_date %}{{start_day}} de {{ start_month}} de {{ start_year }} – {{ end_day }} de {{ end_month }} de {{ end_year }}{% endcapture %}
-{% endif %}{{ pretty_date }}
+{% endif %}{{ pretty_date | strip }}
