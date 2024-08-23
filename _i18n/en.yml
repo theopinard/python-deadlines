@@ -20,6 +20,7 @@ titles:
   impressum: 'Terms & Conditions'
   past_events: 'Past Events'
   past_cfps: 'Past Calls for Participation'
+  search: 'Search'
 description:
   summary: 'Summary of the conference and its instances throughout the years.'
 header:

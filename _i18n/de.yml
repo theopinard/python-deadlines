@@ -20,6 +20,7 @@ titles:
   impressum: 'Impressum'
   past_events: 'Vergangene Konferenzen'
   past_cfps: 'Vergangene CfPs'
+  search: 'Suche'
 buttons:
   ical: Lade iCal runter
   google: Zu Google Kalender hinzufügen
