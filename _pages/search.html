@@ -19,19 +19,35 @@ title: titles.search
 	            "url": "{{ post.url | xml_escape }}",
 	            "place": "",
 	            "subs": "",
-	            "link": ""
+	            "link": "",
+				"alt_name": ""
 	        },
 	    {% endfor %}
 	    {% assign confs = site.data.archive | concat: site.data.conferences | concat: site.data.legacy | sort: "year" | reverse %}
+		{% assign series = confs | group_by: "conference" | sort: "name" %}
+
+	    {% for conf in series %}
+	        "{{ conf.name | slugify: 'latin' }}": {
+	            "title": "{{ conf.name | xml_escape }}",
+	            "content": "{{ conf.name | xml_escape }}",
+	            "date": "{{conf.items[0].year}}",
+	            "url": "{{site.baseurl}}/series/{{conf.name | slugify: 'latin'}}/",
+	            "place": "{{ conf.items[0].place | xml_escape }}",
+	            "subs": "{{ conf.items[0].sub }}",
+	            "link": "{{ conf.items[0].link }}",
+				"alt_name": "{{ conf.items[0].alt_name }}"
+	        },
+	    {% endfor %}
 	    {% for conf in confs %}
 	        "{{ conf.conference | slugify: 'latin' }}-{{ conf.year }}": {
 	            "title": "{{ conf.conference | xml_escape }} {{ conf.year | xml_escape }}",
 	            "content": "{{ conf.conference | xml_escape }} {{ conf.year | xml_escape }}",
 	            "date": "{%- translate_file dates/pretty_dates.html -%}",
-	            "url": "{{site.baseurl}}/{% tl conference %}/{{ conf.conference | slugify: 'latin' }}-{{ conf.year }}",
+	            "url": "{{site.baseurl}}/conference/{{ conf.conference | slugify: 'latin' }}-{{ conf.year }}",
 	            "place": "{{ conf.place | xml_escape }}",
 	            "subs": "{{ conf.sub }}",
-	            "link": "{{ conf.link }}"
+	            "link": "{{ conf.link }}",
+				"alt_name": "{{ conf.alt_name }}"
 	        }
 	    {% unless forloop.last %},{% endunless %}
 	    {% endfor %}
