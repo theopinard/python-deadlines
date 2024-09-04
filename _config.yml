@@ -18,6 +18,18 @@ adsense_id:
 
 include: ['_pages']
 
+defaults:
+- scope:
+    path: ""
+  values:
+    seo_description_max_words: 200
+    image: /static/img/python-deadlines-social-preview.png
+    author: Jesper Dramsch
+- scope:
+    path: "_year"
+  values:
+    layout: "year"
+
 collections:
   posts:
     output: true
