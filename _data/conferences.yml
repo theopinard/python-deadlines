@@ -630,22 +630,6 @@
     latitude: -41.2887953
     longitude: 174.7772114
 
-- conference: PyOhio
-  year: 2024
-  link: https://pyohio.org/2024/
-  cfp_link: https://www.pyohio.org/2024/speaking/cfp/
-  cfp: '2024-05-20 23:59:00'
-  cfp_ext: '2024-05-27 23:59:00'
-  place: Cleveland, USA
-  start: 2024-07-27
-  end: 2024-07-28
-  sponsor: https://www.pyohio.org/2024/sponsors/prospectus/
-  sub: PY
-  location:
-  - title: PyOhio 2024
-    latitude: 41.4996574
-    longitude: -81.6936772
-
 - conference: PyData Amsterdam
   year: 2024
   link: https://amsterdam.pydata.org/
@@ -661,19 +645,6 @@
   - title: PyData Amsterdam 2024
     latitude: 52.4111289
     longitude: 4.877231604293446
-
-- conference: PyCon Russia
-  year: 2024
-  link: https://www.pycon.ru/
-  cfp: '2024-05-15 23:59:00'
-  place: Moscow, Russia
-  start: 2024-07-26
-  end: 2024-07-27
-  sub: PY
-  location:
-  - title: PyCon Russia 2024
-    latitude: 55.625578
-    longitude: 37.6063916
 
 - conference: Python Sul
   alt_name: Python Sul (Brazil)
