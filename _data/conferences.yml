@@ -815,6 +815,19 @@
     latitude: -5.7944777
     longitude: -35.2119324
 
+- conference: Python BarCamp Karlsruhe
+  year: 2025
+  link: https://barcamps.eu/python-barcamp-karlsruhe-2025/
+  cfp: '2024-02-14 23:59:00'
+  place: Karlsruhe, Germany
+  start: 2025-02-15
+  end: 2025-02-16
+  sub: CAMP
+  location:
+  - title: Python BarCamp Karlsruhe 2025
+    latitude: 49.0068705
+    longitude: 8.4034195
+
 - conference: Django Day Copenhagen
   year: 2024
   link: https://2024.djangoday.dk/
