@@ -663,6 +663,23 @@
     latitude: 51.4383999131
     longitude: 5.46712979814
 
+- conference: PyData Vermont
+  year: 2024
+  link: https://pydata.org/vermont2024/
+  cfp_link: https://pydata.org/vermont2024/call-for-proposals
+  cfp: '2024-04-26 23:59:00'
+  cfp_ext: '2024-05-03 23:59:00'
+  timezone: America/New_York
+  place: Burlington, United States of America
+  start: 2024-07-29
+  end: 2024-07-30
+  sponsor: https://pydata.org/vermont2024/sponsorship-opportunities
+  sub: DATA
+  location:
+  - title: PyData Vermont 2024
+    latitude: 43.3248924
+    longitude: -79.7966835
+
 - conference: Wagtail Space US
   year: 2024
   link: https://us.wagtail.space/
@@ -939,7 +956,7 @@
 - conference: PyTexas
   year: 2024
   link: https://pytexas.org/2024/
-  cfp_link: https://pretalx.com/pytexas-2024/
+  cfp_link: https://web.archive.org/web/20240329144646/https://pretalx.com/pytexas-2024/
   cfp: '2024-01-14 23:59:00'
   tutorial_deadline: '2024-01-14 23:59:00'
   timezone: America/Chicago
@@ -1631,7 +1648,7 @@
   place: Tokyo, Japan
   start: 2023-10-27
   end: 2023-10-29
-  sponsor: https://pyconjp.blogspot.com/2023/05/pyconapac2023-call-for-sponsors-en.html
+  sponsor: https://web.archive.org/web/20231125033134/https://pyconjp.blogspot.com/2023/05/pyconapac2023-call-for-sponsors-en.html
   sub: PY
   location:
   - title: PyCon Asia Pacific 2023
@@ -4107,7 +4124,7 @@
 - conference: Python Web Conference
   year: 2019
   link: https://web.archive.org/web/20191220043242/https://2019.indypy.org/webconf/
-  cfp_link: https://www.papercall.io/indypy-web-conf-2019
+  cfp_link: https://web.archive.org/web/20210922133652/https://www.papercall.io/indypy-web-conf-2019
   cfp: '2019-07-19 05:07:00'
   timezone: UTC
   place: Online
@@ -4225,8 +4242,8 @@
 - conference: PyCon Latin America
   alt_name: PyCon LatAm
   year: 2019
-  link: https://pylatam.org/
-  cfp_link: https://papercall.io/pyconlatam
+  link: https://web.archive.org/web/20190829043747/https://www.pylatam.org/
+  cfp_link: https://web.archive.org/web/20201027035946/https://www.papercall.io/pyconlatam
   cfp: '2019-05-31 23:59:00'
   place: Puerto Vallarta, Mexico
   start: 2019-08-29
@@ -4265,8 +4282,8 @@
 
 - conference: PyColorado
   year: 2019
-  link: https://pycolorado.org/
-  cfp_link: https://www.papercall.io/pycolorado
+  link: https://web.archive.org/web/20190408160659/https://pycolorado.org/
+  cfp_link: https://web.archive.org/web/20200809143958/https://www.papercall.io/pycolorado
   cfp: '2019-05-17 12:05:00'
   timezone: UTC
   place: Denver, USA
@@ -4382,7 +4399,7 @@
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2019
-  link: https://2019.pycon-au.org/
+  link: https://web.archive.org/web/20190808014405/https://2019.pycon-au.org/
   cfp: '2019-05-05 23:59:00'
   place: Sydney, Australia
   start: 2019-08-02
@@ -4412,7 +4429,7 @@
 - conference: EuroSciPy
   year: 2019
   link: https://web.archive.org/web/20191105204223/https://www.euroscipy.org/2019/
-  cfp_link: https://pretalx.com/euroscipy-2019/
+  cfp_link: https://web.archive.org/web/20190401033830/https://pretalx.com/euroscipy-2019/
   cfp: '2019-04-28 23:59:59'
   tutorial_deadline: '2019-05-12 23:59:00'
   timezone: Europe/Madrid
@@ -4834,7 +4851,7 @@
 - conference: PyCon Canada
   year: 2018
   link: https://web.archive.org/web/20181115030106/https://2018.pycon.ca/
-  cfp_link: https://www.papercall.io/pyconca2018
+  cfp_link: https://web.archive.org/web/20180731224029/https://www.papercall.io/pyconca2018
   cfp: '2018-09-24 04:09:00'
   timezone: UTC
   place: Toronto, Canada
@@ -5018,7 +5035,7 @@
 
 - conference: Flask Conf Brasil
   year: 2019
-  link: https://2019.flask.python.org.br/
+  link: https://web.archive.org/web/20191207191746/https://2019.flask.python.org.br/
   cfp_link: https://web.archive.org/web/20210515223939/https://speakerfight.com/events/flaskconf-2018/
   cfp: '2018-08-01 23:55:00'
   place: Florianópolis, Brazil
@@ -5062,7 +5079,7 @@
   alt_name: PyCon ES
   year: 2018
   link: https://web.archive.org/web/*/https://2018.es.pycon.org/
-  cfp_link: https://www.papercall.io/pycones2018
+  cfp_link: https://web.archive.org/web/20240822193129/https://www.papercall.io/pycones2018
   cfp: '2018-07-06 23:59:00'
   place: Malaga, Spain
   start: 2018-10-05

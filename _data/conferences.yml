@@ -3,12 +3,15 @@
 - conference: PyTexas
   year: 2025
   link: https://www.pytexas.org/2025/
+  cfp_link: https://pretalx.com/pytexas-2025/
   cfp: '2025-01-14 23:59:00'
   tutorial_deadline: '2025-01-14 23:59:00'
+  timezone: America/Chicago
   place: Austin, USA
   start: 2025-04-11
   end: 2025-04-13
   sponsor: https://www.pytexas.org/2025/sponsors/sponsor-us/
+  finaid: https://www.pytexas.org/2025/attend/in-person/#grants
   sub: PY
   location:
   - title: PyTexas 2025
@@ -42,7 +45,7 @@
   start: 2024-10-25
   end: 2024-10-26
   sponsor: https://2024.pythonho.com/sponsors/sponsor-us/
-  finaid: https://docs.google.com/forms/d/e/1FAIpQLSfjtg89elA0zgKHYn85kPFXcQJsliB0jhcqdQZR442kts21pQ/viewform
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSfjtg89elA0zgKHYn85kPFXcQJsliB0jhcqdQZR442kts21pQ/closedform
   sub: PY
   location:
   - title: Python Ho 2024
@@ -109,7 +112,7 @@
 - conference: Python in Education Day
   year: 2024
   link: https://scienceoxford.com/python-in-education-day/
-  cfp_link: https://www.surveymonkey.com/r/PythonInEducationDay
+  cfp_link: https://web.archive.org/web/20240729170104/https://www.surveymonkey.com/r/PythonInEducationDay
   cfp: '2024-08-31 23:59:00'
   place: Oxford, UK
   start: 2024-10-14
@@ -696,23 +699,6 @@
   - title: PyCon Portugal 2024
     latitude: 41.5510583
     longitude: -8.4280045
-
-- conference: PyData Vermont
-  year: 2024
-  link: https://pydata.org/vermont2024/
-  cfp_link: https://pydata.org/vermont2024/call-for-proposals
-  cfp: '2024-04-26 23:59:00'
-  cfp_ext: '2024-05-03 23:59:00'
-  timezone: America/New_York
-  place: Burlington, United States of America
-  start: 2024-07-29
-  end: 2024-07-30
-  sponsor: https://pydata.org/vermont2024/sponsorship-opportunities
-  sub: DATA
-  location:
-  - title: PyData Vermont 2024
-    latitude: 43.3248924
-    longitude: -79.7966835
 
 - conference: DjangoCon US
   year: 2024
