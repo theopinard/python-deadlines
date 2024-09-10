@@ -1,9 +1,18 @@
+---
 name: Build and deploy jekyll site
 
 on:
   push:
     branches:
     - main
+    paths-ignore:
+    - README.md
+    - .pre-commit-config.yaml
+    - .github/**
+    - .gitignore
+    - .gitattributes
+    - utils/**
+    - pixi.toml
 
   workflow_dispatch: # Allows a run of this workflow to be triggerred manually from the Actions tab
 
