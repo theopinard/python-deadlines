@@ -895,6 +895,19 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
+- conference: PyCon Panamá
+  year: 2024
+  link: https://pycon.pa/
+  cfp: TBA
+  place: Panama City, Panamá
+  start: 2024-10-16
+  end: 2024-10-18
+  sub: PY
+  location:
+  - title: PyCon Panamá 2024
+    latitude: 8.9714493
+    longitude: -79.5341802
+
 - conference: Python Norte
   year: 2024
   link: https://2024.pythonnorte.org/
