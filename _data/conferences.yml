@@ -86,6 +86,8 @@
   place: Portland, USA
   start: 2025-02-08
   end: 2025-02-09
+  sponsor: https://2025.pycascades.com/sponsors/become-a-sponsor/
+  twitter: pyCascades
   mastodon: https://fosstodon.org/@pycascades
   sub: PY
   location:
@@ -817,7 +819,7 @@
     longitude: -35.2119324
 
 - conference: Python BarCamp Karlsruhe
-  year: 2025
+  year: 2024
   link: https://barcamps.eu/python-barcamp-karlsruhe-2025/
   cfp: '2024-02-14 23:59:00'
   place: Karlsruhe, Germany
@@ -872,6 +874,8 @@
   place: Bologna, Italy
   start: 2025-05-28
   end: 2025-05-31
+  twitter: PyConIT
+  mastodon: https://social.python.it/@pycon
   sub: PY
   location:
   - title: PyCon Italia 2025
