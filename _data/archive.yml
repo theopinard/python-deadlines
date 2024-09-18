@@ -869,6 +869,22 @@
     latitude: 50.0874654
     longitude: 14.4212535
 
+- conference: Python Nordeste
+  year: 2024
+  link: https://2024.pythonnordeste.org/
+  cfp_link: https://even3.com.br/python-nordeste-2024/
+  cfp: '2024-03-04 23:59:00'
+  place: Natal, Brazil
+  start: 2024-08-09
+  end: 2024-08-11
+  sponsor: https://drive.google.com/file/d/1WvfelX-Sfp79YcUbf8Hs6e-MtPabVSmO/view
+  twitter: pythonnordeste
+  sub: PY
+  location:
+  - title: Python Nordeste 2024
+    latitude: -5.7944777
+    longitude: -35.2119324
+
 - conference: PyData London
   year: 2024
   link: https://pydata.org/london2024/

@@ -803,22 +803,6 @@
     latitude: 50.8214626
     longitude: -0.1400561
 
-- conference: Python Nordeste
-  year: 2024
-  link: https://2024.pythonnordeste.org/
-  cfp_link: https://even3.com.br/python-nordeste-2024/
-  cfp: '2024-03-04 23:59:00'
-  place: Natal, Brazil
-  start: 2024-08-09
-  end: 2024-08-11
-  sponsor: https://drive.google.com/file/d/1WvfelX-Sfp79YcUbf8Hs6e-MtPabVSmO/view
-  twitter: pythonnordeste
-  sub: PY
-  location:
-  - title: Python Nordeste 2024
-    latitude: -5.7944777
-    longitude: -35.2119324
-
 - conference: Python BarCamp Karlsruhe
   year: 2024
   link: https://barcamps.eu/python-barcamp-karlsruhe-2025/
@@ -921,3 +905,17 @@
   - title: Python Norte 2024
     latitude: -3.1477898
     longitude: -58.4461041
+
+- conference: PyConf Mini Davao
+  year: 2024
+  link: https://pyconf-mini-2024.durianpy.org/
+  cfp: None
+  place: Davao City, Philippines
+  start: 2024-09-26
+  end: 2024-09-26
+  sponsor: https://pyconf-mini-2024.durianpy.org/prospectus
+  sub: PY
+  location:
+  - title: PyConf Mini Davao 2024
+    latitude: 7.0648306
+    longitude: 125.6080623
