@@ -339,9 +339,10 @@
   link: https://pycon.org.so/
   cfp: '2024-07-25 23:59:00'
   place: Mogadishu, Somalia
-  start: 2024-08-21
-  end: 2024-08-22
+  start: 2024-08-28
+  end: 2024-08-29
   sub: PY
+  note: Originally planned for August 21-22, 2024
   location:
   - title: PyCon Somalia 2024
     latitude: 2.0349312
@@ -407,6 +408,7 @@
   link: https://pycon.hk/2024/
   cfp_link: https://pretalx.com/pyconhk2024/cfp
   cfp: '2024-07-01 23:59:00'
+  cfp_ext: '2024-07-21 23:59:00'
   timezone: Asia/Hong_Kong
   place: Hong Kong, China
   start: 2024-11-16
@@ -746,7 +748,6 @@
   place: Tallinn, Estonia
   start: 2024-09-05
   end: 2024-09-06
-  sponsor: https://pydata.org/paris2024/sponsorship-opportunites
   twitter: PyConEstonia
   sub: PY
   location:
@@ -851,6 +852,22 @@
     latitude: 32.0852997
     longitude: 34.7818064
 
+- conference: PyCon Estonia
+  alt_name: PyCon EE
+  year: 2025
+  link: https://pycon.ee/
+  cfp: TBA
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  start: 2025-10-02
+  end: 2025-10-03
+  twitter: PyConEstonia
+  sub: PY
+  location:
+  - title: PyCon Estonia 2025
+    latitude: 59.4372155
+    longitude: 24.7453688
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2025
@@ -880,9 +897,25 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
+  year: 2025
+  link: https://pycon.lt/2025
+  cfp: TBA
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  start: 2025-04-23
+  end: 2025-04-25
+  sponsor: https://pycon.lt/2025/partnership
+  sub: PY
+  location:
+  - title: PyCon Lithuania 2025
+    latitude: 54.6870458
+    longitude: 25.2829111
+
 - conference: PyCon Panamá
   year: 2024
-  link: https://pycon.pa/
+  link: https://pycon.pa/2024/
   cfp: TBA
   place: Panama City, Panamá
   start: 2024-10-16
