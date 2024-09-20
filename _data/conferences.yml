@@ -94,6 +94,7 @@
   link: https://2025.pycascades.com/
   cfp_link: https://pretalx.com/pycascades-2025/cfp/
   cfp: '2024-09-15 23:59:00'
+  cfp_ext: '2024-09-20 23:59:00'
   place: Portland, USA
   start: 2025-02-08
   end: 2025-02-09
@@ -862,6 +863,20 @@
   - title: PyData Tel Aviv 2023
     latitude: 32.0852997
     longitude: 34.7818064
+
+- conference: PyTorch Conference
+  year: 2025
+  link: https://events.linuxfoundation.org/pytorch-conference-2025/
+  cfp: TBA
+  timezone: America/Los_Angeles
+  place: San Francisco, USA
+  start: 2025-10-22
+  end: 2025-10-23
+  sub: DATA
+  location:
+  - title: PyTorch Conference 2025
+    latitude: 37.7681571
+    longitude: -122.392929
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
