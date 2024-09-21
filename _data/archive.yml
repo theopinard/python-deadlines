@@ -2452,6 +2452,20 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2022
+  link: http://pycon.hk/2022/
+  cfp: '2022-09-05 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2022-10-29
+  end: 2022-10-29
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2022
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - conference: SciPy Latin America
   year: 2022
   link: https://pythoncientifico.ar/
@@ -3356,6 +3370,22 @@
   end: 2021-10-03
   sub: PY
 
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2021
+  link: http://pycon.hk/2021/
+  cfp_link: https://forms.gle/roP6WDYGYK61eKX16
+  cfp: '2021-06-14 23:59:00'
+  cfp_ext: '2021-06-30'
+  place: Hong Kong, Hong Kong
+  start: 2021-10-08
+  end: 2021-10-09
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2021
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - conference: PyHEP
   year: 2021
   link: https://indico.cern.ch/event/1019958/
@@ -3583,6 +3613,21 @@
     latitude: -6.8160837
     longitude: 39.2803583
 
+- conference: PyCon Hong Kong Fall
+  alt_name: PyCon Hong Kong
+  year: 2020
+  link: http://pycon.hk/2020-spring/
+  cfp_link: https://forms.gle/oBuiNiLy51DrNkQU6
+  cfp: '2020-09-30 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2020-11-06
+  end: 2020-11-07
+  sub: PY
+  location:
+  - title: PyCon Hong Kong Fall 2020
+    latitude: 22.2793278
+    longitude: 114.1628131
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2020
@@ -3778,6 +3823,21 @@
   start: 2020-10-08
   end: 2020-10-08
   sub: PY
+
+- conference: PyCon Hong Kong Spring
+  alt_name: PyCon Hong Kong
+  year: 2020
+  link: http://pycon.hk/2020-spring/
+  cfp_link: https://forms.gle/hhK6F1QmUrnJ3rmn7
+  cfp: '2020-04-15 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2020-05-08
+  end: 2020-05-10
+  sub: PY
+  location:
+  - title: PyCon Hong Kong Spring 2020
+    latitude: 22.2793278
+    longitude: 114.1628131
 
 - conference: Python Pizza Remote
   year: 2020
@@ -5053,6 +5113,21 @@
   - title: PyCon Colombia 2019
     latitude: 6.2697018
     longitude: -75.60252574475943
+
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2018
+  link: http://pycon.hk/2018/
+  cfp_link: http://bit.ly/2AMNhfZ
+  cfp: '2018-08-31 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2018-11-04
+  end: 2018-11-05
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2018
+    latitude: 22.2793278
+    longitude: 114.1628131
 
 - conference: PyCon Pakistan
   year: 2018
@@ -6419,6 +6494,34 @@
     latitude: 53.3498006
     longitude: -6.2602964
 
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2017
+  link: http://pycon.hk/2017/
+  cfp: '2016-08-14 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2017-11-04
+  end: 2017-11-05
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2017
+    latitude: 22.2793278
+    longitude: 114.1628131
+
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2016
+  link: https://web.archive.org/web/20161101213741/http://pycon.hk/2016/
+  cfp: '2016-08-14 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2016-10-29
+  end: 2016-10-30
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2016
+    latitude: 22.2638172
+    longitude: 114.125794
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2016
@@ -7029,6 +7132,20 @@
   - title: PyCon Spain 2015
     latitude: 39.4697065
     longitude: -0.3763353
+
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2015
+  link: https://web.archive.org/web/20151025152751/http://2015.pycon.hk/
+  cfp: '2015-08-16 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2015-11-07
+  end: 2015-11-08
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2015
+    latitude: 22.2793278
+    longitude: 114.1628131
 
 - conference: PyCon Finland
   alt_name: PyCon FI
