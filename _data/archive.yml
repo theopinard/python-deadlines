@@ -305,6 +305,21 @@
     latitude: 52.5170365
     longitude: 13.3888599
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2020
+  link: http://pycon.it/
+  cfp: Cancelled
+  place: Florence, Italy
+  start: 2020-11-05
+  end: 2020-11-08
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - title: PyCon Italia 2020
+    latitude: 40.038064
+    longitude: 18.4633105
+
 - conference: Python Brasil
   alt_name: PythonBrasil
   year: 2020
