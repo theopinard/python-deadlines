@@ -4109,6 +4109,20 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyCon mini Hiroshima
+  year: 2019
+  link: https://hiroshima.pycon.jp/2019/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdIebD2ijyIFFKAtlR-iYiYWs8kPbP8ZMXNSaw0iiXeC57szA/viewform
+  cfp: '2019-09-01 23:59:00'
+  place: Hiroshima, Japan
+  start: 2019-10-12
+  end: 2019-10-12
+  sub: PY
+  location:
+  - title: PyCon mini Hiroshima 2019
+    latitude: 34.3917241
+    longitude: 132.4517589
+
 - conference: PyCon Singapore
   year: 2019
   link: https://web.archive.org/web/20190406120434/https://pycon.sg/
@@ -4636,6 +4650,19 @@
   - title: PyCon Estonia 2019
     latitude: 59.4372155
     longitude: 24.7453688
+
+- conference: PyCon mini Sapporo
+  year: 2019
+  link: https://web.archive.org/web/20190518044754/https://sapporo.pycon.jp/2019/
+  cfp: '2019-03-31 23:59:00'
+  place: Sapporo, Japan
+  start: 2019-05-11
+  end: 2019-05-11
+  sub: PY
+  location:
+  - title: PyCon mini Sapporo 2019
+    latitude: 43.061936
+    longitude: 141.3542924
 
 - conference: PyCon Web
   year: 2019

@@ -723,33 +723,6 @@
     latitude: -22.611456150000002
     longitude: 17.05860104184979
 
-- conference: PyCon mini Sapporo
-  year: 2019
-  link: https://web.archive.org/web/20190518044754/https://sapporo.pycon.jp/2019/
-  cfp: TBA
-  place: Sapporo, Japan
-  start: 2019-05-11
-  end: 2019-05-11
-  sub: PY
-  location:
-  - title: PyCon mini Sapporo 2019
-    latitude: 43.061936
-    longitude: 141.3542924
-
-- conference: PyCon mini Hiroshima
-  year: 2019
-  link: https://hiroshima.pycon.jp/2019/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdIebD2ijyIFFKAtlR-iYiYWs8kPbP8ZMXNSaw0iiXeC57szA/viewform
-  cfp: TBA
-  place: Hiroshima, Japan
-  start: 2019-10-12
-  end: 2019-10-12
-  sub: PY
-  location:
-  - title: PyCon mini Hiroshima 2019
-    latitude: 34.3917241
-    longitude: 132.4517589
-
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2015
