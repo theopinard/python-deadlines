@@ -750,48 +750,6 @@
     latitude: 34.3917241
     longitude: 132.4517589
 
-- conference: PyCon Malaysia
-  alt_name: PyCon MY
-  year: 2016
-  link: https://web.archive.org/web/20160722184438/https://pycon.my/
-  cfp: TBA
-  place: Kuala Lumpur, Malaysia
-  start: 2016-08-26
-  end: 2016-08-29
-  sub: PY
-  location:
-  - title: PyCon Malaysia 2016
-    latitude: 4.5693754
-    longitude: 102.2656823
-
-- conference: PyCon Malaysia
-  alt_name: PyCon MY
-  year: 2015
-  link: https://web.archive.org/web/20150812151551/http://www.pycon.my/pycon-my-2015
-  cfp: TBA
-  place: Kuala Lumpur, Malaysia
-  start: 2015-08-21
-  end: 2015-08-24
-  sub: PY
-  location:
-  - title: PyCon Malaysia 2015
-    latitude: 4.5693754
-    longitude: 102.2656823
-
-- conference: PyCon Malaysia
-  alt_name: PyCon MY
-  year: 2014
-  link: https://web.archive.org/web/20140301204105/http://www.pycon.my/mini-pycon-my-2014
-  cfp: TBA
-  place: Kuala Lumpur, Malaysia
-  start: 2014-03-15
-  end: 2014-03-16
-  sub: PY
-  location:
-  - title: PyCon Malaysia 2014
-    latitude: 4.5693754
-    longitude: 102.2656823
-
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2015
@@ -844,45 +802,6 @@
   - title: PyCon Kyrgyzstan 2018
     latitude: 42.8777895
     longitude: 74.6066926
-
-- conference: PyCon Kenya
-  year: 2017
-  link: https://web.archive.org/web/20170929035432/http://www.pycon.or.ke/
-  cfp: TBA
-  place: Nairobi, Kenya
-  start: 2017-09-28
-  end: 2017-09-30
-  sub: PY
-  location:
-  - title: PyCon Kenya 2017
-    latitude: -1.2136405
-    longitude: 36.87930533266044
-
-- conference: PyCon Jamaica
-  year: 2017
-  link: https://web.archive.org/web/20171009190334/http://www.pycon.org.jm/
-  cfp: TBA
-  place: Kingston, Jamaica
-  start: 2017-11-16
-  end: 2017-11-19
-  sub: PY
-  location:
-  - title: PyCon Jamaica 2017
-    latitude: 17.9712148
-    longitude: -76.7928128
-
-- conference: PyCon Jamaica
-  year: 2016
-  link: https://web.archive.org/web/20180624093101/http://pythonjam.org.jm/conference-2016
-  cfp: TBA
-  place: Kingston, Jamaica
-  start: 2016-11-17
-  end: 2016-11-19
-  sub: PY
-  location:
-  - title: PyCon Jamaica 2016
-    latitude: 17.9712148
-    longitude: -76.7928128
 
 - conference: PyCon Israel
   year: 2020
