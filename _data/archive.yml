@@ -5184,6 +5184,20 @@
     latitude: 5.5571096
     longitude: -0.2012376
 
+- conference: PyCon India
+  year: 2018
+  link: https://web.archive.org/web/20181022230453/https://in.pycon.org/2018/
+  cfp: '2018-07-10 23:59:00'
+  timezone: Asia/Kolkata
+  place: Hyderabad, India
+  start: 2018-10-05
+  end: 2018-10-09
+  sub: PY
+  location:
+  - title: PyCon India 2018
+    latitude: 17.360589
+    longitude: 78.4740613
+
 - conference: PyCon Spain
   alt_name: PyCon ES
   year: 2018
