@@ -4089,6 +4089,19 @@
     latitude: -30.0324999
     longitude: -51.2303767
 
+- conference: PyTennessee
+  year: 2020
+  link: https://web.archive.org/web/20200324221914/https://www.pytennessee.org
+  cfp: '2019-10-14 23:59:00'
+  place: Nashville, USA
+  start: 2020-03-07
+  end: 2020-03-08
+  sub: PY
+  location:
+  - title: PyTennessee 2020
+    latitude: 36.1622767
+    longitude: -86.7742984
+
 - conference: PyCascades
   year: 2020
   link: https://2020.pycascades.com/
@@ -5050,7 +5063,7 @@
   tutorial_deadline: '2018-11-01 23:59:00'
   place: Nashville, USA
   start: 2019-02-09
-  end: 2019-02-11
+  end: 2019-02-10
   sponsor: https://pytennessee.org/prospectus
   sub: PY
   location:
@@ -5844,6 +5857,19 @@
     latitude: 18.52930005
     longitude: 73.85682537025511
 
+- conference: PyTennessee
+  year: 2017
+  link: https://web.archive.org/web/20170609204820/http://www.pytennessee.org/
+  cfp: '2017-11-15 23:59:00'
+  place: Nashville, USA
+  start: 2017-02-04
+  end: 2017-02-05
+  sub: PY
+  location:
+  - title: PyTennessee 2017
+    latitude: 36.1622767
+    longitude: -86.7742984
+
 - conference: SciPy India
   year: 2017
   link: https://web.archive.org/web/20171005212148/http://scipy.in/2017
@@ -5870,6 +5896,19 @@
   - title: PyCon Indonesia 2017
     latitude: -7.2459717
     longitude: 112.7378266
+
+- conference: PyTennessee
+  year: 2018
+  link: https://web.archive.org/web/20180324221914/https://www.pytennessee.org
+  cfp: '2017-11-01 23:59:00'
+  place: Nashville, USA
+  start: 2018-02-10
+  end: 2018-02-12
+  sub: PY
+  location:
+  - title: PyTennessee 2018
+    latitude: 36.1622767
+    longitude: -86.7742984
 
 - conference: Swiss Python Summit
   year: 2018
@@ -7946,6 +7985,20 @@
     latitude: 50.8465573
     longitude: 4.351697
 
+- conference: PyTennessee
+  year: 2015
+  link: https://web.archive.org/web/20141230143801/https://www.pytennessee.org/
+  cfp_link: https://pytennessee.tumblr.com/post/98889311773/cfp-opens-today-and-more-tickets-are-available
+  cfp: '2014-11-15 23:59:00'
+  place: Nashville, USA
+  start: 2015-02-06
+  end: 2015-02-08
+  sub: PY
+  location:
+  - title: PyTennessee 2015
+    latitude: 36.1622767
+    longitude: -86.7742984
+
 - conference: SciPy India
   year: 2014
   link: https://web.archive.org/web/20141222103930/http://scipy.in/2014
@@ -8481,6 +8534,20 @@
   - title: SciPy India 2013
     latitude: 18.9733536
     longitude: 72.82810491917377
+
+- conference: PyTennessee
+  year: 2014
+  link: https://web.archive.org/web/20141230143801/https://www.pytennessee.org/
+  cfp_link: https://pytennessee.tumblr.com/post/62716977420/call-for-proposals-october-1st
+  cfp: '2013-11-01 23:59:00'
+  place: Nashville, USA
+  start: 2014-02-22
+  end: 2014-02-23
+  sub: PY
+  location:
+  - title: PyTennessee 2014
+    latitude: 36.1622767
+    longitude: -86.7742984
 
 - conference: PyCon China
   year: 2013
