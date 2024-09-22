@@ -1,19 +1,5 @@
 ---
 
-- conference: Python Pizza Berlin
-  alt_name: Berlin Python Pizza
-  year: 2019
-  link: https://web.archive.org/web/20190228024911/https://berlin.python.pizza/
-  cfp: TBA
-  place: Berlin, Germany
-  start: 2019-02-23
-  end: 2019-02-24
-  sub: PY
-  location:
-  - title: Python Pizza Berlin 2019
-    latitude: 52.5170365
-    longitude: 13.3888599
-
 - conference: PyTexas
   year: 2019
   link: https://web.archive.org/web/20190417145918/https://www.pytexas.org/2019/
