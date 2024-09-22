@@ -1,18 +1,5 @@
 ---
 
-- conference: PyPOA
-  year: 2014
-  link: https://web.archive.org/web/20140531064837/http://pypoa.org/
-  cfp: TBA
-  place: Porto Alegre, Brasil
-  start: 2014-06-07
-  end: 2014-06-08
-  sub: PY
-  location:
-  - title: PyPOA 2014
-    latitude: -30.0324999
-    longitude: -51.2303767
-
 - conference: PyParis
   year: 2018
   link: https://web.archive.org/web/20181107132342/http://www.pyparis.org/
