@@ -5607,6 +5607,20 @@
     latitude: 22.2793278
     longitude: 114.1628131
 
+- conference: PyCon Balkan
+  year: 2018
+  link: https://web.archive.org/web/20181123180557/https://www.pyconbalkan.com/
+  cfp_link: https://sessionize.com/pycon-balkan-2018
+  cfp: '2018-08-26 23:59:00'
+  place: Belgrade, Serbia
+  start: 2018-11-16
+  end: 2018-11-18
+  sub: PY
+  location:
+  - title: PyCon Balkan 2018
+    latitude: 44.8178131
+    longitude: 20.4568974
+
 - conference: DjangoCong
   alt_name: Rencontres django
   year: 2018
