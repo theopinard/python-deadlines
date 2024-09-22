@@ -27,6 +27,33 @@
     latitude: 2.0349312
     longitude: 45.3419183
 
+- conference: PyDay Cali
+  year: 2023
+  link: https://www.calidev.co/eventos/pyday/cali-2023/
+  cfp: None
+  place: Cali, Colombia
+  start: 2023-10-21
+  end: 2023-10-21
+  sub: DAY
+  location:
+  - title: PyDay Cali 2023
+    latitude: 3.4520339
+    longitude: -76.5329352
+
+- conference: PyDay Barcelona
+  year: 2019
+  link: https://web.archive.org/web/20200513113600/http://pybcn.org/pyday-bcn-2019/
+  cfp_link: https://web.archive.org/web/20200513113819/https://pybcn.org/call-for-proposals/
+  cfp: None
+  place: Barcelona, Spain
+  start: 2019-10-19
+  end: 2019-10-19
+  sub: DAY
+  location:
+  - title: PyDay Barcelona 2019
+    latitude: 41.3828939
+    longitude: 2.1774322
+
 - conference: PyHEP
   year: 2019
   link: https://indico.cern.ch/event/833895/
@@ -39,6 +66,47 @@
   - title: PyHEP 2019
     latitude: 51.6714842
     longitude: -1.2779715
+
+- conference: PyDay Pereira
+  year: 2019
+  link: https://web.archive.org/web/20200923073841/https://pereira.pyday.co/
+  cfp: None
+  place: Pereira, Colombia
+  start: 2019-06-29
+  end: 2019-06-29
+  sub: DAY
+  location:
+  - title: PyDay Pereira 2019
+    latitude: 4.8143159
+    longitude: -75.6946778
+
+- conference: PyDay NEA
+  year: 2019
+  link: https://web.archive.org/web/20200924174130/https://eventos.python.org.ar/events/pydaynea2019/
+  cfp: None
+  place: Resistencia, Argentina
+  start: 2019-06-29
+  end: 2019-06-29
+  sub: DAY
+  location:
+  - title: PyDay NEA 2019
+    latitude: -27.4511235
+    longitude: -58.9865196
+
+- conference: PyDay Tenerife
+  alt_name: PyDay TF
+  year: 2018
+  link: https://pythoncanarias.es/events/pydaytf18/
+  cfp_link: https://pythoncanarias.es/events/pydaytf18/cfp/
+  cfp: None
+  place: Tenerife, Spain
+  start: 2018-11-17
+  end: 2018-11-17
+  sub: PY
+  location:
+  - title: PyDay TF 2018
+    latitude: 28.2935785
+    longitude: -16.621447121144122
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -120,6 +188,32 @@
     latitude: 53.5672881
     longitude: 9.941726150411604
 
+- conference: PyDay Piura
+  year: 2016
+  link: https://web.archive.org/web/20160806062921/http://pythonpiura.org/primer-pyday-en-piura/
+  cfp: None
+  place: Piura, Peru
+  start: 2016-08-20
+  end: 2016-08-20
+  sub: DAY
+  location:
+  - title: PyDay Piura 2016
+    latitude: -5.0
+    longitude: -80.333333
+
+- conference: PyDay Loja
+  year: 2016
+  link: https://web.archive.org/web/20160418094309/http://pythonecuador.org/
+  cfp: None
+  place: Guayaquil, Ecuador
+  start: 2016-04-01
+  end: 2016-04-01
+  sub: DAY
+  location:
+  - title: PyDay Loja 2016
+    latitude: -2.1900563
+    longitude: -79.8868741
+
 - conference: Python Unconference
   year: 2015
   link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
@@ -132,6 +226,19 @@
   - title: Python Unconference 2015
     latitude: 53.5672881
     longitude: 9.941726150411604
+
+- conference: PyDay Asunción
+  year: 2015
+  link: https://web.archive.org/web/20150326072907/http://pyday.pythonpy.org/
+  cfp: None
+  place: Asunción, Paraguay
+  start: 2015-03-28
+  end: 2015-03-28
+  sub: DAY
+  location:
+  - title: PyDay Asunción 2015
+    latitude: -25.2800459
+    longitude: -57.6343814
 
 - conference: Python Unconference
   year: 2014
@@ -3673,6 +3780,15 @@
   end: 2021-01-31
   sub: PY
 
+- conference: PyDay Chile
+  year: 2020
+  link: https://pydhttps//web.archive.org/web/20201103151233/https://pyday.cl/ay.cl/
+  cfp: '2020-11-18 23:59:00'
+  place: Online
+  start: 2020-12-05
+  end: 2020-12-05
+  sub: DAY
+
 - conference: PyCascades
   year: 2021
   link: https://2021.pycascades.com/
@@ -4191,7 +4307,7 @@
   place: Mexico City, Mexico
   start: 2019-10-18
   end: 2019-10-19
-  sub: PY
+  sub: DAY
   location:
   - title: PyDay Mexico 2019
     latitude: 19.4326296
@@ -4804,7 +4920,7 @@
   place: Vienna, Austria
   start: 2019-05-03
   end: 2019-05-04
-  sub: PY
+  sub: DAY,PY
   location:
   - title: PyDays Vienna 2019
     latitude: 48.1857192
@@ -5207,6 +5323,20 @@
     latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: PyDay Cali
+  year: 2018
+  link: https://www.calidev.co/eventos/pyday/cali-2018/
+  cfp_link: https://www.papercall.io/pyday-cali
+  cfp: '2018-09-30 08:09:10'
+  place: Cali, Colombia
+  start: 2018-10-27
+  end: 2018-10-27
+  sub: DAY
+  location:
+  - title: PyDay Cali 2018
+    latitude: 3.4520339
+    longitude: -76.5329352
+
 - conference: PyCon Canada
   year: 2018
   link: https://web.archive.org/web/20181115030106/https://2018.pycon.ca/
@@ -5378,6 +5508,20 @@
   - title: PyCon Colombia 2019
     latitude: 6.2697018
     longitude: -75.60252574475943
+
+- conference: PyDay Mexico
+  year: 2018
+  link: https://pythondaymx.github.io/
+  cfp_link: https://web.archive.org/web/20180717155533/https://www.papercall.io/pydaymx2018
+  cfp: '2018-09-01 23:09:00'
+  place: Guadalajara, Mexico
+  start: 2018-11-30
+  end: 2018-12-01
+  sub: DAY
+  location:
+  - title: PyDay Mexico 2018
+    latitude: 20.6720375
+    longitude: -103.338396
 
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
@@ -5792,7 +5936,7 @@
   place: Vienna, Austria
   start: 2018-05-04
   end: 2018-05-05
-  sub: PY
+  sub: DAY,PY
   location:
   - title: PyDays Vienna 2018
     latitude: 48.2391664
@@ -6448,6 +6592,20 @@
     latitude: -37.8142454
     longitude: 144.9631732
 
+- conference: PyDay Mexico
+  year: 2017
+  link: https://web.archive.org/web/20170605152219/http://pythonday.mx/
+  cfp_link: https://www.papercall.io/pythondaymx
+  cfp: '2017-05-07 12:00:00'
+  place: Mexico City, Mexico
+  start: 2017-06-10
+  end: 2017-06-10
+  sub: DAY
+  location:
+  - title: PyDay Mexico 2017
+    latitude: 19.4326296
+    longitude: -99.1331785
+
 - conference: PyData Seattle
   year: 2017
   link: https://web.archive.org/web/20170606194443/http://pydata.org/seattle2017/
@@ -6597,7 +6755,7 @@
   place: Vienna, Austria
   start: 2017-05-05
   end: 2017-05-06
-  sub: PY
+  sub: DAY,PY
   location:
   - title: PyDays Vienna 2017
     latitude: 48.2391664
@@ -7398,6 +7556,19 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
+- conference: PyDay Quito
+  year: 2016
+  link: https://web.archive.org/web/20160302102219/http://pythonquito.tk/
+  cfp: '2016-02-28 23:59:00'
+  place: Quito, Ecuador
+  start: 2016-03-08
+  end: 2016-03-09
+  sub: DAY
+  location:
+  - title: PyDay Quito 2016
+    latitude: -0.2201641
+    longitude: -78.5123274
+
 - conference: PyData Madrid
   year: 2016
   link: https://web.archive.org/web/20160412080402/http://pydata.org/madrid2016/
@@ -8145,6 +8316,19 @@
   - title: PyCon Italia 2015
     latitude: 40.038064
     longitude: 18.4633105
+
+- conference: PyDay Formosa
+  year: 2015
+  link: https://web.archive.org/web/20150206085357/http://pyday.forsol.org.ar/
+  cfp: '2015-01-07 23:59:00'
+  place: Formosa, Argentina
+  start: 2015-02-14
+  end: 2015-02-14
+  sub: DAY
+  location:
+  - title: PyDay Formosa 2015
+    latitude: -24.5955306
+    longitude: -60.4289718
 
 - conference: PyCon US
   year: 2016

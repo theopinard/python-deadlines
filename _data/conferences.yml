@@ -939,6 +939,19 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
+- conference: PyDay Cali
+  year: 2024
+  link: https://www.calidev.co/eventos/pyday/cali-2024/
+  cfp: None
+  place: Cali, Colombia
+  start: 2024-10-19
+  end: 2024-10-19
+  sub: DAY
+  location:
+  - title: PyDay Cali 2024
+    latitude: 3.4520339
+    longitude: -76.5329352
+
 - conference: PyCon Panamá
   year: 2024
   link: https://pycon.pa/2024/
