@@ -241,6 +241,19 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: Rencontres django
+  year: 2010
+  link: http://rencontres.django-fr.org/2010/
+  cfp: None
+  place: Marseille, France
+  start: 2010-04-24
+  end: 2010-04-25
+  sub: WEB
+  location:
+  - title: Rencontres django 2010
+    latitude: 43.2961743
+    longitude: 5.3699525
+
 - conference: DjangoCon US
   year: 2008
   link: https://web.archive.org/web/20180325231945/https://2008.djangocon.us/
@@ -4077,6 +4090,20 @@
     latitude: 44.841225
     longitude: -0.5800364
 
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2019
+  link: http://rencontres.django-fr.org/2018/
+  cfp: '2019-09-30 23:59:00'
+  place: Lille, France
+  start: 2019-10-31
+  end: 2019-11-03
+  sub: WEB
+  location:
+  - title: DjangoCong 2019
+    latitude: 50.6365654
+    longitude: 3.0635282
+
 - conference: PyDay Mexico
   year: 2019
   link: https://web.archive.org/web/20190505175944/http://pythonday.mx/
@@ -5197,6 +5224,20 @@
   - title: PyCon Hong Kong 2018
     latitude: 22.2793278
     longitude: 114.1628131
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2018
+  link: http://rencontres.django-fr.org/2018/
+  cfp: '2018-08-23 23:59:00'
+  place: Lille, France
+  start: 2018-06-08
+  end: 2018-06-10
+  sub: WEB
+  location:
+  - title: DjangoCong 2018
+    latitude: 50.6365654
+    longitude: 3.0635282
 
 - conference: PyCon Pakistan
   year: 2018
@@ -6372,6 +6413,20 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2017
+  link: https://web.archive.org/web/20170722083141/http://rencontres.django-fr.org/2017/
+  cfp: '2017-01-15 23:59:00'
+  place: Toulon, France
+  start: 2017-03-31
+  end: 2017-04-02
+  sub: WEB
+  location:
+  - title: Rencontres django 2017
+    latitude: 43.1257311
+    longitude: 5.9304919
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2017
@@ -6916,6 +6971,20 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2016
+  link: http://rencontres.django-fr.org/2016/
+  cfp: '2016-03-31 23:59:00'
+  place: Rennes, France
+  start: 2016-05-21
+  end: 2016-05-21
+  sub: WEB
+  location:
+  - title: DjangoCong 2016
+    latitude: 48.1113387
+    longitude: -1.6800198
+
 - conference: PyCon Ukraine
   alt_name: PyCon UA
   year: 2016
@@ -7428,6 +7497,20 @@
   - title: PyCon UK 2015
     latitude: 52.4081812
     longitude: -1.510477
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2015
+  link: http://rencontres.django-fr.org/2015/
+  cfp: '2015-05-31 23:59:00'
+  place: Clermont-Ferrand, France
+  start: 2015-05-08
+  end: 2015-05-10
+  sub: WEB
+  location:
+  - title: DjangoCong 2015
+    latitude: 45.7774551
+    longitude: 3.0819427
 
 - conference: PyCon India
   year: 2015
@@ -8556,6 +8639,20 @@
     latitude: 42.3655767
     longitude: -71.1040018
 
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2013
+  link: http://rencontres.django-fr.org/2013/
+  cfp: '2013-05-31 23:59:00'
+  place: Belfort, France
+  start: 2013-09-28
+  end: 2013-09-29
+  sub: WEB
+  location:
+  - title: DjangoCong 2013
+    latitude: 47.6379599
+    longitude: 6.8628942
+
 - conference: EuroSciPy
   year: 2013
   link: https://web.archive.org/web/20130523143818/https://www.euroscipy.org/
@@ -8848,6 +8945,20 @@
     latitude: 40.7596198
     longitude: -111.886797
 
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2012
+  link: http://rencontres.django-fr.org/2012/
+  cfp: '2012-08-31 23:59:00'
+  place: Montpellier, France
+  start: 2012-04-14
+  end: 2012-04-15
+  sub: WEB
+  location:
+  - title: DjangoCong 2012
+    latitude: 43.6112422
+    longitude: 3.8767337
+
 - conference: PyCon India
   year: 2012
   link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
@@ -8861,6 +8972,20 @@
   - title: PyCon India 2012
     latitude: 12.9767936
     longitude: 77.590082
+
+- conference: DjangoCon Toulouse
+  alt_name: DjangoCong
+  year: 2012
+  link: http://rencontres.django-fr.org/2012/
+  cfp: '2012-08-23 23:59:00'
+  place: Toulouse, France
+  start: 2012-11-24
+  end: 2012-11-25
+  sub: WEB
+  location:
+  - title: DjangoCong Toulouse 2012
+    latitude: 43.6044622
+    longitude: 1.4442469
 
 - conference: PyCon Ireland
   alt_name: PyCon IE
@@ -9400,6 +9525,20 @@
   - title: PyCon Asia Pacific 2011
     latitude: 1.2899175
     longitude: 103.8519072
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2011
+  link: http://rencontres.django-fr.org/2011/
+  cfp: '2011-03-31 23:59:00'
+  place: Marseille, France
+  start: 2011-04-16
+  end: 2011-04-17
+  sub: WEB
+  location:
+  - title: DjangoCong 2011
+    latitude: 43.2961743
+    longitude: 5.3699525
 
 - conference: PyCon US
   year: 2011
