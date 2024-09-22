@@ -269,7 +269,7 @@
 
 - conference: Rencontres django
   year: 2010
-  link: http://rencontres.django-fr.org/2010/
+  link: https://web.archive.org/web/20110301023828/http://rencontres.django-fr.org/2010/
   cfp: None
   place: Marseille, France
   start: 2010-04-24
@@ -1354,7 +1354,7 @@
   place: Online
   start: 2023-12-06
   end: 2023-12-08
-  sponsor: https://pydata.org/global2023/sponsor
+  sponsor: https://pydata.org/global2023/sponsor/
   sub: DATA
 
 - conference: Python Pizza Hamburg
@@ -2550,7 +2550,7 @@
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2022
-  link: http://pycon.hk/2022/
+  link: https://pycon.hk/2022/
   cfp: '2022-09-05 23:59:00'
   place: Hong Kong, Hong Kong
   start: 2022-10-29
@@ -3468,7 +3468,7 @@
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2021
-  link: http://pycon.hk/2021/
+  link: https://pycon.hk/2021/
   cfp_link: https://forms.gle/roP6WDYGYK61eKX16
   cfp: '2021-06-14 23:59:00'
   cfp_ext: '2021-06-30'
@@ -3711,7 +3711,7 @@
 - conference: PyCon Hong Kong Fall
   alt_name: PyCon Hong Kong
   year: 2020
-  link: http://pycon.hk/2020-spring/
+  link: https://pycon.hk/2020-spring/
   cfp_link: https://forms.gle/oBuiNiLy51DrNkQU6
   cfp: '2020-09-30 23:59:00'
   place: Hong Kong, Hong Kong
@@ -3947,7 +3947,7 @@
 - conference: PyCon Hong Kong Spring
   alt_name: PyCon Hong Kong
   year: 2020
-  link: http://pycon.hk/2020-spring/
+  link: https://pycon.hk/2020-spring/
   cfp_link: https://forms.gle/hhK6F1QmUrnJ3rmn7
   cfp: '2020-04-15 23:59:00'
   place: Hong Kong, Hong Kong
@@ -4471,7 +4471,7 @@
   place: Tokyo, Japan
   start: 2019-09-16
   end: 2019-09-17
-  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/closedform
+  sponsor: https://web.archive.org/web/20191107125024/https://docs.google.com/forms/d/e/1FAIpQLScTCSXE3VsdjHZbxt3QOJbRLNEFjXBDKZxjX6Z2uwWqoT3rYg/closedform
   sub: PY
   location:
   - title: PyCon Japan 2019
@@ -4524,7 +4524,7 @@
 
 - conference: DjangoCon US
   year: 2019
-  link: https://2019.djangocon.us/
+  link: https://web.archive.org/web/20191006102647/https://2019.djangocon.us/
   cfp: '2019-05-20 23:59:00'
   place: San Diego, USA
   start: 2019-09-22
@@ -4749,7 +4749,7 @@
   place: Taipei, Taiwan
   start: 2019-09-20
   end: 2019-09-22
-  sponsor: https://tw.pycon.org/2019/en-us/sponsor/sponsor/
+  sponsor: https://web.archive.org/web/20200814143440/https://tw.pycon.org/2019/en-us/sponsor/sponsor/
   sub: PY
   location:
   - title: PyCon Taiwan 2019
@@ -7291,7 +7291,7 @@
 - conference: DjangoCong
   alt_name: Rencontres django
   year: 2016
-  link: http://rencontres.django-fr.org/2016/
+  link: https://web.archive.org/web/20160521010456/http://rencontres.django-fr.org/2016/
   cfp: '2016-03-31 23:59:00'
   place: Rennes, France
   start: 2016-05-21
@@ -9415,7 +9415,7 @@
 - conference: DjangoCon Toulouse
   alt_name: DjangoCong
   year: 2012
-  link: http://rencontres.django-fr.org/2012/
+  link: https://web.archive.org/web/20121109120455/http://rencontres.django-fr.org/2012/
   cfp: '2012-08-23 23:59:00'
   place: Toulouse, France
   start: 2012-11-24
@@ -9996,7 +9996,7 @@
 - conference: DjangoCong
   alt_name: Rencontres django
   year: 2011
-  link: http://rencontres.django-fr.org/2011/
+  link: https://web.archive.org/web/20110502103928/http://rencontres.django-fr.org/2011/
   cfp: '2011-03-31 23:59:00'
   place: Marseille, France
   start: 2011-04-16
@@ -10138,7 +10138,7 @@
 - conference: PyOhio
   year: 2010
   link: https://web.archive.org/web/20100603222509/http://pyohio.org/
-  cfp_link: https://wiki.python.org/moin/PyOhio/CallForProposals
+  cfp_link: https://web.archive.org/web/20091215100607/http://wiki.python.org/moin/PyOhio/CallForProposals
   cfp: '2010-05-10 23:59:00'
   place: Ohio Union, USA
   start: 2010-07-31
@@ -10514,7 +10514,7 @@
 - conference: PyOhio
   year: 2008
   link: https://web.archive.org/web/20080603222509/http://pyohio.org/
-  cfp_link: https://wiki.python.org/moin/PyOhio2008/CallForProposals
+  cfp_link: https://web.archive.org/web/20110812023502/http://wiki.python.org/moin/PyOhio2008/CallForProposals
   cfp: '2008-06-15 23:59:00'
   place: Ohio Union, USA
   start: 2008-07-27
