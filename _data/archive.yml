@@ -160,6 +160,19 @@
     latitude: -38.7176522
     longitude: -62.2654871
 
+- conference: Python Weekend Romania
+  year: 2014
+  link: https://web.archive.org/web/20141018180902/http://conference.ropython.org/
+  cfp: None
+  place: Iași, Romania
+  start: 2014-10-18
+  end: 2014-10-19
+  sub: PY
+  location:
+  - title: Python Weekend Romania 2014
+    latitude: 47.1615416
+    longitude: 27.5837224
+
 - conference: SciPy Latin America
   alt_name: SciPyCon Argentina
   year: 2013
@@ -4603,6 +4616,20 @@
     latitude: -33.8751704
     longitude: 151.19974848099355
 
+- conference: Python Serbia
+  year: 2019
+  link: https://web.archive.org/web/20190326165724/https://pyser.org
+  cfp_link: https://web.archive.org/web/20211027143649/https://pyser.org/cfp
+  cfp: '2019-05-05 23:59:00'
+  place: Novi Sad, Serbia
+  start: 2019-06-01
+  end: 2019-06-01
+  sub: PY
+  location:
+  - title: Python Serbia 2019
+    latitude: 45.2551338
+    longitude: 19.8451756
+
 - conference: EuroSciPy
   year: 2019
   link: https://web.archive.org/web/20191105204223/https://www.euroscipy.org/2019/
@@ -5503,6 +5530,19 @@
   - title: PyCon Poland 2018
     latitude: 51.8151645
     longitude: 20.3859912
+
+- conference: Python Serbia
+  year: 2018
+  link: https://web.archive.org/web/20180326165724/https://pyser.org
+  cfp: '2018-05-06 23:59:00'
+  place: Novi Sad, Serbia
+  start: 2018-06-09
+  end: 2018-06-09
+  sub: PY
+  location:
+  - title: Python Serbia 2018
+    latitude: 45.2551338
+    longitude: 19.8451756
 
 - conference: PyCon Singapore
   year: 2018
