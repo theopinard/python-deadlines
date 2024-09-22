@@ -392,32 +392,6 @@
     latitude: 15.81527075
     longitude: 74.48744361563915
 
-- conference: PyBay
-  year: 2018
-  link: https://web.archive.org/web/20180811130121/http://pybay.com/
-  cfp: TBA
-  place: San Francisco, USA
-  start: 2018-08-16
-  end: 2018-08-20
-  sub: PY
-  location:
-  - title: PyBay 2018
-    latitude: 37.7681571
-    longitude: -122.392929
-
-- conference: PyBay
-  year: 2016
-  link: https://web.archive.org/web/20160819153259/http://www.pybay.com/
-  cfp: TBA
-  place: San Francisco, USA
-  start: 2016-08-19
-  end: 2016-08-22
-  sub: PY
-  location:
-  - title: PyBay 2016
-    latitude: 37.7681571
-    longitude: -122.392929
-
 - conference: Plone Symposium Tokyo
   year: 2015
   link: https://web.archive.org/web/20150619044225/http://plone.jp/plone-symposium-tokyo-2015

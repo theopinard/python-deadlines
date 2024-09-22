@@ -5993,6 +5993,20 @@
     latitude: 1.2899175
     longitude: 103.8519072
 
+- conference: PyBay
+  year: 2018
+  link: https://web.archive.org/web/20180811130121/http://pybay.com/
+  cfp_link: https://web.archive.org/web/20180413152700/http://pybay.com/cfp
+  cfp: '2018-04-21 23:59:00'
+  place: San Francisco, USA
+  start: 2018-08-16
+  end: 2018-08-19
+  sub: PY
+  location:
+  - title: PyBay 2018
+    latitude: 37.7681571
+    longitude: -122.392929
+
 - conference: Python Nordeste
   year: 2018
   link: https://web.archive.org/web/20181220005202/https://2018.pythonnordeste.org/
@@ -6656,6 +6670,19 @@
   - title: PyCon Japan 2017
     latitude: 35.718741949999995
     longitude: 139.73118058112317
+
+- conference: PyBay
+  year: 2017
+  link: https://web.archive.org/web/20170811130121/http://pybay.com/
+  cfp: '2017-06-16 23:59:00'
+  place: San Francisco, USA
+  start: 2017-08-10
+  end: 2017-08-13
+  sub: PY
+  location:
+  - title: PyBay 2017
+    latitude: 37.7681571
+    longitude: -122.392929
 
 - conference: PyCon Sweden
   alt_name: PyCon SE
@@ -7455,6 +7482,19 @@
   - title: PyCon India 2016
     latitude: 28.6138954
     longitude: 77.2090057
+
+- conference: PyBay
+  year: 2016
+  link: https://web.archive.org/web/20160819153259/http://www.pybay.com/
+  cfp: '2016-06-24 23:59:00'
+  place: San Francisco, USA
+  start: 2016-08-19
+  end: 2016-08-21
+  sub: PY
+  location:
+  - title: PyBay 2016
+    latitude: 37.7681571
+    longitude: -122.392929
 
 - conference: EuroSciPy
   year: 2016
