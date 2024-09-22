@@ -1,40 +1,5 @@
 ---
 
-- conference: PyMunich CodeRetreat
-  year: 2015
-  link: https://web.archive.org/web/20150721215850/http://www.pymunich.com/
-  cfp: TBA
-  place: Munich, Germany
-  start: 2015-08-15
-  end: 2015-08-16
-  sub: PY
-  location:
-  - title: PyMunich CodeRetreat 2015
-    latitude: 48.1371079
-    longitude: 11.5753822
-
-- conference: PyFest
-  year: 2021
-  link: https://pyfest.online/
-  cfp: TBA
-  place: Online
-  start: 2021-06-16
-  end: 2021-06-19
-  sub: PY
-
-- conference: PyDelhi
-  year: 2016
-  link: https://web.archive.org/web/20160223145838/http://conference.pydelhi.org/
-  cfp: TBA
-  place: New Delhi, India
-  start: 2016-03-05
-  end: 2016-03-06
-  sub: PY
-  location:
-  - title: PyDelhi 2016
-    latitude: 28.6138954
-    longitude: 77.2090057
-
 - conference: PyDays Vienna
   year: 2019
   link: https://web.archive.org/web/20190706080705/https://www.pydays.at/
@@ -52,7 +17,7 @@
   year: 2018
   link: https://web.archive.org/web/20180430140857/https://www.pydays.at/
   cfp: TBA
-  place: FH Technikum Wien, Austria
+  place: Vienna, Austria
   start: 2018-05-04
   end: 2018-05-06
   sub: PY
@@ -65,7 +30,7 @@
   year: 2017
   link: https://web.archive.org/web/20170508050023/http://pydays.at/
   cfp: TBA
-  place: FH Technikum Wien, Austria
+  place: Vienna, Austria
   start: 2017-05-05
   end: 2017-05-07
   sub: PY
@@ -74,7 +39,8 @@
     latitude: 48.2391664
     longitude: 16.3774409
 
-- conference: PyDay TF
+- conference: PyDay Tenerife
+  alt_name: PyDay TF
   year: 2018
   link: https://pyday.pythoncanarias.es/
   cfp: TBA
