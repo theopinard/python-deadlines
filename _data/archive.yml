@@ -6327,6 +6327,20 @@
     latitude: 37.5666791
     longitude: 126.9782914
 
+- conference: PyOhio
+  year: 2017
+  link: https://www.pyohio.org/2017/
+  cfp: '2017-05-25 23:59:00'
+  cfp_ext: https://www.pyohio.org/2017/call-for-proposals/
+  place: Columbus, USA
+  start: 2017-07-29
+  end: 2017-07-30
+  sub: PY
+  location:
+  - title: PyOhio 2017
+    latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: DjangoCon Australia
   alt_name: DjangoCon AU
   year: 2017
@@ -7039,6 +7053,20 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: PyOhio
+  year: 2016
+  link: https://web.archive.org/web/20160727174037/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20160719173616/http://pyohio.org/call-for-proposals/
+  cfp: '2016-06-04 23:59:00'
+  place: Columbus, USA
+  start: 2016-07-30
+  end: 2016-07-31
+  sub: PY
+  location:
+  - title: PyOhio 2016
+    latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon Malaysia
   year: 2017
@@ -7706,6 +7734,20 @@
   - title: PyCon UK 2015
     latitude: 52.4081812
     longitude: -1.510477
+
+- conference: PyOhio
+  year: 2015
+  link: https://web.archive.org/web/20150623064947/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20150713224810/http://www.pyohio.org/call-for-proposals/
+  cfp: '2015-06-01 23:59:00'
+  place: Columbus, OH
+  start: 2015-08-01
+  end: 2015-08-02
+  sub: PY
+  location:
+  - title: PyOhio 2015
+    latitude: 39.9622601
+    longitude: -83.0007065
 
 - conference: DjangoCong
   alt_name: Rencontres django
@@ -8377,6 +8419,20 @@
     latitude: 12.9767936
     longitude: 77.590082
 
+- conference: PyOhio
+  year: 2014
+  link: https://web.archive.org/web/20140428063228/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20140703230003/http://www.pyohio.org/call-for-proposals/
+  cfp: '2014-05-15 23:59:00'
+  place: Columbus, USA
+  start: 2014-07-26
+  end: 2014-07-27
+  sub: PY
+  location:
+  - title: PyOhio 2014
+    latitude: 39.9622601
+    longitude: -83.0007065
+
 - conference: PyData Berlin
   year: 2014
   link: https://web.archive.org/web/20230328013334/https://pydata.org/berlin2014/
@@ -8902,6 +8958,20 @@
     latitude: 42.3655767
     longitude: -71.1040018
 
+- conference: PyOhio
+  year: 2013
+  link: https://web.archive.org/web/20130603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20130507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2013-06-01 23:59:00'
+  place: Ohio Union, USA
+  start: 2013-07-27
+  end: 2013-07-28
+  sub: PY
+  location:
+  - title: PyOhio 2013
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
 - conference: DjangoCong
   alt_name: Rencontres django
   year: 2013
@@ -9404,6 +9474,20 @@
     latitude: 51.3406321
     longitude: 12.3747329
 
+- conference: PyOhio
+  year: 2012
+  link: https://web.archive.org/web/20120603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20120507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2012-06-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2012-07-28
+  end: 2012-07-29
+  sub: PY
+  location:
+  - title: PyOhio 2012
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
 - conference: Kiwi PyCon
   alt_name: PyCon NZ
   year: 2013
@@ -9680,6 +9764,20 @@
     latitude: 18.52930005
     longitude: 73.85682537025511
 
+- conference: PyOhio
+  year: 2011
+  link: https://web.archive.org/web/20110603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20110507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2011-06-03 23:59:00'
+  place: Ohio Union, USA
+  start: 2011-07-30
+  end: 2011-07-31
+  sub: PY
+  location:
+  - title: PyOhio 2011
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
 - conference: PyGotham TV
   year: 2011
   link: https://web.archive.org/web/20111024041916/http://pygotham.org/
@@ -9931,6 +10029,20 @@
     latitude: 53.3498006
     longitude: -6.2602964
 
+- conference: PyOhio
+  year: 2010
+  link: https://web.archive.org/web/20100603222509/http://pyohio.org/
+  cfp_link: https://wiki.python.org/moin/PyOhio/CallForProposals
+  cfp: '2010-05-10 23:59:00'
+  place: Ohio Union, USA
+  start: 2010-07-31
+  end: 2010-08-01
+  sub: PY
+  location:
+  - title: PyOhio 2010
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
 - conference: EuroSciPy
   year: 2010
   link: https://web.archive.org/web/20100523143818/https://www.euroscipy.org/
@@ -10154,6 +10266,19 @@
     latitude: 49.7181505
     longitude: 18.8028338
 
+- conference: PyOhio
+  year: 2009
+  link: https://web.archive.org/web/20090603222509/http://pyohio.org/
+  cfp: '2009-05-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2009-07-25
+  end: 2009-07-26
+  sub: PY
+  location:
+  - title: PyOhio 2009
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
 - conference: EuroSciPy
   year: 2009
   link: https://web.archive.org/web/20090523143818/https://www.euroscipy.org/
@@ -10279,6 +10404,20 @@
   - title: SciPy US 2008
     latitude: 34.1476507
     longitude: -118.144155
+
+- conference: PyOhio
+  year: 2008
+  link: https://web.archive.org/web/20080603222509/http://pyohio.org/
+  cfp_link: https://wiki.python.org/moin/PyOhio2008/CallForProposals
+  cfp: '2008-06-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2008-07-27
+  end: 2008-07-28
+  sub: PY
+  location:
+  - title: PyOhio 2008
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
 
 - conference: EuroPython
   year: 2008
