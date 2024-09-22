@@ -1,31 +1,5 @@
 ---
 
-- conference: PyParis
-  year: 2018
-  link: https://web.archive.org/web/20181107132342/http://www.pyparis.org/
-  cfp: TBA
-  place: Paris, France
-  start: 2018-11-14
-  end: 2018-11-16
-  sub: PY
-  location:
-  - title: PyParis 2018
-    latitude: 48.8588897
-    longitude: 2.3200410217200766
-
-- conference: PyParis
-  year: 2017
-  link: https://web.archive.org/web/20170610194931/http://www.pyparis.org/
-  cfp: TBA
-  place: Paris, France
-  start: 2017-06-12
-  end: 2017-06-14
-  sub: PY
-  location:
-  - title: PyParis 2017
-    latitude: 48.8588897
-    longitude: 2.3200410217200766
-
 - conference: PyOhio
   year: 2017
   link: https://www.pyohio.org/2024/
