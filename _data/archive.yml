@@ -3358,6 +3358,17 @@
     latitude: 32.6450475
     longitude: 130.6341345
 
+- conference: PyCode Conference
+  year: 2021
+  link: https://web.archive.org/web/20210801205817/https://pycode-conference.org/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdSteyb-qDJu3BKaj1RBlV0pzatZgiRg9ftVz4-7-7kunMcbA/viewform
+  cfp: '2021-11-20 23:59:00'
+  place: Online
+  start: 2021-12-02
+  end: 2021-12-03
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSf8dqx3IMndirf9ny1yMfP7GMcOFnv7b3kaK7MFGu0qb2VO6g/viewform
+  sub: PY
+
 - conference: PyCon Tanzania
   year: 2021
   link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2021/
@@ -3381,17 +3392,6 @@
   start: 2021-12-11
   end: 2021-12-12
   sub: SCIPY
-
-- conference: PyCode Conference
-  year: 2021
-  link: https://web.archive.org/web/20210801205817/https://pycode-conference.org/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdSteyb-qDJu3BKaj1RBlV0pzatZgiRg9ftVz4-7-7kunMcbA/viewform
-  cfp: '2021-11-20 23:59:00'
-  place: Online
-  start: 2021-12-02
-  end: 2021-12-03
-  finaid: https://docs.google.com/forms/d/e/1FAIpQLSf8dqx3IMndirf9ny1yMfP7GMcOFnv7b3kaK7MFGu0qb2VO6g/viewform
-  sub: PY
 
 - conference: Flask Con
   year: 2021
@@ -6257,6 +6257,20 @@
     latitude: 18.52930005
     longitude: 73.85682537025511
 
+- conference: PyCaribbean
+  year: 2018
+  link: https://web.archive.org/web/20180211053513/http://pycaribbean.com/
+  cfp_link: https://www.papercall.io/pycaribbean-2018
+  cfp: '2017-11-24 16:11:00'
+  place: Santo Domingo, Dominican Republic
+  start: 2018-02-17
+  end: 2018-02-18
+  sub: PY
+  location:
+  - title: PyCaribbean 2018
+    latitude: 18.4801972
+    longitude: -69.942111
+
 - conference: PyTennessee
   year: 2017
   link: https://web.archive.org/web/20170609204820/http://www.pytennessee.org/
@@ -7899,6 +7913,19 @@
   - title: PyCon Philippines 2016
     latitude: 14.63989835
     longitude: 121.07819518938447
+
+- conference: PyCaribbean
+  year: 2016
+  link: https://web.archive.org/web/20160211053513/http://pycaribbean.com/
+  cfp: '2015-11-20 23:59:00'
+  place: Santo Domingo, Dominican Republic
+  start: 2016-02-20
+  end: 2016-02-21
+  sub: PY
+  location:
+  - title: PyCaribbean 2016
+    latitude: 18.4801972
+    longitude: -69.942111
 
 - conference: Swiss Python Summit
   year: 2016
