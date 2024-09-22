@@ -7692,6 +7692,19 @@
     latitude: 25.0407021
     longitude: 121.61144927190821
 
+- conference: PyWaw Summit
+  year: 2015
+  link: https://web.archive.org/web/20160324001812/http://summit.pywaw.org/2015/
+  cfp: '2015-03-31 23:59:00'
+  place: Warsaw, Poland
+  start: 2015-05-25
+  end: 2015-05-26
+  sub: PY
+  location:
+  - title: PyWaw Summit 2015
+    latitude: 52.2319581
+    longitude: 21.0067249
+
 - conference: Python Nordeste
   year: 2015
   link: https://web.archive.org/web/20150428210556/http://2015.pythonnordeste.org/
