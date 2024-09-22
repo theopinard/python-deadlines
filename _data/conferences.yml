@@ -939,6 +939,21 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
+- conference: PyCon Balkan
+  year: 2024
+  link: https://pyconbalkan.com/
+  cfp: TBA
+  place: Belgrade, Serbia
+  start: 2024-10-30
+  end: 2024-11-01
+  sponsor: https://pyconbalkan.com/wp-content/uploads/2024/06/PyCon-Balkan-2024-Sponsorship-Proposal.pdf
+  twitter: pyconblkn
+  sub: PY
+  location:
+  - title: PyCon Balkan 2024
+    latitude: 44.8178131
+    longitude: 20.4568974
+
 - conference: PyDay Cali
   year: 2024
   link: https://www.calidev.co/eventos/pyday/cali-2024/
