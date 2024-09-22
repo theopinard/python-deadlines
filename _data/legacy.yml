@@ -13,45 +13,6 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
-- conference: PyLondinium
-  year: 2020
-  link: https://web.archive.org/web/20200812040952/http://pylondinium.org/
-  cfp: TBA
-  place: London, UK
-  start: 2020-06-05
-  end: 2020-06-08
-  sub: PY
-  location:
-  - title: PyLondinium 2020
-    latitude: 51.5074456
-    longitude: -0.1277653
-
-- conference: PyLondinium
-  year: 2019
-  link: https://web.archive.org/web/20190613014403/https://pylondinium.org/
-  cfp: TBA
-  place: London, UK
-  start: 2019-06-14
-  end: 2019-06-16
-  sub: PY
-  location:
-  - title: PyLondinium 2019
-    latitude: 51.5074456
-    longitude: -0.1277653
-
-- conference: PyLondinium
-  year: 2018
-  link: https://web.archive.org/web/20180503095204/https://pylondinium.org/
-  cfp: TBA
-  place: London, UK
-  start: 2018-06-08
-  end: 2018-06-11
-  sub: PY
-  location:
-  - title: PyLondinium 2018
-    latitude: 51.5074456
-    longitude: -0.1277653
-
 - conference: PyFest
   year: 2021
   link: https://pyfest.online/

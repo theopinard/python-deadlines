@@ -562,6 +562,20 @@
     latitude: 49.8349139
     longitude: 18.2820084
 
+- conference: PyLondinium
+  year: 2020
+  link: https://web.archive.org/web/20200812040952/http://pylondinium.org/
+  cfp: Cancelled
+  place: London, UK
+  start: 2020-06-05
+  end: 2020-06-07
+  sub: PY
+  note: Cancelled due to COVID-19
+  location:
+  - title: PyLondinium 2020
+    latitude: 51.5074456
+    longitude: -0.1277653
+
 - conference: PyGrunn
   year: 2020
   link: https://web.archive.org/web/20200608055024/http://www.pygrunn.org/
@@ -3852,6 +3866,16 @@
   end: 2020-08-29
   sub: PY
 
+- conference: PyOhio
+  year: 2020
+  link: https://pyohio.org/2020/
+  cfp_link: https://www.pyohio.org/2020/speaking/cfp/
+  cfp: '2020-05-31 23:59:00'
+  place: Online
+  start: 2020-07-25
+  end: 2020-07-26
+  sub: PY
+
 - conference: EuroPython
   year: 2020
   link: https://ep2020.europython.eu/
@@ -4731,6 +4755,19 @@
   - title: PyCon Taiwan 2019
     latitude: 25.0375198
     longitude: 121.5636796
+
+- conference: PyLondinium
+  year: 2019
+  link: https://web.archive.org/web/20190613014403/https://pylondinium.org/
+  cfp: '2019-04-11 23:59:00'
+  place: London, UK
+  start: 2019-06-14
+  end: 2019-06-16
+  sub: PY
+  location:
+  - title: PyLondinium 2019
+    latitude: 51.5074456
+    longitude: -0.1277653
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -5704,6 +5741,20 @@
   - title: PyCon Thailand 2018
     latitude: 13.7263574
     longitude: 100.4891324
+
+- conference: PyLondinium
+  year: 2018
+  link: https://web.archive.org/web/20180503095204/https://pylondinium.org/
+  cfp_link: https://web.archive.org/web/20180503095204/https://www.papercall.io/pylondinium
+  cfp: '2018-04-15 23:59:00'
+  place: London, UK
+  start: 2018-06-08
+  end: 2018-06-10
+  sub: PY
+  location:
+  - title: PyLondinium 2018
+    latitude: 51.5074456
+    longitude: -0.1277653
 
 - conference: PyData Berlin
   year: 2018
