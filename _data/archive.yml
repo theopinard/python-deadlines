@@ -122,6 +122,20 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
+- conference: PyCon Nigeria
+  year: 2018
+  link: https://web.archive.org/web/20180902173538/https://pycon.ng/
+  cfp_link: https://web.archive.org/web/20181001172404/https://www.pycon.ng/speaking/overview/#proposing-a-talk
+  cfp: None
+  place: Lagos, Nigeria
+  start: 2018-09-13
+  end: 2018-09-15
+  sub: PY
+  location:
+  - title: PyCon Nigeria 2018
+    latitude: 6.4550575
+    longitude: 3.3941795
+
 - conference: PyHEP
   year: 2018
   link: https://web.archive.org/web/20180818114457/https://indico.cern.ch/event/694818/
@@ -148,6 +162,19 @@
   - title: PyCon Jamaica 2017
     latitude: 17.9712148
     longitude: -76.7928128
+
+- conference: PyCon Nigeria
+  year: 2017
+  link: https://web.archive.org/web/20170902173538/https://pycon.ng/
+  cfp: None
+  place: Lagos, Nigeria
+  start: 2017-09-15
+  end: 2017-09-17
+  sub: PY
+  location:
+  - title: PyCon Nigeria 2017
+    latitude: 6.4550575
+    longitude: 3.3941795
 
 - conference: PyCon Cameroon
   year: 2017
@@ -4158,6 +4185,20 @@
   end: 2020-09-27
   sub: PY
 
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2020
+  link: https://web.archive.org/web/20200305092556/https://na.pycon.org/
+  cfp: '2019-12-27 23:59:00'
+  place: Windhoek, Namibia
+  start: 2020-02-18
+  end: 2020-02-20
+  sub: PY
+  location:
+  - title: PyCon Namibia 2020
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: Python fwdays
   year: 2019
   link: https://fwdays.com/en/event/python-fwdays-Online-conference
@@ -5134,6 +5175,20 @@
     latitude: 41.4996574
     longitude: -81.6936772
 
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2019
+  link: https://web.archive.org/web/20181121113217/https://na.pycon.org/
+  cfp: '2018-12-28 23:59:00'
+  place: Windhoek, Namibia
+  start: 2019-02-19
+  end: 2019-02-21
+  sub: PY
+  location:
+  - title: PyCon Namibia 2019
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: PyCon Belarus
   year: 2019
   link: https://web.archive.org/web/20190223084649/https://by.pycon.org/
@@ -6079,6 +6134,20 @@
     latitude: 41.4996574
     longitude: -81.6936772
 
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2018
+  link: https://web.archive.org/web/20171121113217/https://na.pycon.org/
+  cfp: '2017-12-29 23:59:00'
+  place: Windhoek, Namibia
+  start: 2018-02-20
+  end: 2018-02-22
+  sub: PY
+  location:
+  - title: PyCon Namibia 2018
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: PyCon Philippines
   alt_name: PyCon PH
   year: 2018
@@ -6941,6 +7010,20 @@
   - title: DjangoCon Europe 2017
     latitude: 40.038064
     longitude: 18.4633105
+
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2017
+  link: https://web.archive.org/web/20161121113217/https://na.pycon.org/
+  cfp: '2016-12-30 23:59:00'
+  place: Windhoek, Namibia
+  start: 2017-02-21
+  end: 2017-02-23
+  sub: PY
+  location:
+  - title: PyCon Namibia 2017
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
 
 - conference: PyCon Colombia
   year: 2017
