@@ -3384,11 +3384,13 @@
 
 - conference: PyCode Conference
   year: 2021
-  link: https://pycode-conference.org/
-  cfp: '2021-11-04 23:59:00'
+  link: https://web.archive.org/web/20210801205817/https://pycode-conference.org/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdSteyb-qDJu3BKaj1RBlV0pzatZgiRg9ftVz4-7-7kunMcbA/viewform
+  cfp: '2021-11-20 23:59:00'
   place: Online
   start: 2021-12-02
   end: 2021-12-03
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSf8dqx3IMndirf9ny1yMfP7GMcOFnv7b3kaK7MFGu0qb2VO6g/viewform
   sub: PY
 
 - conference: Flask Con
@@ -3805,6 +3807,16 @@
   place: Online
   start: 2021-01-30
   end: 2021-01-31
+  sub: PY
+
+- conference: PyCode Conference
+  year: 2020
+  link: https://web.archive.org/web/20200801205817/https://pycode-conference.org/
+  cfp_link: https://web.archive.org/web/20210127221022/https://eventil.com/events/pycode-conference-2020/cfp
+  cfp: '2020-11-22 23:59:00'
+  place: Online
+  start: 2020-12-11
+  end: 2020-12-12
   sub: PY
 
 - conference: PyDay Chile
@@ -4573,6 +4585,20 @@
   - title: PyCon India 2019
     latitude: 13.0836939
     longitude: 80.270186
+
+- conference: PyCode Conference
+  year: 2019
+  link: https://web.archive.org/web/20190801205817/https://pycode-conference.org/
+  cfp_link: https://web.archive.org/web/20190706074128/https://pycode-conference.org/#section-C4P
+  cfp: '2019-06-26 23:59:00'
+  place: Gdansk, Poland
+  start: 2019-10-14
+  end: 2019-10-16
+  sub: PY
+  location:
+  - title: PyCode Conference 2019
+    latitude: 54.3706858
+    longitude: 18.61298210330077
 
 - conference: Kiwi PyCon
   alt_name: Kiwi PyCon X
@@ -5676,6 +5702,20 @@
   - title: SciPy Latin America 2018
     latitude: -25.4295963
     longitude: -49.2712724
+
+- conference: PyCode Conference
+  year: 2018
+  link: https://web.archive.org/web/20180801205817/https://pycode-conference.org
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSfgVrS0YgvM58IEIlcB677SEQfcTy1TB99FeK3nIiGi_5MnVA/viewform
+  cfp: '2018-07-14 23:59:00'
+  place: Warsaw, Poland
+  start: 2018-10-01
+  end: 2018-10-02
+  sub: PY
+  location:
+  - title: PyCode Conference 2018
+    latitude: 52.2319581
+    longitude: 21.0067249
 
 - conference: PyCon Ghana
   year: 2018

@@ -366,41 +366,6 @@
     latitude: -3.1316333
     longitude: -59.9825041
 
-- conference: PyCode Conference
-  year: 2020
-  link: https://pycode-conference.org/
-  cfp: TBA
-  place: Online
-  start: 2020-12-11
-  end: 2020-12-13
-  sub: PY
-
-- conference: PyCode Conference
-  year: 2019
-  link: https://pycode-conference.org/
-  cfp: TBA
-  place: Gdansk, Poland
-  start: 2019-10-14
-  end: 2019-10-17
-  sub: PY
-  location:
-  - title: PyCode Conference 2019
-    latitude: 54.3706858
-    longitude: 18.61298210330077
-
-- conference: PyCode Conference
-  year: 2018
-  link: https://web.archive.org/web/20180801205817/https://pycode-conference.org
-  cfp: TBA
-  place: Warsaw, Poland
-  start: 2018-10-01
-  end: 2018-10-03
-  sub: PY
-  location:
-  - title: PyCode Conference 2018
-    latitude: 52.2319581
-    longitude: 21.0067249
-
 - conference: PyCaribbean
   year: 2018
   link: https://web.archive.org/web/20190211053513/http://pycaribbean.com/
