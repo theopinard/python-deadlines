@@ -6269,6 +6269,20 @@
     latitude: 43.3224219
     longitude: -1.9838889
 
+- conference: PyConf Hyderabad
+  year: 2017
+  link: https://web.archive.org/web/20171008124816/http://pyconf.hydpy.org/
+  cfp_link: https://web.archive.org/web/20171008124816/https://pyconfhyd.talkfunnel.com/2017/
+  cfp: '2017-08-31 23:59:00'
+  place: Hyderabad, India
+  start: 2017-10-07
+  end: 2017-10-08
+  sub: PY
+  location:
+  - title: PyConf Hyderabad 2017
+    latitude: 17.4454957
+    longitude: 78.34854697544472
+
 - conference: Python San Sebastian
   year: 2016
   link: http://pyss16.pyss.org/
