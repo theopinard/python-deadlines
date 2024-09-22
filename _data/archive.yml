@@ -4174,6 +4174,15 @@
     latitude: 46.4843023
     longitude: 30.7322878
 
+- conference: Django Day Copenhagen
+  year: 2020
+  link: https://djangoday.dk/
+  cfp: '2020-02-16 23:59:00'
+  place: Online & Copenhagen, Denmark
+  start: 2020-09-25
+  end: 2020-09-26
+  sub: WEB
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2020

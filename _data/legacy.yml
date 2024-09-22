@@ -640,12 +640,3 @@
   - title: enterPy 2020
     latitude: 49.4093582
     longitude: 8.694724
-
-- conference: Django Day Copenhagen
-  year: 2020
-  link: https://djangoday.dk/
-  cfp: TBA
-  place: Online & Copenhagen, Denmark
-  start: 2020-09-25
-  end: 2020-09-26
-  sub: WEB
