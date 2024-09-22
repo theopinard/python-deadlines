@@ -5414,6 +5414,19 @@
     latitude: 36.7213028
     longitude: -4.4216366
 
+- conference: PySangamam
+  year: 2018
+  link: https://web.archive.org/web/20181120212752/https://pysangamam.org/
+  cfp: '2018-07-01 23:59:00'
+  place: Tamil Nadu, India
+  start: 2018-09-07
+  end: 2018-09-08
+  sub: PY
+  location:
+  - title: PySangamam 2018
+    latitude: 10.9094334
+    longitude: 78.3665347
+
 - conference: PyCon France
   alt_name: PyCon FR
   year: 2018
