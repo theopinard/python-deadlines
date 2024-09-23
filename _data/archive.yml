@@ -5776,6 +5776,19 @@
     latitude: 50.6365654
     longitude: 3.0635282
 
+- conference: North Bay Python
+  year: 2018
+  link: https://web.archive.org/web/20180726154915/https://2018.northbaypython.org/
+  cfp: '2018-08-10 23:59:00'
+  place: Petaluma, USA
+  start: 2018-11-03
+  end: 2018-11-04
+  sub: PY
+  location:
+  - title: North Bay Python 2018
+    latitude: 38.2325829
+    longitude: -122.636465
+
 - conference: PyCon Pakistan
   year: 2018
   link: https://web.archive.org/web/20181117100303/http://pycon.pk/
@@ -6493,6 +6506,19 @@
   - title: PyCon South Africa 2017
     latitude: -33.928992
     longitude: 18.417396
+
+- conference: North Bay Python
+  year: 2017
+  link: https://web.archive.org/web/20170812223449/http://www.northbaypython.org/
+  cfp: '2017-09-29 23:59:00'
+  place: Petaluma, USA
+  start: 2017-12-02
+  end: 2017-12-03
+  sub: PY
+  location:
+  - title: North Bay Python 2017
+    latitude: 38.2325829
+    longitude: -122.636465
 
 - conference: PyCon Canada
   year: 2017

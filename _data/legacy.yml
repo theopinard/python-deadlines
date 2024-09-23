@@ -522,32 +522,6 @@
     latitude: 59.9606739
     longitude: 30.1586551
 
-- conference: North Bay Python
-  year: 2018
-  link: https://web.archive.org/web/20170812223449/http://www.northbaypython.org/
-  cfp: TBA
-  place: Petaluma, USA
-  start: 2018-11-02
-  end: 2018-11-05
-  sub: PY
-  location:
-  - title: North Bay Python 2018
-    latitude: 38.2325829
-    longitude: -122.636465
-
-- conference: North Bay Python
-  year: 2017
-  link: https://web.archive.org/web/20170812223449/http://www.northbaypython.org/
-  cfp: TBA
-  place: Petaluma, USA
-  start: 2017-12-02
-  end: 2017-12-04
-  sub: PY
-  location:
-  - title: North Bay Python 2017
-    latitude: 38.2325829
-    longitude: -122.636465
-
 - conference: MUPy
   year: 2017
   link: https://web.archive.org/web/20240218045738/https://pypals.org/mupy
