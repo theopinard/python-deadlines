@@ -320,6 +320,32 @@
     latitude: -30.0324999
     longitude: -51.2303767
 
+- conference: For Python Quants
+  year: 2015
+  link: https://web.archive.org/web/20140305213641/http://www.forpythonquants.com/
+  cfp: None
+  place: New York, USA
+  start: 2014-03-14
+  end: 2014-03-14
+  sub: PY
+  location:
+  - title: For Python Quants 2015
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: For Python Quants
+  year: 2014
+  link: https://web.archive.org/web/20140305213641/http://www.forpythonquants.com/
+  cfp: None
+  place: New York, USA
+  start: 2014-03-14
+  end: 2014-03-14
+  sub: PY
+  location:
+  - title: For Python Quants 2014
+    latitude: 40.7127281
+    longitude: -74.0060152
+
 - conference: SciPy Latin America
   alt_name: SciPyCon Argentina
   year: 2013
