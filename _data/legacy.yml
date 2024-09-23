@@ -279,19 +279,6 @@
     latitude: 35.6892523
     longitude: 51.3896004
 
-- conference: PyCon Dhaka
-  year: 2014
-  link: https://web.archive.org/web/20140618061134/http://dhaka.pycon.org/
-  cfp: TBA
-  place: Dhaka, Bangladesh
-  start: 2014-06-21
-  end: 2014-06-22
-  sub: PY
-  location:
-  - title: PyCon Dhaka 2014
-    latitude: 23.7644025
-    longitude: 90.389015
-
 - conference: PyCon Belarus
   year: 2021
   link: https://web.archive.org/web/20190223084649/https://by.pycon.org/
@@ -352,19 +339,6 @@
   - title: PyCon Belarus 2015
     latitude: 53.8901239
     longitude: 27.5693855
-
-- conference: PyCon Amazônia
-  year: 2017
-  link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
-  cfp: TBA
-  place: Manaus, Brazil
-  start: 2017-08-12
-  end: 2017-08-14
-  sub: PY
-  location:
-  - title: PyCon Amazônia 2017
-    latitude: -3.1316333
-    longitude: -59.9825041
 
 - conference: Plone Symposium Tokyo
   year: 2015

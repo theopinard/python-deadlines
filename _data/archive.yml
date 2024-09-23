@@ -215,6 +215,19 @@
     latitude: 6.4550575
     longitude: 3.3941795
 
+- conference: PyCon Amazônia
+  year: 2017
+  link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
+  cfp: None
+  place: Manaus, Brazil
+  start: 2017-08-12
+  end: 2017-08-13
+  sub: PY
+  location:
+  - title: PyCon Amazônia 2017
+    latitude: -3.1316333
+    longitude: -59.9825041
+
 - conference: PyCon Cameroon
   year: 2017
   link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
@@ -345,6 +358,19 @@
   - title: Python Weekend Romania 2014
     latitude: 47.1615416
     longitude: 27.5837224
+
+- conference: PyCon Dhaka
+  year: 2014
+  link: https://web.archive.org/web/20140618061134/http://dhaka.pycon.org/
+  cfp: None
+  place: Dhaka, Bangladesh
+  start: 2014-06-21
+  end: 2014-06-21
+  sub: PY
+  location:
+  - title: PyCon Dhaka 2014
+    latitude: 23.7644025
+    longitude: 90.389015
 
 - conference: PyPOA
   year: 2014
