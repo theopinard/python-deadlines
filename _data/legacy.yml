@@ -78,72 +78,6 @@
     latitude: 56.839104
     longitude: 60.60825
 
-- conference: PyCon Odessa
-  year: 2019
-  link: https://web.archive.org/web/20220815150941/https://pyconodessa.com/en/2019/
-  cfp: TBA
-  place: Odessa, Ukraine
-  start: 2019-03-16
-  end: 2019-03-16
-  sub: PY
-  location:
-  - title: PyCon Odessa 2019
-    latitude: 46.4843023
-    longitude: 30.7322878
-
-- conference: PyCon Lithuania
-  alt_name: PyCon LT
-  year: 2015
-  link: https://web.archive.org/web/20150419215436/http://pycon.lt/
-  cfp: TBA
-  place: Vilnius, Lithuania
-  start: 2015-04-25
-  end: 2015-04-26
-  sub: PY
-  location:
-  - title: PyCon Lithuania 2015
-    latitude: 54.6870458
-    longitude: 25.2829111
-
-- conference: PyCon KyuShu
-  year: 2019
-  link: https://web.archive.org/web/20190417080624/https://kyushu.pycon.jp/2019/
-  cfp: TBA
-  place: Okinawa, Japan
-  start: 2019-05-18
-  end: 2019-05-18
-  sub: PY
-  location:
-  - title: PyCon KyuShu 2019
-    latitude: 26.4748948
-    longitude: 127.91146866408414
-
-- conference: PyCon KyuShu
-  year: 2018
-  link: https://web.archive.org/web/20180703050657/http://kyushu.pycon.jp/
-  cfp: TBA
-  place: Fukuoka, Japan
-  start: 2018-06-30
-  end: 2018-07-01
-  sub: PY
-  location:
-  - title: PyCon KyuShu 2018
-    latitude: 33.6251241
-    longitude: 130.6180016
-
-- conference: PyCon Kyrgyzstan
-  year: 2018
-  link: https://web.archive.org/web/20210305183715/http://pyconkg.com/
-  cfp: TBA
-  place: Bishkek, Kyrgyzstan
-  start: 2018-09-09
-  end: 2018-09-10
-  sub: PY
-  location:
-  - title: PyCon Kyrgyzstan 2018
-    latitude: 42.8777895
-    longitude: 74.6066926
-
 - conference: PyCon Israel
   year: 2020
   link: https://il.pycon.org/2020/
@@ -339,19 +273,6 @@
   - title: PyCon Belarus 2015
     latitude: 53.8901239
     longitude: 27.5693855
-
-- conference: Plone Symposium Tokyo
-  year: 2015
-  link: https://web.archive.org/web/20150619044225/http://plone.jp/plone-symposium-tokyo-2015
-  cfp: TBA
-  place: Tokyo, Japan
-  start: 2015-06-13
-  end: 2015-06-15
-  sub: WEB
-  location:
-  - title: Plone Symposium Tokyo 2015
-    latitude: 35.718741949999995
-    longitude: 139.73118058112317
 
 - conference: Piter Py
   alt_name: PiterPy

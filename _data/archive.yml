@@ -162,6 +162,19 @@
     latitude: 6.4550575
     longitude: 3.3941795
 
+- conference: PyCon Kyrgyzstan
+  year: 2018
+  link: https://web.archive.org/web/20210305183715/http://pyconkg.com/
+  cfp: None
+  place: Bishkek, Kyrgyzstan
+  start: 2018-09-09
+  end: 2018-09-09
+  sub: PY
+  location:
+  - title: PyCon Kyrgyzstan 2018
+    latitude: 42.8777895
+    longitude: 74.6066926
+
 - conference: PyHEP
   year: 2018
   link: https://web.archive.org/web/20180818114457/https://indico.cern.ch/event/694818/
@@ -305,6 +318,20 @@
   - title: Python Unconference 2015
     latitude: 53.5672881
     longitude: 9.941726150411604
+
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
+  year: 2015
+  link: https://web.archive.org/web/20150419215436/http://pycon.lt/
+  cfp: None
+  place: Vilnius, Lithuania
+  start: 2015-04-25
+  end: 2015-04-26
+  sub: PY
+  location:
+  - title: PyCon Lithuania 2015
+    latitude: 54.6870458
+    longitude: 25.2829111
 
 - conference: PyDay Asunción
   year: 2015
@@ -1095,6 +1122,19 @@
   - title: PyGrunn 2024
     latitude: 53.2190652
     longitude: 6.5680077
+
+- conference: PyCon KyuShu
+  year: 2024
+  link: https://web.archive.org/web/20240509142117/https://kyushu.pycon.jp/2024/
+  cfp: '2024-03-31 23:59:00'
+  place: Kagoshima, Japan
+  start: 2024-05-25
+  end: 2024-05-25
+  sub: PY
+  location:
+  - title: PyCon KyuShu 2024
+    latitude: 31.521587
+    longitude: 130.5474077
 
 - conference: PyCamp España
   year: 2024
@@ -3776,6 +3816,17 @@
   end: 2021-10-02
   sub: PY
 
+- conference: EuroPython
+  year: 2021
+  link: https://www.europython.eu/
+  cfp: '2021-05-12 23:59:59'
+  timezone: Europe/Zurich
+  place: Online
+  start: 2021-07-26
+  end: 2021-08-02
+  sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+  sub: PY
+
 - conference: PyCon India
   year: 2021
   link: https://in.pycon.org/2021/
@@ -5005,17 +5056,6 @@
     longitude: -83.0007065
 
 - conference: EuroPython
-  year: 2021
-  link: https://www.europython.eu/
-  cfp: '2019-05-12 23:59:59'
-  timezone: Europe/Zurich
-  place: Online
-  start: 2021-07-26
-  end: 2021-08-02
-  sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
-  sub: PY
-
-- conference: EuroPython
   year: 2019
   link: https://web.archive.org/web/20190711015008/https://ep2019.europython.eu/
   cfp: '2019-05-12 23:59:59'
@@ -5190,6 +5230,20 @@
   - title: PyCon Estonia 2019
     latitude: 59.4372155
     longitude: 24.7453688
+
+- conference: PyCon KyuShu
+  year: 2019
+  link: https://web.archive.org/web/20190417080624/https://kyushu.pycon.jp/2019/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe05S0tA6yupwqeCVafm06RgYA42EbG9W6x2t5zFgKe4L4_hA/viewform
+  cfp: '2019-03-31 23:59:00'
+  place: Okinawa, Japan
+  start: 2019-05-18
+  end: 2019-05-18
+  sub: PY
+  location:
+  - title: PyCon KyuShu 2019
+    latitude: 26.4748948
+    longitude: 127.91146866408414
 
 - conference: PyCon mini Sapporo
   year: 2019
@@ -5439,6 +5493,19 @@
   - title: PyCon US 2019
     latitude: 41.4996574
     longitude: -81.6936772
+
+- conference: PyCon Odessa
+  year: 2019
+  link: https://web.archive.org/web/20220815150941/https://pyconodessa.com/en/2019/
+  cfp: '2019-01-01 23:59:00'
+  place: Odessa, Ukraine
+  start: 2019-03-16
+  end: 2019-03-16
+  sub: PY
+  location:
+  - title: PyCon Odessa 2019
+    latitude: 46.4843023
+    longitude: 30.7322878
 
 - conference: PyCon Namibia
   alt_name: PyCon NA
@@ -6162,6 +6229,20 @@
   - title: PyGotham TV 2018
     latitude: 40.7127281
     longitude: -74.0060152
+
+- conference: PyCon KyuShu
+  year: 2018
+  link: https://web.archive.org/web/20180703050657/http://kyushu.pycon.jp/
+  cfp_link: https://docs.google.com/forms/d/1Sk-jNIv1u1zB0y2XEBJo9O3rfcpap1JmyN7tV4_-vEs/closedform
+  cfp: '2018-05-20 23:59:00'
+  place: Fukuoka, Japan
+  start: 2018-06-30
+  end: 2018-06-30
+  sub: PY
+  location:
+  - title: PyCon KyuShu 2018
+    latitude: 33.6251241
+    longitude: 130.6180016
 
 - conference: EuroPython
   year: 2018
