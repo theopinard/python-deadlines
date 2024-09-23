@@ -366,32 +366,6 @@
     latitude: -3.1316333
     longitude: -59.9825041
 
-- conference: PyBITS
-  year: 2017
-  link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
-  cfp: TBA
-  place: Hyderabad, India
-  start: 2017-10-27
-  end: 2017-10-30
-  sub: PY
-  location:
-  - title: PyBITS 2017
-    latitude: 17.360589
-    longitude: 78.4740613
-
-- conference: PyBelgaum
-  year: 2015
-  link: https://web.archive.org/web/20150301185819/http://pybelgaum.org/2015/
-  cfp: TBA
-  place: Gogte Institute of Technology, India
-  start: 2015-02-28
-  end: 2015-03-02
-  sub: PY
-  location:
-  - title: PyBelgaum 2015
-    latitude: 15.81527075
-    longitude: 74.48744361563915
-
 - conference: Plone Symposium Tokyo
   year: 2015
   link: https://web.archive.org/web/20150619044225/http://plone.jp/plone-symposium-tokyo-2015
@@ -521,29 +495,3 @@
   - title: Piter Py 2016
     latitude: 59.9606739
     longitude: 30.1586551
-
-- conference: MUPy
-  year: 2017
-  link: https://web.archive.org/web/20240218045738/https://pypals.org/mupy
-  cfp: TBA
-  place: Manipal Institute of Technology, India
-  start: 2017-10-21
-  end: 2017-10-23
-  sub: PY
-  location:
-  - title: MUPy 2017
-    latitude: 13.347776849999999
-    longitude: 74.79299358008947
-
-- conference: IndyPy Automate Conf
-  year: 2019
-  link: https://web.archive.org/web/20210227152420/https://2019.indypy.org/automate/
-  cfp: TBA
-  place: Indiana, USA
-  start: 2019-03-22
-  end: 2019-03-23
-  sub: PY
-  location:
-  - title: IndyPy Automate Conf 2019
-    latitude: 40.3270127
-    longitude: -86.1746933

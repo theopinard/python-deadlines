@@ -93,6 +93,19 @@
     latitude: -27.4511235
     longitude: -58.9865196
 
+- conference: IndyPy Automate Conf
+  year: 2019
+  link: https://web.archive.org/web/20210227152420/https://2019.indypy.org/automate/
+  cfp: None
+  place: Indiana, USA
+  start: 2019-03-22
+  end: 2019-03-22
+  sub: PY
+  location:
+  - title: IndyPy Automate Conf 2019
+    latitude: 40.3270127
+    longitude: -86.1746933
+
 - conference: PyDay Tenerife
   alt_name: PyDay TF
   year: 2018
@@ -107,6 +120,19 @@
   - title: PyDay TF 2018
     latitude: 28.2935785
     longitude: -16.621447121144122
+
+- conference: MUPy
+  year: 2018
+  link: https://web.archive.org/web/20240218045738/https://pypals.org/mupy
+  cfp: None
+  place: Manipal Institute of Technology, India
+  start: 2018-10-28
+  end: 2018-10-28
+  sub: PY
+  location:
+  - title: MUPy 2018
+    latitude: 13.347776849999999
+    longitude: 74.79299358008947
 
 - conference: PyCon Estonia
   alt_name: PyCon EE
@@ -162,6 +188,19 @@
   - title: PyCon Jamaica 2017
     latitude: 17.9712148
     longitude: -76.7928128
+
+- conference: MUPy
+  year: 2017
+  link: https://web.archive.org/web/20240218045738/https://pypals.org/mupy
+  cfp: None
+  place: Manipal Institute of Technology, India
+  start: 2017-10-21
+  end: 2017-10-23
+  sub: PY
+  location:
+  - title: MUPy 2017
+    latitude: 13.347776849999999
+    longitude: 74.79299358008947
 
 - conference: PyCon Nigeria
   year: 2017
@@ -7356,6 +7395,19 @@
     latitude: 47.2266532
     longitude: 8.8164042
 
+- conference: PyBITS
+  year: 2016
+  link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
+  cfp: '2016-10-16 23:59:00'
+  place: Hyderabad, India
+  start: 2016-10-14
+  end: 2016-10-16
+  sub: PY
+  location:
+  - title: PyBITS 2016
+    latitude: 17.4454957
+    longitude: 78.34854697544472
+
 - conference: PyCon South Africa
   alt_name: PyCon ZA
   year: 2016
@@ -8704,6 +8756,19 @@
   - title: PyCon Sweden 2015
     latitude: 59.3251172
     longitude: 18.0710935
+
+- conference: PyBelgaum
+  year: 2015
+  link: https://web.archive.org/web/20150301185819/http://pybelgaum.org/2015/
+  cfp: '2015-02-15 23:59:00'
+  place: Gogte Institute of Technology, India
+  start: 2015-02-28
+  end: 2015-03-01
+  sub: PY
+  location:
+  - title: PyBelgaum 2015
+    latitude: 15.81527075
+    longitude: 74.48744361563915
 
 - conference: PyGrunn
   year: 2015
