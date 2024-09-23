@@ -615,19 +615,6 @@
     latitude: 40.7127281
     longitude: -74.0060152
 
-- conference: Flask Con
-  year: 2018
-  link: https://web.archive.org/web/20221130002312/https://flask.python.org.br/
-  cfp: TBA
-  place: São Paulo, Brazil
-  start: 2018-08-24
-  end: 2018-08-26
-  sub: WEB
-  location:
-  - title: Flask Con 2018
-    latitude: -1.2043218
-    longitude: -47.1583944
-
 - conference: enterPy
   year: 2020
   link: https://www.enterpy.de/
