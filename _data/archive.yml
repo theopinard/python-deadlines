@@ -4270,6 +4270,20 @@
   end: 2020-09-27
   sub: PY
 
+- conference: Moscow Python Conf++
+  alt_name: MoscowPythonConf++
+  year: 2020
+  link: https://conf.python.ru/en/2020
+  cfp: '2020-01-13 23:59:00'
+  place: Moscow, Russia
+  start: 2020-03-27
+  end: 2020-03-27
+  sub: PY
+  location:
+  - title: Moscow Python Conf++ 2020
+    latitude: 55.625578
+    longitude: 37.6063916
+
 - conference: PyCon Namibia
   alt_name: PyCon NA
   year: 2020
@@ -5202,6 +5216,20 @@
   - title: PyCon Slovakia 2019
     latitude: 48.1516988
     longitude: 17.1093063
+
+- conference: Moscow Python Conf++
+  alt_name: MoscowPythonConf++
+  year: 2019
+  link: https://web.archive.org/web/20190404034605/http://mpc2019.tilda.ws/
+  cfp: '2019-02-04 23:59:00'
+  place: Moscow, Russia
+  start: 2019-04-05
+  end: 2019-04-05
+  sub: PY
+  location:
+  - title: Moscow Python Conf++ 2019
+    latitude: 55.625578
+    longitude: 37.6063916
 
 - conference: PyTexas
   year: 2019

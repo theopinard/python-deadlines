@@ -561,34 +561,6 @@
     latitude: 13.347776849999999
     longitude: 74.79299358008947
 
-- conference: Moscow Python Conf++
-  alt_name: MoscowPythonConf++
-  year: 2020
-  link: https://conf.python.ru/en/2020
-  cfp: TBA
-  place: Moscow, Russia
-  start: 2020-03-27
-  end: 2020-03-28
-  sub: PY
-  location:
-  - title: Moscow Python Conf++ 2020
-    latitude: 55.625578
-    longitude: 37.6063916
-
-- conference: Moscow Python Conf++
-  alt_name: MoscowPythonConf++
-  year: 2019
-  link: https://web.archive.org/web/20190404034605/http://mpc2019.tilda.ws/
-  cfp: TBA
-  place: Moscow, Russia
-  start: 2019-04-05
-  end: 2019-04-06
-  sub: PY
-  location:
-  - title: Moscow Python Conf++ 2019
-    latitude: 55.625578
-    longitude: 37.6063916
-
 - conference: IndyPy Automate Conf
   year: 2019
   link: https://web.archive.org/web/20210227152420/https://2019.indypy.org/automate/
