@@ -1642,6 +1642,19 @@
   end: 2023-12-03
   sub: PY
 
+- conference: Plone Conference
+  year: 2023
+  link: https://2023.ploneconf.org/
+  cfp: '2023-09-01 23:59:00'
+  place: Eibar, Spain
+  start: 2023-10-02
+  end: 2023-10-08
+  sub: WEB
+  location:
+  - title: Plone Conference 2023
+    latitude: 43.1842839
+    longitude: -2.4732748
+
 - conference: PyCon Sweden
   alt_name: PyCon SE
   year: 2023
@@ -2731,6 +2744,20 @@
   sub: PY
   note: Support any language of talks
 
+- conference: Plone Conference
+  year: 2022
+  link: https://2022.ploneconf.org/
+  cfp_link: https://plone.org/news-and-events/news/2022/plone-conference-2022-call-for-papers-open
+  cfp: '2022-09-12 23:59:00'
+  place: Namur, Belgium
+  start: 2022-10-10
+  end: 2022-10-16
+  sub: WEB
+  location:
+  - title: Plone Conference 2022
+    latitude: 50.4665284
+    longitude: 4.8661892
+
 - conference: PyData Global
   year: 2022
   link: https://web.archive.org/web/20221130202143/http://pydata.org/global2022/
@@ -3554,6 +3581,16 @@
   sub: PY
   note: Remote
 
+- conference: Plone Conference
+  year: 2021
+  link: https://2021.ploneconf.org/
+  cfp_link: https://2021.ploneconf.org/cfp
+  cfp: '2021-10-23 23:59:00'
+  place: Online
+  start: 2021-10-23
+  end: 2021-10-31
+  sub: WEB
+
 - conference: PyGrunn
   year: 2021
   link: https://web.archive.org/web/20211028110307/https://pygrunn.org/
@@ -4003,6 +4040,15 @@
   end: 2020-11-13
   sub: PY
 
+- conference: Plone Conference
+  year: 2020
+  link: https://2020.ploneconf.org/
+  cfp: '2020-09-22 23:59:00'
+  place: Online
+  start: 2020-12-05
+  end: 2020-12-13
+  sub: WEB
+
 - conference: PyHPC
   year: 2020
   link: https://www.pyhpc.io/
@@ -4446,6 +4492,19 @@
   - title: AfroPython Conf 2019
     latitude: -30.0324999
     longitude: -51.2303767
+
+- conference: Plone Conference
+  year: 2019
+  link: https://2019.ploneconf.org/
+  cfp: '2019-10-15 23:59:00'
+  place: Ferrara, Italy
+  start: 2019-10-21
+  end: 2019-10-27
+  sub: WEB
+  location:
+  - title: Plone Conference 2019
+    latitude: 44.766764249999994
+    longitude: 11.827938995640167
 
 - conference: PyTennessee
   year: 2020
@@ -6585,6 +6644,19 @@
     latitude: 38.2325829
     longitude: -122.636465
 
+- conference: Plone Conference
+  year: 2018
+  link: https://web.archive.org/web/20180928073235/https://2018.ploneconf.org/
+  cfp: '2017-09-28 23:59:00'
+  place: Tokyo, Japan
+  start: 2018-11-05
+  end: 2018-11-11
+  sub: WEB
+  location:
+  - title: Plone Conference 2018
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
 - conference: PyCon Canada
   year: 2017
   link: https://web.archive.org/web/20171020132949/http://pycon.ca/
@@ -7448,6 +7520,19 @@
     latitude: -26.205
     longitude: 28.049722
 
+- conference: Plone Conference
+  year: 2017
+  link: https://web.archive.org/web/20171001015152/https://2017.ploneconf.org/
+  cfp: '2016-09-28 23:59:00'
+  place: Barcelona, Spain
+  start: 2017-10-16
+  end: 2017-10-22
+  sub: WEB
+  location:
+  - title: Plone Conference 2017
+    latitude: 41.3828939
+    longitude: 2.1774322
+
 - conference: PyCon Czechia
   alt_name: PyCon CZ
   year: 2016
@@ -8226,6 +8311,20 @@
     latitude: -26.205
     longitude: 28.049722
 
+- conference: Plone Conference
+  year: 2016
+  link: https://web.archive.org/web/20170409210135/https://2016.ploneconf.org/
+  cfp_link: https://plone.org/news-and-events/events/plone-conferences/boston-2016/2016-call-for-proposals
+  cfp: '2015-09-28 23:59:00'
+  place: Cambridge, USA
+  start: 2016-10-17
+  end: 2016-10-23
+  sub: WEB
+  location:
+  - title: Plone Conference 2016
+    latitude: 42.3655767
+    longitude: -71.1040018
+
 - conference: PyCon Czechia
   alt_name: PyCon CZ
   year: 2015
@@ -8903,6 +9002,19 @@
     latitude: 18.9733536
     longitude: 72.82810491917377
 
+- conference: Plone Conference
+  year: 2015
+  link: https://web.archive.org/web/20151013153542/https://2015.ploneconf.org/
+  cfp: '2014-09-28 23:59:00'
+  place: Bucharest, Romania
+  start: 2015-10-12
+  end: 2015-10-18
+  sub: WEB
+  location:
+  - title: Plone Conference 2015
+    latitude: 44.4361414
+    longitude: 26.1027202
+
 - conference: PyCon China
   year: 2014
   link: https://web.archive.org/web/20141118174321/http://cn.pycon.org/en/
@@ -9488,6 +9600,19 @@
   - title: PyCon China 2013
     latitude: 30.2489634
     longitude: 120.2052342
+
+- conference: Plone Conference
+  year: 2014
+  link: https://web.archive.org/web/20140725162938/http://2014.ploneconf.org/
+  cfp: '2013-09-22 23:59:00'
+  place: Bristol, UK
+  start: 2013-10-27
+  end: 2013-11-02
+  sub: WEB
+  location:
+  - title: Plone Conference 2014
+    latitude: 51.4538022
+    longitude: -2.5972985
 
 - conference: PyHPC
   year: 2013
@@ -10146,6 +10271,20 @@
     longitude: -1.510477
 
 - conference: Plone Conference
+  year: 2013
+  link: https://web.archive.org/web/20130208160717/http://www.ploneconf.org/
+  cfp: '2012-08-15 23:59:00'
+  cfp_ext: '2013-08-19'
+  place: Brasilia, Brazil
+  start: 2013-09-30
+  end: 2013-10-06
+  sub: WEB
+  location:
+  - title: Plone Conference 2013
+    latitude: -10.3333333
+    longitude: -53.2
+
+- conference: Plone Conference
   year: 2012
   link: https://web.archive.org/web/20120923023043/http://www.ploneconf.org/
   cfp: '2012-08-15 23:59:00'
@@ -10697,6 +10836,19 @@
     latitude: 43.2961743
     longitude: 5.3699525
 
+- conference: Plone Conference
+  year: 2011
+  link: https://web.archive.org/web/20110928073235/https://ploneconf.org/
+  cfp: '2011-01-07 23:59:00'
+  place: San Francisco, USA
+  start: 2011-11-01
+  end: 2011-11-08
+  sub: WEB
+  location:
+  - title: Plone Conference 2011
+    latitude: 37.7681571
+    longitude: -122.392929
+
 - conference: PyCon US
   year: 2011
   link: https://web.archive.org/web/20101126050309/http://us.pycon.org/2011/about/
@@ -10725,6 +10877,19 @@
   - title: PyCon UK 2010
     latitude: 52.4796992
     longitude: -1.9026911
+
+- conference: Plone Conference
+  year: 2010
+  link: https://ploneconf2010.org/index.html
+  cfp: '2010-09-10 23:59:00'
+  place: Bristol, UK
+  start: 2010-10-25
+  end: 2010-10-31
+  sub: WEB
+  location:
+  - title: Plone Conference 2010
+    latitude: 51.4538022
+    longitude: -2.5972985
 
 - conference: Python Brasil
   alt_name: PythonBrasil[6]
@@ -10963,6 +11128,19 @@
     latitude: 33.7489924
     longitude: -84.3902644
 
+- conference: Plone Conference
+  year: 2009
+  link: https://web.archive.org/web/20090719092122/https://www.ploneconf2009.org/
+  cfp: '2009-09-06 23:59:00'
+  place: Budapest, Hungary
+  start: 2009-10-26
+  end: 2009-11-01
+  sub: WEB
+  location:
+  - title: Plone Conference 2009
+    latitude: 47.48138955
+    longitude: 19.14609412691246
+
 - conference: PyCon UK
   alt_name: PyCon UK Unconference
   year: 2009
@@ -11144,6 +11322,19 @@
     latitude: 41.8755616
     longitude: -87.6244212
 
+- conference: Plone Conference
+  year: 2008
+  link: https://plone.org/news-and-events/events/plone-conferences/washington-dc-2008
+  cfp: '2008-09-06 23:59:00'
+  place: Washington DC, USA
+  start: 2008-10-06
+  end: 2008-10-12
+  sub: WEB
+  location:
+  - title: Plone Conference 2008
+    latitude: 38.8950368
+    longitude: -77.0365427
+
 - conference: Python Brasil
   alt_name: PythonBrasil[4]
   year: 2008
@@ -11271,6 +11462,20 @@
     latitude: 48.8588897
     longitude: 2.3200410217200766
 
+- conference: Plone Conference
+  year: 2007
+  link: https://plone.org/news-and-events/events/plone-conferences/naples-2007/2007-naples/plone-conference-2007
+  cfp_link: https://plone.org/news-and-events/events/plone-conferences/naples-2007/2007-naples/call-for-proposals/call-for-proposals
+  cfp: '2007-07-27 23:59:00'
+  place: Naples, Italy
+  start: 2007-10-08
+  end: 2007-10-15
+  sub: WEB
+  location:
+  - title: Plone Conference 2007
+    latitude: 40.8358846
+    longitude: 14.2487679
+
 - conference: Python Brasil
   alt_name: PythonBrasil[3]
   year: 2007
@@ -11355,6 +11560,20 @@
     latitude: 32.7762719
     longitude: -96.7968559
 
+- conference: Plone Conference
+  year: 2006
+  link: https://plone.org/news-and-events/events/plone-conferences/seattle-2006/
+  cfp_link: https://plone.org/news-and-events/events/plone-conferences/seattle-2006/call-for-proposals/call-for-proposals
+  cfp: '2006-08-06 23:59:00'
+  place: Seattle, USA
+  start: 2006-10-25
+  end: 2006-10-27
+  sub: WEB
+  location:
+  - title: Plone Conference 2006
+    latitude: 47.6038321
+    longitude: -122.330062
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2006
@@ -11410,6 +11629,19 @@
   - title: PyCon US 2006
     latitude: 41.931696
     longitude: -87.9889556
+
+- conference: Plone Conference
+  year: 2005
+  link: https://web.archive.org/web/20050810014120/http://ploneconf2005.bluedynamics.net/
+  cfp: '2005-08-03 23:59:00'
+  place: Vienna, Austria
+  start: 2005-09-19
+  end: 2005-09-21
+  sub: WEB
+  location:
+  - title: Plone Conference 2005
+    latitude: 48.2391664
+    longitude: 16.3774409
 
 - conference: SciPy US
   alt_name: SciPy
@@ -11467,6 +11699,19 @@
     latitude: 38.8950368
     longitude: -77.0365427
 
+- conference: Plone Conference
+  year: 2004
+  link: https://plone.org/news-and-events/events/plone-conferences/vienna-2004/
+  cfp: '2004-08-01 23:59:00'
+  place: Vienna, Austria
+  start: 2004-09-20
+  end: 2004-09-22
+  sub: WEB
+  location:
+  - title: Plone Conference 2004
+    latitude: 48.2391664
+    longitude: 16.3774409
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2004
@@ -11508,6 +11753,19 @@
   - title: PyCon US 2004
     latitude: 38.8950368
     longitude: -77.0365427
+
+- conference: Plone Conference
+  year: 2003
+  link: https://plone.org/news-and-events/events/plone-conferences/new-orleans-2003/announcement
+  cfp: '2003-09-03 23:59:00'
+  place: New Orleans, USA
+  start: 2003-10-15
+  end: 2003-10-17
+  sub: WEB
+  location:
+  - title: Plone Conference 2003
+    latitude: 29.9759983
+    longitude: -90.0782127
 
 - conference: EuroPython
   year: 2003

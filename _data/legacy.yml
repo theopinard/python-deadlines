@@ -353,67 +353,6 @@
     latitude: 35.718741949999995
     longitude: 139.73118058112317
 
-- conference: Plone Conference
-  year: 2021
-  link: https://2021.ploneconf.org/
-  cfp: TBA
-  place: Online
-  start: 2021-10-23
-  end: 2021-10-31
-  sub: WEB
-
-- conference: Plone Conference
-  year: 2018
-  link: https://web.archive.org/web/20180928073235/https://2018.ploneconf.org/
-  cfp: TBA
-  place: Tokyo, Japan
-  start: 2018-11-05
-  end: 2018-11-12
-  sub: WEB
-  location:
-  - title: Plone Conference 2018
-    latitude: 35.718741949999995
-    longitude: 139.73118058112317
-
-- conference: Plone Conference
-  year: 2016
-  link: https://web.archive.org/web/20130208160717/http://www.ploneconf.org/
-  cfp: TBA
-  place: Cambridge, USA
-  start: 2016-10-17
-  end: 2016-10-24
-  sub: WEB
-  location:
-  - title: Plone Conference 2016
-    latitude: 42.3655767
-    longitude: -71.1040018
-
-- conference: Plone Conference
-  year: 2015
-  link: https://web.archive.org/web/20151013153542/https://2015.ploneconf.org/
-  cfp: TBA
-  place: Bucharest, Romania
-  start: 2015-10-12
-  end: 2015-10-19
-  sub: WEB
-  location:
-  - title: Plone Conference 2015
-    latitude: 44.4361414
-    longitude: 26.1027202
-
-- conference: Plone Conference
-  year: 2013
-  link: https://web.archive.org/web/20130208160717/http://www.ploneconf.org/
-  cfp: TBA
-  place: Brasilia, Brazil
-  start: 2013-09-30
-  end: 2013-10-12
-  sub: WEB
-  location:
-  - title: Plone Conference 2013
-    latitude: -10.3333333
-    longitude: -53.2
-
 - conference: Piter Py
   alt_name: PiterPy
   year: 2019
@@ -463,9 +402,37 @@
   cfp: TBA
   place: St. Petersburg, Russia
   start: 2016-04-22
-  end: 2016-04-24
+  end: 2016-04-23
   sub: PY
   location:
   - title: Piter Py 2016
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2015
+  link: https://web.archive.org/web/20150424033322/http://www.it-sobytie.ru/events/3275
+  cfp: TBA
+  place: St. Petersburg, Russia
+  start: 2015-03-20
+  end: 2015-03-20
+  sub: PY
+  location:
+  - title: Piter Py 2015
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2014
+  link: https://web.archive.org/web/20140424033322/http://www.it-sobytie.ru/en/events/2040
+  cfp: TBA
+  place: St. Petersburg, Russia
+  start: 2014-04-25
+  end: 2014-04-25
+  sub: PY
+  location:
+  - title: Piter Py 2014
     latitude: 59.9606739
     longitude: 30.1586551
