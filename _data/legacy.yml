@@ -601,16 +601,3 @@
   - title: IndyPy Automate Conf 2019
     latitude: 40.3270127
     longitude: -86.1746933
-
-- conference: enterPy
-  year: 2020
-  link: https://www.enterpy.de/
-  cfp: TBA
-  place: Heidelberg, Germany
-  start: 2020-11-23
-  end: 2020-11-25
-  sub: BIZ
-  location:
-  - title: enterPy 2020
-    latitude: 49.4093582
-    longitude: 8.694724
