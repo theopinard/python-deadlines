@@ -255,6 +255,19 @@
     latitude: -3.1316333
     longitude: -59.9825041
 
+- conference: PyCon Belarus
+  year: 2017
+  link: https://web.archive.org/web/20170202114714/http://by.pycon.org/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2017-02-04
+  end: 2017-02-04
+  sub: PY
+  location:
+  - title: PyCon Belarus 2017
+    latitude: 53.8901239
+    longitude: 27.5693855
+
 - conference: PyCon Cameroon
   year: 2017
   link: https://web.archive.org/web/20171005042303/http://pythoncm.org/
@@ -334,6 +347,32 @@
     latitude: -2.1900563
     longitude: -79.8868741
 
+- conference: PyCon Belarus
+  year: 2016
+  link: https://web.archive.org/web/20160202114714/http://by.pycon.org/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2016-02-06
+  end: 2016-02-06
+  sub: PY
+  location:
+  - title: PyCon Belarus 2016
+    latitude: 53.8901239
+    longitude: 27.5693855
+
+- conference: PyCon Russia
+  year: 2015
+  link: https://web.archive.org/web/20150930220556/http://pycon.ru/2015/en/
+  cfp: None
+  place: Ekaterinburg, Russia
+  start: 2015-09-18
+  end: 2015-09-19
+  sub: PY
+  location:
+  - title: PyCon Russia 2015
+    latitude: 56.839104
+    longitude: 60.60825
+
 - conference: Python Unconference
   year: 2015
   link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
@@ -387,6 +426,19 @@
   - title: Piter Py 2015
     latitude: 59.9606739
     longitude: 30.1586551
+
+- conference: PyCon Belarus
+  year: 2015
+  link: https://web.archive.org/web/20150101002522/http://by.pycon.org/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2015-01-31
+  end: 2015-01-31
+  sub: PY
+  location:
+  - title: PyCon Belarus 2015
+    latitude: 53.8901239
+    longitude: 27.5693855
 
 - conference: Python Unconference
   year: 2014
@@ -454,6 +506,19 @@
     latitude: -30.0324999
     longitude: -51.2303767
 
+- conference: PyCon Russia
+  year: 2014
+  link: https://web.archive.org/web/20140529230912/http://pycon.ru/2014/en/
+  cfp: None
+  place: Yekaterinburg, Russia
+  start: 2014-06-02
+  end: 2014-06-03
+  sub: PY
+  location:
+  - title: PyCon Russia 2014
+    latitude: 56.839104
+    longitude: 60.60825
+
 - conference: Piter Py
   alt_name: Piter Py \#1
   year: 2014
@@ -520,6 +585,19 @@
   - title: Python in finance 2013
     latitude: 40.7127281
     longitude: -74.0060152
+
+- conference: PyCon Russia
+  year: 2013
+  link: https://web.archive.org/web/20130210032917/http://ru.pycon.org/en/
+  cfp: None
+  place: Yekaterinburg, Russia
+  start: 2013-02-24
+  end: 2013-02-25
+  sub: PY
+  location:
+  - title: PyCon Russia 2013
+    latitude: 56.839104
+    longitude: 60.60825
 
 - conference: PyCon Philippines
   alt_name: PyCon PH
@@ -3867,6 +3945,19 @@
   end: 2021-10-03
   sub: PY
 
+- conference: PyCon Russia
+  year: 2021
+  link: https://web.archive.org/web/20210715073901/https://pycon.ru/
+  cfp: '2021-06-15 23:59:00'
+  place: Tarusa, Russia
+  start: 2021-09-05
+  end: 2021-09-06
+  sub: PY
+  location:
+  - title: PyCon Russia 2021
+    latitude: 54.7293536
+    longitude: 37.1815538
+
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2021
@@ -4035,6 +4126,15 @@
   start: 2021-05-12
   end: 2021-05-21
   sponsor: https://us.pycon.org/2021/sponsorship/why-sponsor
+  sub: PY
+
+- conference: PyCon Belarus
+  year: 2021
+  link: https://web.archive.org/web/20210223084649/https://by.pycon.org/
+  cfp: '2021-02-12 23:59:00'
+  place: Online
+  start: 2021-03-13
+  end: 2021-03-13
   sub: PY
 
 - conference: Python Web Conference
@@ -4279,6 +4379,16 @@
   end: 2020-10-03
   sub: PY
 
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2020
+  link: https://web.archive.org/web/20200628045535/https://piterpy.com/en/
+  cfp: '2020-06-26 23:59:00'
+  place: Online
+  start: 2020-08-03
+  end: 2020-08-06
+  sub: PY
+
 - conference: PyHEP
   year: 2020
   link: https://indico.cern.ch/event/882824/
@@ -4297,6 +4407,19 @@
   start: 2020-07-04
   end: 2020-07-05
   sub: WEB
+
+- conference: PyCon Russia
+  year: 2020
+  link: https://web.archive.org/web/20200715073901/https://pycon.ru/
+  cfp: '2020-06-01 23:59:00'
+  place: Moscow, Russia
+  start: 2020-09-03
+  end: 2020-09-04
+  sub: PY
+  location:
+  - title: PyCon Russia 2020
+    latitude: 55.625578
+    longitude: 37.6063916
 
 - conference: PyCon Africa
   year: 2020
@@ -4344,16 +4467,6 @@
   place: Online
   start: 2020-09-12
   end: 2020-09-20
-  sub: PY
-
-- conference: Piter Py
-  alt_name: PiterPy
-  year: 2020
-  link: https://web.archive.org/web/20200628045535/https://piterpy.com/en/
-  cfp: '2020-04-30 23:59:00'
-  place: Online
-  start: 2020-08-03
-  end: 2020-08-06
   sub: PY
 
 - conference: PyCon Taiwan
@@ -4582,6 +4695,19 @@
   - title: FOSDEM 2020
     latitude: 50.8465573
     longitude: 4.351697
+
+- conference: PyCon Belarus
+  year: 2020
+  link: https://web.archive.org/web/20200223084649/https://by.pycon.org/
+  cfp: '2019-11-16 23:59:00'
+  place: Minsk, Belarus
+  start: 2020-02-21
+  end: 2020-02-22
+  sub: PY
+  location:
+  - title: PyCon Belarus 2020
+    latitude: 53.9024716
+    longitude: 27.5618225
 
 - conference: PyCon Tanzania
   year: 2019
@@ -5251,6 +5377,19 @@
   - title: Python Serbia 2019
     latitude: 45.2551338
     longitude: 19.8451756
+
+- conference: PyCon Russia
+  year: 2019
+  link: https://web.archive.org/web/20230715073901/https://pycon.ru/
+  cfp: '2019-05-01 23:59:00'
+  place: Tarusa, Russia
+  start: 2019-06-24
+  end: 2019-06-25
+  sub: PY
+  location:
+  - title: PyCon Russia 2019
+    latitude: 54.7293536
+    longitude: 37.1815538
 
 - conference: EuroSciPy
   year: 2019
@@ -6283,6 +6422,19 @@
     latitude: 51.4816546
     longitude: -3.1791934
 
+- conference: PyCon Russia
+  year: 2018
+  link: https://web.archive.org/web/20180715034819/http://pycon.ru/2018/en/
+  cfp: '2018-06-12 23:59:00'
+  place: Gribovka, Russia
+  start: 2018-07-22
+  end: 2018-07-23
+  sub: PY
+  location:
+  - title: PyCon Russia 2018
+    latitude: 54.0357892
+    longitude: 33.882641
+
 - conference: DjangoCon US
   year: 2018
   link: https://web.archive.org/web/20180912163411/https://2018.djangocon.us/
@@ -6631,6 +6783,19 @@
   - title: PyCon Slovakia 2018
     latitude: 48.1516988
     longitude: 17.1093063
+
+- conference: PyCon Belarus
+  year: 2018
+  link: https://web.archive.org/web/20180223084649/https://by.pycon.org/
+  cfp: '2018-01-16 23:59:00'
+  place: Minsk, Belarus
+  start: 2018-02-24
+  end: 2018-02-25
+  sub: PY
+  location:
+  - title: PyCon Belarus 2018
+    latitude: 53.9024716
+    longitude: 27.5618225
 
 - conference: PyCon Colombia
   year: 2018
@@ -7251,6 +7416,19 @@
   - title: PyOhio 2017
     latitude: 39.9622601
     longitude: -83.0007065
+
+- conference: PyCon Russia
+  year: 2017
+  link: https://web.archive.org/web/20170712000437/http://pycon.ru/2017/en/
+  cfp: '2017-05-11 23:59:00'
+  place: Kaluga Oblast, Russia
+  start: 2017-07-16
+  end: 2017-07-17
+  sub: PY
+  location:
+  - title: PyCon Russia 2017
+    latitude: 54.4382773
+    longitude: 35.5272854
 
 - conference: DjangoCon Australia
   alt_name: DjangoCon AU
