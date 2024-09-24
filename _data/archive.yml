@@ -202,6 +202,20 @@
     latitude: 17.9712148
     longitude: -76.7928128
 
+- conference: Piter Py
+  alt_name: Piter Py \#4
+  year: 2017
+  link: https://web.archive.org/web/20171209200602/https://it-events.com/events/8527
+  cfp: None
+  place: Crowne Plaza St. Petersburg Airport, 196210
+  start: 2017-11-03
+  end: 2017-11-04
+  sub: PY
+  location:
+  - title: Piter Py 2017
+    latitude: 59.8060977
+    longitude: 30.3162358
+
 - conference: MUPy
   year: 2017
   link: https://web.archive.org/web/20240218045738/https://pypals.org/mupy
@@ -293,6 +307,20 @@
     latitude: -5.0
     longitude: -80.333333
 
+- conference: Piter Py
+  alt_name: Piter Py \#3
+  year: 2016
+  link: https://web.archive.org/web/20160424033322/http://www.it-sobytie.ru/en/events/5862
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2016-04-22
+  end: 2016-04-23
+  sub: PY
+  location:
+  - title: Piter Py 2016
+    latitude: 59.9606739
+    longitude: 30.1586551
+
 - conference: PyDay Loja
   year: 2016
   link: https://web.archive.org/web/20160418094309/http://pythonecuador.org/
@@ -345,6 +373,20 @@
   - title: PyDay Asunción 2015
     latitude: -25.2800459
     longitude: -57.6343814
+
+- conference: Piter Py
+  alt_name: Piter Py \#2
+  year: 2015
+  link: https://web.archive.org/web/20150424033322/http://www.it-sobytie.ru/events/3275
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2015-03-20
+  end: 2015-03-20
+  sub: PY
+  location:
+  - title: Piter Py 2015
+    latitude: 59.9606739
+    longitude: 30.1586551
 
 - conference: Python Unconference
   year: 2014
@@ -411,6 +453,20 @@
   - title: PyPOA 2014
     latitude: -30.0324999
     longitude: -51.2303767
+
+- conference: Piter Py
+  alt_name: Piter Py \#1
+  year: 2014
+  link: https://web.archive.org/web/20140424033322/http://www.it-sobytie.ru/en/events/2040
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2014-04-25
+  end: 2014-04-25
+  sub: PY
+  location:
+  - title: Piter Py 2014
+    latitude: 59.9606739
+    longitude: 30.1586551
 
 - conference: For Python Quants
   year: 2015
@@ -1882,6 +1938,20 @@
     latitude: 47.2266532
     longitude: 8.8164042
 
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2023
+  link: https://web.archive.org/web/20230628045535/https://piterpy.com/en/
+  cfp: '2023-06-30 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2023-11-13
+  end: 2023-11-14
+  sub: PY
+  location:
+  - title: Piter Py 2023
+    latitude: 59.9606739
+    longitude: 30.1586551
+
 - conference: PyCon Portugal
   year: 2023
   link: https://2023.pycon.pt/
@@ -3043,6 +3113,21 @@
   - title: PyCon UK 2022
     latitude: 51.4816546
     longitude: -3.1791934
+
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2022
+  link: https://web.archive.org/web/20220628045535/https://piterpy.com/en/
+  cfp_link: https://web.archive.org/web/20220524162310/https://piterpy.com/en/callforpapers/
+  cfp: '2022-06-30 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2022-10-28
+  end: 2022-10-28
+  sub: PY
+  location:
+  - title: Piter Py 2022
+    latitude: 59.9606739
+    longitude: 30.1586551
 
 - conference: PyCon Portugal
   year: 2022
@@ -4261,6 +4346,16 @@
   end: 2020-09-20
   sub: PY
 
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2020
+  link: https://web.archive.org/web/20200628045535/https://piterpy.com/en/
+  cfp: '2020-04-30 23:59:00'
+  place: Online
+  start: 2020-08-03
+  end: 2020-08-06
+  sub: PY
+
 - conference: PyCon Taiwan
   alt_name: PyCon TW
   year: 2020
@@ -4861,6 +4956,20 @@
   - title: PyCon India 2019
     latitude: 13.0836939
     longitude: 80.270186
+
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2019
+  link: https://web.archive.org/web/20190628045535/https://piterpy.com/en/
+  cfp: '2019-06-30 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2019-11-01
+  end: 2019-11-01
+  sub: PY
+  location:
+  - title: Piter Py 2019
+    latitude: 59.9606739
+    longitude: 30.1586551
 
 - conference: PyCode Conference
   year: 2019
@@ -6090,6 +6199,20 @@
   - title: PySangamam 2018
     latitude: 10.9094334
     longitude: 78.3665347
+
+- conference: Piter Py
+  alt_name: Piter Py \#5
+  year: 2018
+  link: https://web.archive.org/web/20180628045535/https://piterpy.com/en
+  cfp: '2018-06-30 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2018-11-02
+  end: 2018-11-04
+  sub: PY
+  location:
+  - title: Piter Py 2018
+    latitude: 59.9606739
+    longitude: 30.1586551
 
 - conference: PyCon France
   alt_name: PyCon FR
