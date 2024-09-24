@@ -940,6 +940,23 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2025
+  link: https://na.pycon.org/
+  cfp: TBA
+  timezone: Africa/Windhoek
+  place: Windhoek, Namibia
+  start: 2025-02-24
+  end: 2025-02-27
+  twitter: PyConNA
+  mastodon: https://hachyderm.io/@PyConNA
+  sub: PY
+  location:
+  - title: PyCon Namibia 2025
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: PyCon Balkan
   year: 2024
   link: https://pyconbalkan.com/
