@@ -992,6 +992,19 @@
     latitude: 48.1371079
     longitude: 11.5753822
 
+- conference: PyCon Israel
+  year: 2020
+  link: https://web.archive.org/web/20200315123043/https://il.pycon.org/2020/
+  cfp: Cancelled
+  place: Ramat Gan, Israel
+  start: 2020-05-04
+  end: 2020-05-06
+  sub: PY
+  location:
+  - title: PyCon Israel 2020
+    latitude: 32.0686867
+    longitude: 34.8246812
+
 - conference: Caipyra
   year: 2019
   link: https://web.archive.org/web/20190717090447/http://caipyra.python.org.br/
@@ -4079,6 +4092,20 @@
     latitude: 41.1494512
     longitude: -8.6107884
 
+- conference: PyCon Israel
+  year: 2021
+  link: https://web.archive.org/web/20210629094715/https://pycon.org.il/2022/
+  cfp: '2021-04-01 23:59:59'
+  timezone: Asia/Jerusalem
+  place: Ramat-Gan, Israel
+  start: 2021-05-02
+  end: 2021-05-03
+  sub: PY
+  location:
+  - title: PyCon Israel 2021
+    latitude: 32.0686867
+    longitude: 34.8246812
+
 - conference: Python for ML and AI Global Summit
   year: 2021
   link: https://web.archive.org/web/20220106000100/https://wp.geekle.us/python
@@ -5479,6 +5506,19 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
+- conference: PyCon Israel
+  year: 2019
+  link: https://web.archive.org/web/20190120010757/https://il.pycon.org/2019/
+  cfp: '2019-04-01 23:59:00'
+  place: Ramat Gan, Israel
+  start: 2019-06-02
+  end: 2019-06-05
+  sub: PY
+  location:
+  - title: PyCon Israel 2019
+    latitude: 32.0686867
+    longitude: 34.8246812
+
 - conference: PyCon KyuShu
   year: 2019
   link: https://web.archive.org/web/20190417080624/https://kyushu.pycon.jp/2019/
@@ -6659,6 +6699,19 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: PyCon Israel
+  year: 2018
+  link: https://web.archive.org/web/20180315123043/http://il.pycon.org/2018/
+  cfp: '2018-04-01 23:59:00'
+  place: Ramat Gan, Israel
+  start: 2018-06-04
+  end: 2018-06-06
+  sub: PY
+  location:
+  - title: PyCon Israel 2018
+    latitude: 32.0686867
+    longitude: 34.8246812
+
 - conference: PyData Berlin
   year: 2018
   link: https://web.archive.org/web/20190112064656/https://pydata.org/berlin2018/
@@ -7583,6 +7636,19 @@
     latitude: 41.3828939
     longitude: 2.1774322
 
+- conference: PyCon Israel
+  year: 2017
+  link: https://web.archive.org/web/20170315123043/http://il.pycon.org/
+  cfp: '2017-04-01 23:59:00'
+  place: Ramat Gan, Israel
+  start: 2017-06-11
+  end: 2017-06-14
+  sub: PY
+  location:
+  - title: PyCon Israel 2017
+    latitude: 32.0686867
+    longitude: 34.8246812
+
 - conference: Python Sul
   alt_name: Python Sul (Brazil)
   year: 2017
@@ -8364,6 +8430,19 @@
   - title: SciPy Latin America 2016
     latitude: -27.5973002
     longitude: -48.5496098
+
+- conference: PyCon Israel
+  year: 2016
+  link: https://web.archive.org/web/20160315123043/http://il.pycon.org/
+  cfp: '2016-04-02 23:59:00'
+  place: Tel Aviv, Israel
+  start: 2016-05-02
+  end: 2016-05-03
+  sub: PY
+  location:
+  - title: PyCon Israel 2016
+    latitude: 32.10050375
+    longitude: 34.826677554304695
 
 - conference: SciPy US
   alt_name: SciPy
