@@ -24,6 +24,23 @@
 					{% endfor %}
 				</div>
 			</div>
+			{% assign years = site.years | sort: 'year' %} {% assign current_year = page.year %} {% assign previous_year
+			= null %} {% assign next_year = null %} {% for year in years %} {% if year.year == current_year %} {% assign
+			previous_year_index = forloop.index0 | minus: 1 %} {% assign next_year_index = forloop.index0 | plus: 1 %}
+			{% if previous_year_index >= 0 %} {% assign previous_year = years[previous_year_index] %} {% endif %} {% if
+			next_year_index < years.size %} {% assign next_year = years[next_year_index] %} {% endif %} {% break %} {%
+			endif %} {% endfor %}
+
+			<div class="d-flex justify-content-between navigation">
+				{% if previous_year %}
+				<a href="{{ previous_year.url }}" class="btn btn-link"><<< {{ previous_year.year }}</a>
+				{% else %}
+				<span></span>
+				<!-- Empty span to keep alignment if no previous year -->
+				{% endif %} {% if next_year %}
+				<a href="{{ next_year.url }}" class="btn btn-link">{{ next_year.year }} >>></a>
+				{% endif %}
+			</div>
 			<footer>{% include footer.html %}</footer>
 			<br /><br />
 		</div>
