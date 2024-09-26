@@ -188,6 +188,20 @@
     latitude: 42.6977028
     longitude: 23.3217359
 
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2018
+  link: https://web.archive.org/web/20180217031411/http://pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2018-02-15
+  end: 2018-02-15
+  sub: PY
+  location:
+  - title: PyCon Iran 2018
+    latitude: 35.6892523
+    longitude: 51.3896004
+
 - conference: PyCon Jamaica
   year: 2017
   link: https://web.archive.org/web/20171009190334/http://www.pycon.org.jm/
@@ -255,6 +269,20 @@
     latitude: -3.1316333
     longitude: -59.9825041
 
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2017
+  link: https://web.archive.org/web/20170208170707/http://www.pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2017-02-17
+  end: 2017-02-17
+  sub: PY
+  location:
+  - title: PyCon Iran 2017
+    latitude: 35.6892523
+    longitude: 51.3896004
+
 - conference: PyCon Belarus
   year: 2017
   link: https://web.archive.org/web/20170202114714/http://by.pycon.org/
@@ -319,6 +347,20 @@
   - title: PyDay Piura 2016
     latitude: -5.0
     longitude: -80.333333
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2016
+  link: https://web.archive.org/web/20160509203844/http://pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2016-05-24
+  end: 2016-05-24
+  sub: PY
+  location:
+  - title: PyCon Iran 2016
+    latitude: 35.6892523
+    longitude: 51.3896004
 
 - conference: Piter Py
   alt_name: Piter Py \#3
@@ -518,6 +560,20 @@
   - title: PyCon Russia 2014
     latitude: 56.839104
     longitude: 60.60825
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2014
+  link: https://web.archive.org/web/20141021094358/http://2014.pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2014-05-11
+  end: 2014-05-11
+  sub: PY
+  location:
+  - title: PyCon Iran 2014
+    latitude: 35.6892523
+    longitude: 51.3896004
 
 - conference: Piter Py
   alt_name: Piter Py \#1
@@ -4163,6 +4219,20 @@
   start: 2021-03-13
   end: 2021-03-13
   sub: PY
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2021
+  link: https://web.archive.org/web/20211021094358/http://2021.pycon.ir/
+  cfp: '2021-02-04 23:59:00'
+  place: Tehran, Iran
+  start: 2021-02-16
+  end: 2021-02-18
+  sub: PY
+  location:
+  - title: PyCon Iran 2021
+    latitude: 35.6892523
+    longitude: 51.3896004
 
 - conference: Python Web Conference
   year: 2021
@@ -10012,6 +10082,20 @@
   - title: SciPy India 2013
     latitude: 18.9733536
     longitude: 72.82810491917377
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2013
+  link: https://web.archive.org/web/20131021094358/http://2013.pycon.ir/
+  cfp: '2013-11-07 23:59:00'
+  place: Tehran, Iran
+  start: 2013-11-10
+  end: 2013-11-10
+  sub: PY
+  location:
+  - title: PyCon Iran 2013
+    latitude: 35.6892523
+    longitude: 51.3896004
 
 - conference: PyTennessee
   year: 2014
