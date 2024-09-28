@@ -977,15 +977,15 @@
   year: 2024
   link: https://pycon.or.tz/
   cfp: TBA
-  place: Dare E Salaam, Tanzania
+  place: Dar Es Salaam, Tanzania
   start: 2024-12-01
   end: 2024-12-06
   sponsor: https://pycon.or.tz/sponsor/
   sub: PY
   location:
   - title: PyCon Tanzania 2024
-    latitude: 44.9379672
-    longitude: 7.5400398
+    latitude: -6.8160837
+    longitude: 39.2803583
 
 - conference: PyCon Balkan
   year: 2024

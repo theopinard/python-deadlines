@@ -793,10 +793,6 @@
   start: 2022-02-16
   end: 2022-02-19
   sub: PY
-  location:
-  - title: PyCon Iran 2022
-    latitude: 44.9379672
-    longitude: 7.5400398
 
 - conference: PyCon Germany & PyData Berlin
   alt_name: PyCon DE & PyData Berlin
@@ -3790,14 +3786,14 @@
   year: 2021
   link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2021/
   cfp: '2021-11-15 23:59:00'
-  place: Dare E Salaam, Tanzania
+  place: Dar Es Salaam, Tanzania
   start: 2021-12-01
   end: 2021-12-04
   sub: PY
   location:
   - title: PyCon Tanzania 2021
-    latitude: 44.9379672
-    longitude: 7.5400398
+    latitude: -6.8160837
+    longitude: 39.2803583
 
 - conference: SciPy Latin America
   alt_name: SciPyLA
