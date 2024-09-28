@@ -2966,6 +2966,20 @@
     latitude: 49.27213705
     longitude: -123.13439461006233
 
+- conference: PyCon Tanzania
+  year: 2022
+  link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2022/
+  cfp_link: https://pycon.or.tz/2022/speak/
+  cfp: '2022-11-15 23:59:00'
+  place: Zanzibar, Tanzania
+  start: 2022-12-04
+  end: 2022-12-08
+  sub: PY
+  location:
+  - title: PyCon Tanzania 2022
+    latitude: -6.09994425
+    longitude: 39.32094431715264
+
 - conference: PyCon Chile
   year: 2022
   link: https://web.archive.org/web/20230925093306/https://pycon.cl/2022/
