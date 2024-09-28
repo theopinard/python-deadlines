@@ -831,6 +831,19 @@
     latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: PyCon China
+  year: 2024
+  link: http://cn.pycon.org/2024/
+  cfp: '2023-11-30 23:59:00'
+  place: Shanghai, China
+  start: 2024-11-23
+  end: 2024-11-23
+  sub: PY
+  location:
+  - title: PyCon China 2024
+    latitude: 31.2323437
+    longitude: 121.4691024
+
 - conference: Django Day Copenhagen
   year: 2024
   link: https://2024.djangoday.dk/
