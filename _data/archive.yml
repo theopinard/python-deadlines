@@ -1855,9 +1855,6 @@
   - title: PyCon Chile 2023
     latitude: -32.5976089
     longitude: -70.8529753
-  - title: PyCon Chile 2023
-    latitude: 43.59047185
-    longitude: 3.8595132132013186
 
 - conference: PyHEP
   year: 2023
