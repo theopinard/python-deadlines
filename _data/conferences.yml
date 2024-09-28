@@ -949,6 +949,7 @@
   start: 2025-04-23
   end: 2025-04-25
   sponsor: https://pycon.lt/2025/partnership
+  twitter: pyconlt
   sub: PY
   location:
   - title: PyCon Lithuania 2025
@@ -979,6 +980,7 @@
   place: Dare E Salaam, Tanzania
   start: 2024-12-01
   end: 2024-12-06
+  sponsor: https://pycon.or.tz/sponsor/
   sub: PY
   location:
   - title: PyCon Tanzania 2024
@@ -1020,6 +1022,7 @@
   place: Panama City, Panamá
   start: 2024-10-16
   end: 2024-10-18
+  twitter: pythonpanama
   sub: PY
   location:
   - title: PyCon Panamá 2024
@@ -1033,6 +1036,7 @@
   place: Itacoatiara, Brazil
   start: 2024-09-27
   end: 2024-09-28
+  twitter: pynorte
   sub: PY
   location:
   - title: Python Norte 2024
