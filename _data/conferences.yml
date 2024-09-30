@@ -18,6 +18,39 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2025
+  link: https://2025.pycon.it/en
+  cfp: '2025-01-06 23:59:00'
+  place: Bologna, Italy
+  start: 2025-05-28
+  end: 2025-05-31
+  twitter: PyConIT
+  mastodon: https://social.python.it/@pycon
+  sub: PY
+  location:
+  - title: PyCon Italia 2025
+    latitude: 44.4938203
+    longitude: 11.3426327
+
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2025
+  link: https://na.pycon.org/
+  cfp: '2024-11-17 23:59:00'
+  timezone: Africa/Windhoek
+  place: Windhoek, Namibia
+  start: 2025-02-24
+  end: 2025-02-27
+  twitter: PyConNA
+  mastodon: https://hachyderm.io/@PyConNA
+  sub: PY
+  location:
+  - title: PyCon Namibia 2025
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
 - conference: GeoPython
   year: 2025
   link: https://2025.geopython.net/
@@ -909,22 +942,6 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
-- conference: PyCon Italia
-  alt_name: PyCon Italy
-  year: 2025
-  link: https://2025.pycon.it/en
-  cfp: TBA
-  place: Bologna, Italy
-  start: 2025-05-28
-  end: 2025-05-31
-  twitter: PyConIT
-  mastodon: https://social.python.it/@pycon
-  sub: PY
-  location:
-  - title: PyCon Italia 2025
-    latitude: 44.4938203
-    longitude: 11.3426327
-
 - conference: PyCon US
   year: 2025
   link: https://us.pycon.org/
@@ -956,30 +973,13 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
-- conference: PyCon Namibia
-  alt_name: PyCon NA
-  year: 2025
-  link: https://na.pycon.org/
-  cfp: TBA
-  timezone: Africa/Windhoek
-  place: Windhoek, Namibia
-  start: 2025-02-24
-  end: 2025-02-27
-  twitter: PyConNA
-  mastodon: https://hachyderm.io/@PyConNA
-  sub: PY
-  location:
-  - title: PyCon Namibia 2025
-    latitude: -22.611456150000002
-    longitude: 17.05860104184979
-
 - conference: PyCon Tanzania
   year: 2024
   link: https://pycon.or.tz/
   cfp: TBA
   place: Dar Es Salaam, Tanzania
-  start: 2024-12-01
-  end: 2024-12-06
+  start: 2024-12-04
+  end: 2024-12-05
   sponsor: https://pycon.or.tz/sponsor/
   sub: PY
   location:
