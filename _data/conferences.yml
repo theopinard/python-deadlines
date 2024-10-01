@@ -1,22 +1,21 @@
 ---
 
-- conference: PyTexas
+- conference: PyCon Estonia
+  alt_name: PyCon EE
   year: 2025
-  link: https://www.pytexas.org/2025/
-  cfp_link: https://pretalx.com/pytexas-2025/
-  cfp: '2025-01-14 23:59:00'
-  tutorial_deadline: '2025-01-14 23:59:00'
-  timezone: America/Chicago
-  place: Austin, USA
-  start: 2025-04-11
-  end: 2025-04-13
-  sponsor: https://www.pytexas.org/2025/sponsors/sponsor-us/
-  finaid: https://www.pytexas.org/2025/attend/in-person/#grants
+  link: https://pycon.ee/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScn-H2turgLHVbbm6g3t6MeOBmStlgQwEay8J1qfypfERKw0A/viewform
+  cfp: '2025-01-15 23:59:00'
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  start: 2025-10-02
+  end: 2025-10-03
+  twitter: PyConEstonia
   sub: PY
   location:
-  - title: PyTexas 2025
-    latitude: 30.2711286
-    longitude: -97.7436995
+  - title: PyCon Estonia 2025
+    latitude: 59.4372155
+    longitude: 24.7453688
 
 - conference: PyCon Italia
   alt_name: PyCon Italy
@@ -33,6 +32,23 @@
   - title: PyCon Italia 2025
     latitude: 44.4938203
     longitude: 11.3426327
+
+- conference: PyTexas
+  year: 2025
+  link: https://www.pytexas.org/2025/
+  cfp_link: https://pretalx.com/pytexas-2025/
+  cfp: '2024-12-01 23:59:00'
+  timezone: America/Chicago
+  place: Austin, USA
+  start: 2025-04-11
+  end: 2025-04-13
+  sponsor: https://www.pytexas.org/2025/sponsors/sponsor-us/
+  finaid: https://www.pytexas.org/2025/attend/in-person/#grants
+  sub: PY
+  location:
+  - title: PyTexas 2025
+    latitude: 30.2711286
+    longitude: -97.7436995
 
 - conference: PyCon Namibia
   alt_name: PyCon NA
@@ -925,22 +941,6 @@
   - title: PyTorch Conference 2025
     latitude: 37.7681571
     longitude: -122.392929
-
-- conference: PyCon Estonia
-  alt_name: PyCon EE
-  year: 2025
-  link: https://pycon.ee/
-  cfp: TBA
-  timezone: Europe/Tallinn
-  place: Tallinn, Estonia
-  start: 2025-10-02
-  end: 2025-10-03
-  twitter: PyConEstonia
-  sub: PY
-  location:
-  - title: PyCon Estonia 2025
-    latitude: 59.4372155
-    longitude: 24.7453688
 
 - conference: PyCon US
   year: 2025
