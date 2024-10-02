@@ -1113,6 +1113,22 @@
     latitude: 52.4081812
     longitude: -1.510477
 
+- conference: PyCon Malaysia
+  alt_name: PyCon MY
+  year: 2024
+  link: https://web.archive.org/web/20240815232138/https://www.pycon.my/
+  cfp: '2024-06-30 23:59:00'
+  timezone: Asia/Kuala_Lumpur
+  place: Petaling Jaya, Malaysia
+  start: 2024-08-24
+  end: 2024-08-25
+  twitter: pyconmy
+  sub: PY
+  location:
+  - title: PyCon Malaysia 2024
+    latitude: 3.0988792
+    longitude: 101.6454202
+
 - conference: PyHEP
   year: 2024
   link: https://indico.cern.ch/event/1384010/
@@ -1149,6 +1165,26 @@
   - title: PyDay Copiapó 2024
     latitude: -27.5406034
     longitude: -70.4441348
+
+- conference: Kiwi PyCon
+  alt_name: Kiwi PyCon XIII
+  year: 2024
+  link: https://kiwipycon.nz/
+  cfp_link: https://kiwipycon.nz/present/submitting-a-talk
+  cfp: '2024-05-23 23:59:00'
+  timezone: Pacific/Auckland
+  place: Te Whanganui-a-Tara Wellington, New Zealand
+  start: 2024-08-23
+  end: 2024-08-25
+  sponsor: https://kiwipycon.nz/sponsors/become-a-sponsor
+  finaid: https://kiwipycon.nz/attend/financial-aid
+  twitter: kiwipycon
+  mastodon: https://mastodon.social/@kiwipycon
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2024
+    latitude: -41.2887953
+    longitude: 174.7772114
 
 - conference: PyOhio
   year: 2024
