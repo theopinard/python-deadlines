@@ -256,19 +256,6 @@
     latitude: 6.4550575
     longitude: 3.3941795
 
-- conference: PyCon Amazônia
-  year: 2017
-  link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
-  cfp: None
-  place: Manaus, Brazil
-  start: 2017-08-12
-  end: 2017-08-13
-  sub: PY
-  location:
-  - title: PyCon Amazônia 2017
-    latitude: -3.1316333
-    longitude: -59.9825041
-
 - conference: PyCon Iran
   alt_name: Iran PyCon
   year: 2017
@@ -5146,6 +5133,20 @@
     latitude: -27.5973002
     longitude: -48.5496098
 
+- conference: PyCon Amazônia
+  year: 2019
+  link: https://web.archive.org/web/20200116144142/https://amazonia.python.org.br/
+  cfp_link: https://speakerfight.com/events/3a-pycon-amazonia-2019-porto-velhoro/
+  cfp: '2019-07-31 23:55:00'
+  place: Porto Velho, Brazil
+  start: 2019-08-03
+  end: 2019-08-04
+  sub: PY
+  location:
+  - title: PyCon Amazônia 2019
+    latitude: -8.7494525
+    longitude: -63.8735438
+
 - conference: Python Web Conference
   year: 2019
   link: https://web.archive.org/web/20191220043242/https://2019.indypy.org/webconf/
@@ -6483,6 +6484,21 @@
   - title: PyCon France 2018
     latitude: 50.6365654
     longitude: 3.0635282
+
+- conference: PyCon Amazônia
+  year: 2018
+  link: https://web.archive.org/web/20190131222152/https://amazonia.python.org.br/
+  cfp_link: https://web.archive.org/web/20220902160046/https://speakerfight.com/events/pycon-amazonia-2018/
+  cfp: '2018-06-30 23:59:00'
+  cfp_ext: '2018-07-14 23:55:00'
+  place: Manaus, Brazil
+  start: 2018-08-18
+  end: 2018-08-19
+  sub: PY
+  location:
+  - title: PyCon Amazônia 2018
+    latitude: -3.1316333
+    longitude: -59.9825041
 
 - conference: PyData Delhi
   year: 2018
@@ -7991,6 +8007,20 @@
   - title: PyCon Philippines 2017
     latitude: 8.4756417
     longitude: 124.6421532
+
+- conference: PyCon Amazônia
+  year: 2017
+  link: https://web.archive.org/web/20170816034502/http://amazonia.python.org.br/
+  cfp_link: https://speakerfight.com/events/pycon-amazonia-2017/
+  cfp: '2016-11-30 12:49:00'
+  place: Manaus, Brazil
+  start: 2017-08-12
+  end: 2017-08-13
+  sub: PY
+  location:
+  - title: PyCon Amazônia 2017
+    latitude: -3.1316333
+    longitude: -59.9825041
 
 - conference: SciPy India
   year: 2016
