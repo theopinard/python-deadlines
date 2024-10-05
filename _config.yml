@@ -97,14 +97,14 @@ page_gen:
   template: 'summary'
   dir: 'series'
   name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
-  title_expr: record['conference']+" "+"Conference Summary"
+  title_expr: record['conference']+" "+"Conference Series Overview"
 - data: 'archive'
   template: 'summary'
   dir: 'series'
   name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
-  title_expr: record['conference']+" "+"Conference Summary"
+  title_expr: record['conference']+" "+"Conference Series Overview"
 - data: 'conferences'
   template: 'summary'
   dir: 'series'
   name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
-  title_expr: record['conference']+" "+"Conference Summary"
+  title_expr: record['conference']+" "+"Conference Series Overview"

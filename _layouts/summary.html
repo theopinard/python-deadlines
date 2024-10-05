@@ -286,7 +286,11 @@ description: Summary of the conference and its instances throughout the years.
         {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .timer').html("{{cfp}}");
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}} .deadline-time').html("{{cfp}}");
+          {% if cfp == "TBA" %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
+          {% else %}
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", -Infinity);
+          {% endif %}
         {% else %}
 
           // Use specified timezone for deadlines if available else use AoE timezone

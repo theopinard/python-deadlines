@@ -1,1 +1,4977 @@
---- []
+---
+
+- conference: Swiss Python Summit
+  year: 2016
+  link: https://web.archive.org/web/20160316131658/http://www.python-summit.ch/
+  cfp: '2015-10-31 23:59:00'
+  place: Rapperswil, Switzerland
+  start: 2016-02-05
+  end: 2016-02-06
+  sub: PY
+  location:
+  - title: Swiss Python Summit 2016
+    latitude: 47.2266532
+    longitude: 8.8164042
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2016
+  link: https://web.archive.org/web/20190505024043/https://scipy2016.scipy.org/
+  cfp: '2016-04-01 23:59:00'
+  place: Austin, USA
+  start: 2016-07-10
+  end: 2016-07-16
+  sub: SCIPY
+  location:
+  - title: SciPy US 2016
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2015
+  link: https://web.archive.org/web/20190625031421/https://scipy2015.scipy.org/
+  cfp: '2015-04-10 23:59:00'
+  place: Austin, USA
+  start: 2015-07-06
+  end: 2015-07-12
+  sub: SCIPY
+  location:
+  - title: SciPy US 2015
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2014
+  link: https://web.archive.org/web/20140625194831/https://conference.scipy.org/scipy2014/
+  cfp: '2014-04-01 23:59:00'
+  place: Austin, USA
+  start: 2014-07-06
+  end: 2014-07-12
+  sub: SCIPY
+  location:
+  - title: SciPy US 2014
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2013
+  link: https://web.archive.org/web/20130621023952/http://conference.scipy.org/scipy2013/
+  cfp: '2013-03-20 23:59:00'
+  place: Austin, USA
+  start: 2013-06-24
+  end: 2013-06-29
+  sub: SCIPY
+  location:
+  - title: SciPy US 2013
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2012
+  link: https://web.archive.org/web/20120621023952/http://conference.scipy.org/scipy2012/
+  cfp: '2012-04-30 23:59:00'
+  place: Austin, USA
+  start: 2012-07-16
+  end: 2012-07-21
+  sub: SCIPY
+  location:
+  - title: SciPy US 2012
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2011
+  link: https://web.archive.org/web/20110621023952/http://conference.scipy.org/scipy2011/
+  cfp: '2011-04-24 23:59:00'
+  place: Austin, USA
+  start: 2011-07-11
+  end: 2011-07-16
+  sub: SCIPY
+  location:
+  - title: SciPy US 2011
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2010
+  link: https://web.archive.org/web/20100621023952/http://conference.scipy.org/scipy2010/
+  cfp: '2010-04-11 23:59:00'
+  place: Austin, USA
+  start: 2010-06-28
+  end: 2010-07-03
+  sub: SCIPY
+  location:
+  - title: SciPy US 2010
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2009
+  link: https://web.archive.org/web/20090621023952/http://conference.scipy.org/scipy2009/
+  cfp: '2009-07-03 23:59:00'
+  place: Pasadena, USA
+  start: 2009-08-18
+  end: 2009-08-23
+  sub: SCIPY
+  location:
+  - title: SciPy US 2009
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2008
+  link: https://web.archive.org/web/20080621023952/http://conference.scipy.org/scipy2008/
+  cfp: '2008-06-30 23:59:00'
+  place: Pasadena, USA
+  start: 2008-08-19
+  end: 2008-08-24
+  sub: SCIPY
+  location:
+  - title: SciPy US 2008
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2007
+  link: https://web.archive.org/web/20070426090312/http://www.scipy.org/SciPy2007
+  cfp: '2007-07-27 23:59:00'
+  place: Pasadena, USA
+  start: 2007-08-14
+  end: 2007-08-18
+  sub: SCIPY
+  location:
+  - title: SciPy US 2007
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2006
+  link: https://web.archive.org/web/20060805100237/http://www.scipy.org/SciPy2006/
+  cfp: '2006-07-07 23:59:00'
+  place: Pasadena, USA
+  start: 2006-08-17
+  end: 2006-08-18
+  sub: SCIPY
+  location:
+  - title: SciPy US 2006
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2005
+  link: https://web.archive.org/web/20111021085638/http://scipy.org/Developer_Zone/Conferences/SciPy2005
+  cfp: '2005-07-29 23:59:00'
+  place: Pasadena, USA
+  start: 2005-09-22
+  end: 2005-09-23
+  sub: SCIPY
+  location:
+  - title: SciPy US 2005
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy
+  year: 2004
+  link: https://web.archive.org/web/20041210084850/http://www.scipy.org/wikis/scipy04
+  cfp: '2004-07-23 23:59:00'
+  place: Pasadena, USA
+  start: 2004-09-02
+  end: 2004-09-03
+  sub: SCIPY
+  location:
+  - title: SciPy US 2004
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy Workshop
+  year: 2003
+  link: https://web.archive.org/web/20031207151811/http://www.scipy.org/site_content/scipy03/
+  cfp: None
+  place: Pasadena, USA
+  start: 2003-09-11
+  end: 2003-09-12
+  sub: SCIPY
+  location:
+  - title: SciPy US 2003
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy US
+  alt_name: SciPy Workshop
+  year: 2002
+  link: https://web.archive.org/web/20021030003450/http://www.scipy.org/site_content/scipy02/
+  cfp: None
+  place: Pasadena, USA
+  start: 2002-09-05
+  end: 2002-09-06
+  sub: SCIPY
+  location:
+  - title: SciPy US 2002
+    latitude: 34.1476507
+    longitude: -118.144155
+
+- conference: SciPy Latin America
+  alt_name: SciPyLA
+  year: 2016
+  link: https://web.archive.org/web/20160518213755/http://conf.scipyla.org/scipyla2016/
+  cfp: '2016-04-08 23:59:00'
+  place: Florianópolis, Brazil
+  start: 2016-05-16
+  end: 2016-05-20
+  sub: SCIPY
+  location:
+  - title: SciPy Latin America 2016
+    latitude: -27.5973002
+    longitude: -48.5496098
+
+- conference: SciPy Latin America
+  year: 2015
+  link: https://web.archive.org/web/20150508131405/http://conf.scipyla.org/
+  cfp: '2015-04-13 23:59:00'
+  place: Posadas, Argentina
+  start: 2015-05-20
+  end: 2015-05-22
+  sub: SCIPY
+  location:
+  - title: SciPy Latin America 2015
+    latitude: -27.4035083
+    longitude: -55.949711812781445
+
+- conference: SciPy Latin America
+  alt_name: SciPyCon Argentina
+  year: 2014
+  link: https://web.archive.org/web/20141016082426/http://scipycon.com.ar/
+  cfp: None
+  place: Bahía Blanca, Argentina
+  start: 2014-10-20
+  end: 2014-10-24
+  sub: SCIPY
+  location:
+  - title: SciPy Latin America 2014
+    latitude: -38.7176522
+    longitude: -62.2654871
+
+- conference: SciPy Latin America
+  alt_name: SciPyCon Argentina
+  year: 2013
+  link: https://web.archive.org/web/20210307212917/https://www.scipy.lat/conf/2013/
+  cfp: None
+  place: Puerto Madryn, Argentina
+  start: 2013-05-16
+  end: 2013-05-18
+  sub: SCIPY
+  location:
+  - title: SciPy Latin America 2013
+    latitude: -42.7729674
+    longitude: -65.0366104
+
+- conference: SciPy India
+  year: 2016
+  link: https://web.archive.org/web/20170629091110/http://scipy.in/2016
+  cfp: '2016-11-28 23:59:00'
+  place: Mumbai, India
+  start: 2016-12-10
+  end: 2016-12-11
+  sub: SCIPY
+  location:
+  - title: SciPy India 2016
+    latitude: 18.9733536
+    longitude: 72.82810491917377
+
+- conference: SciPy India
+  year: 2015
+  link: https://web.archive.org/web/20151222204316/http://scipy.in/2015
+  cfp: '2015-10-15 23:59:00'
+  place: Mumbai, India
+  start: 2015-12-14
+  end: 2015-12-16
+  sub: SCIPY
+  location:
+  - title: SciPy India 2015
+    latitude: 18.9733536
+    longitude: 72.82810491917377
+
+- conference: SciPy India
+  year: 2014
+  link: https://web.archive.org/web/20141222103930/http://scipy.in/2014
+  cfp: '2014-10-15 23:59:00'
+  place: Mumbai, India
+  start: 2014-12-05
+  end: 2014-12-07
+  sub: SCIPY
+  location:
+  - title: SciPy India 2014
+    latitude: 18.9733536
+    longitude: 72.82810491917377
+
+- conference: SciPy India
+  year: 2013
+  link: https://web.archive.org/web/20131023113605/http://scipy.in/2013
+  cfp: '2013-12-02 23:59:00'
+  place: Mumbai, India
+  start: 2013-12-13
+  end: 2013-12-15
+  sub: SCIPY
+  location:
+  - title: SciPy India 2013
+    latitude: 18.9733536
+    longitude: 72.82810491917377
+
+- conference: SciPy India
+  year: 2012
+  link: https://web.archive.org/web/20140108235207/http://scipy.in/2012
+  cfp: '2012-11-01 23:59:00'
+  place: Mumbai, India
+  start: 2012-12-27
+  end: 2012-12-29
+  sub: SCIPY
+  location:
+  - title: SciPy India 2012
+    latitude: 18.9733536
+    longitude: 72.82810491917377
+
+- conference: RuPy
+  alt_name: RuPy - Budapest Edition
+  year: 2013
+  link: https://web.archive.org/web/20130820170135/http://13.rupy.eu/
+  cfp: '2013-07-31 23:59:00'
+  place: Budapest, Hungary
+  start: 2013-10-11
+  end: 2013-10-13
+  sub: PY
+  location:
+  - title: RuPy 2013
+    latitude: 47.48138955
+    longitude: 19.14609412691246
+
+- conference: RuPy
+  alt_name: RuPy - Brazil Edition
+  year: 2012
+  link: https://web.archive.org/web/20121205070033/http://rupy.com.br/
+  cfp: '2012-07-31 23:59:00'
+  place: São Paulo, Brazil
+  start: 2012-12-08
+  end: 2012-12-09
+  sub: PY
+  location:
+  - title: RuPy 2012
+    latitude: -1.2043218
+    longitude: -47.1583944
+
+- conference: RuPy
+  alt_name: RuPy - Brno Edition
+  year: 2012
+  link: https://web.archive.org/web/20121207203445/http://12.rupy.eu/
+  cfp: '2012-07-31 23:59:00'
+  place: Brno, Czechia
+  start: 2012-11-16
+  end: 2012-11-18
+  sub: PY
+  location:
+  - title: RuPy 2012
+    latitude: 49.1922443
+    longitude: 16.6113382
+
+- conference: Rencontres django
+  year: 2010
+  link: https://web.archive.org/web/20110301023828/http://rencontres.django-fr.org/2010/
+  cfp: None
+  place: Marseille, France
+  start: 2010-04-24
+  end: 2010-04-25
+  sub: WEB
+  location:
+  - title: Rencontres django 2010
+    latitude: 43.2961743
+    longitude: 5.3699525
+
+- conference: PyWaw Summit
+  year: 2015
+  link: https://web.archive.org/web/20160324001812/http://summit.pywaw.org/2015/
+  cfp: '2015-03-31 23:59:00'
+  place: Warsaw, Poland
+  start: 2015-05-25
+  end: 2015-05-26
+  sub: PY
+  location:
+  - title: PyWaw Summit 2015
+    latitude: 52.2319581
+    longitude: 21.0067249
+
+- conference: Python Weekend Romania
+  year: 2014
+  link: https://web.archive.org/web/20141018180902/http://conference.ropython.org/
+  cfp: None
+  place: Iași, Romania
+  start: 2014-10-18
+  end: 2014-10-19
+  sub: PY
+  location:
+  - title: Python Weekend Romania 2014
+    latitude: 47.1615416
+    longitude: 27.5837224
+
+- conference: Python Unconference
+  year: 2016
+  link: https://web.archive.org/web/20160923012718/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2016-09-09
+  end: 2016-09-12
+  sub: PY
+  location:
+  - title: Python Unconference 2016
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
+- conference: Python Unconference
+  year: 2015
+  link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2015-09-04
+  end: 2015-09-07
+  sub: PY
+  location:
+  - title: Python Unconference 2015
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
+- conference: Python Unconference
+  year: 2014
+  link: https://web.archive.org/web/20150906234810/http://www.pyunconf.de/
+  cfp: None
+  place: Hamburg, Germany
+  start: 2014-11-29
+  end: 2014-12-01
+  sub: PY
+  location:
+  - title: Python Unconference 2014
+    latitude: 53.5672881
+    longitude: 9.941726150411604
+
+- conference: Python San Sebastian
+  year: 2016
+  link: http://pyss16.pyss.org/
+  cfp: '2017-08-31 23:59:00'
+  place: San Sebastian, Spain
+  start: 2016-09-30
+  end: 2016-10-03
+  sub: PY
+  location:
+  - title: Python San Sebastian 2016
+    latitude: 43.3224219
+    longitude: -1.9838889
+
+- conference: Python San Sebastian
+  year: 2015
+  link: https://web.archive.org/web/20150805095718/http://pyss15.pyss.org/en/
+  cfp: '2015-09-25 23:59:00'
+  place: San Sebastian, Spain
+  start: 2015-10-24
+  end: 2015-10-25
+  sub: PY
+  location:
+  - title: Python San Sebastian 2015
+    latitude: 43.3224219
+    longitude: -1.9838889
+
+- conference: Python San Sebastian
+  year: 2014
+  link: https://web.archive.org/web/20150109142404/http://www.pyss.org/
+  cfp: '2014-08-31 23:59:00'
+  place: San Sebastian, Spain
+  start: 2014-09-26
+  end: 2014-09-29
+  sub: PY
+  location:
+  - title: Python San Sebastian 2014
+    latitude: 43.3224219
+    longitude: -1.9838889
+
+- conference: Python Nordeste
+  year: 2016
+  link: https://web.archive.org/web/20160614023844/http://2016.pythonnordeste.org/
+  cfp_link: https://web.archive.org/web/20160612043438/http://speakerfight.com/events/python-nordeste-2016/
+  cfp: '2016-05-07 23:55:00'
+  timezone: America/Recife
+  place: São Luís, Brazil
+  start: 2016-06-09
+  end: 2016-06-11
+  twitter: pythonnordeste
+  sub: PY
+  location:
+  - title: Python Nordeste 2016
+    latitude: -2.5307316
+    longitude: -44.3068265
+
+- conference: Python Nordeste
+  year: 2015
+  link: https://web.archive.org/web/20150428210556/http://2015.pythonnordeste.org/
+  cfp_link: https://speakerfight.com/events/python-nordeste-2015/
+  cfp: '2015-03-27 12:00:00'
+  timezone: America/Recife
+  place: Natal, Brazil
+  start: 2015-05-15
+  end: 2015-06-16
+  twitter: pythonnordeste
+  sub: PY
+  location:
+  - title: Python Nordeste 2015
+    latitude: -5.7944777
+    longitude: -35.2119324
+
+- conference: Python Nordeste
+  year: 2014
+  link: https://web.archive.org/web/20140411192842/http://2014.pythonnordeste.org/
+  cfp: '2014-03-31 23:55:00'
+  timezone: America/Recife
+  place: Salvador, Brazil
+  start: 2014-05-01
+  end: 2014-05-03
+  twitter: pythonnordeste
+  sub: PY
+  location:
+  - title: Python Nordeste 2014
+    latitude: -5.7944777
+    longitude: -35.2119324
+
+- conference: Python Nordeste
+  year: 2013
+  link: https://web.archive.org/web/20160708210325/http://2013.pythonnordeste.org/
+  cfp: '2013-03-01 00:00:00'
+  place: Fortaleza, Brazil
+  start: 2013-05-24
+  end: 2013-05-25
+  sub: PY
+  location:
+  - title: Python Nordeste 2013
+    latitude: -3.7304512
+    longitude: -38.5217989
+
+- conference: Python Namibia
+  year: 2015
+  link: https://web.archive.org/web/20150201083907/http://python-namibia.org/
+  cfp: '2014-12-15 23:59:00'
+  place: Windhoek, Namibia
+  start: 2015-02-02
+  end: 2015-02-05
+  sub: PY
+  location:
+  - title: Python Namibia 2015
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
+- conference: Python in finance
+  year: 2013
+  link: https://web.archive.org/web/20130815205435/http://python-in-finance.com/
+  cfp: None
+  place: New York, USA
+  start: 2013-04-05
+  end: 2013-04-05
+  sub: PY
+  location:
+  - title: Python in finance 2013
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: Python in Astronomy
+  year: 2016
+  link: https://web.archive.org/web/20160905071450/http://openastronomy.org/pyastro/2016/
+  cfp: '2015-12-06 23:59:00'
+  place: Seattle, USA
+  start: 2016-03-21
+  end: 2016-03-25
+  sub: DATA
+  location:
+  - title: Python in Astronomy 2016
+    latitude: 47.6038321
+    longitude: -122.330062
+
+- conference: Python in Astronomy
+  year: 2015
+  link: https://web.archive.org/web/20160905071445/http://openastronomy.org/pyastro/2015/
+  cfp: '2014-12-10 23:59:00'
+  place: Leiden, Netherlands
+  start: 2015-04-20
+  end: 2015-04-24
+  sub: DATA
+  location:
+  - title: Python in Astronomy 2015
+    latitude: 52.1594747
+    longitude: 4.4908843
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[12]
+  year: 2016
+  link: https://web.archive.org/web/20161016045439/http://2016.pythonbrasil.org.br/
+  cfp: '2016-08-31 23:59:00'
+  place: Florianópolis, Brazil
+  start: 2016-10-13
+  end: 2016-10-18
+  sub: PY
+  location:
+  - title: Python Brasil 2016
+    latitude: -27.5973002
+    longitude: -48.5496098
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[11]
+  year: 2015
+  link: https://web.archive.org/web/20150614065213/http://pythonbrasil.github.io/pythonbrasil11-site/
+  cfp: '2015-09-01 23:59:00'
+  place: Sao Jose dos Campos, Brazil
+  start: 2015-10-13
+  end: 2015-10-17
+  sub: PY
+  location:
+  - title: Python Brasil 2015
+    latitude: -23.1867782
+    longitude: -45.8854538
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[10]
+  year: 2014
+  link: https://web.archive.org/web/20141207142807/http://2014.pythonbrasil.org.br/
+  cfp: '2014-08-10 23:59:00'
+  cfp_ext: '2014-08-15 23:59:00'
+  place: Porto de Galinhas, Brazil
+  extra_places:
+  - Recife, Brazil
+  start: 2014-11-04
+  end: 2014-11-09
+  sub: PY
+  location:
+  - title: Python Brasil 2014
+    latitude: -8.5046818
+    longitude: -35.0049962
+  - title: Python Brasil 2014
+    latitude: -8.05389
+    longitude: -34.88111
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[9]
+  year: 2013
+  link: https://web.archive.org/web/20130530100705/http://2013.pythonbrasil.org.br/
+  cfp: '2013-07-31 23:59:00'
+  place: Brasilia, Brazil
+  start: 2013-09-30
+  end: 2013-10-06
+  sub: PY
+  note: The conference was held in conjunction with Plone Conference
+  location:
+  - title: Python Brasil 2013
+    latitude: -10.3333333
+    longitude: -53.2
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[8]
+  year: 2012
+  link: https://web.archive.org/web/20121117085723/http://2012.pythonbrasil.org.br/
+  cfp: '2012-09-30 23:59:00'
+  place: Rio de Janeiro, Brazil
+  start: 2012-11-21
+  end: 2012-11-24
+  sub: PY
+  location:
+  - title: Python Brasil 2012
+    latitude: -22.9110137
+    longitude: -43.2093727
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[7]
+  year: 2011
+  link: https://web.archive.org/web/20120827060031/http://2011.pythonbrasil.org.br/
+  cfp: '2011-08-19 23:59:00'
+  place: Sao Paulo, Brazil
+  start: 2011-09-29
+  end: 2011-10-01
+  sub: PY
+  location:
+  - title: Python Brasil 2011
+    latitude: -23.5506507
+    longitude: -46.6333824
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[6]
+  year: 2010
+  link: https://web.archive.org/web/20100713080631/http://www.pythonbrasil.org.br/2010
+  cfp: '2010-08-08 23:59:00'
+  place: Curitiba, Brazil
+  start: 2010-10-21
+  end: 2010-10-23
+  sub: PY
+  location:
+  - title: Python Brasil 2010
+    latitude: -25.4295963
+    longitude: -49.2712724
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[5]
+  year: 2009
+  link: https://web.archive.org/web/20090911141327/http://www.pythonbrasil.org.br/2009
+  cfp: '2009-08-03 23:59:00'
+  place: Caxias do Sul, Brazil
+  start: 2009-09-10
+  end: 2009-09-12
+  sub: PY
+  location:
+  - title: Python Brasil 2009
+    latitude: -29.1685045
+    longitude: -51.1796385
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[4]
+  year: 2008
+  link: https://web.archive.org/web/20100407073701/https://pythonbrasil.org.br/2008
+  cfp: '2008-07-27 23:59:00'
+  place: Rio de Janeiro, Brazil
+  start: 2008-09-18
+  end: 2008-09-20
+  sub: PY
+  location:
+  - title: Python Brasil 2008
+    latitude: -22.9110137
+    longitude: -43.2093727
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[3]
+  year: 2007
+  link: https://web.archive.org/web/20100124021234/http://www.pythonbrasil.org.br/2007
+  cfp: '2007-07-27 23:59:00'
+  place: Joinville, Brazil
+  start: 2007-08-30
+  end: 2007-09-01
+  sub: PY
+  location:
+  - title: Python Brasil 2007
+    latitude: -26.3044898
+    longitude: -48.8486726
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[2]
+  year: 2006
+  link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2006
+  cfp: '2006-05-05 23:59:00'
+  place: Brasilia, Brazil
+  start: 2006-06-01
+  end: 2006-06-02
+  sub: PY
+  location:
+  - title: Python Brasil 2006
+    latitude: -10.3333333
+    longitude: -53.2
+
+- conference: Python Brasil
+  alt_name: PythonBrasil[1]
+  year: 2005
+  link: https://web.archive.org/web/20130227195656/http://old.pythonbrasil.org.br/2005
+  cfp: '2005-03-03 23:59:00'
+  place: Campinas, Brazil
+  start: 2005-04-28
+  end: 2005-04-29
+  sub: PY
+  location:
+  - title: Python Brasil 2005
+    latitude: -22.9056391
+    longitude: -47.059564
+
+- conference: PyTexas
+  year: 2015
+  link: https://web.archive.org/web/20151126002517/https://www.pytexas.org/2015/
+  cfp: '2015-07-19 23:59:00'
+  place: College Station, USA
+  start: 2015-09-25
+  end: 2015-09-27
+  sub: PY
+  location:
+  - title: PyTexas 2015
+    latitude: 30.6183939
+    longitude: -96.3455991
+
+- conference: PyTexas
+  year: 2014
+  link: https://web.archive.org/web/20140911084119/https://www.pytexas.org/2014/
+  cfp: '2014-08-22 23:59:00'
+  place: College Station, USA
+  start: 2014-10-03
+  end: 2014-10-05
+  sub: PY
+  location:
+  - title: PyTexas 2014
+    latitude: 30.6183939
+    longitude: -96.3455991
+
+- conference: PyTennessee
+  year: 2015
+  link: https://web.archive.org/web/20141230143801/https://www.pytennessee.org/
+  cfp_link: https://pytennessee.tumblr.com/post/98889311773/cfp-opens-today-and-more-tickets-are-available
+  cfp: '2014-11-15 23:59:00'
+  place: Nashville, USA
+  start: 2015-02-06
+  end: 2015-02-08
+  sub: PY
+  location:
+  - title: PyTennessee 2015
+    latitude: 36.1622767
+    longitude: -86.7742984
+
+- conference: PyTennessee
+  year: 2014
+  link: https://web.archive.org/web/20141230143801/https://www.pytennessee.org/
+  cfp_link: https://pytennessee.tumblr.com/post/62716977420/call-for-proposals-october-1st
+  cfp: '2013-11-01 23:59:00'
+  place: Nashville, USA
+  start: 2014-02-22
+  end: 2014-02-23
+  sub: PY
+  location:
+  - title: PyTennessee 2014
+    latitude: 36.1622767
+    longitude: -86.7742984
+
+- conference: PyPOA
+  year: 2014
+  link: https://web.archive.org/web/20140531064837/http://pypoa.org/
+  cfp: None
+  place: Porto Alegre, Brasil
+  start: 2014-06-07
+  end: 2014-06-07
+  sub: PY
+  location:
+  - title: PyPOA 2014
+    latitude: -30.0324999
+    longitude: -51.2303767
+
+- conference: PyOhio
+  year: 2016
+  link: https://web.archive.org/web/20160727174037/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20160719173616/http://pyohio.org/call-for-proposals/
+  cfp: '2016-06-04 23:59:00'
+  place: Columbus, USA
+  start: 2016-07-30
+  end: 2016-07-31
+  sub: PY
+  location:
+  - title: PyOhio 2016
+    latitude: 39.9622601
+    longitude: -83.0007065
+
+- conference: PyOhio
+  year: 2015
+  link: https://web.archive.org/web/20150623064947/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20150713224810/http://www.pyohio.org/call-for-proposals/
+  cfp: '2015-06-01 23:59:00'
+  place: Columbus, OH
+  start: 2015-08-01
+  end: 2015-08-02
+  sub: PY
+  location:
+  - title: PyOhio 2015
+    latitude: 39.9622601
+    longitude: -83.0007065
+
+- conference: PyOhio
+  year: 2014
+  link: https://web.archive.org/web/20140428063228/http://www.pyohio.org/
+  cfp_link: https://web.archive.org/web/20140703230003/http://www.pyohio.org/call-for-proposals/
+  cfp: '2014-05-15 23:59:00'
+  place: Columbus, USA
+  start: 2014-07-26
+  end: 2014-07-27
+  sub: PY
+  location:
+  - title: PyOhio 2014
+    latitude: 39.9622601
+    longitude: -83.0007065
+
+- conference: PyOhio
+  year: 2013
+  link: https://web.archive.org/web/20130603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20130507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2013-06-01 23:59:00'
+  place: Ohio Union, USA
+  start: 2013-07-27
+  end: 2013-07-28
+  sub: PY
+  location:
+  - title: PyOhio 2013
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyOhio
+  year: 2012
+  link: https://web.archive.org/web/20120603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20120507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2012-06-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2012-07-28
+  end: 2012-07-29
+  sub: PY
+  location:
+  - title: PyOhio 2012
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyOhio
+  year: 2011
+  link: https://web.archive.org/web/20110603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20110507054648/http://pyohio.org/call-for-proposals/
+  cfp: '2011-06-03 23:59:00'
+  place: Ohio Union, USA
+  start: 2011-07-30
+  end: 2011-07-31
+  sub: PY
+  location:
+  - title: PyOhio 2011
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyOhio
+  year: 2010
+  link: https://web.archive.org/web/20100603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20091215100607/http://wiki.python.org/moin/PyOhio/CallForProposals
+  cfp: '2010-05-10 23:59:00'
+  place: Ohio Union, USA
+  start: 2010-07-31
+  end: 2010-08-01
+  sub: PY
+  location:
+  - title: PyOhio 2010
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyOhio
+  year: 2009
+  link: https://web.archive.org/web/20090603222509/http://pyohio.org/
+  cfp: '2009-05-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2009-07-25
+  end: 2009-07-26
+  sub: PY
+  location:
+  - title: PyOhio 2009
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyOhio
+  year: 2008
+  link: https://web.archive.org/web/20080603222509/http://pyohio.org/
+  cfp_link: https://web.archive.org/web/20110812023502/http://wiki.python.org/moin/PyOhio2008/CallForProposals
+  cfp: '2008-06-15 23:59:00'
+  place: Ohio Union, USA
+  start: 2008-07-27
+  end: 2008-07-28
+  sub: PY
+  location:
+  - title: PyOhio 2008
+    latitude: 39.997660499999995
+    longitude: -83.00853211561488
+
+- conference: PyMunich
+  alt_name: PyCon Germany
+  year: 2016
+  link: https://web.archive.org/web/20161015212639/http://www.pymunich.com/
+  cfp: '2016-09-12 00:00:00'
+  timezone: Europe/Berlin
+  place: Munich, Germany
+  start: 2016-10-28
+  end: 2016-10-30
+  sub: PY
+  location:
+  - title: PyCon Germany 2016
+    latitude: 48.1371079
+    longitude: 11.5753822
+
+- conference: PyHPC
+  year: 2016
+  link: https://web.archive.org/web/20161109035636/http://www.dlr.de/sc/desktopdefault.aspx/tabid-11229/19729_read-46082/
+  cfp: '2014-09-05 23:59:00'
+  cfp_ext: '2014-09-12 23:59:00'
+  place: Salt Lake City, USA
+  start: 2016-11-14
+  end: 2016-11-14
+  sub: SCIPY
+  location:
+  - title: PyHPC 2016
+    latitude: 40.7596198
+    longitude: -111.886797
+
+- conference: PyHPC
+  year: 2015
+  link: https://web.archive.org/web/20150829112426/http://www.dlr.de/sc/desktopdefault.aspx/tabid-10388/17849_read-42322
+  cfp: '2015-09-04 23:59:00'
+  place: Austin, USA
+  start: 2015-11-15
+  end: 2015-11-15
+  sub: SCIPY
+  location:
+  - title: PyHPC 2015
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: PyHPC
+  year: 2014
+  link: https://web.archive.org/web/20141117032857/http://www.dlr.de/sc/desktopdefault.aspx/tabid-9506/16384_read-40102
+  cfp: '2014-09-05 23:59:00'
+  cfp_ext: '2014-09-12 23:59:00'
+  place: New Orleans, USA
+  start: 2014-11-17
+  end: 2014-11-18
+  sub: SCIPY
+  location:
+  - title: PyHPC 2014
+    latitude: 29.9759983
+    longitude: -90.0782127
+
+- conference: PyHPC
+  year: 2013
+  link: https://web.archive.org/web/20131118193245/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8685/14943_read-37157/
+  cfp: '2013-09-20 23:59:00'
+  place: Denver, USA
+  start: 2013-11-18
+  end: 2013-11-18
+  sub: SCIPY
+  location:
+  - title: PyHPC 2013
+    latitude: 39.7392364
+    longitude: -104.984862
+
+- conference: PyHPC
+  year: 2012
+  link: https://web.archive.org/web/20121115022259/http://www.dlr.de/sc/desktopdefault.aspx/tabid-8028/13765_read-34936/
+  cfp: '2012-09-14 23:59:00'
+  place: Salt Lake City, USA
+  start: 2012-11-16
+  end: 2012-11-16
+  sub: SCIPY
+  location:
+  - title: PyHPC 2012
+    latitude: 40.7596198
+    longitude: -111.886797
+
+- conference: PyHPC
+  year: 2011
+  link: https://web.archive.org/web/20130923035222/http://www.dlr.de/sc/desktopdefault.aspx/tabid-7632/12996_read-32676/
+  cfp: '2011-09-19 23:59:00'
+  place: Seattle, USA
+  start: 2011-11-18
+  end: 2011-11-18
+  sub: SCIPY
+  location:
+  - title: PyHPC 2011
+    latitude: 47.6038321
+    longitude: -122.330062
+
+- conference: PyGrunn
+  year: 2016
+  link: https://web.archive.org/web/20160608055024/http://www.pygrunn.org/
+  cfp: '2016-03-15 23:59:00'
+  place: Groningen, Netherlands
+  start: 2016-05-13
+  end: 2016-05-13
+  sub: PY
+  location:
+  - title: PyGrunn 2016
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2015
+  link: https://web.archive.org/web/20150608055024/http://www.pygrunn.org/
+  cfp: '2015-02-01 23:59:00'
+  place: Groningen, Netherlands
+  start: 2015-05-22
+  end: 2015-05-22
+  sub: PY
+  location:
+  - title: PyGrunn 2015
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2014
+  link: https://web.archive.org/web/20141221190438/http://www.pygrunn.org/
+  cfp: '2014-04-01 23:59:00'
+  place: Groningen, Netherlands
+  start: 2014-05-09
+  end: 2014-05-10
+  sub: PY
+  location:
+  - title: PyGrunn 2014
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2013
+  link: https://web.archive.org/web/20130814185329/http://www.pygrunn.org/
+  cfp: '2013-04-15 12:00:00'
+  timezone: Europe/Amsterdam
+  place: Groningen, Netherlands
+  start: 2013-05-10
+  end: 2013-05-10
+  sub: PY
+  location:
+  - title: PyGrunn 2013
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2012
+  link: https://web.archive.org/web/20120608055024/http://www.pygrunn.org/
+  cfp: None
+  place: Groningen, Netherlands
+  start: 2012-05-11
+  end: 2012-05-11
+  sub: PY
+  location:
+  - title: PyGrunn 2012
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2011
+  link: https://web.archive.org/web/20110608055024/http://www.pygrunn.org/
+  cfp_link: https://pygrunn-paylogic.blogspot.com/2011/04/call-for-speakers.html
+  cfp: None
+  place: Groningen, Netherlands
+  start: 2011-05-20
+  end: 2011-05-20
+  sub: PY
+  location:
+  - title: PyGrunn 2011
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGrunn
+  year: 2010
+  link: https://web.archive.org/web/20100608055024/http://www.pygrunn.org/
+  cfp: None
+  place: Groningen, Netherlands
+  start: 2010-05-09
+  end: 2010-05-09
+  sub: PY
+  location:
+  - title: PyGrunn 2010
+    latitude: 53.2190652
+    longitude: 6.5680077
+
+- conference: PyGotham TV
+  year: 2016
+  link: https://web.archive.org/web/20160910192756/https://2016.pygotham.org/
+  cfp_link: https://web.archive.org/web/20180922124549/https://2016.pygotham.org/talks/call-for-proposals/
+  cfp: '2016-05-16 00:00:00'
+  place: New York, USA
+  start: 2016-07-16
+  end: 2016-07-17
+  sub: PY
+  location:
+  - title: PyGotham TV 2016
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyGotham TV
+  year: 2015
+  link: https://web.archive.org/web/20150817161836/http://pygotham.org/2015/
+  cfp_link: https://web.archive.org/web/20150817162010/https://pygotham.org/2015/talks/call-for-proposals/
+  cfp: '2015-06-21 00:00:00'
+  place: New York, USA
+  start: 2015-08-15
+  end: 2015-08-16
+  sub: PY
+  location:
+  - title: PyGotham TV 2015
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyGotham TV
+  year: 2014
+  link: https://web.archive.org/web/20140814202802/http://pygotham.org/
+  cfp_link: https://web.archive.org/web/20150206035307/http://pygotham.org/talks/call-for-proposals/
+  cfp: '2014-06-27 00:00:00'
+  place: New York, USA
+  start: 2014-08-16
+  end: 2014-08-17
+  sub: PY
+  location:
+  - title: PyGotham TV 2014
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyGotham TV
+  alt_name: PyGotham II
+  year: 2012
+  link: https://web.archive.org/web/20120620005159/https://pygotham.org//
+  cfp: '2012-03-31 23:59:00'
+  place: New York, USA
+  start: 2012-06-08
+  end: 2012-06-09
+  sub: PY
+  location:
+  - title: PyGotham TV 2012
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyGotham TV
+  year: 2011
+  link: https://web.archive.org/web/20111024041916/http://pygotham.org/
+  cfp: '2011-05-15 23:59:00'
+  place: New York, USA
+  start: 2011-09-16
+  end: 2011-09-17
+  sub: PY
+  location:
+  - title: PyGotham TV 2011
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyDelhi
+  year: 2016
+  link: https://web.archive.org/web/20160223145838/http://conference.pydelhi.org/
+  cfp: '2016-02-08 23:59:00'
+  place: New Delhi, India
+  start: 2016-03-05
+  end: 2016-03-05
+  sub: PY
+  location:
+  - title: PyDelhi 2016
+    latitude: 28.6138954
+    longitude: 77.2090057
+
+- conference: PyDay Quito
+  year: 2016
+  link: https://web.archive.org/web/20160302102219/http://pythonquito.tk/
+  cfp: '2016-02-28 23:59:00'
+  place: Quito, Ecuador
+  start: 2016-03-08
+  end: 2016-03-09
+  sub: DAY
+  location:
+  - title: PyDay Quito 2016
+    latitude: -0.2201641
+    longitude: -78.5123274
+
+- conference: PyDay Piura
+  year: 2016
+  link: https://web.archive.org/web/20160806062921/http://pythonpiura.org/primer-pyday-en-piura/
+  cfp: None
+  place: Piura, Peru
+  start: 2016-08-20
+  end: 2016-08-20
+  sub: DAY
+  location:
+  - title: PyDay Piura 2016
+    latitude: -5.0
+    longitude: -80.333333
+
+- conference: PyDay Loja
+  year: 2016
+  link: https://web.archive.org/web/20160418094309/http://pythonecuador.org/
+  cfp: None
+  place: Guayaquil, Ecuador
+  start: 2016-04-01
+  end: 2016-04-01
+  sub: DAY
+  location:
+  - title: PyDay Loja 2016
+    latitude: -2.1900563
+    longitude: -79.8868741
+
+- conference: PyDay Formosa
+  year: 2015
+  link: https://web.archive.org/web/20150206085357/http://pyday.forsol.org.ar/
+  cfp: '2015-01-07 23:59:00'
+  place: Formosa, Argentina
+  start: 2015-02-14
+  end: 2015-02-14
+  sub: DAY
+  location:
+  - title: PyDay Formosa 2015
+    latitude: -24.5955306
+    longitude: -60.4289718
+
+- conference: PyDay Asunción
+  year: 2015
+  link: https://web.archive.org/web/20150326072907/http://pyday.pythonpy.org/
+  cfp: None
+  place: Asunción, Paraguay
+  start: 2015-03-28
+  end: 2015-03-28
+  sub: DAY
+  location:
+  - title: PyDay Asunción 2015
+    latitude: -25.2800459
+    longitude: -57.6343814
+
+- conference: PyData Washington DC
+  year: 2016
+  link: https://web.archive.org/web/20161007055823/http://pydata.org/dc2016/
+  cfp: '2016-08-01 23:59:00'
+  timezone: America/New_York
+  place: Washington DC, USA
+  start: 2016-10-07
+  end: 2016-10-09
+  sub: DATA
+  location:
+  - title: PyData Washington DC 2016
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyData Silicon Valley
+  year: 2014
+  link: https://web.archive.org/web/20140502023505/http://pydata.org/sv2014/
+  cfp: '2014-03-31 23:59:00'
+  cfp_ext: '2014-04-06 23:59:00'
+  place: Menlo Park, USA
+  start: 2014-05-02
+  end: 2014-05-04
+  sub: DATA
+  location:
+  - title: PyData Silicon Valley 2014
+    latitude: 37.4519671
+    longitude: -122.177992
+
+- conference: PyData Silicon Valley
+  year: 2013
+  link: https://web.archive.org/web/20130304203036/http://sv2013.pydata.org/
+  cfp: '2013-01-15 23:59:00'
+  place: Santa Clara, USA
+  start: 2013-03-18
+  end: 2013-03-20
+  sub: DATA
+  location:
+  - title: PyData Silicon Valley 2013
+    latitude: 37.2333253
+    longitude: -121.6846349
+
+- conference: PyData Seattle
+  year: 2015
+  link: https://web.archive.org/web/20151113023843/http://pydata.org/Seattle2015/
+  cfp_link: https://pydata.org/seattle2015/cfp/
+  cfp: '2015-05-11 23:59:00'
+  place: Seattle, USA
+  start: 2015-07-24
+  end: 2015-07-26
+  sub: DATA
+  location:
+  - title: PyData Seattle 2015
+    latitude: 47.6038321
+    longitude: -122.330062
+
+- conference: PyData San Francisco
+  year: 2016
+  link: https://web.archive.org/web/20160813002829/http://pydata.org/sfo2016/
+  cfp: '2016-07-18 23:59:59'
+  place: San Francisco, USA
+  start: 2016-08-12
+  end: 2016-08-14
+  sub: DATA
+  location:
+  - title: PyData San Francisco 2016
+    latitude: 37.7681571
+    longitude: -122.392929
+
+- conference: PyData Paris
+  year: 2017
+  link: https://web.archive.org/web/20170405012143/https://pyparis.org/
+  cfp: '2017-04-17 23:59:00'
+  place: Paris, France
+  start: 2016-06-12
+  end: 2016-06-13
+  sub: DATA
+  location:
+  - title: PyData Paris 2017
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyData Paris
+  year: 2016
+  link: https://web.archive.org/web/20160602152545/http://pydata.org/paris2016/
+  cfp: '2016-05-15 23:59:00'
+  cfp_ext: '2016-05-20'
+  place: Paris, France
+  start: 2016-06-14
+  end: 2016-06-15
+  sub: DATA
+  location:
+  - title: PyData Paris 2016
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyData Paris
+  year: 2015
+  link: https://web.archive.org/web/20150405053552/http://pydataparis.joinux.org/
+  cfp: '2015-03-03 23:59:00'
+  place: Paris, France
+  start: 2015-04-03
+  end: 2015-04-03
+  sub: DATA
+  location:
+  - title: PyData Paris 2015
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyData NYC
+  year: 2015
+  link: https://web.archive.org/web/20160613032308/http://pydata.org/nyc2015/
+  cfp: '2015-09-15 23:59:00'
+  place: New York, USA
+  start: 2015-11-09
+  end: 2015-11-11
+  sub: DATA
+  location:
+  - title: PyData NYC 2015
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyData NYC
+  year: 2013
+  link: https://web.archive.org/web/20131111203506/http://pydata.org/nyc2013/
+  cfp: '2013-09-16 23:59:00'
+  place: New York, USA
+  start: 2013-11-08
+  end: 2013-11-11
+  sub: DATA
+  location:
+  - title: PyData NYC 2013
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyData NYC
+  year: 2012
+  link: https://web.archive.org/web/20121015200957/http://nyc2012.pydata.org/
+  cfp: None
+  timezone: America/New_York
+  place: New York, USA
+  start: 2012-10-26
+  end: 2012-11-28
+  sponsor: https://web.archive.org/web/20210821045751/https://pydata.org/nyc2012/sponsors/becoming/
+  sub: DATA
+  location:
+  - title: PyData NYC 2012
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyData Madrid
+  year: 2016
+  link: https://web.archive.org/web/20160412080402/http://pydata.org/madrid2016/
+  cfp: '2016-02-21 23:59:00'
+  place: Madrid, Spain
+  start: 2016-04-08
+  end: 2016-04-10
+  sub: DATA
+  location:
+  - title: PyData Madrid 2016
+    latitude: 40.4167047
+    longitude: -3.7035825
+
+- conference: PyData London
+  year: 2016
+  link: https://web.archive.org/web/20160515034159/http://pydata.org/london2016/
+  cfp: '2016-03-07 23:59:00'
+  place: London, UK
+  start: 2016-05-06
+  end: 2016-05-08
+  sub: DATA
+  location:
+  - title: PyData London 2016
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: PyData London
+  year: 2015
+  link: https://web.archive.org/web/20160222211712/http://pydata.org/london2015/
+  cfp: '2015-05-18 23:59:00'
+  place: London, UK
+  start: 2015-06-19
+  end: 2015-06-21
+  sub: DATA
+  location:
+  - title: PyData London 2015
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: PyData London
+  year: 2014
+  link: https://web.archive.org/web/20140214193445/http://pydata.org/ldn2014
+  cfp: '2014-01-30 23:59:00'
+  place: London, UK
+  start: 2014-02-21
+  end: 2014-02-23
+  sub: DATA
+  location:
+  - title: PyData London 2014
+    latitude: 51.5074456
+    longitude: -0.1277653
+
+- conference: PyData Florence
+  year: 2016
+  link: https://web.archive.org/web/20160405012143/http://pydata.it/
+  cfp: '2016-02-09 23:59:00'
+  place: Florence, Italy
+  start: 2016-04-15
+  end: 2016-04-17
+  sub: DATA
+  location:
+  - title: PyData Florence 2016
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyData Dallas
+  year: 2015
+  link: https://pydata.org/dal2015/
+  cfp_link: https://pydata.org/dal2015/cfp/
+  cfp: '2015-03-08 23:59:00'
+  place: Plano, USA
+  start: 2015-04-24
+  end: 2015-04-26
+  sub: DATA
+  location:
+  - title: PyData Dallas 2015
+    latitude: 33.0136764
+    longitude: -96.6925096
+
+- conference: PyData Cologne
+  year: 2016
+  link: https://web.archive.org/web/20161205091341/http://pydata.org/cologne2016/
+  cfp: Cancelled
+  place: Cologne, Germany
+  start: 2016-11-28
+  end: 2016-11-30
+  sub: DATA
+  note: The conference was cancelled due to a fire in the convention center.
+  location:
+  - title: PyData Cologne 2016
+    latitude: 53.328784
+    longitude: 13.072966153528762
+
+- conference: PyData Chicago
+  year: 2016
+  link: https://web.archive.org/web/20160828224731/http://pydata.org/chicago2016/
+  cfp_link: https://web.archive.org/web/20160505220124/https://pydata.org/chicago2016/cfp/
+  cfp: '2016-06-13 23:59:59'
+  place: Chicago, USA
+  start: 2016-08-26
+  end: 2016-08-28
+  sub: DATA
+  location:
+  - title: PyData Chicago 2016
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: PyData Carolinas
+  year: 2016
+  link: https://web.archive.org/web/20160909163256/http://pydata.org/carolinas2016/
+  cfp: '2016-07-17 23:59:00'
+  place: Research Triangle Park, USA
+  start: 2016-09-14
+  end: 2016-09-16
+  sub: DATA
+  location:
+  - title: PyData Carolinas 2016
+    latitude: 35.8923773
+    longitude: -78.86588989367681
+
+- conference: PyData Boston
+  year: 2013
+  link: https://web.archive.org/web/20130720075327/http://pydata.org/bos2013/
+  cfp: '2013-06-03 23:59:00'
+  place: Cambridge, USA
+  start: 2013-07-27
+  end: 2013-07-28
+  sub: DATA
+  location:
+  - title: PyData Boston 2013
+    latitude: 42.3655767
+    longitude: -71.1040018
+
+- conference: PyData Berlin
+  year: 2016
+  link: https://web.archive.org/web/20160521214556/http://pydata.org/berlin2016/
+  cfp: '2016-03-08 23:59:00'
+  place: Berlin, Germany
+  start: 2016-05-20
+  end: 2016-05-21
+  sub: DATA
+  location:
+  - title: PyData Berlin 2016
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyData Berlin
+  year: 2015
+  link: https://web.archive.org/web/20150520195754/http://pydata.org/berlin2015/
+  cfp: '2015-04-30 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  start: 2015-05-29
+  end: 2015-05-30
+  sub: DATA
+  location:
+  - title: PyData Berlin 2015
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyData Berlin
+  year: 2014
+  link: https://web.archive.org/web/20230328013334/https://pydata.org/berlin2014/
+  cfp: '2014-05-12 23:59:59'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  start: 2014-07-26
+  end: 2014-07-28
+  sub: DATA
+  location:
+  - title: PyData Berlin 2014
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: PyData Amsterdam
+  year: 2016
+  link: https://web.archive.org/web/20160313045857/http://pydata.org/amsterdam2016/
+  cfp_link: https://web.archive.org/web/20160316230926/http://pydata.org/amsterdam2016/cfp/
+  cfp: '2016-02-14 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2016-03-12
+  end: 2016-03-13
+  sub: DATA
+  location:
+  - title: PyData Amsterdam 2016
+    latitude: 52.4111289
+    longitude: 4.877231604293446
+
+- conference: PyCon US
+  year: 2016
+  link: https://web.archive.org/web/20160602041511/https://us.pycon.org/2016/
+  cfp: '2015-01-03 23:59:00'
+  place: Portland, USA
+  start: 2016-05-28
+  end: 2016-06-05
+  sub: PY
+  location:
+  - title: PyCon US 2016
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: PyCon US
+  year: 2015
+  link: https://web.archive.org/web/20150404081943/https://us.pycon.org/2015/
+  cfp: '2014-09-15 23:59:00'
+  place: Montreal, Canada
+  start: 2015-04-08
+  end: 2015-04-16
+  sub: PY
+  location:
+  - title: PyCon US 2015
+    latitude: 45.5031824
+    longitude: -73.5698065
+
+- conference: PyCon US
+  year: 2014
+  link: https://web.archive.org/web/20140409001111/https://us.pycon.org/2014/
+  cfp: '2013-09-15 23:59:00'
+  place: Montreal, Canada
+  start: 2014-04-09
+  end: 2014-04-17
+  sub: PY
+  location:
+  - title: PyCon US 2014
+    latitude: 45.5031824
+    longitude: -73.5698065
+
+- conference: PyCon US
+  year: 2013
+  link: https://web.archive.org/web/20130327104545/https://us.pycon.org/2013/
+  cfp: '2012-09-28 23:59:00'
+  place: Santa Clara, USA
+  start: 2013-03-13
+  end: 2013-03-21
+  sub: PY
+  location:
+  - title: PyCon US 2013
+    latitude: 37.2333253
+    longitude: -121.6846349
+
+- conference: PyCon US
+  year: 2012
+  link: https://web.archive.org/web/20120319021157/https://us.pycon.org/2012/
+  cfp: '2011-10-12 23:59:00'
+  place: Santa Clara, USA
+  start: 2012-03-07
+  end: 2012-03-15
+  sub: PY
+  location:
+  - title: PyCon US 2012
+    latitude: 37.2333253
+    longitude: -121.6846349
+
+- conference: PyCon US
+  year: 2011
+  link: https://web.archive.org/web/20101126050309/http://us.pycon.org/2011/about/
+  cfp: '2010-11-01 23:59:00'
+  place: Atlanta, USA
+  start: 2011-03-09
+  end: 2011-03-17
+  sub: PY
+  location:
+  - title: PyCon US 2011
+    latitude: 33.7489924
+    longitude: -84.3902644
+
+- conference: PyCon US
+  year: 2010
+  link: https://web.archive.org/web/20090813153340/http://us.pycon.org/2010/about/
+  cfp: '2009-10-01 23:59:00'
+  place: Atlanta, USA
+  start: 2010-02-17
+  end: 2010-02-25
+  sub: PY
+  location:
+  - title: PyCon US 2010
+    latitude: 33.7489924
+    longitude: -84.3902644
+
+- conference: PyCon US
+  year: 2009
+  link: https://web.archive.org/web/20090221061927/http://us.pycon.org/2009/about/
+  cfp: '2009-11-03 23:59:00'
+  place: Chicago, USA
+  start: 2009-03-25
+  end: 2009-04-02
+  sub: PY
+  location:
+  - title: PyCon US 2009
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: PyCon US
+  year: 2008
+  link: https://web.archive.org/web/20080906013119/http://us.pycon.org/2008/about/
+  cfp: '2008-11-16 23:59:00'
+  place: Chicago, USA
+  start: 2008-03-13
+  end: 2008-03-20
+  sub: PY
+  location:
+  - title: PyCon US 2008
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: PyCon US
+  alt_name: PyCon TX
+  year: 2007
+  link: https://web.archive.org/web/20060908054034/http://us.pycon.org/TX2007/HomePage
+  cfp: '2006-10-31 23:59:00'
+  place: Dallas, USA
+  start: 2007-02-22
+  end: 2007-03-01
+  sub: PY
+  location:
+  - title: PyCon US 2007
+    latitude: 32.7762719
+    longitude: -96.7968559
+
+- conference: PyCon US
+  alt_name: PyCon TX
+  year: 2006
+  link: https://web.archive.org/web/20060209040004/http://us.pycon.org/TX2006/HomePage
+  cfp: '2005-10-31 23:59:00'
+  place: Addison, USA
+  start: 2006-02-23
+  end: 2006-03-02
+  sub: PY
+  location:
+  - title: PyCon US 2006
+    latitude: 41.931696
+    longitude: -87.9889556
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2005
+  link: https://web.archive.org/web/20050421013434/http://www.pycon.org/dc2005
+  cfp: '2004-12-31 23:59:00'
+  place: Washington DC, USA
+  start: 2005-03-19
+  end: 2005-03-25
+  sub: PY
+  location:
+  - title: PyCon US 2005
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2004
+  link: https://web.archive.org/web/20040401171437/http://pycon.org/dc2004/
+  cfp: '2004-01-15 23:59:00'
+  place: Washington DC, USA
+  start: 2004-03-20
+  end: 2004-03-26
+  sub: PY
+  location:
+  - title: PyCon US 2004
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyCon US
+  alt_name: PyCon DC
+  year: 2003
+  link: https://web.archive.org/web/20051108055842/http://wiki.python.org/moin/PyConDC2003
+  cfp: '2002-12-15 23:59:00'
+  cfp_ext: '2003-01-15 23:59:00'
+  place: Washington DC, USA
+  start: 2003-03-26
+  end: 2003-03-28
+  sub: PY
+  location:
+  - title: PyCon US 2003
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: PyCon Uruguay
+  year: 2013
+  link: https://web.archive.org/web/20130208161148/http://uy.pycon.org/
+  cfp: '2013-09-20 23:59:00'
+  place: Montevideo, Uruguay
+  start: 2013-11-01
+  end: 2013-11-02
+  sub: PY
+  location:
+  - title: PyCon Uruguay 2013
+    latitude: -34.9058916
+    longitude: -56.1913095
+
+- conference: PyCon Uruguay
+  year: 2012
+  link: https://web.archive.org/web/20121001005855/http://uy.pycon.org/
+  cfp: '2012-10-01 23:59:00'
+  place: Montevideo, Uruguay
+  start: 2012-11-10
+  end: 2012-11-11
+  sub: PY
+  location:
+  - title: PyCon Uruguay 2012
+    latitude: -34.9058916
+    longitude: -56.1913095
+
+- conference: PyCon Ukraine
+  alt_name: PyCon UA
+  year: 2016
+  link: https://web.archive.org/web/20160419232557/http://ua.pycon.org/
+  cfp_link: http://goo.gl/forms/MDMtGniWVB
+  cfp: '2016-03-31 23:59:00'
+  place: Lviv, Ukraine
+  start: 2016-04-23
+  end: 2016-04-24
+  sub: PY
+  location:
+  - title: PyCon Ukraine 2016
+    latitude: 49.841952
+    longitude: 24.0315921
+
+- conference: PyCon Ukraine
+  alt_name: PyCon UA
+  year: 2012
+  link: https://web.archive.org/web/20120419232557/http://ua.pycon.org/
+  cfp: '2012-09-20 23:59:00'
+  place: Kiew, Ukraine
+  start: 2012-10-20
+  end: 2012-10-22
+  sub: PY
+  location:
+  - title: PyCon Ukraine 2012
+    latitude: 50.4500336
+    longitude: 30.5241361
+
+- conference: PyCon UK
+  year: 2016
+  link: https://web.archive.org/web/20160915163722/http://2016.pyconuk.org/
+  cfp: '2016-06-08 23:59:00'
+  place: Cardiff, UK
+  start: 2016-09-15
+  end: 2016-09-19
+  sub: PY
+  location:
+  - title: PyCon UK 2016
+    latitude: 51.4816546
+    longitude: -3.1791934
+
+- conference: PyCon UK
+  year: 2015
+  link: https://web.archive.org/web/20150706194946/http://www.pyconuk.org/
+  cfp: '2015-06-19 23:59:00'
+  place: Coventry, UK
+  start: 2015-09-18
+  end: 2015-09-21
+  sub: PY
+  location:
+  - title: PyCon UK 2015
+    latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: PyCon UK
+  year: 2014
+  link: https://web.archive.org/web/20140615103455/http://www.pyconuk.org/
+  cfp: '2014-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  start: 2014-09-19
+  end: 2014-09-22
+  sub: PY
+  location:
+  - title: PyCon UK 2014
+    latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: PyCon UK
+  year: 2013
+  link: https://web.archive.org/web/20130612041903/http://www.pyconuk.org/
+  cfp: '2013-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  start: 2013-09-20
+  end: 2013-09-23
+  sub: PY
+  location:
+  - title: PyCon UK 2013
+    latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: PyCon UK
+  year: 2012
+  link: https://web.archive.org/web/20120902022819/http://www.pyconuk.org/
+  cfp: '2012-08-19 00:00:00'
+  timezone: Europe/London
+  place: Coventry, UK
+  start: 2012-09-28
+  end: 2012-10-01
+  sub: PY
+  location:
+  - title: PyCon UK 2012
+    latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: PyCon UK
+  year: 2011
+  link: https://web.archive.org/web/20110727192434/http://www.pyconuk.org/
+  cfp: Cancelled
+  timezone: Europe/London
+  place: Coventry, UK
+  start: 2011-09-24
+  end: 2011-09-25
+  sub: PY
+  note: Cancelled due to multiple issues
+  location:
+  - title: PyCon UK 2011
+    latitude: 52.4081812
+    longitude: -1.510477
+
+- conference: PyCon UK
+  alt_name: PyCon UK Unconference
+  year: 2010
+  link: https://web.archive.org/web/20110720142211/http://www.pyconuk.org/
+  cfp: '2010-10-15 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  start: 2010-10-16
+  end: 2010-10-16
+  sub: PY
+  note: UnConference
+  location:
+  - title: PyCon UK 2010
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: PyCon UK
+  alt_name: PyCon UK Unconference
+  year: 2009
+  link: https://web.archive.org/web/20090927081122/http://www.pyconuk.org/
+  cfp: '2009-09-04 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  start: 2009-09-05
+  end: 2009-09-05
+  sub: PY
+  note: UnConference
+  location:
+  - title: PyCon UK 2009
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: PyCon UK
+  year: 2008
+  link: https://web.archive.org/web/20080630193740/http://www.pyconuk.org/
+  cfp_link: https://web.archive.org/web/20080510194926/http://www.pyconuk.org/callforpapers.html
+  cfp: '2008-07-01 23:59:00'
+  timezone: Europe/London
+  place: Birmingham, UK
+  start: 2008-09-12
+  end: 2008-09-14
+  sub: PY
+  location:
+  - title: PyCon UK 2008
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: PyCon UK
+  year: 2007
+  link: https://web.archive.org/web/20070630193740/http://www.pyconuk.org/
+  cfp: '2007-07-14 23:59:00'
+  place: Birmingham, UK
+  start: 2007-09-08
+  end: 2007-09-09
+  sub: PY
+  location:
+  - title: PyCon UK 2007
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2016
+  link: https://web.archive.org/web/20160612014248/https://tw.pycon.org/2016/en-us/
+  cfp: '2016-03-08 23:59:00'
+  place: Taipei, Taiwan
+  start: 2016-06-03
+  end: 2016-06-05
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2016
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2013
+  link: https://web.archive.org/web/20130118053814/http://tw.pycon.org/en/2013/
+  cfp: '2013-03-10 23:59:00'
+  place: Taipei, Taiwan
+  start: 2013-05-25
+  end: 2013-05-26
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2013
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2012
+  link: https://web.archive.org/web/20120118053814/http://tw.pycon.org/en/
+  cfp: '2012-04-02 23:59:00'
+  place: Taipei, Taiwan
+  start: 2012-06-09
+  end: 2012-06-10
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2012
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2016
+  link: https://web.archive.org/web/20160223113301/http://www.pycon.se/
+  cfp: '2016-02-29 23:59:00'
+  place: Stockholm, Sweden
+  start: 2016-05-09
+  end: 2016-05-11
+  sub: PY
+  location:
+  - title: PyCon Sweden 2016
+    latitude: 59.3251172
+    longitude: 18.0710935
+
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2015
+  link: https://web.archive.org/web/20150325001531/http://www.pycon.se/
+  cfp: '2015-02-16 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  start: 2015-05-12
+  end: 2015-05-13
+  sub: PY
+  location:
+  - title: PyCon Sweden 2015
+    latitude: 59.3251172
+    longitude: 18.0710935
+
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2014
+  link: https://web.archive.org/web/20140508180555/http://2014.pycon.se/
+  cfp: '2014-03-16 23:59:00'
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  start: 2014-05-20
+  end: 2014-05-21
+  sub: PY
+  location:
+  - title: PyCon Sweden 2014
+    latitude: 59.3251172
+    longitude: 18.0710935
+
+- conference: PyCon Spain
+  alt_name: PyCon ES
+  year: 2016
+  link: https://web.archive.org/web/20160928191952/http://2016.es.pycon.org/es/
+  cfp_link: https://web.archive.org/web/20160629053320/http://2016.es.pycon.org/es/proposals/submit/
+  cfp: '2016-07-15 00:00:00'
+  place: Almeria, Spain
+  start: 2016-10-07
+  end: 2016-10-09
+  sub: PY
+  location:
+  - title: PyCon Spain 2016
+    latitude: 36.8414197
+    longitude: -2.4628135
+
+- conference: PyCon Spain
+  alt_name: PyCon ES
+  year: 2015
+  link: https://web.archive.org/web/20150615002459/http://2015.es.pycon.org/
+  cfp: '2015-09-01 00:00:00'
+  place: Valencia, Spain
+  start: 2015-11-20
+  end: 2015-11-22
+  sub: PY
+  location:
+  - title: PyCon Spain 2015
+    latitude: 39.4697065
+    longitude: -0.3763353
+
+- conference: PyCon Spain
+  alt_name: PyCon ES
+  year: 2014
+  link: https://web.archive.org/web/20141117163834/http://2014.es.pycon.org/
+  cfp: '2014-09-10 23:59:00'
+  place: Madrid, Spain
+  start: 2014-11-08
+  end: 2014-11-09
+  sub: PY
+  location:
+  - title: PyCon Spain 2014
+    latitude: 40.4167047
+    longitude: -3.7035825
+
+- conference: PyCon Spain
+  alt_name: PyCon ES
+  year: 2013
+  link: https://web.archive.org/web/20131117163834/http://2013.es.pycon.org/
+  cfp_link: https://web.archive.org/web/20130629150535/http://2013.es.pycon.org/#call4papers
+  cfp: '2013-09-15 23:59:00'
+  place: Madrid, Spain
+  start: 2013-11-22
+  end: 2013-11-24
+  sub: PY
+  location:
+  - title: PyCon Spain 2013
+    latitude: 40.4167047
+    longitude: -3.7035825
+
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2015
+  link: https://web.archive.org/web/20150826062755/http://www.pycon.kr/2015/
+  cfp: '2015-04-07 23:59:00'
+  place: Seoul, South Korea
+  start: 2015-08-29
+  end: 2015-08-30
+  sub: PY
+  location:
+  - title: PyCon South Korea 2015
+    latitude: 37.5666791
+    longitude: 126.9782914
+
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2014
+  link: https://web.archive.org/web/20140716074223/http://www.pycon.kr/
+  cfp: '2014-07-06 23:59:00'
+  place: Seoul, Korea
+  start: 2014-08-30
+  end: 2014-08-30
+  sub: PY
+  location:
+  - title: PyCon South Korea 2014
+    latitude: 37.5666791
+    longitude: 126.9782914
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2016
+  link: https://web.archive.org/web/20160422045615/https://za.pycon.org/
+  cfp: '2016-10-01 23:59:00'
+  place: Johannesburg, South Africa
+  start: 2016-10-06
+  end: 2016-10-09
+  sub: PY
+  location:
+  - title: PyCon South Africa 2016
+    latitude: -26.205
+    longitude: 28.049722
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2015
+  link: https://web.archive.org/web/20150924233205/https://za.pycon.org/
+  cfp: '2015-10-01 23:59:00'
+  place: Johannesburg, South Africa
+  start: 2015-10-01
+  end: 2015-10-04
+  sub: PY
+  location:
+  - title: PyCon South Africa 2015
+    latitude: -26.205
+    longitude: 28.049722
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2014
+  link: https://web.archive.org/web/20140712234719/https://za.pycon.org/
+  cfp: '2014-09-01 23:59:00'
+  place: Johannesburg, South Africa
+  start: 2014-10-02
+  end: 2014-10-06
+  sub: PY
+  location:
+  - title: PyCon South Africa 2014
+    latitude: -26.205
+    longitude: 28.049722
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2013
+  link: https://web.archive.org/web/20130925120247/http://za.pycon.org/
+  cfp: '2013-09-01 23:59:00'
+  cfp_ext: '2013-09-15 23:59:00'
+  place: Cape Town, South Africa
+  start: 2013-10-03
+  end: 2013-10-04
+  sub: PY
+  location:
+  - title: PyCon South Africa 2013
+    latitude: -33.928992
+    longitude: 18.417396
+
+- conference: PyCon South Africa
+  alt_name: PyCon ZA
+  year: 2012
+  link: https://web.archive.org/web/20120825164659/http://za.pycon.org/#&panel1-3
+  cfp: '2012-09-15 23:59:00'
+  timezone: Africa/Johannesburg
+  place: Cape Town, South Africa
+  start: 2012-10-04
+  end: 2012-10-05
+  sub: PY
+  location:
+  - title: PyCon South Africa 2012
+    latitude: -33.928992
+    longitude: 18.417396
+
+- conference: PyCon Slovakia
+  alt_name: PyCon SK
+  year: 2016
+  link: https://web.archive.org/web/20160307164154/http://pycon.sk/en/
+  cfp_link: https://web.archive.org/web/20170315013539/https://2016.pycon.sk/en/speaking.html
+  cfp: '2016-01-24 23:59:00'
+  place: Bratislava, Slovakia
+  start: 2016-03-11
+  end: 2016-03-13
+  sub: PY
+  location:
+  - title: PyCon Slovakia 2016
+    latitude: 48.1516988
+    longitude: 17.1093063
+
+- conference: PyCon Singapore
+  year: 2016
+  link: https://web.archive.org/web/20160406120434/https://pycon.sg/
+  cfp: '2016-04-30 23:59:00'
+  place: Singapore, Singapore
+  start: 2016-06-23
+  end: 2016-06-25
+  sub: PY
+  location:
+  - title: PyCon Singapore 2016
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Singapore
+  year: 2015
+  link: https://web.archive.org/web/20150426060232/https://pycon.sg/
+  cfp: '2015-04-30 23:59:00'
+  place: Singapore, Singapore
+  start: 2015-06-17
+  end: 2015-06-19
+  sub: PY
+  location:
+  - title: PyCon Singapore 2015
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Singapore
+  year: 2014
+  link: https://web.archive.org/web/20140607024650/https://pycon.sg/
+  cfp: '2014-04-30 23:59:00'
+  place: Singapore, Singapore
+  start: 2014-06-18
+  end: 2014-06-20
+  sub: PY
+  location:
+  - title: PyCon Singapore 2014
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Singapore
+  year: 2013
+  link: https://web.archive.org/web/20130531041813/https://pycon.sg/
+  cfp_link: https://web.archive.org/web/20130816132236/https://pycon.sg/proposals/
+  cfp: '2013-04-01 23:59:00'
+  place: Singapore, Singapore
+  start: 2013-06-13
+  end: 2013-06-15
+  sub: PY
+  location:
+  - title: PyCon Singapore 2013
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Siberia
+  year: 2016
+  link: https://web.archive.org/web/20161001171831/http://dev2dev.ru/
+  cfp: '2016-09-01 23:59:00'
+  place: Aerovokzalnaya, Russia
+  start: 2016-10-01
+  end: 2016-10-02
+  sub: PY
+  location:
+  - title: PyCon Siberia 2016
+    latitude: 43.4458896
+    longitude: 39.9326404
+
+- conference: PyCon Russia
+  year: 2015
+  link: https://web.archive.org/web/20150930220556/http://pycon.ru/2015/en/
+  cfp: None
+  place: Ekaterinburg, Russia
+  start: 2015-09-18
+  end: 2015-09-19
+  sub: PY
+  location:
+  - title: PyCon Russia 2015
+    latitude: 56.839104
+    longitude: 60.60825
+
+- conference: PyCon Russia
+  year: 2014
+  link: https://web.archive.org/web/20140529230912/http://pycon.ru/2014/en/
+  cfp: None
+  place: Yekaterinburg, Russia
+  start: 2014-06-02
+  end: 2014-06-03
+  sub: PY
+  location:
+  - title: PyCon Russia 2014
+    latitude: 56.839104
+    longitude: 60.60825
+
+- conference: PyCon Russia
+  year: 2013
+  link: https://web.archive.org/web/20130210032917/http://ru.pycon.org/en/
+  cfp: None
+  place: Yekaterinburg, Russia
+  start: 2013-02-24
+  end: 2013-02-25
+  sub: PY
+  location:
+  - title: PyCon Russia 2013
+    latitude: 56.839104
+    longitude: 60.60825
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2016
+  link: https://web.archive.org/web/20160605192843/http://pl.pycon.org/2016/
+  cfp: '2016-06-10 23:59:00'
+  place: Ossa, Poland
+  start: 2016-10-13
+  end: 2016-10-16
+  sub: PY
+  location:
+  - title: PyCon Poland 2016
+    latitude: 51.8151645
+    longitude: 20.3859912
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2014
+  link: https://web.archive.org/web/20141026131600/http://pl.pycon.org/2014/en
+  cfp: '2014-07-14 23:59:00'
+  place: Szczyrk, Poland
+  start: 2014-10-16
+  end: 2014-10-19
+  sub: PY
+  location:
+  - title: PyCon Poland 2014
+    latitude: 49.69649115
+    longitude: 19.010946935372793
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2013
+  link: https://web.archive.org/web/20131015143206/http://pl.pycon.org/2013/
+  cfp: '2013-07-28 23:59:00'
+  place: Szczyrk, Poland
+  start: 2013-10-17
+  end: 2013-10-20
+  sub: PY
+  location:
+  - title: PyCon Poland 2013
+    latitude: 49.69649115
+    longitude: 19.010946935372793
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2012
+  link: https://web.archive.org/web/20120918233237/http://pl.pycon.org/2012/
+  cfp: '2012-06-24 23:59:59'
+  place: Masłów, Poland
+  start: 2012-09-13
+  end: 2012-09-16
+  sub: PY
+  location:
+  - title: PyCon Poland 2012
+    latitude: 51.3388736
+    longitude: 17.1275518
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2011
+  link: https://web.archive.org/web/20110924185632/http://pl.pycon.org/2011/
+  cfp: '2011-07-02 23:59:00'
+  place: Kielce, Poland
+  start: 2011-09-22
+  end: 2011-09-25
+  sub: PY
+  location:
+  - title: PyCon Poland 2011
+    latitude: 50.85402845
+    longitude: 20.60991568734511
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2010
+  link: https://web.archive.org/web/20101028105939/http://pl.pycon.org/2010/
+  cfp: '2010-07-07 23:59:00'
+  cfp_ext: '2010-07-16 23:59:00'
+  place: Ustron, Poland
+  start: 2010-10-08
+  end: 2010-10-10
+  sub: PY
+  location:
+  - title: PyCon Poland 2010
+    latitude: 49.7181505
+    longitude: 18.8028338
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2009
+  link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2009/
+  cfp: '2009-06-26 23:59:00'
+  place: Ustron, Poland
+  start: 2009-10-16
+  end: 2009-10-18
+  sub: PY
+  location:
+  - title: PyCon Poland 2009
+    latitude: 49.7181505
+    longitude: 18.8028338
+
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2008
+  link: https://web.archive.org/web/20100626111624/https://liwo.polsl.pl/pycon-pl2008/
+  cfp: '2008-07-02 23:59:00'
+  place: Rybnik, Poland
+  start: 2008-10-18
+  end: 2008-10-19
+  sub: PY
+  location:
+  - title: PyCon Poland 2008
+    latitude: 50.0955793
+    longitude: 18.5419933
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2016
+  link: https://web.archive.org/web/20160625004953/http://ph.pycon.org/
+  cfp: '2015-11-30 23:59:00'
+  place: Manila, Philippines
+  start: 2016-02-27
+  end: 2016-02-28
+  sub: PY
+  location:
+  - title: PyCon Philippines 2016
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2015
+  link: https://web.archive.org/web/20150625004953/http://ph.pycon.org/
+  cfp: '2015-05-27 23:59:00'
+  cfp_ext: '2015-05-29 23:59:00'
+  place: Manila, Philippines
+  start: 2015-07-04
+  end: 2015-07-05
+  sub: PY
+  location:
+  - title: PyCon Philippines 2015
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2014
+  link: https://web.archive.org/web/20140625004953/http://ph.pycon.org/
+  cfp_link: https://docs.google.com/forms/d/1zGVk_GR1RpdI9eiOndsNnbsPYPSf1E3titgRVxF9BbA/closedform
+  cfp: '2014-01-10 23:59:00'
+  place: Manila, Philippines
+  start: 2014-02-22
+  end: 2014-02-23
+  sub: PY
+  location:
+  - title: PyCon Philippines 2014
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
+- conference: PyCon Philippines
+  alt_name: PyCon PH
+  year: 2012
+  link: https://web.archive.org/web/20120625004953/http://ph.pycon.org/
+  cfp: None
+  place: Manila, Philippines
+  start: 2012-06-30
+  end: 2012-07-01
+  sub: PY
+  location:
+  - title: PyCon Philippines 2012
+    latitude: 14.63989835
+    longitude: 121.07819518938447
+
+- conference: PyCon Namibia
+  alt_name: PyCon NA
+  year: 2016
+  link: https://web.archive.org/web/20160104173747/http://na.pycon.org/
+  cfp: '2015-12-15 23:59:00'
+  place: Windhoek, Namibia
+  start: 2016-01-25
+  end: 2016-01-29
+  sub: PY
+  location:
+  - title: PyCon Namibia 2016
+    latitude: -22.611456150000002
+    longitude: 17.05860104184979
+
+- conference: PyCon Malaysia
+  alt_name: PyCon MY
+  year: 2016
+  link: https://web.archive.org/web/20160722184438/https://pycon.my/
+  cfp: '2016-05-28 23:59:00'
+  cfp_ext: '2016-06-10'
+  place: Kuala Lumpur, Malaysia
+  start: 2016-08-26
+  end: 2016-08-28
+  sub: PY
+  location:
+  - title: PyCon Malaysia 2016
+    latitude: 4.5693754
+    longitude: 102.2656823
+
+- conference: PyCon Malaysia
+  alt_name: PyCon MY
+  year: 2015
+  link: https://web.archive.org/web/20150812151551/http://www.pycon.my/pycon-my-2015
+  cfp_link: https://web.archive.org/web/20150812142938/http://www.pycon.my/call-for-proposal
+  cfp: '2015-07-03 23:59:00'
+  cfp_ext: '2015-07-10'
+  timezone: Asia/Kuala_Lumpur
+  place: Kuala Lumpur, Malaysia
+  start: 2015-08-21
+  end: 2015-08-23
+  sub: PY
+  location:
+  - title: PyCon Malaysia 2015
+    latitude: 4.5693754
+    longitude: 102.2656823
+
+- conference: PyCon Malaysia
+  alt_name: Mini PyCon Kuala Lumpur
+  year: 2014
+  link: https://web.archive.org/web/20140301204105/http://www.pycon.my/mini-pycon-my-2014
+  cfp_link: https://web.archive.org/web/20240922120412/https://docs.google.com/forms/d/e/1FAIpQLSdSs4-zu7SNXfJuwTOAbOAaxfY-nvLT5Ih353EnHcIJgPP9dA/viewform
+  cfp: '2014-01-31 23:59:00'
+  place: Kuala Lumpur, Malaysia
+  start: 2014-03-15
+  end: 2014-03-15
+  sub: PY
+  location:
+  - title: PyCon Malaysia 2014
+    latitude: 4.5693754
+    longitude: 102.2656823
+
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
+  year: 2015
+  link: https://web.archive.org/web/20150419215436/http://pycon.lt/
+  cfp: None
+  place: Vilnius, Lithuania
+  start: 2015-04-25
+  end: 2015-04-26
+  sub: PY
+  location:
+  - title: PyCon Lithuania 2015
+    latitude: 54.6870458
+    longitude: 25.2829111
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2016
+  link: https://web.archive.org/web/20161017222234/https://pycon.jp/2016/en/
+  cfp: '2016-06-13 23:59:00'
+  place: Tokyo, Japan
+  start: 2016-09-20
+  end: 2016-09-24
+  sub: PY
+  location:
+  - title: PyCon Japan 2016
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2015
+  link: https://web.archive.org/web/20160807221928/https://pycon.jp/2015/en/
+  cfp: '2015-07-20 23:59:00'
+  place: Tokyo, Japan
+  start: 2015-10-09
+  end: 2015-10-12
+  sub: PY
+  location:
+  - title: PyCon Japan 2015
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2014
+  link: https://web.archive.org/web/20140907073857/https://pycon.jp/2014/
+  cfp: '2014-06-20 23:59:59'
+  place: Tokyo, Japan
+  start: 2014-09-12
+  end: 2014-09-15
+  sub: PY
+  location:
+  - title: PyCon Japan 2014
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2012
+  link: https://web.archive.org/web/20120916084616/http://2012.pycon.jp/en/index.html
+  cfp: '2012-05-31 23:59:00'
+  place: Tokyo, Japan
+  start: 2012-09-15
+  end: 2012-09-17
+  sub: PY
+  location:
+  - title: PyCon Japan 2012
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
+- conference: PyCon Jamaica
+  year: 2016
+  link: https://web.archive.org/web/20180624093101/http://pythonjam.org.jm/conference-2016
+  cfp: None
+  place: Kingston, Jamaica
+  start: 2016-11-17
+  end: 2016-11-19
+  sub: PY
+  location:
+  - title: PyCon Jamaica 2016
+    latitude: 17.9712148
+    longitude: -76.7928128
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2016
+  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
+  cfp: '2016-01-10 23:59:00'
+  place: Florence, Italia
+  start: 2016-04-15
+  end: 2016-04-17
+  sub: PY
+  location:
+  - title: PyCon Italia 2016
+    latitude: 36.8309886
+    longitude: 11.9403287
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2015
+  link: https://web.archive.org/web/20141224170534/https://www.pycon.it/it/
+  cfp: '2015-01-18 23:59:00'
+  place: Florence, Italy
+  start: 2015-04-17
+  end: 2015-04-19
+  sub: PY
+  location:
+  - title: PyCon Italia 2015
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2014
+  link: https://web.archive.org/web/20140808133512/https://www.pycon.it/
+  cfp: '2014-02-21 23:59:00'
+  place: Florence, Italy
+  start: 2014-05-23
+  end: 2014-05-26
+  sub: PY
+  location:
+  - title: PyCon Italia 2014
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2010
+  link: https://web.archive.org/web/20100222085004/http://www.pycon.it/
+  cfp_link: https://web.archive.org/web/20100216021335/http://www.pycon.it/pycon4/call-for-paper
+  cfp: '2010-03-10 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2010-05-07
+  end: 2010-05-09
+  sub: PY
+  location:
+  - title: PyCon Italia 2010
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2009
+  link: https://web.archive.org/web/20090508031546/http://www.pycon.it/
+  cfp: '2009-03-08 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2009-05-08
+  end: 2009-05-10
+  sub: PY
+  location:
+  - title: PyCon Italia 2009
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2008
+  link: https://web.archive.org/web/20080414185759/https://www.pycon.it/
+  cfp: '2008-04-01 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2008-05-09
+  end: 2008-05-11
+  sub: PY
+  location:
+  - title: PyCon Italia 2008
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Italia
+  alt_name: PyCon Italy
+  year: 2007
+  link: https://web.archive.org/web/20070520141412/https://www.pycon.it/
+  cfp: '2007-04-30 23:59:00'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2007-06-09
+  end: 2007-06-10
+  sub: PY
+  location:
+  - title: PyCon Italia 2007
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: PyCon Israel
+  year: 2016
+  link: https://web.archive.org/web/20160315123043/http://il.pycon.org/
+  cfp: '2016-04-02 23:59:00'
+  place: Tel Aviv, Israel
+  start: 2016-05-02
+  end: 2016-05-03
+  sub: PY
+  location:
+  - title: PyCon Israel 2016
+    latitude: 32.10050375
+    longitude: 34.826677554304695
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2016
+  link: https://web.archive.org/web/20161025084155/http://python.ie/pycon-2016/
+  cfp: '2016-08-15 23:59:00'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2016-11-05
+  end: 2016-11-06
+  sub: PY
+  location:
+  - title: PyCon Ireland 2016
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2015
+  link: https://web.archive.org/web/20160521024356/http://python.ie/previous-pycons/pycon-2015/
+  cfp_link: https://web.archive.org/web/20150728132459/http://python.ie/pycon-2015/call-proposals/
+  cfp: '2015-07-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2015-10-24
+  end: 2015-10-25
+  sub: PY
+  location:
+  - title: PyCon Ireland 2015
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2014
+  link: http://python.ie/pycon/
+  cfp: '2014-07-14 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2014-10-11
+  end: 2014-10-14
+  sub: PY
+  location:
+  - title: PyCon Ireland 2014
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2013
+  link: https://web.archive.org/web/20130802043511/http://python.ie:80/pycon/2013/
+  cfp: '2013-08-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2012-10-12
+  end: 2012-10-15
+  sub: PY
+  location:
+  - title: PyCon Ireland 2013
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2012
+  link: https://web.archive.org/web/20121101011018/http://python.ie/pycon/2012/
+  cfp: '2012-08-19 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2012-10-13
+  end: 2012-10-14
+  sub: PY
+  location:
+  - title: PyCon Ireland 2012
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2011
+  link: https://web.archive.org/web/20111101011018/http://python.ie/pycon/2011/
+  cfp: '2011-07-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2011-10-08
+  end: 2011-10-09
+  sub: PY
+  location:
+  - title: PyCon Ireland 2011
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Ireland
+  alt_name: PyCon IE
+  year: 2010
+  link: https://web.archive.org/web/20100604053232/http://www.python.ie/pyconireland
+  cfp: '2010-05-31 23:59:59'
+  timezone: Europe/Dublin
+  place: Dublin, Ireland
+  start: 2010-07-17
+  end: 2010-07-18
+  sub: PY
+  location:
+  - title: PyCon Ireland 2010
+    latitude: 53.3498006
+    longitude: -6.2602964
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2016
+  link: https://web.archive.org/web/20160509203844/http://pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2016-05-24
+  end: 2016-05-24
+  sub: PY
+  location:
+  - title: PyCon Iran 2016
+    latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2014
+  link: https://web.archive.org/web/20141021094358/http://2014.pycon.ir/
+  cfp: None
+  place: Tehran, Iran
+  start: 2014-05-11
+  end: 2014-05-11
+  sub: PY
+  location:
+  - title: PyCon Iran 2014
+    latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon Iran
+  alt_name: Iran PyCon
+  year: 2013
+  link: https://web.archive.org/web/20131021094358/http://2013.pycon.ir/
+  cfp: '2013-11-07 23:59:00'
+  place: Tehran, Iran
+  start: 2013-11-10
+  end: 2013-11-10
+  sub: PY
+  location:
+  - title: PyCon Iran 2013
+    latitude: 35.6892523
+    longitude: 51.3896004
+
+- conference: PyCon India
+  year: 2016
+  link: https://web.archive.org/web/20161027165711/https://in.pycon.org/2016/
+  cfp: '2016-06-30 23:59:00'
+  timezone: Asia/Kolkata
+  place: New Delhi, India
+  start: 2016-09-23
+  end: 2016-09-25
+  sub: PY
+  location:
+  - title: PyCon India 2016
+    latitude: 28.6138954
+    longitude: 77.2090057
+
+- conference: PyCon India
+  year: 2015
+  link: https://web.archive.org/web/20150924165102/https://in.pycon.org/2015/
+  cfp: '2015-05-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2015-10-02
+  end: 2015-10-04
+  sub: PY
+  location:
+  - title: PyCon India 2015
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon India
+  year: 2014
+  link: https://web.archive.org/web/20140929035341/http://in.pycon.org/2014/
+  cfp: '2014-05-30 23:59:00'
+  place: Bengaluru, India
+  start: 2014-09-26
+  end: 2014-09-28
+  sub: PY
+  location:
+  - title: PyCon India 2014
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon India
+  year: 2013
+  link: https://web.archive.org/web/20130831132556/http://in.pycon.org/2013/
+  cfp: '2013-07-15 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2013-08-31
+  end: 2013-09-01
+  sub: PY
+  location:
+  - title: PyCon India 2013
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon India
+  year: 2012
+  link: https://web.archive.org/web/20120929035203/http://in.pycon.org/2012/
+  cfp: '2012-08-25 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2012-09-28
+  end: 2012-09-30
+  sub: PY
+  location:
+  - title: PyCon India 2012
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon India
+  year: 2011
+  link: https://web.archive.org/web/20110516024058/http://in.pycon.org/2011/
+  cfp: '2011-06-30 23:59:00'
+  timezone: Asia/Kolkata
+  place: Pune, India
+  start: 2011-09-16
+  end: 2011-09-18
+  sub: PY
+  location:
+  - title: PyCon India 2011
+    latitude: 18.52930005
+    longitude: 73.85682537025511
+
+- conference: PyCon India
+  year: 2010
+  link: https://web.archive.org/web/20100907191526/http://in.pycon.org/2010/
+  cfp: '2010-07-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2010-09-26
+  end: 2010-09-27
+  sub: PY
+  location:
+  - title: PyCon India 2010
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon India
+  year: 2009
+  link: https://web.archive.org/web/20090929193324/http://in.pycon.org/2009/
+  cfp: '2009-08-01 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2009-09-26
+  end: 2009-09-27
+  sub: PY
+  location:
+  - title: PyCon India 2009
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2016
+  link: https://web.archive.org/web/20161101213741/http://pycon.hk/2016/
+  cfp: '2016-08-14 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2016-10-29
+  end: 2016-10-30
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2016
+    latitude: 22.2638172
+    longitude: 114.125794
+
+- conference: PyCon Hong Kong
+  alt_name: PyCon HK
+  year: 2015
+  link: https://web.archive.org/web/20151025152751/http://2015.pycon.hk/
+  cfp: '2015-08-16 23:59:00'
+  place: Hong Kong, Hong Kong
+  start: 2015-11-07
+  end: 2015-11-08
+  sub: PY
+  location:
+  - title: PyCon Hong Kong 2015
+    latitude: 22.2793278
+    longitude: 114.1628131
+
+- conference: PyCon Germany
+  alt_name: PyCon.DE
+  year: 2013
+  link: https://web.archive.org/web/20131028065946/http://2013.de.pycon.org/
+  cfp: '2013-07-15 23:59:00'
+  place: Cologne, Germany
+  start: 2013-10-14
+  end: 2013-10-19
+  sub: PY
+  location:
+  - title: PyCon Germany 2013
+    latitude: 50.938361
+    longitude: 6.959974
+
+- conference: PyCon Germany
+  alt_name: PyCon DE
+  year: 2012
+  link: https://web.archive.org/web/20121028040216/http://2012.de.pycon.org/
+  cfp: '2012-06-15 23:59:00'
+  place: Leipzig, Germany
+  start: 2012-10-29
+  end: 2012-11-03
+  sub: PY
+  location:
+  - title: PyCon Germany 2012
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: PyCon Germany
+  alt_name: PyCon DE
+  year: 2011
+  link: https://web.archive.org/web/20120728002815/http://2011.de.pycon.org/2011/home/
+  cfp: '2011-07-15 23:59:00'
+  place: Leipzig, Germany
+  start: 2011-10-04
+  end: 2011-10-09
+  sub: PY
+  location:
+  - title: PyCon Germany 2011
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2016
+  link: https://web.archive.org/web/20161025183354/http://www.pycon.fr/2016/
+  cfp: '2016-08-03 23:59:00'
+  place: Rennes, France
+  start: 2016-10-13
+  end: 2016-10-16
+  sub: PY
+  location:
+  - title: PyCon France 2016
+    latitude: 48.1113387
+    longitude: -1.6800198
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2015
+  link: https://web.archive.org/web/20151025183354/http://www.pycon.fr/2015/
+  cfp: '2015-07-15 23:59:00'
+  cfp_ext: '2015-08-09 23:59:00'
+  place: Pau, France
+  start: 2015-10-17
+  end: 2015-10-20
+  sub: PY
+  location:
+  - title: PyCon France 2015
+    latitude: 43.2957547
+    longitude: -0.3685668
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2014
+  link: https://web.archive.org/web/20141025183354/http://www.pycon.fr/2014/
+  cfp: '2014-09-15 23:59:00'
+  place: Villeurbanne, France
+  start: 2014-10-25
+  end: 2014-10-28
+  sub: PY
+  location:
+  - title: PyCon France 2014
+    latitude: 45.7733573
+    longitude: 4.8868454
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2013
+  link: https://web.archive.org/web/20131027125621/http://www.pycon.fr/2013/
+  cfp: '2013-09-15 23:59:00'
+  place: Strasbourg, France
+  start: 2013-10-26
+  end: 2013-10-30
+  sub: PY
+  location:
+  - title: PyCon France 2013
+    latitude: 48.584614
+    longitude: 7.7507127
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2012
+  link: https://web.archive.org/web/20120919110354/http://www.pycon.fr/2012/
+  cfp: '2012-07-15 23:59:00'
+  place: Paris, France
+  start: 2012-09-13
+  end: 2012-09-16
+  sub: PY
+  location:
+  - title: PyCon France 2012
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2011
+  link: https://web.archive.org/web/20231209152547/https://www.pycon.fr/2011/category/conference.html
+  cfp: '2011-08-01 23:59:00'
+  place: Paris, France
+  start: 2011-09-17
+  end: 2011-09-18
+  sub: PY
+  location:
+  - title: PyCon France 2011
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2010
+  link: https://www.pycon.fr/2010/category/conference.html
+  cfp: '2010-07-15 23:59:00'
+  place: Paris, France
+  start: 2010-08-28
+  end: 2010-08-29
+  sub: PY
+  location:
+  - title: PyCon France 2010
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2009
+  link: https://web.archive.org/web/20090307100440/http://www.pycon.fr/sessions
+  cfp: '2009-04-24 23:59:00'
+  place: Paris, France
+  start: 2009-05-30
+  end: 2009-05-31
+  sub: PY
+  location:
+  - title: PyCon France 2009
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2008
+  link: https://web.archive.org/web/20080513070424/http://fr.pycon.org/
+  cfp: '2008-03-30 23:59:00'
+  place: Paris, France
+  start: 2008-05-17
+  end: 2008-05-18
+  sub: PY
+  location:
+  - title: PyCon France 2008
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2016
+  link: https://web.archive.org/web/20161027142114/http://fi.pycon.org/2016/
+  cfp: '2016-08-31 23:59:00'
+  place: Helsinki, Finland
+  start: 2016-10-31
+  end: 2016-10-31
+  sub: PY
+  location:
+  - title: PyCon Finland 2016
+    latitude: 60.161647
+    longitude: 24.9066157
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2015
+  link: https://web.archive.org/web/20150924173543/http://fi.pycon.org/2015/
+  cfp: '2015-08-16 23:59:00'
+  place: Helsinki, Finland
+  start: 2015-10-19
+  end: 2015-10-19
+  sub: PY
+  location:
+  - title: PyCon Finland 2015
+    latitude: 60.1674881
+    longitude: 24.9427473
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2014
+  link: https://web.archive.org/web/20141028233840/http://fi.pycon.org/2014/
+  cfp: '2014-07-31 23:59:00'
+  place: Helsinki, Finland
+  start: 2014-10-27
+  end: 2014-10-27
+  sub: PY
+  location:
+  - title: PyCon Finland 2014
+    latitude: 60.1674881
+    longitude: 24.9427473
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2013
+  link: https://web.archive.org/web/20130724094325/http://fi.pycon.org/
+  cfp: '2013-08-01 23:59:00'
+  place: Otaniemi, Finland
+  start: 2013-10-21
+  end: 2013-10-22
+  sub: PY
+  location:
+  - title: PyCon Finland 2013
+    latitude: 60.1879383
+    longitude: 24.8318201
+
+- conference: PyCon Finland
+  alt_name: PyCon FI
+  year: 2012
+  link: https://web.archive.org/web/20121016221615/http://fi.pycon.org/2012/
+  cfp: '2012-10-01 23:59:00'
+  place: Otaniemi, Finland
+  start: 2012-10-22
+  end: 2012-10-24
+  sub: PY
+  location:
+  - title: PyCon Finland 2012
+    latitude: 60.1879383
+    longitude: 24.8318201
+
+- conference: PyCon Dhaka
+  year: 2014
+  link: https://web.archive.org/web/20140618061134/http://dhaka.pycon.org/
+  cfp: None
+  place: Dhaka, Bangladesh
+  start: 2014-06-21
+  end: 2014-06-21
+  sub: PY
+  location:
+  - title: PyCon Dhaka 2014
+    latitude: 23.7644025
+    longitude: 90.389015
+
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2016
+  link: https://web.archive.org/web/20161227174355/https://cz.pycon.org/2016/
+  cfp: '2016-09-15 23:59:00'
+  place: Brno, Czechia
+  start: 2016-10-28
+  end: 2016-10-30
+  sub: PY
+  location:
+  - title: PyCon Czechia 2016
+    latitude: 49.1922443
+    longitude: 16.6113382
+
+- conference: PyCon Czechia
+  alt_name: PyCon CZ
+  year: 2015
+  link: http://web.archive.org/web/20150905053606/https://cz.pycon.org/
+  cfp: '2015-09-28 23:59:00'
+  place: Brno, Czechia
+  start: 2015-11-14
+  end: 2015-11-15
+  sub: PY
+  location:
+  - title: PyCon Czechia 2015
+    latitude: 49.1922443
+    longitude: 16.6113382
+
+- conference: PyCon China
+  year: 2016
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
+  cfp: '2016-08-01 23:59:00'
+  place: Beijing, China
+  extra_places:
+  - Hangzhou, China
+  start: 2016-10-15
+  end: 2016-10-15
+  sub: PY
+  location:
+  - title: PyCon China 2016
+    latitude: 40.190632
+    longitude: 116.412144
+  - title: PyCon China 2016
+    latitude: 30.2489634
+    longitude: 120.2052342
+
+- conference: PyCon China
+  year: 2016
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/shenzhen.html
+  cfp: '2016-08-01 23:59:00'
+  place: Shenzhen, China
+  start: 2016-09-25
+  end: 2016-09-25
+  sub: PY
+  location:
+  - title: PyCon China 2016
+    latitude: 22.5445741
+    longitude: 114.0545429
+
+- conference: PyCon China
+  year: 2016
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/shanghai.html
+  cfp: '2016-08-01 23:59:00'
+  place: Shanhai, China
+  start: 2016-09-10
+  end: 2016-09-10
+  sub: PY
+  location:
+  - title: PyCon China 2016
+    latitude: 31.235644899999997
+    longitude: 121.50124950125412
+
+- conference: PyCon China
+  year: 2015
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
+  cfp: '2015-08-12 23:59:00'
+  place: Beijing, China
+  start: 2015-09-19
+  end: 2015-09-19
+  sub: PY
+  location:
+  - title: PyCon China 2015
+    latitude: 40.190632
+    longitude: 116.412144
+
+- conference: PyCon China
+  year: 2015
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
+  cfp: '2015-08-12 23:59:00'
+  place: Guangzhou, China
+  start: 2015-09-13
+  end: 2015-09-13
+  sub: PY
+  location:
+  - title: PyCon China 2015
+    latitude: 23.1301964
+    longitude: 113.2592945
+
+- conference: PyCon China
+  year: 2015
+  link: https://web.archive.org/web/20160927124755/http://cn.pycon.org/2016/
+  cfp: '2015-08-12 23:59:00'
+  place: Shanghai, China
+  start: 2015-09-12
+  end: 2015-09-12
+  sub: PY
+  location:
+  - title: PyCon China 2015
+    latitude: 31.2323437
+    longitude: 121.4691024
+
+- conference: PyCon China
+  year: 2014
+  link: https://web.archive.org/web/20141118174321/http://cn.pycon.org/en/
+  cfp: '2014-09-19 23:59:00'
+  place: Shanhai, China
+  extra_places:
+  - Beijing, China
+  - Zhuhai, China
+  - Hangzhou, China
+  - Suzhou, China
+  start: 2014-11-15
+  end: 2014-11-15
+  sub: PY
+  location:
+  - title: PyCon China 2014
+    latitude: 31.235644899999997
+    longitude: 121.50124950125412
+  - title: PyCon China 2014
+    latitude: 40.190632
+    longitude: 116.412144
+  - title: PyCon China 2014
+    latitude: 22.273734
+    longitude: 113.5721327
+  - title: PyCon China 2014
+    latitude: 30.2489634
+    longitude: 120.2052342
+  - title: PyCon China 2014
+    latitude: 31.3016935
+    longitude: 120.5810725
+
+- conference: PyCon China
+  year: 2013
+  link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
+  cfp: '2013-11-01 23:59:00'
+  place: Beijing, China
+  start: 2013-12-14
+  end: 2013-12-14
+  sub: PY
+  location:
+  - title: PyCon China 2013
+    latitude: 40.190632
+    longitude: 116.412144
+
+- conference: PyCon China
+  year: 2013
+  link: https://web.archive.org/web/20131212135355/http://cn.pycon.org/2013
+  cfp: '2013-11-01 23:59:00'
+  place: Shanghai, China
+  extra_places:
+  - Zhuhai, China
+  - Hangzhou, China
+  start: 2013-12-08
+  end: 2013-12-08
+  sub: PY
+  location:
+  - title: PyCon China 2013
+    latitude: 31.2323437
+    longitude: 121.4691024
+  - title: PyCon China 2013
+    latitude: 22.273734
+    longitude: 113.5721327
+  - title: PyCon China 2013
+    latitude: 30.2489634
+    longitude: 120.2052342
+
+- conference: PyCon China
+  year: 2012
+  link: https://web.archive.org/web/20121012230445/https://cn.pycon.org/2012/
+  cfp: '2012-10-01 23:59:00'
+  place: Beijing, China
+  extra_places:
+  - Shanghai, China
+  start: 2012-10-20
+  end: 2012-10-20
+  sub: PY
+  location:
+  - title: PyCon China 2012
+    latitude: 40.190632
+    longitude: 116.412144
+  - title: PyCon China 2012
+    latitude: 31.2323437
+    longitude: 121.4691024
+
+- conference: PyCon China
+  year: 2011
+  link: https://web.archive.org/web/20110927124755/http://cn.pycon.org/2011/
+  cfp: '2011-10-01 23:59:00'
+  place: Shanghai, China
+  start: 2011-12-03
+  end: 2011-12-04
+  sub: PY
+  location:
+  - title: PyCon China 2011
+    latitude: 31.2323437
+    longitude: 121.4691024
+
+- conference: PyCon Canada
+  year: 2016
+  link: https://web.archive.org/web/20161026030925/https://2016.pycon.ca/en/
+  cfp: '2016-08-31 23:59:00'
+  place: Toronto, Canada
+  start: 2016-11-12
+  end: 2016-11-15
+  sub: PY
+  location:
+  - title: PyCon Canada 2016
+    latitude: 43.6534817
+    longitude: -79.3839347
+
+- conference: PyCon Canada
+  year: 2015
+  link: https://web.archive.org/web/20151124011908/https://2015.pycon.ca/en/
+  cfp: '2015-08-14 23:59:00'
+  timezone: America/Toronto
+  place: Toronto, Canada
+  start: 2015-11-07
+  end: 2015-11-09
+  sub: PY
+  location:
+  - title: PyCon Canada 2015
+    latitude: 43.6534817
+    longitude: -79.3839347
+
+- conference: PyCon Canada
+  year: 2013
+  link: https://web.archive.org/web/20130628192543/http://2013.pycon.ca/en/
+  cfp_link: https://web.archive.org/web/20140918105106/http://2013.pycon.ca/en/speak/
+  cfp: '2013-06-21 23:59:00'
+  place: Toronto, Canada
+  start: 2013-08-09
+  end: 2013-08-13
+  sub: PY
+  location:
+  - title: PyCon Canada 2013
+    latitude: 43.6534817
+    longitude: -79.3839347
+
+- conference: PyCon Canada
+  year: 2012
+  link: https://web.archive.org/web/20121020132949/http://pycon.ca/
+  cfp: '2012-10-01 23:59:00'
+  timezone: America/Toronto
+  place: Toronto, Canada
+  start: 2012-11-09
+  end: 2012-11-11
+  sub: PY
+  location:
+  - title: PyCon Canada 2012
+    latitude: 43.6534817
+    longitude: -79.3839347
+
+- conference: PyCon Belarus
+  year: 2016
+  link: https://web.archive.org/web/20160202114714/http://by.pycon.org/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2016-02-06
+  end: 2016-02-06
+  sub: PY
+  location:
+  - title: PyCon Belarus 2016
+    latitude: 53.8901239
+    longitude: 27.5693855
+
+- conference: PyCon Belarus
+  year: 2015
+  link: https://web.archive.org/web/20150101002522/http://by.pycon.org/
+  cfp: None
+  place: Minsk, Belarus
+  start: 2015-01-31
+  end: 2015-01-31
+  sub: PY
+  location:
+  - title: PyCon Belarus 2015
+    latitude: 53.8901239
+    longitude: 27.5693855
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2016
+  link: https://web.archive.org/web/20160723033326/https://2016.pycon-au.org/
+  cfp: '2016-05-08 23:59:00'
+  place: Melbourne, Australia
+  start: 2016-08-12
+  end: 2016-08-16
+  sub: PY
+  location:
+  - title: PyCon Australia 2016
+    latitude: -37.8142454
+    longitude: 144.9631732
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2015
+  link: https://web.archive.org/web/20150502175722/http://2015.pycon-au.org/
+  cfp: '2015-05-08 23:59:00'
+  place: Brisbane, Australia
+  start: 2015-07-31
+  end: 2015-08-04
+  sub: PY
+  location:
+  - title: PyCon Australia 2015
+    latitude: -27.4689682
+    longitude: 153.0234991
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2014
+  link: https://web.archive.org/web/20140729115454/http://2014.pycon-au.org/
+  cfp: '2014-04-25 23:59:00'
+  place: Brisbane, Australia
+  start: 2014-08-01
+  end: 2014-08-05
+  finaid: https://web.archive.org/web/20140628120626/http://2014.pycon-au.org/grants
+  sub: PY
+  location:
+  - title: PyCon Australia 2014
+    latitude: -27.4689682
+    longitude: 153.0234991
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2013
+  link: https://web.archive.org/web/20110211105009/http://2013.pycon-au.org/
+  cfp: '2013-04-05 23:59:00'
+  place: Hobart, Australia
+  start: 2013-07-05
+  end: 2013-07-07
+  sub: PY
+  location:
+  - title: PyCon Australia 2013
+    latitude: -42.8825088
+    longitude: 147.3281233
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2012
+  link: https://web.archive.org/web/20121016073113/http://2012.pycon-au.org/
+  cfp: '2012-05-04 23:59:00'
+  place: Hobart, Australia
+  start: 2012-08-18
+  end: 2012-08-19
+  sub: PY
+  location:
+  - title: PyCon Australia 2012
+    latitude: -42.8825088
+    longitude: 147.3281233
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2011
+  link: https://web.archive.org/web/20111106005504/http://pycon-au.org/2011/about/
+  cfp: '2011-05-02 23:59:00'
+  place: Sydney, Australia
+  start: 2011-08-20
+  end: 2011-08-21
+  sub: PY
+  location:
+  - title: PyCon Australia 2011
+    latitude: -33.8751704
+    longitude: 151.19974848099355
+
+- conference: PyCon Australia
+  alt_name: PyCon AU
+  year: 2010
+  link: https://web.archive.org/web/20100706022121/http://pycon-au.org:80/2010/about/
+  cfp: '2010-04-29 23:59:00'
+  place: Sydney, Australia
+  start: 2010-06-26
+  end: 2010-06-27
+  sub: PY
+  location:
+  - title: PyCon Australia 2010
+    latitude: -33.8751704
+    longitude: 151.19974848099355
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon South Korea
+  year: 2016
+  link: https://web.archive.org/web/20160702105007/https://www.pycon.kr/2016apac/
+  cfp: '2016-05-31 23:59:00'
+  place: Seoul, South Korea
+  start: 2016-08-13
+  end: 2016-08-16
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2016
+    latitude: 37.5666791
+    longitude: 126.9782914
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Taiwan
+  year: 2015
+  link: https://web.archive.org/web/20150623171348/http://tw.pycon.org/2015apac/en/
+  cfp: '2015-03-31 23:59:00'
+  place: Taipei, Taiwan
+  start: 2015-06-05
+  end: 2015-06-08
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2015
+    latitude: 25.0407021
+    longitude: 121.61144927190821
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Taiwan
+  year: 2014
+  link: https://web.archive.org/web/20140803024911/https://tw.pycon.org/2014apac/en/
+  cfp: '2014-03-10 23:59:00'
+  place: Taipei, Taiwan
+  start: 2014-05-17
+  end: 2014-05-18
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2014
+    latitude: 25.0420743
+    longitude: 121.61404600926753
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Japan
+  year: 2013
+  link: https://2013-apac.pycon.jp/
+  cfp_link: https://web.archive.org/web/20230423225145/https://pretalx.com/pyconapac2023/cfp
+  cfp: '2013-06-30 23:59:59'
+  place: Tokyo, Japan
+  start: 2013-09-13
+  end: 2013-09-16
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2013
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Singapore
+  year: 2012
+  link: https://web.archive.org/web/20120502113302/http://apac.pycon.org/2012/
+  cfp: '2012-04-01 23:59:59'
+  place: Singapore, Singapore
+  start: 2012-06-07
+  end: 2012-06-09
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2012
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Singapore
+  year: 2011
+  link: https://web.archive.org/web/20110704080351/http://apac.pycon.org/
+  cfp: '2011-04-01 23:59:59'
+  place: Singapore, Singapore
+  start: 2011-06-09
+  end: 2011-06-11
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2011
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Singapore
+  year: 2010
+  link: https://web.archive.org/web/20100324154626/http://apac.pycon.org/
+  cfp: '2010-02-28 23:59:59'
+  place: Singapore, Singapore
+  start: 2010-06-09
+  end: 2010-06-11
+  sub: PY
+  location:
+  - title: PyCon Asia Pacific 2010
+    latitude: 1.2899175
+    longitude: 103.8519072
+
+- conference: PyCon Argentina
+  alt_name: PyCon AR
+  year: 2016
+  link: https://web.archive.org/web/20161125141054/http://ar.pycon.org/
+  cfp: '2016-08-31 23:59:00'
+  place: Bahia Blanca, Argentina
+  start: 2016-11-25
+  end: 2016-11-27
+  sub: PY
+  location:
+  - title: PyCon Argentina 2016
+    latitude: -38.7176522
+    longitude: -62.2654871
+
+- conference: PyCon Argentina
+  alt_name: PyCon AR
+  year: 2015
+  link: https://web.archive.org/web/20171115211033/http://ar.pycon.org/
+  cfp: '2015-08-31 23:59:00'
+  place: Mendoza, Argentina
+  start: 2015-11-12
+  end: 2015-11-14
+  sub: PY
+  location:
+  - title: PyCon Argentina 2015
+    latitude: -34.787093049999996
+    longitude: -68.43818677312292
+
+- conference: PyCon Argentina
+  alt_name: PyCon AR
+  year: 2012
+  link: https://web.archive.org/web/20121029082134/http://ar.pycon.org/2012/default/index
+  cfp: '2012-07-15 23:59:00'
+  place: Buenos Aires, Argentina
+  start: 2012-11-12
+  end: 2012-11-17
+  sub: PY
+  location:
+  - title: PyCon Argentina 2012
+    latitude: -34.6037181
+    longitude: -58.38153
+
+- conference: PyCaribbean
+  year: 2016
+  link: https://web.archive.org/web/20160211053513/http://pycaribbean.com/
+  cfp: '2015-11-20 23:59:00'
+  place: Santo Domingo, Dominican Republic
+  start: 2016-02-20
+  end: 2016-02-21
+  sub: PY
+  location:
+  - title: PyCaribbean 2016
+    latitude: 18.4801972
+    longitude: -69.942111
+
+- conference: PyBITS
+  year: 2016
+  link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
+  cfp: '2016-10-16 23:59:00'
+  place: Hyderabad, India
+  start: 2016-10-14
+  end: 2016-10-16
+  sub: PY
+  location:
+  - title: PyBITS 2016
+    latitude: 17.4454957
+    longitude: 78.34854697544472
+
+- conference: PyBelgaum
+  year: 2015
+  link: https://web.archive.org/web/20150301185819/http://pybelgaum.org/2015/
+  cfp: '2015-02-15 23:59:00'
+  place: Gogte Institute of Technology, India
+  start: 2015-02-28
+  end: 2015-03-01
+  sub: PY
+  location:
+  - title: PyBelgaum 2015
+    latitude: 15.81527075
+    longitude: 74.48744361563915
+
+- conference: PyBay
+  year: 2016
+  link: https://web.archive.org/web/20160819153259/http://www.pybay.com/
+  cfp: '2016-06-24 23:59:00'
+  place: San Francisco, USA
+  start: 2016-08-19
+  end: 2016-08-21
+  sub: PY
+  location:
+  - title: PyBay 2016
+    latitude: 37.7681571
+    longitude: -122.392929
+
+- conference: Plone Conference
+  year: 2016
+  link: https://web.archive.org/web/20170409210135/https://2016.ploneconf.org/
+  cfp_link: https://plone.org/news-and-events/events/plone-conferences/boston-2016/2016-call-for-proposals
+  cfp: '2015-09-28 23:59:00'
+  place: Cambridge, USA
+  start: 2016-10-17
+  end: 2016-10-23
+  sub: WEB
+  location:
+  - title: Plone Conference 2016
+    latitude: 42.3655767
+    longitude: -71.1040018
+
+- conference: Plone Conference
+  year: 2015
+  link: https://web.archive.org/web/20151013153542/https://2015.ploneconf.org/
+  cfp: '2014-09-28 23:59:00'
+  place: Bucharest, Romania
+  start: 2015-10-12
+  end: 2015-10-18
+  sub: WEB
+  location:
+  - title: Plone Conference 2015
+    latitude: 44.4361414
+    longitude: 26.1027202
+
+- conference: Plone Conference
+  year: 2014
+  link: https://web.archive.org/web/20140725162938/http://2014.ploneconf.org/
+  cfp: '2013-09-22 23:59:00'
+  place: Bristol, UK
+  start: 2013-10-27
+  end: 2013-11-02
+  sub: WEB
+  location:
+  - title: Plone Conference 2014
+    latitude: 51.4538022
+    longitude: -2.5972985
+
+- conference: Plone Conference
+  year: 2013
+  link: https://web.archive.org/web/20130208160717/http://www.ploneconf.org/
+  cfp: '2012-08-15 23:59:00'
+  cfp_ext: '2013-08-19'
+  place: Brasilia, Brazil
+  start: 2013-09-30
+  end: 2013-10-06
+  sub: WEB
+  location:
+  - title: Plone Conference 2013
+    latitude: -10.3333333
+    longitude: -53.2
+
+- conference: Plone Conference
+  year: 2012
+  link: https://web.archive.org/web/20120923023043/http://www.ploneconf.org/
+  cfp: '2012-08-15 23:59:00'
+  cfp_ext: '2012-08-19 23:59:00'
+  place: Arnhem, Netherlands
+  start: 2012-10-08
+  end: 2012-10-14
+  sub: WEB
+  location:
+  - title: Plone Conference 2012
+    latitude: 51.984257
+    longitude: 5.9108573
+
+- conference: Plone Conference
+  year: 2011
+  link: https://web.archive.org/web/20110928073235/https://ploneconf.org/
+  cfp: '2011-01-07 23:59:00'
+  place: San Francisco, USA
+  start: 2011-11-01
+  end: 2011-11-08
+  sub: WEB
+  location:
+  - title: Plone Conference 2011
+    latitude: 37.7681571
+    longitude: -122.392929
+
+- conference: Plone Conference
+  year: 2010
+  link: https://web.archive.org/web/20130612095356/http://www.ploneconf2010.org/index.html
+  cfp: '2010-09-10 23:59:00'
+  place: Bristol, UK
+  start: 2010-10-25
+  end: 2010-10-31
+  sub: WEB
+  location:
+  - title: Plone Conference 2010
+    latitude: 51.4538022
+    longitude: -2.5972985
+
+- conference: Plone Conference
+  year: 2009
+  link: https://web.archive.org/web/20090719092122/https://www.ploneconf2009.org/
+  cfp: '2009-09-06 23:59:00'
+  place: Budapest, Hungary
+  start: 2009-10-26
+  end: 2009-11-01
+  sub: WEB
+  location:
+  - title: Plone Conference 2009
+    latitude: 47.48138955
+    longitude: 19.14609412691246
+
+- conference: Plone Conference
+  year: 2008
+  link: https://plone.org/news-and-events/events/plone-conferences/washington-dc-2008
+  cfp: '2008-09-06 23:59:00'
+  place: Washington DC, USA
+  start: 2008-10-06
+  end: 2008-10-12
+  sub: WEB
+  location:
+  - title: Plone Conference 2008
+    latitude: 38.8950368
+    longitude: -77.0365427
+
+- conference: Plone Conference
+  year: 2007
+  link: https://web.archive.org/web/20230205204543/https://plone.org/news-and-events/events/plone-conferences/naples-2007/2007-naples/plone-conference-2007
+  cfp_link: https://web.archive.org/web/20230206193127/https://plone.org/news-and-events/events/plone-conferences/naples-2007/2007-naples/call-for-proposals/call-for-proposals
+  cfp: '2007-07-27 23:59:00'
+  place: Naples, Italy
+  start: 2007-10-08
+  end: 2007-10-15
+  sub: WEB
+  location:
+  - title: Plone Conference 2007
+    latitude: 40.8358846
+    longitude: 14.2487679
+
+- conference: Plone Conference
+  year: 2006
+  link: https://web.archive.org/web/20230129185828/https://plone.org/news-and-events/events/plone-conferences/seattle-2006
+  cfp_link: https://web.archive.org/web/20230131140713/https://plone.org/news-and-events/events/plone-conferences/seattle-2006/call-for-proposals/call-for-proposals
+  cfp: '2006-08-06 23:59:00'
+  place: Seattle, USA
+  start: 2006-10-25
+  end: 2006-10-27
+  sub: WEB
+  location:
+  - title: Plone Conference 2006
+    latitude: 47.6038321
+    longitude: -122.330062
+
+- conference: Plone Conference
+  year: 2005
+  link: https://web.archive.org/web/20050810014120/http://ploneconf2005.bluedynamics.net/
+  cfp: '2005-08-03 23:59:00'
+  place: Vienna, Austria
+  start: 2005-09-19
+  end: 2005-09-21
+  sub: WEB
+  location:
+  - title: Plone Conference 2005
+    latitude: 48.2391664
+    longitude: 16.3774409
+
+- conference: Plone Conference
+  year: 2004
+  link: https://web.archive.org/web/20230129200902/https://plone.org/news-and-events/events/plone-conferences/vienna-2004
+  cfp: '2004-08-01 23:59:00'
+  place: Vienna, Austria
+  start: 2004-09-20
+  end: 2004-09-22
+  sub: WEB
+  location:
+  - title: Plone Conference 2004
+    latitude: 48.2391664
+    longitude: 16.3774409
+
+- conference: Plone Conference
+  year: 2003
+  link: https://web.archive.org/web/20230610041927/https://plone.org/news-and-events/events/plone-conferences/new-orleans-2003/announcement
+  cfp: '2003-09-03 23:59:00'
+  place: New Orleans, USA
+  start: 2003-10-15
+  end: 2003-10-17
+  sub: WEB
+  location:
+  - title: Plone Conference 2003
+    latitude: 29.9759983
+    longitude: -90.0782127
+
+- conference: Piter Py
+  alt_name: Piter Py \#3
+  year: 2016
+  link: https://web.archive.org/web/20160424033322/http://www.it-sobytie.ru/en/events/5862
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2016-04-22
+  end: 2016-04-23
+  sub: PY
+  location:
+  - title: Piter Py 2016
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: Piter Py
+  alt_name: Piter Py \#2
+  year: 2015
+  link: https://web.archive.org/web/20150424033322/http://www.it-sobytie.ru/events/3275
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2015-03-20
+  end: 2015-03-20
+  sub: PY
+  location:
+  - title: Piter Py 2015
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: Piter Py
+  alt_name: Piter Py \#1
+  year: 2014
+  link: https://web.archive.org/web/20140424033322/http://www.it-sobytie.ru/en/events/2040
+  cfp: None
+  place: St. Petersburg, Russia
+  start: 2014-04-25
+  end: 2014-04-25
+  sub: PY
+  location:
+  - title: Piter Py 2014
+    latitude: 59.9606739
+    longitude: 30.1586551
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2016
+  link: https://web.archive.org/web/20150520215508/http://kiwi.pycon.org/
+  cfp: '2018-09-08 23:59:00'
+  place: Dunedin, New Zealand
+  start: 2016-09-09
+  end: 2016-09-11
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2016
+    latitude: -45.8740984
+    longitude: 170.5035755
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2015
+  link: https://web.archive.org/web/20151212164132/https://python.nz/
+  cfp: '2015-06-22 23:59:00'
+  place: Christchurch, New Zealand
+  start: 2015-09-04
+  end: 2015-09-06
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2015
+    latitude: -43.530955
+    longitude: 172.6364343
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2014
+  link: https://web.archive.org/web/20140802025405/http://kiwi.pycon.org/
+  cfp: '2014-06-30 23:59:00'
+  place: Wellington, New Zealand
+  start: 2014-09-12
+  end: 2014-09-14
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2014
+    latitude: -41.2887953
+    longitude: 174.7772114
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2013
+  link: https://web.archive.org/web/20130901133936/http://nz.pycon.org/
+  cfp: '2012-06-01 23:59:00'
+  place: Auckland, New Zealand
+  start: 2013-09-06
+  end: 2013-09-08
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2013
+    latitude: -36.5412811
+    longitude: 174.5506104914412
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2012
+  link: https://web.archive.org/web/20121212164132/https://nz.pycon.org/
+  cfp: '2012-07-02 23:59:00'
+  place: Dunedin, New Zealand
+  start: 2012-09-01
+  end: 2012-09-02
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2012
+    latitude: -45.8740984
+    longitude: 170.5035755
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2011
+  link: https://web.archive.org/web/20110312164132/https://nz.pycon.org/
+  cfp: '2011-05-09 23:59:00'
+  place: Wellington, New Zealand
+  start: 2011-08-27
+  end: 2011-08-28
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2011
+    latitude: -41.2887953
+    longitude: 174.7772114
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2010
+  link: https://web.archive.org/web/20101023122656/http://nz.pycon.org/
+  cfp: '2010-08-02 23:59:00'
+  place: Waitangi, New Zealand
+  start: 2010-11-20
+  end: 2010-11-21
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2010
+    latitude: -35.2704653
+    longitude: 174.0804593
+
+- conference: Kiwi PyCon
+  alt_name: PyCon NZ
+  year: 2009
+  link: https://web.archive.org/web/20090312164132/https://nz.pycon.org/
+  cfp: '2009-08-12 23:59:00'
+  place: Christchurch, New Zealand
+  start: 2009-11-07
+  end: 2009-11-08
+  sub: PY
+  location:
+  - title: Kiwi PyCon 2009
+    latitude: -43.530955
+    longitude: 172.6364343
+
+- conference: GeoPython
+  year: 2016
+  link: https://web.archive.org/web/20160416025408/http://www.geopython.net/
+  cfp: '2016-02-15 23:59:00'
+  place: Basel, Switzerland
+  start: 2016-06-22
+  end: 2016-06-24
+  sub: GEO
+  location:
+  - title: GeoPython 2016
+    latitude: 47.3615882
+    longitude: 7.354445
+
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2016
+  link: https://web.archive.org/web/20160329031714/https://fosdem.org/2016/schedule/track/python/
+  cfp: '2015-12-11 23:59:00'
+  cfp_ext: '2015-12-20 23:59:00'
+  place: Brussels, Belgium
+  start: 2016-01-30
+  end: 2016-01-30
+  sub: PY
+  location:
+  - title: FOSDEM 2016
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2015
+  link: https://web.archive.org/web/20150326165206/https://fosdem.org/2015/schedule/track/python/
+  cfp: '2014-12-01 23:59:00'
+  place: Brussels, Belgium
+  start: 2015-01-31
+  end: 2015-01-31
+  sub: PY
+  location:
+  - title: FOSDEM 2015
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: FOSDEM
+  alt_name: Python @ FOSDEM
+  year: 2014
+  link: https://web.archive.org/web/20140208210710/http://python-fosdem.org/schedule
+  cfp: '2013-12-31 23:59:00'
+  place: Brussels, Belgium
+  start: 2014-02-02
+  end: 2014-02-02
+  sub: PY
+  location:
+  - title: FOSDEM 2014
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2013
+  link: https://web.archive.org/web/20130216000502/https://fosdem.org/2013/
+  cfp: '2012-12-21 23:59:00'
+  place: Brussels, Belgium
+  start: 2013-02-03
+  end: 2013-02-03
+  sub: PY
+  location:
+  - title: FOSDEM 2013
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: For Python Quants
+  year: 2015
+  link: https://web.archive.org/web/20140305213641/http://www.forpythonquants.com/
+  cfp: None
+  place: New York, USA
+  start: 2014-03-14
+  end: 2014-03-14
+  sub: PY
+  location:
+  - title: For Python Quants 2015
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: For Python Quants
+  year: 2014
+  link: https://web.archive.org/web/20140305213641/http://www.forpythonquants.com/
+  cfp: None
+  place: New York, USA
+  start: 2014-03-14
+  end: 2014-03-14
+  sub: PY
+  location:
+  - title: For Python Quants 2014
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: EuroSciPy
+  year: 2016
+  link: https://web.archive.org/web/20160405221156/https://www.euroscipy.org/2016/
+  cfp: '2016-06-24 23:59:00'
+  timezone: Europe/Berlin
+  place: Erlangen, Germany
+  start: 2016-08-23
+  end: 2016-08-27
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2016
+    latitude: 49.5928616
+    longitude: 11.0056
+
+- conference: EuroSciPy
+  year: 2015
+  link: https://web.archive.org/web/20150705054736/https://www.euroscipy.org/2015/
+  cfp: '2015-04-30 23:59:00'
+  cfp_ext: '2015-05-15 23:59:00'
+  place: Cambridge, UK
+  start: 2015-08-26
+  end: 2015-08-30
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2015
+    latitude: 52.2055314
+    longitude: 0.1186637
+
+- conference: EuroSciPy
+  year: 2013
+  link: https://web.archive.org/web/20130523143818/https://www.euroscipy.org/
+  cfp: '2013-04-28 00:00:00'
+  cfp_ext: '2013-05-05 23:59:59'
+  place: Brussels, Belgium
+  start: 2013-08-21
+  end: 2013-08-24
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2013
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: EuroSciPy
+  year: 2012
+  link: https://web.archive.org/web/20120523143818/https://www.euroscipy.org/
+  cfp: '2012-05-06 00:00:00'
+  place: Brussels, Belgium
+  start: 2012-08-23
+  end: 2012-08-27
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2012
+    latitude: 50.8465573
+    longitude: 4.351697
+
+- conference: EuroSciPy
+  year: 2011
+  link: https://web.archive.org/web/20110523143818/https://www.euroscipy.org/
+  cfp: '2011-05-08 00:00:00'
+  place: Paris, France
+  start: 2011-08-25
+  end: 2011-08-28
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2011
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: EuroSciPy
+  year: 2010
+  link: https://web.archive.org/web/20100523143818/https://www.euroscipy.org/
+  cfp: '2010-05-09 00:00:00'
+  place: Paris, France
+  start: 2010-07-08
+  end: 2010-07-11
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2010
+    latitude: 48.8588897
+    longitude: 2.3200410217200766
+
+- conference: EuroSciPy
+  year: 2009
+  link: https://web.archive.org/web/20090523143818/https://www.euroscipy.org/
+  cfp: '2009-04-30 00:00:00'
+  place: Leipzig, Germany
+  start: 2009-07-25
+  end: 2009-07-26
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2009
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: EuroSciPy
+  year: 2008
+  link: https://web.archive.org/web/20190909080804/http://scipy.github.io/old-wiki/pages/EuroSciPy2008.html
+  cfp: '2008-04-30 23:59:00'
+  place: Leipzig, Germany
+  start: 2008-07-26
+  end: 2008-07-27
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2008
+    latitude: 51.3406321
+    longitude: 12.3747329
+
+- conference: EuroPython
+  year: 2016
+  link: https://web.archive.org/web/20160129180633/http://ep2016.europython.eu/
+  cfp: '2016-03-06 23:59:59'
+  timezone: Europe/Madrid
+  place: ECC, Spain
+  start: 2016-07-17
+  end: 2016-07-24
+  sub: PY
+  location:
+  - title: EuroPython 2016
+    latitude: 43.3913468
+    longitude: -3.7526930295
+
+- conference: EuroPython
+  year: 2015
+  link: https://web.archive.org/web/20150224103848/http://ep2015.europython.eu/
+  cfp_link: https://web.archive.org/web/20150418023146/https://ep2015.europython.eu/en/call-for-proposals/
+  cfp: '2015-04-28 23:59:59'
+  timezone: Europe/Madrid
+  place: Bilbao, Spain
+  start: 2015-07-20
+  end: 2015-07-27
+  sub: PY
+  location:
+  - title: EuroPython 2015
+    latitude: 43.2630018
+    longitude: -2.9350039
+
+- conference: EuroPython
+  year: 2014
+  link: https://web.archive.org/web/20140706142751/https://ep2014.europython.eu/en/
+  cfp: '2014-06-14 23:59:00'
+  timezone: Europe/Berlin
+  place: Berlin, Germany
+  start: 2014-07-21
+  end: 2014-07-27
+  sub: PY
+  location:
+  - title: EuroPython 2014
+    latitude: 52.5170365
+    longitude: 13.3888599
+
+- conference: EuroPython
+  year: 2013
+  link: https://web.archive.org/web/20130603032549/https://ep2013.europython.eu/
+  cfp: '2013-03-05 23:59:59'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2013-07-01
+  end: 2013-07-07
+  sub: PY
+  location:
+  - title: EuroPython 2013
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: EuroPython
+  year: 2012
+  link: https://web.archive.org/web/20120724122915/https://ep2012.europython.eu/
+  cfp: '2012-03-18 23:59:59'
+  cfp_ext: '2012-03-21 23:59:59'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2012-07-02
+  end: 2012-07-08
+  sub: PY
+  location:
+  - title: EuroPython 2012
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: EuroPython
+  year: 2011
+  link: https://web.archive.org/web/20110626073356/http://ep2011.europython.eu/
+  cfp: '2011-04-06 23:59:59'
+  timezone: Europe/Rome
+  place: Florence, Italy
+  start: 2011-06-20
+  end: 2011-06-26
+  sub: PY
+  location:
+  - title: EuroPython 2011
+    latitude: 40.038064
+    longitude: 18.4633105
+
+- conference: EuroPython
+  year: 2010
+  link: https://web.archive.org/web/20110414144119/http://ep2010.europython.eu/
+  cfp: '2010-04-30 23:59:59'
+  timezone: Europe/London
+  place: Birmingham, UK
+  start: 2010-07-17
+  end: 2010-07-22
+  sub: PY
+  location:
+  - title: EuroPython 2010
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: EuroPython
+  year: 2009
+  link: https://web.archive.org/web/20100429204959/http://ep2009.europython.eu/
+  cfp: '2009-04-05 23:59:59'
+  timezone: Europe/London
+  place: Birmingham, UK
+  start: 2009-06-29
+  end: 2009-07-04
+  sub: PY
+  location:
+  - title: EuroPython 2009
+    latitude: 52.4796992
+    longitude: -1.9026911
+
+- conference: EuroPython
+  year: 2008
+  link: https://web.archive.org/web/20080706103533/http://www.europython.org/
+  cfp: '2008-05-22 23:59:59'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  start: 2008-07-07
+  end: 2008-07-12
+  sub: PY
+  location:
+  - title: EuroPython 2008
+    latitude: 54.6870458
+    longitude: 25.2829111
+
+- conference: EuroPython
+  year: 2007
+  link: https://web.archive.org/web/20070709123745/http://www.europython.org/
+  cfp: '2007-05-18 23:59:59'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  start: 2007-07-09
+  end: 2007-07-14
+  sub: PY
+  location:
+  - title: EuroPython 2007
+    latitude: 54.6870458
+    longitude: 25.2829111
+
+- conference: EuroPython
+  year: 2006
+  link: https://web.archive.org/web/20060701045949/http://www.europython.org/
+  cfp: '2006-06-02 23:59:59'
+  timezone: Europe/Zurich
+  place: Geneva, Switzerland
+  start: 2006-07-03
+  end: 2006-07-05
+  sub: PY
+  location:
+  - title: EuroPython 2006
+    latitude: 46.2047169
+    longitude: 6.1423106290939335
+
+- conference: EuroPython
+  year: 2005
+  link: https://web.archive.org/web/20050829082959/http://www.europython.org/
+  cfp: '2005-05-01 23:59:59'
+  timezone: Europe/Stockholm
+  place: Gothenburg, Sweden
+  start: 2005-06-27
+  end: 2005-07-03
+  sub: PY
+  location:
+  - title: EuroPython 2005
+    latitude: 57.7072326
+    longitude: 11.9670171
+
+- conference: EuroPython
+  year: 2004
+  link: https://web.archive.org/web/20040623210324/http://www.europython.org:80/
+  cfp: '2004-04-15 23:59:59'
+  timezone: Europe/Stockholm
+  place: Gothenburg, Sweden
+  start: 2004-07-07
+  end: 2004-07-11
+  sub: PY
+  location:
+  - title: EuroPython 2004
+    latitude: 57.7072326
+    longitude: 11.9670171
+
+- conference: EuroPython
+  year: 2003
+  link: https://web.archive.org/web/20030804085245/http://www.europython.org/
+  cfp: '2003-04-21 23:59:59'
+  timezone: Europe/Brussels
+  place: Charleroi, Belgium
+  start: 2003-06-25
+  end: 2003-06-27
+  sub: PY
+  location:
+  - title: EuroPython 2003
+    latitude: 50.4116233
+    longitude: 4.444528
+
+- conference: EuroPython
+  year: 2002
+  link: https://web.archive.org/web/20020802042807/http://www.europython.org/
+  cfp: '2002-04-11 23:59:59'
+  timezone: Europe/Brussels
+  place: Charleroi, Belgium
+  start: 2002-06-26
+  end: 2002-06-28
+  sub: PY
+  location:
+  - title: EuroPython 2002
+    latitude: 50.4116233
+    longitude: 4.444528
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2016
+  link: https://web.archive.org/web/20160521010456/http://rencontres.django-fr.org/2016/
+  cfp: '2016-03-31 23:59:00'
+  place: Rennes, France
+  start: 2016-05-21
+  end: 2016-05-21
+  sub: WEB
+  location:
+  - title: DjangoCong 2016
+    latitude: 48.1113387
+    longitude: -1.6800198
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2015
+  link: http://rencontres.django-fr.org/2015/
+  cfp: '2015-05-31 23:59:00'
+  place: Clermont-Ferrand, France
+  start: 2015-05-08
+  end: 2015-05-10
+  sub: WEB
+  location:
+  - title: DjangoCong 2015
+    latitude: 45.7774551
+    longitude: 3.0819427
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2013
+  link: https://web.archive.org/web/20130901115122/http://rencontres.django-fr.org/2013/
+  cfp: '2013-05-31 23:59:00'
+  place: Belfort, France
+  start: 2013-09-28
+  end: 2013-09-29
+  sub: WEB
+  location:
+  - title: DjangoCong 2013
+    latitude: 47.6379599
+    longitude: 6.8628942
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2012
+  link: https://web.archive.org/web/20120510235350/http://rencontres.django-fr.org/2012/
+  cfp: '2012-08-31 23:59:00'
+  place: Montpellier, France
+  start: 2012-04-14
+  end: 2012-04-15
+  sub: WEB
+  location:
+  - title: DjangoCong 2012
+    latitude: 43.6112422
+    longitude: 3.8767337
+
+- conference: DjangoCong
+  alt_name: Rencontres django
+  year: 2011
+  link: https://web.archive.org/web/20110502103928/http://rencontres.django-fr.org/2011/
+  cfp: '2011-03-31 23:59:00'
+  place: Marseille, France
+  start: 2011-04-16
+  end: 2011-04-17
+  sub: WEB
+  location:
+  - title: DjangoCong 2011
+    latitude: 43.2961743
+    longitude: 5.3699525
+
+- conference: DjangoCon US
+  year: 2015
+  link: https://web.archive.org/web/20150906032808/https://2015.djangocon.us/
+  cfp: '2015-05-15 23:59:00'
+  place: Austin, USA
+  start: 2015-09-06
+  end: 2015-09-11
+  sub: WEB
+  location:
+  - title: DjangoCon US 2015
+    latitude: 30.2711286
+    longitude: -97.7436995
+
+- conference: DjangoCon US
+  year: 2014
+  link: https://web.archive.org/web/20140607062955/http://www.djangocon.us/
+  cfp: '2014-06-28 23:59:00'
+  place: Chicago, USA
+  start: 2014-08-30
+  end: 2014-09-06
+  sub: WEB
+  location:
+  - title: DjangoCon US 2014
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: DjangoCon US
+  year: 2013
+  link: https://web.archive.org/web/20130608004141/http://www.djangocon.us/
+  cfp: '2013-06-18 23:59:00'
+  place: Chicago, USA
+  start: 2013-09-02
+  end: 2013-09-07
+  sub: WEB
+  location:
+  - title: DjangoCon US 2013
+    latitude: 41.8755616
+    longitude: -87.6244212
+
+- conference: DjangoCon US
+  year: 2012
+  link: https://web.archive.org/web/20120508100008/http://2012.djangocon.us/
+  cfp: '2012-06-16 23:59:00'
+  place: Washington, USA
+  start: 2012-08-03
+  end: 2012-08-08
+  sub: WEB
+  location:
+  - title: DjangoCon US 2012
+    latitude: 47.0365017
+    longitude: -122.9047626
+
+- conference: DjangoCon US
+  year: 2011
+  link: https://web.archive.org/web/20110508100008/http://2011.djangocon.us/
+  cfp: '2011-07-05 23:59:00'
+  place: Portland, USA
+  start: 2011-09-06
+  end: 2011-09-10
+  sub: WEB
+  location:
+  - title: DjangoCon US 2011
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: DjangoCon US
+  year: 2010
+  link: https://web.archive.org/web/20240329123130/https://2010.djangocon.us/
+  cfp: '2010-07-10 23:59:00'
+  place: Portland, USA
+  start: 2010-09-07
+  end: 2010-09-09
+  sub: WEB
+  location:
+  - title: DjangoCon US 2010
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: DjangoCon US
+  year: 2009
+  link: https://web.archive.org/web/20240329123101/https://2009.djangocon.us/
+  cfp: '2009-08-07 23:59:00'
+  place: Portland, USA
+  start: 2009-09-08
+  end: 2009-09-12
+  sub: WEB
+  location:
+  - title: DjangoCon US 2009
+    latitude: 45.5202471
+    longitude: -122.674194
+
+- conference: DjangoCon US
+  year: 2008
+  link: https://web.archive.org/web/20180325231945/https://2008.djangocon.us/
+  cfp: None
+  place: Mountain View, USA
+  start: 2008-09-06
+  end: 2008-09-07
+  sub: WEB
+  location:
+  - title: DjangoCon US 2008
+    latitude: 37.3893889
+    longitude: -122.0832101
+
+- conference: DjangoCon Toulouse
+  alt_name: DjangoCong
+  year: 2012
+  link: https://web.archive.org/web/20121109120455/http://rencontres.django-fr.org/2012/
+  cfp: '2012-08-23 23:59:00'
+  place: Toulouse, France
+  start: 2012-11-24
+  end: 2012-11-25
+  sub: WEB
+  location:
+  - title: DjangoCong Toulouse 2012
+    latitude: 43.6044622
+    longitude: 1.4442469
+
+- conference: DjangoCon Europe
+  year: 2015
+  link: https://web.archive.org/web/20150621212217/http://2015.djangocon.eu/
+  cfp: '2015-03-18 23:59:00'
+  place: Cardiff, UK
+  start: 2015-05-31
+  end: 2015-06-05
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2015
+    latitude: 51.4816546
+    longitude: -3.1791934
+
+- conference: DjangoCon Europe
+  year: 2014
+  link: https://web.archive.org/web/20140523035244/http://2014.djangocon.eu/
+  cfp_link: https://web.archive.org/web/20140127011356/http://2014.djangocon.eu:80/call-for-papers
+  cfp: '2014-02-01 23:59:00'
+  place: Var, France
+  start: 2014-05-13
+  end: 2014-05-17
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2014
+    latitude: 43.41736025
+    longitude: 6.266461588013931
+
+- conference: DjangoCon Europe
+  year: 2013
+  link: https://web.archive.org/web/20130508100008/http://2013.djangocon.eu/
+  cfp: '2013-01-08 23:59:00'
+  place: Warsaw, Poland
+  start: 2013-05-15
+  end: 2013-05-19
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2013
+    latitude: 52.2319581
+    longitude: 21.0067249
+
+- conference: DjangoCon Europe
+  year: 2012
+  link: https://web.archive.org/web/20120508100008/http://2012.djangocon.eu/
+  cfp: '2012-04-15 23:59:00'
+  place: Zurich, Switzerland
+  start: 2012-06-04
+  end: 2012-06-08
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2012
+    latitude: 47.3744489
+    longitude: 8.5410422
+
+- conference: DjangoCon Europe
+  year: 2011
+  link: https://web.archive.org/web/20110508100008/http://2011.djangocon.eu/
+  cfp: '2011-04-15 23:59:00'
+  place: Amsterdam, Netherlands
+  start: 2011-06-06
+  end: 2011-06-10
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2011
+    latitude: 52.4111289
+    longitude: 4.877231604293446
+
+- conference: DjangoCon Europe
+  year: 2010
+  link: https://web.archive.org/web/20110530024806/http://2010.djangocon.eu/
+  cfp: '2010-04-15 23:59:00'
+  place: Berlin, Germany
+  start: 2010-05-04
+  end: 2010-05-08
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2010
+    latitude: 52.5170365
+    longitude: 13.3888599
