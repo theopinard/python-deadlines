@@ -101,7 +101,7 @@
   year: 2024
   link: https://www.pyconwroclaw.com/
   cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScFWuW0r_CaEF34G1X3HMNPpvhAQabJTWd-SN3ZA1q7NtTNCQ/viewform
-  cfp: '2024-10-14 23:59:00'
+  cfp: '2024-09-15 23:59:00'
   timezone: Europe/Warsaw
   place: Wrocław, Poland
   start: 2024-11-30
@@ -118,6 +118,7 @@
   link: https://pydata.org/global2024/
   cfp_link: https://pydata.org/global2024/call-for-proposals
   cfp: '2024-10-07 23:59:00'
+  cfp_ext: '2024-10-14 23:59:00'
   place: Online
   start: 2024-12-03
   end: 2024-12-05
