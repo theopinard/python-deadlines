@@ -86,6 +86,7 @@
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", Infinity);
           {% else %}
           $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').attr("cfpDiff", -Infinity);
+          $('#{{conf.conference | slugify: "latin"}}-{{conf.year}}').appendTo($("#past_cfps"));
           {% endif %}
         {% else %}
 
