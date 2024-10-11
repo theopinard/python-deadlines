@@ -55,7 +55,7 @@ def map_columns(df, reverse=False):
 def write_csv(df, year, csv_location):
     """Write the CSV files for the conferences."""
     df["cfp"] = df["cfp"].str.slice(stop=10).str.replace("TBA", "")
-    df["tutorial_deadline"] = df["tutorial_deadline"].str.slice(stop=10).str.replace("TBA", "")
+    df["tutorial_deadline"] = df["tutorial_deadline"].apply(str).str.slice(stop=10).str.replace("TBA", "")
     df = map_columns(df, reverse=True)
     for y in range(year, datetime.now(tz=timezone.utc).year + 10):
         if y in df["year"].unique():
