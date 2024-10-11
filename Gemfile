@@ -12,3 +12,5 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-multiple-languages-plugin", "~> 1.8"
+
+gem "jekyll-include-cache", "~> 0.2.1"

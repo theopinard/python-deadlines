@@ -2,35 +2,30 @@
 ---
 
 <html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                  {% include breadcrumbs.html %}
-                  <h1>
-                    {{ title }}
-                  </h1>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="meta col-12">
-                {{page.author}} - {% if page.tags %}<strong>Tags:</strong> {{ page.tags | sort | join: ", " }} {% endif %}
-              </div>
-            </div>
-        </div>
-        <div id="confs">
-        {{ content }}
-        </div>
-      <footer>
-            {% include footer.html %}
-      </footer>
-      <br><br>
-    </div>
-  </body>
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		{% include header.html %}
+		<div class="container">
+			<div class="page-header">
+				<div class="row">
+					<div class="col-12 col-sm-12">
+						{% include breadcrumbs.html %}
+						<h1>{{ title }}</h1>
+					</div>
+				</div>
+				<br />
+				<div class="row">
+					<div class="meta col-12">
+						{{page.author}} - {% if page.tags %}<strong>Tags:</strong> {{ page.tags | sort | join: ", " }}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			<div id="confs">{{ content }}</div>
+			<footer>{% include_cached footer.html %}</footer>
+			<br /><br />
+		</div>
+	</body>
 </html>

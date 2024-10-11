@@ -39,6 +39,7 @@ collections:
     permalink: /archive/:title/index:output_ext
 
 plugins:
+- jekyll-include-cache
 - jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-datapage-generator

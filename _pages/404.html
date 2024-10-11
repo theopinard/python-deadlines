@@ -2,30 +2,22 @@
 permalink: /404.html
 title: titles.a404
 ---
+
 <html>
+	<head>
+		{% include head.html %}
+	</head>
 
-  <head>
-    {% include head.html %}
-  </head>
-
-  <body>
-
-    {% include header.html %}
-    <div class="container">
-      <br>
-      <h1>{{title}}</h1>
-      <div class="row">
-        <div class="meta col-sm-12">
-          Page not found! :(
-        </div>
-        <br>
-      </div>
-      <footer>
-        {% include footer.html %}
-      </footer>
-
-    </div>
-
-
-  </body>
+	<body>
+		{% include header.html %}
+		<div class="container">
+			<br />
+			<h1>{{title}}</h1>
+			<div class="row">
+				<div class="meta col-sm-12">Page not found! :(</div>
+				<br />
+			</div>
+			<footer>{% include_cached footer.html %}</footer>
+		</div>
+	</body>
 </html>

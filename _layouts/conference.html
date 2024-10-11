@@ -210,19 +210,26 @@ description: Countdown for the Call for Participation of this conference includi
         {% endif %}
       </div>
     <footer>
-      {% include footer.html %}
-      {% if page.title contains "PyCon" %}
-      {% tf trademark/pycon.md %}
-      {% endif %}
-      {% if page.title contains "PyData" %}
-      {% tf trademark/pydata.md %}
-      {% else %}
-      {% unless page.title contains "PyCon" %}
-      {% tf trademark/generic.md %}
-      {% endunless %}
-      {% endif %}
     </footer>
   </div>
+  {% include_cached footer.html %}
+  {% assign trademarks = "" | split: "" %}
+
+  {% if page.title contains "PyCon" or page.title contains "PyLadies" %}
+    {% assign trademarks = trademarks | push: "pycon" %}
+  {% endif %}
+
+  {% if page.title contains "PyData" %}
+    {% assign trademarks = trademarks | push: "pydata" %}
+  {% endif %}
+
+  {% if trademarks.size == 0 %}
+    {% assign trademarks = trademarks | push: "generic" %}
+  {% endif %}
+
+  {% for trademark in trademarks %}
+    {% tf trademark/{{ trademark }}.md %}
+  {% endfor %}
   <script type="text/javascript" charset="utf-8">
     $(function () {
       // Timezone deadline shenanigans
