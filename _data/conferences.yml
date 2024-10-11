@@ -83,6 +83,7 @@
     longitude: 7.354445
 
 - conference: PyCon Tanzania
+  alt_name: Python Tanzania Conference
   year: 2024
   link: https://pycon.or.tz/
   cfp_link: https://pycon.or.tz/speak/
@@ -96,22 +97,6 @@
   - title: PyCon Tanzania 2024
     latitude: -6.8160837
     longitude: 39.2803583
-
-- conference: PyCon Wroclaw
-  year: 2024
-  link: https://www.pyconwroclaw.com/
-  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScFWuW0r_CaEF34G1X3HMNPpvhAQabJTWd-SN3ZA1q7NtTNCQ/viewform
-  cfp: '2024-09-15 23:59:00'
-  timezone: Europe/Warsaw
-  place: Wrocław, Poland
-  start: 2024-11-30
-  end: 2024-11-30
-  sponsor: https://www.pyconwroclaw.com/741a6adeabf18f0ce15c.pdf
-  sub: PY
-  location:
-  - title: PyCon Wroclaw 2024
-    latitude: 51.11
-    longitude: 17.0325
 
 - conference: PyData Global
   year: 2024
@@ -171,6 +156,22 @@
   - title: PyCascades 2025
     latitude: 45.5202471
     longitude: -122.674194
+
+- conference: PyCon Wroclaw
+  year: 2024
+  link: https://www.pyconwroclaw.com/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLScFWuW0r_CaEF34G1X3HMNPpvhAQabJTWd-SN3ZA1q7NtTNCQ/viewform
+  cfp: '2024-09-15 23:59:00'
+  timezone: Europe/Warsaw
+  place: Wrocław, Poland
+  start: 2024-11-30
+  end: 2024-11-30
+  sponsor: https://www.pyconwroclaw.com/741a6adeabf18f0ce15c.pdf
+  sub: PY
+  location:
+  - title: PyCon Wroclaw 2024
+    latitude: 51.11
+    longitude: 17.0325
 
 - conference: PyCon Chile
   year: 2024
@@ -299,24 +300,6 @@
     latitude: -33.9680556
     longitude: 18.4877778
 
-- conference: PyCon Poland
-  alt_name: PyCon PL
-  year: 2024
-  link: https://pl.pycon.org/2024/
-  cfp_link: https://pl.pycon.org/2024/call-for-proposals/
-  cfp: '2024-08-13 23:59:00'
-  cfp_ext: '2024-08-20 23:59:00'
-  timezone: Europe/Warsaw
-  place: Gliwice, Poland
-  start: 2024-08-29
-  end: 2024-09-01
-  sponsor: https://pl.pycon.org/2024/en/sponsorzy/
-  sub: PY
-  location:
-  - title: PyCon Poland 2024
-    latitude: 50.294113
-    longitude: 18.6657306
-
 - conference: Python Brasil
   alt_name: PythonBrasil
   year: 2024
@@ -413,20 +396,6 @@
     latitude: -17.8567035
     longitude: 31.0601584
 
-- conference: PyCon Somalia
-  year: 2024
-  link: https://pycon.org.so/
-  cfp: '2024-07-25 23:59:00'
-  place: Mogadishu, Somalia
-  start: 2024-08-28
-  end: 2024-08-29
-  sub: PY
-  note: Originally planned for August 21-22, 2024
-  location:
-  - title: PyCon Somalia 2024
-    latitude: 2.0349312
-    longitude: 45.3419183
-
 - conference: PyCon Australia
   alt_name: PyCon AU
   year: 2024
@@ -514,21 +483,6 @@
   - title: Swiss Python Summit 2024
     latitude: 47.2266532
     longitude: 8.8164042
-
-- conference: PyHEP.dev
-  alt_name: PyHEP
-  year: 2024
-  link: https://indico.cern.ch/event/1375573/
-  cfp: '2024-06-25 05:59:00'
-  timezone: Europe/Brussels
-  place: Aachen, Germany
-  start: 2024-08-26
-  end: 2024-08-30
-  sub: SCIPY
-  location:
-  - title: PyHEP.dev 2024
-    latitude: 50.776351
-    longitude: 6.083862
 
 - conference: PyCon South Korea
   alt_name: PyCon KR
@@ -675,26 +629,6 @@
   - title: PyCon India 2024
     latitude: 12.9767936
     longitude: 77.590082
-
-- conference: EuroSciPy
-  year: 2024
-  link: https://euroscipy.org/2024/
-  cfp_link: https://euroscipy.org/2024/program.html
-  cfp: '2024-05-26 23:59:59'
-  cfp_ext: '2024-06-09 23:59:59'
-  tutorial_deadline: '2024-06-02 23:59:00'
-  timezone: Europe/Warsaw
-  place: Szczecin, Poland
-  start: 2024-08-26
-  end: 2024-08-30
-  sponsor: https://euroscipy.org/2024/sponsoring.html
-  finaid: https://euroscipy.org/2024/finaid.html
-  twitter: euroSciPy
-  sub: SCIPY
-  location:
-  - title: EuroSciPy 2024
-    latitude: 53.42968095
-    longitude: 14.592912670292268
 
 - conference: PyData Amsterdam
   year: 2024

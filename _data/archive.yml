@@ -1,5 +1,72 @@
 ---
 
+- conference: PyCon Poland
+  alt_name: PyCon PL
+  year: 2024
+  link: https://pl.pycon.org/2024/
+  cfp_link: https://pl.pycon.org/2024/call-for-proposals/
+  cfp: '2024-08-13 23:59:00'
+  cfp_ext: '2024-08-20 23:59:00'
+  timezone: Europe/Warsaw
+  place: Gliwice, Poland
+  start: 2024-08-29
+  end: 2024-09-01
+  sponsor: https://pl.pycon.org/2024/en/sponsorzy/
+  sub: PY
+  location:
+  - title: PyCon Poland 2024
+    latitude: 50.294113
+    longitude: 18.6657306
+
+- conference: PyCon Somalia
+  year: 2024
+  link: https://pycon.org.so/
+  cfp: '2024-07-25 23:59:00'
+  place: Mogadishu, Somalia
+  start: 2024-08-28
+  end: 2024-08-29
+  sub: PY
+  note: Originally planned for August 21-22, 2024
+  location:
+  - title: PyCon Somalia 2024
+    latitude: 2.0349312
+    longitude: 45.3419183
+
+- conference: EuroSciPy
+  year: 2024
+  link: https://euroscipy.org/2024/
+  cfp_link: https://euroscipy.org/2024/program.html
+  cfp: '2024-05-26 23:59:59'
+  cfp_ext: '2024-06-09 23:59:59'
+  tutorial_deadline: '2024-06-02 23:59:00'
+  timezone: Europe/Warsaw
+  place: Szczecin, Poland
+  start: 2024-08-26
+  end: 2024-08-30
+  sponsor: https://euroscipy.org/2024/sponsoring.html
+  finaid: https://euroscipy.org/2024/finaid.html
+  twitter: euroSciPy
+  sub: SCIPY
+  location:
+  - title: EuroSciPy 2024
+    latitude: 53.42968095
+    longitude: 14.592912670292268
+
+- conference: PyHEP.dev
+  alt_name: PyHEP
+  year: 2024
+  link: https://indico.cern.ch/event/1375573/
+  cfp: '2024-06-25 05:59:00'
+  timezone: Europe/Brussels
+  place: Aachen, Germany
+  start: 2024-08-26
+  end: 2024-08-30
+  sub: SCIPY
+  location:
+  - title: PyHEP.dev 2024
+    latitude: 50.776351
+    longitude: 6.083862
+
 - conference: PyCon Malaysia
   alt_name: PyCon MY
   year: 2024
@@ -222,20 +289,6 @@
     latitude: 39.9533
     longitude: -75.198
 
-- conference: PyDay Valparaiso
-  year: 2024
-  link: https://www.pyday.cl/valparaiso.html
-  cfp_link: https://sessionize.com/pyday-2024/
-  cfp: '2024-05-24 23:59:00'
-  place: Valparaiso, Chile
-  start: 2024-06-14
-  end: 2024-06-14
-  sub: DAY
-  location:
-  - title: PyDay Valparaiso 2024
-    latitude: -33.0458456
-    longitude: -71.6196749
-
 - conference: PyData London
   year: 2024
   link: https://pydata.org/london2024/
@@ -252,6 +305,20 @@
   - title: PyData London 2024
     latitude: 51.5074456
     longitude: -0.1277653
+
+- conference: PyDay Valparaiso
+  year: 2024
+  link: https://www.pyday.cl/valparaiso.html
+  cfp_link: https://sessionize.com/pyday-2024/
+  cfp: '2024-05-24 23:59:00'
+  place: Valparaiso, Chile
+  start: 2024-06-14
+  end: 2024-06-14
+  sub: DAY
+  location:
+  - title: PyDay Valparaiso 2024
+    latitude: -33.0458456
+    longitude: -71.6196749
 
 - conference: PyDay Copiapó
   year: 2024
@@ -1944,6 +2011,7 @@
     longitude: 34.7818064
 
 - conference: PyCon Tanzania
+  alt_name: Python Tanzania Conference
   year: 2022
   link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2022/
   cfp_link: https://pycon.or.tz/2022/speak/
@@ -2816,6 +2884,7 @@
   sub: PY
 
 - conference: PyCon Tanzania
+  alt_name: Python Tanzania Conference
   year: 2021
   link: https://web.archive.org/web/20221202222503/https://pycon.or.tz/2021/
   cfp: '2021-11-15 23:59:00'
@@ -3318,6 +3387,7 @@
     longitude: 72.82810491917377
 
 - conference: PyCon Tanzania
+  alt_name: Python Tanzania Conference
   year: 2020
   link: https://web.archive.org/web/20201101054537/https://pycon.or.tz/
   cfp_link: https://web.archive.org/web/20201101062346/http://www.pycon.or.tz/speak/index.html
@@ -4161,6 +4231,7 @@
     longitude: 30.460508167757546
 
 - conference: PyCon Tanzania
+  alt_name: Python Tanzania Conference
   year: 2019
   link: https://web.archive.org/web/20211206213536/https://pycon.or.tz/2019/
   cfp_link: https://web.archive.org/web/20211206194319/https://pycon.or.tz/2019/speak/
