@@ -209,9 +209,18 @@ description: Countdown for the Call for Participation of this conference includi
         {% google_map zoom="6" width="100%" %}
         {% endif %}
       </div>
-    </div>
     <footer>
       {% include footer.html %}
+      {% if page.title contains "PyCon" %}
+      {% tf trademark/pycon.md %}
+      {% endif %}
+      {% if page.title contains "PyData" %}
+      {% tf trademark/pydata.md %}
+      {% else %}
+      {% unless page.title contains "PyCon" %}
+      {% tf trademark/generic.md %}
+      {% endunless %}
+      {% endif %}
     </footer>
   </div>
   <script type="text/javascript" charset="utf-8">
