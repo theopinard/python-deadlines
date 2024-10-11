@@ -11,6 +11,7 @@ sort = 'python ./utils/sort_yaml.py --skip_links'
 links = 'python ./utils/sort_yaml.py'
 merge = 'python ./utils/main.py'
 serve = "bundler exec jekyll serve"
+profile = "bundler exec jekyll build --profile"
 newsletter = "python ./utils/newsletter.py"
 
 [dependencies]
