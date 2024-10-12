@@ -1,26 +1,26 @@
 <div class="row">
 	<div class="col-12 col-sm-6">
 		<div class="meta">
-			<span class="conf-date">{%- translate_file dates/pretty_dates.html -%}.</span>
+			<span class="conf-date">{%- translate_file dates/pretty_dates.html start=include.start end=include.end -%}.</span>
 			<span class="conf-place">
-				{% if conf.place == "Online" %}
-				<a href="#">{{conf.place}}</a>
+				{% if include.place == "Online" %}
+				<a href="#">{{include.place}}</a>
 				{% else %}
-				<a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
-				{% if conf.extra_places %} {% for place in conf.extra_places %} &
+				<a href="http://maps.google.com/?q={{include.place}}">{{include.place}}</a>
+				{% if include.extra_places %} {% for place in include.extra_places %} &
 				<a href="http://maps.google.com/?q={{place}}">{{place}}</a>
 				{% endfor %} {% endif %} {% endif %}
 			</span>
 		</div>
-		{% if conf.note %}
-		<div class="note"><b>Note: </b>{{conf.note}}</div>
+		{% if include.note %}
+		<div class="note"><b>Note: </b>{{include.note}}</div>
 		{% endif %}
 	</div>
 	<div class="col-12 col-sm-6">
 		<div class="deadline">
 			<div>
 				Deadline:
-				<span class="deadline-time">{{conf.cfp | date: "%A, %e %B %Y"}}</span>
+				<span class="deadline-time">{{include.cfp | date: "%A, %e %B %Y"}}</span>
 			</div>
 		</div>
 	</div>

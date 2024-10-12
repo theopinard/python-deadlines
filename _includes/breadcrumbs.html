@@ -1,5 +1,5 @@
 <div id="breadcrumbs">
-	{% assign crumbs = page.url | remove:'/index.html' | split: '/' %} {% if crumbs.size > 1 %}
+	{% assign crumbs = include.url | remove:'/index.html' | split: '/' %} {% if crumbs.size > 1 %}
 	<a href="{{site.baseurl}}/">Home</a>
 	{% endif %} {% for crumb in crumbs offset: 1 %} {% if forloop.last %} / <a href="#">{{ title }}</a> {% else %} /
 	<a

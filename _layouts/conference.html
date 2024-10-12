@@ -56,7 +56,7 @@ description: Countdown for the Call for Participation of this conference includi
     <div class="page-header" id="conf-title">
       <div class="row">
         <div class="col-sm-12">
-          {% include breadcrumbs.html %}
+          {% include_cached breadcrumbs.html url=page.url %}
           <h1>
             <span id="conf-title-href" href="{{site.baseurl_root}}/conference/{{page.conference | slugify: "latin"}}-{{page.year}}/">{{ page.conference }} {{page.year}}</span>
           </h1>
@@ -91,7 +91,7 @@ description: Countdown for the Call for Participation of this conference includi
         <div class="col-12 col-md-6">
           <div>
             <img src="/static/img/084-calendar.svg" class="badge-link" alt="Calendar icon" width="16" height="16" />
-            <span id="conf-date">{% assign conf = page %}{%- translate_file dates/pretty_dates.html -%}</span>
+            <span id="conf-date">{% assign conf = page %}{%- translate_file dates/pretty_dates.html start=conf.start end=conf.end -%}</span>
           </div>
           <div>
             <img src="/static/img/072-location.svg" class="badge-link" alt="Location icon" width="16" height="16" />
@@ -213,23 +213,11 @@ description: Countdown for the Call for Participation of this conference includi
     </footer>
   </div>
   {% include_cached footer.html %}
-  {% assign trademarks = "" | split: "" %}
 
-  {% if page.title contains "PyCon" or page.title contains "PyLadies" %}
-    {% assign trademarks = trademarks | push: "pycon" %}
-  {% endif %}
+  {% assign title_length = page.title | size | minus: 26 %}
+  {% assign sliced_title = page.title | slice: 0, title_length %}
 
-  {% if page.title contains "PyData" %}
-    {% assign trademarks = trademarks | push: "pydata" %}
-  {% endif %}
-
-  {% if trademarks.size == 0 %}
-    {% assign trademarks = trademarks | push: "generic" %}
-  {% endif %}
-
-  {% for trademark in trademarks %}
-    {% tf trademark/{{ trademark }}.md %}
-  {% endfor %}
+  {% include_cached trademarks.html title=sliced_title %}
   <script type="text/javascript" charset="utf-8">
     $(function () {
       // Timezone deadline shenanigans

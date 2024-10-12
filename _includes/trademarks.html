@@ -1,0 +1,21 @@
+{% assign trademarks = "" | split: "" %}
+
+{% if include.title contains "PyCon" or include.title contains "PyLadies" %}
+{% assign trademarks = trademarks | push: "pycon" %}
+{% endif %}
+
+{% if include.title contains "Django" %}
+{% assign trademarks = trademarks | push: "django" %}
+{% endif %}
+
+{% if include.title contains "PyData" or include.title contains "Jupyter" or include.title contains "SciPy" %}
+{% assign trademarks = trademarks | push: "pydata" %}
+{% endif %}
+
+{% if trademarks.size == 0 %}
+{% assign trademarks = trademarks | push: "generic" %}
+{% endif %}
+
+{% for trademark in trademarks %}
+{% tf trademark/{{ trademark }}.md %}
+{% endfor %}

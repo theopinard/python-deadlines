@@ -1,4 +1,4 @@
-{% assign start_date = conf.start | date: "%Y-%m-%d" %}{% assign end_date = conf.end | date: "%Y-%m-%d" %}{% if start_date == end_date %}
+{% assign start_date = include.start | date: "%Y-%m-%d" %}{% assign end_date = include.end | date: "%Y-%m-%d" %}{% if start_date == end_date %}
   {% comment %}When start and end dates are the same{% endcomment %}
   {% assign day = start_date | date: "%-d" %}
   {% assign year = start_date | date: "%Y" %}

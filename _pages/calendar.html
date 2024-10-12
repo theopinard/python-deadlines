@@ -14,7 +14,7 @@ title: titles.calendar
 	<body>
 		{% include header.html %} {% capture cal_title %} {% t titles.calendar %} {% endcapture %} {% capture cal_hook
 		%} {% tf frontpage/hook.md %} {% endcapture %} {% capture cal_description %} {% tf calendar/description.md %} {%
-		endcapture %} {% include masthead.html title=cal_title description=cal_description %}
+		endcapture %} {% include masthead.html url=page.url title=cal_title description=cal_description %}
 
 		<div class="container">
 			<div id="calendar-page" class="calendar-page"></div>

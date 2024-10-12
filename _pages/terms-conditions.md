@@ -102,5 +102,6 @@ As long as the website and the information and services on the website are provi
 ## Trademark Notice
 
 {% tf trademark/generic.md %}
+{% tf trademark/django.md %}
 {% tf trademark/pycon.md %}
 {% tf trademark/pydata.md %}

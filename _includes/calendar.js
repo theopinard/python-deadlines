@@ -125,7 +125,7 @@ function load_conference_list() {
 		{% else %}
 			{% assign cfp = conf.cfp %}
 		{% endif %}
-    {% capture conf_date %}{%- translate_file dates/pretty_dates.html -%}{% endcapture %}
+    {% capture conf_date %}{%- translate_file dates/pretty_dates.html start=conf.start end=conf.end -%}{% endcapture %}
     // add deadlines in red
     conf_list_all.push({
       id: "{{conf.conference | slugify: "latin"}}-{{conf.year}}-deadline",

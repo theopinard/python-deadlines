@@ -5,7 +5,7 @@
 	<body>
 		{% include header.html %} {% capture fp_title %} {% t titles.archive %} {{page.year}} {% endcapture %} {%
 		capture fp_hook %} {% tf frontpage/hook.md %} {% endcapture %} {% capture fp_description %} {% tf
-		frontpage/description.md %} {% endcapture %} {% include masthead.html title=fp_title hook=fp_hook
+		frontpage/description.md %} {% endcapture %} {% include masthead.html url=page.url title=fp_title hook=fp_hook
 		description=fp_description %}
 		<div class="container">
 			<div id="confs">
@@ -17,8 +17,9 @@
 						id="{{conf.conference | slugify: 'latin'}}-{{conf.year}}"
 						class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}"
 					>
-						{% include index_conf_title_row.html %} {% include index_conf_date_place.html %} {% include
-						index_conf_subs.html %}
+						{% include index_conf_title_row.html %} {% include_cached index_conf_date_place.html
+						place=conf.place extra_places=conf.extra_places note=conf.note cfp=conf.cfp start=conf.start
+						end=conf.end %} {% include index_conf_subs.html subs=subs %}
 						<hr />
 					</div>
 					{% endfor %}

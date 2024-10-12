@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row align-items-end">
 			<div class="col-md-8">
-				{% include breadcrumbs.html %}
+				{% include_cached breadcrumbs.html url=include.url %}
 				<h1 class="display-4">{{ include.title}}</h1>
 				<span class="lead"> {{ include.hook}} </span>
 				<span class="text-muted"> {{ include.description}} </span>

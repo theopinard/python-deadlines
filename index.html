@@ -19,7 +19,7 @@
       {% tf frontpage/description.md %}
     {% endcapture %}
 
-    {% include masthead.html title=fp_title hook=fp_hook description=fp_description %}
+    {% include masthead.html url=page.url title=fp_title hook=fp_hook description=fp_description %}
 
     <div class="container">
       <div id="confs">
@@ -29,8 +29,8 @@
           {% assign subs = conf.sub | split: "," %}
           <div id="{{conf.conference | slugify: "latin"}}-{{conf.year}}" class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}">
             {% include index_conf_title_row.html %}
-            {% include index_conf_date_place.html %}
-            {% include index_conf_subs.html %}
+            {% include_cached index_conf_date_place.html place=conf.place extra_places=conf.extra_places note=conf.note cfp=conf.cfp start=conf.start end=conf.end %}
+            {% include index_conf_subs.html subs=subs %}
             <hr />
           </div>
           {% endfor %}
@@ -46,7 +46,7 @@
         </div>
       </div>
       <footer>
-            {% include footer.html %}
+            {% include_cached footer.html %}
       </footer>
       <br><br>
     </div>

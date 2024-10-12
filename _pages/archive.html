@@ -13,7 +13,8 @@ title: titles.archive
 	<body>
 		{% include header.html %} {% capture arch_title %} {% t titles.archive %} {% endcapture %} {% capture arch_hook
 		%} {% tf frontpage/hook.md %} {% endcapture %} {% capture arch_description %} {% tf frontpage/description.md %}
-		{% endcapture %} {% include masthead.html title=arch_title hook=arch_hook description=arch_description %}
+		{% endcapture %} {% include masthead.html url=page.url title=arch_title hook=arch_hook
+		description=arch_description %}
 
 		<div class="container">
 			<div id="confs">

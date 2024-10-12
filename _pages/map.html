@@ -14,7 +14,7 @@ title: titles.map
 	<body>
 		{% include header.html %} {% capture map_title %} {% t titles.map %} {% endcapture %} {% capture map_hook %} {%
 		tf frontpage/hook.md %} {% endcapture %} {% capture map_description %} {% tf frontpage/description.md %} {%
-		endcapture %} {% include masthead.html title=map_title hook=map_hook description=map_description %}
+		endcapture %} {% include masthead.html url=page.url title=map_title hook=map_hook description=map_description %}
 
 		<div class="container">
 			<!-- Filter Form -->
