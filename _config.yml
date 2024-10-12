@@ -40,11 +40,11 @@ collections:
 
 plugins:
 - jekyll-include-cache
-- jekyll-sitemap
 - jekyll-seo-tag
 - jekyll-datapage-generator
 - jekyll-maps
 - jekyll-multiple-languages-plugin
+- jekyll-sitemap
 
 author:
   name: Jesper Dramsch
