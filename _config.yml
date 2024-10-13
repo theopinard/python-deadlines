@@ -7,7 +7,6 @@ url: 'https://pythondeadlin.es'
 domain: 'pythondeadlin.es'
 baseurl: ''
 
-twitter_username: jesperdramsch
 twitter_hashtag: python
 github_username: jesperdramsch
 github_repo: python-deadlines
@@ -49,7 +48,6 @@ plugins:
 author:
   name: Jesper Dramsch
   url: https://dramsch.net
-  twitter: jesperdramsch
 
 
 social:
@@ -59,6 +57,7 @@ social:
   - https://www.dramsch.net/mastodon
   - https://www.dramsch.net/threads
   - https://www.dramsch.net/github
+  - https://www.dramsch.net/youtube
 
 languages:
 - en
@@ -69,7 +68,6 @@ exclude_from_localizations:
 - 'static'
 
 twitter:
-  username: jesperdramsch
   card: summary
 
 maps:

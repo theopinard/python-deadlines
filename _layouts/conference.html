@@ -2,6 +2,12 @@
 description: Countdown for the Call for Participation of this conference including conference dates and details.
 ---
 
+{% if page.cfp_ext %}
+  {% assign cfp = page.cfp_ext %}
+{% else %}
+  {% assign cfp = page.cfp %}
+{% endif %}
+
 <html>
 <head>
   {% include head.html %}
@@ -84,7 +90,7 @@ description: Countdown for the Call for Participation of this conference includi
     </div>
     <div id="page-content">
       <div id="conf-deadline-timer" class="row">
-        <div id="cfp-timer" class="col-12 conf-timer">{% if page.cfp == "TBA" or page.cfp == "Cancelled" or page.cfp == "None" %}{{page.cfp}}{%endif%}
+        <div id="cfp-timer" class="col-12 conf-timer">{% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}{{cfp}}{%endif%}
         </div>
       </div>
       <div id="conf-key-facts" class="row">
@@ -102,6 +108,13 @@ description: Countdown for the Call for Participation of this conference includi
             <img src="/static/img/203-earth.svg" class="badge-link" alt="Earth Icon" width="16" height="16" />
             <a id="conf-website" target="_blank" href="{{page.link}}">{{page.link}}</a>
           </div>
+          {% if page.cfp_ext %}
+          <div>
+            <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for original CfP" width="16"
+              height="16" />
+            <span id="conf-cfp_ext">{% t global.cfp_ext %} {{page.cfp}}</span>
+          </div>
+          {% endif %}
           {% if page.cfp_link %}
           <div>
             <img src="/static/img/035-file-text.svg" class="badge-link" alt="Document Icon for CfP link" width="16"
@@ -210,14 +223,14 @@ description: Countdown for the Call for Participation of this conference includi
         {% endif %}
       </div>
     <footer>
+      {% include_cached footer.html %}
+
+      {% assign title_length = page.title | size | minus: 26 %}
+      {% assign sliced_title = page.title | slice: 0, title_length %}
+
+      {% include_cached trademarks.html title=sliced_title %}
     </footer>
   </div>
-  {% include_cached footer.html %}
-
-  {% assign title_length = page.title | size | minus: 26 %}
-  {% assign sliced_title = page.title | slice: 0, title_length %}
-
-  {% include_cached trademarks.html title=sliced_title %}
   <script type="text/javascript" charset="utf-8">
     $(function () {
       // Timezone deadline shenanigans
@@ -234,22 +247,22 @@ description: Countdown for the Call for Participation of this conference includi
       $('.local-timezone').text(today.toFormat('z'));
 
       // other
-      {% if page.cfp == "TBA" or page.cfp == "Cancelled" or page.cfp == "None" %}
-      $('#cfp-timer').html("{{page.cfp}}");
-      $('.deadline-time').html("{{page.cfp}}");
-      $('.deadline-local-time').html("{{page.cfp}}");
+      {% if cfp == "TBA" or cfp == "Cancelled" or cfp == "None" %}
+      $('#cfp-timer').html("{{cfp}}");
+      $('.deadline-time').html("{{cfp}}");
+      $('.deadline-local-time').html("{{cfp}}");
       {% else %}
 
       // Use specified timezone for deadlines if available else use AoE timezone
       {% if page.timezone %}
-      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "{{page.timezone}}" });
+      var confDeadline = DateTime.fromSQL("{{cfp}}", { zone: "{{page.timezone}}" });
       {% else %}
-      var confDeadline = DateTime.fromSQL("{{page.cfp}}", { zone: "UTC-12" });
+      var confDeadline = DateTime.fromSQL("{{cfp}}", { zone: "UTC-12" });
       {% endif %}
 
       // check if timezone is valid otherwise replace by system timezone
       if (confDeadline.invalid) {
-        var confDeadline = DateTime.fromSQL("{{page.cfp}}");
+        var confDeadline = DateTime.fromSQL("{{cfp}}");
         console.log("Invalid timezone. Using system timezone instead.");
       }
 

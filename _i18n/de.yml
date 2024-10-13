@@ -7,6 +7,7 @@ global:
   es: 'Espanol'
   de: 'Deutsch'
   cfp: 'Aufruf zur Teilnahme'
+  cfp_ext: 'CfP verlängert von'
 titles:
   default: 'Deadlines für Python-Konferenzen'
   archive: 'Archiv für Python-Konferenzen'
