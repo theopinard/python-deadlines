@@ -1,5 +1,37 @@
 ---
 
+- conference: PyCon Estonia
+  alt_name: PyCon EE
+  year: 2024
+  link: https://pycon.ee/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSe-OUSgBSYweCMPCAv-1pYXscGK9T7npoP77Dk17LtvQsynwQ/closedform
+  cfp: '2024-04-15 23:59:00'
+  timezone: Europe/Tallinn
+  place: Tallinn, Estonia
+  start: 2024-09-05
+  end: 2024-09-06
+  twitter: PyConEstonia
+  sub: PY
+  location:
+  - title: PyCon Estonia 2024
+    latitude: 59.4372155
+    longitude: 24.7453688
+
+- conference: EARL
+  year: 2024
+  link: https://datacove.co.uk/earl-2024-tech-conference/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSf7QY-VFFWB5FtKl3dENcNSDnzhvqS2GL43bv6GjKCyYIrHKw/viewform
+  cfp: '2024-03-31 23:59:00'
+  timezone: Europe/Zurich
+  place: Brighton, UK
+  start: 2024-09-04
+  end: 2024-09-05
+  sub: BIZ
+  location:
+  - title: EARL 2024
+    latitude: 50.8214626
+    longitude: -0.1400561
+
 - conference: PyCon Poland
   alt_name: PyCon PL
   year: 2024
