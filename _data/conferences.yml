@@ -15,6 +15,24 @@
     latitude: 41.6147605
     longitude: 0.6267842
 
+- conference: PyCon Lithuania
+  alt_name: PyCon LT
+  year: 2025
+  link: https://pycon.lt/2025
+  cfp_link: https://pretalx.com/pycon-lithuania-2025/cfp
+  cfp: '2025-02-11 00:00:00'
+  timezone: Europe/Vilnius
+  place: Vilnius, Lithuania
+  start: 2025-04-23
+  end: 2025-04-25
+  sponsor: https://pycon.lt/2025/partnership
+  twitter: pyconlt
+  sub: PY
+  location:
+  - title: PyCon Lithuania 2025
+    latitude: 54.6870458
+    longitude: 25.2829111
+
 - conference: PyCon Estonia
   alt_name: PyCon EE
   year: 2025
@@ -852,24 +870,6 @@
   - title: PyCon US 2025
     latitude: 40.4416941
     longitude: -79.9900861
-
-- conference: PyCon Lithuania
-  alt_name: PyCon LT
-  year: 2025
-  link: https://pycon.lt/2025
-  cfp_link: https://pretalx.com/pycon-lithuania-2025/cfp
-  cfp: TBA
-  timezone: Europe/Vilnius
-  place: Vilnius, Lithuania
-  start: 2025-04-23
-  end: 2025-04-25
-  sponsor: https://pycon.lt/2025/partnership
-  twitter: pyconlt
-  sub: PY
-  location:
-  - title: PyCon Lithuania 2025
-    latitude: 54.6870458
-    longitude: 25.2829111
 
 - conference: PyCon Mini Tokai
   year: 2024
