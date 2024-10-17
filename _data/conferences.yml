@@ -889,13 +889,14 @@
 - conference: PyCon Balkan
   year: 2024
   link: https://pyconbalkan.com/
-  cfp: TBA
+  cfp: Cancelled
   place: Belgrade, Serbia
   start: 2024-10-30
   end: 2024-11-01
   sponsor: https://pyconbalkan.com/wp-content/uploads/2024/06/PyCon-Balkan-2024-Sponsorship-Proposal.pdf
   twitter: pyconblkn
   sub: PY
+  note: Conference never went beyond announcement.
   location:
   - title: PyCon Balkan 2024
     latitude: 44.8178131
