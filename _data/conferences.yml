@@ -15,6 +15,23 @@
     latitude: 41.6147605
     longitude: 0.6267842
 
+- conference: Python Conference Austria
+  alt_name: PyDays Vienna
+  year: 2025
+  link: https://pycon25.uber.space/en/
+  cfp_link: https://www.papercall.io/pycon-austria
+  cfp: '2025-03-15 13:00:00'
+  timezone: Europe/Vienna
+  place: Eisenstadt, Austria
+  start: 2025-04-05
+  end: 2025-04-08
+  sponsor: https://pycon25.uber.space/en/sponsor-information/
+  sub: PY
+  location:
+  - title: Python Conference Austria 2025
+    latitude: 47.8454821
+    longitude: 16.5249288
+
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2025
