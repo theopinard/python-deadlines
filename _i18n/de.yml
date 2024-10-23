@@ -94,3 +94,6 @@ social:
   linkedin: 'Konferenz auf LinkedIn verlinken'
   whatsapp: 'Konferenz per WhatsApp teilen'
   email: 'Konferenz per E-Mail teilen'
+search:
+  no-results: "Keine Suchergebnisse für gefunden."
+  error: 'Fehler beim Laden des Suchindex. Bitte probiere es später erneut.'

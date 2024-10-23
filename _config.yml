@@ -62,7 +62,7 @@ social:
 languages:
 - en
 - es
-- de
+# - de
 
 exclude_from_localizations:
 - 'static'
@@ -109,3 +109,16 @@ page_gen:
   dir: 'conference'
   name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')+"-"+record['year'].to_s
   title_expr: record['conference']+" "+record['year'].to_s+" Conference Deadlines"
+
+lunr_search:
+  index_dir: assets/search
+  index_name: search_index
+  fields:
+    title: 10
+    content: 1
+    url: 1
+    date: 1
+    place: 1
+    alt_name: 10
+    subs: 1
+    link: 1

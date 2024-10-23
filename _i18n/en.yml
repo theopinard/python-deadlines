@@ -94,3 +94,6 @@ social:
   linkedin: 'Link Conference on LinkedIn'
   whatsapp: 'Text Conference on WhatsApp'
   email: 'Email Conference'
+search:
+  no-results: 'No results found.'
+  error: 'Error loading search index. Please try again later.'

@@ -94,3 +94,6 @@ social:
   linkedin: 'Enlace Conferencia en LinkedIn'
   whatsapp: 'Enviar Conferencia en WhatsApp'
   email: 'Email Conferencia'
+search:
+  no-results: 'No ha encontrado resultados.'
+  error: 'Hay un error en el indice de busca. Por favor prueba de nuevo mas tarde.'
