@@ -87,13 +87,13 @@ page_gen:
   dir: 'series'
   name_expr: record['conference'].downcase.gsub(/[^\p{L}]+/, ' ').strip.gsub(' ', '-')
   title_expr: record['conference']+" "+"Conference Series Overview"
-  filter_condition: site.pages.none? { |page| page.relative_path.include?(record['conference'].downcase.gsub(/[^\p{L}]+/, ' ').strip.gsub(' ', '-'))}
+  filter_condition: site.pages.none? { |page| page.relative_path.include?('/' + record['conference'].downcase.gsub(/[^\p{L}]+/, ' ').strip.gsub(' ', '-') + '/') }
 - data: 'legacy'
   template: 'summary'
   dir: 'series'
   name_expr: record['conference'].downcase.strip.gsub(' ', '-').gsub(/[^\p{L}]+/, '-')
   title_expr: record['conference']+" "+"Conference Series Overview"
-  filter_condition: site.pages.none? { |page| page.relative_path.include?(record['conference'].downcase.gsub(/[^\p{L}]+/, ' ').strip.gsub(' ', '-'))}
+  filter_condition: site.pages.none? { |page| page.relative_path.include?('/' + record['conference'].downcase.gsub(/[^\p{L}]+/, ' ').strip.gsub(' ', '-') + '/') }
 - data: 'conferences'
   template: 'conference'
   dir: 'conference'
