@@ -567,23 +567,6 @@
     latitude: 23.2035785
     longitude: -106.4208391
 
-- conference: PyTorch Conference
-  year: 2024
-  link: https://events.linuxfoundation.org/pytorch-conference/
-  cfp_link: https://sessionize.com/pytorch2024/
-  cfp: '2024-06-09 23:59:00'
-  timezone: America/Los_Angeles
-  place: San Francisco, USA
-  start: 2024-09-18
-  end: 2024-09-19
-  sponsor: https://events.linuxfoundation.org/pytorch-conference/sponsor/
-  finaid: https://events.linuxfoundation.org/pytorch-conference/attend/scholarships-travel-funding/
-  sub: DATA
-  location:
-  - title: PyTorch Conference 2024
-    latitude: 37.7681571
-    longitude: -122.392929
-
 - conference: Piter Py
   alt_name: PiterPy
   year: 2024
@@ -665,22 +648,6 @@
   - title: PyCon India 2024
     latitude: 12.9767936
     longitude: 77.590082
-
-- conference: PyData Amsterdam
-  year: 2024
-  link: https://amsterdam.pydata.org/
-  cfp: '2024-05-19 23:59:00'
-  cfp_ext: '2024-06-02 23:59:00'
-  timezone: Europe/Amsterdam
-  place: Amsterdam, Netherlands
-  start: 2024-09-18
-  end: 2024-09-20
-  sponsor: https://amsterdam.pydata.org/sponsor/
-  sub: DATA
-  location:
-  - title: PyData Amsterdam 2024
-    latitude: 52.4111289
-    longitude: 4.877231604293446
 
 - conference: PyCon Uganda
   year: 2024
