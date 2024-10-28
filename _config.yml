@@ -62,7 +62,7 @@ social:
 languages:
 - en
 - es
-# - de
+- de
 
 exclude_from_localizations:
 - 'static'

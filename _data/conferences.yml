@@ -598,21 +598,6 @@
     latitude: 59.9606739
     longitude: 30.1586551
 
-- conference: PyCon Israel
-  year: 2024
-  link: https://pycon.org.il/2024/
-  cfp: '2024-06-01 23:59:00'
-  timezone: Asia/Jerusalem
-  place: Gelilot, Israel
-  start: 2024-09-16
-  end: 2024-09-16
-  twitter: PyConIL
-  sub: PY
-  location:
-  - title: PyCon Israel 2024
-    latitude: 32.13655705
-    longitude: 34.80366518770497
-
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2024
@@ -696,24 +681,6 @@
   - title: PyData Amsterdam 2024
     latitude: 52.4111289
     longitude: 4.877231604293446
-
-- conference: Python Sul
-  alt_name: Python Sul (Brazil)
-  year: 2024
-  link: https://sul.python.org.br/
-  cfp_link: https://talks.python.org.br/pythonsul-2024/cfp
-  cfp: '2024-05-12 23:59:00'
-  cfp_ext: '2024-05-31 23:59:00'
-  timezone: America/Sao_Paulo
-  place: Florianópolis, Brazil
-  start: 2024-09-13
-  end: 2024-09-15
-  sponsor: https://bit.ly/sponsorship-pysul24
-  sub: PY
-  location:
-  - title: Python Sul 2024
-    latitude: -27.5973002
-    longitude: -48.5496098
 
 - conference: PyCon Uganda
   year: 2024
