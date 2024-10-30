@@ -65,6 +65,9 @@ series:
     last: 'Letztes Jahr in'
     next: 'Nächstes Jahr in'
 times:
+  tba: "Wird bekannt gegeben"
+  from: "Ab"
+  until: "Bis"
   normal:
     days: 'Tage'
     hours: 'Stunden'

@@ -3,31 +3,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/static/xml/rss.xsl" media="all"?>
 <rss version="2.0"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:event="http://schema.org/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:georss="http://www.georss.org/georss"
 >
-	<channel>
-		<title>{{ site.title | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<link>https://{{ site.domain }}/feed.xml</link>
-		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		{% for conf in site.data.conferences limit:23 %}
-		{% if conf.cfp_ext %}
-			{% assign cfp = conf.cfp_ext %}
-		{% else %}
-			{% assign cfp = conf.cfp %}
-		{% endif %}
-		{% if cfp != "TBA" %}
-			<item>
-				<title>{{ conf.conference | xml_escape }} {{ conf.year }} Conference Deadline</title>
-				<description>Conference in {{conf.place | xml_escape }} on {%- translate_file dates/pretty_dates.html start=conf.start end=conf.end -%}. CfP: {{ cfp | xml_escape }} {% if conf.zimezone %}{{ conf.timezone | xml_escape }}{% else%}AoE{% endif %}.{% if conf.twitter %}&lt;br /&gt;Find them here: @{{ conf.twitter}}{% endif %} </description>
-				<pubDate>{{ cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
-				<link>https://{{ site.domain }}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/</link>
-				<guid isPermaLink="false">{{conf.conference | slugify: "latin"}}-{{conf.year}}</guid>
-				<category>{{ conf.sub }}</category>
-			</item>
-		{% endif %}
-		{% endfor %}
-	</channel>
+    <channel>
+        <title>{{ site.title | xml_escape }}</title>
+        <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+        <link>{{ site.baseurl }}/feed.xml</link>
+        <atom:link href="{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+        <language>en-US</language>
+        <copyright>Copyright {{ site.time | date: '%Y' }}, {{ site.title | xml_escape }}</copyright>
+        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <generator>Jekyll v{{ jekyll.version }}</generator>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <image>
+            <url>{{ site.baseurl_root }}/static/images/logo.png</url>
+            <title>{{ site.title | xml_escape }}</title>
+            <link>{{ site.baseurl}}</link>
+        </image>
+
+        {% for conf in site.data.conferences limit:23 %}
+        {% if conf.cfp_ext %}
+            {% assign cfp = conf.cfp_ext %}
+        {% else %}
+            {% assign cfp = conf.cfp %}
+        {% endif %}
+        {% if cfp != "TBA" and cfp != "Cancelled" and cfp != "None" %}
+            <item>
+                <title>{{ conf.conference | xml_escape }} {{ conf.year }} Conference Deadline</title>
+                <link>{{ site.baseurl }}/conference/{{conf.conference | slugify: "latin"}}-{{conf.year}}/</link>
+                <guid isPermaLink="false">{{conf.conference | slugify: "latin"}}-{{conf.year}}</guid>
+                <pubDate>{{ cfp | date: "%Y-%m-%d %H:%M:%S" | date_to_rfc822 }}</pubDate>
+
+                <dc:creator>{{ site.title | xml_escape }}</dc:creator>
+                <category>{{ conf.sub }}</category>
+
+                <!-- Regular description -->
+                <description>
+                    <![CDATA[
+                    <div class="h-event">
+   						<p class="p-name">{{ conf.conference | xml_escape }} {{ conf.year }}</p>
+						<p class="p-summary">Conference in <span class="p-location">{{conf.place | xml_escape }}</span>
+                        <time class="dt-start" datetime="{{ conf.start }}">{% translate_file dates/pretty_dates.html start=conf.start %}</time>
+                        <time class="dt-end" datetime="{{ conf.end }}">{% translate_file dates/pretty_dates.html end=conf.end %}</time></p>
+
+                        <p class="p-description">Call for Papers Deadline:
+                        <time class="dt-deadline" datetime="{{ cfp }}">{{ cfp | date: "%Y-%m-%d %H:%M:%S" }}</time>
+                        {% if conf.timezone %}{{ conf.timezone | xml_escape }}{% else %}AoE{% endif %}</p>
+
+                        {% if conf.twitter %}
+                        <p class="p-organizer">Twitter: @{{ conf.twitter }}</p>
+                        {% endif %}
+                    </div>
+                    ]]>
+                </description>
+
+                <!-- Schema.org Event markup -->
+                <event:Event>
+                    <event:name>{{ conf.conference | xml_escape }} {{ conf.year }}</event:name>
+                    <event:startDate>{{ conf.start }}</event:startDate>
+                    <event:endDate>{{ conf.end }}</event:endDate>
+                    <event:location>{{ conf.place | xml_escape }}</event:location>
+                    <event:deadline>{{ cfp }}</event:deadline>
+                </event:Event>
+
+                <!-- Optional GeoRSS if you have coordinates -->
+                {% if conf.latitude and conf.longitude %}
+                <georss:point>{{ conf.latitude }} {{ conf.longitude }}</georss:point>
+                {% endif %}
+            </item>
+        {% endif %}
+        {% endfor %}
+    </channel>
 </rss>

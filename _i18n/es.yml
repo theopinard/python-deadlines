@@ -65,6 +65,9 @@ series:
     last: 'Ùltimo año en'
     next: 'Próximo año en'
 times:
+  tba: "Por anunciar"
+  from: "Desde"
+  until: "Hasta"
   normal:
     days: 'dias'
     hours: 'horas'
