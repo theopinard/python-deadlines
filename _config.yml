@@ -15,7 +15,7 @@ markdown: kramdown
 ga_id:
 adsense_id:
 
-include: ['_pages']
+include: ['_pages', '\.htaccess']
 
 defaults:
 - scope:
