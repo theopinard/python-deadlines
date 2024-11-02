@@ -1,5 +1,74 @@
 ---
 
+- conference: PyBay
+  year: 2024
+  link: https://pybay.org/
+  cfp_link: https://pybay.org/speaking/
+  cfp: '2024-07-31 23:59:00'
+  place: San Franciso, USA
+  start: 2024-09-21
+  end: 2024-09-21
+  sponsor: https://pybay.org/sponsors/sponsor-us/
+  mastodon: https://fosstodon.org/@pybay
+  sub: PY
+  location:
+  - title: PyBay 2024
+    latitude: 38.676839
+    longitude: -90.2497213
+
+- conference: PyCon Taiwan
+  alt_name: PyCon TW
+  year: 2024
+  link: https://tw.pycon.org/2024/en-us
+  cfp_link: https://tw.pycon.org/2024/en-us/speaking/cfp
+  cfp: '2024-04-08 23:59:00'
+  tutorial_deadline: '2024-04-08 23:59:00'
+  place: Kaohsiung, Taiwan
+  start: 2024-09-21
+  end: 2024-09-22
+  sponsor: https://tw.pycon.org/2024/en-us/sponsor
+  finaid: https://tw.pycon.org/2024/en-us/registration/financial-aid
+  sub: PY
+  location:
+  - title: PyCon Taiwan 2024
+    latitude: 22.6203348
+    longitude: 120.3120375
+
+- conference: PyCon India
+  year: 2024
+  link: https://in.pycon.org/2024/
+  cfp_link: https://in.pycon.org/cfp/2024/proposals/
+  cfp: '2024-05-31 23:59:00'
+  tutorial_deadline: '2024-05-31 23:59:00'
+  timezone: Asia/Kolkata
+  place: Bengaluru, India
+  start: 2024-09-20
+  end: 2024-09-23
+  sponsor: https://in.pycon.org/2024/prospectus.pdf
+  twitter: PyConIndia
+  sub: PY
+  location:
+  - title: PyCon India 2024
+    latitude: 12.9767936
+    longitude: 77.590082
+
+- conference: PyCon Latin America
+  alt_name: PyCon Latam
+  year: 2024
+  link: https://www.pylatam.org/
+  cfp_link: https://web.archive.org/web/20240524062206/https://www.papercall.io/pyconlatam24
+  cfp: '2024-06-10 23:59:00'
+  tutorial_deadline: '2024-06-10 23:59:00'
+  place: Mazatlan, Mexico
+  start: 2024-09-19
+  end: 2024-09-21
+  sponsor: https://web.archive.org/web/20240607024356/https://docs.google.com/presentation/d/12_iPvHdtR5islMlL-76Xja2GK0IMccL8/edit
+  sub: PY
+  location:
+  - title: PyCon Latin America 2024
+    latitude: 23.2035785
+    longitude: -106.4208391
+
 - conference: PyTorch Conference
   year: 2024
   link: https://events.linuxfoundation.org/pytorch-conference/
