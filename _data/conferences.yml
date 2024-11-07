@@ -100,6 +100,23 @@
     latitude: 40.4416941
     longitude: -79.9900861
 
+- conference: PyCon Web
+  year: 2025
+  link: https://www.pyconweb.com/
+  cfp_link: https://www.papercall.io/pyconweb2025
+  cfp: '2024-12-07 12:10:00'
+  timezone: UTC
+  place: Berlin, Germany
+  start: 2025-01-24
+  end: 2025-01-25
+  sponsor: https://www.pyconweb.com/sponsorship
+  twitter: PyconWeb
+  sub: WEB
+  location:
+  - title: PyCon Web 2025
+    latitude: 52.5170365
+    longitude: 13.3888599
+
 - conference: PyTexas
   year: 2025
   link: https://www.pytexas.org/2025/
