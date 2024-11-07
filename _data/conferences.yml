@@ -712,6 +712,21 @@
     latitude: 37.7681571
     longitude: -122.392929
 
+- conference: Python Nordeste
+  year: 2025
+  link: https://2025.pythonnordeste.org/
+  cfp: TBA
+  timezone: America/Recife
+  place: Teresina, Brazil
+  start: 2025-06-20
+  end: 2025-06-22
+  sponsor: https://2025.pythonnordeste.org/static/docs/sponsors-plan-en.pdf
+  sub: PY
+  location:
+  - title: Python Nordeste 2025
+    latitude: -5.0874608
+    longitude: -42.8049571
+
 - conference: PyCon Germany & PyData Conference
   alt_name: PyCon DE & PyData Conference
   year: 2025
