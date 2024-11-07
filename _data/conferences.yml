@@ -434,21 +434,6 @@
     latitude: 52.090833
     longitude: 5.121667
 
-- conference: PyCon Niger
-  year: 2024
-  link: https://ne.pycon.org/
-  cfp_link: https://ne.pycon.org/speaking
-  cfp: '2024-07-30 23:59:00'
-  place: Niamey, Niger
-  start: 2024-09-28
-  end: 2024-09-29
-  twitter: pythonniger
-  sub: PY
-  location:
-  - title: PyCon Niger 2024
-    latitude: 13.515
-    longitude: 2.1175
-
 - conference: PyCon Zimbabwe
   year: 2024
   link: https://zw.pycon.org/
@@ -501,24 +486,6 @@
     latitude: 48.584614
     longitude: 7.7507127
 
-- conference: PyCon Africa
-  year: 2024
-  link: https://africa.pycon.org/2024/
-  cfp_link: https://africa.pycon.org/2024/talks/speaking/
-  cfp: '2024-07-08 23:59:00'
-  tutorial_deadline: '2024-07-08 23:59:00'
-  place: Accra, Ghana
-  start: 2024-09-24
-  end: 2024-09-28
-  sponsor: https://africa.pycon.org/2024/sponsor-us/
-  twitter: pyconafrica
-  mastodon: https://mastodon.social/@pyconafrica
-  sub: PY
-  location:
-  - title: PyCon Africa 2024
-    latitude: 5.5571096
-    longitude: -0.2012376
-
 - conference: PyCon Hong Kong
   alt_name: PyCon HK
   year: 2024
@@ -567,36 +534,6 @@
   - title: PyCon South Korea 2024
     latitude: 37.2633325
     longitude: 127.0287472
-
-- conference: Piter Py
-  alt_name: PiterPy
-  year: 2024
-  link: https://piterpy.com/en/
-  cfp: '2024-06-01 23:59:00'
-  place: Saint Petersburg, Russia
-  start: 2024-09-26
-  end: 2024-09-27
-  sub: PY
-  location:
-  - title: Piter Py 2024
-    latitude: 59.9606739
-    longitude: 30.1586551
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2024
-  link: https://2024.pycon.jp/ja
-  cfp_link: https://pretalx.com/pyconjp2024/cfp
-  cfp: '2024-05-31 23:59:00'
-  place: Tokyo, Japan
-  start: 2024-09-27
-  end: 2024-09-29
-  twitter: pyconjapan
-  sub: PY
-  location:
-  - title: PyCon Japan 2024
-    latitude: 35.718741949999995
-    longitude: 139.73118058112317
 
 - conference: PyCon Spain
   alt_name: PyCon ES
@@ -664,40 +601,6 @@
   - title: PyCon Portugal 2024
     latitude: 41.5510583
     longitude: -8.4280045
-
-- conference: DjangoCon US
-  year: 2024
-  link: https://2024.djangocon.us/
-  cfp_link: https://2024.djangocon.us/speaking/
-  cfp: '2024-04-24 12:00:00'
-  timezone: America/New_York
-  place: Durham, USA
-  start: 2024-09-22
-  end: 2024-09-27
-  finaid: https://2024.djangocon.us/opportunity-grants/
-  twitter: DjangoCon
-  mastodon: https://fosstodon.org/@djangocon
-  sub: WEB
-  location:
-  - title: DjangoCon US 2024
-    latitude: 42.240599
-    longitude: -8.720727
-
-- conference: PyData Paris
-  year: 2024
-  link: https://pydata.org/paris2024/
-  cfp_link: https://pydata.org/paris2024/cfp/
-  cfp: '2024-04-08 23:59:00'
-  place: Paris, France
-  start: 2024-09-25
-  end: 2024-09-26
-  sponsor: https://pydata.org/paris2024/sponsorship-opportunites
-  twitter: PyDataParis
-  sub: DATA
-  location:
-  - title: PyData Paris 2024
-    latitude: 48.8588897
-    longitude: 2.3200410217200766
 
 - conference: Python BarCamp Karlsruhe
   year: 2024
@@ -848,31 +751,3 @@
   - title: PyCon Panamá 2024
     latitude: 8.9714493
     longitude: -79.5341802
-
-- conference: Python Norte
-  year: 2024
-  link: https://2024.pythonnorte.org/
-  cfp: None
-  place: Itacoatiara, Brazil
-  start: 2024-09-27
-  end: 2024-09-28
-  twitter: pynorte
-  sub: PY
-  location:
-  - title: Python Norte 2024
-    latitude: -3.1477898
-    longitude: -58.4461041
-
-- conference: PyConf Mini Davao
-  year: 2024
-  link: https://pyconf-mini-2024.durianpy.org/
-  cfp: None
-  place: Davao City, Philippines
-  start: 2024-09-26
-  end: 2024-09-26
-  sponsor: https://pyconf-mini-2024.durianpy.org/prospectus
-  sub: PY
-  location:
-  - title: PyConf Mini Davao 2024
-    latitude: 7.0648306
-    longitude: 125.6080623
