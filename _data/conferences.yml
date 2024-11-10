@@ -712,6 +712,22 @@
     latitude: 37.7681571
     longitude: -122.392929
 
+- conference: Python Brasil
+  alt_name: PythonBrasil
+  year: 2025
+  link: https://2025.pythonbrasil.org.br/
+  cfp: TBA
+  timezone: America/Sao_Paulo
+  place: Sao Paulo, Brazil
+  start: 2025-10-21
+  end: 2025-10-27
+  mastodon: https://pynews.com.br/@pythonbrasil
+  sub: PY
+  location:
+  - title: Python Brasil 2025
+    latitude: -23.5506507
+    longitude: -46.6333824
+
 - conference: Python Nordeste
   year: 2025
   link: https://2025.pythonnordeste.org/
