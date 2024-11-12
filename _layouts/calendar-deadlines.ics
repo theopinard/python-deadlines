@@ -18,7 +18,7 @@ DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID={{ conf.timezone }}:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;TZID={{ conf.timezone | default: "Etc/GMT+12" }}:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT
 {%- endif -%}
 {% if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" %}
@@ -33,7 +33,7 @@ DTSTART;TZID=Etc/GMT{{ tz }}:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID={{ conf.timezone }}:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;TZID={{ conf.timezone | default: "Etc/GMT+12" }}:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT
 {%- endif -%}
 {% if cfp != "TBA" %}
@@ -48,7 +48,7 @@ DTSTART;TZID=Etc/GMT{{ tz }}:{{ cfp | date: "%Y%m%dT%H%M%S" }}
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID={{ conf.timezone }}:{{ cfp | date: "%Y%m%dT%H%M%S" }}
+DTSTART;TZID={{ conf.timezone | default: "Etc/GMT+12" }}:{{ cfp | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT
 {%- endif -%}{% endfor %}
 END:VCALENDAR
