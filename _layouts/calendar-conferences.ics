@@ -2,8 +2,7 @@ BEGIN:VCALENDAR
 METHOD:PUBLISH
 VERSION:2.0
 PRODID:-//{{ site.url }}//{{ site.github_repo }}//EN
-X-PUBLISHED-TTL:PT1H
-{%- for conf in site.data.conferences -%}
+X-PUBLISHED-TTL:PT1H{% for conf in site.data.conferences %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }}
 UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}
@@ -14,6 +13,5 @@ DTEND;VALUE=DATE:{{ conf.end | date: "%Y%m%d"}}
 DESCRIPTION:<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.
 LOCATION:{{ conf.place }}
 ORGANIZER:pythondeadlin.es
-END:VEVENT
-{%- endfor -%}
+END:VEVENT{% endfor %}
 END:VCALENDAR
