@@ -10,8 +10,7 @@ DTSTART:19700101T000000Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
-END:VTIMEZONE
-{% for conf in site.data.conferences %}
+END:VTIMEZONE{% for conf in site.data.conferences %}
 {%- if conf.cfp_ext -%}
     {%- assign cfp = conf.cfp_ext -%}
     {%- assign extended = "(extended)" -%}
@@ -20,7 +19,7 @@ END:VTIMEZONE
     {%- assign extended = "" -%}
 {%- endif -%}
 {%- capture desc -%}{{ conf.conference }} {{ conf.year }} - See: {{ conf.link }}{%- endcapture -%}
-{%- if conf.workshop_deadline and conf.workshop_deadline != "TBA" -%}
+{% if conf.workshop_deadline and conf.workshop_deadline != "TBA" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Workshop Deadline
 UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}-workshop@pythondeadlin.es
@@ -29,8 +28,8 @@ DTSTART:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%SZ" }}
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
-{%- endif -%}
-{%- if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" -%}
+{% endif %}
+{% if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Tutorial Deadline
 UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}-tutorial@pythondeadlin.es
@@ -39,8 +38,8 @@ DTSTART:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%SZ" }}
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
-{%- endif -%}
-{%- if cfp != "TBA" and cfp != "None" and cfp != "Cancelled" -%}
+{% endif %}
+{% if cfp != "TBA" and cfp != "None" and cfp != "Cancelled" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Deadline {{ extended }}
 UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}@pythondeadlin.es
@@ -49,5 +48,5 @@ DTSTART:{{ cfp | date: "%Y%m%dT%H%M%SZ" }}
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
-{%- endif -%}{% endfor %}
+{% endif %}{% endfor %}
 END:VCALENDAR
