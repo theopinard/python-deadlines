@@ -1,55 +1,52 @@
 BEGIN:VCALENDAR
-METHOD:PUBLISH
 VERSION:2.0
 PRODID:-//{{ site.url }}//{{ site.github_repo }}//EN
-X-PUBLISHED-TTL:PT1H{% for conf in site.data.conferences %}
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:19700101T000000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE{% for conf in site.data.conferences %}
 {%- if conf.cfp_ext -%}
     {%- assign cfp = conf.cfp_ext -%}
     {%- assign extended = "(extended)" -%}
 {%- else -%}
     {%- assign cfp = conf.cfp -%}
+    {%- assign extended = "" -%}
 {%- endif -%}
-{%- if conf.timezone contains "UTC" -%}
-    {%- assign tz = conf.timezone | split: "UTC" -%}
-    {%- if tz[1] contains "-" -%}
-        {%- assign tz = tz[1] | replace: "-", "+" -%}
-    {%- elsif tz[1] contains "+" -%}
-        {%- assign tz = tz[1] | replace: "+", "-" -%}
-    {%- else -%}
-        {%- assign tz = "-1" -%}
-    {%- endif -%}
-{%- else -%}
-    {%- assign tz = "-12" -%}
-{%- endif -%}
-{%- capture desc -%}<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.{%- endcapture -%}
-{% if conf.workshop_deadline and conf.workshop_deadline != "TBA" %}
+{%- capture desc -%}{{ conf.conference }} {{ conf.year }} - See: {{ conf.link }}{%- endcapture -%}
+{%- if conf.workshop_deadline and conf.workshop_deadline != "TBA" -%}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Workshop Deadline
-UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-workshop
-ORGANIZER:pythondeadlin.es
-{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}-workshop@pythondeadlin.es
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%SZ" }}
+{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
 {%- endif -%}
-{% if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" %}
+{%- if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" -%}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Tutorial Deadline
-UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-tutorial
-ORGANIZER:pythondeadlin.es
-{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}-tutorial@pythondeadlin.es
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%SZ" }}
+{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
 {%- endif -%}
-{% if cfp != "TBA" and cfp != "None" and cfp != "Cancelled" %}
+{%- if cfp != "TBA" and cfp != "None" and cfp != "Cancelled" -%}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Deadline {{ extended }}
-UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}
-ORGANIZER:pythondeadlin.es
-{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+UID:{{ conf.conference | slugify: "latin" }}-{{ conf.year }}@pythondeadlin.es
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;{{ cfp | date: "%Y%m%dT%H%M%S" }}
+DTSTART:{{ cfp | date: "%Y%m%dT%H%M%SZ" }}
+{{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
+ORGANIZER;CN=PythonDeadlines:mailto:noreply@pythondeadlin.es
 END:VEVENT
 {%- endif -%}{% endfor %}
 END:VCALENDAR
