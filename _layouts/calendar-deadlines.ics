@@ -16,7 +16,7 @@ X-PUBLISHED-TTL:PT1H{% for conf in site.data.conferences %}
     {%- elsif tz[1] contains "+" -%}
         {%- assign tz = tz[1] | replace: "+", "-" -%}
     {%- else -%}
-        {%- assign tz = tz[1] -%}
+        {%- assign tz = "-1" -%}
     {%- endif -%}
 {%- else -%}
     {%- assign tz = "-12" -%}
