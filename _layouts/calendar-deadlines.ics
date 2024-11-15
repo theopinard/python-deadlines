@@ -29,7 +29,7 @@ UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-workshop
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID=GMT{{ tz }}:{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;{{ conf.workshop_deadline | date: "%Y%m%dT%H%M%S" }}
 END:VEVENT
 {%- endif -%}
 {% if conf.tutorial_deadline and conf.tutorial_deadline != "TBA" %}
@@ -39,7 +39,7 @@ UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}-tutorial
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID=GMT{{ tz }}:{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }}
+DTSTART;{{ conf.tutorial_deadline | date: "%Y%m%dT%H%M%S" }}
 END:VEVENT
 {%- endif -%}
 {% if cfp != "TBA" and cfp != "None" and cfp != "Cancelled" %}
@@ -49,7 +49,7 @@ UID:{{conf.conference | slugify: "latin"}}-{{conf.year}}
 ORGANIZER:pythondeadlin.es
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;TZID=GMT{{ tz }}:{{ cfp | date: "%Y%m%dT%H%M%S" }}
+DTSTART;{{ cfp | date: "%Y%m%dT%H%M%S" }}
 END:VEVENT
 {%- endif -%}{% endfor %}
 END:VCALENDAR
