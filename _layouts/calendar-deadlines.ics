@@ -10,7 +10,8 @@ DTSTART:19700101T000000Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
-END:VTIMEZONE{% for conf in site.data.conferences %}
+END:VTIMEZONE
+{% for conf in site.data.conferences %}
 {%- if conf.cfp_ext -%}
     {%- assign cfp = conf.cfp_ext -%}
     {%- assign extended = "(extended)" -%}
