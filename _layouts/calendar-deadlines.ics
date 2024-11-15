@@ -19,7 +19,7 @@ X-PUBLISHED-TTL:PT1H{% for conf in site.data.conferences %}
         {%- assign tz = tz[1] -%}
     {%- endif -%}
 {%- else -%}
-    {%- assign tz = "+0" -%}
+    {%- assign tz = "-12" -%}
 {%- endif -%}
 {%- capture desc -%}<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.{%- endcapture -%}
 {% if conf.workshop_deadline and conf.workshop_deadline != "TBA" %}
