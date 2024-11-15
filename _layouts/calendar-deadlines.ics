@@ -18,7 +18,7 @@ END:VTIMEZONE{% for conf in site.data.conferences %}
     {%- assign cfp = conf.cfp -%}
     {%- assign extended = "" -%}
 {%- endif -%}
-{%- capture desc -%}{{ conf.conference }} {{ conf.year }} - See: {{ conf.link }}{%- endcapture -%}
+{%- capture desc -%}<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.{%- endcapture -%}
 {% if conf.workshop_deadline and conf.workshop_deadline != "TBA" %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.conference }} {{ conf.year }} Workshop Deadline
