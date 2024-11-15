@@ -1,2 +1,9 @@
+* text=auto
+
+*.ics text eol=crlf
+
+*.png binary
+*.jpg binary
+
 # GitHub syntax highlighting
 pixi.lock linguist-language=YAML
