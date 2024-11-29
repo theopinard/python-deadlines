@@ -13,7 +13,7 @@
 						<i class="fa fa-calendar-plus-o" aria-hidden="true"></i> {% t buttons.ical %}
 					</a>
 					<a
-						href="https://calendar.google.com/calendar/r?cid={{ site.url }}/{{ site.github_repo }}.ics"
+						href="https://calendar.google.com/calendar/r?cid={{ site.url | replace: 'https', 'webcal' }}/{{ site.github_repo }}.ics"
 						class="btn btn-outline-danger mx-1"
 						rel="me"
 					>
