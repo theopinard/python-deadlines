@@ -67,6 +67,23 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
+- conference: DjangoCon Europe
+  year: 2025
+  link: https://2025.djangocon.eu/
+  cfp_link: https://pretalx.evolutio.pt/djangocon-europe-2025/cfp
+  cfp: '2025-01-13 23:59:00'
+  place: Dublin, Ireland
+  start: 2025-04-23
+  end: 2025-04-27
+  sponsor: https://2025.djangocon.eu/sponsors/sponsorship/
+  finaid: https://2025.djangocon.eu/information/grants/
+  mastodon: https://fosstodon.org/@djangoconeurope/
+  sub: WEB
+  location:
+  - title: DjangoCon Europe 2025
+    latitude: 53.3498006
+    longitude: -6.2602964
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2025
