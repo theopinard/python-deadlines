@@ -1,5 +1,36 @@
 ---
 
+- conference: PyCon Asia Pacific
+  alt_name: PyCon Indonesia
+  year: 2024
+  link: https://pycon.id/
+  cfp: '2024-08-01 23:59:00'
+  place: Yogyakarta, Indonesia
+  start: 2024-10-25
+  end: 2024-10-27
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLSckkgXMyjHHUUuq8QdwPUEcwfoUuYrZEmAzErs2xo5YzbiufQ/viewform
+  sub: PY
+  note: Held at PyCon Indonesia
+  location:
+  - title: PyCon Asia Pacific 2024
+    latitude: -7.9778383999999996
+    longitude: 110.36722565020244
+
+- conference: PyCon South Korea
+  alt_name: PyCon KR
+  year: 2024
+  link: https://2024.pycon.kr/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSdXXxakv9IZa_Se9DQzG3Kf8qc_ADIlyyTS5h7r20ENSfD6MA/closedform
+  cfp: '2024-06-22 23:59:00'
+  place: Suwon, South Korea
+  start: 2024-10-25
+  end: 2024-10-27
+  sub: PY
+  location:
+  - title: PyCon South Korea 2024
+    latitude: 37.2633325
+    longitude: 127.0287472
+
 - conference: Python Ho
   alt_name: PythonHo Conference
   year: 2024
