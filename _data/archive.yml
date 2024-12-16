@@ -1,5 +1,91 @@
 ---
 
+- conference: PyData NYC
+  year: 2024
+  link: https://pydata.org/nyc2024/
+  cfp: '2024-09-03 23:59:00'
+  timezone: America/New_York
+  place: New York, USA
+  start: 2024-11-06
+  end: 2024-11-08
+  sponsor: https://pydata.org/nyc2024/sponsorship-opportunites
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSdv0gkemT9Q-4O6D0b9By6VWSz_ZFvzSfH0jBphiIyXjwNX2g/closedform
+  sub: DATA
+  location:
+  - title: PyData NYC 2024
+    latitude: 40.7127281
+    longitude: -74.0060152
+
+- conference: PyData Tel Aviv
+  year: 2024
+  link: https://pydata.org/telaviv2024/
+  cfp_link: https://pydata.org/telaviv2024/cfp
+  cfp: '2023-07-14 23:59:00'
+  timezone: Asia/Jerusalem
+  place: Tel Aviv, Israel
+  start: 2024-11-04
+  end: 2024-11-04
+  sponsor: https://pydata.org/telaviv2024/sponsor
+  twitter: PyDataTLV
+  sub: DATA
+  note: Postponed from 2023
+  location:
+  - title: PyData Tel Aviv 2023
+    latitude: 32.0852997
+    longitude: 34.7818064
+
+- conference: PyCon Zimbabwe
+  year: 2024
+  link: https://zw.pycon.org/
+  cfp_link: https://www.papercall.io/pyconzim2024
+  cfp: '2024-07-31 00:00:00'
+  timezone: UTC
+  place: Harare, Zimbabwe
+  start: 2024-10-31
+  end: 2024-11-02
+  sponsor: https://zw.pycon.org/#sponsor
+  sub: PY
+  location:
+  - title: PyCon Zimbabwe 2024
+    latitude: -17.8567035
+    longitude: 31.0601584
+
+- conference: PyCon France
+  alt_name: PyCon FR
+  year: 2024
+  link: https://pycon.fr/2024/
+  cfp_link: https://cfp.pycon.fr/pyconfr-2024/cfp
+  cfp: '2024-07-21 23:59:00'
+  timezone: Europe/Paris
+  place: Strasbourg, France
+  start: 2024-10-31
+  end: 2024-11-03
+  sponsor: https://pycon.fr/2024/fr/sponsors.html
+  finaid: https://www.pycon.fr/2024/fr/financial.html
+  twitter: PyConFR
+  mastodon: https://mamot.fr/@AFPy
+  sub: PY
+  location:
+  - title: PyCon France 2024
+    latitude: 48.584614
+    longitude: 7.7507127
+
+- conference: PyCon Balkan
+  year: 2024
+  link: https://pyconbalkan.com/
+  cfp: Cancelled
+  place: Belgrade, Serbia
+  start: 2024-10-30
+  end: 2024-11-01
+  sponsor: https://pyconbalkan.com/wp-content/uploads/2024/06/PyCon-Balkan-2024-Sponsorship-Proposal.pdf
+  twitter: pyconblkn
+  sub: PY
+  note: Conference never went beyond announcement.
+  location:
+  - title: PyCon Balkan 2024
+    latitude: 44.8178131
+    longitude: 20.4568974
+
 - conference: PyCon Asia Pacific
   alt_name: PyCon Indonesia
   year: 2024
