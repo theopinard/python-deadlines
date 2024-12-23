@@ -44,14 +44,6 @@ repos:
     - --fix
     - --exit-non-zero-on-fix
     - --preview
-- repo: https://github.com/PyCQA/docformatter # Format docstrings
-  rev: v1.7.5
-  hooks:
-  - id: docformatter
-    args:
-    - -s numpy
-    - --black
-    - --in-place
 - repo: https://github.com/jshwi/docsig # Check docstrings against function sig
   rev: v0.53.2
   hooks:
@@ -64,3 +56,14 @@ repos:
     - --check-class # Check class docstrings
     - --disable=E113 # Disable empty docstrings
     - --summary # Print a summary
+
+ci:
+  autofix_commit_msg: |
+    [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: true
+  autoupdate_branch: 'automated/pre-commit-autoupdate'
+  autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
+  autoupdate_schedule: monthly
+  submodules: false
