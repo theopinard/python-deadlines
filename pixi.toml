@@ -13,6 +13,7 @@ merge = 'python ./utils/main.py'
 serve = "bundler exec jekyll serve"
 profile = "bundler exec jekyll build --profile"
 newsletter = "python ./utils/newsletter.py"
+git = "python utils/git_parser.py"
 
 [dependencies]
 python = ">=3.12.3,<3.13"
