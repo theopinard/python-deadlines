@@ -472,3 +472,15 @@
   start: 2025-09-26
   end: 2025-09-27
   sub: PY
+
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2025
+  link: https://piterpy.com/en/
+  cfp_link: https://piterpy.com/en/callforpapers/
+  cfp: '2025-02-25 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2025-05-09
+  end: 2025-05-11
+  sub: PY
+  note: Conference dates subject to change
