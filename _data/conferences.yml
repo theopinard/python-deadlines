@@ -47,6 +47,22 @@
     latitude: 47.8454821
     longitude: 16.5249288
 
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2025
+  link: https://piterpy.com/en/
+  cfp_link: https://piterpy.com/en/callforpapers/
+  cfp: '2025-02-25 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2025-05-09
+  end: 2025-05-11
+  sub: PY
+  note: Conference dates subject to change
+  location:
+  - title: Piter Py 2025
+    latitude: 59.9606739
+    longitude: 30.1586551
+
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2025
@@ -107,9 +123,9 @@
   place: Bologna, Italy
   start: 2025-05-28
   end: 2025-05-31
+  finaid: https://2025.pycon.it/en/grants-info/
   twitter: PyConIT
   mastodon: https://social.python.it/@pycon
-  finaid: https://2025.pycon.it/en/grants-info/
   sub: PY
   location:
   - title: PyCon Italia 2025
@@ -433,6 +449,20 @@
     latitude: -23.5506507
     longitude: -46.6333824
 
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2025
+  link: https://2025.pycon.jp/
+  cfp: TBA
+  place: Hiroshima, Japan
+  start: 2025-09-26
+  end: 2025-09-27
+  sub: PY
+  location:
+  - title: PyCon Japan 2025
+    latitude: 34.3917241
+    longitude: 132.4517589
+
 - conference: EuroPython
   year: 2025
   link: https://ep2025.europython.eu/
@@ -462,25 +492,3 @@
   - title: Python Nordeste 2025
     latitude: -5.0874608
     longitude: -42.8049571
-
-- conference: PyCon Japan
-  alt_name: PyCon JP
-  year: 2025
-  link: https://2025.pycon.jp/
-  cfp: TBA
-  place: Hiroshima, Japan
-  start: 2025-09-26
-  end: 2025-09-27
-  sub: PY
-
-- conference: Piter Py
-  alt_name: PiterPy
-  year: 2025
-  link: https://piterpy.com/en/
-  cfp_link: https://piterpy.com/en/callforpapers/
-  cfp: '2025-02-25 23:59:00'
-  place: Saint Petersburg, Russia
-  start: 2025-05-09
-  end: 2025-05-11
-  sub: PY
-  note: Conference dates subject to change
