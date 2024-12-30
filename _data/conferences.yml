@@ -86,7 +86,7 @@
   year: 2025
   link: https://2025.djangocon.eu/
   cfp_link: https://pretalx.evolutio.pt/djangocon-europe-2025/cfp
-  cfp: '2025-01-13 23:59:00'
+  cfp: '2025-01-12 23:59:00'
   place: Dublin, Ireland
   start: 2025-04-23
   end: 2025-04-27
@@ -461,3 +461,13 @@
   - title: Python Nordeste 2025
     latitude: -5.0874608
     longitude: -42.8049571
+
+- conference: PyCon Japan
+  alt_name: PyCon JP
+  year: 2025
+  link: https://2025.pycon.jp/
+  cfp: TBA
+  place: Hiroshima, Japan
+  start: 2025-09-26
+  end: 2025-09-27
+  sub: PY
