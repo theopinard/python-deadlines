@@ -11,8 +11,9 @@
 			<div id="confs">
 				<div id="past_confs">
 					<h1 id="past-events-title">{% t titles.past_events %}</h1>
-					{% assign confs = site.data.archive | sort: "start" | reverse | where_exp: "item", "item.year ==
-					page.year" %} {% for conf in confs %} {% assign subs = conf.sub | split: "," %}
+					{% assign confs = site.data.archive | concat: site.data.legacy | sort: "start" | reverse |
+					where_exp: "item", "item.year == page.year" %} {% for conf in confs %} {% assign subs = conf.sub |
+					split: "," %}
 					<div
 						id="{{conf.conference | slugify: 'latin'}}-{{conf.year}}"
 						class="ConfItem {% for sub in subs %} {{sub | strip}}-conf {% endfor %}"

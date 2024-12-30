@@ -10,7 +10,7 @@ ORGANIZER:pythondeadlin.es
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;VALUE=DATE:{{ conf.start | date: "%Y%m%d"}}
 DTEND;VALUE=DATE:{{ conf.end | date: "%Y%m%d"}}
-{%- capture desc -%}<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.{%- endcapture -%}
+{% capture desc -%}<a href="{{conf.link}}">{{ conf.conference }} {{ conf.year }}</a> found on <a href="https://pythondeadlin.es">PythonDeadlin.es</a>.{% endcapture -%}
 {{ desc | prepend: "DESCRIPTION:" | normalize_whitespace | wrap_lines }}
 LOCATION:{{ conf.place }}
 ORGANIZER:pythondeadlin.es
