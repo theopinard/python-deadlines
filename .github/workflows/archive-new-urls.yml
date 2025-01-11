@@ -20,7 +20,7 @@ jobs:
     - name: Find last successful run commit
       id: last-run
       run: |
-        last_sha=$(gh run list --workflow="Check New Conference URLs" --json conclusion,headSha --jq '.[] | select(.conclusion=="success") | .headSha' | head -n1)
+        last_sha=$(gh run list --workflow="Archive New Conference URLs" --json conclusion,headSha --jq '.[] | select(.conclusion=="success") | .headSha' | head -n1)
         if [ -n "$last_sha" ]; then
           echo "sha=$last_sha" >> $GITHUB_OUTPUT
         else
