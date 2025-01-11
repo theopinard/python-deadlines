@@ -54,4 +54,5 @@ jobs:
       if: steps.url-check.outputs.has_new_urls == 'true'
       uses: JamieMagee/wayback@v2.0.0
       with:
-        url: ${{ steps.url-check.outputs.urls }}
+        url: |-
+          ${{ steps.url-check.outputs.urls }}
