@@ -1,4 +1,6 @@
-## Python Deadlines [![pages-build-deployment](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment)
+## Python Deadlines
+
+[![pages-build-deployment](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/JesperDramsch/python-deadlines/actions/workflows/pages/pages-build-deployment) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jesperdramsch/python-deadlines) [![All Contributors](https://img.shields.io/github/all-contributors/jesperdramsch/python-deadlines?color=ee8449)](#contributors) ![GitHub Repo stars](https://img.shields.io/github/stars/jesperdramsch/python-deadlines)
 
 Countdown timers to keep track of a bunch of Python conference deadlines.
 
@@ -117,8 +119,27 @@ I mainly run the `main.py` and `sort_yaml.py` to get new entries and move old en
 -   [es-deadlines (Embedded Systems, Computer Architecture, and Cyber-physical Systems)][9] by @AlexVonB and @k0nze
 -   [2019-2020 International Conferences in AI, CV, DM, NLP and Robotics][10] by @JackieTseng
 -   [ccf-deadlines][11] by @ccfddl
--   [netdeadlines.com][12] by @albertgranalcoz
+-   [networking-deadlines (Computer Networking, Measurement)][12] by @andrewcchu
 -   [ad-deadlines.com][13] by @daniel-bogdoll
+-   [sec-deadlines.github.io/ (Security and Privacy)][14] by @clementfung
+-   [pythondeadlin.es][15] by @jesperdramsch
+-   [deadlines.openlifescience.ai (Healthcare domain conferences and workshops)][16] by @monk1337
+-   [hci-deadlines.github.io (Human-Computer Interaction conferences)][17] by @makinteract
+-   [ds-deadlines.github.io (Distributed Systems, Event-based Systems, Performance, and Software Engineering conferences)][18] by @ds-deadlines
+-   [https://deadlines.cpusec.org/ (Computer Architecture-Security conferences)][19] by @hoseinyavarzadeh
+-   [se-deadlines.github.io (Software engineering conferences)][20] by @sivanahamer and @imranur-rahman
+-   [awesome-mlss (Machine Learning Summer Schools)][21] by @sshkhr and @gmberton
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
@@ -138,5 +159,13 @@ It uses:
 [9]: https://ekut-es.github.io/es-deadlines/
 [10]: https://jackietseng.github.io/conference_call_for_paper/conferences.html
 [11]: https://ccfddl.github.io/
-[12]: https://netdeadlines.com/
+[12]: https://noise-lab.net/networking-deadlines/
 [13]: https://ad-deadlines.com/
+[14]: https://sec-deadlines.github.io/
+[15]: https://pythondeadlin.es/
+[16]: https://deadlines.openlifescience.ai/
+[17]: https://hci-deadlines.github.io/
+[18]: https://ds-deadlines.github.io
+[19]: https://deadlines.cpusec.org/
+[20]: https://se-deadlines.github.io/
+[21]: https://awesome-mlss.com/
