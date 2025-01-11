@@ -91,6 +91,22 @@
     latitude: 54.6870458
     longitude: 25.2829111
 
+- conference: EuroPython
+  year: 2025
+  link: https://ep2025.europython.eu/
+  cfp: '2025-01-27 23:59:00'
+  timezone: UTC
+  place: Prague, Czechia
+  start: 2025-07-14
+  end: 2025-07-20
+  twitter: EuroPython
+  mastodon: https://fosstodon.org/@europython
+  sub: PY
+  location:
+  - title: EuroPython 2025
+    latitude: 50.0874654
+    longitude: 14.4212535
+
 - conference: PyCon Estonia
   alt_name: PyCon EE
   year: 2025
@@ -396,22 +412,6 @@
     latitude: 34.3917241
     longitude: 132.4517589
 
-- conference: EuroPython
-  year: 2025
-  link: https://ep2025.europython.eu/
-  cfp: "2025-01-27 23:59:00"
-  timezone: UTC
-  place: Prague, Czechia
-  start: 2025-07-14
-  end: 2025-07-20
-  twitter: EuroPython
-  mastodon: https://fosstodon.org/@europython
-  sub: PY
-  location:
-  - title: EuroPython 2025
-    latitude: 50.0874654
-    longitude: 14.4212535
-
 - conference: Python Nordeste
   year: 2025
   link: https://2025.pythonnordeste.org/
@@ -426,3 +426,18 @@
   - title: Python Nordeste 2025
     latitude: -5.0874608
     longitude: -42.8049571
+
+- conference: PyCamp Argentina
+  year: 2025
+  link: https://pyar.discourse.group/t/pycamp-2025/1373
+  cfp_link: https://pyar.discourse.group/t/propuestas-de-actividades-pycamp-2025/1386/3
+  cfp: None
+  place: Baradero, Argentina
+  start: 2025-03-21
+  end: 2025-03-24
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSeZUex12ZrNqBPF65eeH0Hcc2hUNjE9HHZbCu6AGSLxJLARFA/viewform
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2025
+    latitude: -33.8120471
+    longitude: -59.5051759

@@ -1030,6 +1030,21 @@
     latitude: 38.2325829
     longitude: -122.636465
 
+- conference: PyCamp Argentina
+  year: 2024
+  link: https://pyar.discourse.group/t/pycamp-2024/1252
+  cfp_link: https://pyar.discourse.group/t/propuestas-de-actividades-pycamp-2024/1297
+  cfp: None
+  place: Riachuelo, Argentina
+  start: 2024-06-20
+  end: 2024-06-23
+  finaid: https://docs.google.com/forms/d/e/1FAIpQLSeobYsoQsp0NdC769bBJGDFh2FMrdw0kiU1dq1Tn_HIdWZqrQ/viewform
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2024
+    latitude: -34.694496599999994
+    longitude: -58.45183581327579
+
 - conference: Wagtail Space US
   year: 2024
   link: https://us.wagtail.space/
@@ -2606,6 +2621,19 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCamp Argentina
+  year: 2023
+  link: https://wiki.python.org.ar/PyCamp/2023/
+  cfp: None
+  place: Riachuelo, Argentina
+  start: 2023-03-23
+  end: 2023-03-26
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2023
+    latitude: -34.694496599999994
+    longitude: -58.45183581327579
+
 - conference: PyCascades
   year: 2023
   link: https://2023.pycascades.com/
@@ -3509,6 +3537,19 @@
     latitude: 30.2711286
     longitude: -97.7436995
 
+- conference: PyCamp Argentina
+  year: 2022
+  link: https://wiki.python.org.ar/PyCamp/2022/
+  cfp: None
+  place: Baradero, Argentina
+  start: 2022-03-24
+  end: 2022-03-27
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2022
+    latitude: -33.8120471
+    longitude: -59.5051759
+
 - conference: Python Web Conference
   year: 2022
   link: https://pythonwebconference.com/
@@ -3678,6 +3719,19 @@
   end: 2021-11-25
   sub: PY
   note: No formal CfP, but you can submit a talk proposal via the website
+
+- conference: PyCamp Argentina
+  year: 2021
+  link: https://wiki.python.org.ar/PyCamp/2021/
+  cfp: None
+  place: San Rafael, Argentina
+  start: 2021-11-20
+  end: 2021-11-23
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2021
+    latitude: -34.6126025
+    longitude: -68.330514
 
 - conference: PyCon Asia Pacific
   alt_name: PyCon Thailand
@@ -6061,6 +6115,19 @@
     latitude: 48.1857192
     longitude: 16.4221587
 
+- conference: PyCamp Argentina
+  year: 2019
+  link: https://wiki.python.org.ar/PyCamp/2019/
+  cfp: None
+  place: San Rafael, Argentina
+  start: 2019-05-02
+  end: 2019-05-05
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2019
+    latitude: -34.6126025
+    longitude: -68.330514
+
 - conference: PyCon Italia
   alt_name: PyCon Italy
   year: 2019
@@ -7443,6 +7510,19 @@
   - title: Python in Astronomy 2018
     latitude: 40.7127281
     longitude: -74.0060152
+
+- conference: PyCamp Argentina
+  year: 2018
+  link: https://wiki.python.org.ar/PyCamp/2018/
+  cfp: None
+  place: Baradero, Argentina
+  start: 2018-04-28
+  end: 2018-05-01
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2018
+    latitude: -33.8120471
+    longitude: -59.5051759
 
 - conference: PyData London
   year: 2018

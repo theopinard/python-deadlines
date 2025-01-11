@@ -4857,6 +4857,136 @@
     latitude: 18.4801972
     longitude: -69.942111
 
+- conference: PyCamp Argentina
+  year: 2017
+  link: https://wiki.python.org.ar/PyCamp/2017/
+  cfp: None
+  place: Baradero, Argentina
+  start: 2017-03-24
+  end: 2017-03-27
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2017
+    latitude: -33.8120471
+    longitude: -59.5051759
+
+- conference: PyCamp Argentina
+  year: 2016
+  link: https://wiki.python.org.ar/PyCamp/2016/
+  cfp: None
+  place: La Serranita, Argentina
+  start: 2016-03-24
+  end: 2016-03-27
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2016
+    latitude: -31.7355415
+    longitude: -64.4563994
+
+- conference: PyCamp Argentina
+  year: 2015
+  link: https://wiki.python.org.ar/PyCamp/2015/
+  cfp: None
+  place: La Serranita, Argentina
+  start: 2015-08-14
+  end: 2015-08-17
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2015
+    latitude: -31.7355415
+    longitude: -64.4563994
+
+- conference: PyCamp Argentina
+  year: 2014
+  link: https://wiki.python.org.ar/PyCamp/2014/
+  cfp: None
+  place: Villa Giardino, Argentina
+  start: 2014-03-21
+  end: 2014-03-24
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2014
+    latitude: -31.0503796
+    longitude: -64.4969372
+
+- conference: PyCamp Argentina
+  year: 2013
+  link: https://wiki.python.org.ar/PyCamp/2013/
+  cfp: None
+  place: Villa Giardino, Argentina
+  start: 2013-06-20
+  end: 2013-06-23
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2013
+    latitude: -31.0503796
+    longitude: -64.4969372
+
+- conference: PyCamp Argentina
+  year: 2012
+  link: https://wiki.python.org.ar/PyCamp/2012/
+  cfp: None
+  place: Veronica, Argentina
+  start: 2012-06-06
+  end: 2012-06-09
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2012
+    latitude: -35.387149
+    longitude: -57.3383564
+
+- conference: PyCamp Argentina
+  year: 2011
+  link: https://wiki.python.org.ar/PyCamp/2011/
+  cfp: None
+  place: La Falda, Argentina
+  start: 2011-03-24
+  end: 2011-03-27
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2011
+    latitude: -31.0946192
+    longitude: -64.4829365
+
+- conference: PyCamp Argentina
+  year: 2010
+  link: https://wiki.python.org.ar/PyCamp/2010/
+  cfp: None
+  place: Veronica, Argentina
+  start: 2010-03-05
+  end: 2010-03-08
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2010
+    latitude: -35.387149
+    longitude: -57.3383564
+
+- conference: PyCamp Argentina
+  year: 2009
+  link: https://wiki.python.org.ar/PyCamp/2009/
+  cfp: None
+  place: Los Cocos, Argentina
+  start: 2009-03-21
+  end: 2009-03-24
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2009
+    latitude: -30.9250882
+    longitude: -64.5027028
+
+- conference: PyCamp Argentina
+  year: 2008
+  link: https://web.archive.org/web/20081011100546/http://except.com.ar/cgi-bin/pycamp/
+  cfp: None
+  place: Los Cocos, Argentina
+  start: 2008-03-01
+  end: 2008-03-04
+  sub: CAMP
+  location:
+  - title: PyCamp Argentina 2008
+    latitude: -30.9250882
+    longitude: -64.5027028
+
 - conference: PyBITS
   year: 2016
   link: https://web.archive.org/web/20171012110314/http://bits-atmos.org/pybits/
