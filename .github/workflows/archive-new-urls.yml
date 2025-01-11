@@ -28,18 +28,23 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Extract new URLs from diff
+    - name: Extract new URLs from diff and archive
       id: url-check
       run: |
-        # Get diff and extract new URLs using regex
-        git diff ${{ steps.last-run.outputs.sha }} -- _data/conferences.yml | \
-        grep -E '^\+.*https?://[^ ]+' | \
-        sed -E 's/^\+[[:space:]]*[^:]*:[[:space:]]*(https?:\/\/[^ ]+).*/\1/' > new_urls.txt
+        # Extract URLs and set up multiline output
+        URLS=$(git diff ${{ steps.last-run.outputs.sha }} -- _data/conferences.yml | \
+              grep -E '^\+.*https?://[^ ]+' | \
+              sed -E 's/^\+[[:space:]]*[^:]*:[[:space:]]*(https?:\/\/[^ ]+).*/\1/')
 
-        if [ -s new_urls.txt ]; then
+        if [ -n "$URLS" ]; then
           echo "has_new_urls=true" >> $GITHUB_OUTPUT
+          {
+            echo "urls<<EOF"
+            echo "$URLS"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
           echo "Found new URLs:"
-          cat new_urls.txt
+          echo "$URLS"
         else
           echo "has_new_urls=false" >> $GITHUB_OUTPUT
           echo "No new URLs found"
@@ -49,5 +54,4 @@ jobs:
       if: steps.url-check.outputs.has_new_urls == 'true'
       uses: JamieMagee/wayback@v2.0.0
       with:
-        url: |-
-          $(cat new_urls.txt)
+        url: ${{ steps.url-check.outputs.urls }}
