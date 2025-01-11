@@ -6,52 +6,52 @@
 		"README.md",
 		"CONTRIBUTING.md"
 	],
-  "imageSize": 70,
+	"imageSize": 100,
 	"commitType": "docs",
 	"commitConvention": "angular",
-	"contributorsPerLine": 10,
-  "types": {
-    "conference": {
-      "symbol": "📆",
-      "description": "Added conference.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-    }
-  },
+	"contributorsPerLine": 7,
+	"types": {
+		"conference": {
+			"symbol": "📆",
+			"description": "Python conference (Added or updated)",
+			"link": "#conference-<%= contributor.login %>"
+		}
+	},
 	"contributors": [
-    {
-      "login": "JesperDramsch",
-      "name": "Jesper Dramsch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2620316?v=4",
-      "profile": "http://dramsch.net",
-      "contributions": [
-        "a11y",
-        "bug",
-        "blog",
-        "code",
-        "conference",
-        "content",
-        "doc",
-        "design",
-        "financial",
-        "ideas",
-        "infra",
-        "promotion",
-        "review",
-        "security",
-        "tool",
-        "translation",
-        "talk"
-      ]
-    },
-    {
-      "login": "abhshkdz",
-      "name": "Abhishek Das",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1156489?v=4",
-      "profile": "https://abhishekdas.com/",
-      "contributions": [
-        "code"
-      ]
-    },
+		{
+			"login": "JesperDramsch",
+			"name": "Jesper Dramsch",
+			"avatar_url": "https://avatars.githubusercontent.com/u/2620316?v=4",
+			"profile": "http://dramsch.net",
+			"contributions": [
+				"a11y",
+				"bug",
+				"blog",
+				"code",
+				"conference",
+				"content",
+				"doc",
+				"design",
+				"financial",
+				"ideas",
+				"infra",
+				"promotion",
+				"review",
+				"security",
+				"tool",
+				"translation",
+				"talk"
+			]
+		},
+		{
+			"login": "abhshkdz",
+			"name": "Abhishek Das",
+			"avatar_url": "https://avatars.githubusercontent.com/u/1156489?v=4",
+			"profile": "https://abhishekdas.com/",
+			"contributions": [
+				"code"
+			]
+		},
 		{
 			"login": "john-sandall",
 			"name": "John Sandall",
@@ -61,7 +61,7 @@
 				"conference",
 				"bug"
 			]
-		}
+		},
 		{
 			"login": "thibaudcolas",
 			"name": "Thibaud Colas",
@@ -125,5 +125,6 @@
 				"bug"
 			]
 		}
-	]
+	],
+	"repoType": "github"
 }
