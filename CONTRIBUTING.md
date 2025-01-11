@@ -15,6 +15,7 @@ Thank you for your interest in contributing to Python Deadlines! This guide will
   - [Making Changes](#making-changes)
   - [Pull Request Guidelines](#pull-request-guidelines)
   - [Using All-Contributors Bot](#using-all-contributors-bot)
+    - [Contributors](#contributors)
   - [Code Quality](#code-quality)
   - [Getting Help](#getting-help)
   - [Code of Conduct](#code-of-conduct)
@@ -171,6 +172,17 @@ Example:
 ```
 @all-contributors please add @janedoe for content,doc
 ```
+
+### Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Code Quality
 
