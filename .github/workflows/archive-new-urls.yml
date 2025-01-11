@@ -1,4 +1,4 @@
-name: Check New Conference URLs
+name: Archive New Conference URLs
 
 on:
   schedule:
