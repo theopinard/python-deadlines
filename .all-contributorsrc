@@ -9,6 +9,14 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
+
+      "login": "john-sandall",
+      "name": "John Sandall",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2884159?v=4",
+      "profile": "https://coefficient.ai",
+      "contributions": [
+        "content"
+      ],
       "login": "JesperDramsch",
       "name": "Jesper Dramsch",
       "avatar_url": "https://avatars.githubusercontent.com/u/2620316?v=4",
