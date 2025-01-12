@@ -370,8 +370,10 @@ description: Summary of the conference and its instances throughout the years.
       $("#all_confs .ConfItem").sort(function (a, b) {
         return $(a).attr('cfpDiff') - $(b).attr('cfpDiff');
       }).appendTo($("#coming_confs"));
-
+    });
   </script>
+
+    {% include sneks.html %}
 </body>
 
 </html>

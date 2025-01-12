@@ -45,7 +45,7 @@ h3 {
 }
 
 .page-header {
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 20px;
 	background-color: #f8f9fa;
 	padding: 20px 0;
@@ -356,4 +356,108 @@ footer {
 
 .fa-bluesky:hover {
 	color: #0085ff;
+}
+
+#left-snek {
+	right: 15rem;
+	z-index: 1000;
+	transform: scale(5) translateY(0.5rem);
+	transition: bottom ease 0.5s;
+}
+
+#left-snek:hover {
+	bottom: 0em;
+}
+
+#left-snek.annoyed {
+	animation: runAway 3s ease-in-out;
+	transition: opacity 1s ease-out;
+	transition-delay: 2s;
+	opacity: 0;
+}
+
+#right-snek.annoyed {
+	transition: transform 1s ease-out;
+	transition-delay: 2s;
+	transform: scale(5.5, 5.5);
+}
+
+#right-snek {
+	right: 4rem;
+	z-index: 1001;
+	transform: scale(-5.5, 5.5);
+	transition: bottom ease 0.5s;
+}
+
+#right-snek:hover {
+	bottom: 0em;
+}
+
+#smol-snek-body {
+	z-index: 1003;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: scale(-3.5, 3.5) translateY(0.5rem);
+}
+
+#smol-snek-tongue {
+	z-index: 1002;
+	position: absolute;
+	bottom: 2.7rem;
+	right: -0.8rem;
+	transform: scale(0.7);
+}
+
+#smol-snek-all {
+	z-index: 1003;
+	right: 3rem;
+	transition: bottom ease 0.5s;
+}
+
+#smol-snek-all:hover {
+	bottom: 0.5em;
+}
+
+.location-pin {
+	position: fixed;
+	opacity: 0;
+	bottom: -5rem;
+	transition: bottom 5.5s ease-out;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.location-pin.visible {
+	opacity: 1;
+	bottom: 1rem;
+}
+
+#right-snek.wiggle {
+	bottom: 2rem;
+}
+
+#smol-snek-all.wiggle {
+	bottom: 1.5rem;
+}
+
+@keyframes runAway {
+	0% {
+		transform: scale(5) translateX(0) rotate(0deg);
+	}
+	20% {
+		transform: scale(5) translateX(-20px) rotate(-5deg);
+	}
+	40% {
+		transform: scale(5) translateX(-40px) rotate(5deg);
+	}
+	100% {
+		transform: scale(5) translateX(-100vw) rotate(-10deg);
+	}
+}
+
+/* Only show on medium screens and up (≥768px) */
+@media (max-width: 767.98px) {
+	.location-pin {
+		display: none !important;
+	}
 }
