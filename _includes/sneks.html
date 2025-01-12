@@ -85,6 +85,69 @@
                             <rect x="-3" y="15" width="6" height="10" fill="#8B4513"/>
                         </g>
                     </pattern>
+                    <pattern id="visibility" patternUnits="userSpaceOnUse" width="100" height="100">
+                        <!-- Background -->
+                        <rect width="100" height="100" fill="#ffffff"/>
+
+                        <!-- Hearts using strokes instead of fills -->
+
+                        <!-- Top left heart -->
+                        <path d="M25,35 C25,25 15,25 15,35 C15,40 25,45 25,45 C25,45 35,40 35,35 C35,25 25,25 25,35"
+                                stroke="#55CDFC" stroke-width="2" fill="none"/>
+
+                        <!-- Top right heart -->
+                        <path d="M75,35 C75,25 65,25 65,35 C65,40 75,45 75,45 C75,45 85,40 85,35 C85,25 75,25 75,35"
+                                stroke="#F7A8B8" stroke-width="2" fill="none"/>
+
+                        <!-- Bottom left heart -->
+                        <path d="M25,85 C25,75 15,75 15,85 C15,90 25,95 25,95 C25,95 35,90 35,85 C35,75 25,75 25,85"
+                                stroke="#F7A8B8" stroke-width="2" fill="none"/>
+
+                        <!-- Bottom right heart -->
+                        <path d="M75,85 C75,75 65,75 65,85 C65,90 75,95 75,95 C75,95 85,90 85,85 C85,75 75,75 75,85"
+                                stroke="#55CDFC" stroke-width="2" fill="none"/>
+
+                        <!-- Simple crosses in white -->
+                        <g stroke="#ffffff" stroke-width="2">
+                            <path d="M50,45 L50,55 M45,50 L55,50"/>
+                            <path d="M20,45 L20,55 M15,50 L25,50"/>
+                            <path d="M80,45 L80,55 M75,50 L85,50"/>
+                        </g>
+                    </pattern>
+                    <pattern id="party" patternUnits="userSpaceOnUse" width="100" height="100">
+                    <!-- Background -->
+                    <rect width="100" height="100" fill="white"/>
+
+                    <!-- Balloon 1 -->
+                    <g transform="translate(25,25)">
+                        <circle cx="0" cy="0" r="10" fill="#FF69B4"/>
+                        <path d="M0,10 C0,15 2,20 0,25" stroke="#333" stroke-width="1" fill="none"/>
+                    </g>
+
+                    <!-- Party Hat -->
+                    <g transform="translate(75,25)">
+                        <polygon points="0,-15 10,10 -10,10" fill="#FFD700"/>
+                        <circle cx="0" cy="10" r="2" fill="#FF4500"/>
+                    </g>
+
+                    <!-- Star/Confetti -->
+                    <g transform="translate(25,75)">
+                        <polygon points="0,-8 2,-2 8,0 2,2 0,8 -2,2 -8,0 -2,-2" fill="#00CED1"/>
+                    </g>
+
+                    <!-- Balloon 2 -->
+                    <g transform="translate(75,75)">
+                        <circle cx="0" cy="0" r="10" fill="#7B68EE"/>
+                        <path d="M0,10 C0,15 -2,20 0,25" stroke="#333" stroke-width="1" fill="none"/>
+                    </g>
+
+                    <!-- Small Confetti Dots -->
+                    <circle cx="50" cy="50" r="2" fill="#FF4500"/>
+                    <circle cx="15" cy="50" r="2" fill="#FFD700"/>
+                    <circle cx="85" cy="50" r="2" fill="#00CED1"/>
+                    <circle cx="50" cy="15" r="2" fill="#7B68EE"/>
+                    <circle cx="50" cy="85" r="2" fill="#FF69B4"/>
+                    </pattern>
                     <pattern id="spider-web" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
                     <!-- Background -->
                     <rect width="100" height="100" fill="#FF8C00"/>

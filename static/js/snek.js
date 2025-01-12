@@ -33,6 +33,20 @@ function getSeasonStyles() {
 		};
 	}
 
+	if (month === 6 && day === 21) {
+		return {
+			body: 'url(#party)',
+			tongue: 'purple',
+		};
+	}
+
+	if (month == 2 && day == 30) {
+		return {
+			body: 'url(#visibility)',
+			tongue: 'purple',
+		};
+	}
+
 	if (month === 2 && day === 7) {
 		return {
 			body: 'pink',
