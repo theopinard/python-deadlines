@@ -30,25 +30,21 @@
 					<pattern
 						id="candy-cane"
 						patternUnits="userSpaceOnUse"
-						width="20"
-						height="20"
-						patternTransform="rotate(45)"
+						width="60"
+						height="60"
+						patternTransform="rotate(60)"
 					>
-						<rect width="40" height="80" fill="red" />
-						<rect x="7" width="40" height="80" fill="white" />
+			            <rect width="120" height="240" fill="red" />      <!-- Increased from 40x80 -->
+                        <rect x="21" width="120" height="240" fill="white" />
 					</pattern>
-                    <pattern
-                        id="easter-eggs"
-                        patternUnits="userSpaceOnUse"
-                        width="70"
-                        height="70"
-                        >
-                        <rect width="100%" height="100%" fill="lightyellow" />
-                        <ellipse cx="15" cy="15" rx="10" ry="15" fill="green" />
-                        <ellipse cx="15" cy="15" rx="10" ry="15" fill="none" stroke="white" stroke-width="2" />
+                    <pattern id="easter-eggs" patternUnits="userSpaceOnUse" width="560" height="560">
+                        <rect width="100%" height="100%" fill="lightgreen"/>
+                        <!-- Egg 1 -->
+                        <ellipse cx="110" cy="120" rx="80" ry="120" fill="green"/>
                         <!-- Egg 2 -->
-                        <ellipse cx="35" cy="35" rx="10" ry="15" fill="blue" />
-                        <ellipse cx="35" cy="35" rx="10" ry="15" fill="none" stroke="white" stroke-width="2" />
+                        <ellipse cx="290" cy="280" rx="80" ry="120" fill="blue"/>
+                        <!-- Egg 3 -->
+                        <ellipse cx="140" cy="430" rx="80" ry="120" fill="orange"/>
                     </pattern>
                     <pattern id="pride" patternUnits="userSpaceOnUse" width="315" height="885" patternTransform="rotate(30) scale(0.75, 0.25)">
                         <!-- Rainbow stripes -->
@@ -60,6 +56,78 @@
                         <rect width="315" height="147.5" y="737.5" fill="#8B00FF"></rect> <!-- Purple -->
 
                     </pattern>
+                    <pattern id="earth-day" patternUnits="userSpaceOnUse" width="100" height="100">
+                        <rect width="100" height="100" fill="lightgreen"/>
+
+                        <!-- Tree 1 -->
+                        <g transform="translate(25,25)">
+                            <!-- Triangle top -->
+                            <polygon points="0,-15 15,15 -15,15" fill="#228B22"/>
+                            <!-- Trunk -->
+                            <rect x="-3" y="15" width="6" height="10" fill="#8B4513"/>
+                        </g>
+
+                        <!-- Tree 2 -->
+                        <g transform="translate(75,25)">
+                            <polygon points="0,-15 15,15 -15,15" fill="#228B22"/>
+                            <rect x="-3" y="15" width="6" height="10" fill="#8B4513"/>
+                        </g>
+
+                        <!-- Tree 3 -->
+                        <g transform="translate(25,75)">
+                            <polygon points="0,-15 15,15 -15,15" fill="#228B22"/>
+                            <rect x="-3" y="15" width="6" height="10" fill="#8B4513"/>
+                        </g>
+
+                        <!-- Tree 4 -->
+                        <g transform="translate(75,75)">
+                            <polygon points="0,-15 15,15 -15,15" fill="#228B22"/>
+                            <rect x="-3" y="15" width="6" height="10" fill="#8B4513"/>
+                        </g>
+                    </pattern>
+                    <pattern id="spider-web" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+                    <!-- Background -->
+                    <rect width="100" height="100" fill="#FF8C00"/>
+
+                    <g stroke="black" fill="none">
+                        <!-- Center point -->
+                        <circle cx="50" cy="50" r="1" fill="white"/>
+
+                        <!-- Radial threads - positioned at octagon corners -->
+                        <path d="M50,50 L50,0" stroke-width="0.7"/>
+                        <path d="M50,50 L100,50" stroke-width="0.7"/>
+                        <path d="M50,50 L50,100" stroke-width="0.7"/>
+                        <path d="M50,50 L0,50" stroke-width="0.7"/>
+                        <path d="M50,50 L92,8" stroke-width="0.7"/>
+                        <path d="M50,50 L92,92" stroke-width="0.7"/>
+                        <path d="M50,50 L8,92" stroke-width="0.7"/>
+                        <path d="M50,50 L8,8" stroke-width="0.7"/>
+
+                        <!-- Concentric octagons aligned with radial lines -->
+                        <!-- Smallest octagon -->
+                        <path d="M50,40 L56,42 L58,50 L56,58 L50,60 L44,58 L42,50 L44,42 Z"
+                            stroke-width="0.3"/>
+
+                        <!-- Small octagon -->
+                        <path d="M50,32 L62,34 L66,50 L62,66 L50,68 L38,66 L34,50 L38,34 Z"
+                            stroke-width="0.3"/>
+
+                        <!-- Medium octagon -->
+                        <path d="M50,24 L70,26 L74,50 L70,74 L50,76 L30,74 L26,50 L30,26 Z"
+                            stroke-width="0.3"/>
+
+                        <!-- Large octagon -->
+                        <path d="M50,16 L78,18 L82,50 L78,82 L50,84 L22,82 L18,50 L22,18 Z"
+                            stroke-width="0.3"/>
+
+                        <!-- Connecting threads between octagons -->
+                        <path d="M44,42 L38,34" stroke-width="0.2" opacity="0.6"/>
+                        <path d="M56,42 L62,34" stroke-width="0.2" opacity="0.6"/>
+                        <path d="M56,58 L62,66" stroke-width="0.2" opacity="0.6"/>
+                        <path d="M44,58 L38,66" stroke-width="0.2" opacity="0.6"/>
+                    </g>
+                    </pattern>
+
 				</defs>
 				<path
 					id="Snek"
@@ -67,7 +135,7 @@
 					stroke="#646464"
 					stroke-width="1"
 			        d="M 88.00,78.38 C 89.95,78.23 90.96,77.98 93.00,78.38 110.72,80.10 107.67,105.69 90.00,103.80 76.59,102.36 72.32,84.05 88.00,78.38 Z M 307.00,885.00 C 307.00,885.00 307.00,160.00 307.00,160.00 307.00,85.00 243.00,10.00 157.00,10.00 82.46,10.00 8.86,82.12 7.00,157.09 7.00,159.13 8.63,160.00 11.73,160.00 34.54,160.00 132.00,160.00 132.00,160.00 149.48,160.00 157.00,166.91 157.00,185.00 157.00,185.00 157.00,885.00 157.00,885.00 157.00,885.00 307.00,885.00 307.00,885.00 Z"
-	/>
+	            />
 			</svg>
 		</div>
 		<div id="smol-snek-tongue">

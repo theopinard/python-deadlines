@@ -6,7 +6,7 @@ function getSeasonStyles() {
 	// Halloween: October
 	if (month === 9) {
 		return {
-			body: 'orange',
+			body: 'url(#spider-web)',
 			tongue: 'black',
 		};
 	}
@@ -19,10 +19,38 @@ function getSeasonStyles() {
 		};
 	}
 
-	if (month === 6) {
+	if (month === 5) {
 		return {
 			body: 'url(#pride)',
 			tongue: 'url(#progress)',
+		};
+	}
+
+	if (month === 3 && day === 21) {
+		return {
+			body: 'url(#earth-day)',
+			tongue: 'blue',
+		};
+	}
+
+	if (month === 2 && day === 7) {
+		return {
+			body: 'pink',
+			tongue: 'red',
+		};
+	}
+
+	if (month === 10 && day === 18) {
+		return {
+			body: 'lightblue',
+			tongue: 'blue',
+		};
+	}
+
+	if (month == 2 && day == 17) {
+		return {
+			body: 'lightgreen',
+			tongue: 'green',
 		};
 	}
 
@@ -55,7 +83,7 @@ function getSeasonStyles() {
 	if (diff <= twoWeeksInMs) {
 		return {
 			body: 'url(#easter-eggs)',
-			tongue: 'red',
+			tongue: 'orange',
 		};
 	}
 
