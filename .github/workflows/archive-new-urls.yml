@@ -1,6 +1,10 @@
 name: Archive New Conference URLs
 
 on:
+  push:
+    branches: [ main, master ]
+    paths:
+    - '_data/**'
   schedule:
   # Runs at 00:00 UTC on Friday
   # https://crontab.guru/#0_0_*_*_6
