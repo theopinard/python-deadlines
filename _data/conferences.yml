@@ -385,6 +385,21 @@
     latitude: 34.3917241
     longitude: 132.4517589
 
+- conference: PyCon UK
+  year: 2025
+  link: https://2025.pyconuk.org/
+  cfp: TBA
+  timezone: Europe/London
+  place: Manchester, UK
+  start: 2025-09-19
+  end: 2025-09-22
+  mastodon: https://fosstodon.org/@PyConUK
+  sub: PY
+  location:
+  - title: PyCon UK 2025
+    latitude: 53.4794892
+    longitude: -2.2451148
+
 - conference: Python Nordeste
   year: 2025
   link: https://2025.pythonnordeste.org/
