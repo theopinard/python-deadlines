@@ -298,34 +298,6 @@
     latitude: 47.3615882
     longitude: 7.354445
 
-- conference: PyCon Tanzania
-  alt_name: Python Tanzania Conference
-  year: 2024
-  link: https://pycon.or.tz/
-  cfp_link: https://pycon.or.tz/speak/
-  cfp: '2024-11-12 23:59:00'
-  place: Dar Es Salaam, Tanzania
-  start: 2024-12-04
-  end: 2024-12-05
-  sponsor: https://pycon.or.tz/sponsor/
-  sub: PY
-  location:
-  - title: PyCon Tanzania 2024
-    latitude: -6.8160837
-    longitude: 39.2803583
-
-- conference: PyData Global
-  year: 2024
-  link: https://pydata.org/global2024/
-  cfp_link: https://pydata.org/global2024/call-for-proposals
-  cfp: '2024-10-07 23:59:00'
-  cfp_ext: '2024-10-14 23:59:00'
-  place: Online
-  start: 2024-12-03
-  end: 2024-12-05
-  sponsor: https://pydata.org/global2024/sponsor
-  sub: DATA
-
 - conference: PyLadiesCon
   year: 2024
   link: https://conference.pyladies.com/
