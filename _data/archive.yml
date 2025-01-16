@@ -2836,6 +2836,21 @@
     latitude: 32.0852997
     longitude: 34.7818064
 
+- conference: PyConf Hyderabad
+  year: 2022
+  link: https://pyconf.hydpy.org/2022/
+  cfp_link: https://web.archive.org/web/20220927033100/https://www.papercall.io/pyconfhyd-cfp-2022
+  cfp: '2022-11-08 00:00:00'
+  timezone: UTC
+  place: Hyderabad, India
+  start: 2022-12-10
+  end: 2022-12-10
+  sub: PY
+  location:
+  - title: PyConf Hyderabad 2022
+    latitude: 17.4454957
+    longitude: 78.34854697544472
+
 - conference: PyCon Tanzania
   alt_name: Python Tanzania Conference
   year: 2022
@@ -4263,6 +4278,17 @@
   end: 2020-12-12
   sub: PY
 
+- conference: PyConf Hyderabad
+  year: 2020
+  link: https://pyconf.hydpy.org/2020/
+  cfp_link: https://www.papercall.io/pyconf-hyd-2020
+  cfp: '2020-11-10 23:42:00'
+  timezone: UTC
+  place: Online
+  start: 2020-12-05
+  end: 2020-12-06
+  sub: PY
+
 - conference: PyDay Chile
   year: 2020
   link: https://pydhttps//web.archive.org/web/20201103151233/https://pyday.cl/ay.cl/
@@ -5096,6 +5122,21 @@
   - title: PyCon Tanzania 2019
     latitude: -6.8160837
     longitude: 39.2803583
+
+- conference: PyConf Hyderabad
+  year: 2019
+  link: https://pyconf.hydpy.org/2019/
+  cfp_link: https://web.archive.org/web/20200806092040/https://papercall.io/pyconf-hyderabad2019
+  cfp: '2019-11-07 18:29:00'
+  timezone: UTC
+  place: Hyderabad, India
+  start: 2019-12-07
+  end: 2019-12-08
+  sub: PY
+  location:
+  - title: PyConf Hyderabad 2019
+    latitude: 17.4454957
+    longitude: 78.34854697544472
 
 - conference: PyData Austin
   year: 2019
