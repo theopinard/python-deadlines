@@ -124,6 +124,21 @@
     latitude: 59.4372155
     longitude: 24.7453688
 
+- conference: PyConf Hyderabad
+  year: 2025
+  link: https://2025.pyconfhyd.org/
+  cfp_link: https://www.papercall.io/pyconfhyd2025
+  cfp: '2025-01-13 23:30:00'
+  timezone: UTC
+  place: Hyderabad, India
+  start: 2025-02-22
+  end: 2025-02-23
+  sub: PY
+  location:
+  - title: PyConf Hyderabad 2025
+    latitude: 17.4454957
+    longitude: 78.34854697544472
+
 - conference: DjangoCon Europe
   year: 2025
   link: https://2025.djangocon.eu/
