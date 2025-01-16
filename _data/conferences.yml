@@ -298,17 +298,6 @@
     latitude: 47.3615882
     longitude: 7.354445
 
-- conference: PyLadiesCon
-  year: 2024
-  link: https://conference.pyladies.com/
-  cfp_link: https://pretalx.com/pyladiescon-2024/cfp
-  cfp: '2024-09-16 21:32:00'
-  place: Online
-  start: 2024-12-06
-  end: 2024-12-08
-  sponsor: https://conference.pyladies.com/sponsors/
-  sub: PY
-
 - conference: PyCascades
   year: 2025
   link: https://2025.pycascades.com/
