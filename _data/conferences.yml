@@ -361,6 +361,23 @@
     latitude: 49.0068705
     longitude: 8.4034195
 
+- conference: PyCon Sweden
+  alt_name: PyCon SE
+  year: 2025
+  link: https://pycon.se/
+  cfp: TBA
+  timezone: Europe/Stockholm
+  place: Stockholm, Sweden
+  start: 2025-10-30
+  end: 2025-10-31
+  sponsor: https://pycon.se/#sponsorship
+  mastodon: https://fosstodon.org/@pyconsweden
+  sub: PY
+  location:
+  - title: PyCon Sweden 2025
+    latitude: 59.3251172
+    longitude: 18.0710935
+
 - conference: PyTorch Conference
   year: 2025
   link: https://events.linuxfoundation.org/pytorch-conference-2025/
