@@ -424,6 +424,21 @@
     latitude: -23.5506507
     longitude: -46.6333824
 
+- conference: Swiss Python Summit
+  year: 2025
+  link: https://python-summit.ch/
+  cfp: TBA
+  timezone: Europe/Zurich
+  place: Rapperswil, Switzerland
+  start: 2025-10-16
+  end: 2025-10-17
+  twitter: pythonsummit
+  sub: PY
+  location:
+  - title: Swiss Python Summit 2024
+    latitude: 47.2266532
+    longitude: 8.8164042
+
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2025
