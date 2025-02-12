@@ -1,16 +1,5 @@
 ---
 
-- conference: PyData London
-  year: 2025
-  link: https://pydata.org/london2025
-  cfp_link: https://pydata.org/london2025/cfp#submit
-  cfp: '2025-02-24 23:59:00'
-  timezone: Europe/London
-  place: London, UK
-  start: 2025-06-06
-  end: 2025-06-08
-  sub: DATA
-
 - conference: Xtreme Python
   year: 2025
   link: https://xtremepython.dev/2025/
@@ -100,6 +89,21 @@
   - title: Piter Py 2025
     latitude: 59.9606739
     longitude: 30.1586551
+
+- conference: PyData London
+  year: 2025
+  link: https://pydata.org/london2025
+  cfp_link: https://pydata.org/london2025/cfp#submit
+  cfp: '2025-02-24 23:59:00'
+  timezone: Europe/London
+  place: London, UK
+  start: 2025-06-06
+  end: 2025-06-08
+  sub: DATA
+  location:
+  - title: PyData London 2025
+    latitude: 51.5074456
+    longitude: -0.1277653
 
 - conference: PyCon Lithuania
   alt_name: PyCon LT
