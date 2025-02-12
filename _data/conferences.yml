@@ -1,5 +1,16 @@
 ---
 
+- conference: PyData London
+  year: 2025
+  link: https://pydata.org/london2025
+  cfp_link: https://pydata.org/london2025/cfp#submit
+  cfp: '2025-02-24 23:59:00'
+  timezone: Europe/London
+  place: London, UK
+  start: 2025-06-06
+  end: 2025-06-08
+  sub: DATA
+
 - conference: Xtreme Python
   year: 2025
   link: https://xtremepython.dev/2025/
