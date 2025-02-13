@@ -1,0 +1,39 @@
+name: PR Conference Sort
+
+on:
+  pull_request:
+    paths:
+      - '_data/conferences.yml'
+
+jobs:
+  validate-and-sort:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+    - name: Setup Pixi
+      uses: prefix-dev/setup-pixi@v0.8.1
+
+    - name: Run sort command
+      run: pixi run sort
+
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+
+    - name: Commit changes to PR
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git commit -am "chore: sort conferences"
+        git push
