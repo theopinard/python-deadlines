@@ -47,10 +47,10 @@ jobs:
     - name: Add contributor and commit if changed
       run: |
         PR_AUTHOR="${{ github.event.pull_request.user.login }}"
-        
+
         pixi run install
         pixi run add $PR_AUTHOR conference
-        
+
         if ! git diff --exit-code; then
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
