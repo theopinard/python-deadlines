@@ -40,16 +40,16 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
-- conference: Python Conference Austria
+- conference: PyCon Austria
   alt_name: PyDays Vienna
   year: 2025
-  link: https://pycon25.uber.space/en/
+  link: https://at.pycon.org/
   cfp_link: https://www.papercall.io/pycon-austria
   cfp: '2025-03-15 13:00:00'
   timezone: Europe/Vienna
   place: Eisenstadt, Austria
-  start: 2025-04-05
-  end: 2025-04-08
+  start: 2025-04-06
+  end: 2025-04-07
   sponsor: https://pycon25.uber.space/en/sponsor-information/
   sub: PY
   location:
@@ -212,7 +212,7 @@
   year: 2025
   link: https://2025.pycon.de/
   cfp_link: https://pretalx.com/pyconde-pydata-2025/cfp
-  cfp: '2024-12-22 23:59:59'
+  cfp: '2024-12-22 23:59:00'
   cfp_ext: '2025-01-05 23:59:59'
   timezone: Europe/Berlin
   place: Darmstadt, Germany
@@ -298,7 +298,7 @@
 - conference: FOSDEM
   alt_name: Python Devroom @ FOSDEM
   year: 2025
-  link: https://fosdem.org/2025
+  link: https://fosdem.org/2025/schedule/track/python/
   cfp_link: https://gist.github.com/malemburg/4f2d1ceeb24d26c35740390cf712af5e
   cfp: '2024-12-01 23:59:00'
   timezone: Europe/Brussels
