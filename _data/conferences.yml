@@ -497,3 +497,16 @@
   - title: PyCamp Argentina 2025
     latitude: -33.8120471
     longitude: -59.5051759
+
+- conference: DjangoCongress Japan
+  year: 2025
+  link: https://djangocongress.jp/
+  cfp: None
+  place: Tokyo, Japan
+  start: 2025-02-22
+  end: 2025-02-22
+  sub: WEB
+  location:
+  - title: DjangoCongress JP 2025
+    latitude: 35.718741949999995
+    longitude: 139.73118058112317
