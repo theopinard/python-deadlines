@@ -3,6 +3,7 @@ alt_name:
   - DjangoCon AU
   FOSDEM:
   - Python Devroom @ FOSDEM
+  - Python devroom @ FOSDEM
   Kiwi PyCon:
   - PyCon NZ
   - Kiwi PyCon I
@@ -29,6 +30,9 @@ alt_name:
   - PyCon APAC
   PyCon Australia:
   - PyCon AU
+  PyCon Austria:
+  - PyCon AT
+  - Python Conference Austria
   PyCon Czechia:
   - PyCon CZ
   - PyCon Czech Republic
@@ -43,6 +47,8 @@ alt_name:
   - PyCon.DE
   PyCon Germany & PyData Berlin:
   - PyCon DE & PyData Berlin
+  PyCon Germany & PyData Conference:
+  - PyCon DE & PyData
   PyCon Hong Kong:
   - PyCon HK
   PyCon Indonesia:
