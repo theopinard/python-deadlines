@@ -13,7 +13,7 @@
     <channel>
         <title>{{ site.title | xml_escape }}</title>
         <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-        <link>{{ site.url }}{{ site.baseurl }}/feed.xml</link>
+        <link>{{ site.url }}</link>
         <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
         <language>en-US</language>
         <copyright>Copyright {{ site.time | date: '%Y' }}, {{ site.title | xml_escape }}</copyright>
