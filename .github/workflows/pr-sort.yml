@@ -4,61 +4,63 @@ on:
   pull_request:
     paths:
     - '_data/conferences.yml'
-
-permissions:
-  contents: write
-  pull-requests: write
+    types:
+    - closed
+    branches:
+    - main
 
 jobs:
-  sort:
+  process-merged-pr:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
 
     - name: Setup Pixi
       uses: prefix-dev/setup-pixi@v0.8.2
 
-    - name: Run sort command
-      run: pixi run sort
-
-    - name: Check and commit sort changes
+    - name: Create changes
+      id: changes
       run: |
-        if ! git diff --exit-code; then
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add _data/*
-          git commit -m "chore: sort conferences"
-          git push
-        fi
+        # Create a new branch
+        git checkout -b automated-updates-${{ github.event.pull_request.number }}
 
-  add-contributor:
-    runs-on: ubuntu-latest
-    needs: sort
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        # Run your commands
+        pixi run sort
 
-    - name: Setup Pixi
-      uses: prefix-dev/setup-pixi@v0.8.2
-
-    - name: Add contributor and commit if changed
-      run: |
         PR_AUTHOR="${{ github.event.pull_request.user.login }}"
-
         pixi run install
         pixi run add $PR_AUTHOR conference
 
-        if ! git diff --exit-code; then
+        # Check if there are changes
+        if ! git diff --quiet; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+
+          # Stage and commit changes
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .all-contributorsrc README.md CONTRBUTING.md
-          git commit -m "docs: add $PR_AUTHOR as contributor for conferences"
-          git push
+          git add _data/* .all-contributorsrc README.md CONTRBUTING.md
+          git commit -m "chore: post-merge updates
+
+          * Sort conferences
+          * Add $PR_AUTHOR as contributor"
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
+
+    - name: Create Pull Request
+      if: steps.changes.outputs.has_changes == 'true'
+      uses: peter-evans/create-pull-request@v6
+      with:
+        title: 'Automated updates from PR #${{ github.event.pull_request.number }}'
+        body: |
+          This PR was automatically created after merging #${{ github.event.pull_request.number }}
+
+          Changes include:
+          - Sorted conferences
+          - Added @${{ github.event.pull_request.user.login }} as contributor
+
+          Please review and merge these automated updates.
+        branch: automated-updates-${{ github.event.pull_request.number }}
+        delete-branch: true
