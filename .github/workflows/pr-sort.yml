@@ -3,7 +3,11 @@ name: Pull Request Conference Sort & All-contrib
 on:
   pull_request:
     paths:
-      - '_data/conferences.yml'
+    - '_data/conferences.yml'
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   sort:
@@ -14,6 +18,7 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.ref }}
         repository: ${{ github.event.pull_request.head.repo.full_name }}
+        token: ${{ secrets.GH_PAT }}
 
     - name: Setup Pixi
       uses: prefix-dev/setup-pixi@v0.8.2
@@ -40,6 +45,7 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.ref }}
         repository: ${{ github.event.pull_request.head.repo.full_name }}
+        token: ${{ secrets.GH_PAT }}
 
     - name: Setup Pixi
       uses: prefix-dev/setup-pixi@v0.8.2
