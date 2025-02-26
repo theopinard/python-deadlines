@@ -57,6 +57,22 @@
     latitude: 53.2190652
     longitude: 6.5680077
 
+- conference: PyCon Colombia
+  year: 2025
+  link: https://2025.pycon.co/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSeXZshPp4RhPh68c8PuaZ86lRVRThTlEoMkzgzvodN7TLheaQ/viewform?pli=1
+  cfp: '2025-04-06 23:59:59'
+  timezone: America/Bogota
+  place: Medellín, Colombia
+  start: 2025-07-04
+  end: 2025-07-06
+  twitter: PyConColombia
+  sub: PY
+  location:
+  - title: PyCon Colombia 2025
+    latitude: 6.2443382
+    longitude: -75.573553
+
 - conference: PyCon Austria
   alt_name: PyDays Vienna
   year: 2025
