@@ -1,6 +1,5 @@
 import argparse
 import re
-import shutil
 import subprocess  # noqa: S404
 from collections import defaultdict
 from dataclasses import dataclass
@@ -12,7 +11,8 @@ from urllib.parse import quote
 
 @dataclass
 class ConventionalCommit:
-    """A structured representation of a conventional commit.
+    """
+    A structured representation of a conventional commit with enhanced metadata processing.
 
     Parameters
     ----------
@@ -42,7 +42,8 @@ class ConventionalCommit:
     date: datetime
 
     def generate_url(self) -> str:
-        """Generate a formatted URL for the conference entry.
+        """
+        Generate a formatted URL for the conference entry.
 
         Returns
         -------
@@ -58,7 +59,8 @@ class ConventionalCommit:
         return f"https://pythondeadlin.es/conference/{sanitized}"
 
     def to_markdown(self) -> str:
-        """Convert the commit to a markdown-formatted string.
+        """
+        Convert the commit to a markdown-formatted string.
 
         Returns
         -------
@@ -74,13 +76,14 @@ class ConventionalCommit:
 
 
 class GitCommitParser:
-    """Analyzes git repository history for conference-related commits.
+    """
+    Analyzes git repository history for conference-related commits with markdown output capabilities.
 
     Parameters
     ----------
     repo_path : str, optional
         Path to the git repository, by default "."
-    prefixes : List[str] | None, optional
+    prefixes : List[str], optional
         List of commit prefixes to search for, by default ["cfp", "conf"]
     days : int, optional
         Number of days to look back in history, by default None
@@ -88,38 +91,15 @@ class GitCommitParser:
 
     def __init__(self, repo_path: str = ".", prefixes: list[str] | None = None, days: int | None = None):
         self.repo_path = repo_path
-        self.git_path = shutil.which("git")
         self.prefixes = prefixes or ["cfp", "conf"]
         self.days = days
         self._prefix_pattern = re.compile(rf'^({"|".join(map(re.escape, self.prefixes))}):\s*(.+)$', re.IGNORECASE)
-        if not self.git_path:
-            raise RuntimeError("Git executable not found in PATH")
 
     def _execute_git_command(self, command: list[str]) -> str:
         """Implementation remains unchanged."""
-        # Validate input commands against allowed list
-        allowed_commands = {
-            "log",
-            "show",
-            "diff",
-            "status",
-            "rev-parse",
-            "--format",
-            "--pretty",
-            "--no-merges",
-            "--name-only",
-            "HEAD",
-            "origin",
-            "--abbrev-ref",
-            # Add other allowed commands as needed
-        }
-
-        if not all(cmd.split("=")[0] in allowed_commands for cmd in command):
-            raise ValueError("Invalid or unauthorized git command")
-
         try:
             result = subprocess.run(
-                [self.git_path, *command],  # noqa: S603
+                ["git", *command],  # noqa: S603, S607
                 cwd=self.repo_path,
                 capture_output=True,
                 text=True,
@@ -174,7 +154,8 @@ class GitCommitParser:
         return commits
 
     def _generate_link_list(self, commits: list[ConventionalCommit]) -> str:
-        """Generate a comma-separated list of markdown-formatted links.
+        """
+        Generate a comma-separated list of markdown-formatted links.
 
         Parameters
         ----------
@@ -202,7 +183,8 @@ class GitCommitParser:
         return f"{', '.join(links[:-1])}, and {links[-1]}"
 
     def generate_markdown_report(self) -> str:
-        """Generate a markdown-formatted report of commits grouped by type.
+        """
+        Generate a markdown-formatted report of commits grouped by type.
 
         Returns
         -------
@@ -260,7 +242,8 @@ def parse_arguments() -> argparse.Namespace:
 
 
 def main():
-    """Main execution function with markdown report generation.
+    """
+    Main execution function with markdown report generation.
 
     Notes
     -----
