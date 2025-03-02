@@ -10,6 +10,20 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
+- conference: PyOhio
+  year: 2025
+  link: https://pyohio.org/2025/
+  cfp: '2025-05-26 23:59:00'
+  timezone: America/New_York
+  place: Cleveland, USA
+  start: 2025-07-26
+  end: 2025-07-27
+  sub: PY
+  location:
+  - title: PyOhio 2025
+    latitude: 40.2253569
+    longitude: -82.6881395
+
 - conference: PyCamp España
   year: 2025
   link: https://pycamp.es/
