@@ -104,6 +104,21 @@
     latitude: 47.8454821
     longitude: 16.5249288
 
+- conference: Piter Py
+  alt_name: PiterPy
+  year: 2025
+  link: https://piterpy.com/en/
+  cfp_link: https://piterpy.com/en/callforpapers/
+  cfp: '2025-03-12 23:59:00'
+  place: Saint Petersburg, Russia
+  start: 2025-05-16
+  end: 2025-05-17
+  sub: PY
+  location:
+  - title: Piter Py 2025
+    latitude: 59.9606739
+    longitude: 30.1586551
+
 - conference: SciPy US
   alt_name: SciPy
   year: 2025
@@ -120,22 +135,6 @@
   - title: SciPy US 2025
     latitude: 47.2455013
     longitude: -122.438329
-
-- conference: Piter Py
-  alt_name: PiterPy
-  year: 2025
-  link: https://piterpy.com/en/
-  cfp_link: https://piterpy.com/en/callforpapers/
-  cfp: '2025-02-25 23:59:00'
-  place: Saint Petersburg, Russia
-  start: 2025-05-09
-  end: 2025-05-11
-  sub: PY
-  note: Conference dates subject to change
-  location:
-  - title: Piter Py 2025
-    latitude: 59.9606739
-    longitude: 30.1586551
 
 - conference: PyData London
   year: 2025
