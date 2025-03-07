@@ -1,10 +1,59 @@
 function getSeasonStyles() {
 	const today = new Date();
-	const month = today.getMonth(); // 0-11
+	const month = today.getMonth() + 1; // 1-12
 	const day = today.getDate();
 
+	if (month === 4 && day === 21) {
+		return {
+			body: 'url(#earth-day)',
+			tongue: 'blue',
+		};
+	}
+
+	if (month === 7 && day === 22) {
+		return {
+			body: 'url(#party)',
+			tongue: 'purple',
+		};
+	}
+
+	if (month == 3 && day == 31) {
+		return {
+			body: 'url(#visibility)',
+			tongue: 'purple',
+		};
+	}
+
+	if (month === 3 && day === 8) {
+		return {
+			body: 'pink',
+			tongue: 'red',
+		};
+	}
+
+	if (month === 11 && day === 19) {
+		return {
+			body: 'lightblue',
+			tongue: 'blue',
+		};
+	}
+
+	if (month == 3 && day == 17) {
+		return {
+			body: 'lightgreen',
+			tongue: 'green',
+		};
+	}
+
+	if (month === 6) {
+		return {
+			body: 'url(#pride)',
+			tongue: 'url(#progress)',
+		};
+	}
+
 	// Halloween: October
-	if (month === 9) {
+	if (month === 10) {
 		return {
 			body: 'url(#spider-web)',
 			tongue: 'black',
@@ -12,59 +61,10 @@ function getSeasonStyles() {
 	}
 
 	// Christmas: December and first week of January
-	if (month === 11 || (month === 0 && day <= 7)) {
+	if (month === 12 || (month === 1 && day <= 7)) {
 		return {
 			body: 'url(#candy-cane)',
 			tongue: 'red',
-		};
-	}
-
-	if (month === 5) {
-		return {
-			body: 'url(#pride)',
-			tongue: 'url(#progress)',
-		};
-	}
-
-	if (month === 3 && day === 21) {
-		return {
-			body: 'url(#earth-day)',
-			tongue: 'blue',
-		};
-	}
-
-	if (month === 6 && day === 21) {
-		return {
-			body: 'url(#party)',
-			tongue: 'purple',
-		};
-	}
-
-	if (month == 2 && day == 30) {
-		return {
-			body: 'url(#visibility)',
-			tongue: 'purple',
-		};
-	}
-
-	if (month === 2 && day === 7) {
-		return {
-			body: 'pink',
-			tongue: 'red',
-		};
-	}
-
-	if (month === 10 && day === 18) {
-		return {
-			body: 'lightblue',
-			tongue: 'blue',
-		};
-	}
-
-	if (month == 2 && day == 17) {
-		return {
-			body: 'lightgreen',
-			tongue: 'green',
 		};
 	}
 
