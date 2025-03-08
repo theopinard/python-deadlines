@@ -10,6 +10,22 @@
   sponsor: https://xtremepython.dev/2025/sponsors/
   sub: PY
 
+- conference: PyTorch Conference
+  year: 2025
+  link: https://events.linuxfoundation.org/pytorch-conference-2025/
+  cfp_link: https://events.linuxfoundation.org/pytorch-conference/program/cfp/
+  cfp: '2025-06-01 23:59:00'
+  timezone: America/Los_Angeles
+  place: San Francisco, USA
+  start: 2025-10-22
+  end: 2025-10-23
+  sponsor: https://events.linuxfoundation.org/sponsor-pytorch-25
+  sub: DATA
+  location:
+  - title: PyTorch Conference 2025
+    latitude: 37.7681571
+    longitude: -122.392929
+
 - conference: PyOhio
   year: 2025
   link: https://pyohio.org/2025/
@@ -421,21 +437,6 @@
   - title: PyCon Sweden 2025
     latitude: 59.3251172
     longitude: 18.0710935
-
-- conference: PyTorch Conference
-  year: 2025
-  link: https://events.linuxfoundation.org/pytorch-conference-2025/
-  cfp: TBA
-  timezone: America/Los_Angeles
-  place: San Francisco, USA
-  start: 2025-10-22
-  end: 2025-10-23
-  sponsor: https://events.linuxfoundation.org/sponsor-pytorch-25
-  sub: DATA
-  location:
-  - title: PyTorch Conference 2025
-    latitude: 37.7681571
-    longitude: -122.392929
 
 - conference: Swiss Python Summit
   year: 2025
