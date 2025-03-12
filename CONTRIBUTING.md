@@ -194,6 +194,7 @@ Example:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/radujica"><img src="https://avatars.githubusercontent.com/u/8166962?v=4?s=100" width="100px;" alt="Radu"/><br /><sub><b>Radu</b></sub></a><br /><a href="https://github.com/JesperDramsch/python-deadlines/issues?q=author%3Aradujica" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://isabelizimm.me"><img src="https://avatars.githubusercontent.com/u/54685329?v=4?s=100" width="100px;" alt="Isabel Zimmerman"/><br /><sub><b>Isabel Zimmerman</b></sub></a><br /><a href="https://github.com/JesperDramsch/python-deadlines/issues?q=author%3Aisabelizimm" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jeroenjanssens.com/"><img src="https://avatars.githubusercontent.com/u/1368256?v=4?s=100" width="100px;" alt="Jeroen Janssens"/><br /><sub><b>Jeroen Janssens</b></sub></a><br /><a href="#conference-jeroenjanssens" title="Python conference (Added or updated)">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/systematicguy"><img src="https://avatars.githubusercontent.com/u/12820811?v=4?s=100" width="100px;" alt="David Horvath"/><br /><sub><b>David Horvath</b></sub></a><br /><a href="#conference-systematicguy" title="Python conference (Added or updated)">📆</a></td>
     </tr>
   </tbody>
 </table>
