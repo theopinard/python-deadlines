@@ -1,5 +1,22 @@
 ---
 
+- conference: FOSDEM
+  alt_name: Python Devroom @ FOSDEM
+  year: 2025
+  link: https://fosdem.org/2025/schedule/track/python/
+  cfp_link: https://gist.github.com/malemburg/4f2d1ceeb24d26c35740390cf712af5e
+  cfp: '2024-12-01 23:59:00'
+  timezone: Europe/Brussels
+  place: Brussels, Belgium
+  start: 2025-02-02
+  end: 2025-02-02
+  sponsor: https://fosdem.org/2025/about/sponsors
+  sub: PY
+  location:
+  - title: FOSDEM 2025
+    latitude: 50.8465573
+    longitude: 4.351697
+
 - conference: PyCon Web
   year: 2025
   link: https://www.pyconweb.com/
