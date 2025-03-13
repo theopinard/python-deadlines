@@ -467,6 +467,19 @@
     latitude: 53.4794892
     longitude: -2.2451148
 
+- conference: PyCon Greece
+  year: 2025
+  link: https://2025.pycon.gr/en/
+  cfp: TBA
+  place: Athens, Greece
+  start: 2025-08-29
+  end: 2025-08-30
+  sub: PY
+  location:
+  - title: PyCon Greece 2025
+    latitude: 37.9755648
+    longitude: 23.7348324
+
 - conference: PyCon South Korea
   alt_name: PyCon KR
   year: 2025
