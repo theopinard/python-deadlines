@@ -503,7 +503,8 @@
 - conference: PyCon UK
   year: 2025
   link: https://2025.pyconuk.org/
-  cfp: TBA
+  cfp_link: https://pretalx.com/pyconuk-2025/cfp
+  cfp: "2025-05-11 23:59:00"
   timezone: Europe/London
   place: Manchester, UK
   start: 2025-09-19
