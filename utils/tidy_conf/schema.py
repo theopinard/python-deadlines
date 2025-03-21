@@ -70,6 +70,7 @@ class Conference(BaseModel):
     sponsor: HttpUrl | None = None
     finaid: HttpUrl | None = None
     twitter: str | None = None
+    bluesky: str | None = None
     mastodon: HttpUrl | None = None
     sub: str
     note: str | None = None
