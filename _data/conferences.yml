@@ -514,6 +514,19 @@
     latitude: 53.4794892
     longitude: -2.2451148
 
+- conference: PyCamp Czechia
+  year: 2025
+  link: https://pycamp.cz/
+  cfp: None
+  place: Třeštice, Czechia
+  start: 2025-09-12
+  end: 2025-09-14
+  sub: CAMP
+  location:
+  - title: PyCamp Czechia 2025
+    latitude: 49.2457818
+    longitude: 15.4508988
+
 - conference: PyCon Greece
   year: 2025
   link: https://2025.pycon.gr/en/
