@@ -167,6 +167,21 @@
     latitude: 51.5074456
     longitude: -0.1277653
 
+- conference: North Bay Python
+  year: 2025
+  link: https://2025.northbaypython.org/
+  cfp_link: https://pretalx.northbaypython.org/nbpy-2025/cfp
+  cfp: '2025-02-22 23:59:00'
+  place: Petaluma, USA
+  start: 2025-04-26
+  end: 2025-04-27
+  mastodon: https://social.northbaypython.org/@NorthBayPython
+  sub: PY
+  location:
+  - title: North Bay Python 2025
+    latitude: 38.2325829
+    longitude: -122.636465
+
 - conference: PyCon Lithuania
   alt_name: PyCon LT
   year: 2025
