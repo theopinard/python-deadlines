@@ -146,7 +146,7 @@ def check_links(data):
             if key in q:
                 new_link = check_link_availability(q[key], q["start"], cache=cache, cache_archived=cache_archived)
                 parsed_url = urlparse(new_link)
-                if q[key] != new_link and parsed_url.hostname and parsed_url.hostname.endswith("archive.org"):
+                if q[key] != new_link and parsed_url.hostname and parsed_url.hostname.endswith(".archive.org"):
                     time.sleep(0.5)
                 q[key] = new_link
                 data[i] = q
