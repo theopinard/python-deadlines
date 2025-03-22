@@ -26,6 +26,24 @@
     latitude: 37.7681571
     longitude: -122.392929
 
+- conference: Swiss Python Summit
+  year: 2025
+  link: https://python-summit.ch/
+  cfp_link: https://talks.python-summit.ch/sps25/cfp
+  cfp: '2025-05-31 23:59:00'
+  timezone: Europe/Zurich
+  place: Rapperswil, Switzerland
+  start: 2025-10-16
+  end: 2025-10-17
+  sponsor: https://www.python-summit.ch/sponsoring/
+  twitter: pythonsummit
+  sub: PY
+  note: 'Day 1: General Language Topics; Day 2: Data Science Topics'
+  location:
+  - title: Swiss Python Summit 2025
+    latitude: 47.223987
+    longitude: 8.8173
+
 - conference: PyOhio
   year: 2025
   link: https://pyohio.org/2025/
@@ -55,6 +73,22 @@
   - title: PyCon India 2025
     latitude: 12.9767936
     longitude: 77.590082
+
+- conference: PyCon UK
+  year: 2025
+  link: https://2025.pyconuk.org/
+  cfp_link: https://pretalx.com/pyconuk-2025/cfp
+  cfp: '2025-05-11 23:59:00'
+  timezone: Europe/London
+  place: Manchester, UK
+  start: 2025-09-19
+  end: 2025-09-22
+  mastodon: https://fosstodon.org/@PyConUK
+  sub: PY
+  location:
+  - title: PyCon UK 2025
+    latitude: 53.4794892
+    longitude: -2.2451148
 
 - conference: PyCamp España
   year: 2025
@@ -104,6 +138,21 @@
     latitude: 41.8755616
     longitude: -87.6244212
 
+- conference: PyCon Greece
+  year: 2025
+  link: https://2025.pycon.gr/en/
+  cfp_link: https://pretalx.com/pycongr25/cfp
+  cfp: '2025-04-20 23:59:00'
+  timezone: Europe/Athens
+  place: Athens, Greece
+  start: 2025-08-29
+  end: 2025-08-30
+  sub: PY
+  location:
+  - title: PyCon Greece 2025
+    latitude: 37.9755648
+    longitude: 23.7348324
+
 - conference: PyGrunn
   year: 2025
   link: https://pygrunn.org/
@@ -152,6 +201,22 @@
   - title: DjangoCon Africa 2025
     latitude: -6.09994425
     longitude: 39.32094431715264
+
+- conference: Python Nordeste
+  year: 2025
+  link: https://2025.pythonnordeste.org/
+  cfp_link: https://talks.python.org.br/python-nordeste-2025/cfp
+  cfp: '2025-03-23 10:00:00'
+  timezone: America/Fortaleza
+  place: Teresina, Brazil
+  start: 2025-06-20
+  end: 2025-06-22
+  sponsor: https://2025.pythonnordeste.org/static/docs/sponsors-plan-en.pdf
+  sub: PY
+  location:
+  - title: Python Nordeste 2025
+    latitude: -5.0874608
+    longitude: -42.8049571
 
 - conference: PyCon Austria
   alt_name: PyDays Vienna
@@ -468,24 +533,6 @@
     latitude: 59.3251172
     longitude: 18.0710935
 
-- conference: Swiss Python Summit
-  year: 2025
-  link: https://python-summit.ch/
-  cfp_link: https://talks.python-summit.ch/sps25/cfp
-  cfp: "2025-05-31 23:59:00"
-  timezone: Europe/Zurich
-  place: Rapperswil, Switzerland
-  start: 2025-10-16
-  end: 2025-10-17
-  sponsor: https://www.python-summit.ch/sponsoring/
-  twitter: pythonsummit
-  sub: PY
-  note: 'Day 1: General Language Topics; Day 2: Data Science Topics'
-  location:
-  - title: Swiss Python Summit 2025
-    latitude: 47.223987
-    longitude: 8.8173
-
 - conference: PyCon Japan
   alt_name: PyCon JP
   year: 2025
@@ -500,22 +547,6 @@
     latitude: 34.3917241
     longitude: 132.4517589
 
-- conference: PyCon UK
-  year: 2025
-  link: https://2025.pyconuk.org/
-  cfp_link: https://pretalx.com/pyconuk-2025/cfp
-  cfp: "2025-05-11 23:59:00"
-  timezone: Europe/London
-  place: Manchester, UK
-  start: 2025-09-19
-  end: 2025-09-22
-  mastodon: https://fosstodon.org/@PyConUK
-  sub: PY
-  location:
-  - title: PyCon UK 2025
-    latitude: 53.4794892
-    longitude: -2.2451148
-
 - conference: PyCamp Czechia
   year: 2025
   link: https://pycamp.cz/
@@ -528,21 +559,6 @@
   - title: PyCamp Czechia 2025
     latitude: 49.2457818
     longitude: 15.4508988
-
-- conference: PyCon Greece
-  year: 2025
-  link: https://2025.pycon.gr/en/
-  cfp_link: https://pretalx.com/pycongr25/cfp
-  cfp: "2025-04-20 23:59:00"
-  timezone: Europe/Athens
-  place: Athens, Greece
-  start: 2025-08-29
-  end: 2025-08-30
-  sub: PY
-  location:
-  - title: PyCon Greece 2025
-    latitude: 37.9755648
-    longitude: 23.7348324
 
 - conference: PyCon South Korea
   alt_name: PyCon KR
@@ -557,22 +573,6 @@
   - title: PyCon South Korea 2025
     latitude: 37.5666791
     longitude: 126.9782914
-
-- conference: Python Nordeste
-  year: 2025
-  link: https://2025.pythonnordeste.org/
-  cfp_link: https://talks.python.org.br/python-nordeste-2025/cfp
-  cfp: "2025-03-23 10:00:00"
-  timezone: America/Fortaleza
-  place: Teresina, Brazil
-  start: 2025-06-20
-  end: 2025-06-22
-  sponsor: https://2025.pythonnordeste.org/static/docs/sponsors-plan-en.pdf
-  sub: PY
-  location:
-  - title: Python Nordeste 2025
-    latitude: -5.0874608
-    longitude: -42.8049571
 
 - conference: PyCamp Argentina
   year: 2025
