@@ -596,6 +596,22 @@
     latitude: 37.5666791
     longitude: 126.9782914
 
+- conference: PyCaxias
+  year: 2025
+  link: https://pycaxias.com.br/
+  cfp_link: https://docs.google.com/forms/d/e/1FAIpQLSeywxIgGFa6okFjhAPQrcD202ll-My_UMHhDunJBzs0FxHe9Q/
+  cfp: TBA
+  place: Caxias do Sul, Brazil
+  start: 2025-05-17
+  end: 2025-05-18
+  sponsor: https://pycaxias.com.br/theme/pdf/sponsorship_package.pdf
+  sub: PY,WEB
+  note: The 18th is a DjangoGirls workshop.
+  location:
+  - title: PyCaxias 2025
+    latitude: -29.1685045
+    longitude: -51.1796385
+
 - conference: PyCamp Argentina
   year: 2025
   link: https://pyar.discourse.group/t/pycamp-2025/1373
