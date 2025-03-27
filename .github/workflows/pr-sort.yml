@@ -8,6 +8,7 @@ on:
     - closed
     branches:
     - main
+  workflow_dispatch:
 
 jobs:
   process-merged-pr:
@@ -63,4 +64,5 @@ jobs:
 
           Please review and merge these automated updates.
         branch: automated-updates-${{ github.event.pull_request.number }}
+        base: main
         delete-branch: true
