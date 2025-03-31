@@ -596,6 +596,21 @@
     latitude: 37.5666791
     longitude: 126.9782914
 
+- conference: AfroPython Conf
+  year: 2025
+  link: https://afropythonconf.org/
+  cfp: TBA
+  place: Salvador, Brazil
+  start: 2025-06-07
+  end: 2025-06-07
+  sponsor: https://docs.google.com/forms/d/e/1FAIpQLScT25fVpVkQ18lzrvclcvGWkwe2vO0Cm4YiV8gV5X9_Q5pEyQ/viewform
+  twitter: AfroPython
+  sub: PY
+  location:
+  - title: AfroPython Conf 2023
+    latitude: -5.7944777
+    longitude: -35.2119324
+
 - conference: PyCaxias
   year: 2025
   link: https://pycaxias.com.br/
