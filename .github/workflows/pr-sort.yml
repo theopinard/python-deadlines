@@ -109,7 +109,7 @@ jobs:
       if: steps.changes.outputs.has_changes == 'true'
       uses: peter-evans/create-pull-request@v7
       with:
-        title: 'Automated updates ${{ steps.vars.outputs.pr_number != '' && format(''from PR #{0}'', steps.vars.outputs.pr_number) || '''' }}'
+        title: ${{ steps.vars.outputs.pr_number != '' && format('Automated updates from PR #{0}', steps.vars.outputs.pr_number) || 'Automated updates' }}
         body: |
           This PR was ${{ github.event_name == 'pull_request' && 'automatically created after merging' || 'manually triggered' }} ${{ steps.vars.outputs.pr_number != '' && format('#{0}', steps.vars.outputs.pr_number) || '' }}
 
