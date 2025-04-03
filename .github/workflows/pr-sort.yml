@@ -112,12 +112,12 @@ jobs:
         if [[ "$PR_EXISTS" == "0" ]]; then
           # Create a new PR
           gh pr create \
-            --title "Automated updates" \
+            --title "chore: sort & add contributor" \
             --body "Automated workflow update
 
             Changes include:
             - Sorted conferences
-            - Added contributor (if specified)
+            - Added contributor
 
             Please review and merge these automated updates." \
             --base main \
