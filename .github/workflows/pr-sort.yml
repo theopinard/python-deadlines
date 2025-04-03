@@ -115,7 +115,7 @@ jobs:
 
           Changes include:
           - Sorted conferences
-          ${{ steps.vars.outputs.contributor != '' && '- Added @'+ steps.vars.outputs.contributor+' as contributor') || '' }}
+          ${{ steps.vars.outputs.contributor != '' && format('- Added @{0} as contributor', steps.vars.outputs.contributor) || '' }}
 
           Please review and merge these automated updates.
         branch: ${{ steps.vars.outputs.branch_name }}
