@@ -9,30 +9,77 @@ on:
     branches:
     - main
   workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to reference (leave empty for sort-only)'
+        required: false
+        type: string
+      contributor:
+        description: 'GitHub username to add as contributor (leave empty to skip)'
+        required: false
+        type: string
 
 jobs:
-  process-merged-pr:
-    if: github.event.pull_request.merged == true
+  process-changes:
     runs-on: ubuntu-latest
+    # Only check for merged PR when triggered by a pull_request event
+    if: github.event_name != 'pull_request' || github.event.pull_request.merged == true
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Pixi
       uses: prefix-dev/setup-pixi@v0.8.3
+
+    - name: Set variables
+      id: vars
+      run: |
+        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+          # For PR-triggered workflow
+          echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          echo "contributor=${{ github.event.pull_request.user.login }}" >> $GITHUB_OUTPUT
+          echo "branch_name=automated-updates-${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+        else
+          # For manually triggered workflow
+          PR_REF="${{ github.event.inputs.pr_number }}"
+          CONTRIBUTOR="${{ github.event.inputs.contributor }}"
+          
+          if [[ -n "$PR_REF" ]]; then
+            echo "pr_number=$PR_REF" >> $GITHUB_OUTPUT
+            echo "branch_name=automated-updates-$PR_REF" >> $GITHUB_OUTPUT
+          else
+            # Generate a timestamp if no PR number provided
+            TIMESTAMP=$(date +%Y%m%d%H%M%S)
+            echo "pr_number=manual-$TIMESTAMP" >> $GITHUB_OUTPUT
+            echo "branch_name=automated-updates-$TIMESTAMP" >> $GITHUB_OUTPUT
+          fi
+          
+          if [[ -n "$CONTRIBUTOR" ]]; then
+            echo "contributor=$CONTRIBUTOR" >> $GITHUB_OUTPUT
+          else
+            echo "contributor=" >> $GITHUB_OUTPUT
+          fi
+        fi
 
     - name: Create changes
       id: changes
       run: |
         # Create a new branch
-        git checkout -b automated-updates-${{ github.event.pull_request.number }}
+        git checkout -b ${{ steps.vars.outputs.branch_name }}
 
-        # Run your commands
+        # Run sort command
         pixi run sort
-
-        PR_AUTHOR="${{ github.event.pull_request.user.login }}"
-        pixi run install
-        pixi run add $PR_AUTHOR conference
+        
+        # Add contributor if specified
+        if [[ -n "${{ steps.vars.outputs.contributor }}" ]]; then
+          pixi run install
+          pixi run add ${{ steps.vars.outputs.contributor }} conference
+          CONTRIBUTOR_MSG="* Add ${{ steps.vars.outputs.contributor }} as contributor"
+        else
+          CONTRIBUTOR_MSG=""
+        fi
 
         # Check if there are changes
         if ! git diff --quiet; then
@@ -42,10 +89,18 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add _data/* .all-contributorsrc README.md CONTRIBUTING.md
-          git commit -m "chore: post-merge updates
-
-          * Sort conferences
-          * Add $PR_AUTHOR as contributor"
+          
+          # Create commit message
+          COMMIT_MSG="chore: updates"
+          COMMIT_MSG="$COMMIT_MSG\n\n* Sort conferences"
+          if [[ -n "$CONTRIBUTOR_MSG" ]]; then
+            COMMIT_MSG="$COMMIT_MSG\n$CONTRIBUTOR_MSG"
+          fi
+          
+          git commit -m "$COMMIT_MSG"
+          
+          # Push the branch to the remote repository
+          git push -u origin ${{ steps.vars.outputs.branch_name }}
         else
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
@@ -54,15 +109,15 @@ jobs:
       if: steps.changes.outputs.has_changes == 'true'
       uses: peter-evans/create-pull-request@v7
       with:
-        title: 'Automated updates from PR #${{ github.event.pull_request.number }}'
+        title: 'Automated updates ${{ steps.vars.outputs.pr_number != '' && format(''from PR #{0}'', steps.vars.outputs.pr_number) || '''' }}'
         body: |
-          This PR was automatically created after merging #${{ github.event.pull_request.number }}
+          This PR was ${{ github.event_name == 'pull_request' && 'automatically created after merging' || 'manually triggered' }} ${{ steps.vars.outputs.pr_number != '' && format('#{0}', steps.vars.outputs.pr_number) || '' }}
 
           Changes include:
           - Sorted conferences
-          - Added @${{ github.event.pull_request.user.login }} as contributor
+          ${{ steps.vars.outputs.contributor != '' && format('- Added @{0} as contributor', steps.vars.outputs.contributor) || '' }}
 
           Please review and merge these automated updates.
-        branch: automated-updates-${{ github.event.pull_request.number }}
+        branch: ${{ steps.vars.outputs.branch_name }}
         base: main
         delete-branch: true
