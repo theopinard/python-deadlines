@@ -95,6 +95,7 @@
   link: https://pydata.org/berlin2025/
   cfp_link: https://cfp.pydata.org/berlin2025/cfp
   cfp: '2025-05-04 23:59:59'
+  timezone: Europe/Berlin
   place: Berlin, Germany
   start: 2025-09-01
   end: 2025-09-03
@@ -104,7 +105,6 @@
   - title: PyData Berlin 2025
     latitude: 52.520778408127605
     longitude: 13.416401868537298
-
 
 - conference: PyCamp España
   year: 2025
